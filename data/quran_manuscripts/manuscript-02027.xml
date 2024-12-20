@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2027">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sanaa, Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts), DAM 01-07.4</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="22">Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts)
+                            , Sanaa</repository>
+            <idno>DAM 01-07.4</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_701458" n="1r">
+              <title type="numeric" key="024:041:017-024:050:016">
+                                    024:041:017-024:050:016
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_701459" n="1v">
+              <title type="numeric" key="024:051:006-024:058:001">
+                                    024:051:006-024:058:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_701460" n="2r">
+              <title type="numeric" key="026:007:003-026:028:005">
+                                    026:007:003-026:028:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_701461" n="2v">
+              <title type="numeric" key="026:028:006-026:049:014">
+                                    026:028:006-026:049:014
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                                    Pergament; ein recht vollständiges Doppelblatt, bei der ersten Blatthälfte der Kopfsteg leicht eingerissen, bei der zweiten Blatthälfte alle Seiten fransig, Blätter durch Tintenfraßlöcher und Wasserschaden stark beschädigt, auf der recto-Seite von Blatt 1 Spuren der Haarfollikel sichtbar
+                                </support>
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>56</width><height>92</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                                regelmäßige kompakte Hand mit teils sehr starkem mašq, Diakritika und Vokale nicht erkennbar
+                            </summary>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Manssur Karamzadeh</p>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Tobias J. Jocham</p>
+                <p>image: Tobias J. Jocham</p>
+                <p>assistance: Emaan Safah</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_57162">
+      <graphic decls="#imageRights-1"/>
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_57163">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_57164">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_57165">
+      <graphic decls="#imageRights-1"/>
+      <graphic decls="#imageRights-1"/>
+    </surface>
+  </facsimile>
+</TEI>

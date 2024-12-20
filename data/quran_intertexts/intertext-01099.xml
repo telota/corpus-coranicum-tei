@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus Rabba, Parascha 1:32</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1099" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1099</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 28:26-28 berichtet von Moses Vereinbarung mit seinem zukünftigen Schwiegervater, ihm im Gegenzug für die Heirat mit dessen Tochter einige Jahre zu dienen. Diese Vereinbarung findet sich so nicht in der Hebräischen Bibel. Dort heiratet Mose Jithros Tochter (vgl. TUK_0100), es findet sich aber kein Hinweis auf eine Dienstzeit Moses bei seinem Schwiegervater. Die Dienstzeit im Austausch für die Tochter erinnert vielmehr an die Übereinkunft von Jakob und Laban in Genesis (vgl. TUK_0158). Heinrich Speyer weist darauf hin, dass, wie der hier zitierte Text zeigt, auch im Midrasch eine Verbindung zwischen den Erzählungen über Mose und Jakob hergestellt wurde. Als gemeinsames Element beider Erzählungen wird dabei hervorgehoben, dass beide ihre Frauen am Brunnen gefunden haben. Einige Zeilen später wird eine weitere Parallele zwischen Mose und Jakob gezogen:"und tränkte ihre Schafe. Daraus geht hervor, dass Mose schöpfte und ihre Schafe tränkte, wie Jacob mit der Rachel gethan hat" (Speyer 1931: p. 250). 
+
+	Die Datierung von Exodus Rabba ist umstritten. Obwohl Shinan zufolge die Endredaktion von Exodus Rabba erst im 10. Jh. stattgefunden hat, ist doch eine Verwendung früherer Traditionen wahrscheinlich. Aufgrund der relativ späten Endredaktion kann aber auch nicht völlig ausgeschlossen werden, dass bereits islamische Elemente Eingang in Exodus Rabba gefunden haben. Allgemein zur Problematik der Datierung von Exodus Rabba siehe Günter Stemberger, Einführung in Talmud und Midrasch, 9. Auflage, München 2011, S. 342-343.
+</summary>
+            <msItem>
+              <title>Exodus Rabba, Parascha 1:32</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 10. Jh.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Avigdor Shinan, Midrash Shemot Rabbah, Chapters I-XIV. A Critical Edition Based on a Jerusalem Manuscript, with Variants, Commentary and Introduction, Tel Aviv 1984. </bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	וישב בארץ מדין וישב על הבאר (/שמות/ ב'). קלט דרך אבות. ג' נזדווגו להם זיווגיהון מן הבאר: יצחק ויעקב ומשה. ביצחק כתיב: ויצחק בא מבוא באר לחי ראי (בראשית כד), ועוד שנזדמנה רבקה לאליעזר למעין. יעקב: [וירא] והנה באר בשדה (שם /בראשית/ כט). משה: וישב על הבאר. ולכהן מדין שבע בנות.[...]וישק את צאנם (/שמות/ ב'). מלמד שדלה משה להן והשקה צאנם כשם שעשה יעקב לרחל.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>und er liess sich nieder in der Landschaft Midian und setzte sich an den Brunnen. Er nahm hierin die Art und Weise der Väter an. Drei Ehepaare vereinigten sich am Brunnen, Jizchak, Jakob und Mose, betreffs Jizchaks s. Gen 24:62: "Und Jizchak kam vom Brunnen des Lebens"; ferner vereinigten sich Rebecca und Elieser an der Quelle, betreffs Jakobs s. Gen 29:2: "Und er sah und siehe, da war ein Brunnen auf dem Felde"; Mose s. hier: "Und er setzte sich an den Brunnen." Der Priester von Midian aber hatte sieben Töchter.[...]und tränkte ihre Schafe. Daraus geht hervor, dass Mose schöpfte und ihre Schafe tränkte, wie Jacob mit der Rachel gethan hat.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	And he dwelt in the land of Midian; and he sat down by a well (Ex 2:15). He adopted the praxis of his ancestors. Three met their marriage partners at the well - Isaac, Jacob and Moses. Isaac - as it is written: And Isaac came from the way of Beer-lahai-roi (Gen 24:62). Also Rebekah met Eleazar at the well. Jacob - and he looked, and behold a well in the field (Gen 29:2). Moses - and he sat down by a well. Now the priest of Midian had seven daughters.[...]And he watered their flock (Ex 2:17) - to show that Moses drew water for them and for their flock as Jacob had done for Rachel.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

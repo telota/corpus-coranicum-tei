@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 2:1-12</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_549" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>549</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Beide Texte besagen, dass Gott diejenigen, die sich über die Gläubigen lustig machen (Q 2:15), bzw. diejenigen, die sich gegen ihn auflehnen (Psalm 2), verspottet. Bemerkenswert ist hier zum einen, dass Gott beide Male als spottend beschrieben wird. Während es in der Bibel aber um eine Machtdemonstration Gottes gegen die feindlich vorgehenden Nachbarn Israels geht, ist in der Koranstelle der Abfall vom rechten Glauben thematisiert, den Gott sicher ahndet. In beiden Fällen vergehen sich Menschen an Gott. Letzterer reagiert mit Zorn, es wird die Uneinsichtigkeit der Menschen beklagt und betont, dass letztlich alles "sich gegen Gott stellen" sinnlos ist, Feind oder Falschgläubige 'den Kürzeren ziehen'. In diesem Sinne kann man die Koranpassage, welche ebenso das Motiv des spottenden Gottes enthält als 'theologisierte' Version der Bibelstelle sehen. Es geht nicht mehr primär um historisch oder physisch angreifende Feinde, die der eigene Gott besiegt, sondern um die Darstellung des letztlich fruchtlosen Abfalls vom Ein(zig)gottglauben. In beiden Fällen wird die Souveränität und letztlich Unausweichlichkeit und Allmacht des göttlichen Handelns betont.
+</summary>
+            <msItem>
+              <title>Psalm 2:1-12</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	לָמָּה רָגְשׁוּ גוֹיִם וּלְאֻמִּים יֶהְגּוּ־רִיק׃ יִתְיַצְּבוּ מַלְכֵי־אֶרֶץ וְרוֹזְנִים נֽוֹסְדוּ־יָחַד עַל־יְהוָה וְעַל־מְשִׁיחֽוֹ׃ נְנַתְּקָה אֶת־מֽוֹסְרוֹתֵימוֹ וְנַשְׁלִיכָה מִמֶּנּוּ עֲבֹתֵימוֹ׃ יוֹשֵׁב בַּשָּׁמַיִם יִשְׂחָק  אֲדֹנָי יִלְעַג־לָמוֹ׃  אָז יְדַבֵּר אֵלֵימוֹ בְאַפּוֹ וּֽבַחֲרוֹנוֹ יְבַהֲלֵמוֹ׃ וַאֲנִי נָסַכְתִּי מַלְכִּי עַל־צִיּוֹן הַר־קָדְשִׁי׃ אֲסַפְּרָה אֶל חֹק יְהוָה אָמַר אֵלַי בְּנִי אַתָּה אֲנִי הַיּוֹם יְלִדְתִּיךָ׃ שְׁאַל מִמֶּנִּי וְאֶתְּנָה גוֹיִם נַחֲלָתֶךָ וַאֲחֻזָּתְךָ אַפְסֵי־אָֽרֶץ׃ תְּרֹעֵם בְּשֵׁבֶט בַּרְזֶל כִּכְלִי יוֹצֵר תְּנַפְּצֵם׃ וְעַתָּה מְלָכִים הַשְׂכִּילוּ הִוָּסְרוּ שֹׁפְטֵי אָֽרֶץ׃ עִבְדוּ אֶת־יְהוָה בְּיִרְאָה וְגִילוּ בִּרְעָדָה׃ נַשְּׁקוּ־בַר פֶּן־יֶאֱנַף וְתֹאבְדוּ דֶרֶךְ כִּי־יִבְעַר כִּמְעַט אַפּוֹ אַשְׁרֵי כָּל־חוֹסֵי בֽוֹ׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Warum toben die Völker, / warum machen die Nationen vergebliche Pläne? 2 Die Könige der Erde stehen auf, / die Großen haben sich verbündet gegen den Herrn und seinen Gesalbten. 3 "Lasst uns ihre Fesseln zerreißen / und von uns werfen ihre Stricke!" 4 Doch er, der im Himmel thront, lacht, / der Herr verspottet sie. 5 Dann aber spricht er zu ihnen im Zorn, / in seinem Grimm wird er sie erschrecken: 6 "Ich selber habe meinen König eingesetzt / auf Zion, meinem heiligen Berg." 7 Den Beschluss des Herrn will ich kundtun. / Er sprach zu mir: "Mein Sohn bist du. / Heute habe ich dich gezeugt. 8 Fordre von mir und ich gebe dir die Völker zum Erbe, / die Enden der Erde zum Eigentum. 9 Du wirst sie zerschlagen mit eiserner Keule, / wie Krüge aus Ton wirst du sie zertrümmern." 10 Nun denn, ihr Könige, kommt zur Einsicht, / lasst euch warnen, ihr Gebieter der Erde! 11 Dient dem Herrn in Furcht / und küsst ihm mit Beben die Füße, 12 damit er nicht zürnt / und euer Weg nicht in den Abgrund führt. Denn wenig nur und sein Zorn ist entbrannt. / Wohl allen, die ihm vertrauen!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

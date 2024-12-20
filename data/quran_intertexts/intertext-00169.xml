@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2. Brief an die Korinther 11:1-10</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_169" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>169</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Paulus versichert der korinthischen Gemeinde, dass seine Verkündigungstätigkeit nicht durch die Hoffnung auf Entlohnung motiviert sei. Auch im Koran ergeht in zahlreichen Versen die Aufforderung an Muhammad, darauf hinzuweisen, dass er für die Verkündigung der koranischen Offenbarungen keinen Lohn verlangt. Vgl. TUK_0170.
+</summary>
+            <msItem>
+              <title>2. Brief an die Korinther 11:1-10</title>
+              <author>Paulus</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 55 n. Chr.</origDate>
+              <origPlace>Makedonien?</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Ὄφελον ἀνείχεσθέ μου μικρόν τι ἀφροσύνης• ἀλλὰ καὶ ἀνέχεσθέ μου. 2 ζηλῶ γὰρ ὑμᾶς θεοῦ ζήλῳ, ἡρμοσάμην γὰρ ὑμᾶς ἑνὶ ἀνδρὶ παρθένον ἁγνὴν παραστῆσαι τῷ Χριστῷ• 3 φοβοῦμαι δὲ μή πως, ὡς ὁ ὄφις ἐξηπάτησεν Εὕαν ἐν τῇ πανουργίᾳ αὐτοῦ, φθαρῇ τὰ νοήματα ὑμῶν ἀπὸ τῆς ἁπλότητος [καὶ τῆς ἁγνότητος] τῆς εἰς τὸν Χριστόν. 4 εἰ μὲν γὰρ ὁ ἐρχόμενος ἄλλον Ἰησοῦν κηρύσσει ὃν οὐκ ἐκηρύξαμεν, ἢ πνεῦμα ἕτερον λαμβάνετε ὃ οὐκ ἐλάβετε, ἢ εὐαγγέλιον ἕτερον ὃ οὐκ ἐδέξασθε, καλῶς ἀνέχεσθε. 5 Λογίζομαι γὰρ μηδὲν ὑστερηκέναι τῶν ὑπερλίαν ἀποστόλων. 6 εἰ δὲ καὶ ἰδιώτης τῷ λόγῳ, ἀλλ᾽οὐ τῇ γνώσει, ἀλλ᾽ἐν παντὶ φανερώσαντες ἐν πᾶσιν εἰς ὑμᾶς. 7 Ἢ ἁμαρτίαν ἐποίησα ἐμαυτὸν ταπεινῶν ἵνα ὑμεῖς ὑψωθῆτε, ὅτι δωρεὰν τὸ τοῦ θεοῦ εὐαγγέλιον εὐηγγελισάμην ὑμῖν; 8 ἄλλας ἐκκλησίας ἐσύλησα λαβὼν ὀψώνιον πρὸς τὴν ὑμῶν διακονίαν, 9 καὶ παρὼν πρὸς ὑμᾶς καὶ ὑστερηθεὶς οὐ κατενάρκησα οὐθενός• τὸ γὰρ ὑστέρημά μου προσανεπλήρωσαν οἱ ἀδελφοὶ ἐλθόντες ἀπὸ Μακεδονίας, καὶ ἐν παντὶ ἀβαρῆ ἐμαυτὸν ὑμῖν ἐτήρησα καὶ τηρήσω. 10 ἔστιν ἀλήθεια Χριστοῦ ἐν ἐμοὶ ὅτι ἡ καύχησις αὕτη οὐ φραγήσεται εἰς ἐμὲ ἐν τοῖς κλίμασιν τῆς Ἀχαΐας.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Lasst euch doch ein wenig Unverstand von mir gefallen! Aber das tut ihr ja. 2 Denn ich liebe euch mit der Eifersucht Gottes; ich habe euch einem einzigen Mann verlobt, um euch als reine Jungfrau zu Christus zu führen. 3 Ich fürchte aber, wie die Schlange einst durch ihre Falschheit Eva täuschte, könntet auch ihr in euren Gedanken von der aufrichtigen und reinen Hingabe an Christus abkommen. 4 Ihr nehmt es ja offenbar hin, wenn irgendeiner daherkommt und einen anderen Jesus verkündigt, als wir verkündigt haben, wenn ihr einen anderen Geist empfangt, als ihr empfangen habt, oder ein anderes Evangelium, als ihr angenommen habt. 5 Ich denke doch, ich stehe den Überaposteln keineswegs nach. 6 Im Reden mag ich ein Stümper sein, aber nicht in der Erkenntnis; wir haben sie euch in keiner Weise und in keinem Fall vorenthalten. 7 Oder habe ich einen Fehler gemacht, als ich, um euch zu erhöhen, mich selbst erniedrigte und euch das Evangelium Gottes verkündete, ohne etwas dafür zu nehmen? 8 Andere Gemeinden habe ich ausgeplündert und Geld von ihnen genommen, um euch dienen zu können. 9 Aber als ich zu euch kam und in Schwierigkeiten geriet, bin ich niemand zur Last gefallen; was ich zu wenig hatte, ergänzten die Brüder, die aus Mazedonien kamen. Ich habe also darauf Wert gelegt, euch in keiner Weise zur Last zu fallen, und werde auch weiterhin darauf Wert legen. 10 So gewiss die Wahrheit Christi in mir ist: diesen Ruhm wird mir im Gebiet von Achaia niemand nehmen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

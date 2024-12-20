@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Apokalypse Abrahams 7:1-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_457" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>457</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Neben Flavius Josephus (vgl. TUK_0659) schildern verschiedene Apokryphen, darunter das Buch der Jubiläen (vgl. TUK_0674), wie Abraham durch die Betrachtung der Natur zur Erkenntnis Gottes gelangt. Ein ähnlicher Erkenntnisprozess Abrahams wird auch im Koran beschrieben: Abraham erwählt sich der Reihe nach Stern, Mond und Sonne zum "Herrn", beobachtet dann aber, wie sie alle untergehen, und bekennt daraufhin Gott als den Schöpfer der Welt. Der koranischen Version am nächsten steht dabei die Apokalypse Abrahams, in der Abraham feststellen muss, dass jedes Naturphänomen durch ein noch stärkeres zerstört werden kann, und daraufhin beschließt, den Gott zu suchen, der alles geschaffen hat.
+
+	Die Apokalypse Abrahams besteht aus zwei Teilen: der erste Teil berichtet von der Bekehrung Abrahams zu Gott, der zweite Teil, der die eigentliche Apokalypse ausmacht, von Abrahams Himmelsreise und Vision. Der Text ist nur auf Altkirchenslawisch überliefert, in das er aus dem Griechischen übersetzt wurde, dürfte allerdings auf einem hebräischen Original aus dem 1. Jh. beruhen (siehe Philonenko-Sayar und Philonenko 1982: p. 415-419).
+</summary>
+            <msItem>
+              <title>Die Apokalypse Abrahams 7:1-8</title>
+              <author/>
+              <textLang mainLang="chu">Altkirchenslawisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">nach 70 n. Chr.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Rubinkiewicz, R.: L'Apocalypse d'Abraham en slave: Édition critique du texte, introduction, traduction et commentaire. Diss, Rom 1977.
+</bibl>
+              <bibl type="literatur">Philonenko-Sayar, Belkis &amp;amp; Philonenko, Marc (Hrsg.): &amp;#x201E;Die Apokalypse Abrahams&amp;#x201C;. In: G&amp;#xFC;tersloh 1982, S. 415&amp;#x2013;460. J&amp;#xFC;dische Schriften aus hellenistisch-r&amp;#xF6;mischer Zeit.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="chu">
+        <p>in Bearbeitung</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	7:1 Ich sage dieses: "Das Feuer ist verehrungswürdiger als die Götzen, denn sogar das, was nicht unterworfen ist, unterwirft sich ihm, und es verspottet das, was leicht umkommt, durch seine Flammen. 2 (Aber auch dieses werde ich nicht Gott nennen, denn es ist den Wassern unterworfen.) Die Gewässer aber sind verehrungswürdiger, denn sie besiegen das Feuer und erquicken die Erde. Aber auch sie will ich nicht Gott nennen, denn indem sie sich unter die Erde neigen, unterwerfen (sie sich ihr). 3 Eher würde ich die Erde verehrungswürdiger nennen, denn sie besiegt die Natur des Wassers und seine Menge. (Aber) auch sie werde ich nicht Gott nennen, (denn) auch sie wird durch die Sonne aufgetrocknet, (und) sie ist zur Arbeit des Menschen bestimmt. 4 (Verehrungswürdiger als die Erde würde ich die Sonne nennen), denn sie beleuchtet die ganze Erde und die verschiedenen Lufträume mit ihren Strahlen. (Aber) auch sie werde ich nicht zum Gott machen, denn bei Nacht wird ihre Bahn durch Wolken verdunkelt. 5 Aber auch Mond und Sterne werde ich wiederum nicht Gott nennen, denn auch sie zu ihrer Zeit verdunkeln bei Nacht ihr Licht. 6 Höre, Thare, mein Vater, ich will vor dir den Gott suchen, der alles geschaffen hat, nicht die von uns erdachten Götter. 7 Wer ist es oder wie beschaffen ist (der, der) den Himmel purpurrot gefärbt, der die Sonne vergoldet hat, der das Licht dem Mond und gleichzeitig mit ihm den Sternen gegeben hat, der die Erde inmitten vieler Wasser getrocknet hat, der dich selbst inmitten der Menschen gestellt hat. 8 Möge Gott sich selbst uns offenbaren!"
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

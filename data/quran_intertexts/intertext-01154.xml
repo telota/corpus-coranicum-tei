@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 130:1-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1154" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1154</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ps 130:3 bringt in einer rhetorischen Frage die grundlegende Sündhaftigkeit des Menschen vor Gott zum Ausdruck. Wie eine Vielzahl von Gebeten bezeugt, war die Vorstellung, dass kein Mensch vor den Göttern schuldlos ist, allgemein im Alten Orient weit verbreitet (Hossfeld und Zenger 2008: p. 580-583), und scheint schließlich auch in Q 35:45 und Q 16:61 reflektiert zu sein. Dabei erinnert nicht nur der Gedanke, sondern auch die Formulierung an den Psalm. So könnte laut Ps 130:3 niemand bestehen (mi yaʿamod, "wer könnte bestehen?"), wenn Gott die Sünden aufbewahren (tišmor) würde. Q 35:45 und Q 16:61 zufolge würde Gott kein Tier auf der Erde übriglassen (mā taraka ʿala (ẓahri)hā min dābbatin), wenn er die Menschen gemäß ihrer Sünden belangen würde. Die koranische Ausdrucksweise klingt zwar an den Psalm an, der Gedanke wird aber anders weiterentwickelt. In Ps 130 vertraut der Betende auf Gottes Vergebung. In den genannten Koranversen dagegen wird die Strafe bis zum Jüngsten Gericht aufgeschoben (wa-lākin yuʾaḫḫiruhum ʾilā ʾaǧalin musamman). Dieser Unterschied zum Psalm erklärt sich in Q 35:45 als logische Konsequenz der vorhergehenden Verse, die diejenigen anklagen, die es immer wieder versäumt haben, auf die von Gott gesandten Warner zu hören. Ps 130 ist auch Teil des jüdischen Gottesdienstes am Versöhnungstag (Elbogen 1995: p. 152), sowie an Fasttagen bei Trockenheit (Trepp 2004: p. 202).</summary>
+            <msItem>
+              <title>Psalm 130:1-8</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Elbogen, Ismar: Der j&amp;#xFC;dische Gottesdienst in seiner geschichtlichen Entwicklung. Georg Olms Verlag, Hildesheim; New York 1995.</bibl>
+              <bibl type="literatur">Hossfeld, Frank-Lothar &amp;amp; Zenger, Erich: Psalmen 101 - 150: Herder, Freiburg im Breisgau [u.a] 2008.</bibl>
+              <bibl type="literatur">Trepp, Leo: Der J&amp;#xFC;dische Gottesdienst. Gestalt und Entwicklung. Kohlhammer, Stuttgart 2004.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>1 שִׁ֥יר הַֽמַּעֲל֑וֹת מִמַּעֲמַקִּ֖ים קְרָאתִ֣יךָ יְהוָֽה׃ 2 אֲדֹנָי֘ שִׁמְעָ֪ה בְק֫וֹלִ֥י תִּהְיֶ֣ינָה אָ֭זְנֶיךָ קַשֻּׁב֑וֹת לְ֜ק֗וֹל תַּחֲנוּנָֽי׃ 3 אִם־עֲוֹנ֥וֹת תִּשְׁמָר־יָ֑הּ אֲ֜דֹנָ֗י מִ֣י יַעֲמֹֽד׃ 4 כִּֽי־עִמְּךָ֥ הַסְּלִיחָ֑ה לְ֜מַ֗עַן תִּוָּרֵֽא׃ 5 קִוִּ֣יתִי יְ֭הוָה קִוְּתָ֣ה נַפְשִׁ֑י וְֽלִדְבָר֥וֹ הוֹחָֽלְתִּי׃ 6 נַפְשִׁ֥י לַֽאדֹנָ֑י מִשֹּׁמְרִ֥ים לַ֜בֹּ֗קֶר שֹׁמְרִ֥ים לַבֹּֽקֶר׃ 7 יַחֵ֥ל יִשְׂרָאֵ֗ל אֶל־יְה֫וָה כִּֽי־עִם־יְהוָ֥ה הַחֶ֑סֶד וְהַרְבֵּ֖ה עִמּ֣וֹ פְדֽוּת׃ 8 וְ֭הוּא יִפְדֶּ֣ה אֶת־יִשְׂרָאֵ֑ל מִ֜כֹּ֗ל עֲוֹנֹתָֽיו׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 [Ein Wallfahrtslied.] Aus der Tiefe rufe ich, Herr, zu dir:  2 Herr, höre meine Stimme! Wende dein Ohr mir zu, achte auf mein lautes Flehen!  3 Würdest du, Herr, unsere Sünden beachten, Herr, wer könnte bestehen?  4 Doch bei dir ist Vergebung, damit man in Ehrfurcht dir dient.  5 Ich hoffe auf den Herrn, es hofft meine Seele, ich warte voll Vertrauen auf sein Wort.  6 Meine Seele wartet auf den Herrn mehr als die Wächter auf den Morgen. Mehr als die Wächter auf den Morgen  7 soll Israel harren auf den Herrn. Denn beim Herrn ist die Huld, bei ihm ist Erlösung in Fülle.  8 Ja, er wird Israel erlösen von all seinen Sünden.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

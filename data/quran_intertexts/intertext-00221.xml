@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an Abū Yaʿfūr von Hīrtā</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_221" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>221</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Philoxenos' Referat der christologischen Ansichten seines Gegners Theodor von Mopsuestia (c. 350-428) enthält wie die Koranstelle einen Vergleich zwischen der Erschaffung Adams und Jesu "aus Erde" (syr. men ʾarʿā, arab. min turābin) durch einen göttlichen Willensakt. Bemerkenswert ist dabei, dass Theodor nach Angaben des Philoxenos den Bezug zwischen Adam und Jesus nicht, wie andere christliche Schriften, mit typologischen Mitteln entwickelt (Jesus als neuer Adam, der den Sündenfall Adams rückgängig macht), sondern dass jeweils die Modalität ihrer Erschaffung - aus Erde und durch unmittelbares göttliches Fiat - im Vordergrund steht. Die Präsenz von christologischen Themen in einem Brief an einem lakhmidischen Phylarchen von al-Ḥīra ist um so bedeutender, als sie das Interesse der arabischsprachigen Eliten der Spätantike für die theologischen Dispute der Zeit bezeugt.
+
+	Die hier vorgeschlagene Datierung des Briefes richtet sich nach Vaschalde 1902: p. 30.
+</summary>
+            <msItem>
+              <title>Brief an Abū Yaʿfūr von Hīrtā</title>
+              <author>Philoxenos von Mabbūg (450-523)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">498-503</origDate>
+              <origPlace>Mabbūg</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Harb (Hg.), "Lettre de Philoxène de Mabbūg au Phylarque Abū Yaʿfūr de Hīrtā de Bētnaʿmān", in: Melto: Recherches orientales 3.2 (1967), S. 191-201.</bibl>
+              <bibl type="literatur">Vaschalde, Arthur A.: Three Letters of Philoxenus Bishop of Mabb&amp;#xF4;gh (485&amp;#x2013;519), Being the Letter to the Monks, the First Letter to the Monks of Beth-Gaugal, and the Letter to Emperor Zeno. Rom 1902.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܘܬܘܒ ܓܒܪܐ ܚܕ ܐܝܬ ܗܘܐ ܡ̣ܢ ܓܪܡܢܝܩܝ ܡܕܝܢܬܐ ܕܗ̣ܝ ܗܝ̣ ܡܪܥܫ ܘܫܡܗ ܗܘܐ ܐܕܝ. ܘܐܝܬܘܗܝ ܗܘܐ ܡ̣ܢ ܐܬܟ ܩܪܝܬܐ ܕܩܪܝܒܐ ܠܕܪܐ ܡܕܝܢܬܐ. ܘܫܡܗ̇ ܕܐܝܬܬܗ ܡܠܟܐ ܘܢܨܐ ܗܢܐ ܐܕܝ ܥܡ ܐܢܬܬܐ ܚܕܐ ܘܐܝܬܝܗ ܗܘܬ݀ ܒܛܢܬܐ ܡ̣ܢ ܗܝ ܩܪܝܬܐ ܐܬܟ. ܘܐܪܝܡ ܐܝܕܐ ܥܠ ܐܢܬܬܐ ܗܝ ܘܡܚܗ̇ ܘܒܪܩܥܬܗ ܚܝܛܬ݀ ܒܪܐ ܘܡܝܬܘܗܝ ܩܪܝܒܐ ܗܘܬ ܠܡܡܬ. ܘܩܡ ܡܚܕܐ ܗܢܐ ܐܕܝ ܘܐܫܩܠ ܘܢܦ̣ܩ ܡ̣ܢ ܩܪܝܬܗ ܘܢܣܒ ܠܐܢܬܬܗ. ܘܥܪܩ. ܘܐܙܠܘ ܘܥܠܘ ܠܐܬܪܐ ܕܒܝܬ ܨܘܦܢ̈ܝܐ ܕܗ̣ܘ ܐܝܬܘܗܘ ܐܬܪܐ ܕܗܬܟܐ. ܘܟܬܪܘ ܒܗ̇ܘ ܐܬܪܐ ܙܒܢܐ ܩܠܝܠ ܘܢܦܩܘ ܡܢ ܬܡܢ ܘܐܙܠܘ ܥܡܪܘ ܒܫܡܫܛ ܡܕܝܢܬܐ ܘܝܬܒܘ ܗܘܘ ܒܗ̇. ܘܐܬܝܠܕܘ ܠܗܘܢ ܒܗ̇ ܒܡܕܝܢܬܐ ܬܪܝܢ ܒܢ̈ܝܢ. ܘܫܡܝܘܗܝ ܠܩܕܡܝܐ ܒܥܠܫܡܝܢ ܘܠܙܥܘܪܐ ܐܚܘܗܝ ܐܒܝܥܫܘܡ. ܘܡܝܬ ܐܕܝ ܘܐܢܬܬܗ ܘܐܬܩܒܪܘ ܬܖ̈ܝܗܘܢ ܒܗ̇ ܒܫܡܩܛ ܡܕܝܢܬܐ ܘܡ̣ܢ ܕܡܝܬܘ ܬܖ̈ܝܗܘܢ ܐܕܝ ܘܐܢܬܬܗ ܩܡܘ ܒܢܝ̈ܗܘܢ ܘܐܙܠܘ ܠܓܪܡܢܝܩܝ ܕܗܝ̣ ܡܪܥܫ ܘܢܣܒܘ ܠܗܘܢ ܢܫ̈ܐ ܘܝܬܒܘ ܒܗ̇. ܘܐܬܝܠܕ ܒܪܐ ܠܒܥܠܫܡܝܢ ܘܩܪܐ ܫܡܗ ܬܐܘܕܘܪܘܣ. ܘܐܒܝܥܫܘܡ ܗܘܐ ܠܗ ܒܪܐ ܘܩܪܝܗܝ ܢܣܛܘܪ ܘܟܕ ܝܪܒܘ ܛܠ̈ܝܐ ܐܥܠܘ ܐܢܘܢ ܐܒܗܝܗܘܢ ܠܒܝܬ ܣܦܪܐ ܕܢܐܠܦܘܢ ܣܦܪܐ ܝܘܢܝܐ. ܘܝܠܦܘ ܬܖ̈ܝܗܘܢ ܘܐܬܢܗܪܘ ܒܣܦܪܐ ܝܘܢܝܐ.ܡܚܕܐ ܩܡܘ ܬܖ̈ܝܗܘܢ ܘܐܙܠܘ ܘܥܠܘ ܠܐܬܝܢܣ ܡܕܝܢܬܐ ܕܚܟܝ̈ܡܐ ܕܢܐܠܦܘܢ ܦܝܠܘܣܘܦܘܬܐ ܘܝܠܦܝܢ ܗܘܘ ܥܡܗܘܢ ܒܢܝ̈ ܖ̈ܫܢܐ ܕܩܘܣܛܢܛܝܢܘܦܘܠܝܣ ܡܕܝܢܬܐ ܘܚܙܘ ܐܢܘܢ ܒܢ̈ܝ ܡܕܝܢܬܐ ܩܠܣܘ ܘܫܒܚܘ ܠܬܖ̈ܝܗܘܢ ܠܬܐܘܕܘܪܘܣ ܘܠܢܣܛܘܪܝܘܣ ܩܕܡ ܡܠܟܐ ܐܢܘܪܝܘܣ ܥܠ ܚܟܡܬܐ ܘܦܝܠܠܘܣܘܦܘܬܐ ܕܝܠܗܘܢ. ܘܦܩܕ ܐܢܘܪܝܘܣ ܩܣܪ ܕܢܚܬܘܢ ܠܐܢܛܝܘܟܝܐ ܠܘܬ ܦܛܪܝܪܟܐ ܘܢܗܘܘܢ ܬܖ̈ܝܗܘܢ ܐܦܣ̈ܩܘܦܐ ܢܣܛܘܪ ܒܩܣܛܢܛܝܢܘܦܘܠܝܣ ܘܬܐܘܕܘܪܘܣ ܠܡܡܦܣܝܣܛܐ. ܘܟܕ ܗܘܘ ܐܦܝ̈ܣܩܘܦܐ ܘܐܙܠܘ ܟܠܚܕ ܡܢܗܘܢ ܠܕܘܟܬܗ ܗܝܕܝܢ ܫܪܝܘ ܬܖ̈ܝܗܘܢ ܕܢܚܒܠܘܢ ܠܝܘܠܦܢܐ ܕܫܪܪܐ ܕܐܟܪܙܘ ܠܢ ܢܒܝ̈ܐ ܘܫܠܝ̈ܚܐ ܘܐܒܗ̈ܬܐ. ܘܟܣܝܐܝܬ ܒܝܕ ܬܘܖ̈ܓܡܝܗܘܢ ܦܠܓܘܗܝ ܠܝܚܝܕܝܐ ܒܪܐ ܕܐܠܗܐ ܠܬܪܝܢ ܟܝܢ̈ܝܢ. ܒܫܒܥܐ ܓܝܪ ܡܐܡܖ̈ܝܢ ܕܫܕܪ ܬܐܘܕܘܪܘܣ ܠܢܣܛܘܪܝܘܣ ܘܗܘ̣ ܢܣܛܘܪ ܠܬܐܘܕܘܪܘܣ ܗܟܢܐ ܟܬܒ̣ ܗܘܐ ܠܗ ܕܝܫܘܥ ܠܡ ܡܫܝܚܐ ܒܪܢܫܐ ܗܼܘܐ ܕܐܬܒܪܝ ܒܨܒܝܢܐ ܕܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܒܡܪܝܡ ܒܬܘܠܬܐ ܩܕܝܫܬܐ ܐܝܟܢܐ ܕܐܬܒܪܝ ܐܕܡ ܡ̣ܢ ܒܪܫܝܬ ܡ̣ܢ ܐܪܥܐ ܕܠܐ ܙܘܘܓܐ. ܘܡܛܠ ܕܫܪܐ ܗܘܐ ܒܗ ܒܙܒܢ ܙܒܢ ܐܠܗܐ ܡܠܬܐ ܐܝܟܢܐ ܕܒܚܕ ܡ̣ܢ ܢܒܝ̈ܐ ܩܕܝ̈ܫܐ ܘ̇ܠܐ ܠܢ ܠܡ ܕܢܦܪܫ ܘܢܬܠ ܕܝܠܝ̈ܬܐ ܠܟܠܚܕ ܚܕ ܡܢܗܘܢ ܕܟܝܢ̈ܐ ܗܢܘ ܕܝܢ ܒܛܢܐ ܘܝܠܕܐ ܘܥܡܕܐ ܘܟܠܗܿ ܡܕܒܪܢܘܬܐ ܠܗ̇ܘ ܒܪܢܫܐ ܕܡܢ ܡܪܝܡ ܐܬܝܠܕ ܘܚܝ̈ܠܐ ܘܐܬܘ̈ܬܐ ܘܬܕܡܪ̈ܬܐ ܘܓܒܪ̈ܘܬܐ ܕܗܘ̇ ܡܠܬܐ ܐܠܗܐ ܕܥ̇ܡܪ ܗܘܐ ܒܗ ܒܙܒܢ ܙܒܢ. ܗܕܐ ܗܝ̣ ܗܝܡ̄ ܕܪܘܫܥܐ ܕܫܕܪ ܬܐܘܕܘܪܘܣ ܠܢܣܛܘܪ ܘܫܠܡܘ ܬܖ̈ܝܗܘܢ ܠܚܕ ܨܒܝܢܐ.ܘܟܕ ܡܝܬ ܐܢܘܪܝܘܣ ܡܠܟܐ ܡܗܝܡܢܐ ܫܘܐ ܠܕܘܟܪܢܐ ܛܒܐ ܩ̣ܡ ܒܬܪܗ ܬܐܘܕܘܣܝܘܣ ܙܥܘܪܐ. ܗܝܕܝܢ ܫܪܝܘ ܗܠܝܢ ܬܪܝܢ ܢܨ̈ܐ ܠܝ̈ܛܐ ܢܣܛܘܪ ܘܬܐܘܕܘܪܘܣ ܡܚܖ̈ܡܐ ܕܒܓܠܝܐ ܢܚܘܘܢ ܙܐܦܐ ܕܝܘܠܦܢܗܘܢ. ܘܟܕ ܝ̣ܕܥ ܬܐܘܕܘܣܝܘܣ ܡܠܟܐ. ܕܦܠ̈ܝܓܐ ܥܠ ܗܝܡܢܘܬܐ ܕܫܪܪܐ ܐܬܝܗܘܢ ܬܖ̈ܝܗܘܢ ܦܩ̣ܕ ܗܘ̣ ܡܠܟܐ ܙܟܝܐ ܘܐܬܟܢܫܘ ܗܘܘ ܡܛܠܬܗܘܢ ܡܐܬܝܢ ܘܥܣܪܝܢ ܐܦܣ̈ܩܘܦܐ ܠܐܦܣܘܣ ܡܕܝܢܬܐ. ܘܫܠ̣ܚ ܠܗ ܢܣܛܘܪ ܠܬܐܘܕܘܪܘܣ ܠܡܡܦܣܝܣܛܐ ܡܕܝܢܬܐ ܒܡܐܡܪܐ ܕܬܡܢܝܐ ܘܐܡ̣ܪ ܠܗ ܕܚܘܬ ܠܟ ܐܘ̄ ܐܚܝ ܥܡ ܣܘܢܢܕܘܣ ܠܐܦܣܘܣ ܘܐܚܪܡܝܢܝ ܘܠܐ ܬܟܪܐ ܠܟ ܐܚܘܢ ܥܠ ܕܡܚܪܡ ܐܢܬ ܠܝ ܩܕܡ ܗܝ ܣܘܢܢܕܘܣ ܟܕ ܐܢܬ ܒܗ ܒܗܢܐ ܝܘܠܦܢܐ ܡܟܬܪ ܐܢܬ ܘܡܠܦ ܐܢܬ ܠܗ ܠܒܢܝ̈ ܥܕܬܐ ܟܡܐ ܕܡܛܝܐ ܒܐܝܕܝ̈ܟ ܡܛܠ ܕܠܘ ܚܕ ܚܪܡܐ ܐܝܬ ܒܟ̈ܬܒܐ ܩܕܝ̈ܫܐ. ܘܣ̇ܗܕ ܡܪܢ ܕܐܡ̣ܪ ܕܡ̇ܢ ܕܪܚ̇ܡ ܠܝ ܦܘܩܕܢ̈ܝ ܢܬܪ. ܘܬܘܒ ܦܘܠܘܣ ܫܠܝܚܐ ܐܡ̣ܪ ܕܡܢ ܕܠܐ ܪܚ̇ܡ ܠܡܪܢ ܝܫܘܥ ܡܫܝܚܐ ܢܗܘܐ ܚܪܡ. ܘܗܢܐ ܚܪܡܐ ܥܠ ܟܠܗܘܢ ܒܢܝܢ̈ܫܐ ܡܬܝܚ ܘܦܪܝܣ ܒܗܝ ܕܠܐ ܢܛܪܝܢ ܦܘܩܕܢ̄ܘ ܕܡܪܢ ܐܝܟ ܕܗ̣ܘ ܐܡܪ.ܘܐܝܬ ܬܘܒ ܚܪܡܐ ܐܚܪܢܐ ܕܐܡ̣ܪ ܥܠܘܗܝ ܦܘܠܘܣ ܫܠܝܚܐ: ܕܐܘ̇ ܡܠܐܟܐ ܡ̣ܢ ܪܘܡܐ ܢܣܒܪܟܘܢ ܠܒܪ ܡ̣ܢ ܡܐ ܕܣܒܪܢܟܘܢ ܢܗܘܐ ܡܚܪܡ ܡ̣ܢ ܥܕܬܐ. ܡ̣ܢ ܗܢܐ ܚܪܡܐ ܥܪܘܩ ܐܚܝ ܘܐܢ ܡܨܝܐ ܘܐܦܠܐ ܒܣܦܘܬܟ ܢܬܡܠܠ. ܘܬܘܒ ܐܡܪ ܐܠܗܐ ܠܡܘܫܐ ܢܒܝܐ ܕܟܠܗܘܢ ܚܖ̈ܡܐ ܕܒܢ̈ܝ ܝܣܪܐܝܠ ܕܐܗܪܘܢ ܘܕܒܢ̈ܘܗܝ ܢܗܘܘܢ ܕܐܝܬܝܗܘܢ ܗܠܝܢ ܚܖ̈ܡܐ ܢܕܖ̈ܐ ܘܩܘܖ̈ܒܢܐ. ܘܬܘܒ ܝܫܘܥܒܪܢܘܢ ܐܡ̣ܪ ܗܟܝܐ: ܕܟܠ ܡܕܡ ܕܐܝܬ ܒܡܕܝܢܬܐ ܗܕܐ ܐܝܪܝܚܘ ܚܪܡܐ ܗܘ̣ ܠܡܪܝܐ ܗܢܘ ܕܝܢ ܩܘܪܒܢܐ ܠܡܪܝܐ ܐܘܟܝܬ ܢܕܖ̈ܐ. ܘܬܘܒ ܦܘܠܘܣ ܫܠܝܚܐ ܒܕܘܟܬܐ ܐܚܪܬܐ ܐܡ̣ܪ ܕܡܨܠܐ ܗܘܝܬ ܕܐܢܐ ܩܢܘܡܝ ܚܪܡܐ ܐܗܘܐ ܠܡܪܝܐ ܚܠܦ ܐܚܝ̈ ܘܐܚܝܢ̈ܝ ܕܐܝܬܝܗܘܢ ܒܢ̈ܝ ܝܣܪܐܝܠ ܗܢܘ ܕܝܢ ܡܪܝܢ ܒܗܘ ܪܥܝܢܐ ܕܒ̇ܥܐ ܗܘܐ ܦܘܠܘܣ ܕܢܗܘܐ ܩܘܪܒܢܐ ܚܠܦ ܒܢܝ̈ ܥܡܗ ܐܚܪܡܝܢܝ ܐܚܝ ܘܠܐ ܬܟܪܐܐܘܟܕ ܬܚܡܬ݀ ܣܘܢܢܕܘܣ ܕܡܐܬܝܢ ܘܥܣܪܝܢ ܘܐܚܪܡܬ݀ ܠܝܣܛܘܪ ܘܐܦ ܬܐܘܕܘܪܘܣ ܐܚܪܡܗ ܥܡܗܘܢ ܒܗ̇ܘ ܪܥܝܢܐ ܕܢܣܛܘܪ ܫܠ̣ܚ ܗܘܐ ܠܗ. ܘܟܕ ܐܫܬܪܝܬ݀ ܣܘܢܢܕܘܣ ܘܐܙ̣ܠ ܟܠܢܫ ܠܐܬܪܗ ܘܠܕܘܟܬܗ ܫܪܝ ܗܘܐ ܗ̣ܘ ܕܘܝܐ ܬܐܘܕܘܪܘܣ ܕܢܥܠܝܘ̄ ܠܝܘܠܦܝܗ ܕܢܣܛܘܪ ܠܓܘ ܥܕܬܐ ܩܕܝܫܬܐ ܗ̇ܘ ܕܗܘ ܫ̇ܠܡ ܗܘܐ ܡܢܩܕܝܡ. ܘܣܡ ܗܢܐ ܡܐܡܪܐ ܐܘܟܝܬ ܡܡܠܢܐ ܕܡܬܩܪܐ ܕܢܚܗ ܕܡܠܟܐ ܡܠܦܗ ܓܠܝܐܝܬ ܠܥܕܬܐ ܟܕ ܡܠܦ ܒܗ ܐܪܒܥܐ ܩܢܘܡ̈ܝܢ. ܐܡܪ ܓܝܪ ܥܠ ܡܫܝܚܐ ܗܟܢ ܟܕ ܡ̇ܢܐ ܠܗ ܘܚ̇ܫܒ ܠܗ ܒܪܢܫܐ ܫܚܝܡܐ. ܕܙܥܘܪ ܗܘ̣ ܠܡ ܚܙܘܟ ܕܝܠܟ ܡܫܝܚܐ ܠܒܢ̈ܝ ܥܩܘܒ ܕܛܠܡܘ ܠܐܒܐ ܕܓܒܝܟ ܘܐܪܓܙܘ ܠܗ ܒܪܐ ܡܬܘܡܝܐ ܕܥ̇ܡܪ ܗܘܐ ܒܟ ܘܐܥܝܩܘ ܠܪܘܚܐ ܩܕܝܫܐ ܕܩܕܫܟ ܘܬܘܒ ܒܪܝܟ ܗ̣ܘ ܐܠܗܐ ܡܠܬܐ ܕܢ̣ܚܬ ܠܒܫܗ ܠܡܫܝܚܐ ܗ̇ܘ ܐܕܡ ܕܬܪܝܢ ܘܥܒܕܗ ܛܠܝܐ ܒܡܝ̈ܐ ܕܡܥܡܘܕܝܬܐ. ܘܬܘܒ ܒܕܘܟܬܐ ܐܚܪܬܐ ܕܪܘܚܐ ܩܕܝܫܐ ܬܐܬܐ ܝܘܡܢ ܚܠܦ ܗܝ ܕܐܥܪܩ ܕܘܝܕ ܛܠܝܐ ܘܗܐ ܐܬܝܕܥܬ݀. ܓܠܝܐܝܬ ܕܐܪܒܥܐ ܩܢܘܡ̈ܝܢ ܡܟܪܙ ܒܗ̇ ܒܨܠܘܬܐ ܗܕܐ ܡܣܝܒܬܐ ܕܡܬܩܪܝܐ ܕܢܚܗ ܕܡܠܟܐ. ܘܥܒܕ ܬܘܒ ܦܘܪܫܐ ܕܪܫ ܡܙܡܘܖ̈ܐ ܕܢܛܥܐ ܠܥܕܬ ܥܡ̈ܡܐ ܟܕ ܢܓ̇ܕ ܠܗܘܢ ܡ̣ܢ ܫܪܪܐ ܕܗܝܡܢܘܬܗܘܢ ܠܦܘܫܩ̈ܘܗܝ ܡܣܝܒ̈ܐ. ܐܡܪ ܓܝܪ ܠܫܒܖ̈ܝ ܒܬܪܥܝܬܗܘܢ ܕܘ̇ܠܐ ܗܘ̣ ܠܟܘܢ ܐܚܝ̈ ܕܬܘ ܕܘܢ ܒܡܫܝܚܐ ܕܐܠܦ ܠܢ ܕܢܫܒܚ ܠܬܠܝܬܝܘܬܐ ܘܗܢܐ ܩܢܘܡܐ ܒܝܕ ܨܢܥ̈ܬܗ ܐܝܟ ܟܠܝܠܐ ܠܨܠܘܬܐ ܣܡ̣ܗ ܘܐܠܦܗ ܕܡܐ ܕܡܫܬܠܡܐ ܨܠܘܬܐ ܗܟܢܐ ܗܘܝܢ ܐܡܪܝܢ: ܬܘܕܝܬܐ ܠܡ̇ܢ ܕܦ̣ܬܚ ܦܘܡܢ ܕܢܣ̣ܩ ܫܘܒܚܐ ܒܠܝ̈ܠܘܬܐ ܘܒܝܡ̈ܡܐ ܠܡܪܐ ܕܟܠܗܘܢ ܥܕܢ̈ܐ ܕܐܝܬܘܗܝ ܟܝܢܐ ܕܬܠܝܬܝܘ̄ ܩܕܝܫܬܐ ܕܐܒܐ ܘܕܒܪܐ ܘܕܪܘܚܐ ܩܕ̄. ܚܢܢ ܕܝܢ ܒܢ̈ܝ ܗܝܡ̄ ܕܫܪܪܐ ܡܚܪܡܝܢܢ ܠܟܠ ܕܫ̣ܠܡ ܐܘ̇ ܫ̇ܠܡ ܠܗܕܐ ܬܘܕܝܬܐ ܡܣܠܝܬܐ ܐܠܐ ܕܝܘܕܐ ܘܢܫܒܚ ܠܬܠܝܬܝܘܬܐ ܩܕܝܫܬܐ ܕܗܝ̣ ܝܚܝܕܐܝܬ ܘܬܬܪܡܪܡܝ ܗܫܐ ܘܒܟܠܙܒܢ ܠܥܠܡܥܠܡܝܢ ܐܡܝܢ. ܘܢܣܠܐ ܠܪܒܝܥܘܬܐ ܘܢܚܪܡ ܠܟܠ ܕܡܘܕܐ ܒܪܒܝܥܘܬܐ ܕܘܠܝܛܝܢܘܣ ܡܠܟܐ. ܐܦ ܗܘ̣ ܬܐܘܕܘܪܘܣ ܐܫܬܕܝ ܥܕܬܐ ܩܕܝܫܬܐ. 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Folgendermaßen schrieb er [Theodor von Mopsuestia an Nestorius]: Jesus, d. h. der Messias, war ein Mensch, welcher geschaffen wurde durch den Willen der Heiligen Dreifaltigkeit, und zwar in der Heiligen Jungfrau Maria, so wie auch Adam geschaffen wurde, also aus Erde und nicht durch sexuelle Vereinigung, weil in ihm, von Zeit zu Zeit, Gott, das Wort, verweilte, so wie auch bei einem der heiligen Propheten. Wir müssen also fürwahr unterscheiden und jeder einzelnen der Naturen spezifische Eigenschaften zuordnen. D.h. die Schwangerschaft und Geburt, die Taufe und alle äußeren Lebensumstände eben jenem Menschen, der von Maria geboren wurde, und die Kräfte, Zeichen, Wunder und Heldentaten, dem Wort, Gott, welches von Zeit zu Zeit in ihm wohnte." Dies ist die schändliche Lehre, welche Theodorus an Nestorius schickte. Beide kamen in dieser Meinung überein.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Il y avait un homme originaire de la ville de Germanicie (qui est Marʿach) dont le nom était Addaï. Il était du village d’Attīk (qui est proche de la ville de Dara). Sa femme s’appelait Malka. Cet Addaï se querella avec une femme enceinte du village d’Attīk. Il leva la main contre elle et la frappa· Sur-le-champ, elle avorta d’un enfant qui mourut (et elle-même frôla la mort). Aussitôt cet Addaï se leva, partit et sortit de son village. Il amena sa femme et s’enfuit. Ils s’en allèrent et entrèrent dans la région de Bēt Sūfonoié (qui est la région de Hātōko). Ils demeurèrent dans cette région quelques temps) puis la quittèrent et s’en allèrent vivre à la ville de Samossate où ils prirent domicile. Il leur naquit deux fils dans cette ville. Ils appelèrent l’aîné Baʿlšāmīn et son frère cadet Abīaʾ Šūm. Addaï et sa femme moururent et furent enterrés tous les deux, dans la même ville de Samossate. Après la mort (d’Addaï et de sa femme) leurs fils se levèrent et partirent à Germanicie (qui est Marʿach). Ils s’y marièrent. A Baʿlšāmīn, naquit un fils. Il l’appela Théodore et Abīaʾ Šūm eut un fils. Il l’appela Nestorius. (Ayant grandi, ces enfants) furent envoyés par leurs parents à l’école pour apprendre la langue grecque. Ils l’étudièrent et s’en instruisirent tous les deux. Puis, ils se levèrent, tous deux, partirent (et entrèrent) à Athènes, ville des sages pour apprendre la philosophie. Les fils des notables de la ville de Constantinople étudiaient avec eux. Les habitants de la ville les ayant remarqués, les louèrent et les glorifièrent (tous les deux, Théodore et Nestorius) devant l’Empereur Honorius (pour leur sagesse et leur philosophie). César Honorius ordonna qu’ils descendent à Antioche (chez le patriarche) pour devenir tous deux évêques, Nestorius à Constantinople et Théodore à Mopsueste. Devenus évêques et ayant rejoint, chacun sa province, ils se mirent, tous deux, à corrompre la véritable doctrine que les Prophètes, les Apôtres et les Pères nous avaient prêchée. Astucieusement, par leurs interprétations, ils divisèrent l’Unique Fils de Dieu en deux natures dans les sept traités que Théodore envoya à Nestorius et Nestorius lui-même écrit à Théodore comme suit: Jésus, c’est-à-dire le Christ était un homme qui fut créé par la volonté de la Sainte Trinité en la sainte vierge Marie, de la même manière qu’Adam fut au commencement créé, de la terre, sans mariage. Et parce que Dieu le Verbe a habité en lui de temps en temps, comme dans l’un des saints prophètes, il faut que nous distinguions et donnions à chacune des natures ses propriétés, à savoir à l’homme qui naquit de Marie, la gestation, la nativité, le baptême (et toute l’Économie). A cette Parole de Dieu qui l’habitait de temps en temps, les puissances, les signes, les miracles et les merveilles. Voilà la foi impie que Théodore envoya à Nestorius et ils eurent tous deux, le même sentiment.A la mort d’Honorius, l’Empereur fidèle et digne d’heureuse mémoire, Théodore le jeune lui succéda. Alors ces deux interdits (disputeurs maudits), Nestorius et Théodore, se mirent à afficher ouvertement leur enseignement faux. Mis au courant du désaccord des deux au sujet de la vraie foi, Théodore, l’Empereur victorieux, donna l’ordre et deux cent vingt évêques se réunirent à leur sujet, dans la ville d’Éphèse. Nestorius envoya à Théodore, à la ville de Samossate, le huitième traité lui disant: Descends, frère, au Concile d’Éphèse et anathématise-moi. Qu’il ne t’afflige pas, frère, de m’anathématiser devant ce Synode alors que toi, tu persistes dans cette doctrine et tu l’enseignes aux enfants de l’Église dans la mesure de ton pouvoir, car il n’existe qu’un seul anathème dans les livres saints. En témoigne Notre Seigneur qui dit: «celui qui m’aime garde mes commandements et l’Apôtre Paul ajoute: «Que celui qui n’aime pas notre Seigneur Jésus-Christ soit anathème». Cet anathème s’étend à tous les hommes pour atteindre ceux d’entre eux qui ne gardent pas les commandements de Notre Seigneur comme Il l’a dit.Il y a cependant un autre anathème dont l’Apôtre Paul a parlé: «Si un ange du Ciel vous annonce autre chose que ce que nous vous annonçons, qu’il soit anathématisé par l’Église. Fuis cet anathème, frère, si possible, qu’il ne soit pas prononcé par tes lèvres. De même, Dieu dit à Moïse, le Prophète: Que tous les anathèmes des fils d’Israël soit (la propriété) d’Aron et des ses descendents car ils sont des (ex-votos) et des offrandes. Aussi Josué fils de Nūn dit: Que tout ce qui se trouve dans cette ville de Jéricho soit anathème pour le Seigneur (c’est une offrande à Dieu, c’est-à-dire un ex-voto). De même l’Apôtre Paul dit dans un autre texte: «J’avais prié d’être moi-même anathème du Seigneur pour mes frères et mes proches qui sont les enfants d’Israël», c’est pourquoi ne t’attriste pas et anathématise-moi dans le même sens que Paul a demandé d’être offrande pour les fils de son peuple.Quand le concile des deux cent vingt décréta et anathématisa Nestorius, Théodore aussi l’anathématisa avec eux, dans le sens que Nestorius avait signalé. Quand le concile fut clôturé et chacun eut rejoint sa ville et son pays, ce malheureux Théodore commença à introduire en la sainte Église la doctrine de Nestorius (qu’il avait déjà approuvée). Il composa le traité, c’est-à-dire l’exposé appelé: «L’Epiphanie du Roi». Il l’enseigna ouvertement à l’Église tout en y professant quatre Personnes. Il dit au sujet du Christ, qu’il considère et compte comme un simple homme: «Votre stature, ô Christ, est certes petite pour les enfants de Jacob qui ont violé (la promesse) du Père qui t’a choisi, irrité le Fils éternel qui habite en toi et attristé l’Esprit-Saint qui te sanctifie.» Aussi: «Béni soit Dieu le Verbe qui est descendu adopter le Christ, ce second Adam et il l’a fait Fils par les eaux du baptême.» De même, à un autre endroit: «l’Esprit-Saint vient aujourd’hui à la place de celui que le jeune David chassa et Il se manifeste.» Il est donc clair qu’il prêche quatre Personnes dans cette prière impie qu’on appelle: «L’Epiphanie du Roi».Il composa aussi un «Commentaire des Psaumes» pour égarer les fidèles de l’Église en les attirant de la vérité de leur foi à ses interprétations insensées. Il dit aux simples: «Il nous faut, frères, rendre grâces au Christ qui nous a appris à glorifier la Trinité», et il a introduit, par ses ruses, cette hymne comme conclusion à la prière et il l’a enseignée pour que l’on dise quand la prière se termine: «Louange à celui qui a ouvert notre bouche pour glorifier de jour et de nuit, le Seigneur de tous les temps qui est la créature de la Sainte Trinité, le Père, le Fils et le St-Esprit.» Quant à nous, les fils de la vraie foi nous anathématisons tous ceux qui ont accepté ou acceptent cette doctrine impie, à moins qu’ils ne confessent et glorifient la sainte Trinité qui mérite d’être exaltée maintenant et dans tous les siècles. Amen. Nous rejetons la Quaternité et nous anathématisons tous ceux qui confessent la Quaternité de l’Empereur Valentin. Théodore aussi fut rejeté de la Sainte Église.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

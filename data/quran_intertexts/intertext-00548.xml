@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 27:1-14</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_548" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>548</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das Motiv des "geraden Weges" findet sich zahlreich, unter leicht variierenden Ausdrücken im Koran. Eine Parallele dazu zeigt dieser Text auf. Vgl. dazu auch TUK_0390 und den Ausdruck šbīlā trīṣā "rechter, gerader Weg", sowie TUK_0975.
+</summary>
+            <msItem>
+              <title>Psalm 27:1-14</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Tolou Khademalsharieh</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	לְדָוִד יְהוָה אוֹרִי וְיִשְׁעִי מִמִּי אִירָא יְהוָה מָעוֹז־חַיַּי מִמִּי אֶפְחָד׃ בִּקְרֹב עָלַי מְרֵעִים לֶאֱכֹל אֶת־בְּשָׂרִי צָרַי וְאֹיְבַי לִי הֵמָּה כָשְׁלוּ וְנָפָלוּ׃ אִם־תַּחֲנֶה עָלַי מַחֲנֶה לֹֽא־יִירָא לִבִּי אִם־תָּקוּם עָלַי מִלְחָמָה בְּזֹאת אֲנִי בוֹטֵחַ׃ אַחַת שָׁאַלְתִּי מֵאֵת־יְהוָה אוֹתָהּ אֲבַקֵּשׁ שִׁבְתִּי בְּבֵית־יְהוָה כָּל־יְמֵי חַיַּי לַחֲזוֹת בְּנֹֽעַם־יְהוָה וּלְבַקֵּר בְּהֵיכָלֽוֹ׃ כִּי יִצְפְּנֵנִי בְּסֻכֹּה בְּיוֹם רָעָה יַסְתִּרֵנִי בְּסֵתֶר אָהֳלוֹ בְּצוּר יְרוֹמְמֵנִי׃ וְעַתָּה יָרוּם רֹאשִׁי עַל אֹֽיְבַי סְבִיבוֹתַי וְאֶזְבְּחָה בְאָהֳלוֹ זִבְחֵי תְרוּעָה אָשִׁירָה וַאֲזַמְּרָה לַיהוָה׃ שְׁמַע־יְהוָה קוֹלִי אֶקְרָא וְחָנֵּנִי וַעֲנֵנִי׃ לְךָ אָמַר לִבִּי בַּקְּשׁוּ פָנָי אֶת־פָּנֶיךָ יְהוָה אֲבַקֵּשׁ׃ אַל־תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי אַֽל־תַּט־בְּאַף עַבְדֶּךָ עֶזְרָתִי הָיִיתָ אַֽל־תִּטְּשֵׁנִי וְאַל־תַּעַזְבֵנִי אֱלֹהֵי יִשְׁעִי׃ כִּי־אָבִי וְאִמִּי עֲזָבוּנִי וַיהוָה יַאַסְפֵנִי׃ הוֹרֵנִי יְהוָה דַּרְכֶּךָ  וּנְחֵנִי בְּאֹרַח מִישׁוֹר  לְמַעַן שׁוֹרְרָי׃ אַֽל־תִּתְּנֵנִי בְּנֶפֶשׁ צָרָי כִּי קָמוּ־בִי עֵדֵי־שֶׁקֶר וִיפֵחַ חָמָס׃ לוּלֵא הֶאֱמַנְתִּי לִרְאוֹת בְּטוּב־יְהוָה בְּאֶרֶץ חַיִּים׃ קַוֵּה אֶל־יְהוָה חֲזַק וְיַאֲמֵץ לִבֶּךָ וְקַוֵּה אֶל־יְהוָה׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 [Von David.] Der Herr ist mein Licht und mein Heil: / Vor wem sollte ich mich fürchten? Der Herr ist die Kraft meines Lebens: / Vor wem sollte mir bangen? 2 Dringen Frevler auf mich ein, / um mich zu verschlingen, meine Bedränger und Feinde, / sie müssen straucheln und fallen. 3 Mag ein Heer mich belagern: / Mein Herz wird nicht verzagen. Mag Krieg gegen mich toben: / Ich bleibe dennoch voll Zuversicht. 4 Nur eines erbitte ich vom Herrn, / danach verlangt mich: Im Haus des Herrn zu wohnen / alle Tage meines Lebens, die Freundlichkeit des Herrn zu schauen / und nachzusinnen in seinem Tempel. 5 Denn er birgt mich in seinem Haus / am Tag des Unheils; er beschirmt mich im Schutz seines Zeltes, / er hebt mich auf einen Felsen empor. 6 Nun kann ich mein Haupt erheben / über die Feinde, die mich umringen. Ich will Opfer darbringen in seinem Zelt, Opfer mit Jubel; / dem Herrn will ich singen und spielen. 7 Vernimm, o Herr, mein lautes Rufen; / sei mir gnädig und erhöre mich! 8 Mein Herz denkt an dein Wort: «Sucht mein Angesicht!» / Dein Angesicht, Herr, will ich suchen. 9 Verbirg nicht dein Gesicht vor mir; / weise deinen Knecht im Zorn nicht ab! / Du wurdest meine Hilfe. Verstoß mich nicht, verlass mich nicht, / du Gott meines Heiles! 10 Wenn mich auch Vater und Mutter verlassen, / der Herr nimmt mich auf. 11 Zeige mir, Herr, deinen Weg, / leite mich auf ebener Bahn trotz meiner Feinde! 12 Gib mich nicht meinen gierigen Gegnern preis; / denn falsche Zeugen stehen gegen mich auf und wüten. 13 Ich aber bin gewiss, zu schauen / die Güte des Herrn im Land der Lebenden. 14 Hoffe auf den Herrn und sei stark! / Hab festen Mut und hoffe auf den Herrn!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

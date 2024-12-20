@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2265">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 20 [= Karatay 41]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 20 [= Karatay 41]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>288 fol.; Writing surface: parchment; Shelfmark: E. H. 20; Text: Q 2:284-Q 114:6; 15 lines per page; Dimensions: 87 x 55 mm; Script style: kūfī; Estimated date of production: 3rd (9th) century [according to Karatay]. </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, pp. 15-16: "41 E. H. 20 Aynı Parşömen. 55mm boy ve 87mm eninde cönk şeklinde 288 yaprak. Sahifede III. (IX) asra ait olması muhtemel olan ve sepya rengi mürekkeple yazılmış ince bir kûfî ile 70mm uzunl.[uğunda] 15 satır. İlk yaprağın üzerine sonradan yeşilimsi bir mürekkeple Salmān Farisīnin yazısı ile olduğu ve alt kabının içinde yaldızla farisi olarak Ṣāhruh b. Tīmyūr Gurgān’ın hazinesinde bulunduğu yazılıdır. Sure başları Arap üslubunda müzehhep. Miklep, şemse ve zencirekli koyu kahve rengi deri cilt. Baş tarafı eksik olan bu mushaf Baḳara (2) suresinin 284. ayetinin والله على كل شيء قدير ibaresiyle başlar ve Nās suresinin sonuna kadar gider."</p>
+              <p>This can be translated as follows: "41 E. H. 20 Same Parchment. 288 junk shaped leaves of 55 mm height and 87 mm width. The text area, written in a thin Kufic script in sepia ink of probably 3rd (9th) century [contains] 15 lines measuring 70 mm. On the first leaf it is written in a greenish ink that was added later that it is written by Salmān Farisī. Under the back cover it states with gilding in Persian that it was found in the repertory of Shāhruh b. Tīmyūr Gurgān. Sūra beginnings are illuminated in Arabic style. Dark brown leather binding with flap (miklep), mandorla (şemse) and zencirek. This codex, whose beginning is missing, starts with the words والله على كل شيء قدير of Q 2:284 (Sūra al-Baqara) and continues until the end of Q 114 (Sūra al-Nās)."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706319" n="1">
+              <title type="numeric" key="002:284:024-114:006:003">
+                                    002:284:024-114:006:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 288
+                                    <dimensions unit="mm"><width>87</width><height>55</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Esra Gözeler</p>
+                <p>metadata: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_62026">
+                    </surface>
+  </facsimile>
+</TEI>

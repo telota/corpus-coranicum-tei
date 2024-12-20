@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Offenbarung des Johannes 21:1-5</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1185" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1185</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 32:10 wird die Vorstellung einer eschatologischen "neuen Schöpfung" ausgesprochen. Dabei wird betont, dass die Toten als eine "neue Schöpfung" bzw. in einer "neuen Schöpfung" durch Gott sein werden. Diese eschatologische Vorstellung einer neuen Schöpfung, die den Tod überwindet, findet sich auch in der Offenbarung des Johannes. In dieser apokalyptischen Schrift beschreibt der Visionär, wie Gott eine "neue Erde" und einen "neuen Himmel" schaffen wird, als Gott unter den Menschen wohnen wird, wobei "der Tod nicht mehr da sein wird", denn Gott wird alles "neu machen". Folglich ist diese Vorstellung in der frühchristlichen Apokalyptik sowohl individuell als Sieg gegen den Tod aber auch gleichzeitig als eine kosmische Erneuerung zu verstehen. Hier soll noch angemerkt werden, dass der Begriff der "neuen Schöpfung" in der frühchristlichen Literatur auch im Sinne der Auferstehung, also der Neuerschaffung des Menschen verwendet wird (vgl. TUK_0305).
+</summary>
+            <msItem>
+              <title>Offenbarung des Johannes 21:1-5</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 95 AD</origDate>
+              <origPlace>Patmos (laut Offb. 1:9)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graecae (Nestle-Aland)</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	21:1. Καὶ εἶδον οὐρανὸν καινὸν καὶ γῆν καινήν. ὁ γὰρ πρῶτος οὐρανὸς καὶ ἡ πρώτη γῆ ἀπῆλθαν καὶ ἡ θάλασσα οὐκ ἔστιν ἔτι. 2. καὶ τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καινὴν εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. 3. καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης· ἰδοὺ ἡ σκηνὴ τοῦ θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ’ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ θεὸς μετ’ αὐτῶν ἔσται [αὐτῶν θεός], 4. καὶ ἐξαλείψει πᾶν δάκρυον  ἐκ τῶν ὀφθαλμῶν αὐτῶν, καὶ ὁ θάνατος οὐκ ἔσται ἔτι οὔτε πένθος οὔτε κραυγὴ οὔτε πόνος οὐκ ἔσται ἔτι, [ὅτι] τὰ πρῶτα ἀπῆλθαν. 5. Καὶ εἶπεν ὁ καθήμενος ἐπὶ τῷ θρόνῳ· ἰδοὺ καινὰ ποιῶ πάντα καὶ λέγει· γράψον, ὅτι οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί εἰσιν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	21:1. Dann sah ich einen neuen Himmel und eine neue Erde; denn der erste Himmel und die erste Erde sind vergangen, auch das Meer ist nicht mehr. 2. Ich sah die heilige Stadt, das neue Jerusalem, von Gott her aus dem Himmel herabkommen; sie war bereit wie eine Braut, die sich für ihren Mann geschmückt hat. 3. Da hörte ich eine laute Stimme vom Thron her rufen: Seht, die Wohnung Gottes unter den Menschen! Er wird in ihrer Mitte wohnen, und sie werden sein Volk sein; und er, Gott, wird bei ihnen sein. 4. Er wird alle Tränen von ihren Augen abwischen: Der Tod wird nicht mehr sein, keine Trauer, keine Klage, keine Mühsal. Denn was früher war, ist vergangen. 5. Er, der auf dem Thron saß, sprach: Seht, ich mache alles neu. Und er sagte: Schreib es auf, denn diese Worte sind zuverlässig und wahr.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

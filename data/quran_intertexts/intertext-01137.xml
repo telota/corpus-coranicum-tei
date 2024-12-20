@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis Rabba, Parascha 12</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1137" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1137</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die genannten Koranstellen sprechen davon, dass die Erschaffung der Welt Gott nicht ermüdet habe. Wie der hier zitierte Text aus Genesis Rabba zeigt, findet sich die Vorstellung, dass Gott die Welt mühelos erschaffen habe, auch in der rabbinischen Literatur. Vgl. auch Genesis Rabba, Parascha 27:1 und Exodus Rabba, Parascha 13:1. Möglich ist aber auch, dass die genannten Koranverse keine dort belegte Anschauung aufgreifen, sondern sich zumindest implizit gegen den Gedanken wenden, dass Gott nach Abschluss der Schöpfung geruht habe, zumal auch Q 16:124 eine Ablehnung des Sabbatgebotes beinhaltet (Zu den koranischen Anspielungen auf das Sabbatgebot vgl. TUK_0265). Vgl. dazu die christlichen Polemiken zu diesem Thema (TUK_0889).  Allerdings steht keine der genannten Koranstellen im Kontext einer Auseinandersetzung um den Sabbat oder um die Vorstellung vom Ruhen Gottes am siebten Tag; so dient in Q 46:33 und 50:15 die mühelose Erschaffung der Welt durch Gott als Beweis, dass Gott einst die Toten ebenso mühelos wieder auferwecken kann.
+</summary>
+            <msItem>
+              <title>Genesis Rabba, Parascha 12</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. (?)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">J. Theodor und Chanoch Albeck, Midrash Bereshit Rabba. Critical Edition with Notes and Commentary, 3 Bände, Jerusalem 1965 (Nachdruck von Berlin 1912-36 mit Korrekturen).</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ר' ברכיה בשם ר' יהודה בר' סימון [לא בעמל ולא ביגיעה ברא הקב"ה את עולמו אלא] בדבר י"י וכבר שמים נעשו
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	R. Berekiah said in the name of R. Judah b. Simon: Not with labour or wearying toil did the Holy One, blessed be He, create His world, but 'By the word of the Lord, and the heavens were already made.'
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

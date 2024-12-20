@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1465">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 27.102-I</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>27.102-I</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Folio of Qurʾān on parchment; Shelfmark: 27.102; Qurʾānic text: Q 30:30-39; Dimensions: 203 x 152 mm; Lines per page: 13; Script style: kūfī D.II; Provenance: probably Egypt. </p>
+              <p>The website of the Metropilitan Museum of Art only shows a reproduction of the recto page. See <ref target="https://www.metmuseum.org/art/collection/search/448016?sortBy=Relevance&amp;amp;deptids=14&amp;amp;when=A.D.+500-1000&amp;amp;what=Parchment&amp;amp;ft=QURAN&amp;amp;offset=0&amp;amp;rpp=20&amp;amp;pos=8">https://www.metmuseum.org/art/collection/search/448016?sortBy=Relevance&amp;amp;deptids=14&amp;amp;when=A.D.+500-1000&amp;amp;what=Parchment&amp;amp;ft=QURAN&amp;amp;offset=0&amp;amp;rpp=20&amp;amp;pos=8</ref></p>
+            </summary>
+            <msItem xml:id="mysql_id_687652" n="1r">
+              <title type="numeric" key="030:030:019-030:039:013">
+                                    030:030:019-030:039:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687653" n="1v">
+              <title type="numeric" key="030:039:014-030:024:007">
+                                    030:039:014-030:024:007
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>203</width><height>152</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="13">13 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47612">
+      <graphic decls="#imageRights-1" url="manuscript/1465/48a9f814-79db-41c0-a0b0-7fbb30f69370/manuscript-1465-page-47612-image-33794.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1465/feefd792-9ce6-45dc-8493-86b665c1dae1/manuscript-1465-page-47612-image-33795.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47613">
+      <graphic decls="#imageRights-1" url="manuscript/1465/d7a3a833-7704-4b8d-82b3-8c9887255a25/manuscript-1465-page-47613-image-33796.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

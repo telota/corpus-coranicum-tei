@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1986">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tübingen, Universitätsbibliothek Tübingen, Ma VI 158</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="25">Universitätsbibliothek Tübingen
+                            , Tübingen</repository>
+            <idno>Ma VI 158</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: Ma VI 158; Qurʾānic Text: Q 10:38 - Q 11:62; 15 lines per page; Dimensions: 111 x 180mm; Script style: kūfī.</p>
+              <p> </p>
+              <p>The catalogue of the Tübingen University gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/7Q5QKF32">Weisweiler 1930, p. 123</ref>): </p>
+              <p>"155<hi rend="bold"> </hi>(M a VI 158) Koranfragment. F. 1 = Sure 10,39–10,59, f. 2 = Sure 11,49–17,65. 2 Bl. 11 x 18; 8 x 13,3 cm. 15 Zeilen. Schrift: kufisch, ziemlich klein, mitteldick, stark gerundet, Neigung zu geschlossenen Wortformen, diakritische Punkte unvollständig, Vokalisation durch rote Punkte, Abteilung größerer Abschnitte, Schrift von f. 1b und 2a ziemlich stark abgescheuert; ähnlich <ref target="https://corpuscoranicum.de/en/manuscripts/351/page/42?sura=1&amp;amp;verse=1">Moritz, Palaeography Taf. 42a</ref>, doch etwas runder und in den Wortformen geschlossener. Material: Pergament, gelblich, stark, ziemlich glatt, leicht beschädigt, unsauber. Einband: Heftung."</p>
+            </summary>
+            <msItem xml:id="mysql_id_700239" n="1r">
+              <title type="numeric" key="010:038:016-010:048:001">
+                                    010:038:016-010:048:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_700240" n="1v">
+              <title type="numeric" key="010:048:002-010:058:005">
+                                    010:048:002-010:058:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_700241" n="2r">
+              <title type="numeric" key="011:047:004-011:055:007">
+                                    011:047:004-011:055:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_700242" n="2v">
+              <title type="numeric" key="011:056:001-011:062:021">
+                                    011:056:001-011:062:021
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>180</width><height>110</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            Damascus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+                <p>image: Farah C. Artika</p>
+                <p>assistance: Emaan Safah</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_55976">
+      <graphic decls="#imageRights-1" url="manuscript/1986/22b86bfe-0713-4f9c-894f-4fa229cc666c/manuscript-1986-page-55976-image-46476.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_55977">
+      <graphic decls="#imageRights-1" url="manuscript/1986/db62b04f-0e55-458b-8b1c-11af10626749/manuscript-1986-page-55977-image-46477.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_55978">
+      <graphic decls="#imageRights-1" url="manuscript/1986/4819c37f-e886-4ff8-b96e-03a2845fb3e1/manuscript-1986-page-55978-image-46478.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_55979">
+      <graphic decls="#imageRights-1" url="manuscript/1986/1c8470fd-851e-436a-aad2-742b6fd0121f/manuscript-1986-page-55979-image-46479.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

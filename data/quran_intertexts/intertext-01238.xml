@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chronographia</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1238" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1238</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Im Koran werden verschiedene Episoden aus der Lebensgeschichte Abrahams erzählt. Eine theologisch prägnante Episode ist die Geschichte der Zerstörung der Götzen (Q 37:93), die kurz und bedeutungsvoll erzählt wird. Abrahams Zerstörung der Götzenstatuen seines Vaters ist eine Geschichte, die in verschiedenen Variationen sowohl in der jüdischen als auch in der christlichen Tradition bekannt ist (vgl. TUK_0660, TUK_0673; TUK_0675; TUK_0456). Vorliegendes Beispiel stammt aus der Chronik des Johannes Malalas, eines griechisch-schreibenden Autors, wahrscheinlich syrischer Abstammung, aus dem 6. Jahrhundert. Johannes Malalas erzählt, wie Abraham, nachdem er die Erkenntnis des einen Gottes erlangt hat, sich gegen die Götzendienerei seines Vaters wendet, die nicht-göttliche Natur der Götzen, und die niedrigen Motive des väterlichen Götzenbildhauers entlarvt und daraufhin die Statuen zerbricht. Die kurze Geschichte wird von Johannes Malalas, ähnlich wie im Koran, knapp aber mit einer dezisiven theologischen Intentionalität erzählt.
+</summary>
+            <msItem>
+              <title>Chronographia</title>
+              <author>Ioannes Malalas (491-578)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 565 n.Chr.</origDate>
+              <origPlace>Antiochien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Ioannis Malalae Chronographia, ed. L. Dindorf, Bonn: Weber 1881</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Ὁ δὲ Ἀβραὰμ θεογνωσίαν ἐπιγνοὺς, καὶ λογισάμενος ὅτι τὰ ἀγάλματα, ἃ ἐποίει ὁ πατὴρ αὐτοῦ Θάῥῤας, ἀνθρώπων τεθνηκότων, καὶ οὐκ ἐχρῆν τιμᾶσθαι αὐτοὺς ὡς θεοὺς ἐν τῷ οὐρανῷ, γενομένους γῆν καὶ κόνιν κατεγίνωσκεν οὖν τῷ ἰδίῳ πατρὶ Θάῥῤᾳ λέγων, Τὶ πλανᾶς τοὺς ἀνθρώπους διὰ κέρδος; οὐκ ἔστι γὰρ ἄλλος θεός, εἰ μὴ ὁ ἐν τοῖς οὐρανοῖς ὁ δημιουργήσας τὰ ὁρώμενα ταῦτα πάντα  ὁ λαβὼν ἔκλασε τὰ ἀγάλματα πάντα, καὶ ἀνεχώρησεν ἐξ' αὐτοῦ καὶ ἀπῆλθεν εἰς τὴν Μεσοποταμίαν.  
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Abraham dann, da er die Erkenntnis Gottes verstand, erkannte er auch, dass die Statuen, die sein Vater Terah schuf, Statuen von sterblichen Menschen waren und man sollte sie nicht als Götter im Himmel verehren, denn er selbst wusste, dass sie aus Erde und Staub waren und er sagte zu seinem Vater Terah, Warum betrügst die Menschen, um dich zu bereichern? Denn es gibt keinen anderen Gott, als denjenigen im Himmel, der alles Sichtbare geschaffen hat. Dann nahm er und zerbrach er all die Statuen und verließ ihn (seinen Vater) und ging nach Mesopotamien.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

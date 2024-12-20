@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Buch der Jubiläen 8:18-20</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1329" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1329</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 17:1 wurde in der Forschung unter anderem als Anspielung auf eine visionäre Entrückung Muḥammads nach Jerusalem interpretiert (vgl. TUK_1325). Falls diese Vermutung zutrifft, könnte man in Q 17:1 einen Hinweis darauf sehen, daß Jerusalem auch in der sakralen Geographie der ersten Hörer des Korans eine wichtige Rolle spielte. Eine solche herausragende Bedeutung Jerusalems geht auf eine längere Tradition zurück.Die älteste Textstelle, in der die Vorstellung von Jerusalem als Mitte der Welt im Rahmen einer genauen geographischen Beschreibung der Welt deutlich herausgearbeitet ist, findet sich laut  Alexander 1999: p. 104 im Buch der Jubiläen (daneben ist auch Hen 26:1 für die Entwicklung dieser Idee von Bedeutung, vgl. TUK 1325). Dort wird geschildet, wie die Erde nach der Sintflut unter den Söhnen Noahs in drei Teile aufgeteilt wird. Dabei fällt Sem die Mitte zu (Jub 8:12.17). Es folgt eine ausführliche Beschreibung des Landes, das Sem erhalten hat (Jub 8:12-16), zu dem auch Palästina mit Jerusalem gehört, das, wie der hier zitierte Text zeigt, als Nabel der Erde (ḥənbərtā la-mədr) aufgefasst wurde mit dem Berg Zion in seiner Mitte (māʾkala ḥənbərtā la-mədr). Der Berg Zion gilt auch als eines von drei Heiligtümern (qəddəst). Alexander 1999: p. 105-107 weist darauf hin, daß, anders als im Henochbuch, die Beschreibung der Welt im Jubiläenbuch keine mythologischen Züge trägt, sondern daß dort, vermutlich aus politischen Gründen, der griechischen Vorstellung von Delphi als dem Nabel der Welt eine konkurrierende geographische Ordnung, die an Jerusalem ausgerichtet ist, entgegengesetzt wird, was sich in die generell antihellenistische Tendenz des Jubiläenbuchs fügt. Wie auch Alexander 1999: p. 104 einräumt, begegnet die Vorstellung von der Wichtigkeit Jerusalems und seiner zentralen Lage aber bereits in früheren Texten.  Wensinck 1916: p. 22 und p. 34 weist in diesem Zusammenhang auf Ezechiel 5:5 ("So spricht Gott, der Herr: Das ist Jerusalem. Ich habe es mitten unter die Völker und die Länder ringsum gesetzt." כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יְהֹוִ֔ה זֹ֚את יְר֣וּשָׁלִַ֔ם בְּתֹ֥וךְ הַגֹּויִ֖ם שַׂמְתִּ֑יהָ וּסְבִיבֹותֶ֖יהָ אֲרָצֹֽות׃) und 38:12 ("Ich will Beute machen und plündern, ich will diese wieder bewohnten 
+Trümmer angreifen und das Volk überfallen, das aus den Völkern 
+zusammengeführt wurde, das sich wieder Herden und Besitz erworben hat 
+und jetzt auf dem Nabel der Erde wohnt." לִשְׁלֹ֥ל שָׁלָ֖ל וְלָבֹ֣ז בַּ֑ז לְהָשִׁ֨יב יָדְךָ֜ עַל־חֳרָבֹ֣ות נֹושָׁבֹ֗ת וְאֶל־עַם֙ מְאֻסָּ֣ף מִגֹּויִ֔ם עֹשֶׂה֙ מִקְנֶ֣ה וְקִנְיָ֔ן יֹשְׁבֵ֖י עַל־טַבּ֥וּר הָאָֽרֶץ׃) hin.Die im Buch der Jubiläen zuerst in dieser Deutlichkeit nachweisbare Vorstellung von Jerusalem als Nabel der Welt findet sich später auch bei Philo von Alexandria und Flavius Josephus (Alexander 1999: p. 113-114). In der rabbinischen Literatur wird diese Idee schließlich weiterentwickelt und mit zentralen Ereignissen der Heilsgeschichte verknüpft: Unter anderem gilt Jerusalem als der Teil der Welt, der zuerst geschaffen wurde, und um den herum schließlich die restliche Welt entstand. Auch Adam wurde aus Erde, die vom Tempelberg stammte, geschaffen. Abrahams Sohnesopfer soll ebenfalls in Jerusalem stattgefunden haben. Jerusalem ist nicht mehr nur der geographische Mittelpunkt der Welt, sondern gilt auch als axis mundi. Direkt oberhalb Jerusalems befinden sich der himmlische Tempel und das himmlische Jerusalem; der Eingang zur Unterwelt (Gehenna) wird ebenfalls in der Nähe Jerusalems lokalisiert. Damit verbindet Jerusalem Himmel, Erde und Unterwelt (Alexander 1999: p. 114-115). Zu Jerusalem im rabinischen Judentum vgl. unter anderem babylonischer Talmud Yoma 54b (TUK_1338), Midrasch Tanchuma Parashat Qedoshim 10 (TUK_1339), Cant R 3,10 § 4 und Pesikta de Rav Kahana 26,4. Auch im Christentum wurde Jerusalem mit der Grabeskirche als Mitte der Welt gesehen, was sich unter anderem in der Mosaikkarte von Madaba (vgl. das dem TUK beigegebene Bild) widerspiegelt (Alexander 1999: p. 112). Der Schatzhöhle zufolge wurde Adam in der Mitte der Welt geschaffen, an dem Ort, an dem später auch Jesu Kreuz errichtet wurde (Wensinck 1916: p. 22). Insgesamt lag der Fokus der christlichen Tradition aber stärker auf dem himmlischen Jerusalem als auf seinem irdischen Gegenstück (Alexander 1999: p. 112-113). Die Vorstellung von Jerusalem als Verbindungslinie zwischen Himmel und Erde, sowie der fließende Übergang zwischen dem irdischen und himmlischen Jerusalem, scheint auch in der späteren islamischen Auslegung von Q 17:1 reflektiert zu sein, wo die Erzählungen von Muḥammads Jerusalem- und Himmelsreise miteinander verknüpft wurden (Vgl. dazu z.B. van Ess 1999,  Rubin 2008).Zum Konzept eines Nabels der Erde (nicht nur auf Jerusalem bezogen) mit Beispielen v.a. aus der jüdischen, islamischen und christlich-syrischen Literatur, s. Wensinck 1916.Das Buch der Jubiläen präsentiert sich als die Sinaioffenbarung an 
+Moses, die ihm durch Engel vermittelt wird. Teil dieser Offenbarung sind
+ nach dem Verständnis des Jubiläenbuches nicht nur die Gesetze, sondern 
+auch der Pentateuch, der hier neu erzählt, bzw. unter einer bestimmten 
+Zielsetzung interpretiert wird. Als Trägerkreis lässt sich eine 
+antihellenistische priesterliche Reformgruppe identifizieren, die mit 
+den Asidäern und der kurz darauf entstehenden Qumrangruppe in 
+historischer Verbindung steht. Ziel des Jubiläenbuches ist die Bewahrung der Identität und 
+kultischen Integrität Israels, wobei der Einhaltung des Kalenders und 
+des Sabbats, sowie dem Zusammenhalt der Familie eine besondere Rolle 
+zukommt, was in den Vätergeschichten exemplarisch dargestellt wird. 
+Ursprünglich wurde das Jubiläenbuch auf Hebräisch verfasst; so sind alle
+ in Qumran gefundenen Fragmente hebräisch. Später wurde das Buch auch im
+ Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen 
+(lateinisch; eine anonyme syrische Chronik; Zitate bei griechischen 
+Schriftstellern) zeugen. Vollständig erhalten ist das Buch der Jubiläen 
+dagegen nur in der äthiopischen Übersetzung; wahrscheinlich dadurch 
+bedingt, dass es bis heute Teil des Kanons der äthiopischen Kirche ist, 
+während es in anderen christlichen Konfessionen und im Judentum heute 
+kaum mehr eine Rolle spielt. (Vgl. dazu Berger 1981: p. 279-300).</summary>
+            <msItem>
+              <title>Buch der Jubiläen 8:18-20</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 167 und 140 v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">James C. Vanderkam (Hg.), The Book of Jubilees. A Critical Text, Louvain 1989 (Corpus Scriptorum Christianorum Orientalium 510, Scriptores Aethiopici 87).</bibl>
+              <bibl type="literatur">Alexander, Philip S.: &amp;#x201E;Jerusalem as the Omphalos of the World: On the History of a Geographical Concept&amp;#x201C;. In: Lee I. Levine (Hrsg.), Jerusalem. Its Sancticity and Centrality to Judaism, Christianity and Islam. New York 1999, S. 104&amp;#x2013;119.</bibl>
+              <bibl type="literatur">Berger, Klaus: Das Buch der Jubil&amp;#xE4;en. 1981.</bibl>
+              <bibl type="literatur">Rubin, Uri: &amp;#x201E;Mu&amp;#x1E25;ammad&amp;#x2019;s Night Journey (isr&amp;#x101;&amp;#x2BE;) to al-Masjid al-Aq&amp;#x1E63;&amp;#x101;. Aspects of the Earliest Origins of the Islamic Sanctity of Jerusalem&amp;#x201C;. In: al-Qan&amp;#x1E6D;ara 29,1 (2008),.</bibl>
+              <bibl type="literatur">Wensinck, A.J.: The ideas of the western semites concerning the navel of the earth. M&amp;#xFC;ller, Amsterdam 1916.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2F1024px-Madaba_BW_9.JPG&amp;dw=1000"/>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2F1024px-Madaba_BW_8.JPG&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>8:18 ወተፈሥሐ፡ ኖኅ፡ እስመ፡ ወፅአ፡ ዝንተ፡ መክፈልት፡ ለሴም፡ ወለውሉዱ። ወተዘከረ፡ ኵሎ፡ ዘነበበ፡ በአፋሁ፡ በትንቢት፡ እስመ፡ ይቤ፡ ይትባረክ፡ እግዚአብሔር፡ አምላከ፡ ሴም፡ ወይኅድር፡ እግዚአብሔር፡ ውስተ፡ መኃድሪሁ፡ ለሴም፡ 19 ወአእመረ፡ ከመ፡ ገነተ፡ ኤዶም፡ ቅድስተ፡ ቅዱሳን፡ ወማኅደሩ፡ ለእግዚአብሔር፡ ውእቱ፡ ወደብረ፡ ሲና፡ ማእከላ፡ ለገዳም፡ ወደብረ፡ ጽዮን፡ ማእከለ፡ ሕንብርታ፡ ለምድር። ሠለስቲሆሙ፡ ዝንቱ፡ መንጸረ፡ ዝንቱ፡ ለቅድስት፡ ተፈጥሩ። 20 ወባረኮ፡  ለአምላከ፡ አማልክት፡ ዘወደየ፡ ውስተ፡ አፋሁ፡ ንባበ፡ እግዚአብሔር፡ ወእግዚአብሔር፡ እስከ፡ ለዓለም።</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>8:18 Und Noah freute sich, weil dieser Anteil herausgekommen war für Sem und seine Kinder. Und er erinnerte sich an alles, was er mit seinem Munde in Prophezeiung gesprochen hatte. Denn er hatte gesagt: "Gesegnet sei der Herr, der Gott Sems. Und der Herr wohne in der Wohnstatt Sems." 19 Und er erkannte, daß der Garten Eden das Heilige des Heiligen sei und Wohnung des Herrn und der Berg Sinai die Mitte der Wüste und der Berg Sion die Mitte des Nabels der Erde. Und diese drei, dieses gegenüber jenem, sind zu Heiligtümern geschaffen. 20 Und er segnete den Gott der Götter, der in seinen Mund die Rede des Herrn gelegt hatte, und den Herrn bis in Ewigkeit.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

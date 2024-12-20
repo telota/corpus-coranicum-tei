@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1432">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 73</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 73</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single folio; Shelfmark: KFQ 73; Writing surface: paper; Qurʾānic text: Q 2:282-3:4; Lines per page: 22, Script style: New Style I; Dimensions: 280 x 180 mm. Estimated date of production: 1000-1200. </p>
+              <p> </p>
+              <p>The catalogue written by François Déroche gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">Déroche, The Abbasid Tradition, London 1992, p. 172</ref>): „90 / Single folio / 11th or 12th century AD / 28 x 18cm, with 22 lines to the page / <hi rend="italic">Material</hi> A thin, brittle, buff paper, laid, with 4-5 lines to the centimetre; the lines are parallel to the spine / <hi rend="italic">Text area</hi> 23.3 x 14.5cm / <hi rend="italic">Script</hi> Style NS.I / <hi rend="italic">Accession no.</hi> KFQ 73 / Style NS.I appears here in a form whose simplicity reflects the popularity and wide diffusion of the style. The text – <hi rend="italic">Sūrat al-baqarah </hi>(II), verse 277, to <hi rend="italic">Sūrat </hi><hi rend="italic">āl </hi><hi rend="italic">ʿImr</hi><hi rend="italic">ān</hi> (III), verse 4 – is written in black ink, with diacritical dots and strokes. Red dots indicate the vocalization, while the <hi rend="italic">shaddah</hi>, which has its modern shape, is written in ink. A 3.A.II device in the margin marks the end of a group of ten verses. The title of surah III is written in NS script outlined in ink.“</p>
+              <p> Fragment <ref target="https://corpuscoranicum.de/handschriften/index/sure/2/vers/185?handschrift=1494">HC.MS.2017.0046</ref> seems to come from the same original manuscript.</p>
+              <p> </p>
+              <p>Unfortunately only a small selection of images from this manuscripts (as in the catalogue <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">Abbasid Tradition</ref>, p. 173) are on display in this catalogue.</p>
+            </summary>
+            <msItem xml:id="mysql_id_687373" n="1v">
+              <title type="numeric" key="002:282:119-003:004:011">
+                                    002:282:119-003:004:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>180</width><height>280</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="22">22 - 22 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1000-1200</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_47370">
+      <graphic decls="#imageRights-1" url="manuscript/1432/1f1fbb41-5576-4415-9090-1f46cc74ad51/manuscript-1432-page-47370-image-33313.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

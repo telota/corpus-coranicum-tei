@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1807">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, 1-89-154.186</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>1-89-154.186</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio of a Qur'ān manuscript on parchment; Shelfmark: 1-89-154.186; Qur'ānic text: Q 35:32-35; 6 lines per page; Script style: kūfī type D.I/III. </p>
+            </summary>
+            <msItem xml:id="mysql_id_692681" n="1r">
+              <title type="numeric" key="035:032:006-035:033:004">
+                                    035:032:006-035:033:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692682" n="1v">
+              <title type="numeric" key="035:033:005-035:035:002">
+                                    035:033:005-035:035:002
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>181</width><height>120</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="6">6 - 6 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I / D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52639">
+      <graphic decls="#imageRights-1" url="manuscript/1807/d9e9eafa-980d-457c-94ac-699d0ed56b5a/manuscript-1807-page-52639-image-41377.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52640">
+      <graphic decls="#imageRights-1" url="manuscript/1807/7e5840fd-1b9d-4705-ab48-16b69330a79e/manuscript-1807-page-52640-image-41378.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

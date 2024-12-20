@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1978">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), M. 2 [= Karatay 4]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>M. 2 [= Karatay 4]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>406 fol.; Writing surface: parchment; Shelfmark: M 2; Text: Q 1-114 (?); 16 lines per page; Dimensions: 150 x 200 mm; Script style: kūfī; Estimated date of production: 3rd (9th) century [according to Karatay].  </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise textual information on Sura beginnings or endings. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 2: "4 M. 2   Aynı Eser   Parşömen. 150mm boy ve 200mm eninde cönk  formasında 406 yaprak. Sahifede kûfi ile 155mm uzunl.[uğunda] 16 satır.  Sonunda muahhar olduğu tahmin edilen kûfi bir yazı ileكمل عام اربعة  وسبعين  yazılı ise de bunun yazılış tarihinin III. asırdan evvele  çıkarılması mümkün görülmemektedir. İlk iki sahifesinde mustatil  şeklinde ve salbekli iki levha vardır; sure başları müzehheptir.  Miklepli ve şemseli kırmızı deri cilt." This can be translated into English as follows: "4 M. 2. A Codex of the Qurʾān. Parchment. 406 oblong/horizontally shaped folia of 150 mm height and 200 mm width. The text area written in Kufic script [contains] 16 lines measuring 155 mm. Although كمل عام اربعة وسبعين is written at the end with a Kufic script which is predicted late, it is not possible to date this manuscript earlier than 3rd century. On the first two folia, there are two lengthwise tablets with <hi rend="italic">ṣad-berg/salbek</hi> [an oval shaped motif containing many leafs which is found on the top and bottom parts of mandorla]; sūra beginnings are decorated [<hi rend="italic">müzehhep</hi>]. Red leather binding with flap [<hi rend="italic">miklep</hi>] and mandorla [<hi rend="italic">şemse</hi>]".</p>
+            </summary>
+            <msItem xml:id="mysql_id_700211" n="1">
+              <title type="numeric" key="001:001:001-114:006:003">
+                                    001:001:001-114:006:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 406
+                                    <dimensions unit="mm"><width>200</width><height>150</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_55951">
+                    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende und den Tag des Gerichts</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_539" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>539</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie die fünf angeführten Koranstellen beschreibt auch Jakobs Gedicht über das Weltende in drastischer Bildlichkeit, wie sich am Jüngsten Tag die Erde spaltet und die Gräber aufbrechen, um die von Gott zu richtenden Toten freizugeben. Es handelt sich wohl um eine Dramatisierung einer Stelle aus der Offenbarung des Johannes (20:13): „Und das Meer gab die Toten heraus, die in ihm waren; und der Tod und die Unterwelt gaben ihre Toten heraus, die in ihnen waren. Sie wurden gerichtet, jeder nach seinen Werken.“ Für weitere dem Koran verwandte eschatologische Motive bei Jakob von Sarug, siehe TUK_0531, TUK_0532, TUK_0533, TUK_0534, TUK_0535, TUK_0537, TUK_0538.
+</summary>
+            <msItem>
+              <title>Gedicht über das Weltende und den Tag des Gerichts</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan (Hg.), Homiliae Selectae Mar-Jacobi Sarugensis, Band 2, Paris 1906, S. 848-852.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܡܐ ܕܐܫܬܓܪܬ ܒܪܝܬܐ ܒܙܘܥܐ ܚܡܝܡܐܝܬ:ܐܬܒܠܗܝ ܠܗ ܥܠܡܐ ܟܠܗ ܘܛܥ̣ܐ ܠܕܝܠܗ܀ܡܪܗܒ ܠܗܘܢ ܙܘܥܐ ܠܐ̄ܢܫܐ ܥܙܝܙܐܝܬ:250 ܘܠܬܘ̈ܩܢܐ ܒܪܡܙܐ ܗܦ̇ܟ ܩܠܝܠܐܝܬ܀ܣܚ̇ܦ ܥܘܡܪܐ ܥܠ ܥܡܘܖ̈ܐ ܒܙܘܥܐ ܚܝܨܐ:ܘܠܒܢܝܢܐ ܡܗܓܡ ܫܕܐ ܥܠ ܒܢܝ̈ܐ܀ܪܡ̇ܐ ܠܒܬ̈ܐ ܥܠ ܝܬܒ̈ܐ ܠܡܬܚܒܠܘ:ܘܠܡܕܝܖ̈ܐ ܫܪܐ ܘܡܚܬ ܥܠ ܡܖ̈ܝܗܘܢ܀255 ܕܪܐ ܒܪܡܙܐ ܠܢܘ̈ܣܐ ܦܐܝ̈ܐ ܘܠܨܒܬܝ̈ܗܘܢ:ܙܪܩ ܫܕܐ ܐܦ ܠܐܦܕܢ̈ܐ ܘܕܝܖ̈ܝܗܝܢ܀ܡܫܕܪ ܩܠܗ ܥܠ ܣܚܖ̈ܬܐ ܘܡܚܪܒ ܠܗܝܢ:ܘܛܐܣ ܥܒܪ ܒܡܕܝ̈ܢܬܐ ܘܗܦ̇ܟ ܠܗܝܢ܀ܡܦܫܚ ܫܕܐ ܠܛܘܖ̈ܝ ܥܘܫܢܐ ܘܣܚ̇ܦ ܠܗܘܢ:260 ܘܓܐܕ ܡܚܬ ܫܩܝ̈ܦܐ ܖ̈ܡܐ ܘܡܪܒܚ ܠܗܘܢ܀ܟܐܐ ܒܝܡܐ ܐܦ ܡܘܒܫ ܠܗ ܐܝܟ ܕܪܫܝܡܐ:ܘܢܗܖ̈ܘܬܐ ܒܩܠܗ ܡܚܪܒ ܐܝܟ ܕܟܬܝܒܐ܀ܦܪܛ ܫܕܐ ܠܟܠܝܠ ܢܘܗܪܐ ܕܣܝܡ ܠܪܩܝܥܐ:ܘܒܚܫܘܟܐ ܕܪܐ ܠܛܒܥܘ̈ܗܝ ܡܠ̈ܚ ܙܝܘܐ܀265 ܫܕܐ ܥܩܒܐ ܠܓܝ̈ܓܠܝ ܫܡܫܐ ܕܠܐ ܢܬܟܖ̈ܟܢ:ܘܒܛܠܐ ܐܘܪܚܐ ܕܛܪܝܕܐ ܗ̄ܘ̣ܬ ܥܠ ܟܠ ܣܘ̈ܦܝܢ܀ܦܟܪ ܫܕܐ ܠܣܗܪܐ ܘܐܘܪܚܐ ܕܪܕܐ ܗ̄ܘ̣ܐ ܒܗ̇:ܘܡܒܛܠ ܠܗ ܕܠܐ ܢܬܝܒܠ ܥܠ ܫܘܚ̈ܠܦܐ܀ܢܬܪܝܢ ܟܘܟܒ̈ܐ ܐܝܟ ܦܩܘ̈ܥܐ ܡ̣ܢ ܐܝܠܢ̈ܐ:270 ܘܚܫ̇ܟ ܥܪܩ ܡܬܚܐ ܪܘܝܚܐ ܕܙܠܝܩܝ̈ܗܘܢ܀ܒܠܝܢ ܫܡܝܐ ܐܝܟ ܬܟܣܝܬܐ ܒܥܬܝܩܘܬܐ:ܘܢܬܪܝܢ ܢܚܬܝܢ ܟܕ ܡܬܚܠܦܝܢ ܐܝܟ ܡܖ̈ܛܘܛܐ܀ܩܐܡ ܫܡܫܐ ܥܪܛܠܐܝܬ ܡ̣ܢ ܙܠܝܩܘ̈ܗܝ:ܘܨܪܐ ܣܗܪܐ ܦܪܝܣܐ ܕܢܘܗܪܗ ܕܡܥܛܦ ܗ̄ܘ̣ܐ܀275 ܫܠܚ ܫܕܐ ܐܐܪ ܓܘܢܐ ܕܡܟܣܝ ܗ̄ܘ̣ܐ:ܘܟܡܝܪܘܬܐ ܒܚܫܐ ܠܒ̇ܫ ܥܠ ܒܪܝܘܬܐ܀ܗܝܕܝܢ ܡܚܝܢ ܚܒ̈ܠܐ ܠܐܪܥܐ ܡ̣ܢ ܓܘ ܫܠܝܐ:ܕܬܒܪܘܟ ܬܐܠܕ ܥܘ̈ܠܐ ܛܡܝܖ̈ܐ ܕܒܛܝܢܐ ܗ̄ܘ̣ܬ܀ܓܥܝܐ ܒܚܫܐ ܐܝܟ ܝܠܕܬܐ ܐܪܥܐ ܟܠܗ̇:280 ܠܡܚܒܠܘ ܠܝܠܕ̈ܐ ܣܒܝ̈ܣܐ ܕܛܡܝܪܝܢ ܒܗ̇܀ܓܣܝܢ ܩܒܖ̈ܐ ܠܡܝ̈ܬܐ ܕܒܗܘܢ ܐܝܟ ܡܒܘ̈ܥܐ:ܘܦܩܥܝܢ ܫܘܥ̈ܐ ܠܡܬܠ ܐܬܪܐ ܠܚܝ̈ܠܘܬܐ܀ܩܪܒ̣ ܓܪܡܐ ܠܓܪܡܐ ܚܒܪܗ ܐܝܟ ܕܟܬܝܒܐ:ܘܠܒܪܬ ܙܘܓܗ̇ ܐܦ ܫܪܝܬܐ ܐܝܟ ܕܐܡܝܪܐ܀285 ܠܘ ܚܙܩܝܐܝܠ ܡܟܪܙ ܬܡܢ ܥܠ ܥܢܝ̈ܕܐ:ܕܡܪܐ ܢܒܝ̈ܐ ܩܪܐ ܠܡܝ̈ܬܐ ܕܩܘܡܘ ܡ̣ܢ ܬܡܢ܀ܠܐ ܗ̄ܘ̣ܐ ܒܬܪܬܝܢ ܙܒܢ̈ܝܢ ܩܝܡܝܢ ܒܬܪܝܢ ܩܠܝ̈ܢ:ܕܒܚܕ ܪܡܙܐ ܪܟܒܝܢ ܪܘܡܐ ܠܡܬܥܠܝܘ܀ܠܘ ܓܝܪ ܚܙܘܐ ܬܡܢ ܗܘ̇ܐ ܐܦ ܠܐ ܕܡܘܬܐ:290 ܐܠܐ ܫܪܪܐ ܡܟܪܙ ܬܡܢ ܣܘܥܪܢܐܝܬ܀ܕܡܘܬܐ ܫܐܝܠܬܐ ܚ̣ܙܐ ܚܙܩܝܐܝܠ ܐܝܟ ܕܒܐ̄ܪܙܐ:ܘܕܠܐ ܡܝ̈ܬܐ ܠܡܝ̈ܬܐ ܢܚܡ ܒܢܒܝܘܬܗ܀ܒܗܘ̇ ܕܝܢ ܝܘܡܐ ܠܐ ܗܟܢܐ ܣ̇ܥܪ ܒܘܟܪܐ:ܘܠܘ ܒܕܡܘܬܐ ܘܛܠܢܝܬܐ ܡܩܝܡ ܥܢܝ̈ܕܐ܀295 ܒܚܬܝܬܘܬܐ ܗܦ̇ܟ ܪܡܙܗ ܠܫܖ̈ܕܘܕܐ:ܠܐ ܗ̄ܘ̣ܐ ܒܐ̄ܖ̈ܙܐ ܡܩܝܡ ܠܩܒܝܖ̈ܐ ܐܠܐ ܒܩܘܫܬܐ܀ܕܪܐ ܠܛܘܖ̈ܐ ܘܟܢ̇ܫ ܓܖ̈ܡܐ ܕܙܪܝܩܝܢ ܗ̄ܘ̣ܘ:ܡܣܝܦ ܖ̈ܡܬܐ ܘܠܩܘ̈ܡܬܐ ܕܐ̄ܢܫܐ ܒܢ̇ܐ܀ܓܐܕ ܐܪܥܐ ܘܣܪܓ ܓܘܫ̈ܡܐ ܠܡܬܚܕܬܘ:300 ܩܦ̇ܠ ܬܒܝܠ ܘܡܝܬܐ ܦܓܖ̈ܐ ܠܡܬܪܟܒܘ܀ܡܚܫܟ ܫܡܫܐ ܘܪܡ̇ܐ ܢܘܗܪܐ ܒܓܘ ܒܒ̈ܬܐ:ܡܥܪܒ ܣܗܪܐ ܘܐܫ̇ܕ ܙܝܘܐ ܥܠ ܦܖ̈ܨܘܦܐ܀ܡܥܩܪ ܥܒ̈ܐ ܘܫܬ̇ܠ ܥܖ̈ܫܐ ܕܫܡܝܛܝܢ ܗ̄ܘ̣ܘ:ܡܦܫܚ ܕܘܠܒ̈ܐ ܘܣܕܪ ܫܢ̈ܐ ܕܢܬܝܖ̈ܢ ܗ̣̄ܘܝ̈܀305 ܡܚܪܒ ܓܢ̈ܐ ܘܠܗܕܡ̈ܐ ܒܓܘܫ̈ܡܐ ܫܬ̇ܠ:ܐܖ̈ܙܐ ܡܬܒܪ ܘܠܩܘ̈ܡܬܐ ܒܫܘܒܚܐ ܬܪܨ܀ܡܓܝܙ ܠܬܗܘܡ̈ܐ ܘܡܪܕܐ ܚܝ̈ܐ ܠܕܡܝܬܝܢ ܗ̄ܘ̣ܘ:ܩܪܐ ܒܩܠܐ ܘܢܕܝܢ ܩܝܡܝܢ ܟܠ ܫܟܝ̈ܒܐ܀ܕܪܟ ܪܡܙܐ ܠܥܠ ܡ̣ܢ ܟܪܣܗ ܕܡܘܬܐ ܝܥܢܐ:310 ܐܦ ܬܪܙ ܠܗ ܘܡܦܩ ܐܘܟܠܗ ܟܕ ܠܐ ܡܚܒܠ܀ܩܠ ܢܘܚܡܐ ܥܩܪ ܠܫܝܘܠ ܐܦ ܕܪܐ ܠܗ̇:ܘܢܦܠܝܢ ܫܘܖ̈ܝܗ̇ ܘܢܦ̇ܩ ܥܡܐ ܕܚܒܝܫ ܗ̄ܘ̣ܐ ܒܗ܀ܚ̣ܙܐ ܗ̄ܘ̣ܐ ܢܒܝܐ ܠܡܘܬܐ ܘܫܝܘܠ ܟܕ ܡܬܟܒܫܝܢ:ܘܐܪܝܡ ܩܠܗ ܕܢܗܠ ܒܗܘܢ ܒܢܒܝܘܬܗ܀315 ܙܟܘܬܟ ܠܡ ܐܝܟܐ ܗ̣̄ܝ ܡܘܬܐ ܕܗܐ ܚܐܒ ܐܢ̄ܬ:ܘܐܝܟܐ ܗ̣̄ܘ ܥܘܩܣܟܝ ܫܝܘܠ ܕܘܝܬܐ ܕܐܫܬܗܝ ܠܗ܀ܡܬܒܠܥ ܠܗ ܓܝܪ ܡܘܬܐ ܝܥܢܐ ܒܙܟܝܘܬܐ:ܐܦ ܒܩܝܡܬܐ ܫܝܘܠ ܡܬܥܩܪܐ ܕܬܘܒ ܠܐ ܬܬܒ܀ܣܠܩܝܢ ܡܝ̈ܬܐ ܡ̣ܢ ܒܠܥܬܐ ܕܢܚܬܘ ܗ̄ܘ̣ܘ ܠܗ̇:320 ܘܦܪܚܝܢ ܓܘܫ̈ܡܐ ܡ̣ܢ ܨܡܪܬܐ ܕܛܒܥܘ ܗ̄ܘ̣ܘ ܒܗ̇܀ܪܦܬܝܢ ܦܓܖ̈ܐ ܠܡܬܢܦܨܘ ܡ̣ܢ ܕܚܝܚܐ:ܘܬܠܝܢ ܓܦܐ ܖ̈ܦܝܢ ܖ̈ܦܝܢ ܡ̣ܢ ܓܘ ܥܦܪܐ܀ܢܙܠܐ ܐܪܥܐ ܘܝܗܒܐ ܓܘܫ̈ܡܐ ܕܛܡܝܪܝܢ ܒܗ̇܀ܕܠܝܠܐ ܗ̄ܘ̣ܬ ܓܝܪ ܕܢܚܦܐ ܐ̄ܢܫ ܫܡܫܐ ܒܚܘܦܢܘ̈ܗܝ:325 ܐܘ ܕܬܣܬܪ ܐܪܥܐ ܒܚܪܬܐ ܚܕ ܡ̣ܢ ܡܝ̈ܬܐ܀ܦܫܝܩ ܗ̄ܘ̣ܐ ܕܢܐܒܕ ܛܘܪܐ ܪܡܐ ܡܨܥܬ ܐܘܪܚܐ:ܐܘ ܦܪܬܘܬܐ ܙܥܘܪܐ ܢܛܥܐ ܒܚܕ ܡ̣ܢ ܦܓܖ̈ܐ܀ܟܠܗܘܢ ܦܓܖ̈ܐ ܕܚܢܩ̣ ܝܡܐ ܘܐܟܠܘ ܢܘ̈ܢܐ:ܘܐܘܒܕ ܖ̈ܚܫܐ ܘܓܪܦܘ ܡܝ̈ܐ ܘܚܦܝ ܬܗܘܡܐ܀330 ܕܡܝܬܘ ܒܩܖ̈ܒܐ ܘܕܐܬܢܬܫܘ ܡ̣ܢ ܦܖ̈ܚܬܐ:ܕܐܟܠܬ ܚܪܒܐ ܘܕܐܬܒܣܒܣܘ ܡ̣ܢ ܚܝ̈ܘܬܐ܀ܕܚܪܟܬ ܢܘܪܐ ܘܕܐܣܬܪܚܘ ܡ̣ܢ ܓܝܣ̈ܐ:ܕܣܝܒܪܘ ܫܢ̈ܕܐ ܘܕܐܬܦܣܩܘ ܡ̣ܢ ܕܝܢ̈ܐ܀ܕܐܘܒܕ ܫܒܝܐ ܘܕܗܘܘ ܐܘܟܠܐ ܠܐܖ̈ܝܘܬܐ:335 ܕܓܪܕܬ ܛܝܪܐ ܘܐܟܠܘ ܐܢܘܢ ܥܘܖ̈ܒܐ ܘܢܥܒ̈ܐ܀ܕܡܝܬܘ ܥܠ ܛܘܖ̈ܐ ܘܕܣܒܥܘ ܡܢܗܘܢ ܟܠ ܕܝ̈ܬܐ:ܕܫܟܒܘ ܒܢܩ̈ܥܐ ܘܚܦܝܘ ܐܢܘܢ ܫܩܝ̈ܦܐ ܖ̈ܡܐ܀ܕܚܦܝ ܗܦܘܟܝܐ ܘܛܡܪܘ ܐܢܘܢ ܬܠܠ̈ܐ ܖ̈ܡܐ:ܘܕܐܬܦܠܓܘ ܒܡ̈ܢܘܬܐ ܠܐܖ̈ܝܘܬܐ܀340 ܟܠܗܘܢ ܗܠܝܢ ܕܒܟܠ ܡܘ̈ܬܝܢ ܐܬܛܠܩܘ ܗ̄ܘ̣ܘ:ܒܚܕ ܗ̣̄ܘ ܪܡܙܐ ܩܝܡܝܢ ܟܠܗܘܢ ܩܠܝܠܐܝܬ܀ܡ̣ܢ ܚܕ ܩܠܐ ܥܪܩ ܡܘܬܐ ܘܢܦܠܐ ܠܗ̇ ܫܝܘܠ:ܘܪܦܬܝܢ ܓܖ̈ܡܐ ܘܩܛܪܝܢ ܓܘܫܡ̈ܐ ܘܚܝܨܝܢ ܦܓܖ̈ܐ܀ܘܩܝܡܝܢ ܡܝ̈ܬܐ ܘܦܩܥܝܢ ܫܘܥ̈ܐ ܘܪܥܡܝܢ ܩܒܖ̈ܐ:345 ܡܦܢܝܐ ܐܪܥܐ ܘܓܣ̇ܐ ܝܡܐ ܘܡܘܫܛ ܥܘܡܩܐ܀ܡܬܬܒܥ ܖ̈ܚܫܐ ܘܝܗܒܐ ܛܝܪܐ ܘܒܛܠܐ ܚܪܒܐ:ܘܦܪܚܝܢ ܘܐܬܝܢ ܓܖ̈ܡܐ ܙܖ̈ܝܩܐ ܡ̣ܢ ܟܠ ܓܒܝ̈ܢ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Dann, plötzlich, aus der Ruhe heraus, wird die Erde von heftigen Wehen befallen, so dass sie niederkniet und verborgene Säuglinge [Tote] gebiert, mit denen sie schwanger war.
+	Die gesamte Erde stöhnt vor Schmerzen wie eine Gebärende, 280 um unter Wehen Mengen an Kindern zu gebären, welche in ihr verborgen waren.
+	Die Gräber speien ihre Toten hervor wie Quellen. Die Felsen zersplittern, um Platz für die Heerscharen [der Toten] zu machen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

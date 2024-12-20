@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1549">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.73.5.498</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.73.5.498</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_687879" n="1r">
+              <title type="numeric" key="002:102:029-002:102:051">
+                                    002:102:029-002:102:051
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687880" n="1v">
+              <title type="numeric" key="002:102:029-002:102:051">
+                                    002:102:029-002:102:051
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="6">6 - 6 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47839">
+      <graphic decls="#imageRights-1" url="manuscript/1549/7777893b-4b22-4c5c-a7e2-f90942136848/manuscript-1549-page-47839-image-34125.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47840">
+      <graphic decls="#imageRights-1" url="manuscript/1549/6d1daf6e-758b-46ac-ae4f-1e0ee6a435ee/manuscript-1549-page-47840-image-34126.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

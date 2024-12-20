@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Über das Heilige Land</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_146" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>146</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Erwähnung eines Hundes zu Füßen von sieben schlafenden Brüdern in Ephesus im Reisebericht des Theodosius hat Koch 1883, Huber 1910 und später auch Waldner 2008 zu der Überlegung gebracht, dass die Nennung eines Hundes innerhalb der Erzählung über die „Gefährten der Höhle“ in Sure 18, welche die christliche „Siebenschläferlegende“ rezipiert, möglicherweise bereits vorkoranisch ist. (Gildemeister 1882, der den Bericht kritisch ediert hat, verweist aber darauf, dass die ersten Handschriften aus dem 8. Jh. stammen und redaktionelle Zusätze enthielten. Es ist auch nicht sicher, ob es sich bei catulus (Tierjunges, vor allem bei Katzen und Hunden) tatsächlich um einen Hund handelt, denn es erscheint ungewöhnlich, dass dessen Name vor denen der Schläfer aufgeführt wird. Zudem erwähnt keine andere frühe christliche Quelle einen Hund im Zusammenhang mit der Legende (vgl. dazu auch TUK_0415). Wahrscheinlich handelt es sich also um eine spätere Hinzufügung. Auch ansonsten weicht die Erwähnung bei Theodosius von den bekannten christlichen Überlieferungen ab. So berichtet er, dass es sich bei den Schläfern um Brüder handelt. Sie werden ansonsten als Freunde oder Kameraden bezeichnet. Es wird vermutet, dass Theodosius die Geschichte wahrscheilich in Palästina gehört hat. Ob die Vorstellung dort ihren Ursprung hat oder nur erhalten geblieben ist, ist nicht klar.
+
+	Dagegen erwähnt Jakob von Sarug einen Wächter, den Gott zur Bewachung der Schläfer, die er mit einer bedrohten Schafherde vergleicht, sendet. Huber 1910 hat daraus geschlossen, dass die von Jakob von Sarug gebrauchten pastoralen Metaphern im Koran ihrer Bildhaftigkeit entkleidet werden. Griffith 2008 deutet die Erwähnung des Hundes indes als Anspielung auf diese Metaphern. Die Lesart, nach der kāliʾuhum  („ihre Wächter“) statt kalbuhum („ihr Hund“) im Koran zu lesen sei, die Waldner  2008 im Hinblick auf die Homilie des Jakob von Sarug favorisiert, ist nur ein einziges Mal bezeugt und wird als Auslegung gedeutet (al-Ḫaṭīb, Muʿǧam: Bd. 5, p. 171). Dies erscheint einsichtig, da Änderungen am Text meist schwierige Stellen vereinfachen sollen. Deswegen ist weiterhin davon auszugehen, dass im Koran von einem Hund die Rede ist.
+
+	 
+</summary>
+            <msItem>
+              <title>Über das Heilige Land</title>
+              <author>Theodosius</author>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">520-530</origDate>
+              <origPlace>Nordafrika</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Theodosii de situ terrae sanctae, hg. von Johannes Gildemeister, Bonn 1882, S. 27.</bibl>
+              <bibl type="literatur">Gildermeister, Johannes (Hrsg.): Theodosius de situ Terrae sanctae im &amp;#xE4;chten Text und der Brevarius de Hierosolyma. Bonn 1882.</bibl>
+              <bibl type="literatur">Griffith, Sidney: &amp;#x201E;Christian Lore and the arabic Qur&amp;#x2019;an. The &amp;#x201C;Companions of the Cave&amp;#x201D; in Surat al-Kahf and in Syriac Christian tradition&amp;#x201C;. In: Reynolds, Gabriel S. (Hrsg.), The Qur&amp;#x2019;an in its historical context. New York 2008, S. 109&amp;#x2013;138.</bibl>
+              <bibl type="literatur">Huber, Michael: Die Wanderlegende von den Siebenschl&amp;#xE4;fern. Eine literargeschichtliche Untersuchung. Leipzig 1910.</bibl>
+              <bibl type="literatur">Koch, John: Die Siebenschl&amp;#xE4;ferlegende: Ihr Ursprung und ihre Verbreitung. Eine mythologisch-literaturgeschichtliche Studie. Leipzig 1883.</bibl>
+              <bibl type="literatur">Waldner, Wolfram: &amp;#x201E;Wie kam der Hund in die Siebenschl&amp;#xE4;ferlegende?&amp;#x201C; In: Jastrow, Otto, Talay, Shabo, &amp;amp; Hafenrichter, Herta (Hrsg.), Studien zur Semitistik und Arabistik Festschrift f&amp;#xFC;r Hartmut Bobzin zum 60. Geburtstag. Wiesbaden 2008, S. 423&amp;#x2013;430.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Hannelies Koloska</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>
+	In provincia asia civitas ephesus, ubi sunt septem fratres dormientes et catulus viricanus, ad pedes eorum; nomina eorum id est: achellidis, diomedis, eugenius, stephanus, probatus, sabbatius et quiriacus, quorum mater caritina dicitur graece, latine felicitas.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	In der Provinz von Asia ist die Stadt Ephesus, wo die sieben schlafenden Brüder sind und das Hündchen Viricanus zu ihren Füßen. Ihre Namen sind: Achellidis, Diomedis, Eugenius, Stephanus, Probatus, Sabbatius und Quiriacus. Ihre Mutter wird auf Griechisch Caritina genannt, auf Lateinisch Felicitas.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

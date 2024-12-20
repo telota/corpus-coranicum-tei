@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 14:13 (Targum Onqelos)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_646" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>646</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der koranische Text (Q 2:50) spricht ebenfalls, wie die Exodus-Passage (hier nach dem Targum angegeben) von der Errettung vor Pharao (arabisch ʾanǧainākum "wir haben gerettet"). Besonders erinnert aber der arabische Ausdruck wa-ʾantum tanẓurūna ("ihr werdet sehen") also die Betonung der Augenzeugenschaft, an den biblischen Text: "Schauet die Errettung" (ḥzō yāt purqānā) und "(so wie heute) werdet ihr sie (die Ägypter) nie wieder sehen" (lā tōspūn l-meḥzēhōn ʿōd ʿad ʿālam). Desweiteren enthält der targumische Text das Wort purqānā für "Errettung", das in Q 2:53 ebenfalls erwähnt wird. Im hebräischen Text steht dafür yəšūʿāh. Um die sprachliche Nähe von arabisch furqān und aramäisch purqānā zu illustrieren, wurde hier die antike Übersetzung der Hebräischen Bibel ins Aramäische (Targum Onqelos) verwendet.
+
+	Zu furqān vgl. auch Jeffery 1938: p. 225-229.
+</summary>
+            <msItem>
+              <title>Exodus 14:13 (Targum Onqelos)</title>
+              <author/>
+              <textLang mainLang="">Aramäisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Menachem Cohen (Hg.), Mikra'ot Gedolot Haketer: A revised and augmented scientific edition of "Mikra'ot Gedolot" based on the Aleppo Codex and Early Medieval MSS, Tel Aviv 1992.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	וַאְמַר מֹשַׁה לְעַמָא לָא תִדחְלַון אִתעַתַדֻו וַחזוֹ יָת  פֻורקָנָא  דַיוי דְעָבֵיד לְכוֹן יוֹמָא דֵין אְרֵי כמא דַחזֵיתוֹן יָת מִצרָאֵי יוֹמָא דֵין לָא תוֹסְפֻון לְמִחזֵיהוֹן עוֹד עַד עָלְמָא
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Und Moses sagte zum Volk: „Habt keine Angst und macht euch bereit und schauet die Purqānā (Errettung), welche Gott für euch an diesem Tag gemacht hat. Wahrlich, so wie ihr heute die Ägypter seht, so werdet ihr sie sicherlich nie wieder sehen.“
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

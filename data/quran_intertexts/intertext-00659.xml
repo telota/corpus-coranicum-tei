@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jüdische Altertümer 1:155-156</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_659" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>659</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 6:76-79 beschreibt, wie sich Abraham der Reihe nach Stern, Mond und Sonne zum "Herrn" erwählt, dann aber den Untergang besagter Himmelskörper beobachtet, und daraufhin Gott als den Schöpfer der Welt bekennt. Ähnliche Traditionen über die Gotteserkenntnis Abrahams sind in der postbiblischen Literatur bezeugt. So berichtet Flavius Josephus, dass Abraham durch die Betrachtung der Himmelskörper schließlich zur Erkenntnis Gottes gelangt. Auch Philo erzählt in De Abrahamo, dass Abraham aus der Ordnung der Natur Gott erkennt. Einen ähnlichen Erkenntnisprozess schildern auch verschiedene Apokryphen, z.B. das Buch der Jubiläen (vgl. TUK_0674) und die der koranischen Version am nächsten stehende Erzählung in der Apokalypse Abrahams (vgl. TUK_0457). Dort muss Abraham feststellen, daß jedes Naturphänomen durch ein stärkeres zerstört werden kann, und beschließt daraufhin, den Gott zu suchen, der alles geschaffen hat.
+</summary>
+            <msItem>
+              <title>Jüdische Altertümer 1:155-156</title>
+              <author>Flavius Josephus (ca. 37- nach 100)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 80 und 94 n. Chr.</origDate>
+              <origPlace>Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	B. Niese (Hg.), Flavii Iosephi opera, Berlin 1892.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	155 διὰ τοῦτο καὶ φρονεῖν μεῖζον ἐπ᾽ ἀρετῇ τῶν ἄλλων ἠργμένος καὶ τὴν περὶ τοῦ θεοῦ δόξαν ἣν ἅπασι συνέβαινεν εἶναι καινίσαι καὶ μεταβαλεῖν ἔγνω πρῶτος οὖν τολμᾷ θεὸν ἀποφήνασθαι δημιουργὸν τῶν ὅλων ἕνα τῶν δὲ λοιπῶν εἰ καί τι πρὸς εὐδαιμονίαν συντελεῖ κατὰ προσταγὴν τὴν τούτου παρέχειν ἕκαστον καὶ οὐ κατ᾽ οἰκείαν ἰσχύν 156 εἰκάζεται δὲ ταῦτα τοῖς γῆς καὶ θαλάσσης παθήμασι τοῖς τε περὶ τὸν ἥλιον καὶ τὴν σελήνην καὶ πᾶσι τοῖς κατ᾽ οὐρανὸν συμβαίνουσι δυνάμεως γὰρ αὐτοῖς παρούσης καὶ προνοῆσαι τῆς κατ᾽ αὐτοὺς εὐταξίας ταύτης δ᾽ ὑστεροῦντας φανεροὺς γίνεσθαι μηδ᾽ ὅσα πρὸς τὸ χρησιμώτερον ἡμῖν συνεργοῦσι κατὰ τὴν αὐτῶν ἐξουσίαν ἀλλὰ κατὰ τὴν τοῦ κελεύοντος ἰσχὺν ὑπουργεῖν ᾧ καλῶς ἔχει μόνῳ τὴν τιμὴν καὶ τὴν εὐχαριστίαν ἀπονέμειν
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	155 Daher begann er mehr als die anderen über Tugend nachzudenken und beschloß daraufhin, das allgemein übliche Gottesverständnis neu und anders zu fassen. So wagte er als erster, zu lehren, daß Gott Schöpfer des Alls sei, einer; und wenn von den übrigen (Mächten) eine etwas zum Lebensglück beitrage, tue dies jede nach seiner Anordnung und nicht aus eigener Kraft. 156 Er schloss das aus den wechselnden Vorgängen auf Erde und Meer und all dem, was sich mit Sonne, Mond und allen Himmelskörpern abspielt: Hätten sie (eigene) Kraft, würden sie ihre eigene Ordnung selbst regeln (so lehrte er); doch daß sie über keine solche verfügten, sei offensichtlich, und gar nichts zu unserem Nutzen beitragen könnten aus eigener Vollmacht, sondern daß sie entsprechend der Stärke des (ihnen) Befehlenden Dienst leisten müssten, dem gebührenderweise allein die Ehre und der Dank zu erweisen seien.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

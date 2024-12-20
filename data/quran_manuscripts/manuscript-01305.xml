@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1305">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 7198</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 7198</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Arabe 7198; 15 lines per page; Dimensions: 97 x 103 mm; Script style: kūfī D<hi rend="italic">; </hi>Estimated date of production: 750-900 AD; Provenance: Giza, Seymour de Ricci collecrtion. </p>
+              <p>The catalogue of François Déroche (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/KCAZQ5NS" sameAs="KCAZQ5NS" type="zotero">Déroche 1983: p.154</ref>) gives following information: "Arabe <hi rend="bold">7198  </hi>Fragment de parchemin, 97 x 103 mm. 15 lignes. V, 89 (<hi rend="italic">ʾawsaṭi</hi>)  à V, 100 (<hi rend="italic">wa-l-ṭayyibu</hi>). Graphie D commune. Diacritiques absents ; vocalisation : points rouges, partiellement portés. Les versets ne sont pas séparés. Hauteur des lignes : 5 a 6 mm. Encre brun foncé. Provient de 13. collection Seymour de Ricci; acheté à ‘Ali, à Gizeh, 1e 5 décembre 1908. Ancienne cote : Lot 16, Loubat 108."</p>
+            </summary>
+            <msItem xml:id="mysql_id_682263" n="1r">
+              <title type="numeric" key="005:089:017-005:094:012">
+                                    005:089:017-005:094:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682264" n="1v">
+              <title type="numeric" key="005:094:013-005:100:005">
+                                    005:094:013-005:100:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>97</width><height>103</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42269">
+      <graphic decls="#imageRights-1" url="manuscript/1305/4cfe5d46-3e2b-4f3f-b6d7-d0983f3b44e6/manuscript-1305-page-42269-image-27933.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42270">
+      <graphic decls="#imageRights-1" url="manuscript/1305/e4bb5c18-5e1b-40cd-9034-d58a3623e6c1/manuscript-1305-page-42270-image-27934.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Über den Gottesstaat 17:14</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_318" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>318</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Augustinus-Passage belegt die vom Koran vorausgesetzte Vorstellung, dass David der Autor sämtlicher 150 Psalmen ist. Bereits in der Hebräischen Bibel finden sich Ansätze dieser Idee: David werden dort nicht nur einzelne Psalmen zugeschrieben (vgl. Psalm 51:1, 62:1, 63:1, 64:1, 65:1, 68:1, 69:1, 70:1, 109:1, etc. mit der Überschrift "ein Psalm Davids"), sondern auch ein ganzes Korpus von Psalmen (vgl. Psalm 72:20). Die hier von Augustinus vertretene Ansicht beruht wahrscheinlich auf einer Weiterentwicklung dieser Vorstellung. (Speyer 1931: p. 381)</summary>
+            <msItem>
+              <title>Über den Gottesstaat 17:14</title>
+              <author>Augustinus (350-430)</author>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">413-426</origDate>
+              <origPlace>Nordafrika</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Augustinus, De civitate Dei, hg. v. B. Dombart und A. Kalb, Turnhout 1955.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>%3Cp%3EProcurrente+igitur+per+tempora+civitate+Dei%2C+primo+in+umbra+futuri%2C+in+terrena+scilicet+Hierusalem%2C+regnavit+David.+Erat+autem+David+vir+in+canticis+eruditus%2C+qui+harmoniam+musicam+non+vulgari+voluptate%2C+sed+fideli+voluntate+dilexerit+eaque+Deo+suo%2C+qui+verus+est+Deus%2C+mystica+rei+magnae+figuratione+servierit.+Diversorum+enim+sonorum+rationabilis+moderatusque+concentus+concordi+varietate+compactam+bene+ordinatae+civitatis+insinuat+unitatem.+Denique+omnis+fere+prophetia+eius+in+psalmis+est%2C+quos+centum+quinquaginta+liber+continet%2C+quem+psalmorum+vocamus.+In+quibus+nonnulli+volunt+eos+solos+factos+esse+a+David%2C+qui+eius+nomine+inscripti+sunt.+Sunt+item+qui+putant+non+ab+eo+factos%2C+nisi+qui+praenotantur%3A+Ipsius+David%3B+qui+vero+habent+in+titulis%3A+Ipsi+David%2C+ab+aliis+factos+personae+ipsius+fuisse+coaptatos.+Quae+opinio+voce+evangelica+Salvatoris+ipsius+refutatur%2C+ubi+ait%2C+quod+ipse+David+in+spiritu+Christum+dixerit+esse+Dominum+suum%3B+quoniam+psalmus+centensimus+nonus+sic+incipit%3A+Dixit+Dominus+Domino+meo%3A+Sede+a+dextris+meis%2C+donec+ponam+inimicos+tvos+scabellum+pedum+tvorum.+Et+certe+idem+psalmus+non+habet+in+titulo%3A+Ipsius+David%2C+sed%3A+Ipsi+David%2C+sicut+plurimi.+Mihi+autem+credibilius+videntur+existimare%2C+qui+omnes+illos+centum+et+quinquaginta+psalmos+eius+operi+tribuunt+eumque+aliquos+praenotasse+etiam+nominibus+aliorum+aliquid%2C+quod+ad+rem+pertineat%2C+figurantibus%2C+ceteros+autem+nullius+hominis+nomen+in+titulis+habere+voluisse%2C+sicut+ei+varietatis+huius+dispositionem%2C+quamvis+latebrosam%2C+non+tamen+inanem+Dominus+inspiravit.+Nec+movere+debet+ad+hoc+non+credendum%2C+quod+nonnullorum+nomina+prophetarum%2C+qui+longe+post+David+regis+tempora+fuerunt%2C+quibusdam+psalmis+in+eo+libro+leguntur+inscripta+et+quae+ibi+dicuntur+velut+ab+eis+dici+videntur.+Neque+enim+non+potvit+propheticus+spiritus+prophetanti+regi+David+haec+etiam+futurorum+prophetarum+nomina+revelare%2C+ut+aliquid%2C+quod+eorum+personae+conueniret%2C+prophetice+cantaretur%3B+sicut+rex+Iosias+exorturus+et+regnaturus+post+annos+amplius+quam+trecentos+cuidam+prophetae%2C+qui+etiam+facta+eius+futura+praedixit%2C+cum+suo+nomine+revelatus+est.%3C%2Fp%3E</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Zu einer Herrschaft, die das Kommende vorausschattete, gelangte also im zeitlichen Verlauf des Gottesstaates zuerst David als König des irdischen Jerusalems. David nun war ein sangeskundiger Mann, der den Wohlklang der Musik nicht des üblichen Vergnügens halber, sondern in gläubiger Gesinnung liebte und pflegte und sie durch geheimnisvolle Sinnbildung einer großen Sache in den Dienst seines Gottes stellte, der der wahre Gott ist. Denn der von der Vernunft geordnete und regelrechte Zusammenklang verschiedener Töne weist durch die Einheit in der Verschiedenheit auf die festgefügte Einheit eines wohlgeordneten Staates hin. Auch findet sich in den Psalmen, deren das sogenannte Buch der Psalmen hundertfünfzig enthält, fast seine ganze Weissagung. Von diesen hundertfünfzig Psalmen wollen freilich manche nur die als sein Werk gelten lassen, die seinen Namen in der Titelüberschrift tragen; wieder andere nur die, deren Überschrift lautet: "Von David selbst", während die mit dem Titel: "Dem David selbst" von anderen verfaßt und ihm nur angepaßt seien. Diese Ansicht wird jedoch durch einen Ausspruch des Heilands selbst im Evangelium widerlegt, wo er sagt, daß David selbst im Geiste Christus seinen Herrn genannt habe; denn der 109. Psalm beginnt mit den Worten: "Es sprach der Herr zu meinem Herrn: Setze dich zu meiner Rechten, bis ich deine Feinde dir als Schemel zu Füßen lege." Und gerade dieser Psalm hat zum Titel nicht: "Von David selbst", sondern: "Dem David selbst", wie die meisten. Ich halte überhaupt die Ansicht derer für richtiger, die alle diese hundertfünfzig Psalmen auf ihn als Urheber zurückführen und annehmen, er habe an die Spitze einiger Psalmen den Namen anderer Persönlichkeiten setzen wollen, der dann irgend etwas zur Sache Gehöriges sinnbilde, die übrigen aber ohne Namensaufschrift im Titel belassen wollen, wie ihm eben der Herr die für uns dunkle, keineswegs aber grundlose Anordnung zu treffen eingegeben, wodurch solche Verschiedenheit entstanden sei. In dieser Annahme darf man sich auch dadurch nicht beirren lassen, daß mitunter die Namen von Propheten, die lange nach den Zeiten des Königs David lebten, in diesem Buche den Psalmen als Titel vorangestellt sind und so der Inhalt der betreffenden Psalmen ihnen in den Mund gelegt erscheint. Sehr wohl konnte ja der Sehergeist dem Seherkönig David auch diese Namen späterer Propheten offenbaren und bewirken, daß ein Gedicht prophetischer Art zustande kam, welches auf deren Person paßte; wie denn das Auftreten und die Regierung des Königs Josias mitsamt dessen Namen mehr als dreihundert Jahre vorher einem Propheten geoffenbart worden ist, der auch dessen künftige Taten vorhersagte.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

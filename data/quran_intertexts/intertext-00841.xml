@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sermones III, I, 485-513</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_841" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>841</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ephrem der Syrer beschreibt das Herabkommen des Herrn zusammen mit den Engeln am Jüngsten Tag sowie die Auferweckung der Toten und das anschließende Gericht. Wie an anderen Stellen in seinen Predigten (vgl. TUK_0839, TUK_0840) benutzt Ephrem Bilder und Metaphern die uns auch aus dem koranischen Umfeld vertraut sind, wie z.B. das Ertönen der Posaune (syr. qālā d-qarnā, vgl. arab. nufiḫa fī-ṣ-ṣūri, Q 36:51 u.a., siehe TUK_0492, TUK_1168). Die "letzte Posaune" bewirkt bei Ephrem die Auferstehung der Toten, welche dann augenblicklich (vgl. syr. rpāpā d-temrā d-ʿaynā “Zucken der Augenwimper”) vor dem Richterstuhl Christi versammelt werden. Dies wird im Koran ähnlich mit dem wiederkehrenden Ausdruck fa-ʾiḏā “sofort” suggeriert: fa-ʾiḏā hum mina l-ʾaǧdāṯi ʾilā rabbihim yansilūna (ebd., vgl. Vers 53: fa-ʾiḏā hum ǧamīʿun ladainā muḥḍarūna). Ein weiterer gemeinsamer Aspekt der beiden Beschreibungen ist die Erwähnung der Engelscharen die den richtenden Gott wie eine Armee begleiten. Ephrem spricht von den herabsteigenden Legionen und mächtigen Engelordnungen (taksauhy ʿazīzē) die beim Gericht anwesend sind, während der Koran den Geist und die Engel wie Soldaten in einer Reihe (ṣaff) stehen lässt (Q 78:38 yauma yaqūmu r-rūḥu wa-l-malāʾikatu ṣaffan).</summary>
+            <msItem>
+              <title>Sermones III, I, 485-513</title>
+              <author>Ephrem der Syrer (306–373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">306-373</origDate>
+              <origPlace>Nisibis/ Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Des heiligen Ephraem des Syrers Sermones III, Louvain 1972 (Corpus Scriptorum Christianorum Orientalium 320; Scriptores Syri 138), Sermo I, S. 9.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>467 ܝ̇ܬܒ ܥܠ ܒܐܝܡܐ ܕܢܘܪܐ ܘܚܕܝܪ ܠܗ ܝܡܐ ܕܢܘܪܐ469 ܘܢܗܪܐ ܕܢܘܪܐ ܕܢ̇ܦܩ ܠܗ ܕܢܒܚܘܪ ܒܗ ܟܠܗܘܢ ܥ̈ܠܡܐ ܢܘܪܗ ܚܠܛ ܒܒܢܝܢܫ̈ܐ ܕܠܐ ܢܐܩܕܘܢ ܡܢ ܗ̇ܝ ܢܘܪܐ473 ܡܐ ܕܡܘܩܕ ܠܗ̇ ܠܒܪܝܬܐ ܘܒ̇ܚܪ ܠܗ̇ ܐܝܟ ܕܒܟܘܪܐ ܘܐܢܗܘ ܕܢܛܝܪܐ ܢܘܪܗ ܘܠܐ ܕܥܝܟܐ ܗܝ ܒܚ̈ܛܗܐ 477 ܡܬܦܨܝܢ ܐܝܠܝܢ ܕܢܛܪܘܗ̇ ܡܢ ܗ̇ܘ ܝܩܕܢܐ ܕܚܝܠܐ ܘܐܢ ܕܥܝܟܐ ܒܚܛܝܬܐ ܘܠܐ ܢܛܝܪܐ ܒܩܕܝܫܘܬܐ 481 ܚܒܬܐ ܗܘܝܢ ܠܗ̇ܝ ܢܘܪܐ ܕܒܥܘܙܗ̇ ܥܠܡܐ ܝ̇ܩܕ ܢ̇ܚܬ ܡܠܟܐ ܡܢ ܐܬܪܗ ܕܢܥܒܕ ܕܝܢܐ ܥܠ ܐܪܥܐ485 ܘܒܙܘܥܐ ܪܒܐ ܘܪܥܠܐ ܢܚܬܢ ܥܡܗ ܠܓܝܘ̈ܢܘܗܝ ܐ̇ܬܝܢ ܛܟܣ̈ܘܗܝ ܥܙܝ̈ܙܐ ܕܢܚܙܘܢ ܠܗ̇ܘ ܕܝܢܐ ܕܚܝܠܐ489 ܘܟܠܗܘܢ ܒܢܝ̈ܢܫܐ ܕܗܘܘ ܘܕܗܘܝܢ ܬܡܢ ܩܝܡܝܢ ܠܐ ܦܐܫ ܠܗ ܚܕ ܝܚܛܐ ܕܗܘܐ ܠܗ ܘܕܥܬܝܕ ܕܢܗܘܐ493 ܕܠܐ ܐ̇ܬܐ ܠܗ̇ܝ ܬܐܘܛܪܘܢ ܕܢܚܙܐ ܕܝܢܗ ܕܕܝ̇ܢܐ ܡܫܬܕܪ ܩܠ ܫܝܦܘܪܐ ܕܢܥܝܪ ܐܢܘܢ ܠܩܒܝܖ̈ܐ497 ܘܒܩܠܐ ܕܩܪܢܐ ܐܚܪܝܬܐ ܩܝܡܝܢ ܟܠܗܘܢ ܥܢܝ̈ܕܐ ܩܠܝܠ ܗܘ ܪܡܙܗ ܕܒܪܐ ܡܢ ܪܦܦܐ ܕܬܡܪܐ ܕܥܝܢܐ501 ܕܢܟܢܫ ܟܠܗܘܢ ܡܝ̈ܬܐ ܠܗ̇ܘ ܒܝܬ ܕܝܢܐ ܕܟܐܢܘܬܐ ܡ̇ܚܐ ܠܗ ܙܘܥܐ ܠܡܘܬܐ ܘܓ̇ܣܐ ܠܗ ܠܟܠܗ ܐܘܟܠܗ505 ܕܠܐ ܢܪܦܐ ܡܝܬܐ ܒܐܬܪܗ ܕܠܐ ܢܝܬܝܘܗܝ ܠܗ̇ܘ ܒܝܬ ܕܝܢܐ ܡܬܬܒܥ ܠܗ ܥܦܪܗ̇ ܕܐܪܥܐ ܕܢܦܪܫ ܥܦܪܐ ܕܡܝ̈ܬܐ509 ܘܠܐ ܢܦܘܫ ܚܠܐ ܡܢܗ ܕܢܐܬܐ ܠܘܩܕܡ ܕܝܢܐ ܗܠܝܢ ܕܚܢܩ ܗܘܐ ܝܡܐ ܗܠܝܢ ܕܐܟ̈ܠܝ ܚܝ̈ܘܬܐ513 ܗܠܝܢ ܕܢܬܫ̈ܝ ܦܖ̈ܚܬܐ ܗܠܝܢ ܕܝܩܕܘ ܡܢ ܢܘܪܐ ܒܪܡܙܐ ܚܝܨܐ ܘܩܠܝܠܐ ܡܬܢܚܡܝܢ ܘܩܝܡܝܢ ܘܐܬܝܢ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>467 Er wird auf dem feurigen Richterstuhl sitzen und rings um ihn ein Feuermeer. 469 Und ein Feuerstrom geht aus von ihm, um darin alle Menschen zu prüfen. Sein Feuer hat er in die Menschen gemischt, damit (die Menschen) nicht von jenem Feuer verbrannt werden, 473 wenn (Gott) die Schöpfung verbrennen und sie prüfen wird wie in einem Ofen. Und wenn sein Feuer bewahrt und nicht durch Sünden ausgelöscht wurde, 477 dann werden diejenigen, die es bewahrt haben, gerettet aus jenem schrecklichen Brand. Wenn aber (sein Feuer) durch die Sünde ausgelöscht und nicht durch Reinheit bewahrt wurde,481 dann werden sie zu Spreu für jenes Feuer, durch dessen Gewalt die Welt verbrennen wird. Der König wird von seinem Ort herabsteigen, um auf der Erde Gericht zu halten.485 Und gewaltig zitternd und bebend werden mit ihm seine Legionen herabsteigen, werden die mächtigen Ordnungen seiner (Engel) kommen, um jenes schreckliche Gericht zu sehen.489 Und alle Menschen, die waren und sein werden, werden dorthin treten. Keine Fehlgeburt wird zurückbleiben, die war und noch geboren werden wird,493 welche nicht zu jenem Schauspiel käme, um das Gericht des Richters zu sehen. Ausgesandt wird der Schall der Posaune, um die Begrabenen aufzuwecken.497 Und beim Schall des letzten Horns werden alle Verstorbenen auferstehen. Der Wink des Sohnes wird rascher sein als das Zucken der Augenwimper,501 um alle Toten zu versammeln zu jenem Richthaus der Gerechtigkeit. Den Tod überkommt Zittern, und er wird alle seine Speise ausspeien,505 so dass er keinen Toten an seinen Platz läßt, ohne ihn zu jenem Richthaus zu bringen. Vom Staub der Erde wird gefordert, den Staub der Toten zu trennen509 - kein Stäubchen wird zurückbleiben - damit er vor den Richter komme. (Alle), die das Meer ertränkt hat, die die (wilden) Tiere gefressen,513 die die Vögel zerrissen haben, die im Feuer verbrannt sind, sie (alle) werden auferweckt, auferstehen und kommen auf den festen, raschen Wink hin.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

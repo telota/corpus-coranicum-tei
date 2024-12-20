@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Gittin 68 b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1090" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1090</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 38:34 zufolge prüfte Gott Salomo, indem er eine Gestalt auf seinen Thron setzte (wa-la-qad fatannā Sulaimāna wa-ʾalqainā ʿalā kursiyyihī ǧasadan ṯumma ʾanāba; "Wir unterwarfen Salomo ja auch einer Prüfung und setzten ein leibhaftiges Ebenbild auf seinen Thron. Daraufhin tat er Buße."). Heinrich Speyer weist dafür auf die im babylonischen Talmud überlieferte Erzählung hin, nach der sich zeitweise der Dämon Ašmodai (zu Dämonen im Koran vgl. TUK_0737, TUK_0738, TUK_0744,  TUK_1349), den Salomo zur Hilfe beim Tempelbau gezwungen hatte, Salomos Thron bemächtigte. Vgl. auch Rut Rabba, Parascha 5 (TUK_1091) (Speyer 1931: p. 400).
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Gittin 68 b</title>
+              <author/>
+              <textLang mainLang="">Aramäisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Wilna 1880-1886 </bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	מאי רבותייכו מינן? א"ל: שקול שושילתא מינאי והב לי עיזקתך, ואחוי לך רבותאי. שקליה לשושילתא מיניה ויהיב ליה עיזקתיה, בלעיה, אותביה לחד גפיה ברקיעא ולחד גפיה בארעא, פתקיה ארבע מאה פרסי. על ההיא שעתא אמר שלמה: גמה יתרון לאדם בכל עמלו שיעמול תחת השמש. דוזה היה חלקי מכל עמלי מאי וזה? רב ושמואל, חד אמר: מקלו, וחד אמר: גונדו. היה מחזר על הפתחים, כל היכא דמטא אמר: האני קהלת הייתי מלך על ישראל בירושלים. כי מטא גבי סנהדרין, אמרו רבנן: מכדי שוטה בחדא מילתא לא סריך, מאי האי? אמרו ליה לבניהו: קא בעי לך מלכא לגביה? אמר להו: לא. שלחו להו למלכוותא: קאתי מלכא לגבייכו? שלחו להו: אין, קאתי. שלחו להו: בידקו בכרעיה, שלחו להו: במוקי קאתי, וקא תבע להו בנידותייהו, וקא תבע לה נמי לבת שבע אימיה. אתיוה לשלמה והבו ליה עזקתא ושושילתא דחקוק עליה שם, כי עייל חזייה, פרח
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Womit seid ihr [die Dämonen] uns überlegen?  Dieser [Ašmodai] erwiderte: Nimm mir die Kette ab und gib mir deinen Ring, so will ich dir meine Überlegenheit zeigen. Da nahm er [Salomo] ihm die Kette ab und gab ihm seinen Ring. Hierauf verschlang er ihn, setzte einen Flügel auf den Himmel und den anderen Flügel auf die Erde und schleuderte ihn vierhundert Parasangen weit. Über jene Stunde sprach Salomo: Was ist der Gewinn des Menschen für all seine Mühe, womit er sich unter der Sonne abmüht (Qohelet 1:3). Das ist mein Teil von aller meiner Mühe. Was heißt das? - Rabh und Šemuel [streiten hierüber], einer sagt, sein Stab und einer sagt, sein Kaftan. Er [Salomo] ging dann an die Türen [betteln], und wohin er kam, sagte er: ich Qohelet war König über Israel in Jerusalem (Qohelet 1:12). Als er zum Synedrium kam, sprachen die Gelehrten: Ein Narr bleibt nicht an einer Sache hängen, was hat dies zu bedeuten? Sie fragten dann Benejahu, den Sohn Jehojadaʿs, ob der König nach ihm verlangt habe, und er verneinte dies. Hierauf fragten sie die Königinnen, ob der König ihnen beiwohne, und sie bejahten dies. Da ließen sie ihnen sagen, daß sie seine Füße untersuchen mögen. Diese erwiderten, er komme in Strümpfen und fordere sie auch während ihrer Menstruation auf, auch fordere er sogar seine Mutter Bathseba auf. Hierauf ließen sie Salomo holen und gaben ihm einen Ring und eine Kette, auf denen der Gottesname eingegraben war, und als er [Salomo] zu ihm [Ašmodai] hineinkam, und dieser ihn sah, flog er fort.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>What is your superiority over us? He said to him, Take the chain off me and give me your ring, and I will show you. So he took the chain off him and gave him the ring. He then swallowed him, and placing one wing on the earth and one on the sky he hurled him four hundred parasangs. In reference to that incident Solomon  said, What profit is there to a man in all his labor wherein he laboreth under the sun. And this was my portion from all my labor.What is referred to by 'this'?  —  Rab and Samuel gave different answers, one saying that it meant his staff and the other that it meant his apron. He used to go round begging, saying wherever he went, I Koheleth was king over Israel in Jerusalem. When he came to the Sanhedrin, the Rabbis said: Let us see, a madman does not stick to one thing only. What is the meaning of this? They asked Benaiahu, Does the king send for you? He replied, No. They sent to the queens saying, Does the king visit you? They sent back word, Yes, he does. They then sent to them to say, Examine his leg. They sent back to say, He comes in stockings, and he visits them in the time of their separation and he also calls for Bathsheba his mother. They then sent for Solomon and gave him the chain and the ring on which the Name was engraved. When he went in, Ashmedai on catching sight of him flew away.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

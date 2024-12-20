@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2005">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, Victoria and Albert Museum, CIRC.161-1951</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="103">Victoria and Albert Museum
+                            , London</repository>
+            <idno>CIRC.161-1951</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: CIRC.161-1951; Qurʾānic Text: Q 6:54-6:65; 15  lines per page; Script style: <hi rend="italic">kūfī</hi> D.IV; Estimated date of production: 750-900 AD. </p><p> </p>For further information about this manuscript, as well as high-resolution images, please visit the <ref target="https://collections.vam.ac.uk/item/O1037625/manuscript-cutting/manuscript-leaf/">website of the Victoria &amp; Albert Museum</ref>.<p/></summary>
+            <msItem xml:id="mysql_id_700987" n="1r">
+              <title type="numeric" key="006:054:024-006:059:025">
+                                    006:054:024-006:059:025
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_700986" n="1v">
+              <title type="numeric" key="006:059:026-006:065:010">
+                                    006:059:026-006:065:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.IV
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_56716">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_56715">
+                    </surface>
+  </facsimile>
+</TEI>

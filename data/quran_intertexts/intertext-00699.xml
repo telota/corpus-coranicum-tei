@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Himmelfahrt Jesajas 9:1-6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_699" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>699</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die genannten Koranstellen sprechen von sieben Himmeln (z.B. Q 78:12 sabʿan šidādan "sieben (Himmels)feste", Q 71:15 sabʿa samāwātin "sieben Himmel", Q 23:17 sabʿa ṭarāʾiqa "sieben Wege"). Sieben Himmel werden unter anderem auch in der hier zitierten Himmelfahrt Jesajas (Vgl. auch 6:13, 7:17.27, 8:15.25, 10:11.17) erwähnt. Es handelt sich dabei um eine in Antike und Spätantike weitverbreitete kosmologische Vorstellung (vgl. TUK_0885, TUK_1121, TUK_1122, TUK_1123, TUK_1124, TUK_1125), die laut Heinrich Speyer bereits in babylonischen Texten erwähnt wird (Speyer 1931: p. 11-13). Wayne Horowitz zufolge existieren aber keine direkten mesopotamischen Zeugnisse für diese Vorstellung, auch wenn einige sumerische Texte in diesem Sinn interpretiert werden können (Horowitz 1998: p. 208-220).Die Himmelfahrt Jesajas wurde vermutlich nach dem 2. Jh. in Alexandria 
+auf Griechisch verfasst, bzw. zusammengestellt. Während in anderen Sprachen nur Fragmente (Koptisch, Griechisch) oder kürzere Versionen (Altkirchenslawisch, 
+Latein) überliefert sind, ist sie auf Äthiopisch vollständig 
+erhalten. Das in der Himmelfahrt Jesajas enthaltene Material ist 
+unterschiedlicher Herkunft. Beim ersten und vermutlich ältesten Teil der
+ Schrift (Kapitel 1-5) handelt es sich um das Martyrium Jesajas, 
+wahrscheinlich eine Erzählung jüdischen Ursprungs. Den zweiten Teil 
+bildet die Himmelfahrt und Vision Jesajas (Kapitel 6-11). Beide Teile 
+enthalten christliche Interpolationen (3:13-5:1; 11:2-22), die auf 
+Ereignisse im Leben Jesu anspielen. (Vgl. dazu Müller 1997: p. 548-549; Hammershaimb 1973: p. 17-21).
+</summary>
+            <msItem>
+              <title>Himmelfahrt Jesajas 9:1-6</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">nach Ende 2. Jh.</origDate>
+              <origPlace>Alexandria (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Lorenzo Perrone et al. (Hg.), Ascensio Isaiae, Turnhout 1995 (Corpus Christianorum, Series Apocryphorum 7).</bibl>
+              <bibl type="literatur">Hammershaimb, Erling: Das Martyrium Jesajas. G&amp;#xFC;tersloher Verl.-Haus Mohn, G&amp;#xFC;tersloh 1973.</bibl>
+              <bibl type="literatur">Horowitz, Wayne: Mesopotamian Cosmic Geography. Eisenbrauns, Winona Lake 1998.</bibl>
+              <bibl type="literatur">M&amp;#xFC;ller, Detlef G.: &amp;#x201E;Die Himmelfahrt des Propheten Jesaja&amp;#x201C;. In: Wilhelm Schneemelcher (Hrsg.), Neutestamentliche Apokryphen, Bd. 2, Apostolisches, Apokalypsen und Verwandtes. T&amp;#xFC;bingen 1997, S. 549&amp;#x2013;562.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	ወወሰደኒ ፣ ውስተ ፣ አየር ፣ ዘሳብዕ ፣ ሰማይ ፣  ወዓዲ ፣ ሰማዕኩ ፣ ቃለ ፣ እንዘ ፣ ይብል ፣ እስከ ፣ አይቴኑ ፣ ሀለዎ ፣ ይዕረግ ፣ ዝዘበ ፣ ነኪራን ፣ ይነብር ፣ ወፈራህኩ ፣ ወርዑደ ፣ ኮንኩ ፣፣ ወይቤለኒ ፣ ሶበ ፣ ርዑደ ፣ ኮንኩ ፣ ነቀ ፣ እምህየ ፣ ካልእት ፣ ቃል ፣ መጽአት ፣ እንዘ ፣ ትትፌኖ ፣ ወይብል ፣ ይትኀደግ ፣ ይዕረግ ፣ ዝየ ፣ ቅዱስ ፣ ኢሳይያስ ፣ እስመ ፣ ዝየ ፣ ውእቱ ፣ ልብሱ ፣፣ ወተስእልክዎ ፣ ለመልአክ ፣ ዘምስሌየ ፣ ወእቤ ፣ መኑ ፣ ውእቱ ፣ ዘከልአኒ ፣ ወመኑ ፣ ውእቱዝ ፣ ዘተመይጠኒ ፣ ከመ ፣ እዕረግ ፣፣ ወይቤለኒ ፣ ዘከልአከ ፣ ዝውእቱ ፣ ዘዲቤሁ ፣ ስብሓተ ፣ ስድስቱ ፣ ሰማይ ፣፣ ወዘተመይጠከ ፣ ዝውእቱ ፣ እግዚእከ ፣ እግዚአብሔር ፣ እግዚእ ፣ ክርስቶስ ፣ ዘሀሎ ፣ ይትበሀል ፣ ውስተ ፣ ዓለም ፣ ኢየሱስ ፣ ወስሞሰ ፣ ኢትክል ፣ ሰሚዐ ፣ እስከ ፣ እምዝ ፣ ሥጋከ ፣ ተዐርግ ፣፣ ወአዕረገኒ ፣ ውስተ ፣  ሳብዕ ፣ ሰማይ ፣  ወርኢኩ ፣ በህየ ፣ ብርሃነ ፣ መንክረ ፣ ወመላእክተ ፣ ዘእንበለ ፣ ኆልቊ ፣፣
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	9:1 Und er trug mich in den Luftkreis des siebenten Himmels, und ich hörte nochmals eine Stimme, die sprach: "Bis wie weit soll er hinaufsteigen, der bei den Fremden wohnt?", und ich fürchtete mich und begann zu zittern. 2 Und als ich zitterte, siehe, da kam eine andere Stimme von da gesandt und sprach: "Es sei dem Heiligen Jesaja erlaubt, bis hierher aufzusteigen, denn hier ist sein Kleid." 3 Und ich fragte den Engel, der mit mir war, und sprach: "Wer ist jener, der mir verbot, und wer ist dieser, der mir erlaubte aufzusteigen?" 4 Und er sprach zu mir: "Der [es] dir verbot, ist der, welcher über die Lobgesänge des sechsten Himmels [gesetzt ist], 5 und der dir Erlaubnis gab, ist dein Herr, Gott, der Herr Christus, der auf Erden Jesus genannt werden soll; und seinen Namen kannst du nicht hören, bis du aufsteigen wirst aus diesem Leibe." 6 Und er ließ mich aufsteigen in den siebenten Himmel, und dasselbst sah ich ein wunderbares Licht und Engel ohne Zahl.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

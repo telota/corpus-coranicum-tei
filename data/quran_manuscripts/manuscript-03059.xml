@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_3059">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oslo, The Schøyen Collection, MS 4594</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="109">The Schøyen Collection
+                            , Oslo</repository>
+            <idno>MS 4594</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on paper; Shelfmark: MS 4594; Qurʾānic Text: Q 45:19-46:1; 15  lines per page; Dimensions: 280 x 340mm.</p>
+              <p> </p>
+              <p>The  <ref target="https://www.schoyencollection.com/palaeography-collection-introduction/arabic-script/eastern-kufic-script/ms-4594">online catalogue of the Schoyen Collection</ref> offers the following information:  </p>
+              <p>"MS: 4594</p>
+              <p>MS Short Title: EASTERN KUFIC SCRIPT QUR'AN</p>
+              <p>Text: QUR'AN, SURA 45:19 - 37, AND THE HEADING FOR SURA 46</p>
+              <p>Description: MS in Arabic on buff paper, Iran, 11th-12th c., 1 f., 34x28 cm, single column, (28x21 cm), 15 lines in an elegant eastern kufic script, diacritical marks and vocalisation in red and green, 3 gold medallions and a gold leaf in margins, sura heading over 7 lines of smaller naskhi book script in alternating lines of red and black, within a gold frame, some green illumination with gold palmette extending into the margin.</p>
+              <p>Provenance: 1. Sam Fogg Rare Books Ltd., London.</p>
+              <p>Commentary: The sura heading gives not only the title of the sura (Winding Sand-tracts), and the place it was revealed, but also the number of verses, words and letters in it.</p>
+              <p>Place of origin: Iran</p>
+              <p>Dates: 11c - 12c AD" </p>
+            </summary>
+            <msItem xml:id="mysql_id_723523" n="1r">
+              <title type="numeric" key="045:019:0-1-045:030:002">
+                                    045:019:0-1-045:030:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_723522" n="1v">
+              <title type="numeric" key="045:030:003-046:000:004">
+                                    045:030:003-046:000:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>280</width><height>340</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_112883">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_112882">
+      <graphic decls="#imageRights-1" url="manuscript/3059/ee3ac2c4-b28d-415c-b46c-97f782f5122a/manuscript-3059-page-112882-image-106170.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

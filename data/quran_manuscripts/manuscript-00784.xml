@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_784">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 6871</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 6871</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p> Der Katalog der Pariser Koranhandschriften (Déroche 1983: p. 132) enthält folgende Angaben: "Arabe <hi rend="bold">6871  </hi>Fo 1 : VII. 161-168. Copie anonyme et non datée. Graphie D commune. Diacritiques : points; vocalisation : points rouges. Les versets ne semblent pas séparés. Au vo, deux bandes horizontales encadrent le texte ; avec son symétrique disparu, ce décor signalait la ﬁn du <hi rend="italic">ḥizb </hi>XVII. Feuillet donné avec le lot Syriaque 369 par Mgr. Raḥmani, Patriarche syrien catholique de Beyrouth (cf. J. M. Sauget, in <hi rend="italic">Orient Syrien</hi> II, 1957, p. 5). Parchemin. 1 feuillet. Page : 132 x 160. 13 et 7 lignes. Encre brune. Surface d'écriture : 75 x 140. On se reportera également au fragment <ref target="https://corpuscoranicum.de/en/manuscripts/1305/page/1r?sura=5&amp;verse=89">Arabe 7198 </ref>(notice 288)."</p>
+            </summary>
+            <msItem xml:id="mysql_id_697548" n="1r">
+              <title type="numeric" key="007:161:002-007:165:014">
+                                    007:161:002-007:165:014
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_697549" n="1v">
+              <title type="numeric" key="007:165:015-007:168:014">
+                                    007:165:015-007:168:014
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>160</width><height>132</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7 13">7 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_36812">
+      <graphic decls="#imageRights-1" url="manuscript/784/46e680af-fd2a-48d7-afd2-89d261f16197/manuscript-784-page-36812-image-21541.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_36813">
+      <graphic decls="#imageRights-1" url="manuscript/784/85471504-2228-44c3-a675-2504754ef042/manuscript-784-page-36813-image-21542.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

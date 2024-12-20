@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äthiopisches Henochbuch: Die Bilderreden 63:1-12</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_912" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>912</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In den angegebenen Koranstellen und im Henochbuch bitten die Ungläubigen, bzw. die Könige und die Mächtigen, nachdem sie zeit ihres Lebens Gott ignoriert haben, angesichts der Hölle bzw. Strafe um Erlaß bzw. Erleichterung ihrer Strafe mit der Begründung, daß sie jetzt Gott verehren werden. Beiden Texten zufolge nützt ihnen jedoch diese nachträgliche Glaubensbereitschaft nichts mehr.
+
+	Das Äthiopische Henochbuch besteht aus mehreren zu unterschiedlichen Zeiten (3.-1. Jh. v. Chr.) entstandenen Traktaten: 1) Das Buch der Wächter; 2) Die Bilderreden; 3) Das Astronomische Buch; 4) Das Buch der Traumvisionen; 5) Die Epistel Henochs. Die Zusammenfassung zu einem Buch wurde wahrscheinlich nach der Zeitenwende von einem jüdischen Redaktor vorgenommen. Anhand von Henochs Himmelsreisen, Visionen und Mahnreden (bzw. -schriften) werden vor allem die Themen Eschatologie, Kosmologie und Weisheit behandelt. Entstanden sind die Traktate des Äthiopischen Henochbuchs vermutlich in antihellenistischen apokalyptischen Kreisen, die der Qumrangemeinschaft nahestanden. Mit anderen in Qumran gefundenen Schriften teilt das Äthiopische Henochbuch verschiedene Elemente: die Gestalt des Urweisen, deren Prototyp Henoch ist, dem die himmlischen Geheimnisse offenbart werden; die Deutung der Geschichte von Adam bis zum Ende; die Schilderung der Endzeit mit Krieg und Vernichtung, auf die das Gericht Gottes folgt, in dem der Satan und die gefallenen Engel sowie die Sünder vernichtet werden, während für die Frommen eine ewige Heilszeit anbricht.  Die Frage nach der ursprünglichen Sprache (aramäisch oder hebräisch) des Äthiopischen Henochbuches ist nicht übereinstimmend geklärt; so wurden neben mehreren aramäischen Fragmenten in Qumran auch zwei hebräische gefunden. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (griechisch, koptisch, syrisch, lateinisch) zeugen. Vollständig erhalten ist das Henochbuch dagegen nur in der äthiopischen Übersetzung (vermutlich im 5.-7. Jh. aus dem Griechischen übersetzt); wahrscheinlich dadurch bedingt, daß es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Uhlig 1984: p. 466-497).
+</summary>
+            <msItem>
+              <title>Äthiopisches Henochbuch: Die Bilderreden 63:1-12</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 3. - 1. Jh. v. Chr. (Redaktion der einzelnen Traktate erst n. Chr.)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Michael A. Knibb, The Ethiopic Book of Enoch. A New Edition in the Light of the Aramaic Dead Sea Fragments, Bd. 1 Text and Apparatus, Oxford 1978.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	በእማንቱ፡ መዋዕል፡ ያስተበቊዑ፡ ነገሥት፡ አዚዛን፡ እለ፡ ይእኅዝዋ፡ ለየብስ፡ እመላእክተ፡ መቅሠፍቱ፡ በኀበ፡ ሀለዉ፡ ምጥዋነ፡ ከመ፡ የሀቦሙ፡ ዕረፍተ፡ ንስቲተ፡ ወከመ፡ ይደቁ፡ ወይስግዱ፡ ቅድመ፡ እግዚአ፡ መናፍስት፡ ወይትአመኑ፡ ኃጢአቶሙ፡ በቅድሜሁ። ወይባርክዎ፡ ወይሴብሕዎ፡ ለእግዚአ፡ መናፍስት፡ ወይብሉ፡ ቡሩክ፡ ውእቱ፡ እግዚአ፡ መናፍስት፡ ወእግዚአ፡ ነገሥት፡ እግዚኦሙ፡ ለአዚዛን፡ ወእግዚኡ፡ ለባዕል፡ ወእግዚአ፡ ስብሐት፡ ወእግዚአ፡ ጥበብ። ወይበርህ፡ ኵሉ፡ ኅቡእ፡ ወኃይልከ፡ ለትውልደ፡ ትውልድ፡ ወስብሐቲከ፡ ለዓለመ፡ ዓለም። ዕሙቅ፡ ውእቱ፡ ኅቡኣተ፡ ዚኣከ፡ ኵሉ፡ ወኍልቊ፡ አልቦሙ፡ ወጽድቀ፡ ዚአከ፡ ሐሳበ፡ አልቦ፡ ይእዜ። አእመርነ፡ ከመ፡ ንሰብሖ፡ ወንባርኮ፡ ለእግዚአ፡ ነገሥት፡ ወለዘይነግሥ፡ ዲበ፡ ኵሎሙ፡ ነገሥት። ወይብሉ፡ መኑ፡ ወሀበነ፡ ዕረፍተ፡ ከመ፡ ንሰብሖ፡ ወናዕኵቶ፡ ወንባርኮ፡ ወንእመን፡ ቅድመ፡ ስብሓቲሁ። ወይእዜኒ፡ ንስቲተ፡ ዕረፍተ፡ ንትሜነይ፡ ወኢንርክብ፡ ንሰደድ፡ ወኢንኅዝ፡ ወብርሃን፡ እምቅድሜነ፡ ኃለፈ። ወጽልመት፡ ምንበሪነ፡ ለዓለመ፡ ዓለም። እስመ፡ በቅድሜሁ፡ ኢአመነ፡ ወኢሰባሕነ፡ በስሙ፡ ለእግዚአ፡ ነገሥት፡ ወኢሰባሕናሁ፡ ለእግዚእ፡ በኵሉ፡ ተግባሩ፡ ወተስፋነ፡ ኮነ፡ ዲበ፡ መንበረ፡ መንግሥትነ፡ ወስብሐቲነ። ወበዕለተ፡ ስራኅነ፡ ወምዳቢነ፡ ኢያድኅነነ፡ ወኢንርክብ፡ ዕረፍተ፡ ንእመን፡ እስመ፡ መሃይምን፡ ውእቱ፡ እግዚእነ፡ በኵሉ፡ ግብሩ፡ ወበኵሉ፡ ኵነኔሁ፡ ወጽድቁ፡ ወገጸ፡ ኵነኔሁ፡ ኢይነሥኡ፡ ወነኃልፍ፡ እምገጹ፡ በእንተ፡ ምግባሪነ፡ ወኵሉ፡ ኃጢኣትነ፡ በጽድቅ፡ ተኈለቈ፡ ይእዜ፡ ይቤልዎሙ፡ ትጸግብ፡ ነፍስነ፡ እምንዋየ፡ ወኢትከልእ፡ ወሪዶተነ፡ እምላህባ፡ ለክበደ፡ ሲኦል። ወእምድኅረዝ፡ ይመልእ፡ ገጾሙ፡ ጽልመተ፡ ወኃፍረተ፡ በቅድመ፡ ዝኩ፡ እጓለ፡ እመሕያው፡ ወእምቅድመ፡ ገጹ፡ ይሰደዱ። ወሰይፍ፡ የኃድር፡ ቅድመ፡ ገጹ፡ ማዕከሌሆሙ፡ ወከመዝ፡ ይቤ፡ እግዚአ፡ መናፍስት፡ ዝንቱ፡ ውእቱ፡ ስርዓቶሙ፡ ወኵነኔሁ፡ ለአዚዛን፡ ወለነገሥት፡ ወለልዑላን፡ ወለእሉ፡ ይእኅዝዋ፡ ለየብስ፡ በቅድመ፡ እግዚአ፡ መናፍስት።
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Und in jenen Tagen werden die Mächtigen und die Könige, die, die das Festland besitzen, seine Strafengel, denen sie ausgeliefert sind, bitten daß man ihnen etwas Ruhe lassen möge, damit sie niederfallen und anbeten vor dem Herrn der Geister und ihre Sünden bekennen. 2 Und sie werden den Herrn der Geister preisen und verherrlichen, und sie werden sprechen: "Gepriesen sei der Herr der Geister, der Herr der Könige, der Herr der Mächtigen, der Herr der Reichen, der Herr der Herrlichkeit und der Herr der Weisheit, und über allem Verborgenen wird es hell werden. 3 Deine Macht (reicht) von Generation zu Generation und deine Herrlichkeit von Ewigkeit zu Ewigkeit. Tief sind alle deine Geheimnisse, und ohne Zahl sind sie, und deine Gerechtigkeit ist ohne Rechnung. 4 Jetzt haben wir erkannt, daß wir den Herrn der Könige verherrlichen und preisen sollen und den, der da herrscht über alle Könige." 5 Und sie werden sagen: "Ach, wenn uns doch jemand Ruhe gäbe, daß wir verherrlichen, danken, preisen und bekennen könnten vor deiner Herrlichkeit. 6 Jetzt sehnen wir uns nach etwas Ruhe, aber finden sie nicht, wir werden weggetrieben und erhalten sie nicht. Das Licht ist vor uns vergangen und Finsternis unsere Wohnstätte für immer und ewig. 7 Denn vor ihm haben wir (unseren Glauben) nicht bekannt noch verherrlicht den Namen des Herrn der Könige noch ihn verherrlicht als Herrn in all seinen Werken, sondern unser Vertrauen lag auf dem Thron unseres Reiches und auf unserer Herrlichkeit. 8 Und am Tage unserer Not und unserer Trübsal wird er uns nicht retten, und wir werden keine Ruhe finden, um zu bekennen, daß unser Herr wahrhaftig ist in all seinem Tun, all seinem Gericht und seiner Gerechtigkeit, und (daß) sein Gericht (keine Rücksicht) auf die Person nimmt. 9 Und wir werden vor seinem Angesicht wegen unserer Werke vergehen, und alle Sünden sind in Gerechtigkeit gezählt." 10 Nun werden sie zu ihnen sagen: "Unsere Seele ist satt vom ungerechten Gut, aber es wird nicht verhindern, daß wir in die Flammen der Höllenpein hinabfahren." 11 Und danach wird sich ihr Angesicht mit Finsternis und Scham vor jenem Menschensohn erfüllen, und sie werden von seinem Angesicht verstoßen werden, und das Schwert wird vor seinem Angesicht unter ihnen hausen. 12 So sprach der Herr der Geister: "Das ist die Bestimmung und das Gericht vor dem Herrn der Geister über die Mächtigen, die Könige, die Hohen und die, die das Festland besitzen."
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

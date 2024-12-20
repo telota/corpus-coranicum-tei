@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht Nr. 29:22-24 (Schulthess)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_796" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>796</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 34:10–11 berichtet, dass Gott für David das Eisen (ḥadīd) weich gemacht und ihm befohlen habe, Panzerhemden (sābiġāt) anzufertigen. Auch Q 21:80 zufolge lehrte Gott David, Kettenhemden (labūs) herzustellen, damit sich die Menschen im Kampf schützen können. Laut Josef Horovitz war die Vorstellung von David als Verfertiger von Panzerhemden bereits in vorkoranischer Zeit in Arabien verbreitet, wie zahlreiche Beispiele aus der Dichtung belegen (Horovitz 1926: p. 109–111 mit Stellenangaben), darunter auch das hier zitierte Gedicht von Umayya ibn abī ṣ-Ṣalt (vgl. auch Schwarzlose 1886: p. 331–333). Zur umstrittenen Echtheit der Gedichte von Umayya ibn abī ṣ-Ṣalt vgl. die Anmerkung zu TUK_0420 sowie Seidensticker 2011, zum hier behandelten Gedicht besonders S. 50–51. Israel Frank-Kamenetzky zählt das hier vorliegende Gedicht zu denen, bei denen Übereinstimmungen mit dem Koran auf gemeinsame Traditionen zurückgehen können und nicht auf dem Koran stilistisch nachempfundener Dichtung beruhen müssen (Frank-Kamenetzky 1911: p. 37, 48). </summary>
+            <msItem>
+              <title>Gedicht Nr. 29:22-24 (Schulthess)</title>
+              <author>Umayya ibn abī ṣ-Ṣalt (gest. um 630 n.Chr.) ?</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Anfang 7. Jh.?</origDate>
+              <origPlace>Aṭ-Ṭāʾif (Ḥiǧāz)?</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Friedrich Schulthess, Umajja ibn Abi ṣ Ṣalt. Die unter seinem Namen überlieferten Gedichtfragmente, Leipzig 1911, S. 13; Bahǧa ʿAbd l-Ġafūr al-Ḥadīṯī, Umayya ibn abī ṣ-Ṣalt: Ḥayātuhū wa-šiʿruhū, Bagdad 1975, S.</bibl>
+              <bibl type="literatur">Horovitz, Josef: Koranische Untersuchungen. de Gruyter, Berlin [u.a] 1926.</bibl>
+              <bibl type="literatur">Schwarzlose, F.W.: Die Waffen der alten Araber. Leipzig 1886.</bibl>
+              <bibl type="literatur">Seidensticker, Tilman: &amp;#x201E;Die Authentizit&amp;#xE4;t der Umaiya Ibn Ab&amp;#x12B; &amp;#x1E63;-&amp;#x1E62;alt zugeschriebenen Gedichte II&amp;#x201C;. In: ZdMG 161 (2011), S. 39&amp;#x2013;68.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>1. فَهْىَ تَجْرى فيهِ وَتَجْتَسِرُ البَحْرَ بِأَقْلاعِها كَقِدْحِ المُغالى2. تَصْرُخُ الطَّيْرُ وَالبَريَّةُ فيها مَعْ قَوِيِّ السِّباعِ وَالأَفْيالِ3. حينَ فيها مِن كُلِّ ما عاشَ زَوْجٌ بينَ ظهرَىْ غَوارِبٍ كَالجِبالِ4. سَـــمِــــعَ اللَهُ لِاِبْـــنِ آدَمَ نُـــوحٍ      رَبُّنَــا ذُو الْجَــلالِ وَالإِفْــضَـــالِ 5. حِــيْـــنَ أَوْفَــى بِــذِى الْحَـمَــامَــةِ        وَالنَّاسُ جَمِيعاً في فُلْكِهِ كَالْعِيالِ 6. حَــابِـــســاً جَـوْفُهُ عَـلَيْــهِ رَسُـولاً       مِـنْ خِـفَــافِ الحَمَـامِ كَالتِّـمْـثَـالِ7. فَـرَشَــاهــا عَـلى الرِّسـالَةِ طَوْقـاً      وَخِـضــابــاً عَـلامَــةً غَـيـْـرَ بـَالى8. فَـأَتَــتْــهُ بِـالصِّــدْقِ لَمَّـا رَشَاهـا     وَبِــقِـــطْـــفٍ لَمَّــا غَـدا عِـثْــكَــالِ9. وَلِإِبْــراهِـــيــمَ المُـوَفِّــى بِـنَــذْر    اِحْــتِـــســابــاً وَحَـامِــلَ الأَجْـزَالِ 10. بِـكْــرَهُ لَمْ يَـكُــنْ ليَـصْــبِــرَ عَنـهُ      او يَرآهُ فِــى مَــعْـــشَـــرٍ اَقْــتَـــالِ11. يا بُنَىَّ إِنِّى نَذَرْتُـكَ لِلَّهِ       شَحِـيـطـاً فَاِصْبِرْ فِدَاً لكَ حـــالِى 12. فأجــابَ الغُــلامُ أَنْ قــالَ فِــيــهِ      كُــلُّ شَــىْء لِلَّهِ غَــيْـــرُ اِنْـتِــحَــالِ 13. أَبَتى إِنَّنِى جَزَيْـتُـكَ بِالَّلهِ                تَقيّاً بِهِ عَــلى كُــلِّ حَالِ 14. فَـاقْـضِ مَا قَدْ نَذَرْتَ لِلَّهِ وَاَكفُـفْ     عَــنْ دَمِــى أَنْ يَـمَــسَّهُ سِـرْبَــالى 15. وَاِشْــدُدِ الصَّــفْــدَ لا أَحِـيــدُ عَـنْ السِكِّـينِ حَيْدَ الأَسِيرِ ذِى الأَغْلالِ 16. إِنَّنــــى آلَمُ المَــــحَـــــزِّ وَإِنِّــــى         لا أَمَـسُّ الأَذْقـانَ ذاتَ السِـبــالِ 17. وَلَهُ مُـدْيَــةٌ تَـخَـيَّــلُ فِى اللَّحْمِ           هُـــذَامٌ جَلِيَّةٌ كـــالهِــــلالِ 18. بَـيْـنَـمـا يَخْـلَعُ السَرَابِـيـلَ عَنْـهُ           فَـــكَّهُ رَبُّهُ بِــكَـــبْـــشٍ جُــلالِ 19. قَــــالَ خُــــذْهُ وَأَرْسِـــلِ اِبْـــنَــــكَ إِنِّى         لِلَّذِى قَدْ فَعَـلْتُـمَـا غَيْرُ قالِى 20. والِدٌ يَــــتَّقـــــى وَآخَـــرُ مَـــوْلودٌ       فَــطَـــارا مِـنْــهُ بسَــمْــعِ مَـعــالِ 21. رُبَّمَـــا تَكْرَهُ النُّــفُـــوسُ مِــنَ الشَرِّ لَهُ      فَـرْجَــةٌ كَحَـلِّ العِقَـالِ جَعَلَ اللَهُ جيدَهُ مِن نُحاسٍ إِذ رَآة زَولاً مِنَ الأَزْوالِa. يا قليلَ العَزاءِ فى الأهْوالِ وكثيرَ الهُمومِ فى والأْوجالِb. صَبِّر النفسَ عندَ كلِّ مُلّمٍ إنَّ فى الصَبرُ حَيْلَةَ المُحْتالِc. لا تَضِقُ الأُمور ذَرْعاً فقد يُكْشَف غمَّاؤُها بغير احتيالd. قد يُصاب الجَبَانُ فى آخِرِ الصَفِّ ويَنْجو مُقارِعُ الأَبْطال22. قالَ رَبِّي إنِّي دَعَوْتُكَ في الفَجْرِ              فأًصْلِحْ عَلى يَدَيَّ اعْتِمالِى23. إِنَّنِى زارِدُ الحَديدَعَلى النَّاسِ دُرُوعــــاً سَــــوابِـــــغَ الأَذْيَــــالِ23. لا أَرَى مَنْ يُعِـيـنِـنـى فى حَياتِى غَـيْــرَ نَـفْــسِــى إلّا بَـنِــى اِسْرَالِ</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>22. Er sprach: „Herr, ich rufe dich hier in der Dämmerung an: gib meiner Hände Werk Gelingen!23. Siehe, ich bin einer, der das Eisen für die Menschen zu Panzerhemden mit lang herabhängenden Enden zusammenfügt [Q 34:10-11].24. Ich sehe keinen ausser mir, der mir, solange ich lebe, hilft, ausser den Israeliten“. </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

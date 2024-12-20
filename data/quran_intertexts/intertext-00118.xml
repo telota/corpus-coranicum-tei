@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Offenbarung des Johannes 2:18-23</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_118" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>118</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Gott kennt und prüft das Innere des Menschen: Q 35:38 spricht davon, dass er "um das weiß, was in der Brust ist" (ʿālim bi-ḏāt aṣ-ṣudūr), die Offenbarung des Johannes davon, dass er "Herzen und Nieren prüft" (2:23). Tatsächlich zitiert die Johannes-Apokalypse hier Psalm 7:10 (vgl. TUK_0473) und Jeremia 11:20. Q 35:38 ist also wohl keine gezielte Anspielung auf die Offenbarung des Johannes, sondern gebraucht lediglich einen auch sonst bezeugten biblischen Topos. Dabei steht dieser Topos sowohl in den drei biblischen Stellen als auch in Q 35:38 im Kontext von Vergeltungsdrohungen: Weil Gott das Innerste des Menschen kennt, wird er die Bösen strafen.
+	 
+</summary>
+            <msItem>
+              <title>Offenbarung des Johannes 2:18-23</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 90-130 n. Chr.</origDate>
+              <origPlace>Patmos (laut Offb. 1:9)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	18 Καὶ τῷ ἀγγέλῳ τῆς ἐν Θυατείροις ἐκκλησίας γράψον• Τάδε λέγει ὁ υἱὸς τοῦ θεοῦ, ὁ ἔχων τοὺς ὀφθαλμοὺς αὐτοῦ ὡς φλόγα πυρὸς καὶ οἱ πόδες αὐτοῦ ὅμοιοι χαλκολιβάνῳ•  19 οἶδά σου τὰ ἔργα καὶ τὴν ἀγάπην καὶ τὴν πίστιν καὶ τὴν διακονίαν καὶ τὴν ὑπομονήν σου, καὶ τὰ ἔργα σου τὰ ἔσχατα πλείονα τῶν πρώτων. 20 ἀλλὰ ἔχω κατὰ σοῦ ὅτι ἀφεῖς τὴν γυναῖκα Ἰεζάβελ, ἡ λέγουσα ἑαυτὴν προφῆτιν καὶ διδάσκει καὶ πλανᾷ τοὺς ἐμοὺς δούλους πορνεῦσαι καὶ φαγεῖν εἰδωλόθυτα. 21 καὶ ἔδωκα αὐτῇ χρόνον ἵνα μετανοήσῃ, καὶ οὐ θέλει μετανοῆσαι ἐκ τῆς πορνείας αὐτῆς. 22 ἰδοὺ βάλλω αὐτὴν εἰς κλίνην καὶ τοὺς μοιχεύοντας μετ᾽ αὐτῆς εἰς θλῖψιν μεγάλην, ἐὰν μὴ μετανοήσωσιν ἐκ τῶν ἔργων αὐτῆς, 23 καὶ τὰ τέκνα αὐτῆς ἀποκτενῶ ἐν θανάτῳ.  καὶ γνώσονται πᾶσαι αἱ ἐκκλησίαι ὅτι ἐγώ εἰμι ὁ ἐραυνῶν νεφροὺς καὶ καρδίας, καὶ δώσω ὑμῖν ἑκάστῳ κατὰ τὰ ἔργα ὑμῶν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	18 An den Engel der Gemeinde in Thyatira schreibe: So spricht der Sohn Gottes, der Augen hat wie Feuerflammen und Beine wie Golderz:  19 Ich kenne deine Werke, deine Liebe und deinen Glauben, dein Dienen und Ausharren  und ich weiß, dass du in letzter Zeit mehr getan hast als am Anfang. 20 Aber ich werfe dir vor, dass du das Weib Isebel gewähren lässt; sie gibt sich als Prophetin aus und lehrt meine Knechte und verführt sie, Unzucht zu treiben und Fleisch zu essen, das den Götzen geweiht ist. 21 Ich habe ihr Zeit gelassen umzukehren; sie aber will nicht umkehren und von ihrer Unzucht ablassen. 22 Darum werfe ich sie auf das Krankenbett und alle, die mit ihr Ehebruch treiben, bringe ich in große Bedrängnis, wenn sie sich nicht abkehren vom Treiben dieses Weibes. 23 Ihre Kinder werde ich töten, der Tod wird sie treffen und  alle Gemeinden werden erkennen, dass ich es bin, der Herz und Nieren prüft, und ich werde jedem von euch vergelten, wie es seine Taten verdienen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

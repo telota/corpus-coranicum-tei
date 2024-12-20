@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2392">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleveland, Ohio, The Cleveland Museum of Art, 1933.480</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="79">The Cleveland Museum of Art
+                            , Cleveland, Ohio</repository>
+            <idno>1933.480</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on paper; Shelfmark: 1933.480; Qurʾānic Text: Q 39:42-39:60; 12 lines per page; Dimensions: 324 x 412mm; Script  style: raiḥānī; Estimated date of production: 1300-1400.</p>
+            </summary>
+            <msItem xml:id="mysql_id_706962" n="1r">
+              <title type="numeric" key="039:042:002-039:050:011">
+                                    039:042:002-039:050:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706963" n="1v">
+              <title type="numeric" key="039:051:001-039:060:014">
+                                    039:051:001-039:060:014
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>324</width><height>412</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12">12 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                raiḥānī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1300-1400</origDate>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76525">
+      <graphic decls="#imageRights-1" url="manuscript/2392/b7f33568-ff2e-41aa-bd69-77cc7488f87b/manuscript-2392-page-76525-image-68643.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76526">
+      <graphic decls="#imageRights-1" url="manuscript/2392/bea2f153-8b3f-4bd2-b971-e31a502463c1/manuscript-2392-page-76526-image-68644.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

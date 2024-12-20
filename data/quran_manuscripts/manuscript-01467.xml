@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1467">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 1979.201</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>1979.201</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 1979.201; Qurʾānic text: Q 45:30-45:37; Dimensions: 283 x 241mm; Lines per page: 16; Script style: kūfī B.II; Estimated date of production: 750-850 CE. </p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://www.metmuseum.org/art/collection/search/452935">website of the Metropilitan Museum of Art</ref>. Unfortunately, it only shows a reproduction of the recto page.</p>
+            </summary>
+            <msItem xml:id="mysql_id_687657" n="1r">
+              <title type="numeric" key="045:030:006-045:037:006">
+                                    045:030:006-045:037:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>283</width><height>241</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-850</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47617">
+      <graphic decls="#imageRights-1" url="manuscript/1467/f4b78df7-9312-4d0c-9dad-d740dc075618/manuscript-1467-page-47617-image-33801.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1467/fd446ff2-6417-446e-8349-4d925068a0c9/manuscript-1467-page-47617-image-33802.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

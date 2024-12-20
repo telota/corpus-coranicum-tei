@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 107:1-32</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1258" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1258</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das in zahlreichen Versen im Koran auftretende Bild vom geraden Weg, den Gott die Menschen führt, ist im Psalm 107:7 erwähnt.
+</summary>
+            <msItem>
+              <title>Psalm 107:1-32</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	1הֹד֣וּ לַיהוָ֣ה כִּי־טֹ֑וב כִּ֖י לְעֹולָ֣ם חַסְדֹּֽו׃
+
+	2יֹ֭אמְרוּ גְּאוּלֵ֣י יְהוָ֑ה אֲשֶׁ֥ר גְּ֝אָלָ֗ם מִיַּד־צָֽר׃
+
+	3וּֽמֵאֲרָצֹ֗ות קִ֫בְּצָ֥ם מִמִּזְרָ֥ח וּמִֽמַּעֲרָ֑ב מִצָּפֹ֥ון וּמִיָּֽם׃
+
+	4תָּע֣וּ בַ֭מִּדְבָּר בִּישִׁימֹ֣ון דָּ֑רֶךְ עִ֥יר מֹ֝ושָׁ֗ב לֹ֣א מָצָֽאוּ׃
+
+	5רְעֵבִ֥ים גַּם־צְמֵאִ֑ים נַ֝פְשָׁ֗ם בָּהֶ֥ם תִּתְעַטָּֽף׃
+
+	6וַיִּצְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֽוּקֹותֵיהֶ֗ם יַצִּילֵֽם׃
+
+	7וַ֭יַּֽדְרִיכֵם בְּדֶ֣רֶךְ יְשָׁרָ֑ה לָ֝לֶ֗כֶת אֶל־עִ֥יר מֹושָֽׁב׃
+
+	8יֹוד֣וּ לַיהוָ֣ה חַסְדֹּ֑ו וְ֝נִפְלְאֹותָ֗יו לִבְנֵ֥י אָדָֽם׃
+
+	9כִּי־הִ֭שְׂבִּיעַ נֶ֣פֶשׁ שֹׁקֵקָ֑ה וְנֶ֥פֶשׁ רְ֝עֵבָה מִלֵּא־טֹֽוב׃
+
+	10יֹ֭שְׁבֵי חֹ֣שֶׁךְ וְצַלְמָ֑וֶת אֲסִירֵ֖י עֳנִ֣י וּבַרְזֶֽל׃
+
+	11כִּֽי־הִמְר֥וּ אִמְרֵי־אֵ֑ל וַעֲצַ֖ת עֶלְיֹ֣ון נָאָֽצוּ׃
+
+	12וַיַּכְנַ֣ע בֶּעָמָ֣ל לִבָּ֑ם כָּ֝שְׁל֗וּ וְאֵ֣ין עֹזֵֽר׃
+
+	13וַיִּזְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֻֽקֹותֵיהֶ֗ם יֹושִׁיעֵֽם׃
+
+	14יֹֽ֭וצִיאֵם מֵחֹ֣שֶׁךְ וְצַלְמָ֑וֶת וּמֹוסְרֹ֖ותֵיהֶ֣ם יְנַתֵּֽק׃
+
+	15יֹוד֣וּ לַיהוָ֣ה חַסְדֹּ֑ו וְ֝נִפְלְאֹותָ֗יו לִבְנֵ֥י אָדָֽם׃
+
+	16כִּֽי־שִׁ֭בַּר דַּלְתֹ֣ות נְחֹ֑שֶׁת וּבְרִיחֵ֖י בַרְזֶ֣ל גִּדֵּֽעַ׃
+
+	17אֱ֭וִלִים מִדֶּ֣רֶךְ פִּשְׁעָ֑ם וּֽ֝מֵעֲוֹֽנֹתֵיהֶ֗ם יִתְעַנּֽוּ׃
+
+	18כָּל־אֹ֭כֶל תְּתַעֵ֣ב נַפְשָׁ֑ם וַ֝יַּגִּ֗יעוּ עַד־שַׁ֥עֲרֵי מָֽוֶת׃
+
+	19וַיִּזְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם מִ֝מְּצֻֽקֹותֵיהֶ֗ם יֹושִׁיעֵֽם׃
+
+	20יִשְׁלַ֣ח דְּ֭בָרֹו וְיִרְפָּאֵ֑ם וִֽ֝ימַלֵּ֗ט מִשְּׁחִיתֹותָֽם׃ ׆
+
+	21יֹוד֣וּ לַיהוָ֣ה חַסְדֹּ֑ו וְ֝נִפְלְאֹותָ֗יו לִבְנֵ֥י אָדָֽם׃ ׆
+
+	22וְ֭יִזְבְּחוּ זִבְחֵ֣י תֹודָ֑ה וִֽיסַפְּר֖וּ מַעֲשָׂ֣יו בְּרִנָּֽה׃ ׆
+
+	23יֹורְדֵ֣י הַ֭יָּם בָּאֳנִיֹּ֑ות עֹשֵׂ֥י מְ֝לָאכָ֗ה בְּמַ֣יִם רַבִּֽים׃ ׆
+
+	24הֵ֣מָּה רָ֭אוּ מַעֲשֵׂ֣י יְהוָ֑ה וְ֝נִפְלְאֹותָ֗יו בִּמְצוּלָֽה׃ ׆
+
+	25וַיֹּ֗אמֶר וַֽ֭יַּעֲמֵד ר֣וּחַ סְעָרָ֑ה וַתְּרֹומֵ֥ם גַּלָּֽיו׃ ׆
+
+	26יַעֲל֣וּ שָׁ֭מַיִם יֵרְד֣וּ תְהֹומֹ֑ות נַ֝פְשָׁ֗ם בְּרָעָ֥ה תִתְמֹוגָֽג׃
+
+	27יָחֹ֣וגּוּ וְ֭יָנוּעוּ כַּשִּׁכֹּ֑ור וְכָל־חָ֝כְמָתָ֗ם תִּתְבַּלָּֽע׃
+
+	28וַיִּצְעֲק֣וּ אֶל־יְ֭הוָה בַּצַּ֣ר לָהֶ֑ם וּֽ֝מִמְּצֽוּקֹתֵיהֶ֗ם יֹוצִיאֵֽם׃
+
+	29יָקֵ֣ם סְ֭עָרָה לִדְמָמָ֑ה וַ֝יֶּחֱשׁ֗וּ גַּלֵּיהֶֽם׃
+
+	30וַיִּשְׂמְח֥וּ כִֽי־יִשְׁתֹּ֑קוּ וַ֝יַּנְחֵ֗ם אֶל־מְחֹ֥וז חֶפְצָֽם׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Danket dem Herrn, denn er ist gütig, denn seine Huld währt ewig. 2 So sollen alle sprechen, die vom Herrn erlöst sind, die er von den Feinden befreit hat. 3 Denn er hat sie aus den Ländern gesammelt, vom Aufgang und Niedergang, vom Norden und Süden. 4 Sie, die umherirrten in der Wüste, im Ödland, und den Weg zur wohnlichen Stadt nicht fanden, 5 die Hunger litten und Durst, denen das Leben dahinschwand, 6 die dann in ihrer Bedrängnis schrien zum Herrn, die er ihren Ängsten entriss 7 und die er führte auf geraden Wegen, sodass sie zur wohnlichen Stadt gelangten: 8 sie alle sollen dem Herrn danken für seine Huld, für sein wunderbares Tun an den Menschen, 9 weil er die lechzende Seele gesättigt, die hungernde Seele mit seinen Gaben erfüllt hat. 10 Sie, die saßen in Dunkel und Finsternis, gefangen in Elend und Eisen, 11 die den Worten Gottes getrotzt und verachtet hatten den Ratschluss des Höchsten, 12 deren Herz er durch Mühsal beugte, die stürzten und denen niemand beistand, 13 die dann in ihrer Bedrängnis schrien zum Herrn, die er ihren Ängsten entriss, 14 die er herausführte aus Dunkel und Finsternis und deren Fesseln er zerbrach: 15 sie alle sollen dem Herrn danken für seine Huld, für sein wunderbares Tun an den Menschen, 16 weil er die ehernen Tore zerbrochen, die eisernen Riegel zerschlagen hat. 17 Sie, die dahinsiechten in ihrem sündhaften Treiben, niedergebeugt wegen ihrer schweren Vergehen, 18 denen vor jeder Speise ekelte, die nahe waren den Pforten des Todes, 19 die dann in ihrer Bedrängnis schrien zum Herrn, die er ihren Ängsten entriss, 20 denen er sein Wort sandte, die er heilte und vom Verderben befreite: 21 sie alle sollen dem Herrn danken für seine Huld, für sein wunderbares Tun an den Menschen. 22 Sie sollen ihm Dankopfer weihen, mit Jubel seine Taten verkünden. 23 Sie, die mit Schiffen das Meer befuhren / und Handel trieben auf den großen Wassern, 24 die dort die Werke des Herrn bestaunten, / seine Wunder in der Tiefe des Meeres 25 - Gott gebot und ließ den Sturmwind aufstehn, / der hoch die Wogen türmte -, 26 die zum Himmel emporstiegen / und hinabfuhren in die tiefste Tiefe, / sodass ihre Seele in der Not verzagte, 27 die wie Trunkene wankten und schwankten, / am Ende waren mit all ihrer Weisheit, 28 die dann in ihrer Bedrängnis schrien zum Herrn, / die er ihren Ängsten entriss 29 - er machte aus dem Sturm ein Säuseln, / sodass die Wogen des Meeres schwiegen -, 30 die sich freuten, dass die Wogen sich legten / und er sie zum ersehnten Hafen führte: 31 sie alle sollen dem Herrn danken für seine Huld, / für sein wunderbares Tun an den Menschen. 32 Sie sollen ihn in der Gemeinde des Volkes rühmen, / ihn loben im Kreis der Alten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

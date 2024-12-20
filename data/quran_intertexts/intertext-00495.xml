@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 47:1-10</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_495" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>495</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das Epitheton al-&amp;#702;a&amp;#703;l&amp;#257;, "der Höchste", aus Q 79:24, 87:1 und 92:20 entspricht dem biblischen &amp;#703;elyôn, das sowohl als Eigenname (Numeri 24:16, Deuteronomium 32:8 sowie Psalm 21:8, 46:5 u. a.) als auch als Attribut stehen kann (vgl.&amp;#702;&amp;#275;l &amp;#703;elyôn, "höchster Gott", in Genesis 14:18–20.22). Im Koran steht al-&amp;#702;a&amp;#703;l&amp;#257; bezogen auf Gott immer neben rabb + Possesivsuffix; die koranische Verwendung entspricht damit am ehesten Psalm 47:3 und 97:9, wo jeweils YHWH &amp;#703;elyôn steht, traditionell gelesen als &amp;#257;dôn&amp;#257;y (= rabb) &amp;#703;elyôn.
+	Interessant ist, dass die Verbindungslinie zwischen hebr. &amp;#703;elyôn und arab. al-&amp;#702;a&amp;#703;l&amp;#257; möglicherweise über das griechische Analogon hypsistos (häufig im Lukas-Evangelium, siehe Lukas 1:32.35.76, 6:35 und 8:28; vgl. Apostelgeschichte 7:48) und nicht über das Syrische (all&amp;#257;h&amp;#257; mrayym&amp;#257;, welches hebr. &amp;#703;elyôn entspricht) führt: Der griechische und der arabische Ausdruck stimmen darin überein, dass es sich morphologisch um Superlative handelt.
+</summary>
+            <msItem>
+              <title>Psalm 47:1-10</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters) </origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	&amp;#1500;&amp;#1463;&amp;#1502;&amp;#1456;&amp;#1504;&amp;#1463;&amp;#1510;&amp;#1468;&amp;#1461;&amp;#1495;&amp;#1463; &amp;#1500;&amp;#1460;&amp;#1489;&amp;#1456;&amp;#1504;&amp;#1461;&amp;#1497;&amp;#1470;&amp;#1511;&amp;#1465;&amp;#1512;&amp;#1463;&amp;#1495; &amp;#1502;&amp;#1460;&amp;#1494;&amp;#1456;&amp;#1502;&amp;#1493;&amp;#1465;&amp;#1512; : &amp;#1499;&amp;#1468;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1464;&amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1514;&amp;#1468;&amp;#1460;&amp;#1511;&amp;#1456;&amp;#1506;&amp;#1493;&amp;#1468;&amp;#1470;&amp;#1499;&amp;#1464;&amp;#1507; &amp;#1492;&amp;#1464;&amp;#1512;&amp;#1460;&amp;#1497;&amp;#1506;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1461;&amp;#1488;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1489;&amp;#1468;&amp;#1456;&amp;#1511;&amp;#1493;&amp;#1465;&amp;#1500; &amp;#1512;&amp;#1460;&amp;#1504;&amp;#1468;&amp;#1464;&amp;#1492; : &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1470;  &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1506;&amp;#1462;&amp;#1500;&amp;#1456;&amp;#1497;&amp;#1493;&amp;#1465;&amp;#1503;  &amp;#1504;&amp;#1493;&amp;#1465;&amp;#1512;&amp;#1464;&amp;#1488; &amp;#1502;&amp;#1462;&amp;#1500;&amp;#1462;&amp;#1498;&amp;#1456; &amp;#1490;&amp;#1468;&amp;#1464;&amp;#1491;&amp;#1493;&amp;#1465;&amp;#1500; &amp;#1506;&amp;#1463;&amp;#1500;&amp;#1470;&amp;#1499;&amp;#1468;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1464;&amp;#1488;&amp;#1464;&amp;#1512;&amp;#1462;&amp;#1509; : &amp;#1497;&amp;#1463;&amp;#1491;&amp;#1456;&amp;#1489;&amp;#1468;&amp;#1461;&amp;#1512; &amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1514;&amp;#1468;&amp;#1463;&amp;#1495;&amp;#1456;&amp;#1514;&amp;#1468;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1493;&amp;#1468;&amp;#1500;&amp;#1456;&amp;#1488;&amp;#1467;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1514;&amp;#1468;&amp;#1463;&amp;#1495;&amp;#1463;&amp;#1514; &amp;#1512;&amp;#1463;&amp;#1490;&amp;#1456;&amp;#1500;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; : &amp;#1497;&amp;#1460;&amp;#1489;&amp;#1456;&amp;#1495;&amp;#1463;&amp;#1512;&amp;#1470;&amp;#1500;&amp;#1464;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1488;&amp;#1462;&amp;#1514;&amp;#1470;&amp;#1504;&amp;#1463;&amp;#1495;&amp;#1458;&amp;#1500;&amp;#1464;&amp;#1514;&amp;#1461;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1488;&amp;#1462;&amp;#1514; &amp;#1490;&amp;#1468;&amp;#1456;&amp;#1488;&amp;#1493;&amp;#1465;&amp;#1503; &amp;#1497;&amp;#1463;&amp;#1506;&amp;#1458;&amp;#1511;&amp;#1465;&amp;#1489; &amp;#1488;&amp;#1458;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1512;&amp;#1470;&amp;#1488;&amp;#1464;&amp;#1492;&amp;#1461;&amp;#1489; &amp;#1505;&amp;#1462;&amp;#1500;&amp;#1464;&amp;#1492; : &amp;#1506;&amp;#1464;&amp;#1500;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1489;&amp;#1468;&amp;#1460;&amp;#1514;&amp;#1456;&amp;#1512;&amp;#1493;&amp;#1468;&amp;#1506;&amp;#1464;&amp;#1492; &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1465;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1489;&amp;#1468;&amp;#1456;&amp;#1511;&amp;#1493;&amp;#1465;&amp;#1500; &amp;#1513;&amp;#1473;&amp;#1493;&amp;#1465;&amp;#1508;&amp;#1464;&amp;#1512; : &amp;#1494;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1456;&amp;#1512;&amp;#1493;&amp;#1468; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1494;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1461;&amp;#1512;&amp;#1493;&amp;#1468; &amp;#1494;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1456;&amp;#1512;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1456;&amp;#1502;&amp;#1463;&amp;#1500;&amp;#1456;&amp;#1499;&amp;#1468;&amp;#1461;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1494;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1461;&amp;#1512;&amp;#1493;&amp;#1468; : &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1502;&amp;#1462;&amp;#1500;&amp;#1462;&amp;#1498;&amp;#1456; &amp;#1499;&amp;#1468;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1464;&amp;#1488;&amp;#1464;&amp;#1512;&amp;#1462;&amp;#1509; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1494;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1456;&amp;#1512;&amp;#1493;&amp;#1468; &amp;#1502;&amp;#1463;&amp;#1513;&amp;#1474;&amp;#1456;&amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1500; : &amp;#1502;&amp;#1464;&amp;#1500;&amp;#1463;&amp;#1498;&amp;#1456; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1506;&amp;#1463;&amp;#1500;&amp;#1470;&amp;#1490;&amp;#1468;&amp;#1493;&amp;#1465;&amp;#1497;&amp;#1460;&amp;#1501; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1497;&amp;#1464;&amp;#1513;&amp;#1473;&amp;#1463;&amp;#1489; &amp;#1506;&amp;#1463;&amp;#1500;&amp;#1470;&amp;#1499;&amp;#1468;&amp;#1460;&amp;#1505;&amp;#1468;&amp;#1461;&amp;#1488; &amp;#1511;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1513;&amp;#1473;&amp;#1493;&amp;#1465; : &amp;#1504;&amp;#1456;&amp;#1491;&amp;#1460;&amp;#1497;&amp;#1489;&amp;#1461;&amp;#1497; &amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1504;&amp;#1462;&amp;#1488;&amp;#1457;&amp;#1505;&amp;#1464;&amp;#1508;&amp;#1493;&amp;#1468; &amp;#1506;&amp;#1463;&amp;#1501; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497; &amp;#1488;&amp;#1463;&amp;#1489;&amp;#1456;&amp;#1512;&amp;#1464;&amp;#1492;&amp;#1464;&amp;#1501; &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1500;&amp;#1461;&amp;#1488;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1502;&amp;#1464;&amp;#1490;&amp;#1460;&amp;#1504;&amp;#1468;&amp;#1461;&amp;#1497;&amp;#1470;&amp;#1488;&amp;#1462;&amp;#1512;&amp;#1462;&amp;#1509; &amp;#1502;&amp;#1456;&amp;#1488;&amp;#1465;&amp;#1491; &amp;#1504;&amp;#1463;&amp;#1506;&amp;#1458;&amp;#1500;&amp;#1464;&amp;#1492; :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 [Für den Chormeister. Ein Psalm der Korachiter.] 2 Ihr Völker alle, klatscht in die Hände; / jauchzt Gott zu mit lautem Jubel! 3 Denn Furcht gebietend ist der Herr, der Höchste, / ein großer König über die ganze Erde. 4 Er unterwirft uns Völker / und zwingt Nationen unter unsre Füße. 5 Er wählt unser Erbland für uns aus, / den Stolz Jakobs, den er liebt. [Sela] 6 Gott stieg empor unter Jubel, / der Herr beim Schall der Hörner. 7 Singt unserm Gott, ja singt ihm! / Spielt unserm König, spielt ihm! 8 Denn Gott ist König der ganzen Erde. / Spielt ihm ein Psalmenlied! 9 Gott wurde König über alle Völker, / Gott sitzt auf seinem heiligen Thron. 10 Die Fürsten der Völker sind versammelt / als Volk des Gottes Abrahams. Denn Gott gehören die Mächte der Erde; / er ist hoch erhaben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

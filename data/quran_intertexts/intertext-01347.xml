@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Berakhot 8a</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1347" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1347</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+Die islamische Tradition versteht die in Q 17:1 erwähnte Bezeichnung al-masǧid al-ʾaqṣā als Hinweis auf den Jerusalemer Tempel, dessen wiederholte Zerstörung in den V. 4–8 mahnend erinnert wird. Der Tempel, der Koran sonst nicht figuriert, ist dennoch zentrales Streitobjekt im koranischen Diskurs, insbesondere die mit dem Tempel verbundenen theologischen Diskussionen um die davidisch-solomonische Herrschaft und seine Wiederherstellung in der messianischen Endzeit, wie kürzlich Zishan Ghaffar (Z. Ghaffar, 2019: 15–26) aufgezeigt hat. Die Zerstörung des Herodianischen Tempels in Jerusalem (vgl. TUK_1350) im Jahre 70 n. Chr. stellt ein einschneidendes Ereignis in der kollektiven Erinnerung des jüdischen Volkes dar (vgl. G. Stemberger, 2002). Nach rabbinischer Vorstellung markiert die Zerstörung des Tempel nicht nur die Zerstörung eines monomentalen Kultbaus, sondern sie markiert den Beginn des Exils des Volkes (hebr. galut), als auch das „Exil Gottes“ (vgl. bT Megilla 29a). Gemäß rabbinischer Vorstellung begleitet Gott sein „Eigentumsvolk“ (hebr. ʿam segulla) in die Zerstreuung, d. h. die göttliche Präsenz (hebr. šeḵina, wörtlich „Einwohnung [Gottes]“) verlässt die entweihte Wohnstatt (hebr. miškan) im Jerusalemer Tempel zusammen mit dem Volk ins Exil (vgl. A.M. Goldberg, 1969; vgl. zu dem mit šeḵina verwandten koranischen Begriff sakīna, der in Q 2:248, Q 9:26.40 und Q 48:4.26 erwähnt wird, I. Goldziher, 1896: 177–204). Nach Auffassung der Rabbinen bezeichnet šeḵina das „Mitsein Gottes“ (vgl. A.M. Goldberg, 1969), das entsteht, wenn die Tora ausgelegt wird , das jedoch verloren geht, wenn das Land durch Götzendienst, Unzucht oder Blutvergießen verunreinigt wird (siehe Mekhilta deRabbi Ishma'el, ed. Horovitz/Rabin, S. 200 sowie Sifre Deuteronomium, ed. Finkelstein, S. 222). Nach den „Sprüchen der Väter“ (einem prominenten Traktat der Mischna [= tannaitische Sammlung von Satzungen]), sind es diese Verfehlungen, die das Exil und die damit einhergehende Zerstreuung des Volkes (d. h. Dispora) ausgelösen (vgl. TUK_1342).Durch die Entweihung des Jerusalemer Tempels wird auch der Tempelgottesdienst obsolet. Waren bereits zur Zeit des Herodianischen Tempels Synagogen (hebr. batey ha-kenesset, Sg. bet ha-kenesset; bzw. griech. proseuchai, Sg. proseuche) wichtige Versammlungsorte, bekommen sie nach der Tempelzerstörung als Orte des Gebets und des Studiums eine zentrale Rolle (vgl. M. Hengel, 1971: 157–184; siehe zur Schilderung der Tempelzerstörung in der islamischen Tradition den Überblick bei H. Busse, 1996: 1–17). Gebet und Studium treten nun an die Stelle des Opfers im „Tempel“. Die Synagoge wird so gewissermaßen zum Jerusalemer Tempel, der vorher der einzige Ort war, an dem rituelle Handlungen und Opferdarbringungen durchgeführt wurden. Die Vorstellung, dass die Präsenz Gottes nicht an einem durch kultische Handlungen bestimmten Ort zustande kommt, erinnert an Matth 18,20: „Denn wo zwei oder drei versammelt sind in meinem Namen, da bin ich mitten unter ihnen“. Der Tempel tritt in der christlichen Vorstellungswelt so weit in den Hintergrund, dass sogar die Mosaikkarte von Madaba (Kirche des Heiligen Georg in Madaba, Jordanien), die aus der Mitte des 6. Jhr. n. Chr. datiert, Jerusalem lediglich durch die sechs Stadttore und die Kirchen markiert. Der Jerusalemer Tempel ist auf ihr – im Gegensatz zu späteren mittelalterlichen Darstellungen – nicht verzeichnet; angedeutet ist lediglich die in byzantinischer Zeit bereits zerstörte Tempelesplanade; Orte der Heiligkeit, die Jerusalem seine Bedeutung verleihen, sind aus der christlichen Heilsgeschichte und -überlieferung erklärbar, so u. a. die Anastasis-Kirche, die Probatica, Pinna Templi und Nea Theotokos (vgl. H. Donner, 1992: 87–94). Der jüdische Tempel hat seine Bedeutung verloren; als Weltenachse fungiert nun (für die entstandene christliche Gemeinschaft) das Kreuz von Golgatha. (Seine Verbringung nach Ketesiphon wird ebenfalls im Koran angedeutet, vgl. Q 30:2–7 und den Kommentar zu Stelle.)In der zitierten Stelle aus dem Babylonischen Talmud tritt mit der Tempelzerstörung neben dem gemeinschaftlichen Gebet das Studium der Tora („Lehre“) in das Zentrum gottesdienstlicher Praxis. So berichtet etwa Rabbi Ḥiyya b. Ammi im Namen des Ulla, dass Gott nach der Tempelzerstörung nichts anderes als die vier Ellen des Gesetzes sein eigen nennen kann. Dem zugrunde liegt die Vorstellung, dass durch Gebet und Studium letztendlich Gott selbst erlöst werden könne.
+
+Der Babylonische Talmud [bT] (hebr. ha-talmud ha-bavli) zählt wie kein anderes Werk zum Traditionsschatz des rabbinischen Judentums (vgl. Günter Stemberger, Das klassische Judentum. Kultur und Geschichte der rabbinischen Zeit (70. n. Chr.–1040 n. Chr.), München: C.H. Beck, 1979) und damit zum Hauptzeugen der jüdischen Gedankenwelt klassischer Zeit. Der babylonische Talmud bezeugt eine Verhandlung von Themenfeldern und Einzelproblemen, die bereits in der Mischna [M] und der Baraita/ Tosefta [T] aufgeworfen worden sind. Es handelt sich aber nicht nur um eine Sammlung rechts-philosophischer und rechts-theologischer Diskussionen, sondern bewahrt eine Vielzahl haggadischer Materialien, welche uns Rückschlüsse auf die Theologie des rabbinischen Judentums geben (vgl. Salomon Schechter, Aspects of Rabbinic Theology, London: A &amp; C Black, 1909; Ephraim E. Urbach, The Sages: Their Concepts and Beliefs, trans. I. Abrahams, Jerusalem: Magnes Press, 1979). Die Textgeschichte des Talmuds, der bisher häufig im frühen sechsten Jahrhundert n. Chr. zeitlich lokalisiert wurde, stellt sich schwieriger dar als bisher angenommen. Selbst
+wenn mit einer abschließenden Bearbeitung durch die Talmudredaktoren (Setammaʾim)
+erst zu Beginn des achten Jahrhunderts n. Chr. zu rechnen ist (zu den komplexen Redaktionsprozessen siehe David Weiss Halivni, The Formation of the Babylonian Talmud. Introduced, Translated and Annotated by Jeffrey L. Rubenstein, Oxford, New York: Oxford University Press, 2013), so sind die mündlichen Überlieferungen älteren Datums (Moulie Vidas, Tradition and the Formation of the Talmud, Princeton: Princeton University Press, 2014). Damit werden die Traditionen des babylonischen Talmuds [bT] neben den frühen Auslegungsmidraschim – Genesis Rabba [BerR], Leviticus Rabba [WaR], Pesiqta de-Rav Kahane [PesK] – und den rechts-philosophischen und rechts-theologischen Midraschim – Mekhiltaʾ de-Rabbi Yischmaʾel [MekhY] und Sifre Deuteronomium [SifDev] – zu dem wichtigsten Bezugspunkt jüdischen Denkens der Spätantike.
+
+
+Ausgabe:
+Talmud Babli (Wilna Edition), 20 Bde., Jerusalem: o.V., 1977 [= Wilna:
+Romm, 1880-1886]; Übersetzung: (Deutsch) Lazarus Goldschmidt, Der
+babylonische Talmud, 12 Bde., Berlin: Jüdischer Verlag, 1929–1936
+[Nachdruck Berlin 1996]; (Englisch) Isidore Epstein (Ed.), The Babylonian
+Talmud. Translated into English with Notes, Glossary and Indices, 35 Bde., London: Soncino Press, 1935–1952 [Nachdruck in 18 Bde. London 1961]; Literatur: Günter Stemberger, Einleitung in Talmud und Midrasch. Neunte, vollständig neubearbeitete Auflage, München: C.H. Beck, 2011, S. 211–247; vgl. auch Günter Stemberger, Der Talmud: Einführung, Texte, Erläuterungen, München: C.H. Beck, 1982.</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Berakhot 8a</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">7./ 8. Jahrhundert (Endredaktion durch die Stamma'im)</origDate>
+              <origPlace>Babylonien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna Edition [= Wilna: Romm, 1880-1886]</bibl>
+              <bibl type="literatur">Busse, Heribert: &amp;#x201E;The Destruction of the Temple nad Its Reconstruction in the Light of Muslim Exegeseis of Sura 17,2-8&amp;#x201C;. In: Jerusalem Studies in Arabic and Islam 20 (1996), S. 1&amp;#x2013;17.</bibl>
+              <bibl type="literatur">Donner, Herbert: The Mosaic Map of Madaba. An Introductory Guide. Kok Pharos Publishing House, Kampen 1992.</bibl>
+              <bibl type="literatur">Goldberg, Arnold: Untersuchungen &amp;#xFC;ber die Vorstellung der Schekhina in der fr&amp;#xFC;hen rabbinischen Literatur. Mohr Siebeck, Berlin 1969.</bibl>
+              <bibl type="literatur">Hengel, Martin: &amp;#x201E;Proseuche und Synagoge&amp;#x201C;. In: Tradition und Glaube. Das fr&amp;#xFC;he Christentum in seiner Umwelt. Vandenhoeck &amp;amp; Ruprecht, G&amp;#xF6;ttingen 1971, S. 157&amp;#x2013;184.</bibl>
+              <bibl type="literatur">Stemberger, G&amp;#xFC;nter: &amp;#x201E;Reaktionen auf die Tempelzerst&amp;#xF6;rung in der rabbinischen Literatur&amp;#x201C;. In: Zerst&amp;#xF6;rungen des Jerusalemer Tempels. Geschehen - Wahrnehmung - Bew&amp;#xE4;ltigung. Mohr Siebeck, T&amp;#xFC;bingen 2002, S. 207&amp;#x2013;236. Wissenschaftliche Untersuchungen zum Neuen Testament.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Dirk Hartwig</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2F800px-Madaba_map_vYrdYd.jpg&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>אמר ליה רבא לרפרם בר פפא לימא לן מר מהני מילי מעלייתא דאמרת משמיה דרב חסדא במילי דבי כנישתא אמר ליה הכי אמר רב חסדא מאי דכתי' (תהילים פז, ב) אוהב ה' שערי ציון מכל משכנות יעקב אוהב ה' שערים המצויינים בהלכה יותר מבתי כנסיות ומבתי מדרשות והיינו דאמר ר' חייא בר אמי משמיה דעולא מיום שחרב בית המקדש אין לו להקב"ה בעולמו אלא ארבע אמות של הלכה בלבד. ואמר אביי מריש הוה גריסנא בגו ביתא ומצלינא בבי כנישתא כיון דשמענא להא דאמר רבי חייא בר אמי משמיה דעולא מיום שחרב בית המקדש אין לו להקב"ה בעולמו אלא ארבע אמות של הלכה בלבד לא הוה מצלינא אלא היכא. רבי אמי ורבי אסי אף על גב דהוו להו תליסר בי כנישתא בטבריא לא מצלו אלא ביני עמודי היכא דהוו גרסי.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+„Raba sprach zu Raphram b. Papa: Möge uns doch der Meister einen von den schönen Aussprüchen sagen, die er im Namen des R. Ḥisa im Betreffe des Bethauses gesagt hat. Dieser erwiderte: Folgendes sagte R. Ḥisa: Es heißt: der Herr liebt die Pforten Zions vor allen Wohnungen Jakobs (Ps 87,2); der Herr liebt die Pforten, die ausgezeichnet sind, durch die Halakha, mehr als die Bet- und Lehrhäuser. Das ist es, was R. Ḥija b. Ami im Namen Ulas gesagt hat: Seit dem Tage, an dem das Heiligtum zerstört wurde, hat der Heilige, gespriesen sei er, in seiner Welt nichts weiter, als die vier Ellen der Halakha. Abajje sagte: Anfangs pflegte ich zu Hause zu lernen und im Bethaus zu beten, nachdem ich aber das gehört, was R. Ḥija b. Ami im Namen Ilas gesagt hat, seit dem Tage, an dem Heiligtum zerstört wurde, habe der Heilige, gepriesen sei er, in dieser Welt nichts weiter, als die vier Ellen der Halakha, bete ich nur da, wo ich lerne. R. Ami und R. Asi beteten, obgleich sie in Tiberias dreizehn Bethäuser hatten, dennoch nirgends anders als zwischen den Säulen, wo sie zu lernen pflegten.“ (Übersetzung: L. Goldschmidt [mit leichten Modifikationen von Dirk Hartwig])</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>„Raba said to Rafram b. Papa: Let the master please tell us some of those fine things that you said in the name of R. Hisda on matters relating to the Synagogue! — He replied: Thus said R. Hisda: What is the meaning of the verse: The Lord loveth the gates of Zion more than all the dwellings of Jacob (Ps 87,2)? The Lord loves the gates that are distinguished through Halachah more than the Synagogues and Houses of study. And this conforms with the following saying of R. Hiyya b. Ammi in the name of 'Ulla: Since the day that the Temple was destroyed, the Holy One, blessed be He, has nothing in this world but the four cubits of Halachah alone. So said also Abaye: At first, I used to study in my house and pray in the Synagogue. Since I heard the saying of R. Hiyya b. Ammi in the name of 'Ulla: 'Since the day that the Temple was destroyed, the Holy One, blessed be He, has nothing in His world but the four cubits of Halachah alone', I pray only in the place where I study. R. Ammi and R. Assi, though they had thirteen Synagogues in Tiberias, prayed only between the pillars where they used to study.“ (translation: I. Epstein [with slight modification by Dirk Hartwig])</p>
+      </div>
+    </body>
+  </text>
+</TEI>

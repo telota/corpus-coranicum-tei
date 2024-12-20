@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 50:1-23</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_641" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>641</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Angelika Neuwirth verweist für die Formulierung in Q 73:9 und Q 26:28 (rabbu l-mašriqi wa-l-maġribi, "der Herr des Ostens und des Westens"), Q 70:40 (bi-rabbi l-mašāriqi wa-l-maġāribi, "beim Herrn des Ostens und des Westens") und Q 55:17 (rabbu l-mašriqaini wa-rabbu l-maġribaini, "der Herr des Ostens (Dual) und des Westens (Dual)") auf den hier zitierten Psalm 50:1 sowie auf Psalm 113:3 (mi-mizraḥ šemeš ʿad məvoʾo; "vom Aufgang der Sonne bis zu ihrem Niedergang") (Neuwirth 2011: p. 353, 443, 598); (Neuwirth 2017: p. 406). Für das in den genannten Koranstellen verwendete Stilmittel  ist in der alttestamentlichen Wissenschaft der Begriff Merismus gebräuchlich. Dabei wird eine Ganzheit ausgedrückt, indem zwei oder mehr ihrer Einzelteile aufgezählt werden. Bei den verwendeten Einzelteilen handelt es sich häufig um gegensätzliche Begriffe (vgl. dazu Krašovec 1977).</summary>
+            <msItem>
+              <title>Psalm 50:1-23</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Kra&amp;#x161;ovec, Jo&amp;#x17E;e. Der Merismus Im Biblisch-Hebr&amp;#xE4;ischen Und Nordwestsemitischen. Biblica et Orientalia 33. Rome: Biblical Institute Press, 1977.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran. Handkommentar Mit &amp;#xDC;bersetzung. Vol. 1: Fr&amp;#xFC;hmekkanische Suren: Poetische Prophetie. Berlin: Verlag der Weltreligionen, 2011.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran. Handkommentar Mit &amp;#xDC;bersetzung. Vol. 2.1: Fr&amp;#xFC;hmittelmekkanische Suren: Das neue Gottesvolk: &amp;#x201C;Biblisierung&amp;#x201D; des altarabischen Weltbildes. Berlin, 2017.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> מִזְמוֹר לְאָסָף אֵל אֱלֹהִים יְהוָה דִּבֶּר וַיִּקְרָא־אָרֶץ     מִמִּזְרַח־שֶׁמֶשׁ עַד־מְבֹאוֹ :   מִצִּיּוֹן מִכְלַל־יֹפִי אֱלֹהִים הוֹפִיעַ  :  יָבֹא אֱלֹהֵינוּ וְאַל־יֶחֱרַשׁ אֵשׁ־לְפָנָיו תֹּאכֵל וּסְבִיבָיו נִשְׂעֲרָה מְאֹד :   יִקְרָא אֶל־הַשָּׁמַיִם מֵעָל וְאֶל־הָאָרֶץ לָדִין עַמּוֹ :   אִסְפוּ־לִי חֲסִידָי כֹּרְתֵי בְרִיתִי עֲלֵי־זָבַח :   וַיַּגִּידוּ שָׁמַיִם צִדְקוֹ כִּי־אֱלֹהִים שֹׁפֵט הוּא סֶלָה :   שִׁמְעָה עַמִּי וַאֲדַבֵּרָה יִשְׂרָאֵל וְאָעִידָה בָּךְ אֱלֹהִים אֱלֹהֶיךָ אָנֹכִי :   לֹא עַל־זְבָחֶיךָ אוֹכִיחֶךָ וְעוֹלֹתֶיךָ לְנֶגְדִּי תָמִיד :   לֹא־אֶקַּח מִבֵּיתְךָ פָר מִמִּכְלְאֹתֶיךָ עַתּוּדִים :   כִּי־לִי כָל־חַיְתוֹ־יָעַר בְּהֵמוֹת בְּהַרְרֵי־אָלֶף :   יָדַעְתִּי כָּל־עוֹף הָרִים וְזִיז שָׂדַי עִמָּדִי :   אִם־אֶרְעַב לֹא־אֹמַר לָךְ כִּי־לִי תֵבֵל וּמְלֹאָהּ :   הַאוֹכַל בְּשַׂר אַבִּירִים וְדַם עַתּוּדִים אֶשְׁתֶּה :   זְבַח לֵאלֹהִים תּוֹדָה וְשַׁלֵּם לְעֶלְיוֹן נְדָרֶיךָ :   וּקְרָאֵנִי בְּיוֹם צָרָה אֲחַלֶּצְךָ וּתְכַבְּדֵנִי :   וְלָרָשָׁע אָמַר אֱלֹהִים מַה־לְּךָ לְסַפֵּר חֻקָּי וַתִּשָּׂא בְרִיתִי עֲלֵי־פִיךָ :  וְאַתָּה שָׂנֵאתָ מוּסָר וַתַּשְׁלֵךְ דְּבָרַי אַחֲרֶיךָ :   אִם־רָאִיתָ גַנָּב וַתִּרֶץ עִמּוֹ וְעִם מְנָאֲפִים חֶלְקֶךָ :   פִּיךָ שָׁלַחְתָּ בְרָעָה וּלְשׁוֹנְךָ תַּצְמִיד מִרְמָה :   תֵּשֵׁב בְּאָחִיךָ תְדַבֵּר בְּבֶן־אִמְּךָ תִּתֶּן־דֹּפִי :   אֵלֶּה עָשִׂיתָ וְהֶחֱרַשְׁתִּי דִּמִּיתָ הֱיוֹת־אֶהְיֶה כָמוֹךָ אוֹכִיחֲךָ וְאֶעֶרְכָה לְעֵינֶיךָ :   בִּינוּ־נָא זֹאת שֹׁכְחֵי אֱלוֹהַּ פֶּן־אֶטְרֹף וְאֵין מַצִּיל :   זֹבֵחַ תּוֹדָה יְכַבְּדָנְנִי וְשָׂם דֶּרֶךְ אַרְאֶנּוּ בְּיֵשַׁע אֱלֹהִים :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 [Ein Psalm Asafs.] Der Gott der Götter, der Herr, spricht, / er ruft der Erde zu / vom Aufgang der Sonne bis zum Untergang. 2 Vom Zion her, der Krone der Schönheit, / geht Gott strahlend auf. 3 Unser Gott kommt und schweigt nicht; / Feuer frisst vor ihm her; um ihn stürmt es gewaltig. 4 Dem Himmel droben und der Erde ruft er zu, / er werde sein Volk nun richten: 5 "Versammelt mir all meine Frommen, / die den Bund mit mir schlossen beim Opfer." 6 Die Himmel sollen seine Gerechtigkeit künden; / Gott selbst wird Richter sein. [Sela] 7 "Höre, mein Volk, ich rede. / Israel, ich klage dich an, / ich, der ich dein Gott bin. 8 Nicht wegen deiner Opfer rüg ich dich, / deine Brandopfer sind mir immer vor Augen. 9 Doch nehme ich von dir Stiere nicht an / noch Böcke aus deinen Hürden. 10 Denn mir gehört alles Getier des Waldes, / das Wild auf den Bergen zu Tausenden. 11 Ich kenne alle Vögel des Himmels, / was sich regt auf dem Feld, ist mein Eigen. 12 Hätte ich Hunger, ich brauchte es dir nicht zu sagen, / denn mein ist die Welt und was sie erfüllt. 13 Soll ich denn das Fleisch von Stieren essen / und das Blut von Böcken trinken? 14 Bring Gott als Opfer dein Lob / und erfülle dem Höchsten deine Gelübde! 15 Rufe mich an am Tag der Not; / dann rette ich dich und du wirst mich ehren." 16 Zum Frevler aber spricht Gott: / "Was zählst du meine Gebote auf / und nimmst meinen Bund in deinen Mund? 17 Dabei ist Zucht dir verhasst, / meine Worte wirfst du hinter dich. 18 Siehst du einen Dieb, so läufst du mit, / du machst dich mit Ehebrechern gemein. 19 Dein Mund redet böse Worte / und deine Zunge stiftet Betrug an. 20 Von deinem Bruder redest du schändlich, / auf den Sohn deiner Mutter häufst du Verleumdung. 21 Das hast du getan und ich soll schweigen? / Meinst du, ich bin wie du? / Ich halte es dir vor Augen und rüge dich. 22 Begreift es doch, ihr, die ihr Gott vergesst! / Sonst zerreiße ich euch und niemand kann euch retten. 23 Wer Opfer des Lobes bringt, ehrt mich; / wer rechtschaffen lebt, dem zeig ich mein Heil."</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

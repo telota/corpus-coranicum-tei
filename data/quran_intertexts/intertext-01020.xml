@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>An Autolykos (ad Autolycum) 3:19</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1020" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1020</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Laut Q 11:44 landet die Arche auf dem Ǧūdī, den Theodor Nöldeke als Berg in Arabien identifizierte (Nöldeke 1898: p. 77). Er verweist dabei auf Ḥamāsa Gedicht Nr. 481 (Zählung nach der Übersetzung von Rückert 1846: p. 82) und Yāqūt, Muʿǧam al-buldān II, S. 270, Zeile 11, wo dieses Gedicht zitiert wird (Yāqūt 1867: p. 270). Heinrich Speyer verweist außerdem noch auf Yāqūt, Muʿǧam al-buldān II, S. 144, wo anscheinend von zwei Bergen die Rede ist. Al-Ǧūdī ist sowohl der Name eines Berges bei der Tigrisinsel Ǧazīrat Ibn ʿUmar, wo auch Noahs Arche gelandet sein soll, als auch einer der Berge der Ṭayyiʾ (Yāqūt 1867: p. 144), auf den sich auch das erwähnte Gedicht beziehen soll. Der Name des arabischen Berges wurde dabei schon sehr früh auf den mesopotamischen übertragen, wahrscheinlich schon zur Zeit der arabischen Eroberung (Streck 2012). In jüdischen und christlichen Überlieferungen galt dagegen Armenien (z.B. "Lubar von den Bergen des Ararat" (Buch der Jubiläen), "ein armenischer Berg" (Targum Pseudojonathan), "Qardu/Kardu/Korduk") als Landeplatz der Arche (Literaturhinweise bei Speyer 1931: p. 107). Wie der hier zitierte Text des Theophilus von Antiochien zeigt, gab es möglicherweise auch schon in vorkoranischer Zeit Traditionen, die den Landeplatz der Arche in Arabien lokalisiert haben.
+</summary>
+            <msItem>
+              <title>An Autolykos (ad Autolycum) 3:19</title>
+              <author>Theophilus von Antiochien (2. Jh.)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">2. Jh.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	R.M. Grant (Hg.), Theophilus of Antioch. Ad Autolycum, Oxford 1970.
+</bibl>
+              <bibl type="literatur">&amp;#x160;ih&amp;#x101;b ad-d&amp;#x12B;n Ab&amp;#x12B; &amp;#x2BF;Abdall&amp;#x101;h Y&amp;#x101;q&amp;#x16B;t Ibn &amp;#x2BF;Abdall&amp;#x101;h al-&amp;#x1E25;amaw&amp;#x12B; ar-R&amp;#x16B;m&amp;#x12B; al-Bagd&amp;#x101;d&amp;#x12B;: Kit&amp;#x101;b Mu&amp;#x2BF;&amp;#x1E7;am al-buld&amp;#x101;n (F. W&amp;#xFC;stenfeld, Hrsg.). F. A. Brockhaus in Comm., Leipzig 1867.</bibl>
+              <bibl type="literatur">Ab&amp;#x16B;-Tamm&amp;#x101;m &amp;#x1E24;ab&amp;#x12B;b Ibn-Aus a&amp;#x1E6D;-T&amp;#x101;&amp;#x2BE;&amp;#x12B; &amp;amp; R&amp;#xFC;ckert, Friedrich: Ham&amp;#xE2;sa; oder die &amp;#xE4;ltesten arabischen Volkslieder. &amp;#xDC;bersetzt und erl&amp;#xE4;utert von Friedrich R&amp;#xFC;ckert. Stuttgart S.G. Liesching, 1846.</bibl>
+              <bibl type="literatur">N&amp;#xF6;ldeke, Theodor: &amp;#x201E;Kard&amp;#x16B; und Kurden&amp;#x201C;. In: Beitr&amp;#xE4;ge zur alten Geschichte und Geographie. Festschrift f&amp;#xFC;r Heinrich Kiepert. Verlag von Dietrich Reimer (Ernst Vohsen), Berlin 1898, S. 73&amp;#x2013;81.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+              <bibl type="literatur">Streck, M.: &amp;#x201E;Dj&amp;#x16B;d&amp;#x12B;&amp;#x201C; (P. Bearman, T. Bianquis, C. E. Bosworth, E. van Donzel, &amp;amp; W. P. Heinrichs, Hrsg.). Encyclopaedia of Islam Online, Second Edition.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>Ἀλλ' οὐδὲ δεύτερον κατακλυσμὸν γεγονέναι δηλοῖ, ἀλλὰ μὲν οὖν ἔφη μηκέτι τῷ κόσμῳ κατακλυσμὸν ὕδατος ἔσεσθαι, οἷον οὔτε γέγονεν οὔτε μὴν ἔσται. ὀκτὼ δέ φησιν τὰς πάσας ψυχὰς ἀνθρώπων ἐν τῇ κιβωτῷ διασεσῶσθαι, ἐν τῇ κατασκευασθείσῃ προστάγμασι θεοῦ, οὐχ ὑπὸ Δευκαλίωνος, ἀλλ' ὑπὸ τοῦ Νῶε ἑβραϊστί, ὃς διερμηνεύεται τῇ ἑλλάδι γλώσσῃ ἀνάπαυσις, καθὼς καὶ ἐν ἑτέρῳ λόγῳ ἐδηλώσαμεν ὡς Νῶε, καταγγέλλων τοῖς τότε ἀνθρώποις μέλλειν κατακλυσμὸν ἔσεσθαι, προεφήτευσεν αὐτοῖς λέγων· Δεῦτε, καλεῖ ὑμᾶς ὁ θεὸς εἰς μετάνοιαν· διὸ οἰκείως Δευκαλίων ἐκλήθη. τούτῳ δὲ τῷ Νῶε υἱοὶ τρεῖς ἦσαν, καθὼς καὶ ἐν τῷ δευτέρῳ τόμῳ ἐδηλώσαμεν, ὧν τὰ ὀνόματά ἐστιν Σὴμ καὶ Χὰμ καὶ Ἰάφεθ, οἷς καὶ γυναῖκες τρεῖς ἦσαν τὸ καθ' ἕνα αὐτῶν, καὶ αὐτός, καὶ ἡ γυνὴ αὐτοῦ. Τοῦτον τὸν ἄνδρα ἔνιοι Εὐνοῦχον προσηγορεύκασιν. ὀκτὼ οὖν αἱ πᾶσαι ψυχαὶ ἀνθρώπων διεσώθησαν, οἱ ἐν τῇ κιβωτῷ εὑρεθέντες. Τὸν δὲ κατακλυσμὸν ἐσήμανεν ὁ Μωσῆς ἐπὶ ἡμέρας τεσσαράκοντα καὶ νύκτας τεσσαράκοντα γεγενῆσθαι, ἀπὸ τοῦ οὐρανοῦ τῶν καταρακτῶν ῥυέντων καὶ πασῶν τῶν πηγῶν τῆς ἀβύσσου βλυσάντων, ὥστε τὸ ὕδωρ ὑψωθῆναι ἐπάνω παντὸς ὄρους ὑψηλοῦ πεντεκαίδεκα πήχεις. καὶ οὕτως διεφθάρη τὸ γένος πάντων τῶν τότε ἀνθρώπων, μόνοι δὲ διεσώθησαν οἱ φυλαχθέντες ἐν τῇ κιβωτῷ, οὓς προειρήκαμεν ὀκτώ· ἧς κιβωτοῦ τὰ λείψανα μέχρις τοῦ δεῦρο δείκνυται εἶναι ἐν τοῖς Ἀραβικοῖς ὄρεσιν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Er erklärt aber auch, daß keine zweite Sintflut stattgefunden, ja er versichert sofort, daß ferner keine Wasserflut mehr über die Welt kommen werde, wie ja auch keine mehr eingetreten ist und keine mehr eintreten wird. Weiter erzählt er, es seien im Ganzen acht Seelen gerettet worden in der Arche, die auf Gottes Befehl angefertigt wurde, nicht von Deukalion, sondern von Noe - ein hebräischer Name, der "Ruhe" bedeutet. Wir haben aber in einer andern Schrift schon erzählt, wie Noe seinen Zeitgenossen, als er ihnen die kommende Flut ankündigte, zurief: Hieher! Gott ruft euch zur Buße. Deswegen wurde er auch Deukalion genannt. Dieser Noe hatte drei Söhne, wie wir im zweiten Buche angegeben haben, deren Namen sind: Sem, Cham und Japheth. Diese hatten wieder drei Weiber, jeder eines nämlich; dazu noch er und sein Weib. Manche haben diesen Mann auch Eunuchus genannt. Also wurden im ganzen acht Seelen, die sich in der Arche befanden, gerettet. Die Sündflut aber, so erzählt Moses, dauerte vierzig Tage und vierzig Nächte, indem die Schleusen des Himmels hernieder strömten und alle Brunnen des Abgrundes sich ergossen, so daß das Wasser 50 Ellen hoch über jedem hohen Berge stand.Und so ging das ganze damalige Menschengeschlecht zugrunde und nur die in der Arche Verwahrten, deren, wie gesagt, acht waren, wurden gerettet. Die Trümmer dieser Arche werden bis jetzt noch im arabischen Gebirge gezeigt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

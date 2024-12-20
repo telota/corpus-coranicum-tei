@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2961">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), Y. 2492 [= Karatay 81]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>Y. 2492 [= Karatay 81]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>  </p>
+              <p>Unknown number of fol.; Writing surface: paper; Shelfmark: Y. 2492; Qurʾānic Text: Q 19:1-37:182; 5 lines per page; Dimensions: 350 x 490mm; Script style: ṯuluṯ.</p>
+              <p> </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p> </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 27: "81 Y. 2492. Kur’andan bir bölüm. Aharlı kalın kâğıt 490mm boy ve 350mm eninde ... yaprak. Sahifede harekeli iri Arap sülüsü ile 200mm uzunl.[uğunda] 5 satır. Tahminen VI. (XII) asırda kopya edilmiştir. Baştan 4 yaprağı sonradan yazılmıştır. Sure başları, güller, duraklar müzehhep. Miklepli siyah deri cilt. Bu ciltte Maryam (19) suresinin başından Saffat (37) suresinin sonuna kadardır."</p>
+              <p> </p>
+              <p>This can be translated as follows: "81 Y. 2492. A part of the Qurʾān. Sized thick paper. … leaves of 490 mm height and 350 mm width. The text area written in large vowel marked thuluth script [contains] 5 lines measuring 200 mm. Probably copied during 6th (12th) century. The first 4 leafes were added later. The beginnings of the sūras, roses and verse seperators are illuminated. Black leather binding with flap (miklep). This part contains from beginning of the Q 19 (Sūra Maryam) until the end of Q 37 (Sūra al-Ṣāffāt).”</p>
+            </summary>
+            <msItem xml:id="mysql_id_712345" n="1">
+              <title type="numeric" key="019:000:000-037:182:004">
+                                    019:000:000-037:182:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 
+                                    <dimensions unit="mm"><width>350</width><height>490</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                ṯuluṯ
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Ayşenur Elif Ünal Şahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_99808">
+                    </surface>
+  </facsimile>
+</TEI>

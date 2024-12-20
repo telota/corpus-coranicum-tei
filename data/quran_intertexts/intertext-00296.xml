@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jeremia 2:26-35</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_296" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>296</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Verschiedene medinensische Koranstellen halten den Juden eine Reihe von Vergehen vor, oft in einer listenartigen Aufzählung. So werden sie unter anderem beschuldigt, die Propheten getötet zu haben. Dabei scheint es sich weniger um eine Anspielung auf ein spezifisches Ereignis zu handeln, als um einen stereotypen Vorwurf, der, wie der vorliegende Text zeigt, bereits in der Hebräischen Bibel begegnet, und damit in einer gewissen polemischen Tradition steht. Noch häufiger findet sich dieser Vorwurf im Neuen Testament (vgl. Matthäus 23:30-37, Römer 11:3, Offenbarung des Johannes 16:6, 18:24), vgl.  TUK_0297.
+</summary>
+            <msItem>
+              <title>Jeremia 2:26-35</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">6. Jh. ?</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	כְּבֹשֶׁת גַּנָּב כִּי יִמָּצֵא כֵּן הֹבִישׁוּ בֵּית יִשְׂרָאֵל הֵמָּה מַלְכֵיהֶם שָׂרֵיהֶם וְכֹהֲנֵיהֶם וּנְבִיאֵיהֶם : אֹמְרִים לָעֵץ אָבִי אַתָּה וְלָאֶבֶן אַתְּ יְלִדְתָּני כִּי־פָנוּ אֵלַי עֹרֶף וְלֹא פָנִים וּבְעֵת רָעָתָם יֹאמְרוּ קוּמָה וְהוֹשִׁיעֵנוּ : וְאַיֵּה אֱלֹהֶיךָ אֲשֶׁר עָשִׂיתָ לָּךְ יָקוּמוּ אִם־יוֹשִׁיעוּךָ בְּעֵת רָעָתֶךָ כִּי מִסְפַּר עָרֶיךָ הָיוּ אֱלֹהֶיךָ יְהוּדָה : לָמָּה תָרִיבוּ אֵלָי כֻּלְּכֶם פְּשַׁעְתֶּם בִּי נְאֻם־יְהוָה : לַשָּׁוְא הִכֵּיתִי אֶת־בְּנֵיכֶם מוּסָר לֹא לָקָחוּ  אָכְלָה חַרְבְּכֶם נְבִיאֵיכֶם  כְּאַרְיֵה מַשְׁחִית : הַדּוֹר אַתֶּם רְאוּ דְבַר־יְהוָה הֲמִדְבָּר הָיִיתִי לְיִשְׂרָאֵל אִם אֶרֶץ מַאְפֵּלְיָה מַדּוּעַ אָמְרוּ עַמִּי רַדְנוּ לוֹא־נָבוֹא עוֹד אֵלֶיךָ : הֲתִשְׁכַּח בְּתוּלָה עֶדְיָהּ כַּלָּה קִשֻּׁרֶיהָ וְעַמִּי שְׁכֵחוּנִי יָמִים אֵין מִסְפָּר : מַה־תֵּיטִבִי דַּרְכֵּךְ לְבַקֵּשׁ אַהֲבָה לָכֵן גַּם אֶת־הָרָעוֹת לִמַּדְתְּי אֶת־דְּרָכָיִךְ : גַּם בִּכְנָפַיִךְ נִמְצְאוּ דַּם נַפְשׁוֹת אֶבְיוֹנִים נְקִיִּים לֹא־בַמַּחְתֶּרֶת מְצָאתִים כִּי עַל־כָּל־אֵלֶּה : וַתֹּאמְרִי כִּי נִקֵּיתִי אַךְ שָׁב אַפּוֹ מִמֶּנִּי הִנְנִי נִשְׁפָּט אוֹתָךְ עַל־אָמְרֵךְ לֹא חָטָאתִי :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	26 Wie ein ertappter Dieb sich schämt, so müssen sich die Leute vom Haus Israel schämen, sie selbst, ihre Könige und Beamten, ihre Priester und Propheten. 27 Sie sagen ja zum Holz: «Du bist mein Vater», und zum Stein: «Du hast mich geboren». Sie kehren mir den Rücken zu und nicht das Gesicht; sind sie aber in Not, dann rufen sie: Erheb dich und hilf uns! 28 Wo sind nun deine Götter, die du dir gemacht hast? Sie mögen sich erheben, falls sie dir helfen können, wenn du in Not bist. Denn so zahlreich wie deine Städte, Juda, sind auch deine Götter. 29 Warum streitet ihr gegen mich? Ihr alle seid mir untreu geworden - Spruch des Herrn. 30 Vergeblich schlug ich eure Söhne; sie ließen sich nicht erziehen.  Euer Schwert fraß eure Propheten  wie ein reißender Löwe. 31 Ihr nun, das gegenwärtige Geschlecht, schaut auf das Wort des Herrn! Bin ich denn für Israel eine Wüste geworden oder ein finsteres Land? Warum sagt mein Volk: Wir wollen frei umherschweifen, wir kommen nicht mehr zu dir? 32 Vergisst denn ein Mädchen seinen Schmuck, eine Braut ihre Bänder? Mein Volk aber hat mich vergessen seit ungezählten Tagen. 33 Wie gut findest du deinen Weg, wenn du Liebe suchst. Sogar an Verbrechen hast du dein Verhalten gewöhnt. 34 Selbst am Saum deiner Kleider klebt das Blut von Armen, von Unschuldigen, die du nicht etwa beim Einbruch ertappt hast. 35 Und trotzdem sagst du: Ich bin unschuldig; sein Zorn hat sich ja von mir abgewandt. - Aber ich gehe ins Gericht mit dir, weil du sagst: Ich habe mich nicht versündigt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

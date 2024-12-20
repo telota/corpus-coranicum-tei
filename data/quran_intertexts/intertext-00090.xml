@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lukas 17:22-37</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_90" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>90</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie in den koranischen Straflisten wird auch im Neuen Testament das Schicksal der Zeitgenossen Noahs und Lots hintereinander genannt. Die koranischen Straflisten fügen noch weitere abschreckende Exempel wie etwa die ʿĀd (vgl. Q 7:65) hinzu. Vgl. auch TUK_0091.
+</summary>
+            <msItem>
+              <title>Lukas 17:22-37</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">um 90 n. Chr.</origDate>
+              <origPlace>Rom oder östlicher Mittelmeerraum</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	22 Εἶπεν δὲ πρὸς τοὺς μαθητάς• ἐλεύσονται ἡμέραι ὅτε ἐπιθυμήσετε μίαν τῶν ἡμερῶν τοῦ υἱοῦ τοῦ ἀνθρώπου ἰδεῖν καὶ οὐκ ὄψεσθε. 23 καὶ ἐροῦσιν ὑμῖν• ἰδοὺ ἐκεῖ, [ἤ•] ἰδοὺ ὧδε• μὴ ἀπέλθητε μηδὲ διώξητε. 24 ὥσπερ γὰρ ἡ ἀστραπὴ ἀστράπτουσα ἐκ τῆς ὑπὸ τὸν οὐρανὸν εἰς τὴν ὑπ᾽οὐρανὸν λάμπει, οὕτως ἔσται ὁ υἱὸς τοῦ ἀνθρώπου [ἐν τῇ ἡμέρᾳ αὐτοῦ]. 25 πρῶτον δὲ δεῖ αὐτὸν πολλὰ παθεῖν καὶ ἀποδοκιμασθῆναι ἀπὸ τῆς γενεᾶς ταύτης.  26 καὶ καθὼς ἐγένετο ἐν ταῖς ἡμέραις Νῶε, οὕτως ἔσται καὶ ἐν ταῖς ἡμέραις τοῦ υἱοῦ τοῦ ἀνθρώπου• 27 ἤσθιον, ἔπινον, ἐγάμουν, ἐγαμίζοντο, ἄχρι ἧς ἡμέρας εἰσῆλθεν Νῶε εἰς τὴν κιβωτὸν καὶ ἦλθεν ὁ κατακλυσμὸς καὶ ἀπώλεσεν πάντας. 28 ὁμοίως καθὼς ἐγένετο ἐν ταῖς ἡμέραις Λώτ• ἤσθιον, ἔπινον, ἠγόραζον, ἐπώλουν, ἐφύτευον, ῷκοδόμουν• 29 ᾗ δὲ ἡμέρᾳ ἐξῆλθεν Λὼτ ἀπὸ Σοδόμων, ἔβρεξεν πῦρ καὶ θεῖον ἀπ᾽οὐρανοῦ καὶ ἀπώλεσεν πάντας.  30 κατὰ τὰ αὐτὰ ἔσται ᾗ ἡμέρᾳ ὁ υἱὸς τοῦ ἀνθρώπου ἀποκαλύπτεται. 31 ἐν ἐκείνῃ τῇ ἡμέρᾳ ὃς ἔσται ἐπὶ τοῦ δώματος καὶ τὰ σκεύη αὐτοῦ ἐν τῇ οἰκίᾳ, μὴ καταβάτω ἆραι αὐτά, καὶ ὁ ἐν ἀγρῷ ὁμοίως μὴ ἐπιστρεψάτω εἰς τὰ ὀπίσω. 32 μνημονεύετε τῆς γυναικὸς Λώτ. 33 ὃς ἐὰν ζητήσῃ τὴν ψυχὴν αὐτοῦ περιποιήσασθαι ἀπολέσει αὐτήν, ὃς δ᾽ἂν ἀπολέσῃ ζῳογονήσει αὐτήν. 34 λέγω ὑμῖν, ταύτῃ τῇ νυκτὶ ἔσονται δύο ἐπὶ κλίνης μιᾶς, ὁ εἷς παραλημφθήσεται καὶ ὁ ἕτερος ἀφεθήσεται• 35 ἔσονται δύο ἀλήθουσαι ἐπὶ τὸ αὐτό, ἡ μία παραλημφθήσεται, ἡ δὲ ἑτέρα ἀφεθήσεται. [36] 37 καὶ ἀποκριθέντες λέγουσιν αὐτῷ• ποῦ, κύριε; ὁ δὲ εἶπεν αὐτοῖς• ὅπου τὸ σῶμα, ἐκεῖ καὶ οἱ ἀετοὶ ἐπισυναχθήσονται.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	22 Er sagte zu den Jüngern: Es wird eine Zeit kommen, in der ihr euch danach sehnt, auch nur einen von den Tagen des Menschensohnes zu erleben; aber ihr werdet ihn nicht erleben. 23 Und wenn man zu euch sagt: Dort ist er! Hier ist er!, so geht nicht hin und lauft nicht hinterher! 24 Denn wie der Blitz von einem Ende des Himmels bis zum andern leuchtet, so wird der Menschensohn an seinem Tag erscheinen. 25 Vorher aber muss er vieles erleiden und von dieser Generation verworfen werden.  26 Und wie es zur Zeit des Noah war, so wird es auch in den Tagen des Menschensohnes sein. 27 Die Menschen aßen und tranken und heirateten bis zu dem Tag, an dem Noah in die Arche ging; dann kam die Flut und vernichtete alle. 28 Und es wird ebenso sein, wie es zur Zeit des Lot war: Sie aßen und tranken, kauften und verkauften, pflanzten und bauten. 29 Aber an dem Tag, als Lot Sodom verließ, regnete es Feuer und Schwefel vom Himmel und alle kamen um.  30 Ebenso wird es an dem Tag sein, an dem sich der Menschensohn offenbart. 31 Wer dann auf dem Dach ist und seine Sachen im Haus hat, soll nicht hinabsteigen, um sie zu holen, und wer auf dem Feld ist, soll nicht zurückkehren. 32 Denkt an die Frau des Lot! 33 Wer sein Leben zu bewahren sucht, wird es verlieren; wer es dagegen verliert, wird es gewinnen. 34 Ich sage euch: Von zwei Männern, die in jener Nacht auf einem Bett liegen, wird der eine mitgenommen und der andere zurückgelassen. 35 Von zwei Frauen, die mit derselben Mühle Getreide mahlen, wird die eine mitgenommen und die andere zurückgelassen. [36] 37 Da fragten sie ihn: Wo wird das geschehen, Herr? Er antwortete: Wo ein Aas ist, da sammeln sich auch die Geier.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

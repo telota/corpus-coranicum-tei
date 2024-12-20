@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1299">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleveland, Ohio, The Cleveland Museum of Art, 1993.39</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: CC0 1.0 Cleveland Museum of Art.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="79">The Cleveland Museum of Art
+                            , Cleveland, Ohio</repository>
+            <idno>1993.39</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        . ”
+                    </summary>
+            <msItem xml:id="mysql_id_682088" n="1r">
+              <title type="numeric" key="052:037:003-052:049:005">
+                                    052:037:003-052:049:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682089" n="1v">
+              <title type="numeric" key="053:000:000-053:021:002">
+                                    053:000:000-053:021:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682090" n="2r">
+              <title type="numeric" key="054:013:001-054:027:002">
+                                    054:013:001-054:027:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682091" n="2v">
+              <title type="numeric" key="054:027:003-054:040:003">
+                                    054:027:003-054:040:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>363</width><height>267</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb)
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42122">
+      <graphic decls="#imageRights-1" url="manuscript/1299/1801dc01-ba99-4fb6-8f68-1645db0dcb0f/manuscript-1299-page-42122-image-27706.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42123">
+      <graphic decls="#imageRights-1" url="manuscript/1299/18a4797b-600a-4d26-92c7-e8a75b8ad04c/manuscript-1299-page-42123-image-27707.tiff"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_42124">
+      <graphic decls="#imageRights-1" url="manuscript/1299/84065b24-a03b-4f97-b4ed-6fba65779cdb/manuscript-1299-page-42124-image-27708.tiff"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_42125">
+      <graphic decls="#imageRights-1" url="manuscript/1299/9e479160-582a-4df2-9f5a-e5e92ca334eb/manuscript-1299-page-42125-image-27709.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

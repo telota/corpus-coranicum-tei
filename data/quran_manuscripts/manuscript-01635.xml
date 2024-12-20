@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1635">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Boston, Massachussets, Museum of Fine Arts, 19.788</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="63">Museum of Fine Arts
+                            , Boston, Massachussets</repository>
+            <idno>19.788</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 19.788; Qurʾānic Text: Q 5:72-5:75; 7 lines per page; Dimensions: 155 x 165mm.</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://collections.mfa.org/objects/15392/">museum's website</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_724121" n="1r">
+              <title type="numeric" key="005:072:011-005:073:012">
+                                    005:072:011-005:073:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692248" n="1v">
+              <title type="numeric" key="005:073:013-005:075:012">
+                                    005:073:013-005:075:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>155</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_112928">
+      <graphic decls="#imageRights-1" url="manuscript/1635/3c0e6006-267f-4bc4-933f-aaf4ab2b6659/manuscript-1635-page-112928-image-106227.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52206">
+      <graphic decls="#imageRights-1" url="manuscript/1635/e54873bd-58ea-4a8d-843d-ba34f197c86a/manuscript-1635-page-52206-image-40887.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

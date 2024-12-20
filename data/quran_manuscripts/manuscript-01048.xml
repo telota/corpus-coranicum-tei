@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1048">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 16</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 16</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 16; Lines per page: 15; Dimensions: 136 x 180 mm; Qurʾānic Text: Q 43:67-89; Script style: kūfī E; Estimated date of production: 800-1000.</p>
+              <p>Cf. entry by François Déroche about fragment KFQ 16 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 116): "62 / Single folio / End of the 9th century AD or 10th / 13.6 x 18 cm, with 15 lines to the page / <hi rend="italic">Material</hi> Parchment; the verso is the hair side / <hi rend="italic">Text area</hi> 7.5 x 13.3cm / <hi rend="italic">Script</hi> Style E, with <hi rend="italic">mashq</hi> / <hi rend="italic">Accession no</hi>. KFQ 16 / Two developments mark off group E scripts from their predecessors: the abandonment of the lower return in the independent form of <hi rend="italic">alif</hi>, which assumed the form of a simple vertical stroke (see the beginning of line 4); and a change in the orientation of the tail of final <hi rend="italic">mīm</hi>, which now pointed downwards. The shape of the tail varied, and here it is reduced to a short vertical stroke (verso, end of line I). / Other features of group E are its size – it is generally small, and cat.62 is a representative example in this respect – and the frequent use of <hi rend="italic">mashq</hi>. In cat.62, as in cat.65, <hi rend="italic">mashq</hi> was used in every line, but in other cases it was only used in the first, middle and last lines of a page. It may be that style E answered a need for a script that was closer to normal writing practices, and it may be that Qur’ans copied in this style were most often made for personal use. To some extent, this style contaminated other scripts, such as B.II (Déroche 1989, p.103) and D (see cat.64, for example). / The text <hi rend="italic">Sūrat al-zukhruf</hi> (XLIII), verses 67-89. It is written in black ink. Red dots indicate the vocalization. Verses are not punctuated, but a gold Kufic <hi rend="italic">hāʾ</hi> marks the end of every fifth verse, while a I.B.II device in gold, green and red plays the same role after every tenth verse. The omission of a word from verse 85 has been corrected.”</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_682571" n="1r">
+              <title type="numeric" key="043:067:005-043:079:005">
+                                    043:067:005-043:079:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682572" n="1v">
+              <title type="numeric" key="043:080:001-043:089:006">
+                                    043:080:001-043:089:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>180</width><height>136</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī E.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42577">
+      <graphic decls="#imageRights-1" url="manuscript/1048/2651db80-aea7-4db3-822f-064c88941e92/manuscript-1048-page-42577-image-28256.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42578">
+      <graphic decls="#imageRights-1" url="manuscript/1048/93f31a50-11e4-4d8d-9c9d-83c8475703a1/manuscript-1048-page-42578-image-28257.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

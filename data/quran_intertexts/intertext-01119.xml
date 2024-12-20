@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Taanit 9b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1119" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1119</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die genannten Koranstellen weisen im Rahmen von ʾayāt-Serien (vgl. dazu den Kommentar zu Q 88:17-20 sowie Neuwirth 2010: p. 433-450) darauf hin, dass Gott süßes und salziges Wasser erschaffen hat, bzw. die beiden Wasser getrennt hat. Auch im Babylonischen Talmud wird zwischen süßem und salzigem Wasser unterschieden, wie der hier zitierte Text zeigt. Vgl. auch Qohelet Rabba 1 und Genesis Rabba 13, zu weiteren Belegstellen vgl. Speyer 1931: p. 9-10 und Wensinck 1918. All diesen Texten liegt eine im Alten Orient und der Spätantike weitverbreitete kosmologische Vorstellung zugrunde, der zufolge die Erde von salzigem Wasser umgeben ist, und sich sowohl unter der Erde als auch im Himmel ein Süßwassermeer befindet, das den Ursprung der Quellen, Flüsse und des Regens darstellt (vgl. die Anmerkung zu TUK_1118). Zu den entsprechenden babylonischen Vorstellungen vgl. Lambert 2013: p. 171, 197-199, 217-218, 236-238, 396-398, 445-447, 459-461 und Horowitz 1998: p. 105, 131-132, 334-347.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Taanit 9b</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Wilna 1880-1886</bibl>
+              <bibl type="literatur">Horowitz, Wayne: Mesopotamian Cosmic Geography. Eisenbrauns, Winona Lake 1998.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+              <bibl type="literatur">Wensinck, A.J.: The Ocean in the Literature of the Western Semites. Johannes M&amp;#xFC;ller, Amsterdam 1918.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	 תניא, רבי אליעזר אומר: כל העולם כולו ממימי אוקיינוס הוא שותה, שנאמר גואד יעלה מן הארץ והשקה את כל פני האדמה. אמר לו רבי יהושע: והלא מימי אוקיינוס מלוחין הן! - אמר לו: ממתקין בעבים. רבי יהושע אומר: כל העולם כולו ממים העליונים הוא שותה, שנאמר דלמטר השמים תשתה מים. אלא מה אני מקיים ואד יעלה מן הארץ מלמד שהעננים מתגברים ועולים לרקיע ופותחין פיהן כנוד ומקבלין מי מטר שנאמר (איוב לו, כז) יזקו מטר לאדו ומנוקבות הן ככברה ובאות ומחשרות מים על גבי קרקע שנאמר (שמואל ב כב, יב) חשרת מים עבי שחקים ואין בין טיפה לטיפה אלא כמלא נימא ללמדך שגדול יום הגשמים כיום שנבראו בו שמים וארץ שנאמר (איוב ט, י) עושה גדולות עד אין חקר וכתיב (איוב ה, י) הנותן מטר על פני ארץ וכתיב להלן (ישעיהו מ, כח) הלא ידעת אם לא שמעת אלהי עולם ה' אין חקר לתבונתו (וכתיב (תהלים סה, ז) מכין הרים בכחו וגו'
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Es wird gelehrt: R. Eliezer sagte, die ganze Welt trinke vom Wasser des Ozeans, denn es heißt: ein Dunst stieg von der Erde auf und tränkte die Oberfläche des ganzen Erdbodens (Gen 2:6). R. Jehoschua sprach zu ihm: Das Wasser des Ozeans ist ja salzig!? Dieser erwiderte: Es wird durch die Wolken gesüßt. R. Jehoschua sagte, die ganze Welt trinke vom oberen Gewässer, denn es heißt: vom Regen des Himmels trinkt es Wasser (Dt 11:11). Wieso aber halte ich aufrecht [den Schriftvers]: ein Dunst stieg von der Erde auf? Dies lehrt, daß die Wolken Kraft anwenden und nach dem Himmel steigen, ihren Mund wie einen Schlauch öffnen und Regenwasser aufnehmen, wie es heißt: daß sie Regen sickern in die Dunstwolken (Hi 36:27). Diese Wolken sind wie ein Sieb durchlöchert und sprengen das Wasser auf die Erde, wie es heißt: die dichten Wolken sprengen Wasser (2 Sam 22:12). Ein Regentropfen ist vom anderen nur eine Haarbreite entfernt. Dies lehrt dich, daß der Regentag so bedeutend ist, wie der Tag, an dem Himmel und Erde erschaffen worden sind, denn hier heißt es: der große Dinge tut, die unerforschlich sind (Hi 9:10), ferner heißt es: der der Erde Regen spendet (Ib 5:10), und dort heißt es: weißt du denn nicht, hast du denn nicht gehört: ein ewiger Gott ist der Herr, seine Einsicht ist unerforschlich (Jes 40:28) und ferner heißt es: der durch seine Kraft die Berge feststellt etc. (Ps 65:7).
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>It has been taught: R. Eliezer said: The whole world draws its water 
+supply from the waters of the ocean, as it is said, But there went up a 
+mist from the earth and watered the whole of the ground. Thereupon R. 
+Joshua said to him: But are not the waters of the ocean salty? He 
+replied: They are sweetened by the clouds. R. Joshua said: The whole 
+world drinks from the upper waters, as it is said, And drinketh water 
+as the rain of heaven cometh down. If so, what is the force of the 
+verse, ‘But there went up a mist from the earth’? This teaches that 
+the clouds grow in strength as they rise towards the firmament and then 
+open their mouth as a flask and catch the rain water, as it is said, 
+Which distil rain from His vapour, they are perforated like a sieve and 
+they slowly distil [Mehashroth] waters on the ground. As it is said, 
+Distilling  [Hashroth] of waters, thick clouds of the skies; there is 
+but one hand-breadth space between one drop and another, in order to 
+teach you that the day on which rain falls is as great as the day 
+whereon heaven and earth were created, as it is said, Who doeth great 
+things past finding out; and it is written, Who giveth rain upon the 
+earth; and it is also written, Hast thou not known? hast thou not heard 
+that the everlasting God, the Lord... His discernment is past finding 
+out?</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1503">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 29.160.25</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>29.160.25</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_687765" n="1r">
+              <title type="numeric" key="005:012:028-005:012:041">
+                                    005:012:028-005:012:041
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687764" n="1v">
+              <title type="numeric" key="005:022:001-005:023:007">
+                                    005:022:001-005:023:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687766" n="2r">
+              <title type="numeric" key="005:023:008-005:024:005">
+                                    005:023:008-005:024:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4">4 - 4 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47725">
+      <graphic decls="#imageRights-1" url="manuscript/1503/8a283bd1-07ce-4a58-8fb7-e968631608bb/manuscript-1503-page-47725-image-33957.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1503/171c2ad5-9a9b-415c-8497-497371b5fe23/manuscript-1503-page-47725-image-33958.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47724">
+      <graphic decls="#imageRights-1" url="manuscript/1503/d205d7a7-5496-4378-b5c0-38bc8ddd1eff/manuscript-1503-page-47724-image-33954.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1503/57609015-79ab-426a-9ed1-6f57ed171b00/manuscript-1503-page-47724-image-33955.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1503/781300f2-7bcd-44b7-9003-de812c627a86/manuscript-1503-page-47724-image-33956.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47726">
+      <graphic decls="#imageRights-1" url="manuscript/1503/5e7a96fd-b862-487c-84c7-123976c129fe/manuscript-1503-page-47726-image-33959.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

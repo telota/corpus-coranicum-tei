@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ezechiel 37:1-14</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_428" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>428</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Abraham Geiger und Heinrich Speyer vemuten, dass Q 2:243 auf die hier zitierte Vision aus dem Buch Ezechiel anspielen könnte, in der der Prophet die wunderbare Wiedererweckung menschlicher Gebeine schaut (Geiger 1833: p. 193) (Speyer 1931: p. 412-413).
+
+</summary>
+            <msItem>
+              <title>Ezechiel 37:1-14</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. v. Chr. oder früher</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Geiger, Abraham: Was hat Mohammed Aus Dem Judenthume aufgenommen?: Eine von der K&amp;#xF6;nigl. Preussischen Rheinuniversit&amp;#xE4;t gekr&amp;#xF6;nte Preisschrift. Selbstverl., Bonn 1833.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	הָיְתָה עָלַי יַד־יְהוָה וַיּוֹצִאֵנִי בְרוּחַ יְהוָה וַיְנִיחֵנִי בְּתוֹךְ הַבִּקְעָה וְהִיא מְלֵאָה עֲצָמוֹת : וְהֶעֱבִירַנִי עֲלֵיהֶם סָבִיב סָבִיב וְהִנֵּה רַבּוֹת מְאֹד עַל־פְּנֵי הַבִּקְעָה וְהִנֵּה יְבֵשׁוֹת מְאֹד : וַיֹּאמֶר אֵלַי בֶּן־אָדָם הֲתִחְיֶינָה הָעֲצָמוֹת הָאֵלֶּה וָאֹמַר אֲדֹנָי יְהוִה אַתָּה יָדָעְתָּ : וַיֹּאמֶר אֵלַי הִנָּבֵא עַל־הָעֲצָמוֹת הָאֵלֶּה וְאָמַרְתָּ אֲלֵיהֶם הָעֲצָמוֹת הַיְבֵשׁוֹת שִׁמְעוּ דְּבַר־יְהוָה : כֹּה אָמַר אֲדֹנָי יְהוִה לָעֲצָמוֹת הָאֵלֶּה הִנֵּה אֲנִי מֵבִיא בָכֶם רוּחַ וִחְיִיתֶם : וְנָתַתִּי עֲלֵיכֶם גִּדִים וְהַעֲלֵתִי עֲלֵיכֶם בָּשָׂר וְקָרַמְתִּי עֲלֵיכֶם עוֹר וְנָתַתִּי בָכֶם רוּחַ וִחְיִיתֶם וִידַעְתֶּם כִּי־אֲנִי יְהוָה : וְנִבֵּאתִי כַּאֲשֶׁר צֻוֵּיתִי וַיְהִי־קוֹל כְּהִנָּבְאִי וְהִנֵּה־רַעַשׁ וַתִּקְרְבוּ עֲצָמוֹת עֶצֶם אֶל־עַצְמוֹ : וְרָאִיתִי וְהִנֵּה־עֲלֵיהֶם גִּדִים וּבָשָׂר עָלָה וַיִּקְרַם עֲלֵיהֶם עוֹר מִלְמָעְלָה וְרוּחַ אֵין בָּהֶם : וַיֹּאמֶר אֵלַי הִנָּבֵא אֶל־הָרוּחַ הִנָּבֵא בֶן־אָדָם וְאָמַרְתָּ אֶל־הָרוּחַ כֹּה־אָמַר אֲדֹנָי יְהוִה מֵאַרְבַּע רוּחוֹת בֹּאִי הָרוּחַ וּפְחִי בַּהֲרוּגִים הָאֵלֶּה וְיִחְיוּ : וְהִנַּבֵּאתִי כַּאֲשֶׁר צִוָּנִי וַתָּבוֹא בָהֶם הָרוּחַ וַיִּחְיוּ וַיַּעַמְדוּ עַל־רַגְלֵיהֶם חַיִל גָּדוֹל מְאֹד־מְאֹד : וַיֹּאמֶר אֵלַי בֶּן־אָדָם הָעֲצָמוֹת הָאֵלֶּה כָּל־בֵּית יִשְׂרָאֵל הֵמָּה הִנֵּה אֹמְרִים יָבְשׁוּ עַצְמוֹתֵינוּ וְאָבְדָה תִקְוָתֵנוּ נִגְזַרְנוּ לָנוּ : לָכֵן הִנָּבֵא וְאָמַרְתָּ אֲלֵיהֶם כֹּה־אָמַר אֲדֹנָי יְהוִה הִנֵּה אֲנִי פֹתֵחַ אֶת־קִבְרוֹתֵיכֶם וְהַעֲלֵיתִי אֶתְכֶם מִקִּבְרוֹתֵיכֶם עַמִּי וְהֵבֵאתִי אֶתְכֶם אֶל־אַדְמַת יִשְׂרָאֵל : וִידַעְתֶּם כִּי־אֲנִי יְהוָה בְּפִתְחִי אֶת־קִבְרוֹתֵיכֶם וּבְהַעֲלוֹתִי אֶתְכֶם מִקִּבְרוֹתֵיכֶם עַמִּי : וְנָתַתִּי רוּחִי בָכֶם וִחְיִיתֶם וְהִנַּחְתִּי אֶתְכֶם עַל־אַדְמַתְכֶם וִידַעְתֶּם כִּי־אֲנִי יְהוָה דִּבַּרְתִּי וְעָשִׂיתִי נְאֻם־יְהוָה :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Die Hand des Herrn legte sich auf mich und der Herr brachte mich im Geist hinaus und versetzte mich mitten in die Ebene. Sie war voll von Gebeinen. 2 Er führte mich ringsum an ihnen vorüber und ich sah sehr viele über die Ebene verstreut liegen; sie waren ganz ausgetrocknet. 3 Er fragte mich: Menschensohn, können diese Gebeine wieder lebendig werden? Ich antwortete: Herr und Gott, das weißt nur du. 4 Da sagte er zu mir: Sprich als Prophet über diese Gebeine und sag zu ihnen: Ihr ausgetrockneten Gebeine, hört das Wort des Herrn! 5 So spricht Gott, der Herr, zu diesen Gebeinen: Ich selbst bringe Geist in euch, dann werdet ihr lebendig. 6 Ich spanne Sehnen über euch und umgebe euch mit Fleisch; ich überziehe euch mit Haut und bringe Geist in euch, dann werdet ihr lebendig. Dann werdet ihr erkennen, dass ich der Herr bin. 7 Da sprach ich als Prophet, wie mir befohlen war; und noch während ich redete, hörte ich auf einmal ein Geräusch: Die Gebeine rückten zusammen, Bein an Bein. 8 Und als ich hinsah, waren plötzlich Sehnen auf ihnen und Fleisch umgab sie und Haut überzog sie. Aber es war noch kein Geist in ihnen. 9 Da sagte er zu mir: Rede als Prophet zum Geist, rede, Menschensohn, sag zum Geist: So spricht Gott, der Herr: Geist, komm herbei von den vier Winden! Hauch diese Erschlagenen an, damit sie lebendig werden. 10 Da sprach ich als Prophet, wie er mir befohlen hatte, und es kam Geist in sie. Sie wurden lebendig und standen auf - ein großes, gewaltiges Heer. 11 Er sagte zu mir: Menschensohn, diese Gebeine sind das ganze Haus Israel. Jetzt sagt Israel: Ausgetrocknet sind unsere Gebeine, unsere Hoffnung ist untergegangen, wir sind verloren. 12 Deshalb tritt als Prophet auf und sag zu ihnen: So spricht Gott, der Herr: Ich öffne eure Gräber und hole euch, mein Volk, aus euren Gräbern herauf. Ich bringe euch zurück in das Land Israel. 13 Wenn ich eure Gräber öffne und euch, mein Volk, aus euren Gräbern heraufhole, dann werdet ihr erkennen, dass ich der Herr bin. 14 Ich hauche euch meinen Geist ein, dann werdet ihr lebendig und ich bringe euch wieder in euer Land. Dann werdet ihr erkennen, dass ich der Herr bin. Ich habe gesprochen und ich führe es aus - Spruch des Herrn.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

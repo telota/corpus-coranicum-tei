@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kanon 15 der Synode von Mar Ishoʿyahb I (585)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_245" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>245</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Verschiedene Koranstellen kritisieren das Zinsnehmen bzw. untersagen es gänzlich (Q 2:275). Das Zinsnehmen gegenüber Israeliten wird auch im Pentateuch verboten (vgl. TUK_0493 mit Deuteronomium 23:20-21). Da jedoch Q 4:160-161 den medinensischen Juden vorwirft, trotz eines - vom Koran offenbar als allgemeingültig vorausgesetzten - Verbotes Zinsen genommen zu haben, hält Andrae 1926: p. 185f es für unwahrscheinlich, dass das koranische Zinsverbot einen jüdischen Hintergrund hat. Wie der angegebene Text zeigt, ist das in Q 2:275 ausgesprochene allgemeine Zinsverbot auch mit nestorianischem Gebrauch zu vergleichen. Soweit T. Andrae. Ein Zinsverbot findet sich ebenfalls in der westsyrischen Kirche. Vgl. dazu Kanon 17 der Synode von Nicäa, sowie Kanon des Johannan Bar Qursos 10. Bei den synodischen Zinsverboten werden hauptsächlich folgende Bibelpassagen referenziert: Deuteronomium 23:20, Ezechiel 18:8 (vgl. TUK_1069) und Psalm 15:5. Auch die koptische Kirche verbietet das Zinsnehmen, so z.B. bei Schenute von Atripe (Speyer 1931: p. 321f).
+</summary>
+            <msItem>
+              <title>Kanon 15 der Synode von Mar Ishoʿyahb I (585)</title>
+              <author/>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">585</origDate>
+              <origPlace>Seleukia-Ktesiphon (Sassanidenreich)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Synodicon orientale, hg. von J. B. Chabot, Paris 1902, S. 151.</bibl>
+              <bibl type="literatur">Andrae, Tor: Der Ursprung des Islams und das Christentum. Uppsala 1926.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܩܢܘܢܐ ܕܚܡܫܬܥܣܪ܀ ܥܠ ܐܝܠܝܢ ܕܡܘܙܦܝܢ ܒܪܒܝܬܐ ܘܡܬܝܥܢܝܢ ܕܢܪܒܘܢ ܩܢܝܢܗܘܢ ܒܩܨܨܐ ܕܢܘܟܪܝ ܠܒܝ̈ܬܝܐ܀ ܟܬ̈ܒܐ ܟܝܬ ܐܠܗ̈ܝܐ ܒܒܛܝܠܘܬܐ ܪܒܬܐ ܡܙܗܪܝܢ ܘܡܦܩܕܝܢ ܠܒܝܬܝ̈ܐ ܕܢܛܪܘܢ ܢܦܫܗܘܢ ܡܢ ܡܣܒܐ ܕܪܒܝܬܐ: ܕܐܝܬܝܗ̇ ܝܠܕܐ ܒܪ ܥܩܖ̈ܐ ܕܡܬܥܨܐ  ܠܡܘܠܕܘ ܟܕ ܠܐ ܡܟܢ ܠܡܘܠܕܘ. ܘܣܓܝ̈ܐܐ ܡܢ ܙܗܝܖ̈ܐ ܥܪܩܘ ܡܢ ܗܢܐ ܚܣܕܐ. ܝܬܝܪܐܝܬ ܕܝܢ ܟܐܝܢܢ ܒܗܘܢ ܒܗܢܘܢ ܕܡܬܚܫܚܝܢ ܒܛܠܘܡܝܐ ܗ̇ܘ ܕܡܬܩܪܐ ܩܨܨܐ: ܘܠܗܝܢ ܠܗܠܝܢ ܐܝܟ ܕܡܢ ܚܝܠܐ ܕܦܘܩܕ̈ܢܐ ܩܕ̈ܝܫܐ ܟܠܘ ܐܢܝ̈ܢ ܐܦ ܐܒܗ̈ܬܐ ܕܥܕܬܐ ܒܩܢܘ̈ܢܐ ܕܣܡܘ ܒܣܘܢܗܘܕܘܣ ܕܗ̈ܘܝ ܒܕܪ ܕܪ. ܒܕܐܪܓܫܘ ܒܥܠܘܒܝܐ ܕܡܬܝܠܕ ܡܢ ܩܨܨܐ ܗܘ̇ ܕܡܗܠܟ ܘܡܚܒܠ ܐܝܟ ܫܘܚܢܐ ܕܚܠܕܝܬܐ: ܘܐܚ̇ܕ ܢܘܡ̈ܐ ܒܩܢܝ̈ܢܐ ܢܘܟܖ̈ܝܐ ܐܝܟ ܗܘ̇ ܒܫܪܟܐ ܕܗܕ̈ܡܐ ܐܝܠܝܢ ܕܩܪܝܒܝܢ ܠܫܒܒܘܬܗ. ܐܢ ܓܝܪ ܩܢܝܢܐ ܕܒܟܐܢܘܬܐ ܡܬܩܢܐ ܠܡܚܣܢ ܡܬܩܕܐ: ܡܢܐ ܡܬܗܢܐ ܒܪܢܫܐ ܐܢ ܣܓܝ ܢܩܢܐ: ܠܢܦܫܗ ܕܝܢ ܢܚܝܒ ܒܝܕ ܦܘܖ̈ܣܐ ܡܖ̈ܓܙܢܐ: ܘܐܢ ܙܕܝܩܐ ܠܡܚܣܢ ܢܚܐ܆ ܪܫܝܥܐ ܘܚܛܝܐ ܘܥܠܘܒܐ ܐܝܟܐ ܢܫܬܟܚ. ܡܛܠ ܦܝܣܐ ܟܝܬ ܕܝܙܘ̈ܦܐ ܡܣܟ̈ܢܐ ܘܡܛܠ ܣܘܓܐܐ ܕܣܢܝܩܘܬܗܘܢ܆ ܐܗܡܝܘ ܟܡܐ ܙܒܢܝ̈ܢ ܐܦ ܡܕܒܖ̈ܢܐ ܕܥܕ̈ܬܐ܆ ܡܢ ܟܐܬܐ ܘܟ̈ܘܘܢܐ ܕܡܘܙ̈ܦܢܐ: ܐܝܠܝܢ ܕܒܡܫܘܚܬܐ ܫܩܠܝܢ ܪܒܝܬܐ. ܒܕ ܐܝܬ ܡܢܗܘܢ ܕܫܩܠܝܢ ܗ̇ܝ ܕܗܩܛܣܛܐ ܘܐܝܬ ܡܢܗܘܢ ܕܝܬܝܪ ܐܬܥܠܝܘ ܒܚܝܘܣܬܢܘܬܗܘܢ. ܘܐܝܬ ܡܢܗܘܢ ܕܬܘܒ ܐܘܣܦܘ ܘܐܬܥܠܝܘ ܘܐܬܓܘܝܘ ܒܡܪܚܡܢܘܬܗܘܢ ܐܝܟ ܐܝܠܝܢ ܕܝܕܥܝܢ ܕܠܐ ܡܬܛܠܡܝܢ ܡܢ ܗ̇ܘ ܕܐܡ̣ܪ ܥܠ ܡܖ̈ܚܡܢܐ ܢܗܘܘܢ ܖ̈ܚܡܐ. ܐܚܖ̈ܢܐ ܕܝܢ ܟܕ ܐܬܢܫܝܘ ܗ̇ܘ ܕܘܠܝܐ܆ ܕܠܐ ܚܘܣܢ ܐܬܚܫܚܘ ܒܕ ܙܩܦܘ ܪܒܝܬܐ ܥܠ ܩܪܢܐ ܠܐ ܡܡܫܚܐܝܬ ܘܫܩܠܘ ܪܒܬ ܪܒܝܬܐ ܠܐ ܡܗܡܝܢܐܝܬ܀ܡܠܦܝܢܢ ܗܟܝܠ ܐܦ ܚܢܢ ܘܡܦܩܕܝܢܢ ܐܝܟ ܕܦܩܝܕܝܢܢ: ܕܐܢܫ ܡܢ ܡܗܝܡ̈ܢܐ ܩܨܨܐ ܠܐ ܢܣܒ. ܪܒܝܬܐ ܕܝܢ ܐܢ ܐܢܫ ܡܬܪܡܐ ܠܡܣܒ ܟܕ ܡܪܟܢ ܥܝܢܘ̈ܗܝ ܡܢ ܗܝ̇ ܕܓܡܝܪܐ ܢܙܕܗܪ܆ ܕܠܐ ܬܘܒ ܢܚܝܒ ܢܦܫܗ ܟܕ ܡܘܙܦ ܘܫܩ̇ܠ ܦܘܪܣܢܐܝܬ ܐܝܟ ܝܥܢܐ ܕܠܐ ܣܒ̇ܥ ܘܠܐ ܡܩܕܐ. ܐܝܢܐ ܕܝܢ ܕܡܡܪܚ ܘܥ̇ܒܪ ܥܠ ܡܫܘܚܬܐ ܐܝܟ ܠܐ ܡܪܚܡܢܐ܆ ܢܦܫܗ ܡܚܝܒ ܘܠܒܝܬܝܘܬܗ ܡܫܝܛ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	15. Gesetz: Bezüglich derjenigen, welche mit Wucher verleihen und begierig sind, ihren Besitz mit unangemessenem Zins [Anteil] zu vermehren [wörtlich: mit einem Anteil, der Religionsgenossen fremd ist]: So lehren und bestimmen also auch wir, wie wir beauftragt sind, dass keiner der Gläubigen Zinsen nehme. Gibt sich jemand dem Wuchernehmen hin und wendet damit seine Augen von dem ab, was untadelig ist, so gebe er acht: Dass er sich nicht selbst schuldig mache, indem er verleiht und hinterhältig nimmt wie ein Habgieriger, der nicht satt wird und dem nichts bleibt. Wer sich aber erdreistet, das Maß zu überschreiten wie jemand, der keine Gnade kennt, macht sich schuldig und verachtet seine Glaubensgemeinschaft.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

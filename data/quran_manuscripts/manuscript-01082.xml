@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1082">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Philadelphia, Pennsylvania, Pennsylvania University Museum, E 16268</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Courtesy of Pennsylvania University Museum Philadelphia.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="18">Pennsylvania University Museum
+                            , Philadelphia, Pennsylvania</repository>
+            <idno>E 16268</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: E 16268; Qurʾānic Text: Q 6:84-6:88; 7 lines per page; Dimensions: 140 x 105mm; Estimated date of production: 850-1000 (?). </p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts kept by the University Museum in Philaldelphia, written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/78QP9SWH">Levi Della Vida 1981</ref>, p. 162f.):</p>
+              <p>"134.  Inv. E. 16268. 4th-5th century A. H./10th-11th century A. D. White,  thin parchment. 10.5 x 14 cm. Full size sheet from a very small copy,  written on both faces, seven lines to the page, in black-brownish ink,  faded on the verso. The margins are completely preserved (upper: 2.2  cm., lower: 2.8 cm., outer: 3.5 cm., inner: 2cm.). From the Ellen W.  Harrison Collection. <hi rend="italic">Recto</hi>: Kor. 6,84 ومن – 86 ولو(طا). Verso: 6,86 (ولو)طا – 88 لحبط.  The script is an angular, stiff "Kūfic". Diactritical signs are  expressed by short, thick strokes, vowel marks by red dots, only  scantily used. A gold pear-shaped verse divider appears after verse 84,  which is 85 according to the Meccan and Medinese numbering (see <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/PWGCAS53">A. Spitaler, <hi rend="italic">Die Verszählung des Koran</hi></ref>, p. 36)." </p>
+            </summary>
+            <msItem xml:id="mysql_id_678049" n="1r">
+              <title type="numeric" key="006:084:011-006:086:004">
+                                    006:084:011-006:086:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678050" n="1v">
+              <title type="numeric" key="006:086:004-006:088:012">
+                                    006:086:004-006:088:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>140</width><height>105</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>850-1000</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40323">
+      <graphic decls="#imageRights-1" url="manuscript/1082/102a1b8d-159d-443f-9b7b-3a56b50127bf/manuscript-1082-page-40323-image-25634.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40324">
+      <graphic decls="#imageRights-1" url="manuscript/1082/dae65784-cf32-4d81-881e-fb0af6553e27/manuscript-1082-page-40324-image-25635.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

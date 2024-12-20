@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 4:1-16</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_295" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>295</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 5:27-31 berichtet, wie Kain seinen Bruder Abel tötet, wobei die beiden Brüder aber nicht namentlich genannt, sondern als "die beiden Söhne Adams" (ibnai ʾādama) bezeichnet werden. Die koranische Erzählung ähnelt dabei in ihren Grundzügen der hier zitierten Geschichte aus dem Buch Genesis, weist aber auch einige Unterschiede dazu auf, die teilweise Gemeinsamkeiten mit späteren Interpretationen der Erzählung in der jüdischen und christlichen Tradition besitzen: So wird ein Rabe erwähnt, der Kain die Bestattung lehrt (vgl. TUK_0656), und eine Unterhaltung zwischen Kain und Abel wiedergegeben (vgl. Gen 4:8, wo der Inhalt der Unterhaltung aber nicht erwähnt wird). Heinrich Speyer verweist auf verschiedene jüdische Überlieferungen, die von einem Gespräch oder Streit zwischen Kain und Abel berichten, die sich aber inhaltlich von den genannten Koranversen unterscheiden (Speyer 1931: p. 85-86). Durch die Unterhaltung in Q 5:27-29 werden Kain und Abel jeweils als ungläubig und gläubig charakterisiert, vgl. dazu TUK_0827 und TUK_1019. Sowie die jüdische Tradition berichtet auch der Koran von der Reue Kains (vgl. TUK_0658). Weiterhin ziehen sowohl der Koran als auch die Mischna die gleiche Lehre aus der Erzählung vom Brudermord (vgl. TUK_0262).
+</summary>
+            <msItem>
+              <title>Genesis 4:1-16</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן וַתֹּאמֶר קָנִיתִי אִישׁ אֶת־יְהוָה : וַתֹּסֶף לָלֶדֶת אֶת־אָחִיו אֶת־הָבֶל וַיְהִי־הֶבֶל רֹעֵה צֹאן וְקַיִן הָיָה עֹבֵד אֲדָמָה : וַיְהִי מִקֵּץ יָמִים וַיָּבֵא קַיִן מִפְּרִי הָאֲדָמָה מִנְחָה לַיהוָה : וְהֶבֶל הֵבִיא גַם־הוּא מִבְּכֹרוֹת צֹאנוֹ וּמֵחֶלְבֵהֶן וַיִּשַׁע יְהוָה אֶל־הֶבֶל וְאֶל־מִנְחָתוֹ : וְאֶל־קַיִן וְאֶל־מִנְחָתוֹ לֹא שָׁעָה וַיִּחַר לְקַיִן מְאֹד וַיִּפְּלוּ פָּנָיו : וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶיךָ : הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּוֹ : וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו וַיְהִי בִּהְיוֹתָם בַּשָּׂדֶה וַיָּקָם קַיִן אֶל־הֶבֶל אָחִיו וַיַּהַרְגֵהוּ : וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹכִי : וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָאֲדָמָה : וְעַתָּה אָרוּר אָתָּה מִן־הָאֲדָמָה אֲשֶׁר פָּצְתָה אֶת־פִּיהָ לָקַחַת אֶת־דְּמֵי אָחִיךָ מִיָּדֶךָ : כִּי תַעֲבֹד אֶת־הָאֲדָמָה לֹא־תֹסֵף תֵּת־כֹּחָהּ לָךְ נָע וָנָד תִּהְיֶה בָאָרֶץ : וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֹנִי מִנְּשֹׂא הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כָל־מֹצְאִי יַהַרְגֵנִי : וַיֹּאמֶר לוֹ יְהוָה לָכֵן כָּל־הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם וַיָּשֶׂם יְהוָה לְקַיִן אוֹת לְבִלְתִּי הַכּוֹת־אֹתוֹ כָּל־מֹצְאוֹ : וַיֵּצֵא קַיִן מִלִּפְנֵי יְהוָה וַיֵּשֶׁב בְּאֶרֶץ־נוֹד קִדְמַת־עֵדֶן :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Adam erkannte Eva, seine Frau; sie wurde schwanger und gebar Kain. Da sagte sie: Ich habe einen Mann vom Herrn erworben. 2 Sie gebar ein zweites Mal, nämlich Abel, seinen Bruder. Abel wurde Schafhirt und Kain Ackerbauer. 3 Nach einiger Zeit brachte Kain dem Herrn ein Opfer von den Früchten des Feldes dar; 4 auch Abel brachte eines dar von den Erstlingen seiner Herde und von ihrem Fett. Der Herr schaute auf Abel und sein Opfer, 5 aber auf Kain und sein Opfer schaute er nicht. Da überlief es Kain ganz heiß und sein Blick senkte sich. 6 Der Herr sprach zu Kain: Warum überläuft es dich heiß und warum senkt sich dein Blick? 7 Nicht wahr, wenn du recht tust, darfst du aufblicken; wenn du nicht recht tust, lauert an der Tür die Sünde als Dämon. Auf dich hat er es abgesehen, doch du werde Herr über ihn! 8 Und Kain sprach mit seinem Bruder Abel, und während sie auf dem Feld waren, griff Kain seinen Bruder Abel an und erschlug ihn. 9 Da sprach der Herr zu Kain: Wo ist dein Bruder Abel? Er entgegnete: Ich weiß es nicht. Bin ich der Hüter meines Bruders? 10 Der Herr sprach: Was hast du getan? Das Blut deines Bruders schreit zu mir vom Ackerboden. 11 So bist du verflucht, verbannt vom Ackerboden, der seinen Mund aufgesperrt hat, um aus deiner Hand das Blut deines Bruders aufzunehmen. 12 Wenn du den Ackerboden bestellst, wird er dir keinen Ertrag mehr bringen. Rastlos und ruhelos wirst du auf der Erde sein. 13 Kain antwortete dem Herrn: Zu groß ist meine Schuld, als dass ich sie tragen könnte. 14 Du hast mich heute vom Ackerland verjagt und ich muss mich vor deinem Angesicht verbergen; rastlos und ruhelos werde ich auf der Erde sein und wer mich findet, wird mich erschlagen. 15 Der Herr aber sprach zu ihm: Darum soll jeder, der Kain erschlägt, siebenfacher Rache verfallen. Darauf machte der Herr dem Kain ein Zeichen, damit ihn keiner erschlage, der ihn finde. 16 Dann ging Kain vom Herrn weg und ließ sich im Land Nod nieder, östlich von Eden.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

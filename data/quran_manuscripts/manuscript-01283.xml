@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1283">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.73.5.499</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.73.5.499</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Die <ref target="https://collections.lacma.org/node/240164">Webseite des Los Angeles County Museums (LACMA) </ref>enthält zu dem Fragmemt die folgenden Angaben: "Two Pages from a Manuscript of the Qur'an (26:151-55; 26:155-59; 26:159-64; 26:164-67), Abbassid Caliphate, 9th-10th century, Manuscripts; folios Ink and gold on parchment unspecified (unspecified): 5 3/4 × 18 1/4 in. (14.61 × 46.36 cm) The Nasli M. Heeramaneck Collection, gift of Joan Palevsky (M.73.5.499), Art of the Middle East: Islamic and Contemporary" (https://collections.lacma.org/node/240164) </p>
+            </summary>
+            <msItem xml:id="mysql_id_681100" n="1r">
+              <title type="numeric" key="026:151:004-026:155:006">
+                                    026:151:004-026:155:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681101" n="1v">
+              <title type="numeric" key="026:155:006-026:159:001">
+                                    026:155:006-026:159:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681102" n="2r">
+              <title type="numeric" key="026:159:002-026:164:003">
+                                    026:159:002-026:164:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681103" n="2v">
+              <title type="numeric" key="026:164:004-026:167:005">
+                                    026:164:004-026:167:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>146</width><height>464</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_41134">
+      <graphic decls="#imageRights-1" url="manuscript/1283/d7266120-c417-45d9-930e-2cf2b4d37d28/manuscript-1283-page-41134-image-26439.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1283/ecabb70d-5798-45ff-810c-06d92d0be363/manuscript-1283-page-41134-image-34131.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_41135">
+      <graphic decls="#imageRights-1" url="manuscript/1283/8b39448b-895d-4ee2-a681-506691fbb0fd/manuscript-1283-page-41135-image-26440.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1283/50eafb0a-9c93-46c6-88a5-ac3da3076fd7/manuscript-1283-page-41135-image-34132.tiff"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_41136">
+      <graphic decls="#imageRights-1" url="manuscript/1283/ee1e3678-5324-460a-948e-f8954b9050a0/manuscript-1283-page-41136-image-26441.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1283/529632df-ffc8-45f4-91df-822fd6364343/manuscript-1283-page-41136-image-34133.tiff"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_41137">
+      <graphic decls="#imageRights-1" url="manuscript/1283/be26880d-e721-4b77-8a08-f045c45cd256/manuscript-1283-page-41137-image-26442.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1283/3dabe0bc-e37e-4a6a-9566-eff8a209107a/manuscript-1283-page-41137-image-34134.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

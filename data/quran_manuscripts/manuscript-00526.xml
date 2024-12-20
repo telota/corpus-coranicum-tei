@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_526">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Stuttgart, Private collection Mark Mersiowsky, Sig.isl. 18</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Prof. Dr. Mark Mersiowsky (Stuttgart).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="34">Private collection Mark Mersiowsky
+                            , Stuttgart</repository>
+            <idno>Sig.isl. 18</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio, Shelfmark: Mark Mersiowsky: Sig.isl. 18 ; Qurʾānic Text: Q 8:72-9:11; Lines per page: 17; Script style: kūfī B.Ib; Dimensions: 210 x 130 mm; Estimated date of production: 1000-1200.</p>
+              <p> </p>
+              <p>This codex fragment belongs to the collection of Mark Mersiowsky (Stuttgart), who gave to permission to take samples for radiocarbon analysis (financed by the project Coranica, generously funded by ANR (Paris) and the German DFG. The obtained measurement, 1233,21 BP corresponds to four intervals: 689-696, 701-742, 772-779, and 784-879 (according to the callibration of Oxcal 2020; 95,4% σ2). The calibrated result streches in four intervals the time span between 689 to 879, because of the peak and the plateau of the calibration curve. Taking into account the script style (an ancient script style of which documents for example Tübingen <ref target="https://corpuscoranicum.de/en/manuscripts/107/page/1r">Ma VI 165</ref> belong to the 7th century) and the horizontal format, a date estimate between 690 and 750 could be suggested. However, a date between 772 and 879 cannot be excluded but seems less probable.    </p>
+            </summary>
+            <msItem xml:id="mysql_id_671899" n="1r">
+              <title type="numeric" key="008:072:002-009:003:031">
+                                    008:072:002-009:003:031
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_671900" n="1v">
+              <title type="numeric" key="009:004:005-009:011:001">
+                                    009:004:005-009:011:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>210</width><height>130</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="17">17 - 17 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>Die Grundschrift, die zu einem späteren Zeitpunkt mit einer dunkleren Tinte nachgezeichnet wurde, notiert Buchstaben, diakritische Punkte und Verstrenner. In roter Tinte sind Vokalzeichen in Form von Punkten und die Überschrift der 9. Sure eingetragen: <hi rend="italic">fātiḥat sūrat at-tauba wa-hiya miʾa wa-ṯalaṯūna ʾāya</hi>, "Sure at-Tauba und sie [hat] 130 Verse". Die Surenüberschrift ist in einem ähnlichem Schriftstil wie der Grundtext notiert.   </p>
+              </summary>
+              <scriptNote>
+                                                                kūfī B.Ib
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>690-780</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Tobias J. Jocham</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_27749">
+      <graphic decls="#imageRights-1" url="manuscript/526/0d87f200-e4d7-473f-884f-a17a64408c9a/manuscript-526-page-27749-image-22191.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/526/ec1edc23-441b-40e8-a74d-f1e14d1139bd/manuscript-526-page-27749-image-68621.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_27750">
+      <graphic decls="#imageRights-1" url="manuscript/526/4b643cfb-4d3e-4a48-b5cb-5b63c168cfc9/manuscript-526-page-27750-image-22192.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

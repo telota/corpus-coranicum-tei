@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1328">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New Haven, Connecticut, Yale University Art Gallery, 1951.51.53a-b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="71">Yale University Art Gallery
+                            , New Haven, Connecticut</repository>
+            <idno>1951.51.53a-b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment, Shelfmark: 1951.51.53a-b;  Qurʾānic Text: Q 33:53, Q 33:71-33:72; 5 lines per page;  Dimensions:  109 x 143mm; Script style: kūfī D.Vb; Estimated date of production:  900-1100 (??).</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://artgallery.yale.edu/collections/objects/48814">gallery's website</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_682530" n="1r">
+              <title type="numeric" key="033:053:040-033:053:054">
+                                    033:053:040-033:053:054
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682531" n="1v">
+              <title type="numeric" key="033:071:001-033:072:002">
+                                    033:071:001-033:072:002
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>109</width><height>143</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Vb
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>900-1100</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42535">
+      <graphic decls="#imageRights-1" url="manuscript/1328/2ca5c005-579d-48a6-82df-0a77422fef5e/manuscript-1328-page-42535-image-28211.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1328/75acaa93-ebe0-4d44-9fac-5f5266bab2f7/manuscript-1328-page-42535-image-28212.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42536">
+      <graphic decls="#imageRights-1" url="manuscript/1328/1545210b-e633-4126-8c07-ab8da7bf87d2/manuscript-1328-page-42536-image-28213.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1328/f186415c-9cff-4283-9d07-0b69516c23d8/manuscript-1328-page-42536-image-28214.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

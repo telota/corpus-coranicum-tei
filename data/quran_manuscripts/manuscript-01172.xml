@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1172">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (13)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0025.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0026.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (13)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Vat. Ar. 1605 (XIII); Qurʾānic Text: Q  9:51-9:69; 18 lines per page; Dimensions: 211 x 185mm; Script style:  kūfī B.II; Estimated date of production: 700-900.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 11):</p>
+              <p>"13. (Tavola 5) Cm. 18,5 x 21,1; 18 linee. Sura 9,51 قل – 60 وابن; verso: sura 9,60 السبيل – 69 (70) اشد. Scrittura  non troppo dissimile da quella del numero precedente, ma più piccola  (altezze massime mm. 7) e più rigida. Mancano i punti diacritici; alcuni  sono stati aggiunti da mano più recente. Le vocali sono segnate in  rosso, altri segni ortografici mancano. Un semplice punto fa da  divisore dei singoli versetti; un divisore denario appare nel recto dopo  il v. 59, che è 60 secondo le numerazioni di Baṣra, Damasco e Ḥimṣ (v. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/PWGCAS53" sameAs="PWGCAS53" type="zotero">SPITALER</ref>,  p. 38); è in forma di una rosetta di fattura mo desta, costituita da un  disco a centro rosso circondato da altri quattro a centro azzurro,  alternati da fogliette lanceolate di color giallo. Il foglio ha perduto  buona parte del lato esterno; i margini interno, superiore e inferiore  sono conservati quasi per intero." </p>
+            </summary>
+            <msItem xml:id="mysql_id_679625" n="13r">
+              <title type="numeric" key="009:051:001-009:060:015">
+                                    009:051:001-009:060:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679626" n="13v">
+              <title type="numeric" key="009:060:016-009:069:005">
+                                    009:060:016-009:069:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>211</width><height>185</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="18">18 - 18 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="13r" xml:id="mysql_id_40513">
+      <graphic decls="#imageRights-1" url="manuscript/1172/e7f60ac0-6c9f-432b-bc5e-b7260d796c17/manuscript-1172-page-40513-image-25715.jpg"/>
+    </surface>
+    <surface n="13v" xml:id="mysql_id_40514">
+      <graphic decls="#imageRights-2" url="manuscript/1172/97f25e87-7b38-4375-adbe-b21ff20edfd1/manuscript-1172-page-40514-image-25716.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

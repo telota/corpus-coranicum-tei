@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hohes Lied Rabba, Parascha 1</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1087" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1087</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 27:16 zufolge wurde Salomo die Sprache der Vögel gelehrt. Auch der Midrasch Hohes Lied Rabba berichtet, dass Salomo die Vögel verstanden habe, nachdem ihm von Gott Weisheit verliehen worden sei. Die Stelle im Midrasch geht möglicherweise auf eine Interpretation oder Ausschmückung von 1 Kön 5:13 zurück: "Er redete über die Bäume, von der Zeder auf dem Libanon bis zum Ysop, der an der Mauer wächst. Er redete über das Vieh, die Vögel, das Gewürm und die Fische" (Speyer 1931: p. 384).
+
+	Zu Datierung und Textgeschichte siehe Stemberger 2011, S. 349-350.
+</summary>
+            <msItem>
+              <title>Hohes Lied Rabba, Parascha 1</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">2. Hälfte des 6. Jh.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	אמר שלמה אם אשאל כסף וזהב ואבנים טובות ומרגליות הוא נותן לי אלא הרי אני שואל את החכמה והכל בכלל, הה"ד ונתת לעבדך לב שומע, אמר לו הקב"ה שלמה חכמה שאלת לך ולא שאלת עושר ונכסים ונפש אויבך חייך החכמה והמדע נתון לך ועי"כ עושר ונכסים אתן לך, מיד ויקץ שלמה והנה חלום, א"ר יצחק חלום היה עומד על כנו חמור נוהק והוא יודע מה נוהק, צפור מצוצי והוא היה יודע מה מצוצי
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Da dachte Salomo: Wenn ich Silber und Gold, Edelsteine und Perlen verlange, er gibt sie mir, ich bitte um die Weisheit, dann habe ich alles in allem, s. 1 Kön 3:9 "Verleih daher deinem Knecht ein hörendes Herz". Du erbittest dir die Weisheit, anwortete Gott, und nicht Reichthum, irdische Güter und das Leben deiner Feinde, bei deinem Leben! ich lasse dir mit jener auch diese zu Theil werden. Und Salomo erwachte und siehe, es war ein Traum (1 Kön 3:15), wie R. Jizchak bemerkte, der auf seiner Basis (seinem Grunde) steht. Brüllte der Esel, so wusste er, was er brüllte, zwitscherte der Vogel, so wusste er, was er zwitscherte.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	Said Solomon to himself: If I ask for silver and gold and precious stones and pearls, He will give me. But what I will do is to ask for wisdom, and that will include everything. So it says, Give thy servant therefore an understanding heart (1 Kön 3:9). Said the Holy One, blessed be He, to him: 'Solomon, thou hast asked for wisdom and thou hast not asked for wealth and possessions and the life of thine enemies. As thou livest, wisdom and knowledge are granted to thee, and thereby I will give thee riches and possessions.' Forthwith, Solomon awoke and, behold, it was a dream (1 Kön 3:15). R. Isaac said: [This means that] the dream stood upon its foundation. If an ass brayed, he knew what it meant; if a bird chirped, he knew what it meant.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

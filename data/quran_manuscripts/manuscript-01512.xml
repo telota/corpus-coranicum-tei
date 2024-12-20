@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1512">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cincinnati, Ohio, Cincinnati Art Museum, 1977.52a-b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: cincinnati, Cincinnati Art Museum, Fanny Bryce Lehmer Fund Accession No: 1977.52a-b.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="91">Cincinnati Art Museum
+                            , Cincinnati, Ohio</repository>
+            <idno>1977.52a-b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio, Shelfmark: 1977.52a-b; Qurʾānic Text: Q 4:83 - 4:87; 9  lines per page; Dimensions: 229 x 270; Script style: Maġribī round chrysography (for the <hi rend="italic">rasm</hi>);  Estimated date of production: Late 13th or 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>The manuscript was originally divided into many volumes (probably 8), all written in chrysography outlined in black. Other fragments are in Dublin, Chester Beatty Library, ms. Is. 1424; Khalili Collection, QUR520; Paris, Bibliothèque Nationale de France, ms. Smith-Lesouef 217; Istanbul, Topkapı Palace Library, mss. E.H. 219 &amp;amp; E.H. 220; Los Angeles, LACMA, <ref target="https://corpuscoranicum.de/de/manuscripts/1529">M.2002.1.25</ref>; New York, Metropolitan Museum of Art, Ms. 37.21; Kuwait, Tareq Rajab Museum, Qur.0127.TSR.</p>
+              <p> </p>
+              <p>For further information, see the <ref target="https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=24980683">website of the Cincinnati Art Museum</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_706340" n="1r">
+              <title type="numeric" key="004:083:008-004:084:019">
+                                    004:083:008-004:084:019
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687831" n="1v">
+              <title type="numeric" key="004:084:020-004:087:001">
+                                    004:084:020-004:087:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>229</width><height>270</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="9">9 - 9 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1275-1400</origDate>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb), al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_62048">
+      <graphic decls="#imageRights-1" url="manuscript/1512/5d64cfc5-20db-4a70-8ac4-cb97e88b786f/manuscript-1512-page-62048-image-53883.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47791">
+      <graphic decls="#imageRights-1" url="manuscript/1512/ac242e73-1182-42c1-8e83-5a1af8625d1c/manuscript-1512-page-47791-image-34036.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1489">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Massachussets, Harvard Art Museums, 1965.499</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="70">Harvard Art Museums
+                            , Cambridge, Massachussets</repository>
+            <idno>1965.499</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: 1965.499; Qurʾānic Text: Q 77:37-77:50; 4-8 lines per page; Dimensions: 92 x 124mm; Script style: new style III; Estimated  date  of production: 900-1000.  </p>
+              <p> </p>
+              <p>Further information can be found on the <ref target="https://hvrd.art/o/214452">museum's website</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_691972" n="1r">
+              <title type="numeric" key="077:048:003-077:050:004">
+                                    077:048:003-077:050:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687958" n="2r">
+              <title type="numeric" key="077:037:002-077:045:001">
+                                    077:037:002-077:045:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687959" n="2v">
+              <title type="numeric" key="077:045:002-077:048:002">
+                                    077:045:002-077:048:002
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>92</width><height>123</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4 8">4 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_51930">
+      <graphic decls="#imageRights-1" url="manuscript/1489/7b6f083b-b1a4-44f3-a0db-cabd8d63a22a/manuscript-1489-page-51930-image-40606.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_51931">
+      <graphic decls="#imageRights-1" url="manuscript/1489/52e20ad2-bd3b-4020-8946-02a29d4c4120/manuscript-1489-page-51931-image-40607.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47918">
+      <graphic decls="#imageRights-1" url="manuscript/1489/60cce642-29be-48a4-8863-bd3d9a5919fd/manuscript-1489-page-47918-image-34224.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_47919">
+      <graphic decls="#imageRights-1" url="manuscript/1489/2e929794-35d0-4dc6-a428-8f1459c66fce/manuscript-1489-page-47919-image-34225.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

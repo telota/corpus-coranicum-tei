@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1848">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Providence, Rhode Island, Brown University Library, 6413</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="67">Brown University Library
+                            , Providence, Rhode Island</repository>
+            <idno>6413</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on paper; Shelfmark: 6413; Qurʾānic Text: Q 9:52-9:57, Q 9:65-9:69; 7 lines per page; Dimensions: 176 x 266mm; Script style: raiḥānī.</p>
+              <p> </p>
+              <p>The single folios with the shelfmarks <ref target="https://corpuscoranicum.de/en/manuscripts/1668">6248</ref>, <ref target="https://corpuscoranicum.de/en/manuscripts/1848">6413</ref> and <ref target="https://corpuscoranicum.de/en/manuscripts/1850">6154</ref> belong to the same manuscript. For more information, please visit the manuscript entry in the <ref target="https://repository.library.brown.edu/studio/item/bdr:6413">Brown Digital Repository</ref>.</p>
+              <p> </p>
+            </summary>
+            <msItem xml:id="mysql_id_692770" n="1r">
+              <title type="numeric" key="009:052:022-009:055:001">
+                                    009:052:022-009:055:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692771" n="1v">
+              <title type="numeric" key="009:055:002-009:057:009">
+                                    009:055:002-009:057:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692772" n="2r">
+              <title type="numeric" key="009:065:007-009:067:009">
+                                    009:065:007-009:067:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692773" n="2v">
+              <title type="numeric" key="009:067:010-009:069:003">
+                                    009:067:010-009:069:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>176</width><height>266</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                raiḥānī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52728">
+      <graphic decls="#imageRights-1" url="manuscript/1848/cb2d9d9a-4d8b-4091-8ae0-9e0c34c9cc9c/manuscript-1848-page-52728-image-41466.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52729">
+      <graphic decls="#imageRights-1" url="manuscript/1848/d1606ba6-c5f9-4c0a-a568-eeb0c0441262/manuscript-1848-page-52729-image-41467.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_52730">
+      <graphic decls="#imageRights-1" url="manuscript/1848/8b0c2176-e1ba-4810-b84e-6b0e8ccd5012/manuscript-1848-page-52730-image-41468.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_52731">
+      <graphic decls="#imageRights-1" url="manuscript/1848/f74b813b-819b-4b32-bfc6-56484bfd2f84/manuscript-1848-page-52731-image-41469.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1657">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Seattle, Washington, Seattle Art Museum, 69.37</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Seattle, Seattle Art Museum: Eugene Fuller Memorial Collection, 69.37.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="68">Seattle Art Museum
+                            , Seattle, Washington</repository>
+            <idno>69.37</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio of the Blue Qurʾān, Shelfmark: 69.37; Qurʾānic Text: 2:106-113; Lines per page: 15; Dimensions: 248 x 346 mm; Script style: kūfī, type D; Estimated date of production: 800-1000.</p>
+              <p>The Website of <ref target="http://art.seattleartmuseum.org/objects/5815/folio-from-the-dispersed-blue-quran?ctx=e6a8cdee-7eed-462b-880e-69e1cb30fe0c&amp;idx=21">Seattle Art Museum has the following information about this folio of the Blue Qurʾān</ref> (June 14, 2021): "Folio from the dispersed "Blue Qur'an", 9th century, North African; This blue Qur'an is a very early example of Qur'an manuscripts and Arabic-language script. The text is written in an angular and abstract style known as Kufic, a style of script named after the city of Kufa, in present day Iraq, where the script is thought to have been developed.  Except for the Kufic script, this page is completely free of decoration because representations of humans and animals were prohibited in Islamic religious art.  Later Arabic script includes diacritical marks -- the dots that differentiate one Arabic letter from another. This page lacks these important marks, which makes understanding the text almost impossible unless you already know the passage. Early Qur'ans such as this assume the reader has this knowledge. Later copies of the Muslim holy book attempt to make reading the Qur'an as clear and straightforward as possible.   Gold and silver on indigo-dyed animal skin parchment, 9 3/4 x 13 5/8 in. (24.8 x 34.6 cm), Eugene Fuller Memorial Collection, 69.37 Provenance: Purchased from Mark Lansburgh, Colorado College, January 30, 1969." </p>
+              <p>See the detailed catalogue entry by Marcus Fraser on a sister fragment of the Blue Qurʾān kept by <ref target="https://corpuscoranicum.de/handschriften/index/sure/2/vers/286/handschrift/1458">Qatar National Library, call number HC.MS. 03223</ref>.  </p>
+            </summary>
+            <msItem xml:id="mysql_id_692262" n="1v">
+              <title type="numeric" key="002:109:023-002:113:008">
+                                    002:109:023-002:113:008
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>248</width><height>346</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_52220">
+      <graphic decls="#imageRights-1" url="manuscript/1657/7600e294-f53b-4443-8fb1-47b95827d1dc/manuscript-1657-page-52220-image-40905.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

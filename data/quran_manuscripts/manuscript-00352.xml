@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_352">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cairo, Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية), Moritz 1905, table 42 (below)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Moritz, Arabic Palaeography, Kairo 1905, Tafel 42 unten .</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Moritz, Arabic Palaeography, Kairo 1905.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="9">Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية)
+                            , Cairo</repository>
+            <idno>Moritz 1905, table 42 (below)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>One page of a codex from Cairo, Khedivial Library; Total amount of leaves unknown; Writing surface: parchment; Qur'ānic text: Q 2:128-129; Dimensions: unknown; 7 lines per page: Script style: kūfī (type B: II); Estimated date of production: 750-900.</p>
+              <p><hi rend="italic">Arabic Palaeography</hi> of Bernhard Moritz, published in Cairo in 1905, contains two images of this Qur'an codex on parchment with the title : "Fragment of a Kurʾān III cent. Khedivial Library" (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/ZZZEKDZ7">Moritz 1905, pl. 42 b</ref>), the page on the left the fragment, the page on the right a colophon.</p>
+            </summary>
+            <msItem xml:id="mysql_id_691246" n="42">
+              <title type="numeric" key="002:128:007-002:129:010">
+                                    002:128:007-002:129:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="42" xml:id="mysql_id_3696">
+      <graphic decls="#imageRights-1" url="manuscript/352/e01979a9-0a7d-4ae0-8332-e4b056ad28e4/manuscript-352-page-3696-image-28262.png"/>
+      <graphic decls="#imageRights-2" url="manuscript/352/135995c3-f8b4-4159-9de2-6e8d08985697/manuscript-352-page-3696-image-68865.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

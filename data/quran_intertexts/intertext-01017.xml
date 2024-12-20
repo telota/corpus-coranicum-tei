@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht des ʿAbīd b. al-ʾAbraṣ (Nr. 24)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1017" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1017</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Sure 15:22 wird innerhalb einer Beschreibung von Gottes Wirken in der Natur und an den Menschen die metaphorische Wendung der ar-riyāḥ lawāqiḥ ("trächtige [regentragende] Winde") verwendet. Ein vergleichbarer metaphorischer Gebrauch findet sich zu Beginn eines ʿAbīd b. al-ʾAbraṣ' zugeschriebenen Gedichts, das in den Eingangsversen die Beschreibung eines Unwetters enthält. Ch. Lyall hält das Gedicht insgesamt für eher nicht authentisch, wobei er aber die hier zur Betrachtung kommenden Verse als wahrscheinlich echt klassifiziert.
+</summary>
+            <msItem>
+              <title>Gedicht des ʿAbīd b. al-ʾAbraṣ (Nr. 24)</title>
+              <author>ʿAbīd b. al-ʾAbraṣ (st. vor 554)</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">6. Jahrhundert</origDate>
+              <origPlace>Arabische Halbinsel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">The Dīwāns of ʿAbīd Ibn al-Abraṣ, of Asad, and ʿĀmir Ibn aṭ-Ṭufail, of ʿĀmir Ibn Ṣaʿṣaʿah / ed. for the first time, from the ms. in the British Museum, and suppl. with a transl. and notes, by Charles Lyall, Leiden 1913, S. 65.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Hannelies Koloska</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>
+	 ١أَرِقتُ لِضَوءِ بَرقٍ في نَشاصِ       تَلَألَأَ في مُمَلَّأَةٍ غِصاصِ  
+
+	 ٢لَواقِحَ دُلَّحٍ بِالماءِ سُحمٍ                  تَثُجُّ الماءَ مِن خَلَلِ الخَصاصِ 
+
+	٣سَحابٍ ذاتِ أَسحَمَ مُكفَهِرٍّ                تُوَحّي الأَرضَ قَطراً ذا اِفتِحاصِ 
+
+
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Wach hielt mich das Licht des Blitzes in den Wolkenmassen, das aufleuchtet in den zum Bersten Gefüllten: 
+
+	2 Die schwer mit dunklem Wasser beladenen Wolken, die den Regen aus allen ihren Rissen ergießen lassen,3 Wolken im düsteren Schwarz; zur Erde geleitete Regentropfen, die tiefe Rinnen graben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 I watched through the night the flashes that lit the towering - high piled cloud-masses filled to the full, nigh bursting:2 The heavily-burdened wombs of the fruitful waters, - that spout forth rain from many a rift of blackness:3 The mists built up in darkness unfathomed, raindrops - that carve deep cavernswhen they are cast earth-ward.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

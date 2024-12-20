@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 44:6-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_379" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>379</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Bedeutung von aṣ-ṣamad ist problematisch. Eine Erklärungsmöglichkeit besteht darin, den Ausdruck mit ṣamda, "Fels" in Verbindung zu bringen. Dann entspräche aṣ-ṣamad, wie bereits Köbert 1961 bemerkt hat, dem hebräischen ṣûr, was im Alten Testament ein häufiges Gottesepitheton ist (vgl. Deuteronomium 32:4, Psalm 18:3, 18:32, 19:15, 31:3, 78:35, 144:1, Jesaja 26:4). Falls diese Deutung zutrifft, weist Jesaja 44:7-8 eine Parallele zu Sure 112 auf: In beiden Texten findet sich die Bezeichnung Gottes als Fels in unmittelbarer Nähe zur Aussage, dass niemand Gott gleiche (zu letzterem Punkt vgl. auch TUK_0377). Beide Motive - die Bezeichnung Gottes als Fels sowie die Bekräftigung seiner Einzigkeit - stehen übrigens auch im Danklied der Hanna in 1 Samuel 2:2 nebeneinander. Insgesamt erinnert Sure 112 strukturell wie inhaltlich aber auch an das Nizäno-Konstantinopolitanische Glaubensbekenntnis; vor diesem Hintergrund ist aṣ-ṣamad zumindest funktional (wenn auch sicher nicht semantisch) äquivalent mit dem griechischen pantokratōr (vgl. TUK_0047). Vgl. aber auch TUK_0687 für weitere Möglichkeiten der Interpretation.
+</summary>
+            <msItem>
+              <title>Jesaja 44:6-8</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">K&amp;#xF6;bert, Raimund: &amp;#x201E;Das Gottesepitheton a&amp;#x1E63;-&amp;#x1E63;amad in Sure 112,2&amp;#x201C;. In: Orientalia (neue Serie) 30 (1961), S. 204&amp;#x2013;205.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	כֹּה־אָמַר יְהוָה מֶלֶךְ־יִשְׂרָאֵל וְגֹאֲלוֹ יְהוָה צְבָאוֹת אֲנִי רִאשׁוֹן וַאֲנִי אַחֲרוֹן וּמִבַּלְעָדַי אֵין אֱלֹהִים :  וּמִי־כָמוֹנִי  יִקְרָא וְיַגִּידֶהָ וְיַעְרְכֶהָ לִי מִשּׂוּמִי עַם־עוֹלָם וְאֹתִיּוֹת וַאֲשֶׁר תָּבֹאנָה יַגִּידוּ לָמוֹ : אַל־תִּפְחֲדוּ וְאַל־תִּרְהוּ הֲלֹא מֵאָז הִשְׁמַעְתִּיךָ וְהִגַּדְתִּי וְאַתֶּם עֵדָי הֲיֵשׁ אֱלוֹהַּ מִבַּלְעָדַי  וְאֵין צוּר בַּל־יָדָעְתִּי :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	6 So spricht der Herr, Israels König, / sein Erlöser, der Herr der Heere: Ich bin der Erste, ich bin der Letzte, / außer mir gibt es keinen Gott. 7 Wer ist mir gleich? Er soll sich melden, / er tue es mir kund und beweise es mir. Wer hat von Anfang an die Zukunft verkündet? / Sie sollen uns sagen, was alles noch kommt. 8 Erschreckt nicht und fürchtet euch nicht! / Habe ich es euch nicht schon längst zu Gehör gebracht und verkündet? Ihr seid meine Zeugen: Gibt es einen Gott außer mir? / Es gibt keinen Fels außer mir, ich kenne keinen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

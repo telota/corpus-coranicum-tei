@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 7:1-18</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_30" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>30</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die angegebenen Koranverse nehmen auf die Sintflutgeschichte Bezug und zeigen dabei Übereinstimmungen mit dem Bericht der Genesis. Der vorliegende Eintrag soll vor allem grundsätzliche Parallelen zwischen der alttestamentlichen und der koranischen Sintfluterzählung vor Augen führen. Zu weiteren Details siehe TUK_0024, TUK_0025, TUK_0031, TUK_0056, TUK_0082, TUK_0083,TUK_0087, TUK_0088, TUK_0090, TUK_0091, TUK_0093, TUK_0094, TUK_0105, TUK_0106, TUK_0108, TUK_0109, TUK_0140, TUK_0157, TUK_0161, TUK_0352, TUK_0468, TUK_0483, TUK_0530, TUK_0560, TUK_0754.
+</summary>
+            <msItem>
+              <title>Genesis 7:1-18</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיֹּאמֶר יְהוָה לְנֹחַ בֹּא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּה : מִכֹּל הַבְּהֵמָה הַטְּהוֹרָה תִּקַּח־לְךָ שִׁבְעָה שִׁבְעָה אִישׁ וְאִשְׁתּוֹ וּמִן־הַבְּהֵמָה אֲשֶׁר לֹא טְהֹרָה הִוא שְׁנַיִם אִישׁ וְאִשְׁתּוֹ : גַּם מֵעוֹף הַשָּׁמַיִם שִׁבְעָה שִׁבְעָה זָכָר וּנְקֵבָה לְחַיּוֹת זֶרַע עַל־פְּנֵי כָל־הָאָרֶץ : כִּי לְיָמִים עוֹד שִׁבְעָה אָנֹכִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וּמָחִיתִי אֶת־כָּל־הַיְקוּם אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָאֲדָמָה : וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר־צִוָּהוּ יְהוָה : וְנֹחַ בֶּן־שֵׁשׁ מֵאוֹת שָׁנָה וְהַמַּבּוּל הָיָה מַיִם עַל־הָאָרֶץ : וַיָּבֹא נֹחַ וּבָנָיו וְאִשְׁתּוֹ וּנְשֵׁי־בָנָיו אִתּוֹ אֶל־הַתֵּבָה מִפְּנֵי מֵי הַמַּבּוּל : מִן־הַבְּהֵמָה הַטְּהוֹרָה וּמִן־הַבְּהֵמָה אֲשֶׁר אֵינֶנָּה טְהֹרָה וּמִן־הָעוֹף וְכֹל אֲשֶׁר־רֹמֵשׂ עַל־הָאֲדָמָה : שְׁנַיִם שְׁנַיִם בָּאוּ אֶל־נֹחַ אֶל־הַתֵּבָה זָכָר וּנְקֵבָה כַּאֲשֶׁר צִוָּה אֱלֹהִים אֶת־נֹחַ : וַיְהִי לְשִׁבְעַת הַיָּמִים וּמֵי הַמַּבּוּל הָיוּ עַל־הָאָרֶץ : בִּשְׁנַת שֵׁשׁ־מֵאוֹת שָׁנָה לְחַיֵּי־נֹחַ בַּחֹדֶשׁ הַשֵּׁנִי בְּשִׁבְעָה־עָשָׂר יוֹם לַחֹדֶשׁ בַּיּוֹם הַזֶּה נִבְקְעוּ כָּל־מַעְיְנֹת תְּהוֹם רַבָּה וַאֲרֻבֹּת הַשָּׁמַיִם נִפְתָּחוּ : וַיְהִי הַגֶּשֶׁם עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה : בְּעֶצֶם הַיּוֹם הַזֶּה בָּא נֹחַ וְשֵׁם־וְחָם וָיֶפֶת בְּנֵי־נֹחַ וְאֵשֶׁת נֹחַ וּשְׁלֹשֶׁת נְשֵׁי־בָנָיו אִתָּם אֶל־הַתֵּבָה : הֵמָּה וְכָל־הַחַיָּה לְמִינָהּ וְכָל־הַבְּהֵמָה לְמִינָהּ וְכָל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ לְמִינֵהוּ וְכָל־הָעוֹף לְמִינֵהוּ כֹּל צִפּוֹר כָּל־כָּנָף : וַיָּבֹאוּ אֶל־נֹחַ אֶל־הַתֵּבָה שְׁנַיִם שְׁנַיִם מִכָּל־הַבָּשָׂר אֲשֶׁר־בּוֹ רוּחַ חַיִּים : וְהַבָּאִים זָכָר וּנְקֵבָה מִכָּל־בָּשָׂר בָּאוּ כַּאֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים וַיִּסְגֹּר יְהוָה בַּעֲדוֹ : וַיְהִי הַמַּבּוּל אַרְבָּעִים יוֹם עַל־הָאָרֶץ וַיִּרְבּוּ הַמַּיִם וַיִּשְׂאוּ אֶת־הַתֵּבָה וַתָּרָם מֵעַל הָאָרֶץ : וַיִּגְבְּרוּ הַמַּיִם וַיִּרְבּוּ מְאֹד עַל־הָאָרֶץ וַתֵּלֶךְ הַתֵּבָה עַל־פְּנֵי הַמָּיִם :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Darauf sprach der Herr zu Noah: Geh in die Arche, du und dein ganzes Haus, denn ich habe gesehen, dass du unter deinen Zeitgenossen vor mir gerecht bist. 2 Von allen reinen Tieren nimm dir je sieben Paare mit und von allen unreinen Tieren je ein Paar, 3 auch von den Vögeln des Himmels je sieben Männchen und Weibchen, um Nachwuchs auf der ganzen Erde am Leben zu erhalten. 4 Denn noch sieben Tage dauert es, dann lasse ich es vierzig Tage und vierzig Nächte lang auf die Erde regnen und tilge vom Erdboden alle Wesen, die ich gemacht habe. 5 Noah tat alles, was ihm der Herr aufgetragen hatte. 6 Noah war sechshundert Jahre alt, als die Flut über die Erde kam. 7 Noah ging also mit seinen Söhnen, seiner Frau und den Frauen seiner Söhne in die Arche, bevor das Wasser der Flut kam. 8 Von den reinen und unreinen Tieren, von den Vögeln und allem, was sich auf dem Erdboden regt, 9 kamen immer zwei zu Noach in die Arche, Männchen und Weibchen, wie Gott dem Noah aufgetragen hatte. 10 Als die sieben Tage vorbei waren, kam das Wasser der Flut über die Erde, 11 im sechshundertsten Lebensjahr Noahs, am siebzehnten Tag des zweiten Monats. An diesem Tag brachen alle Quellen der gewaltigen Urflut auf und die Schleusen des Himmels öffneten sich. 12 Der Regen ergoss sich vierzig Tage und vierzig Nächte lang auf die Erde. 13 Genau an jenem Tag waren Noah, die Söhne Noahs, Sem, Ham und Jafet, Noahs Frau und mit ihnen die drei Frauen seiner Söhne in die Arche gegangen, 14 sie und alle Arten der Tiere, alle Arten des Viehs und alle Arten der Kriechtiere, die sich auf der Erde regen, und alle Arten der Vögel, des fliegenden Getiers. 15 Sie waren zu Noah in die Arche gekommen, immer zwei von allen Wesen aus Fleisch, in denen Lebensgeist ist. 16 Von allen Tieren waren Männchen und Weibchen gekommen, wie Gott ihm aufgetragen hatte. Dann schloss der Herr hinter ihm zu. 17 Die Flut auf der Erde dauerte vierzig Tage. Das Wasser stieg und hob die Arche immer höher über die Erde. 18 Das Wasser schwoll an und stieg immer mehr auf der Erde, die Arche aber trieb auf dem Wasser dahin.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Buch der Jubiläen 17:16-18, 19:3-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_929" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>929</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der Koran teilt mit dem Jubiläenbuch die Vorstellung von Geduld als Eigenschaft eines Gläubigen. Zur vorislamischen arabischen Vorstellung von Geduld vgl. Lāmiyyāt al-ʿArab 34 (TUK _0781).
+
+	Das Buch der Jubiläen präsentiert sich als die Sinaioffenbarung an Moses, die ihm durch Engel vermittelt wird. Teil dieser Offenbarung sind nach dem Verständnis des Jubiläenbuches nicht nur die Gesetze, sondern auch der Pentateuch, der hier neu erzählt, bzw. unter einer bestimmten Zielsetzung interpretiert wird. Als Trägerkreis lässt sich eine antihellenistische priesterliche Reformgruppe identifizieren, die mit den Asidäern und der kurz darauf entstehenden Qumrangruppe in historischer Verbindung steht. Ziel des Jubiläenbuches ist die Bewahrung der Identität und kultischen Integrität Israels, wobei der Einhaltung des Kalenders und des Sabbats, sowie dem Zusammenhalt der Familie eine besondere Rolle zukommt, was in den Vätergeschichten exemplarisch dargestellt wird. Ursprünglich wurde das Jubiläenbuch auf Hebräisch verfasst; so sind alle in Qumran gefundenen Fragmente hebräisch. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (lateinisch; eine anonyme syrische Chronik; Zitate bei griechischen Schriftstellern) zeugen. Vollständig erhalten ist das Buch der Jubiläen dagegen nur in der äthiopischen Übersetzung; wahrscheinlich dadurch bedingt, dass es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Berger 1981: p. 279-300).
+</summary>
+            <msItem>
+              <title>Buch der Jubiläen 17:16-18, 19:3-8</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 167 und 140 v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">James C. Vanderkam (Hg.), The Book of Jubilees. A Critical Text, Louvain 1989 (Corpus Scriptorum Christianorum Orientalium 510, Scriptores Aethiopici 87).</bibl>
+              <bibl type="literatur">Berger, Klaus: Das Buch der Jubil&amp;#xE4;en. 1981.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	 
+
+	17:16-18
+	ወመጽአ፡ መኰንን፡ መስቴማ፡ ወይቤ፡ ቅድሜሁ፡ ለአምላክ፡ ናሁ፡ አብርሃም፡ ያፈቅሮ፡ ለይስሐቅ፡ ወልዱ፡ ወያስተአድሞ፡ ኪያሁ፡ እምኵሉ። በሎ፡ ያዕርጎ፡ ጽንሐሐ፡ ዲበ፡ ምሥዋዕ፡ ወአንተ፡ ትሬኢ፡ ለእመ፡ ይገብር፡ ዘንተ፡ ቃለ፡ ወታአምር፡ ለእመ፡ መሀይምን፡ ውእቱ፡ በኵሉ፡ ዘታሜክሮ። ወእግዚአብሔር፡ ያአምር፡ ከመ፡ መሃይምን፡ አብርሃም፡ በኵሉ፡ ምንዳቤ፡ ዘይቤሎ፡ እስመ፡ አመከሮ፡ በምድሩ፡ ወበዐባር፡ ወአመከሮ፡ በብዕለ፡ ነገሥት። ወአመከሮ፡ ካዕበ፡ በብእሲቱ፡ እንዘ፡ ትትሀየድ፡ ወበክስበት፡ ወአመከሮ፡ በይስማዔል፡ ወበአጋር፡ አመቱ፡ አመ፡ ፈነዎሙ። ወበኵሉ፡ በዘአመከሮ፡ ተረክበ፡ ምእመነ፡ ወኢተአንተለ፡ ነፍሱ፡ ወኢጐንደየ፡ ገቢሮቶ፡ እስመ፡ ምእመን፡ ወመፍቀሮ፡ እግዚአብሔር።
+	[...]
+	
+	19:3-8
+	ወሖረ፡ አብርሃም፡ ከመ፡ ይብኪያ፡ ወይቅብራ። ወናሜክሮ፡ እመ፡ ይትዔገሥ፡ መንፈሱ፡ ወኢይትአነተል፡ በቃለ፡ አፉሁ፡ ወተረክበ፡ በዝኒ፡ ዕጉሠ፡ ወኢተሀውከ። እስመ በትዕግሥተ መንፈስ ተናገረ ምስለ ውሉደ ኬጥ ከመ የሀብዎ መካነ ከመ ይቅበር በድኖ ውስቴቱ። ወእግዚአብሔር ወሀቦ ሞገሰ ሎቱ በቅድመ ኵሎሙ እለ ይሬእይዎ። ወአስተብቍዐ በየውሀት እምኀበ ውሉደ ኬጥ ወወሀብዎ ምድረ በዐት ዘካዕበት ዘአንጸረ መምብራም እንተ ይእቲ ኬብሮን በአርብዓ ብሩር ወእሙንቱሂ ያስተበቍዕዎ እንዘ ይብሉ ነሀብከ በከ ወኢነሥአ እምእዴሆሙ በከ እስመ ወሀበ ሤጦ ለመካን ብሩረ ፍጹመ። ወሰገደ ሎሙ ካዕበ ወእምዝ ቀበረ በድኖ ውስተ በዐት ዘካዕበት። ወኮነ ኵሉ መዋዕለ ሕይወታ ለሳራ ምእት ወዕሥራ ወሰብዐቱ እሉ ዝክልኤ ኢዮቤልዉ ወአርባዕቱ ሱባዔ ወዓመት አሐዱ ዝንቱ መዋዕለ ዓመታተ ሕይወታ ለሳራ ወዝመከራ፡ ዓሥር፡ በዘ፡ ተመከረ፡ ቦቱ፡ አብርሃም፡ ወተረክበ፡ ምእመነ፡ ዕጉሠ፡ መንፈስ።
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	17:16 Und es kam [heraus] der Fürst Mastema und sagte vor Gott: "Siehe, Abraham liebt den Isaak, seinen Sohn, und er freut sich über ihn vor allen. Sage ihm, er solle ihn hinaufbringen als Brandopfer auf den Altar! Und du wirst sehen, ob er dieses Wort tut. Und du wirst wissen, ob er glaubend ist, in allem, womit du ihn versuchst." 17 Und der Herr wußte, daß Abraham gläubig war in all seiner Trübsal, die er ihm genannt hatte. Denn er hatte ihn versucht mit seinem Land und durch Hungersnot. Und er hatte ihn versucht durch den Reichtum der Könige. Und er hatte ihn wiederum versucht durch seine Frau, als sie ihm geraubt wurde, und durch die Beschneidung. Und er hatte ihn versucht durch Ismael und durch Hagar, seine Sklavin, als er sie fortschickte. 18 Und in allem, wodurch er ihn versuchte, wurde er als glaubend erfunden. Und seine Seele war nicht ungeduldig, und er hat nicht gezögert, es zu tun, denn glaubend war er und liebend den Herrn
+	[...]
+	19:3 Und Abraham ging, daß er sie [Sara] beweine und sie beerdige. Und wir versuchten ihn, ob sein Geist geduldig sei und ob er nicht unwillig sei im Worte seines Mundes. Und er wurde auch darin geduldig gefunden und wurde nicht verwirrt. 4 Denn in der Geduld des Geistes redete er mit den Kindern Hets, daß sie ihm einen Ort gäben, daß er seinen Leichnam darin begrabe. 5 Und der Herr gab ihm Gnade vor allen, die ihn sahen, und er flehte in Milde von den Kindern Hets, und sie gaben ihm das Land einer Doppelhöhle, welche gegenüber von Mamre (ist), das ist Hebron, für vierzig Silberstücke. 6 Und sie flehten ihn an, indem sie zu ihm sagten: "Wir werden es dir gratis geben." Und er nahm es nicht gratis aus ihrer Hand. Denn er gab den Preis für den Ort, das volle Silbergeld. Und er verneigte sich vor ihnen zweimal, und danach begrub er seinen Leichnam in der doppelten Höhle. 7 Und es waren alle Tage des Lebens der Sara 127 (Jahre), das sind zwei Jubiläen und vier Jahrwochen und ein Jahr. Dies sind die Tage der Jahre des Lebens der Sara. 8 Und diese ist die zehnte Versuchung, mit der Abraham versucht wurde. Und er wurde gefunden als glaubend, geduldigen Geistes.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

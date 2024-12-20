@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1047">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 24</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 24</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 24; Lines per page: 7; Dimensions: 87 x 146  mm; Qurʾānic Text: Q  46:17-19; Script style: kūfi D.Vb; Estimated date of production: 850-1000.</p>
+              <p>Cf. catalogue entry by François Déroche about fragment KFQ 24 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 115): "61 / Single folio / First half of the 10th century AD / 8.7 x 14.6 cm, with 7 lines to the page / <hi rend="italic">Material</hi> Parchment; the verso is the hair side / <hi rend="italic">Text area</hi> 6 x 12.5 cm / <hi rend="italic">Script</hi> Style D.Vb, with some peculiarities / <hi rend="italic">Accession no</hi>. KFQ 24 / The D.Vb script of this folio, which is not as well executed as the other two examples in the Collection, shows some signs of further evolution, particularly in the form of final <hi rend="italic">nūn</hi> and the upper stroke of <hi rend="italic">kāf</hi>, which slants to the right. The <hi rend="italic">mīm</hi> sometimes end with a downward stroke instead of the more usual horizontal tail. The format is rectangular rather than vertical, as it is in the other two examples. / The text is <hi rend="italic">Sūrat al-aḥqāf</hi> (XLVI), verses 15-19. It is written in dark brown ink and appears never to have had any diacriticals. Red dots indicate the vocalization. Individual verses are not punctuated, and there do not seem to have been any markers for the groups of five and ten verses.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_686841" n="1v">
+              <title type="numeric" key="046:017:006-046:019:009">
+                                    046:017:006-046:019:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>146</width><height>87</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Vb
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>850-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_46847">
+      <graphic decls="#imageRights-1" url="manuscript/1047/27c8efcf-f16a-4f07-ba41-a733484e4641/manuscript-1047-page-46847-image-32668.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

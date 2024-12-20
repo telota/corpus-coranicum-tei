@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1340">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cairo, Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية), "qāf 225" (Gotthelf Bergsträßer archives)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="9">Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية)
+                            , Cairo</repository>
+            <idno>"qāf 225" (Gotthelf Bergsträßer archives)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>a bifolium of a Qur'ān manuscript on parchment; Shelfmark: "qāf 225" (Gotthelf-Bergsträßer-archives); 8 lines per page; Dimensions: unknown; Qur'ānic text: Q 47:12-15; Script style: kūfī D.I/D.III.</p>
+              <p>The fragment was supposedly kept at the Khedival Library in Cairo. The black-and-white images of the manuscript are from the archives of Gotthelf Bergstraßer and were probably taken around 1930. The shelfmark is taken from the archives and is given in quotation marks because we have no informaton at present about the actual shelf number of the fragments. Since we do not know more about this fragment (dimensions, total number of folios), we publish the images as given in the Bergsträßer archives. </p>
+            </summary>
+            <msItem xml:id="mysql_id_683761" n="1v">
+              <title type="numeric" key="047:012:009-047:014:002">
+                                    047:012:009-047:014:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_701178" n="2r">
+              <title type="numeric" key="047:014:002-047:015:028">
+                                    047:014:002-047:015:028
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="8">8 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I / D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_43766">
+      <graphic decls="#imageRights-1" url="manuscript/1340/9aed0368-1aeb-4486-9bb4-f1055a4b1e01/manuscript-1340-page-43766-image-29481.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1340/0c0d3faf-a7ba-4abd-b0e1-7d6f8f9b88da/manuscript-1340-page-43766-image-48180.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_56908">
+      <graphic decls="#imageRights-1" url="manuscript/1340/dc82caad-a291-45ce-8219-22fe81900c49/manuscript-1340-page-56908-image-48181.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1340/89c3d08c-6185-4ea0-992e-e834bfc4436b/manuscript-1340-page-56908-image-48182.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

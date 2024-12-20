@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus Rabba, Parascha 9:6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_184" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>184</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 43:47 berichtet, Pharao und sein Gefolge hätten gelacht, als Mose mit den Zeichen zu ihnen kam. Dieses Detail findet sich nicht in der entsprechenden Erzählung in der Hebräischen Bibel, ist jedoch in Exodus Rabba überliefert, wo der Spott Pharaos über Moses Zauberkunst geschildert wird.
+
+	Die Datierung von Exodus Rabba ist umstritten. Obwohl Shinan zufolge die Endredaktion von Exodus Rabba erst im 10. Jh. stattgefunden hat, ist doch eine Verwendung früherer Traditionen wahrscheinlich. Aufgrund der relativ späten Endredaktion kann aber auch nicht ausgeschlossen werden, dass bereits islamische Elemente Eingang in Exodus Rabba gefunden haben. Allgemein zur Problematik der Datierung von Exodus Rabba siehe Günter Stemberger, Einführung in Talmud und Midrasch, 9. Auflage, München 2011, S. 342-343.
+</summary>
+            <msItem>
+              <title>Exodus Rabba, Parascha 9:6</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 10. Jh.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Avigdor Shinan, Midrash Shemot Rabbah, Chapters I-XIV. A Critical Edition Based on a Jerusalem Manuscript, with Variants, Commentary and Introduction, Tel Aviv 1984.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ויקרא [גם פרעה] לחכמים ולמכשפים [ויעשו גם הם חרטמי מצרים בלהטיהם כן]. באותה שעה התחיל פרעה משחק עליהם ומקרקר אחריהם כתרנגולת ואמר להם: כך היא אומנותו של אלהיכם? בנוהג שבעולם, בני אדם מוליכין פרקמטיא למקום שצריכין לה. כלום מביאין מוריאס לאספמיא? דגים לעכו? אי אתם יודעים שכל הכשפים ברשותי? מיד שלח והביא תינוקות מן אסכולה שלהם ועשו אף הם כך. ולא עוד אלא אף לאשתו קרא לה ועשתה: ויעשו גם הם חרטמי מצרים - מהן אלו? אף התינוקות של חמש וארבע שנים קרא ועשו כך.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	"Da rief auch Pharao die Weisen und die Zauberer [und auch sie, die Zauberer Ägyptens, taten mit ihren Zauberkünsten das gleiche]." [Exodus 7:11] In diesem Augenblick fing Pharao an, über sie zu lachen, und er gackerte hinter ihnen her wie eine Henne und sprach zu ihnen: "Ist das die Zauberkunst eures Gottes? Gewöhnlich führen die Menschen ihre Waren an den Ort, wo sie gebraucht werden. Bringt man etwa eingemachte Fische [lat. muries] nach Spanien [oder Apamea] oder Fische nach Akko? Wisst ihr denn nicht, dass sich alle Zauberkünste in meinem Herrschaftsgebiet finden?" Sogleich ließ er Kinder aus ihren Schulen holen und diese taten es ihnen gleich. Und nicht nur das, er rief sogar sein Weib, und auch diese machte es nach. "Und auch sie, die Zauberer Ägyptens, taten mit ihren Zauberkünsten das gleiche." - Wer sonst noch? Selbst die Kinder von 4-5 Jahren rief er herbei und sie taten es ihnen gleich.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Then Pharao also called for the wise men and the sorcerers (Ex 7:10). Then did Pharao begin to mock them and crow at them like a cock, saying to them: "So these be the signs of your God! It is usual for people to take goods to a place which has a shortage of them; but does one import murics into Apamea [or Spain] or fish into Acco? Are you not aware that all kinds of magic are within my province?" He then asked for children to be brought from school and they also performed these wonders; moreover he also called his wife, and she did thus. And the magicians of Egypt did in like manner. Who else? Even children of four and five years of age whom he called did likewise.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

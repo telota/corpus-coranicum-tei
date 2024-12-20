@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1590">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.1122</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.1122</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 folios; Writing surface: parchment; Shelfmark: MS Add.1122; Qurʾānic  text: Q 7:172-195; 15 Lines per page; Dimensions: 214 x 150mm; Script style: kūfī B II; Estimated date of production: 3rd or 4th century AH / 9th or 10th century CE.</p>
+              <p> </p>
+              <p>Fragment of an Abbasid Qur'ān probably written  in the third or fourth century A.H. / ninth or tenth century C.E,  containing verses 172-195 from Sura al-Alʿrāf (سورة الاعراف). For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01122/1">entry in the Digital Library of Cambridge University</ref>.</p>
+              <p> </p>
+              <p>The University of Cambridge acquired the fragment in 1878 from Edward H.  Palmer (1840-1882) and E.E. Tyrwhitt Drake. The displayed fragment and  other early Qur'an manuscripts (call numbers Add.1115 - Add.1150) were  acquired by Palmer during a research trip to the Sinai Peninsula (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UUUFI42M">Ansorge 2016</ref>).</p>
+            </summary>
+            <msItem xml:id="mysql_id_688665" n="1r">
+              <title type="numeric" key="007:172:021-007:178:007">
+                                    007:172:021-007:178:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688666" n="1v">
+              <title type="numeric" key="007:178:008-007:185:006">
+                                    007:178:008-007:185:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688667" n="2r">
+              <title type="numeric" key="007:185:006-007:189:004">
+                                    007:185:006-007:189:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688668" n="2v">
+              <title type="numeric" key="007:189:005-007:195:013">
+                                    007:189:005-007:195:013
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>214</width><height>150</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_48625">
+      <graphic decls="#imageRights-1" url="manuscript/1590/f4757736-0f1f-4d1e-a15a-847efc32009b/manuscript-1590-page-48625-image-35627.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_48626">
+      <graphic decls="#imageRights-1" url="manuscript/1590/ebbf083f-5645-4135-b7f2-9a99ca7ee7d1/manuscript-1590-page-48626-image-35628.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_48627">
+      <graphic decls="#imageRights-1" url="manuscript/1590/0cc34776-334f-4718-9658-0b87eda024bc/manuscript-1590-page-48627-image-35629.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_48628">
+      <graphic decls="#imageRights-1" url="manuscript/1590/669afdc7-911a-4e5b-aa30-b6f4f3c0f897/manuscript-1590-page-48628-image-35630.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

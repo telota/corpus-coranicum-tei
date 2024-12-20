@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Apokalypse Abrahams 15:2 - 21:9</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_466" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>466</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Heinrich Speyer vermutet, dass Q 6:75 ("Und so zeigten wir Abraham das Königreich des Himmels und der Erde") auf die in der Apokalypse Abrahams ausführlich geschilderte Himmelsreise Abrahams anspielen könnte (Speyer 1931: p. 166).
+
+	Die Apokalypse Abrahams besteht aus zwei Teilen: der erste Teil berichtet von der Bekehrung Abrahams zu Gott, der zweite Teil, der die eigentliche Apokalypse ausmacht, von Abrahams Himmelsreise und Vision. Der Text ist nur auf Altkirchenslawisch überliefert, in das er aus dem Griechischen übersetzt wurde, dürfte allerdings auf einem hebräischen Original aus dem 1. Jh. beruhen (Philonenko-Sayar und Philonenko 1982: p. 415-419).
+</summary>
+            <msItem>
+              <title>Die Apokalypse Abrahams 15:2 - 21:9</title>
+              <author/>
+              <textLang mainLang="chu">Altkirchenslawisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">nach 70 n. Chr.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Philonenko-Sayar, Belkis &amp;amp; Philonenko, Marc (Hrsg.): &amp;#x201E;Die Apokalypse Abrahams&amp;#x201C;. In: G&amp;#xFC;tersloh 1982, S. 415&amp;#x2013;460. J&amp;#xFC;dische Schriften aus hellenistisch-r&amp;#xF6;mischer Zeit.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="chu">
+        <p>Dieser Teil wird zur Zeit bearbeitet.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	15:2 Und der Engel nahm mich bei der rechten (Hand) und setzte mich auf den rechten Flügel der Taube: Er selbst aber setzte sich auf den linken Flügel der Turteltaube; jene waren weder geschlachtet noch zerteilt worden. 3 Und er trug mich bis an die Grenze der Feuerflamme. 4 Und wir stiegen empor, (wie von vielen Winden getrieben, zum Himmel, der auf den Flächen befestigt ist, und ich sah in der Luft,) auf der Höhe, (auf welche wir gestiegen waren,) ein starkes Licht, das nicht zu beschreiben ist. 5 Und, siehe, in diesem Licht war das lodernde Feuer einer Menge und eine große Menge männlicher Gestalt. 6 Jene alle veränderten ihr Aussehen (und) ihre Gestalt, liefen und verwandelten sich, verneigten sich und schrien mit einer Stimme, deren Worte ich nicht kannte.
+	16:1 Und ich sprach zu dem Engel: "Wie hast du mich nun hierher hinaufgetragen, denn nun kann ich nicht mehr sehen, da ich erschöpft bin, und mein Geist aus mir entflieht." 2 Und er sprach zu mir: "Bleibe bei mir, fürchte dich nicht! Und der, welchen du gerade auf uns zugehen sehen wirst in einer großen Stimme der Heiligkeit, das ist der Urewige, der dich lieb gewonnen hat. Aber ihn selbst wirst du nicht sehen. 4 Dein Geist soll nicht schwach werden, denn ich bin bei dir und werde dich stärken."
+	17:1 Und während er noch sprach, siehe, da kam ein Feuer gerade auf uns zu und umgab uns. 2 Und in dem Feuer war eine Stimme, wie die Stimme von vielen Wassern, wie die Stimme des Meeres in seiner Erregung. 2 Und der Engel verneigte sich mit mir und verbeugte sich. 4 Und ich wollte mich auf der Erde niederwerfen; und der hohe Ort auf dem wir standen, (stand bald aufrecht,) bald sank er abwärts. 5 Und er sprach zu mir: "Verneige dich nur, Abraham, und sage den Gesang, den ich dich gelehrt habe." Denn hier war keine Erde, auf die man sich hätte niederwerfen können. 6 Und ich verneigte mich nur, und ich sagte den Gesang, den er mich gelehrt hatte. [...]
+	18:1 Da ich noch den Gesang sprach, erhoben sich die Lippen des Feuers, das auf der Fläche war, noch höher, und ich hörte eine Stimme wie vom Toben des Meeres, und sie wurde durch den Überfluß des Feuers nicht angehalten. 2 Und da das Feuer emporgestiegen war, sich in die Höhe erhebend, sah ich unter dem Feuer einen Feuerthron und um ihn her vieläugige (Geschöpfe), die einen Gesang sprachen. 3 Und unter dem Thron waren vier Feuergeschöpfe, die sangen; und ihr Aussehen war eines; jedes hatte vier Gesichter. 4 Das Aussehen ihrer Gesichter war dieses: ein Löwengesicht, ein Menschengesicht, ein Stiergesicht, ein Adlergesicht. 5 Da waren vier Köpfe; und jeder hatte sechs Flügel, an den Schultern, (und an den Seiten,) und an den Hüften. 6 Mit den beiden Flügeln von den Schultern bedeckten sie ihr Angesicht; und mit den Flügeln von den Hüften bedeckten sie ihre Füße; die mittleren Flügel aber streckten sie aus, um damit geradeaus zu fliegen. 7 Und als sie den Gesang beendet hatten, sahen sie einander an und drohten einander. 8 Und es geschah, daß der Engel, der mit mir war, es sah, wie sie sich bedrohten; er verließ mich, und laufend ging er zu ihnen und wendete das Gesicht eines jeden Geschöpfes von dem ihm gegenüberstehenden Gesicht ab, damit sie ihre einander drohenden Gesichter nicht mehr sähen. 9 Und er lehrte sie den Gesang des Friedens, den er in sich trug. 10 Und als ich allein war und schaute, da sah ich hinter den Geschöpfen einen Wagen mit Feuerrädern; rings um jedes Rad waren eine Menge Augen, und über den Rädern war der Thron, den ich gesehen hatte. 11 Und dieser war von Feuer bedeckt, und das Feuer umhüllte ihn; und, siehe, ein unaussprechliches Licht umgab die Menge im Feuer. Und ich vernahm die Stimme ihrer Heiligkeit wie die Stimme eines einzigen Mannes.
+	19:1 Und eine Stimme kam zu mir aus der Feuermitte und sprach: "Abraham! Abraham!" Und ich sprach: "Hier bin ich." 2 Und sie sprach: "Betrachte die Breite, die sich unter den Flächen befindet, auf die du gestellt bist. Und siehe, auf keiner Breite ist sonst jemand, als der, den du gesucht oder der dich liebgewonnen hat." 3 Und als sie noch redete, siehe, da öffneten sich die unter mir ausgebreiteten Himmel. 4 und ich sah auf dem siebten Firmament, auf welchem ich stand, ein umfangreiches Feuer und ein Licht und Tau und eine Menge Engel und die Kraft der von oben kommenden unsichtbaren Herrlickeit jener Geschöpfe, die ich gesehen hatte. Sonst sah ich dort niemand anders. 5 Und von der Höhe, auf welcher ich mich befand, schaute ich hinab auf die sechste Breite. 6 Und dort sah ich eine unkörperliche Menge geistiger Engel, die die Befehle der Feuerengel auf dem achten Firmament ausführten, derweil ich auf seinen Höhen stand. 7 Und, siehe, auf jener Breite war in keiner Weise eine andere Kraft als die geistigen Engel und diesselbe Kraft, die ich auf dem siebten Firmament gesehen hatte. 8 Und (die Stimme) befahl, daß die sechste Breite weggenommen werde. 9 Und da sah ich auf der fünften (Breite) die Kräfte der Sterne und die Befehle, die sie auszuführen haben, und die irdischen Elemente, die ihnen gehorchen.
+	20:1 Und der Starke, der vor aller Ewigkeit ist, sprach zu mir: "Abraham!" und ich sprach: "Hier bin ich." 2 Und er sprach: "Schaue von oben auf die Sterne, die unter dir sind. Zähle sie und sage ihre Zahl." 3 Und ich sprach: "Wann könnte ich dies, denn ich bin ein Mensch!" 4 Und er sprach zu mir: "Wie die Zahl der Sterne und wie ihre Kraft, will ich aus deinem Samen ein Volk von Menschen erwecken und ein Volk, das für mich in meinem Erben mit Asasel ausgesondert ist in dem, was ich mit Asasel gemeinsam besitze." 5 Und ich sprach: "Urewiger, Starker, möge dein Knecht von dir reden, und möge dein Zorn nicht entbrennen gegen deinen Erwählten. 6 Siehe, ehe du mich emporgetragen hast, hat sich Asasel gegen mich erhoben. Wie denn, da er jetzt nicht vor dir ist, hast du dich mit ihm verabredet?"
+	21:1 Und er sprach zu mir: "Betrachte jetzt die Breite unter deinen Füßen und begreife jetzt die schon lange dargestellte Schöpfung. 2 Auf dieser Breite: die Schöpfung und das, was in ihr ist, und die Ewigkeit, die ihr bereitet ist." 3 Und ich schaute unter die Breite, die mir zu Füßen lag, und ich sah ein Bild des Himmels und von dem, was darin war. 4 Und da (sah ich) die Erde und ihre Früchte und das, was sich auf ihr bewegt, und das, was auf ihr beseelt ist, und die Kraft ihrer Menschen und die Unfrömmigkeit ihrer Seelen und ihre Rechtfertigungen und den Ursprung ihrer Taten. 5 Und den Abgrund und seine Qualen und seine untersten Gegenden und das Verderben, das in ihnen ist. 6 Da sah ich das Meer und seine Inseln, seine Tiere und seine Fische, den Leviathan und sein Reich und sein Lager und seine Höhlen und die Welt, die auf ihm liegt, und seine Bewegungen und die Zerstörung der Welt durch ihn. 7 Und da sah ich die Flüsse und ihre Hochwasser und ihre Windungen. 8 Und da sah ich den Garten Eden und seine Früchte, die Quelle, den Fluß, der daraus entspringt, und seine Bäume und Blüten und diejenigen, die Gerechtigkeit tun. Und ich sah daselbst ihre Nahrung und ihre Ruhestätten. 9 Und ich sah da eine große Menge von Männern, Frauen und Kindern; (die Hälfte unter ihnen stand zur rechten Seite des Bildes,) und die andere Hälfte zur linken Seite der Darstellung.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

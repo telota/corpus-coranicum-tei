@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1405">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Doha, Qatar National Library  (مكتبة قطرالوطنية), unknown call number-II</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Qatar National Library, Heritage Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="84">Qatar National Library  (مكتبة قطرالوطنية)
+                            , Doha</repository>
+            <idno>unknown call number-II</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio, Shelfmark: unknown; Qurʾānic Text: 18:5-7;  Lines per page: 5; Dimensions: 102-106 x 160 mm; Script style:  maġribī; Estimated date of production: 1000-1200.</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_687246" n="1r">
+              <title type="numeric" key="018:005:004-018:006:002">
+                                    018:005:004-018:006:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687245" n="1v">
+              <title type="numeric" key="018:006:003-018:007:007">
+                                    018:006:003-018:007:007
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>160</width><height>106</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1000-1200</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>transliteration: Zahra Mollaei</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47252">
+      <graphic decls="#imageRights-1" url="manuscript/1405/10ef57d4-4709-4d8a-8c9e-bb7dbdc85a68/manuscript-1405-page-47252-image-33150.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47251">
+      <graphic decls="#imageRights-1" url="manuscript/1405/af48d0c8-0cd8-46b4-8709-fb47b6b7ac12/manuscript-1405-page-47251-image-33149.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

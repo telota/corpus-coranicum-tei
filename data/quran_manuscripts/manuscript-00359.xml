@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_359">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Princeton, New Jersey, Princeton University Library, 14 G (c)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Princeton University Library, Digital Collections.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="19">Princeton University Library
+                            , Princeton, New Jersey</repository>
+            <idno>14 G (c)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 14 G (c); Qurʾānic Text: Q 36:20-36:23; 5 lines per page; Dimensions: 255 x 155mm; Script  style: kūfī; Estimated date of production: 750-900.</p><p> </p><p>The shelfmark 14 G of the Princeton University Library contains a  collection of 5 quranic fragments on parchment, probably from the 8th to  9th century. The fragment 14 G (c) is described as follows: "Sūrah 36:20(end)-23(beginning) (recto: 20-21 ; verso: 21-23). 1 leaf : parchment ; 155 x 255 (85 x 165) mm. 5 lines to the page ; recto is flesh ; early Abbasid script. Red dots, green dots and strokes ; one device consisting of three large gold dots arranged in triangle with stem ; one medallion in gold, green, and red on the margin of the verso, with inscription in gold: "ʻishrūn" (280 mm.). Stained. Similar to The Abbasid Tradition (1992), no. 25. 9th cent.?"</p>For more information, see the <ref target="http://pudl.princeton.edu/objects/rj430459r">library's website</ref>.<p/></summary>
+            <msItem xml:id="mysql_id_662026" n="3r">
+              <title type="numeric" key="036:020:000-036:021:000">
+                                    036:020:000-036:021:000
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662027" n="3v">
+              <title type="numeric" key="036:021:000-036:023:000">
+                                    036:021:000-036:023:000
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>255</width><height>155</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p> 	"recto is flesh ; early Abbasid script. Red dots, green dots and strokes ; one device consisting of three large gold dots arranged in triangle with stem ; one medallion in gold, green, and red on the margin of the verso, with inscription in gold: "ʻashrūn" (280 mm.). Stained. Similar to The Abbasid Tradition (1992), no. 25."</p>
+              </summary>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="3r" xml:id="mysql_id_3641">
+      <graphic decls="#imageRights-1" url="manuscript/359/144d5777-e2dc-4a52-a906-84182c6befc9/manuscript-359-page-3641-image-2567.jpg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_3642">
+      <graphic decls="#imageRights-1" url="manuscript/359/e6ec25d3-0558-45ba-9149-7f21fa7a2c98/manuscript-359-page-3642-image-2568.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

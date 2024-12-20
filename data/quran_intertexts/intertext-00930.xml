@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äthiopisches Henochbuch: Die Bilderreden 41:3-4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_930" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>930</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Den Versen Q 15:21-22 liegt vielleicht eine ähnliche Vorstellung zugrunde, wie sie sich auch im Henochbuch findet. Dort berichtet Henoch, wie er von einem Wind ans Ende der Himmel getragen wird, wo ihm eine Vision zuteil wird (Hen 39:3-4): Nachdem er zunächst den künftigen Aufenthaltsort der Heiligen und Gerechten, die vier Erzengel und das Gericht über die Sünder sieht (Hen 39:4-41:2), erfährt Henoch auch den Ursprung der verschiedenen Wetterphänomene. Dem hier zitierten Text (Hen 41:3-4) zufolge befinden sich der Wind, der Regen, etc. in Vorratskammern (mazāgəbt), aus denen sie auf die Erde kommen (vgl. auch Hen 18:1, 60:11.19-21, 71:4). Hen 41:3-4 besagt nur, dass die Winde "verteilt werden" (yətkaffalu). Dagegen wird der Lauf der Sonne, die sich ebenfalls in einer Vorratskammer befindet (Hen 41:5), auf Gottes Befehl (ba-təʾəzāza ʾəgziʾa manāfəst "auf Befehl des Herrn der Geister") (Hen 41:6) zurückgeführt. In Hen 60:11-21 wird die Vorstellung von den Vorratskammern des Wetters weiter ausgeführt, wobei jeweils verschiedene Geister und Engel für die einzelnen Naturerscheinungen zuständig sind. Allerdings ist aber auch hier letztendlich Gott verantwortlich (ʾəsma sisāyā la-yabs ʾəm-ḫaba ləʿul "denn [dies ist] die Nahrung für das Festland [gegeben] vom Höchsten") (Hen 60:22). Im Koran sind die Verse Q 15:21-22 Teil einer ʾayāt-Passage (zu den ʾayāt vgl. Kommentar zu Q 88:17-20, sowie Neuwirth 2010: p. 433-450). Im Rahmen dieser Argumentation wird hervorgehoben, dass es Gott ist, der Winde und Regen sendet, und Gottes Verfügungsgewalt über das Wetter wird der Ohnmacht der Menschen gegenübergestellt (wa-ʾin min šaiʾin ʾillā ʿindanā ḫazāʾinuhu "Und es gibt nichts, was wir nicht bei uns in Vorrat hätten" - wa-mā antum lahū bi-ḫāzinīna "Ihr habt es nicht vorrätig"). Verglichen mit der unpersönlichen Formulierung in Hen 41:3-4 (yətkaffalu - "verteilt werden"), wird in Q 15:21-22 Gottes direktes Wirken auch durch die Verwendung der 1. Person Pl. deutlich. Ein weiterer Unterschied zwischen den beiden Texten ist, dass im Koran nicht von der Rolle der Geister und Engel in diesem Zusammenhang die Rede ist.Das Äthiopische Henochbuch besteht aus mehreren zu unterschiedlichen Zeiten (3.-1. Jh. v. Chr.) entstandenen Traktaten: 1) Das Buch der Wächter; 2) Die Bilderreden; 3) Das Astronomische Buch; 4) Das Buch der Traumvisionen; 5) Die Epistel Henochs. Die Zusammenfassung zu einem Buch wurde wahrscheinlich nach der Zeitenwende von einem jüdischen Redaktor vorgenommen. Anhand von Henochs Himmelsreisen, Visionen und Mahnreden (bzw. -schriften) werden vor allem die Themen Eschatologie, Kosmologie und Weisheit behandelt. Entstanden sind die Traktate des Äthiopischen Henochbuchs vermutlich in antihellenistischen apokalyptischen Kreisen, die der Qumrangemeinschaft nahestanden. Mit anderen in Qumran gefundenen Schriften teilt das Äthiopische Henochbuch verschiedene Elemente: die Gestalt des Urweisen, deren Prototyp Henoch ist, dem die himmlischen Geheimnisse offenbart werden; die Deutung der Geschichte von Adam bis zum Ende; die Schilderung der Endzeit mit Krieg und Vernichtung, auf die das Gericht Gottes folgt, in dem der Satan und die gefallenen Engel sowie die Sünder vernichtet werden, während für die Frommen eine ewige Heilszeit anbricht.  Die Frage nach der ursprünglichen Sprache (aramäisch oder hebräisch) des Äthiopischen Henochbuches ist nicht übereinstimmend geklärt; so wurden neben mehreren aramäischen Fragmenten in Qumran auch zwei hebräische gefunden. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (griechisch, koptisch, syrisch, lateinisch) zeugen. Vollständig erhalten ist das Henochbuch dagegen nur in der äthiopischen Übersetzung (vermutlich im 5.-7. Jh. aus dem Griechischen übersetzt); wahrscheinlich dadurch bedingt, daß es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Uhlig 1984: p. 466-497).
+</summary>
+            <msItem>
+              <title>Äthiopisches Henochbuch: Die Bilderreden 41:3-4</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 3. - 1. Jh. v. Chr. (Redaktion der einzelnen Traktate erst n. Chr.)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Michael A. Knibb, The Ethiopic Book of Enoch. A New Edition in the Light of the Aramaic Dead Sea Fragments, Bd. 1 Text and Apparatus, Oxford 1978.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran Als Text Der Sp&amp;#xE4;tantike: Ein Europ&amp;#xE4;ischer Zugang. 1st ed. Berlin: Verl. der Weltreligionen, 2010.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>%3Cp%3E%0D%0A%09%E1%8B%88%E1%89%A0%E1%88%85%E1%8B%A8%E1%8D%A1+%E1%88%AD%E1%8A%A5%E1%8B%AB%E1%8D%A1+%E1%8A%A0%E1%8B%95%E1%8B%AD%E1%8A%95%E1%89%B5%E1%8B%A8%E1%8D%A1+%E1%8A%85%E1%89%A1%E1%8A%A0%E1%89%B0%E1%8D%A1+%E1%88%98%E1%89%A3%E1%88%AD%E1%89%85%E1%89%B0%E1%8D%A1+%E1%8B%88%E1%8A%90%E1%8C%90%E1%8B%B5%E1%8C%93%E1%8B%B0%E1%8D%A1+%E1%8B%88%E1%8A%85%E1%89%A1%E1%8A%A0%E1%89%B0%E1%8D%A1+%E1%8A%90%E1%8D%8B%E1%88%B3%E1%89%B0%E1%8D%A1+%E1%8A%A5%E1%8D%8E%E1%8D%A1+%E1%8B%AD%E1%89%B5%E1%8A%A8%E1%8D%88%E1%88%89%E1%8D%A1+%E1%8A%A8%E1%88%98%E1%8D%A1+%E1%8B%AD%E1%8A%95%E1%8D%8D%E1%88%91%E1%8D%A1+%E1%8B%B2%E1%89%A0%E1%8D%A1+%E1%88%9D%E1%8B%B5%E1%88%AD%E1%8D%A1+%E1%8B%88%E1%8A%85%E1%89%A1%E1%8A%A0%E1%89%B0%E1%8D%A1+%E1%8B%B0%E1%88%98%E1%8A%93%E1%89%B5%E1%8D%A1+%E1%8B%88%E1%8C%A0%E1%88%8D%E1%8D%A2+%E1%8B%88%E1%89%A0%E1%88%85%E1%8B%A8%E1%8D%A1+%E1%88%AD%E1%8A%A2%E1%8A%A9%E1%8D%A1+%E1%8A%A5%E1%88%9D%E1%8A%80%E1%89%A0%E1%8D%A1+%E1%8B%AD%E1%8B%88%E1%8D%85%E1%8A%A5%E1%8D%A1+%E1%89%A0%E1%8B%8D%E1%8A%A5%E1%89%B1%E1%8D%A1+%E1%88%98%E1%8A%AB%E1%8A%95%E1%8D%A1+%E1%8B%88%E1%8A%A5%E1%88%9D%E1%88%85%E1%8B%A8%E1%8D%A1+%E1%8B%AD%E1%8D%80%E1%8C%8D%E1%89%A1%E1%8D%A1+%E1%8D%80%E1%89%A0%E1%88%88%E1%8D%A1+%E1%88%9D%E1%8B%B5%E1%88%AD%E1%8D%A2+%E1%8B%88%E1%89%A0%E1%88%85%E1%8B%A8%E1%8D%A1+%E1%88%AD%E1%8A%A2%E1%8A%A9%E1%8D%A1+%E1%88%98%E1%8B%9B%E1%8C%8D%E1%89%A5%E1%89%B0%E1%8D%A1+%E1%8B%95%E1%8D%85%E1%8B%8B%E1%8A%90%E1%8D%A1+%E1%8B%88%E1%8A%A5%E1%88%9D%E1%8A%94%E1%88%86%E1%88%99%E1%8D%A1+%E1%8B%AD%E1%89%B5%E1%8A%A8%E1%8D%88%E1%88%89%E1%8D%A1+%E1%8A%90%E1%8D%8B%E1%88%B3%E1%89%B5%E1%8D%A1+%E1%8B%88%E1%88%98%E1%8B%9D%E1%8C%88%E1%89%A0%E1%8D%A1+%E1%89%A0%E1%88%A8%E1%8B%B5%E1%8D%A1+%E1%8B%88%E1%88%98%E1%8B%9D%E1%8C%88%E1%89%A0%E1%8D%A1+%E1%8C%8A%E1%88%9C%E1%8D%A1+%E1%8B%88%E1%88%98%E1%8B%9D%E1%8C%88%E1%89%A0%E1%8D%A1+%E1%8B%B0%E1%88%98%E1%8A%93%E1%89%B5%E1%8D%A1+%E1%8B%88%E1%8B%B0%E1%88%98%E1%8A%93%E1%8D%A1+%E1%8B%9A%E1%8A%A0%E1%88%81%E1%8D%A1+%E1%8A%A5%E1%88%9D%E1%88%8B%E1%8B%95%E1%88%88%E1%8D%A1+%E1%88%9D%E1%8B%B5%E1%88%AD%E1%8D%A1+%E1%8B%A8%E1%8A%83%E1%8B%B5%E1%88%AD%E1%8D%A1+%E1%8A%A5%E1%88%9D%E1%89%85%E1%8B%B5%E1%88%98%E1%8D%A1+%E1%8B%93%E1%88%88%E1%88%9D%E1%8D%A2%3C%2Fp%3E%0D%0A</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	3 Und dort sahen meine Augen die Geheimnisse der Blitze und des Donners und die Geheimnisse der Winde, wie sie verteilt werden, daß sie auf der Erde wehen, und die Geheimnisse der Wolken und des Taus; und dort sah ich, von wo sie an diesem Ort hervorkommen, und  von dort aus sättigen sie den Staub der Erde. 4 Und dort sah ich verschlossene Vorratskammern, und aus ihnen werden die Winde verteilt, und die Vorratskammer des Hagels und die Vorratskammer des Nebels und die Vorratskammer des Gewölks; und sein Gewölk liegt über der Erde von der Urzeit her.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Sanhedrin 38b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1096" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1096</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie in Q 2:30 erheben die Engel auch in bT Sanhedrin 38b Einwände gegen die Erschaffung des Menschen. In Q 2:30 weisen die Engel auf das künftige Unheil und Blutvergießen hin, das der Mensch anrichten wird. Daraufhin demonstriert Gott den Engeln ihre eigene Unwissenheit, indem er Adam die Tiere benennen lässt, wozu die Engel zuvor nicht fähig waren. Die Benennung der Tiere durch Adam ist nicht Teil des hier zitierten Talmudtextes, findet sich aber an anderen Stellen der rabbinischen Literatur (TUK_1095). Im Talmud argumentieren die Engel nicht explizit mit dem Unheil, das der Mensch begehen wird, dieses scheint aber ebenfalls der Grund ihrer Bedenken zu sein, wie der Hinweis auf die Taten der Generationen der Sintflut und der Spaltung am Ende der Passage ("Als das Zeitalter der Sintflut und das Zeitalter der Spaltung 
+heranreichten, deren Handlungen ausarteten, sprachen sie vor ihm: Herr 
+der Welt, hatten die ersten, die vor dir geredet, nicht Recht!?") zeigt. Peter Schäfer weist darauf hin, dass die Engel hier ausschließlich Gottes strafende Gerechtigkeit vertreten und seine Barmherzigkeit außer acht lassen (Schäfer 1975: p. 92, 97, 220-222).
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Sanhedrin 38b</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna 1880-1886</bibl>
+              <bibl type="literatur">Sch&amp;#xE4;fer, Peter: Rivalit&amp;#xE4;t zwischen Engeln und Menschen. Untersuchungen zur rabbinischen Engelvorstellung. Berlin, New York: de Gruyter 1975.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	אמר רב יהודה אמר רב: בשעה שבקש הקדוש ברוך הוא לבראות את האדם, ברא כת אחת של מלאכי השרת, אמר להם: רצונכם, נעשה אדם בצלמנו? אמרו לפניו: רבונו של עולם, מה מעשיו? אמר להן: כך וכך מעשיו, אמרו לפניו: רבונו של עולם גמה אנוש כי תזכרנו ובן אדם כי תפקדנו, הושיט אצבעו קטנה ביניהן ושרפם. וכן כת שניה. כת שלישית אמרו לפניו: רבונו של עולם, ראשונים שאמרו לפניך - מה הועילו? כל העולם כולו שלך הוא, כל מה שאתה רוצה לעשות בעולמך - עשה. כיון שהגיע לאנשי דור המבול ואנשי דור הפלגה שמעשיהן מקולקלין, אמרו לפניו: רבונו של עולם, לא יפה אמרו ראשונים לפניך? אמר להן: דועד זקנה אני הוא ועד שיבה אני אסבל וגו'.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	R. Jehuda sagte im Namen Rabhs: Als der Heilige, gepriesen sei er, den Menschen erschaffen wollte, erschuf er vorher eine Klasse von Dienstengeln und sprach zu ihnen: Ist es euer Wille, daß wir einen Menschen in unserem Ebenbilde erschaffen? Diese fragten ihn: Herr der Welt, was sind seine Handlungen? Er erwiderte ihnen: So und so sind seine Handlungen. Darauf sprachen sie zu ihm: Herr der Welt, was ist der Mensch, daß du seiner gedenkst, und das Menschenkind, daß du nach ihm schauest! (Psalm 8:5) Da langte er mit seinem kleinen Finger zwischen sie und verbrannte sie. Ebenso geschah es auch mit der zweiten Klasse. Die dritte Klasse sprach vor ihm: Herr der Welt, was nützte es den ersten, daß sie vor dir geredet haben; dein ist die ganze Welt, tue das, was dir auf deiner Welt zu tun beliebt. Als das Zeitalter der Sintflut und das Zeitalter der Spaltung heranreichten, deren Handlungen ausarteten, sprachen sie vor ihm: Herr der Welt, hatten die ersten, die vor dir geredet, nicht Recht!? Er erwiderte ihnen: Und bis zum Greisenalter bin ich derselbe, und bis zum Ergrauen will ich es auf mich laden (Jesaja 46:4).
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Rab Judah said in Rab's name: When the Holy One, blessed be He, wished to create man, He [first] created a company of ministering angels and said to them: Is it your desire that we make a man in our image? They answered: Sovereign of the Universe, what will be his deeds? Such and such will be his deeds, He replied. Thereupon they exclaimed: Sovereign of the Universe, What is man that thou art mindful of him, and the son of man that thou thinkest of him? Thereupon He stretched out His little finger among them and consumed them with fire. The same thing happened with a second company. The third company said to Him: Sovereign of the Universe, what did it avail the former [angels] that they spoke to Thee [as they did]? the whole world is Thine, and whatsoever that Thou wishest to do therein, do it. When He came to the men of the Age of the flood and of the division [of tongues] whose deeds were corrupt, they said to Him: Lord of the Universe, did not the first [company of angels] speak aright? Even to old age I am the same, and even to hoar hairs will I carry, He retorted.  </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Doxologie des griechischen Stundengebets</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1255" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1255</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Der Anfang der Sure 1 weist nach Baumstark 1927 auf „einen altchristlichen Lobpreis“, „die Doxologie des griechischen Stundengebets – dem gloria in excelsis der lateinischen Messe entsprechend –, die wie die fātiḥa selbst ein Herzstück des täglichen Gebets gewesen ist“ (Kommentar zu Q 1:7). Dieser Lobpreis, der als „große Doxologie“ am Ende des Morgengebets in der byzantinischen Liturgie gesungen wird, geht auf den Engelhymnus bei der Geburt Jesu in Lukas 2:14 zurück.
+</summary>
+            <msItem>
+              <title>Doxologie des griechischen Stundengebets</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace>unbekannt</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Bartholomäus Koutloumousiou (Hrsg.), Horologion to Mega, Venedig 1870.</bibl>
+              <bibl type="literatur">Baumstark, Anton: &amp;#x201E;J&amp;#xFC;discher und christlicher Gebetstypus im Koran&amp;#x201C;. In: Der Islam 16 (1927), S. 229&amp;#x2013;248.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Δόξα Σοι τῷ δείξαντι τὸ φῶς.
+
+	Δόξα ἐν ὑψίστοις Θεῷ καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.
+
+	Ὑμνοῦμέν σε, εὐλογοῦμέν σε, προσκυνοῦμέν σε, δοξολογοῦμέν σε, εὐχαριστοῦμέν σοι, διὰ τὴν μεγάλην σου δόξαν.
+
+	Κύριε Βασιλεῦ, ἐπουράνιε Θεέ, Πάτερ παντοκράτορ, Κύριε Υἱὲ μονογενές, Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.
+
+	Κύριε ὁ Θεός, ὁ ἀμνὸς τοῦ Θεοῦ, ὁ Υἱός τοῦ Πατρός, ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου, ἐλέησον ἡμᾶς, ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.
+
+	Πρόσδεξαι τὴν δέησιν ἡμῶν, ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός, καὶ ἐλέησον ἡμᾶς.
+
+	Ὅτι σὺ εἶ μόνος Ἅγιος, σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός, εἰς δόξαν Θεοῦ Πατρός. Ἀμήν.
+
+	Καθ' ἑκάστην ἡμέραν εὐλογήσω σε, καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Ehre sei Dir, der du uns das Licht gezeigt hast.
+Ehre sei Gott in der Höhe und Friede auf Erden den Menschen.
+Wir loben dich, wir preisen dich, wir beten dich an, wir rühmen dich und danken dir, denn groß ist deine Herrlichkeit.
+Herr König, Gott im Himmel, Vater, Herrscher über das All, Herr, eingeborener Sohn, Jesus Christus und Heiliger Geist.
+Herr und Gott, Lamm Gottes, Sohn des Vaters, du nimmst hinweg die Sünden der Welt.
+Erbarme dich unser; du nimmst hinweg die Sünden der Welt.
+Nimm an unser Gebet; du sitzest zur Rechten des Vaters: Erbarme dich unser.
+Denn du allein bist der Heilige, du allein der Herr, du allein der Höchste: Jesus Christus, mit dem Heiligen Geist, zur Ehre Gottes des Vaters. Amen.
+Jeden Tag werde ich Dich segnen und Deinen Namen preisen, in aller Ewigkeit.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Glory to you who has shown us the light.
+Glory to God in the highest and on earth peace, goodwill to all people.
+We praise you, we bless you, we worship you, we glorify you, we give thanks to you for your great glory.
+Lord, King, heavenly God, Father, almighty; Lord, the only-begotten Son, Jesus Christ, and Holy Spirit.
+Lord God, Lamb of God, Son of the Father who take away the sin of the world, have mercy on us, you who take away the sins of the world.
+Receive our prayer, you who sit at the right hand of the Father, and have mercy on us.
+For you only are holy, only you are Lord
+Jesus Christ, to the glory of God the Father. Amen.
+Each day we bless you, and we praise your name forever and to the ages of ages
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

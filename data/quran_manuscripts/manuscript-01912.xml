@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1912">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, AL-4</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>AL-4</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_693509" n="1r">
+              <title type="numeric" key="025:061:005-025:069:002">
+                                    025:061:005-025:069:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_693506" n="1v">
+              <title type="numeric" key="025:069:003-025:077:012">
+                                    025:069:003-025:077:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_693507" n="2r">
+              <title type="numeric" key="026:000:000-026:013:001">
+                                    026:000:000-026:013:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_693508" n="2v">
+              <title type="numeric" key="026:013:002-026:024:009">
+                                    026:013:002-026:024:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>152</width><height>190</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_53467">
+      <graphic decls="#imageRights-1" url="manuscript/1912/68ddcaa7-cc19-43c4-99d5-c0816d485a44/manuscript-1912-page-53467-image-43401.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1912/9241d4e1-4055-42b2-9df5-759ab1768a73/manuscript-1912-page-53467-image-43402.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_53464">
+      <graphic decls="#imageRights-1" url="manuscript/1912/ee328b83-d525-448b-9ae6-e0b9308f2aca/manuscript-1912-page-53464-image-43395.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1912/412ec1d2-20c9-46dc-9abd-b21467feddbc/manuscript-1912-page-53464-image-43396.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_53465">
+      <graphic decls="#imageRights-1" url="manuscript/1912/180a79ee-2a9b-408e-8b95-192bdb0aa8e1/manuscript-1912-page-53465-image-43397.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1912/67ac896a-92ad-4089-966d-82b842ac58f4/manuscript-1912-page-53465-image-43398.tif"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_53466">
+      <graphic decls="#imageRights-1" url="manuscript/1912/65cb91cb-162a-4ac2-b9e4-7882f24fb9e9/manuscript-1912-page-53466-image-43399.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1912/35904951-5d69-47c2-b01d-05a4ea966a8f/manuscript-1912-page-53466-image-43400.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

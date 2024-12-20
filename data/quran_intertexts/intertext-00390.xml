@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lukas 1:76-79</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_390" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>390</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Bei dem angegebenen Text handelt es sich um den liturgisch prominenten Lobgesang des Zacharias anläßlich der Geburt des Johannes (vgl. TRE Art. "Cantica"). Die in Q 5:16 erwähnten subul as-salām, auf die Gott die Menschen leiten will, entsprechen der ὁδὸς εἰρήνης aus Lukas 1:79 (syr. urḥā da-šlāmā). Neben der in beiden Texten präsenten Vorstellung von der göttlichen Wegeleitung finden sich noch weitere Berührungspunkte: So sprechen Q 5:15.16 von einem "Licht", welches zu den "Leuten der Schrift" gekommen ist; von "Licht" ist auch in Lukas 1:78 die Rede (gr. ἀνατολὴ, Peschitta: denḥā, was dem arabischen nūr sogar noch näher steht, da es nicht nur wie gr. ἀνατολὴ den "Sonnenaufgang", sondern auch "Licht, Aufleuchten" im Allgemeinen meint). Die Lukas-Passage nimmt, wie Cuypers anmerkt, die messianische Verheißung aus Jesaja 9:1 auf, die anderswo im Neuen Testament (Matthäus 4:16) auch explizit zitiert wird ("Das Volk, das im Dunkel lebt, sieht ein helles Licht; über denen, die im Land der Finsternis wohnen, strahlt ein Licht auf"). Q 5:15.16 bedient sich damit eines hochgradig messianisch konnotierten Bildkomplexes.
+	Die Koranstelle berührt sich übrigens noch in einem weiteren Punkt mit der syrischen Version der Lukas-Passage: In Q 5:16 ist neben den subul as-salām auch noch von einem "geraden Weg" (ṣirāṭ mustaqīm) die Rede. Dieser erscheint zwar bei Lukas nicht explizit, kann jedoch zumindest implizit im syrischen Wortlaut gefunden werden, denn das dort benutzte Wort für "führen", traṣ, konnotiert auch Geradheit: syr. trīṣā entspricht genau gr. orthós. Die semantische Parallele zu mustaqīm ist insofern sehr eng.
+</summary>
+            <msItem>
+              <title>Lukas 1:76-79</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">um 90 n. Chr.</origDate>
+              <origPlace>Rom oder östlicher Mittelmeerraum</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Jenny, Markus. &amp;#x201C;Cantica.&amp;#x201D; Edited by Horst Robert Balz and et al. Theologische Realenzyklop&amp;#xE4;die. Berlin / New York: de Gruyter, 1981. https://www-1degruyter-1com-1612654761.erf.sbb.spk-berlin.de/view/TRE/TRE.07_624_54.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Καὶ σὺ δέ, παιδίον, προφήτης ὑψίστου κληθήσῃ• προπορεύσῃ γὰρ ἐνώπιον κυρίου ἑτοιμάσαι ὁδοὺς αὐτοῦ, 77 τοῦ δοῦναι γνῶσιν σωτηρίας τῷ λαῷ αὐτοῦ ἐν ἀφέσει ἁμαρτιῶν αὐτῶν, 78 διὰ σπλάγχνα ἐλέους θεοῦ ἡμῶν, ἐν οἷς ἐπισκέψεται ἡμᾶς ἀνατολὴ ἐξ ὕψους, 79 ἐπιφᾶναι τοῖς ἐν σκότει καὶ σκιᾷ θανάτου καθημένοις, τοῦ κατευθῦναι τοὺς πόδας ἡμῶν εἰς ὁδὸν εἰρήνης
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	76 Und du, Kind, wirst Prophet des Höchsten heißen; denn du wirst dem Herrn vorangehen und ihm den Weg bereiten. 77 Du wirst sein Volk mit der Erfahrung des Heils beschenken in der Vergebung der Sünden. 78 Durch die barmherzige Liebe unseres Gottes wird uns besuchen das aufstrahlende Licht aus der Höhe, 79 um allen zu leuchten, die in Finsternis sitzen und im Schatten des Todes, und unsre Schritte zu lenken auf den Weg des Friedens.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 16:4-35</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_241" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>241</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Im Koran finden sich nur knappe Reminiszenzen der biblischen Manna-Perikope. Interessant ist die sprachliche Entsprechung von arab. mann und hebr. mān. Vgl. auch TUK_0242. Vgl. dazu Jeffery 1938: p. 271f.
+</summary>
+            <msItem>
+              <title>Exodus 16:4-35</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הִנְנִי מַמְטִיר לָכֶם לֶחֶם מִן־הַשָּׁמָיִם וְיָצָא הָעָם וְלָקְטוּ דְּבַר־יוֹם בְּיוֹמוֹ לְמַעַן אֲנַסֶּנּוּ הֲיֵלֵךְ בְּתוֹרָתִי אִם־לֹא : וְהָיָה בַּיּוֹם הַשִּׁשִּׁי וְהֵכִינוּ אֵת אֲשֶׁר־יָבִיאוּ וְהָיָה מִשְׁנֶה עַל אֲשֶׁר־יִלְקְטוּ יוֹם יוֹם : וַיֹּאמֶר מֹשֶׁה וְאַהֲרֹן אֶל־כָּל־בְּנֵי יִשְׂרָאֵל עֶרֶב וִידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרָיִם : וּבֹקֶר וּרְאִיתֶם אֶת־כְּבוֹד יְהוָה בְּשָׁמְעוֹ אֶת־תְּלֻנֹּתֵיכֶם עַל־יְהוָה וְנַחְנוּ מָה כִּי תַלִּונוּ עָלֵינוּ : וַיֹּאמֶר מֹשֶׁה בְּתֵת יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ בִּשְׁמֹעַ יְהוָה אֶת־תְּלֻנֹּתֵיכֶם אֲשֶׁר־אַתֶּם מַלִּינִם עָלָיו וְנַחְנוּ מָה לֹא־עָלֵינוּ תְלֻנֹּתֵיכֶם כִּי עַל־יְהוָה : וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן אֱמֹר אֶל־כָּל־עֲדַת בְּנֵי יִשְׂרָאֵל קִרְבוּ לִפְנֵי יְהוָה כִּי שָׁמַע אֵת תְּלֻנֹּתֵיכֶם : וַיְהִי כְּדַבֵּר אַהֲרֹן אֶל־כָּל־עֲדַת בְּנֵי־יִשְׂרָאֵל וַיִּפְנוּ אֶל־הַמִּדְבָּר וְהִנֵּה כְּבוֹד יְהוָה נִרְאָה בֶּעָנָן : וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר : שָׁמַעְתִּי אֶת־תְּלוּנֹּת בְּנֵי יִשְׂרָאֵל דַּבֵּר אֲלֵהֶם לֵאמֹר בֵּין הָעַרְבַּיִם תֹּאכְלוּ בָשָׂר וּבַבֹּקֶר תִּשְׂבְּעוּ־לָחֶם וִידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם : וַיְהִי בָעֶרֶב וַתַּעַל הַשְּׂלָו וַתְּכַס אֶת־הַמַּחֲנֶה וּבַבֹּקֶר הָיְתָה שִׁכְבַת הַטַּל סָבִיב לַמַּחֲנֶה : וַתַּעַל שִׁכְבַת הַטָּל וְהִנֵּה עַל־פְּנֵי הַמִּדְבָּר דַּק מְחֻסְפָּס דַּק כַּכְּפֹר עַל־הָאָרֶץ : וַיִּרְאוּ בְנֵי־יִשְׂרָאֵל וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו מָן הוּא כִּי לֹא יָדְעוּ מַה־הוּא וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם הוּא הַלֶּחֶם אֲשֶׁר נָתַן יְהוָה לָכֶם לְאָכְלָה : זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּחוּ : וַיַּעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִיט : וַיָּמֹדּוּ בָעֹמֶר וְלֹא הֶעְדִּיף הַמַּרְבֶּה וְהַמַּמְעִיט לֹא הֶחְסִיר אִישׁ לְפִי־אָכְלוֹ לָקָטוּ : וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם אִישׁ אַל־יוֹתֵר מִמֶּנּוּ עַד־בֹּקֶר : וְלֹא־שָׁמְעוּ אֶל־מֹשֶׁה וַיּוֹתִרוּ אֲנָשִׁים מִמֶּנּוּ עַד־בֹּקֶר וַיָּרֻם תּוֹלָעִים וַיִּבְאַשׁ וַיִּקְצֹף עֲלֵהֶם מֹשֶׁה : וַיִּלְקְטוּ אֹתוֹ בַּבֹּקֶר בַּבֹּקֶר אִישׁ כְּפִי אָכְלוֹ וְחַם הַשֶּׁמֶשׁ וְנָמָס : וַיְהִי בַּיּוֹם הַשִּׁשִּׁי לָקְטוּ לֶחֶם מִשְׁנֶה שְׁנֵי הָעֹמֶר לָאֶחָד וַיָּבֹאוּ כָּל־נְשִׂיאֵי הָעֵדָה וַיַּגִּידוּ לְמֹשֶׁה : וַיֹּאמֶר אֲלֵהֶם הוּא אֲשֶׁר דִּבֶּר יְהוָה שַׁבָּתוֹן שַׁבַּת־קֹדֶשׁ לַיהוָה מָחָר אֵת אֲשֶׁר־תֹּאפוּ אֵפוּ וְאֵת אֲשֶׁר־תְּבַשְּׁלוּ בַּשֵּׁלוּ וְאֵת כָּל־הָעֹדֵף הַנִּיחוּ לָכֶם לְמִשְׁמֶרֶת עַד־הַבֹּקֶר : וַיַּנִּיחוּ אֹתוֹ עַד־הַבֹּקֶר כַּאֲשֶׁר צִוָּה מֹשֶׁה וְלֹא הִבְאִישׁ וְרִמָּה לֹא־הָיְתָה בּוֹ : וַיֹּאמֶר מֹשֶׁה אִכְלֻהוּ הַיּוֹם כִּי־שַׁבָּת הַיּוֹם לַיהוָה הַיּוֹם לֹא תִמְצָאֻהוּ בַּשָּׂדֶה : שֵׁשֶׁת יָמִים תִּלְקְטֻהוּ וּבַיּוֹם הַשְּׁבִיעִי שַׁבָּת לֹא יִהְיֶה־בּוֹ : וַיְהִי בַּיּוֹם הַשְּׁבִיעִי יָצְאוּ מִן־הָעָם לִלְקֹט וְלֹא מָצָאוּ : וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה מֵאַנְתֶּם לִשְׁמֹר מִצְוֹתַי וְתוֹרֹתָי : רְאוּ כִּי־יְהוָה נָתַן לָכֶם הַשַּׁבָּת עַל־כֵּן הוּא נֹתֵן לָכֶם בַּיּוֹם הַשִּׁשִּׁי לֶחֶם יוֹמָיִם שְׁבוּ אִישׁ תַּחְתָּיו אַל־יֵצֵא אִישׁ מִמְּקֹמוֹ בַּיּוֹם הַשְּׁבִיעִי : וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי : וַיִּקְרְאוּ בֵית־יִשְׂרָאֵל אֶת־שְׁמוֹ מָן וְהוּא כְּזֶרַע גַּד לָבָן וְטַעְמוֹ כְּצַפִּיחִת בִּדְבָשׁ : וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם לְמַעַן יִרְאוּ אֶת־הַלֶּחֶם אֲשֶׁר הֶאֱכַלְתִּי אֶתְכֶם בַּמִּדְבָּר בְּהוֹצִיאִי אֶתְכֶם מֵאֶרֶץ מִצְרָיִם : וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן קַח צִנְצֶנֶת אַחַת וְתֶן־שָׁמָּה מְלֹא־הָעֹמֶר מָן וְהַנַּח אֹתוֹ לִפְנֵי יְהוָה לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם : כַּאֲשֶׁר צִוָּה יְהוָה אֶל־מֹשֶׁה וַיַּנִּיחֵהוּ אַהֲרֹן לִפְנֵי הָעֵדֻת לְמִשְׁמָרֶת : וּבְנֵי יִשְׂרָאֵל אָכְלוּ אֶת־הַמָּן אַרְבָּעִים שָׁנָה עַד־בֹּאָם אֶל־אֶרֶץ נוֹשָׁבֶת אֶת־הַמָּן אָכְלוּ עַד־בֹּאָם אֶל־קְצֵה אֶרֶץ כְּנָעַן :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	4 Da sprach der Herr zu Moses: Ich will euch Brot vom Himmel regnen lassen. Das Volk soll hinausgehen, um seinen täglichen Bedarf zu sammeln. Ich will es prüfen, ob es nach meiner Weisung lebt oder nicht. 5 Wenn sie am sechsten Tag feststellen, was sie zusammengebracht haben, wird es doppelt so viel sein, wie sie sonst täglich gesammelt haben. 6 Da sagten Moses und Aaron zu allen Israeliten: Heute Abend sollt ihr erfahren, dass der Herr euch aus Ägypten geführt hat, 7 und morgen werdet ihr die Herrlichkeit des Herrn schauen; denn er hat euer Murren gegen ihn gehört. Aber wer sind schon wir, dass ihr gegen uns murrt? 8 Weiter sagte Moses: Wenn der Herr euch heute Abend Fleisch zu essen gibt und euch am Morgen mit Brot sättigt, wenn er also euer Murren hört, mit dem ihr ihn bedrängt, was sind wir dann? Nicht uns galt euer Murren, sondern dem Herrn. 9 Dann sagte Moses zu Aaron: Sag der ganzen Gemeinde der Israeliten: Tretet hin vor den Herrn; denn er hat euer Murren gehört. 10 Während Aaron zur ganzen Gemeinde der Israeliten sprach, wandten sie sich zur Wüste hin. Da erschien plötzlich in der Wolke die Herrlichkeit des Herrn. 11 Der Herr sprach zu Moses: 12 Ich habe das Murren der Israeliten gehört. Sag ihnen: Am Abend werdet ihr Fleisch zu essen haben, am Morgen werdet ihr satt sein von Brot und ihr werdet erkennen, dass ich der Herr, euer Gott, bin. 13 Am Abend kamen die Wachteln und bedeckten das Lager. Am Morgen lag eine Schicht von Tau rings um das Lager. 14 Als sich die Tauschicht gehoben hatte, lag auf dem Wüstenboden etwas Feines, Knuspriges, fein wie Reif, auf der Erde. 15 Als das die Israeliten sahen, sagten sie zueinander: Was ist das? Denn sie wussten nicht, was es war. Da sagte Moses zu ihnen: Das ist das Brot, das der Herr euch zu essen gibt. 16 Das ordnet der Herr an: Sammelt davon so viel, wie jeder zum Essen braucht, ein Gomer je Kopf. Jeder darf so viel Gomer holen, wie Personen im Zelt sind. 17 Die Israeliten taten es und sammelten ein, der eine viel, der andere wenig. 18 Als sie die Gomer zählten, hatte keiner, der viel gesammelt hatte, zu viel und keiner, der wenig gesammelt hatte, zu wenig. Jeder hatte so viel gesammelt, wie er zum Essen brauchte. 19 Moses sagte zu ihnen: Davon darf bis zum Morgen niemand etwas übrig lassen. 20 Doch sie hörten nicht auf Moses, sondern einige ließen etwas bis zum Morgen übrig. Aber es wurde wurmig und stank. Da geriet Moses in Zorn über sie. 21 Sie sammelten es Morgen für Morgen, jeder so viel, wie er zum Essen brauchte. Sobald die Sonnenhitze einsetzte, zerging es. 22 Am sechsten Tag sammelten sie die doppelte Menge Brot, zwei Gomer für jeden. Da kamen alle Sippenhäupter der Gemeinde und berichteten es Moses. 23 Er sagte zu ihnen: Es ist so, wie der Herr gesagt hat: Morgen ist Feiertag, heiliger Sabbat zur Ehre des Herrn. Backt, was ihr backen wollt, und kocht, was ihr kochen wollt, den Rest bewahrt bis morgen früh auf! 24 Sie bewahrten es also bis zum Morgen auf, wie es Moses angeordnet hatte, und es faulte nicht, noch wurde es madig. 25 Da sagte Moses: Esst es heute, denn heute ist Sabbat zur Ehre des Herrn. Heute findet ihr draußen nichts. 26 Sechs Tage dürft ihr es sammeln, am siebten Tag ist Sabbat; da findet ihr nichts. 27 Am siebten Tag gingen trotzdem einige vom Volk hinaus, um zu sammeln, fanden aber nichts. 28 Da sprach der Herr zu Moses: Wie lange wollt ihr euch noch weigern, meine Gebote und Weisungen zu befolgen? 29 Ihr seht, der Herr hat euch den Sabbat gegeben; daher gibt er auch am sechsten Tag Brot für zwei Tage. Jeder bleibe, wo er ist. Am siebten Tag verlasse niemand seinen Platz. 30 Das Volk ruhte also am siebten Tag. 31 Das Haus Israel nannte das Brot Manna. Es war weiß wie Koriandersamen und schmeckte wie Honigkuchen. 32 Moses sagte: Der Herr ordnet Folgendes an. Ein volles Gomer Manna ist für die Generationen nach euch aufzubewahren, damit sie das Brot sehen, das ich euch in der Wüste zu essen gab, als ich euch aus Ägypten herausführte. 33 Zu Aaron sagte Moses: Nimm ein Gefäß, schütte ein volles Gomer Manna hinein und stell es vor den Herrn! Es soll für die nachkommenden Generationen aufbewahrt werden. 34 Wie der Herr dem Moses befohlen hatte, stellte Aaron das Manna vor die Bundesurkunde, damit es dort aufbewahrt würde. 35 Die Israeliten aßen vierzig Jahre lang Manna, bis sie in bewohntes Land kamen. Sie aßen Manna, bis sie die Grenze von Kanaan erreichten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

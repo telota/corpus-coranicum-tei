@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 Samuel 9:1 - 10:27</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_299" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>299</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl Q 2:247 als auch 1 Samuel berichten von Sauls (im Koran Ṭālūt genannt) Ernennung zum König. Beide Texte sprechen von Sauls Erwählung durch Gott und heben seine Körpergröße hervor, wobei der Koran zusätzlich noch das Saul von Gott verliehene Wissen betont. Zudem ist in beiden Texten von der Ablehnung Sauls durch einige Menschen die Rede. Das im Koran vorgebrachte Argument der Gegner Sauls, dass sie selbst der Königsherrschaft würdiger seien, und dass Saul keine besonderen Reichtümer besitze, findet sich so nicht im entsprechenden Bibelvers (1 Sam 10:27). Es reflektiert aber vielleicht Sauls eigenen Einwand, dass er aus der geringsten Sippe des kleinsten Stammes komme (1 Sam 9:21). Auf die begrenzte Macht des Stammes und damit auch Sauls scheint auch 1 Sam 10:27 anzuspielen (Speyer 1931: p. 366-367).
+
+	Statt der ausführlich erzählten Geschichte, wie sie sich in 1 Samuel findet, bietet Q 2:247 nur eine kurze Zusammenfassung. Die anscheinend als bekannt vorausgesetzen Ereignisse werden nur kurz in Erinnerung gerufen und mit einem interpretierenden Zusatz versehen (wa-llāhu yuʾtī mulkahū man yašāʾu wa-llāhu wāsiʿun ʿalīmun; "Gott gibt seine Herrschaft, wem er will. Gott umfaßt (alles) und weiß Bescheid"), der auf Gottes Allwissen und Allmacht hinweist. Der Schwerpunkt der koranischen Version liegt also auf Gottes Wirken in den geschilderten Ereignissen; das Geschehene wird als dem Willen Gottes entsprechend gezeigt.Zur koranischen Namensform Sauls, Ṭālūt, vgl. Jeffery 1938: p. 204 und Horovitz 1926: p. 123.
+</summary>
+            <msItem>
+              <title>1 Samuel 9:1 - 10:27</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Vor 5.-6. Jh. v. Chr. (Redaktion des deuteronomistischen Geschichtswerks)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Horovitz, Josef: Koranische Untersuchungen. de Gruyter, Berlin [u.a] 1926.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	9:1-27 
+	וַיְהִי־אִישׁ מִבִּן־יָמִין וּשְׁמוֹ קִישׁ בֶּן־אֲבִיאֵל בֶּן־צְרוֹר בֶּן־בְּכוֹרַת בֶּן־אֲפִיחַ בֶּן־אִישׁ יְמִינִי גִּבּוֹר חָיִל : וְלוֹ־הָיָה בֵן וּשְׁמוֹ  שָׁאוּל בָּחוּר וָטוֹב וְאֵין אִישׁ מִבְּנֵי יִשְׂרָאֵל טוֹב מִמֶּנּוּ מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל־הָעָם  : וַתֹּאבַדְנָה הָאֲתֹנוֹת לְקִישׁ אֲבִי שָׁאוּל וַיֹּאמֶר קִישׁ אֶל־שָׁאוּל בְּנוֹ קַח־נָא אִתְּךָ אֶת־אַחַד מֵהַנְּעָרִים וְקוּם לֵךְ בַּקֵּשׁ אֶת־הָאֲתֹנֹת : וַיַּעֲבֹר בְּהַר־אֶפְרַיִם וַיַּעֲבֹר בְּאֶרֶץ־שָׁלִשָׁה וְלֹא מָצָאוּ וַיַּעַבְרוּ בְאֶרֶץ־שַׁעֲלִים וָאַיִן וַיַּעֲבֹר בְּאֶרֶץ־יְמִינִי וְלֹא מָצָאוּ : הֵמָּה בָּאוּ בְּאֶרֶץ צוּף וְשָׁאוּל אָמַר לְנַעֲרוֹ אֲשֶׁר־עִמּוֹ לְכָה וְנָשׁוּבָה פֶּן־יֶחְדַּל אָבִי מִן־הָאֲתֹנוֹת וְדָאַג לָנוּ : וַיֹּאמֶר לוֹ הִנֵּה־נָא אִישׁ־אֱלֹהִים בָּעִיר הַזֹּאת וְהָאִישׁ נִכְבָּד כֹּל אֲשֶׁר־יְדַבֵּר בּוֹא יָבוֹא עַתָּה נֵלֲכָה שָּׁם אוּלַי יַגִּיד לָנוּ אֶת־דַּרְכֵּנוּ אֲשֶׁר־הָלַכְנוּ עָלֶיהָ : וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ וְהִנֵּה נֵלֵךְ וּמַה־נָּבִיא לָאִישׁ כִּי הַלֶּחֶם אָזַל מִכֵּלֵינוּ וּתְשׁוּרָה אֵין־לְהָבִיא לְאִישׁ הָאֱלֹהִים מָה אִתָּנוּ : וַיֹּסֶף הַנַּעַר לַעֲנוֹת אֶת־שָׁאוּל וַיֹּאמֶר הִנֵּה נִמְצָא בְיָדִי רֶבַע שֶׁקֶל כָּסֶף וְנָתַתִּי לְאִישׁ הָאֱלֹהִים וְהִגִּיד לָנוּ אֶת־דַּרְכֵּנוּ : לְפָנִים בְּיִשְׂרָאֵל כֹּה־אָמַר הָאִישׁ בְּלֶכְתּוֹ לִדְרוֹשׁ אֱלֹהִים לְכוּ וְנֵלְכָה עַד־הָרֹאֶה כִּי לַנָּבִיא הַיּוֹם יִקָּרֵא לְפָנִים הָרֹאֶה : וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ טוֹב דְּבָרְךָ לְכָה נֵלֵכָה וַיֵּלְכוּ אֶל־הָעִיר אֲשֶׁר־שָׁם אִישׁ הָאֱלֹהִים : הֵמָּה עֹלִים בְּמַעֲלֵה הָעִיר וְהֵמָּה מָצְאוּ נְעָרוֹת יֹצְאוֹת לִשְׁאֹב מָיִם וַיֹּאמְרוּ לָהֶן הֲיֵשׁ בָּזֶה הָרֹאֶה : וַתַּעֲנֶינָה אוֹתָם וַתֹּאמַרְנָה יֵּשׁ הִנֵּה לְפָנֶיךָ מַהֵר עַתָּה כִּי הַיּוֹם בָּא לָעִיר כִּי זֶבַח הַיּוֹם לָעָם בַּבָּמָה : כְּבֹאֲכֶם הָעִיר כֵּן תִּמְצְאוּן אֹתוֹ בְּטֶרֶם יַעֲלֶה הַבָּמָתָה לֶאֱכֹל כִּי לֹא־יֹאכַל הָעָם עַד־בֹּאוֹ כִּי־הוּא יְבָרֵךְ הַזֶּבַח אַחֲרֵי־כֵן יֹאכְלוּ הַקְּרֻאִים וְעַתָּה עֲלוּ כִּי־אֹתוֹ כְהַיּוֹם תִּמְצְאוּן אֹתוֹ : וַיַּעֲלוּ הָעִיר הֵמָּה בָּאִים בְּתוֹךְ הָעִיר וְהִנֵּה שְׁמוּאֵל יֹצֵא לִקְרָאתָם לַעֲלוֹת הַבָּמָה : וַיהוָה גָּלָה אֶת־אֹזֶן שְׁמוּאֵל יוֹם אֶחָד לִפְנֵי בוֹא־שָׁאוּל לֵאמֹר :  כָּעֵת מָחָר אֶשְׁלַח אֵלֶיךָ אִישׁ מֵאֶרֶץ בִּנְיָמִן וּמְשַׁחְתּוֹ לְנָגִיד עַל־עַמִּי יִשְׂרָאֵל וְהוֹשִׁיעַ אֶת־עַמִּי מִיַּד פְּלִשְׁתִּים כִּי רָאִיתִי אֶת־עַמִּי כִּי בָּאָה צַעֲקָתוֹ אֵלָי : וּשְׁמוּאֵל רָאָה אֶת־שָׁאוּל וַיהוָה עָנָהוּ הִנֵּה הָאִישׁ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ זֶה יַעְצֹר בְּעַמִּי  : וַיִּגַּשׁ שָׁאוּל אֶת־שְׁמוּאֵל בְּתוֹךְ הַשָּׁעַר וַיֹּאמֶר הַגִּידָה־נָּא לִי אֵי־זֶה בֵּית הָרֹאֶה : וַיַּעַן שְׁמוּאֵל אֶת־שָׁאוּל וַיֹּאמֶר אָנֹכִי הָרֹאֶה עֲלֵה לְפָנַי הַבָּמָה וַאֲכַלְתֶּם עִמִּי הַיּוֹם וְשִׁלַּחְתִּיךָ בַבֹּקֶר וְכֹל אֲשֶׁר בִּלְבָבְךָ אַגִּיד לָךְ : וְלָאֲתֹנוֹת הָאֹבְדוֹת לְךָ הַיּוֹם שְׁלֹשֶׁת הַיָּמִים אַל־תָּשֶׂם אֶת־לִבְּךָ לָהֶם כִּי נִמְצָאוּ וּלְמִי כָּל־חֶמְדַּת יִשְׂרָאֵל הֲלוֹא לְךָ וּלְכֹל בֵּית אָבִיךָ : וַיַּעַן שָׁאוּל וַיֹּאמֶר  הֲלוֹא בֶן־יְמִינִי אָנֹכִי מִקַּטַנֵּי שִׁבְטֵי יִשְׂרָאֵל וּמִשְׁפַּחְתִּי הַצְּעִרָה מִכָּל־מִשְׁפְּחוֹת שִׁבְטֵי בִנְיָמִן  וְלָמָּה דִּבַּרְתָּ אֵלַי כַּדָּבָר הַזֶּה : וַיִּקַּח שְׁמוּאֵל אֶת־שָׁאוּל וְאֶת־נַעֲרוֹ וַיְבִיאֵם לִשְׁכָּתָה וַיִּתֵּן לָהֶם מָקוֹם בְּרֹאשׁ הַקְּרוּאִים וְהֵמָּה כִּשְׁלֹשִׁים אִישׁ : וַיֹּאמֶר שְׁמוּאֵל לַטַּבָּח תְּנָה אֶת־הַמָּנָה אֲשֶׁר נָתַתִּי לָךְ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ שִׂים אֹתָהּ עִמָּךְ : וַיָּרֶם הַטַּבָּח אֶת־הַשּׁוֹק וְהֶעָלֶיהָ וַיָּשֶׂם לִפְנֵי שָׁאוּל וַיֹּאמֶר הִנֵּה הַנִּשְׁאָר שִׂים־לְפָנֶיךָ אֱכֹל כִּי לַמּוֹעֵד שָׁמוּר־לְךָ לֵאמֹר הָעָם קָרָאתִי וַיֹּאכַל שָׁאוּל עִם־שְׁמוּאֵל בַּיּוֹם הַהוּא : וַיֵּרְדוּ מֵהַבָּמָה הָעִיר וַיְדַבֵּר עִם־שָׁאוּל עַל־הַגָּג : וַיַּשְׁכִּמוּ וַיְהִי כַּעֲלוֹת הַשַּׁחַר וַיִּקְרָא שְׁמוּאֵל אֶל־שָׁאוּל הַגָּגָ לֵאמֹר קוּמָה וַאֲשַׁלְּחֶךָּ וַיָּקָם שָׁאוּל וַיֵּצְאוּ שְׁנֵיהֶם הוּא וּשְׁמוּאֵל הַחוּצָה : הֵמָּה יוֹרְדִים בִּקְצֵה הָעִיר וּשְׁמוּאֵל אָמַר אֶל־שָׁאוּל אֱמֹר לַנַּעַר וְיַעֲבֹר לְפָנֵינוּ וַיַּעֲבֹר וְאַתָּה עֲמֹד כַּיּוֹם וְאַשְׁמִיעֲךָ אֶת־דְּבַר אֱלֹהִים :
+	
+	10:1-27 
+	וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִיד  : בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִי : וְחָלַפְתָּ מִשָּׁם וָהָלְאָה וּבָאתָ עַד־אֵלוֹן תָּבוֹר וּמְצָאוּךָ שָּׁם שְׁלֹשָׁה אֲנָשִׁים עֹלִים אֶל־הָאֱלֹהִים בֵּית־אֵל אֶחָד נֹשֵׂא שְׁלֹשָׁה גְדָיִים וְאֶחָד נֹשֵׂא שְׁלֹשֶׁת כִּכְּרוֹת לֶחֶם וְאֶחָד נֹשֵׂא נֵבֶל־יָיִן : וְשָׁאֲלוּ לְךָ לְשָׁלוֹם וְנָתְנוּ לְךָ שְׁתֵּי־לֶחֶם וְלָקַחְתָּ מִיָּדָם : אַחַר כֵּן תָּבוֹא גִּבְעַת הָאֱלֹהִים אֲשֶׁר־שָׁם נְצִבֵי פְלִשְׁתִּים וִיהִי כְבֹאֲךָ שָׁם הָעִיר וּפָגַעְתָּ חֶבֶל נְבִיאִים יֹרְדִים מֵהַבָּמָה וְלִפְנֵיהֶם נֵבֶל וְתֹף וְחָלִיל וְכִנּוֹר וְהֵמָּה מִתְנַבְּאִים : וְצָלְחָה עָלֶיךָ רוּחַ יְהוָה וְהִתְנַבִּיתָ עִמָּם וְנֶהְפַּכְתָּ לְאִישׁ אַחֵר : וְהָיָה כִּי תָבִֺאינָה הָאֹתוֹת הָאֵלֶּה לָךְ עֲשֵׂה לְךָ אֲשֶׁר תִּמְצָא יָדֶךָ כִּי הָאֱלֹהִים עִמָּךְ : וְיָרַדְתָּ לְפָנַי הַגִּלְגָּל וְהִנֵּה אָנֹכִי יֹרֵד אֵלֶיךָ לְהַעֲלוֹת עֹלוֹת לִזְבֹּחַ זִבְחֵי שְׁלָמִים שִׁבְעַת יָמִים תּוֹחֵל עַד־בּוֹאִי אֵלֶיךָ וְהוֹדַעְתִּי לְךָ אֵת אֲשֶׁר תַּעֲשֶׂה : וְהָיָה כְּהַפְנֹתוֹ שִׁכְמוֹ לָלֶכֶת מֵעִם שְׁמוּאֵל וַיַּהֲפָךְ־לוֹ אֱלֹהִים לֵב אַחֵר וַיָּבֹאוּ כָּל־הָאֹתוֹת הָאֵלֶּה בַּיּוֹם הַהוּא : וַיָּבֹאוּ שָׁם הַגִּבְעָתָה וְהִנֵּה חֶבֶל־נְבִאִים לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ אֱלֹהִים וַיִּתְנַבֵּא בְּתוֹכָם : וַיְהִי כָּל־יוֹדְעוֹ מֵאִתְּמוֹל שִׁלְשׁוֹם וַיִּרְאוּ וְהִנֵּה עִם־נְבִאִים נִבָּא וַיֹּאמֶר הָעָם אִישׁ אֶל־רֵעֵהוּ מַה־זֶּה הָיָה לְבֶן־קִישׁ הֲגַם שָׁאוּל בַּנְּבִיאִים : וַיַּעַן אִישׁ מִשָּׁם וַיֹּאמֶר וּמִי אֲבִיהֶם עַל־כֵּן הָיְתָה לְמָשָׁל הֲגַם שָׁאוּל בַּנְּבִאִים : וַיְכַל מֵהִתְנַבּוֹת וַיָּבֹא הַבָּמָה : וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵל : וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּידָה־נָּא לִי מָה־אָמַר לָכֶם שְׁמוּאֵל : וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵל : וַיַּצְעֵק שְׁמוּאֵל אֶת־הָעָם אֶל־יְהוָה הַמִּצְפָּה : וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי הֶעֱלֵיתִי אֶת־יִשְׂרָאֵל מִמִּצְרָיִם וָאַצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד כָּל־הַמַּמְלָכוֹת הַלֹּחֲצִים אֶתְכֶם : וְאַתֶּם הַיּוֹם מְאַסְתֶּם אֶת־אֱלֹהֵיכֶם אֲשֶׁר־הוּא מוֹשִׁיעַ לָכֶם מִכָּל־רָעוֹתֵיכֶם וְצָרֹתֵיכֶם וַתֹּאמְרוּ לוֹ כִּי־מֶלֶךְ תָּשִׂים עָלֵינוּ וְעַתָּה הִתְיַצְּבוּ לִפְנֵי יְהוָה לְשִׁבְטֵיכֶם וּלְאַלְפֵיכֶם : וַיַּקְרֵב שְׁמוּאֵל אֵת כָּל־שִׁבְטֵי יִשְׂרָאֵל וַיִּלָּכֵד שֵׁבֶט בִּנְיָמִן : וַיַּקְרֵב אֶת־שֵׁבֶט בִּנְיָמִן לְמִשְׁפְּחֹתָו וַתִּלָּכֵד מִשְׁפַּחַת הַמַּטְרִי וַיִּלָּכֵד שָׁאוּל בֶּן־קִישׁ וַיְבַקְשֻׁהוּ וְלֹא נִמְצָא : וַיִּשְׁאֲלוּ־עוֹד בַּיהוָה הֲבָא עוֹד הֲלֹם אִישׁ וַיֹּאמֶר יְהוָה הִנֵּה־הוּא נֶחְבָּא אֶל־הַכֵּלִים : וַיָּרֻצוּ וַיִּקָּחֻהוּ מִשָּׁם  וַיִּתְיַצֵּב בְּתוֹךְ הָעָם וַיִּגְבַּהּ מִכָּל־הָעָם מִשִּׁכְמוֹ וָמָעְלָה  : וַיֹּאמֶר שְׁמוּאֵל אֶל־כָּל־הָעָם  הַרְּאִיתֶם אֲשֶׁר בָּחַר־בּוֹ יְהוָה כִּי אֵין כָּמֹהוּ בְּכָל־הָעָם וַיָּרִעוּ כָל־הָעָם וַיֹּאמְרוּ יְחִי הַמֶּלֶךְ  : וַיְדַבֵּר שְׁמוּאֵל אֶל־הָעָם אֵת מִשְׁפַּט הַמְּלֻכָה וַיִּכְתֹּב בַּסֵּפֶר וַיַּנַּח לִפְנֵי יְהוָה וַיְשַׁלַּח שְׁמוּאֵל אֶת־כָּל־הָעָם אִישׁ לְבֵיתוֹ : וְגַם־שָׁאוּל הָלַךְ לְבֵיתוֹ גִּבְעָתָה וַיֵּלְכוּ עִמּוֹ הַחַיִל אֲשֶׁר־נָגַע אֱלֹהִים בְּלִבָּם :  וּבְנֵי בְלִיַּעַל אָמְרוּ מַה־יֹּשִׁעֵנוּ זֶה וַיִּבְזֻהוּ וְלֹא־הֵבִיאוּ לוֹ מִנְחָה וַיְהִי כְּמַחֲרִישׁ  :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	9:1 Damals lebte in Benjamin ein Mann namens Kisch, ein Sohn Abiëls, des Sohnes Zerors, des Sohnes Bechorats, des Sohnes Afiachs, ein wohlhabender Benjaminiter. 2 Er hatte einen Sohn namens  Saul, der jung und schön war; kein anderer unter den Israeliten war so schön wie er; er überragte alle um Haupteslänge.  3 Eines Tages verliefen sich die Eselinnen von Sauls Vater Kisch. Da sagte Kisch zu seinem Sohn Saul: Nimm einen von den Knechten, mach dich mit ihm auf den Weg und such die Eselinnen! 4 Sie durchquerten das Gebirge Efraim und durchstreiften das Gebiet von Schalischa, fanden sie aber nicht. Sie zogen durch das Gebiet von Schaalim - ohne Erfolg; dann durchwanderten sie das Land Jemini, fanden sie aber wieder nicht. 5 Als sie in das Gebiet von Zuf gekommen waren, sagte Saul zu seinem Knecht, der ihn begleitete: Komm, wir wollen umkehren, sonst macht sich mein Vater um uns noch mehr Sorgen als um die Eselinnen. 6 Der Knecht erwiderte ihm: In dieser Stadt wohnt doch ein Gottesmann. Er ist sehr angesehen; alles, was er sagt, trifft mit Sicherheit ein. Lasst uns jetzt zu ihm gehen; vielleicht kann er uns sagen, welchen Weg wir hätten gehen sollen. 7 Saul antwortete dem Knecht: Was sollen wir dem Mann mitbringen, wenn wir hingehen? Das Brot in unseren Taschen ist zu Ende. Wir haben nichts, was wir dem Gottesmann als Geschenk bringen könnten. Oder haben wir sonst etwas? 8 Darauf antwortete ihm der Knecht: Sieh her, ich habe noch einen Viertel-Silberschekel bei mir. Den will ich dem Gottesmann geben, damit er uns Auskunft über den Weg gibt. 9 - Früher sagte man in Israel, wenn man hinging, um Gott zu befragen: Wir wollen zum Seher gehen. Denn wer heute Prophet genannt wird, hieß früher Seher. - 10 Saul sagte zu seinem Knecht: Dein Vorschlag ist gut. Komm, wir wollen hingehen. Sie gingen also in die Stadt, wo der Gottesmann wohnte. 11 Als sie die Steige zur Stadt hinaufgingen, trafen sie einige Mädchen, die herauskamen, um Wasser zu schöpfen. Sie fragten sie: Ist der Seher hier? 12 Sie antworteten ihnen: Ja, er ist da, da vorn. Beeilt euch aber, denn er ist gerade in die Stadt gekommen, weil das Volk heute auf der Kulthöhe ein Opferfest feiert. 13 Wenn ihr in die Stadt kommt, werdet ihr ihn gerade noch treffen, bevor er zur Kulthöhe hinaufsteigt, um am Mahl teilzunehmen. Denn das Volk isst nicht, ehe er kommt, weil er das Opfer segnen muss; erst dann essen die Eingeladenen. Geht also hinauf; denn jetzt könnt ihr ihn treffen. 14 Da gingen sie weiter zur Stadt hinauf. Und als sie zur Mitte der Stadt gekommen waren, kam ihnen gerade Samuel entgegen, der zur Kulthöhe hinaufgehen wollte. 15 Der Herr aber hatte Samuel, einen Tag bevor Saul kam, das Ohr für eine Offenbarung geöffnet und gesagt: 16  Morgen um diese Zeit schicke ich einen Mann aus dem Gebiet Benjamins zu dir. Ihn sollst du zum Fürsten meines Volkes Israel salben. Er wird mein Volk aus der Gewalt der Philister befreien; denn ich habe die Not meines Volkes Israel gesehen und sein Hilfeschrei ist zu mir gedrungen. 17 Als Samuel Saul sah, sagte der Herr zu ihm: Das ist der Mann, von dem ich dir gesagt habe: Der wird über mein Volk herrschen.  18 Saul trat mitten im Tor zu Samuel und fragte: Sag mir doch, wo das Haus des Sehers ist. 19 Samuel antwortete Saul: Ich bin der Seher. Geh vor mir her zur Kulthöhe hinauf! Ihr sollt heute mit mir essen. Morgen früh will ich dich dann weiterziehen lassen. Ich werde dir Auskunft über alles geben, was du auf dem Herzen hast. 20 Über die Eselinnen, die dir vor drei Tagen abhanden gekommen sind, brauchst du dir keine Gedanken zu machen. Sie wurden gefunden. Auf wen aber richtet sich die ganze Sehnsucht Israels? Gilt sie nicht dir und dem ganzen Haus deines Vaters? 21 Da antwortete Saul:  Bin ich nicht ein Benjaminiter, also aus dem kleinsten Stamm Israels? Ist meine Sippe nicht die geringste von allen Sippen des Stammes Benjamin?  Warum sagst du so etwas zu mir? 22 Samuel nahm Saul und seinen Knecht mit, führte sie in das Haus und wies ihnen die Ehrenplätze unter den Eingeladenen an; es waren etwa dreißig Männer (versammelt). 23 Samuel sagte zum Koch: Bring das Stück her, das ich dir gegeben habe, das, von dem ich dir gesagt habe: Halt es bei dir zurück! 24 Da trug der Koch die Keule auf und setzte sie Saul vor; er sagte: Das ist das, was übrig blieb. Greif zu und iss! Als ich das Volk eingeladen hatte, ist dieses Stück für dich und für diese Stunde aufgehoben worden. An jenem Tag aß Saul zusammen mit Samuel. 25 Dann stiegen sie von der Kulthöhe in die Stadt hinab und Samuel hatte mit Saul auf dem Flachdach eine Unterredung. 26 Früh am Morgen, als die Dämmerung anbrach, rief Samuel zu Saul aufs Dach hinauf: Steh auf! Ich will dir das Geleit geben. Saul stand auf und beide gingen zusammen hinaus. 27 Als sie zur Grenze des Stadtgebietes gekommen waren, sagte Samuel zu Saul: Sag dem Knecht, er soll vorausgehen; du aber bleib nun hier stehen! Ich will dir ein Gotteswort verkünden. Da ging der Knecht voraus.
+	
+	10:1  Da nahm Samuel den Ölkrug und goss Saul das Öl auf das Haupt, küsste ihn und sagte: Hiermit hat der Herr dich zum Fürsten über sein Erbe gesalbt.  2 Wenn du jetzt von mir weggehst, wirst du beim Grab der Rahel in Zelzach im Gebiet von Benjamin zwei Männer treffen und sie werden zu dir sagen: Die Eselinnen, nach denen du auf der Suche bist, sind gefunden worden. Doch denkt dein Vater nicht mehr an die Sache mit den Eselinnen, sondern macht sich Sorgen um euch und sagt: Was kann ich nur wegen meines Sohnes unternehmen? 3 Wenn du dann von dort weiterziehst und zur Tabor-Eiche kommst, werden dir dort drei Männer begegnen, die zu Gott nach Bet-El hinaufziehen. Einer trägt ein Böckchen, einer trägt drei Laib Brot und einer trägt einen Schlauch Wein. 4 Sie werden dich grüßen und dir zwei Brote geben; die sollst du von ihnen annehmen. 5 Danach wirst du nach Gibeat-Elohim kommen, wo die Vorposten der Philister stehen. Wenn du dort in die Stadt hineingehst, wirst du eine Schar von Propheten treffen, die von der Kulthöhe herabkommen, und vor ihnen wird Harfe, Pauke, Flöte und Zither gespielt. Sie selbst sind in prophetischer Verzückung. 6 Dann wird der Geist des Herrn über dich kommen und du wirst wie sie in Verzückung geraten und in einen anderen Menschen verwandelt werden. 7 Wenn du aber all diese Zeichen erlebst, dann tu, was sich gerade ergibt; denn Gott ist mit dir. 8 Hernach geh mir voraus nach Gilgal hinab! Ich werde dann bereits auf dem Weg zu dir sein, um Brandopfer darzubringen und Heilsopfer zu schlachten. Sieben Tage musst du warten, bis ich zu dir komme. Dann werde ich dir verkünden, was du tun sollst. 9 Als sich Saul nun umwandte, um von Samuel wegzugehen, verwandelte Gott sein Herz. Und noch am gleichen Tag trafen alle diese Zeichen ein. 10 Als sie, Saul und sein Knecht, nach Gibea gelangten, kam ihnen tatsächlich eine Schar von Propheten entgegen. Der Geist Gottes kam über Saul und Saul geriet mitten unter ihnen in prophetische Verzückung. 11 Alle, die ihn von früher kannten, sahen, wie er zusammen mit den Propheten in Verzückung war. Die Leute sagten zueinander: Was ist denn nur mit dem Sohn des Kisch geschehen? Ist auch Saul unter den Propheten? 12 Einer von dort erwiderte: Wer ist denn schon deren Vater? So ist das Sprichwort entstanden: Ist denn auch Saul unter den Propheten? 13 Als die Verzückung zu Ende war, ging Saul nach Gibea hinein. 14 Der Onkel Sauls fragte ihn und seinen Knecht: Wo seid ihr denn gewesen? Er antwortete: Wir waren weg, um die Eselinnen zu suchen. Als wir aber sahen, dass sie nirgends (zu finden) waren, gingen wir zu Samuel. 15 Sauls Onkel sagte: Erzähl mir doch, was Samuel euch gesagt hat. 16 Saul antwortete seinem Onkel: Er hat uns mit Bestimmtheit gesagt, dass die Eselinnen gefunden worden sind. Die Sache mit dem Königtum aber, von der Samuel gesprochen hatte, erzählte er ihm nicht. 17 Samuel rief das Volk zum Herrn nach Mizpa zusammen. 18 Er sagte zu den Israeliten: So spricht der Herr, der Gott Israels: Ich habe Israel aus Ägypten heraufgeführt, ich habe euch aus der Gewalt der Ägypter befreit und aus der Gewalt all der Königreiche, die euch bedrängt haben. 19 Ihr aber habt heute euren Gott verworfen, der euer Retter in allen Nöten und Bedrängnissen war, und ihr habt gesagt: Nein, du sollst einen König bei uns einsetzen. Stellt euch jetzt also vor dem Herrn auf, (geordnet) nach euren Stämmen und Tausendschaften. 20 Und Samuel ließ alle Stämme Israels antreten (um das Los zu werfen). Das Los fiel auf den Stamm Benjamin. 21 Darauf ließ er den Stamm Benjamin (geordnet) nach seinen Sippen antreten und das Los fiel auf die Sippe Matri. Und schließlich fiel das Los auf Saul, den Sohn des Kisch. Man suchte ihn (überall), fand ihn aber nicht. 22 Sie befragten noch einmal den Herrn: Ist noch jemand hierher gekommen? Der Herr antwortete: Ja, aber er hat sich beim Tross versteckt. 23 Sie liefen hin und holten ihn von dort.  Als er mitten unter das Volk trat, überragte er alle anderen um Haupteslänge.  24 Und Samuel sagte zum ganzen Volk:  Habt ihr gesehen, wen der Herr erwählt hat? Keiner ist ihm gleich im ganzen Volk. Da jubelte das ganze Volk und sagte: Es lebe der König!  25 Samuel machte dem Volk das Königsrecht bekannt, schrieb es in ein Buch und legte das Buch vor dem Herrn nieder. Dann entließ Samuel das ganze Volk, jeden in sein Haus. 26 Auch Saul ging in sein Haus nach Gibea. Und mit ihm zog eine Schar von Männern, deren Herz Gott berührt hatte. 27  Niederträchtige Menschen aber sagten: Was kann uns der schon helfen? Sie verachteten ihn und brachten ihm kein Geschenk. Er aber tat, als merkte er es nicht. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

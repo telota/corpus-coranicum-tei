@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2450">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oslo, The Schøyen Collection, MS 4597</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="109">The Schøyen Collection
+                            , Oslo</repository>
+            <idno>MS 4597</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: MS 4597; Qurʾānic Text: Q   4:103-4:113; 16 lines per page; Dimensions: 380 x 330mm; Estimated date  of production: 800-1000.</p>
+              <p> </p>
+              <p>The  <ref target="https://www.schoyencollection.com/palaeography-collection-introduction/arabic-script/mashq-script/ms-4597">online catalogue of the Schoyen Collection</ref> offers the following information:  </p>
+              <p>"MS: 4597</p>
+              <p>MS Short Title: MASHQ QUR'AN</p>
+              <p>Text: QUR'AN, SURA 4:103 - 113</p>
+              <p>Description: MS in Arabic on paper, North Africa or Near East, ca. 750-800, 1 f., 33x38 cm, single column (26x31 cm), 16 lines in mashq script, vocalisation of red and green dots, circular device in green and brown at the end of verse 111.</p>
+              <p>Context : Other ff. from this Qur'an form part of the David Collection, København, and 3 ff. the Nasser D. Khalili Collection, London, 1 f. sold at Sotheby's 13.04.2000, lot 2..</p>
+              <p>Provenance: 1. Sam Fogg Rare Books, Cat. 22(2000):2.</p>
+              <p>Commentary: The script is a unique combination of several aspects of early kufic. Most striking of these is its mashq, or extension of the horizontal axis of the letters, a common feature of kufic, but rarely practised to such an extent as here. Its semi-circular final nun, triangular tail to the final mim, and broad semi-oval initial áyn are also characteristic peculiarities.</p>
+              <p>  </p>
+              <p>Place of origin: North Africa or Near East</p>
+              <p>Dates: ca 750-800 AD"</p>
+            </summary>
+            <msItem xml:id="mysql_id_707390" n="1r">
+              <title type="numeric" key="004:103:0-1-004:108:015">
+                                    004:103:0-1-004:108:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_707388" n="1v">
+              <title type="numeric" key="004:108:016-004:113:018">
+                                    004:108:016-004:113:018
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>380</width><height>330</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76612">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_76611">
+      <graphic decls="#imageRights-1" url="manuscript/2450/55ee8887-95b2-4378-a8b8-6af33c86609a/manuscript-2450-page-76611-image-68894.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

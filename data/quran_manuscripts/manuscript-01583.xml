@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1583">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.743.2</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.743.2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio; Writing surface: parchment; Shelfmark: MS Add. 743.2; Qurʾānic  text: Q 20:61-64; 5 Lines per page; Dimensions: 155 x 134mm; Script style: kūfī D Vc; Estimated date of production: 9th or 10th century AD /3rd or 4th century Hijri.</p>
+              <p> </p>
+              <p>Fragment of an Abbasid Qur'ān probably written  in the third or fourth century A.H. / ninth or tenth century C.E,  containing verses 61-64 from Sura Ṭaha (سورة طه). The script seems to  correspond to the Abbasid Style <hi rend="italic">D Vc</hi> as described by F. Deroche. This leaf belongs to the same Qurʾān as the folio with the classmark <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01135">Add. 1135</ref>. For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-00743-00002/2">entry in the Digital Library of Cambridge University</ref>.</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_690045" n="1r">
+              <title type="numeric" key="020:061:003-020:063:004">
+                                    020:061:003-020:063:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_690046" n="1v">
+              <title type="numeric" key="020:063:004-020:064:009">
+                                    020:063:004-020:064:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>155</width><height>134</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Vc
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_50005">
+      <graphic decls="#imageRights-1" url="manuscript/1583/c8121f22-e897-4b8a-9e6f-d8b55bd9bfc5/manuscript-1583-page-50005-image-37154.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_50006">
+      <graphic decls="#imageRights-1" url="manuscript/1583/ade930be-586c-4942-9588-054db5a48f4d/manuscript-1583-page-50006-image-37155.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

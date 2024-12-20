@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1647">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Boston, Massachussets, Museum of Fine Arts, 24.416</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="63">Museum of Fine Arts
+                            , Boston, Massachussets</repository>
+            <idno>24.416</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>For more information, please visit the <ref target="https://collections.mfa.org/objects/16732/">museum's website</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_692252" n="1v">
+              <title type="numeric" key="017:044:005-017:046:017">
+                                    017:044:005-017:046:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692253" n="2r">
+              <title type="numeric" key="017:046:018-017:051:004">
+                                    017:046:018-017:051:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="9">9 - 9 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_52210">
+      <graphic decls="#imageRights-1" url="manuscript/1647/4810b3b0-bfdd-46b2-974d-92f996ae289d/manuscript-1647-page-52210-image-40893.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1647/816ddbec-70fc-457c-b437-f47c5ac9ad1f/manuscript-1647-page-52210-image-40894.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_52211">
+      <graphic decls="#imageRights-1" url="manuscript/1647/bb24e9c1-b53f-494e-a0da-337e15ead26b/manuscript-1647-page-52211-image-40895.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1647/026e1009-85cf-4528-95f2-b77eb5a9f2b6/manuscript-1647-page-52211-image-40896.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

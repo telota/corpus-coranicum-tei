@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Passio Sanctarum Perpetuae et Felicitatis 11:1-12:7</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1188" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1188</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran begegnet uns die Vorstellung des Todesengels (malaku l-mauti), der die Seelen der Verstorbenen zu Gott zurückbringt. Ähnliche Vorstellungen von Engelswesen, die mit dieser Aufgabe betraut sind, sind sowohl im Judentum, als auch im Christentum der Spätantike weit verbreitet (s. auch TUK_1204). Ihre Funktion kann sowohl beschützend als auch bestrafend sein, je nachdem, ob es sich um die Seele eines gerechten oder ungerechten Toten handelt. Im Koran tauchen diese Figuren meist im Plural auf. Interessanterweise, wird in Q 32:11 nur ein Todesengel erwähnt, dessen Rolle neutral wirkt; es handelt sich bei ihm weder um einen Strafengel noch um einen Wächterengel. Der hier angegebene christliche Text entstammt der märtyrologischen Literatur, einem populären christlich-literarischen Genre mit romanhaftem Charakter. Bei der Passio Perpetuae handelt es sich um einen der bekanntesten und beliebtesten Texte dieses Genres. Der Text ist sowohl auf Griechisch als auch auf Latein überliefert. Die hier angeführte Passage erzählt von einer Vision eines der Protagonisten kurz vor seinem Martyrium. Diese Vision dient als psychologische Vorbereitung auf das Martyrium und beschreibt, worauf die Märtyrer im Jenseits hoffen dürfen. Dabei wird erzählt, dass jeder Märtyrer von jeweils einem Engel zum Himmel geführt wird, wo ihn ein üppiger Garten erwartet. Obwohl dieser Text nicht direkt "Todesengel" erwähnt, ist die Figur dennoch charakteristisch für populäre christlich-eschatologische Vorstellungen von Engelsgestalten, die die Seelen der Verstorbenen begleiten. Diese Vorstellung wie sie der angegebene Text enthält, scheint der koranischen Vorstellung nahezustehen.</summary>
+            <msItem>
+              <title>Passio Sanctarum Perpetuae et Felicitatis 11:1-12:7</title>
+              <author/>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Mitte des 3. Jh. n. Chr.</origDate>
+              <origPlace>Karthago (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">The Acts of the Christian Martyrs, ed. H. Musurillo. Oxford 1972.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>
+	[11] Sed et Saturus benedictus hanc uisionem suam edidit, quam ipse conscripsit. 2. Passi, inquit, eramus, et exiuimus de carne, et coepimus ferri a quattuor angelis in orientem, quorum manus nos non tangebant. 3. ibamus autem non supini sursum uersi, sed quasi mollem cliuum ascendentes. 4. et liberato primo mundo uidimus lucem inmensam, et dixi Perpetuae (erat enim haec in latere meo): Hoc est quod nobis Dominus promittebat: percepimus promissionem. 5. et dum gestamur ab ipsis quattuor angelis, factum est nobis spatium grande, quod tale fuit quasi uiridiarium arbores habens rosae et omne genus flores. 6. altitudo arborum erat in modum cypressi, quarum folia cadebant sine cessatione. 7. ibi autem in uiridiario alii quattuor angeli fuerunt clariores ceteris: qui, ubi uiderunt nos, honorem nobis dederunt, et dixerunt ceteris angelis, Ecce sunt, ecce sunt, cum admiratione. et expauescentes quattuor illi angeli qui gestabant nos, deposuerunt nos. 8. et pedibus nostris transiuimus ad stadium uia lata. 9. ibi inuenimus Iocundum et Saturninum et Artaxium, qui eadem persecutione uiui arserunt, et Quintum, qui et ipse martyr in carcere exierat. et quaerebamus de illis, ubi essent. 10. ceteri angeli dixerunt nobis: Venite prius, introite, et salutate Dominum. [12] Et uenimus prope locum cuius loci parietes tales erant quasi de luce aedificati; et ante ostium loci illius angeli quattuor stabant, qui introeuntes uestierunt stolas candidas. 2. et introiuimus, et audiuimus uocem unitam dicentem, agios agios agios, sine cessatione. 3. et uidimus in eodem loco sedentem quasi hominem canum, niueos habentem capillos et uultu iuuenili, cuius pedes non uidimus. 4. et in dextera et in sinistra seniores quattuor, et post illos ceteri seniores complures stabant. 5. et introeuntes cum admiratione stetimus ante thronum, et quattuor angeli subleuauerunt nos et osculati sumus illum, et de manu suatraiecit nobis in faciem. 6. et ceteri seniores dixerunt nobis: Stemus; et stetimus et pacem fecimus. et dixerunt nobis seniorex: Ite et ludite. 7. et dixi Perpetuae: Habes quod uis. et dixit mihi: Deo gratias, ut quomodo in carne hilaris fui, hilarior sim et hic modo.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Aber auch der gottgesegnete Saturus hat einen selbstgeschriebenen Bericht über seine Vision hinterlassen: Das Leiden war zu Ende, schreibt er, wir gingen aus dem Fleische (d. h. wir starben) und wurden von vier Engeln nach Osten getragen. Dabei berührten uns ihre Hände nicht. Unser Weg führte jedoch nicht steil aufwärts, sondern es war, als gingen wir einen sanften Hügel hinan. Als wir die erste Welt hinter uns hatten, sahen wir eine unermessliche Lichtfülle. Ich sagte zu Perpetua - sie war ja an meiner Seite -: Hier ist, was der Herr uns versprochen hat; wir haben die Erfüllung seiner Verheißung empfangen. Während wir von jenen vier Engeln getragen wurden, tat sich vor uns ein weiter Raum auf. Es war eine Art Park mit Rosenbäumen und Blumen aller Art. Die Bäume waren so hoch wie Zypressen; ihre Blätter rieselten unaufhörlich zur Erde nieder. Dort in dem Park aber waren noch vier andere Engel, die leuchtender waren als die übrigen. Als sie uns sahen, begrüßten sie uns ehrerbietig und sagten voll Bewunderung zu den anderen Engeln: Da sind sie, da sind sie! Jene vier Engel, die uns trugen, erschauderten und setzten uns ab. Wir gingen zu Fuß ein Stadium weit auf einem breiten Weg. Da trafen wir den Jokundus, Saturninus und Artaxius, die in derselben Verfolgung bei lebendigem Leibe verbrannt wurden, und Quintus, der - auch als Martyrer - im Kerker verschieden war. Wir fragten sie, wo die anderen wären. Aber die Engel sagten uns: Kommt erst herein, kommt und begrüßt den Herrn! 12. Wir kamen an eine Stadt, deren Mauern wie aus Licht erbaut waren; vor dem Tor dieser Stadt standen vier Engel, die den Eintretenden weiße Gewänder anlegten. Wir gingen hinein und hörten den unaufhörlichen Ruf: Heilig, heilig, heilig. In dieser Stadt aber sahen wir einen großen Mann mit schneeweißen Haaren und jugendlichem Antlitz auf seinem Thron; seine Füße konnten wir nicht sehen. Zu seiner Rechten und Linken standen vier Älteste und hinter diesen noch mehrere andere Älteste. Wir traten näher und blieben voller Staunen vor dem Throne stehen. Vier Engel hoben uns hoch, und wir küssten den Thronenden. Er streichelte uns mit seiner Hand das Gesicht. Die übrigen Ältesten sagten uns: Aufstellen! Wir stellten uns auf und gaben uns den Friedenskuss. Dann sagten uns die Ältesten: Geht und ergötzt euch! Ich aber sprach zu Perpetua: Jetzt hast du, was du willst. Sie antwortete: Gott sei Dank! Wenn ich schon im Fleische froh war, jetzt bin ich noch froher.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_360">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Princeton, New Jersey, Princeton University Library, 14 G (d)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Princeton University Library, Digital Collections.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="19">Princeton University Library
+                            , Princeton, New Jersey</repository>
+            <idno>14 G (d)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 14 G (d); Qurʾānic Text: Q 69:35-69:41; 4 lines per page; Dimensions: 285 x 160mm; Script  style: kūfī; Estimated date of production: 800-900.</p><p> </p><p>The shelfmark 14 G of the Princeton University Library  contains a  collection of 5 quranic fragments on parchment, probably from the 8th to  9th century. The fragment 14 G (d) is described as follows: "Sūrah 69:35(last word)-37 and 38(last letter)-41(beginning). --1 leaf : parchment ; 160 x 285 (80 x 210) mm. Lower portion of a larger page. 4 lines ; recto is hair ; early Abbasid script. Red dots ; mark for end of each verse; mark for five verses on the margin, consisting of inscription in gold inscribed in a circle in gold, with black and red dots. Support eaten by ink. 9th cent.?"</p>For more information, see the <ref target="http://pudl.princeton.edu/objects/rj430459r">library's website</ref>.
+                    </summary>
+            <msItem xml:id="mysql_id_662028" n="4r">
+              <title type="numeric" key="069:035:000-069:037:000">
+                                    069:035:000-069:037:000
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662029" n="4v">
+              <title type="numeric" key="069:038:000-069:041:000">
+                                    069:038:000-069:041:000
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 
+                                    <dimensions unit="mm"><width>285</width><height>160</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4">4 - 4 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p> 	"Lower portion of a larger page. 4 lines ; recto is hair ; early Abbasid script. Red dots ; mark for end of each verse; mark for five verses on the margin, consisting of inscription in gold inscribed in a circle in gold, with black and red dots. Support eaten by ink."</p>
+              </summary>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="4r" xml:id="mysql_id_3643">
+      <graphic decls="#imageRights-1" url="manuscript/360/ad9285e8-1ddb-4ca3-b6ad-467adaa30b64/manuscript-360-page-3643-image-2569.jpg"/>
+    </surface>
+    <surface n="4v" xml:id="mysql_id_3644">
+      <graphic decls="#imageRights-1" url="manuscript/360/530b6ce0-3ade-46cd-933f-55b41e6ae095/manuscript-360-page-3644-image-2570.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

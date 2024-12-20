@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1479">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Massachussets, Harvard Art Museums, 1930.456</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="70">Harvard Art Museums
+                            , Cambridge, Massachussets</repository>
+            <idno>1930.456</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 1930.456; Qurʾānic Text: Q 41:17-41:20; 5 lines per page; Dimensions: 228 x 150mm; Script style: kūfī D.I; Estimated date  of production: 750-900.  </p>
+              <p> </p>
+              <p>This fragment belongs to the same manuscript as <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/69/verse/35/manuscripts/1427/page/1-52v">E.H. 30</ref> (Istanbul Topkapı Sarayı), <ref target="https://corpuscoranicum.de/handschriften/index/sure/40/vers/82?handschrift=1008">KFQ 64</ref> (London Khalili Collections), <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/41/verse/19/manuscripts/1479/page/1r">1930.456</ref> (Cambridge (MA), Harvard Art Museums), <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/41/verse/26/manuscripts/1329">63.41</ref> (Bloomington, Sidney and Lois Eskenazi Museum of Art) and <ref target="https://corpuscoranicum.de/handschriften/index/sure/40/vers/25/handschrift/1426">10950</ref> (Central Library of the University of Tehran).</p>
+              <p/>
+              <p> </p>
+              <p>Further information can be found on the <ref target="https://hvrd.art/o/201336">museum's website</ref>.</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_687911" n="1r">
+              <title type="numeric" key="041:019:001-041:020:007">
+                                    041:019:001-041:020:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687912" n="1v">
+              <title type="numeric" key="041:017:010-041:018:005">
+                                    041:017:010-041:018:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>228</width><height>150</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47871">
+      <graphic decls="#imageRights-1" url="manuscript/1479/108bdc57-2e5d-46e9-96e3-5bc2186eabab/manuscript-1479-page-47871-image-34167.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47872">
+      <graphic decls="#imageRights-1" url="manuscript/1479/af82655a-4f7e-4f3e-984e-48164ceafb4b/manuscript-1479-page-47872-image-34168.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

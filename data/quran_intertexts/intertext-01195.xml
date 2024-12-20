@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 2:11-19</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1195" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1195</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Im Koran finden sich in zahlreichen Versen eindrucksvolle Bilder, Warnungen und Schilderungen der Ereignisse am Tag des Gerichts. Ähnliche Vorstellungen sind auch in der hebräischen Bibel auffallend und theologisch bedeutend. In den prophetischen Büchern wird der Tag des Gerichts, als Tag des Herrn bezeichnet und deutet auf eine endzeitliche kosmische Katastrophe hin. Die beschriebenen furchterregenden Naturkatastrophen stimmen mit ähnlichen Beschreibungen des Endes der Welt und der Zeiten im Koran überein. Die Vorstellung des letzten Gerichts als ein Tag eschatologischen göttlichen Zornes findet sich auch in den synoptischen Evangelien (vgl. TUK_1197, TUK_1198).
+</summary>
+            <msItem>
+              <title>Jesaja 2:11-19</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina/Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	עֵינֵ֞י גַּבְה֤וּת אָדָם֙ שָׁפֵ֔ל וְשַׁ֖ח ר֣וּם אֲנָשִׁ֑ים וְנִשְׂגַּ֧ב יְהוָ֛ה לְבַדֹּ֖ו בַּיֹּ֥ום הַהֽוּא׃ ס
+	כִּ֣י יֹ֞ום לַיהוָ֧ה צְבָאֹ֛ות עַ֥ל כָּל־גֵּאֶ֖ה וָרָ֑ם וְעַ֖ל כָּל־נִשָּׂ֥א וְשָׁפֵֽל׃
+	וְעַל֙ כָּל־אַרְזֵ֣י הַלְּבָנֹ֔ון הָרָמִ֖ים וְהַנִּשָּׂאִ֑ים וְעַ֖ל כָּל־אַלֹּונֵ֥י הַבָּשָֽׁן׃
+	וְעַ֖ל כָּל־הֶהָרִ֣ים הָרָמִ֑ים וְעַ֖ל כָּל־הַגְּבָעֹ֥ות הַנִּשָּׂאֹֽות׃
+	וְעַ֖ל כָּל־מִגְדָּ֣ל גָּבֹ֑הַ וְעַ֖ל כָּל־חֹומָ֥ה בְצוּרָֽה׃
+	וְעַ֖ל כָּל־אֳנִיֹּ֣ות תַּרְשִׁ֑ישׁ וְעַ֖ל כָּל־שְׂכִיֹּ֥ות הַחֶמְדָּֽה׃
+	וְשַׁח֙ גַּבְה֣וּת הָאָדָ֔ם וְשָׁפֵ֖ל ר֣וּם אֲנָשִׁ֑ים וְנִשְׂגַּ֧ב יְהוָ֛ה לְבַדֹּ֖ו בַּיֹּ֥ום הַהֽוּא׃
+	וְהָאֱלִילִ֖ים כָּלִ֥יל יַחֲלֹֽף׃
+	וּבָ֨אוּ֙ בִּמְעָרֹ֣ות צֻרִ֔ים וּבִמְחִלֹּ֖ות עָפָ֑ר מִפְּנֵ֞י פַּ֤חַד יְהוָה֙ וּמֵהֲדַ֣ר גְּאֹונֹ֔ו בְּקוּמֹ֖ו לַעֲרֹ֥ץ הָאָֽרֶץ׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p> 2: 11. Da senken sich die stolzen Augen der Menschen, / die hochmütigen Männer müssen sich ducken, / der Herr allein ist erhaben an jenem Tag. 
+12. Denn der Tag des Herrn der Heere kommt / über alles Stolze und Erhabene, / über alles Hohe - es wird erniedrigt -,
+13. über alle hoch ragenden Zedern des Libanon / und alle Eichen des Baschan,
+14. über alle hohen Berge und alle stattlichen Hügel,
+15. über jeden hohen Turm und jede steile Mauer,
+16. über alle Tarschisch-Schiffe / und die kostbaren Segler.
+17. Die stolzen Menschen müssen sich ducken, / die hochmütigen Männer sich beugen, / der Herr allein ist erhaben an jenem Tag. 
+18. Die Götzen aber schwinden alle dahin.
+19. Verkriecht euch in Felshöhlen und Erdlöchern /vor dem Schrecken des Herrn und vor seiner strahlenden Pracht, / wenn er sich erhebt, um die Erde zu erschrecken.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1070">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Philadelphia, Pennsylvania, Pennsylvania University Museum, E 16264 L</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Courtesy of Pennsylvania University Museum Philadelphia.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="18">Pennsylvania University Museum
+                            , Philadelphia, Pennsylvania</repository>
+            <idno>E 16264 L</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: E 16264 L; Qurʾānic Text: Q 26:192-26:198; Dimensions: 120 x 95mm; Estimated date of production: 680-750.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts kept by the University Museums in Philaldelphia, written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/78QP9SWH">Levi Della Vida 1981</ref>, p. 154.):</p>
+              <p>"119. Inv. E. 16264 L. 2nd century A.h./8th century A.  D. ? White, thin parchment. 9.5 x 12 cm. On both faces four broken lines  are written in a brownish ink. A section of the outer margin is  preserved.   From the Ellen W. Harrison Collection.   This scrap is so  blurred that an identification of its contents is practically  impossible. Its script appears to be very similar to that of the  preceding number [<ref target="https://corpuscoranicum.de/de/manuscripts/1069/page/1r?sura=6&amp;verse=100">E 16264 I</ref>]."</p>
+            </summary>
+            <msItem xml:id="mysql_id_679577" n="1r">
+              <title type="numeric" key="026:192:004-026:198:001">
+                                    026:192:004-026:198:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="0">0 - 0 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>680-750</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40462">
+      <graphic decls="#imageRights-1" url="manuscript/1070/cc298bbb-cb51-4eb8-9be2-122d035fec0e/manuscript-1070-page-40462-image-25656.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40463">
+      <graphic decls="#imageRights-1" url="manuscript/1070/694af660-ba7b-4f96-9e79-215a96095364/manuscript-1070-page-40463-image-25657.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

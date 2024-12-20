@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_826">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gotha, Forschungsbibliothek Gotha, Ms. orient. A 464</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Forschungsbibliothek Gotha.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="47">Forschungsbibliothek Gotha
+                            , Gotha</repository>
+            <idno>Ms. orient. A 464</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Ms. orient. A 464; Qurʾānic Text: Q 71:10-71:12; 5 lines per page; Dimensions: 225 x 270mm; Script style: kūfī D.I; Date estimate: 750-900. </p>
+              <p>A 464 and <ref target="https://corpuscoranicum.de/en/manuscripts/825">A 463</ref> probably belong to the same codex. </p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Wilhelm Pertsch gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/SGT3IUJR" sameAs="SGT3IUJR" type="zotero">Pertsch 1878, III:1, </ref>p. 396): </p>
+              <p>"464. (Möll. 1b, Nr. 35.) Ein Blatt Pergament, 22,5 auf 27 cm, der äussere Höhenrand stark beschnitten. Die Seite hat 5 Zeilen, und das Fragment enthält Sûr. LXXI, 9 Anfang bis 11 وبنين ويجعل لكم. Sehr schöne Schrift ohne alle diakritischen Punkte. Vocalisation die gewöhnliche, aber nicht vollständig. Verstheiler ein schöner Goldpunkt, Dekadentheiler (nach V. 9 bei Flügel) ein grosser, sehr eleganter Goldkreis mit eingeschriebenem عشر. Bei Möller nicht facsimilirt. – Ich glaube, dass das vorliegende Fragment mit <ref target="https://corpuscoranicum.de/de/manuscripts/825/page/1r?sura=50&amp;amp;verse=3">dem vorigen</ref> zu derselben Handschrift gehört hat." </p>
+            </summary>
+            <msItem xml:id="mysql_id_672787" n="1r">
+              <title type="numeric" key="071:010:001-071:011:002">
+                                    071:010:001-071:011:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672788" n="1v">
+              <title type="numeric" key="071:011:003-071:012:005">
+                                    071:011:003-071:012:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>270</width><height>225</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_37354">
+      <graphic decls="#imageRights-1" url="manuscript/826/32a1efb5-795d-48b9-9d41-802e78b62662/manuscript-826-page-37354-image-22083.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_37355">
+      <graphic decls="#imageRights-1" url="manuscript/826/111a0685-cfd7-44a2-a9f8-77bd9f23e1e8/manuscript-826-page-37355-image-22084.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

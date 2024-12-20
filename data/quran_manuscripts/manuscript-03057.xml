@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_3057">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leiden, Rotterdam, Amsterdam, Wereldmuseum, TM-4321-2</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="115">Wereldmuseum
+                            , Leiden, Rotterdam, Amsterdam</repository>
+            <idno>TM-4321-2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p/><p>Single folio on parchment (no image of the folio's backside is currently accessible); Shelfmark: TM-4321-2; Qurʾānic text: Q 16:61-16:65; 16 lines per page; Script style: kūfī, type F.I (described in François Déroche's <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">Abbasid Tradition</ref>, pp.46-47); Dimensions: 443 x 371mm.</p><p> </p>For more information, please visit the <ref target="https://hdl.handle.net/20.500.11840/138587">website of the museum</ref>.<p/><p/><p> </p><p>Several other fragments, supposedly from the same codex are known: The Khalili Collections (London) preserve three folios of a Qurʾān written in the same script style (<ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/92/manuscripts/1052/page/1r">KFQ 46</ref>, <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/6/verse/38/manuscripts/1053/page/1r">KFQ 47</ref>, <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/3/verse/178/manuscripts/1054/page/1r">KFQ 71</ref>) or Los Angeles County Museum of Art: <ref target="https://corpuscoranicum.de/en/manuscripts/1251/page/1r?sura=5&amp;amp;verse=56">M.73.5.511</ref>, <ref target="https://corpuscoranicum.de/en/manuscripts/1282/page/1v?sura=7&amp;amp;verse=189">M.73.5.515, </ref>M.<ref target="https://corpuscoranicum.de/en/manuscripts/1285/page/1?sura=2&amp;amp;verse=264">73.5.508</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/1545/page/1r?sura=8&amp;amp;verse=1">M.73.5.510</ref> and <ref target="https://corpuscoranicum.de/en/manuscripts/1284/page/1r?sura=20&amp;amp;verse=18">M.2002.1.383</ref>. An almost complete codex in script style <ref target="https://corpuscoranicum.de/en/manuscripts/54/page/1r?sura=2&amp;amp;verse=12">F.I is preserved in Istanbul </ref>(Topkapı Sarayı Müzesi).  </p><p/></summary>
+            <msItem xml:id="mysql_id_722850" n="1r">
+              <title type="numeric" key="016:061:011-016:065:016">
+                                    016:061:011-016:065:016
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>443</width><height>371</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī F.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_108807">
+      <graphic decls="#imageRights-1" url="manuscript/3057/2de9b544-02e0-4d51-99b0-c9410d121522/manuscript-3057-page-108807-image-102037.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

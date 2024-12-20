@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jakobusbrief 2:14-26</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_467" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>467</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die koranische Beschreibung Abrahams als "Freund Gottes" (wa-ʾaḫaḏahu Allāh ḫalīlan) entspricht u. a. Jakobus 2:23. Vgl. bereits Jesaja 41:8 und 2 Chronik 20:7 sowie die Apokalypse Abrahams 10:6. Die koranische Wendung nimmt also einen in der biblischen Tradition mehrfach bezeugten Ausdruck auf und ist nicht notwendigerweise als Bezugnahme speziell auf den Jakobus-Text zu verstehen.
+</summary>
+            <msItem>
+              <title>Jakobusbrief 2:14-26</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">50-100 n. Chr.</origDate>
+              <origPlace>Jerusalem (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	14 Τί τὸ ὄφελος, ἀδελφοί μου, ἐὰν πίστιν λέγῃ τις ἔχειν ἔργα δὲ μὴ ἔχῃ; μὴ δύναται ἡ πίστις σῶσαι αὐτόν; 15 ἐὰν ἀδελφὸς ἢ ἀδελφὴ γυμνοὶ ὑπάρχωσιν καὶ λειπόμενοι τῆς ἐφημέρου τροφῆς 16 εἴπῃ δέ τις αὐτοῖς ἐξ ὑμῶν• ὑπάγετε ἐν εἰρήνῃ, θερμαίνεσθε καὶ χορτάζεσθε, μὴ δῶτε δὲ αὐτοῖς τὰ ἐπιτήδεια τοῦ σώματος, τί τὸ ὄφελος; 17 οὕτως καὶ ἡ πίστις, ἐὰν μὴ ἔχῃ ἔργα, νεκρά ἐστιν καθ᾽ ἑαυτήν. 18 Ἀλλ᾽ ἐρεῖ τις• σὺ πίστιν ἔχεις, κἀγὼ ἔργα ἔχω• δεῖξόν μοι τὴν πίστιν σου χωρὶς τῶν ἔργων, κἀγώ σοι δείξω ἐκ τῶν ἔργων μου τὴν πίστιν. 19 σὺ πιστεύεις ὅτι εἷς ἐστιν ὁ θεός, καλῶς ποιεῖς• καὶ τὰ δαιμόνια πιστεύουσιν καὶ φρίσσουσιν. 20 Θέλεις δὲ γνῶναι, ὦ ἄνθρωπε κενέ, ὅτι ἡ πίστις χωρὶς τῶν ἔργων ἀργή ἐστιν; 21 Ἀβραὰμ ὁ πατὴρ ἡμῶν οὐκ ἐξ ἔργων ἐδικαιώθη ἀνενέγκας Ἰσαὰκ τὸν υἱὸν αὐτοῦ ἐπὶ τὸ θυσιαστήριον; 22 βλέπεις ὅτι ἡ πίστις συνήργει τοῖς ἔργοις αὐτοῦ καὶ ἐκ τῶν ἔργων ἡ πίστις ἐτελειώθη, 23 καὶ ἐπληρώθη ἡ γραφὴ ἡ λέγουσα• ἐπίστευσεν δὲ Ἀβραὰμ τῷ θεῷ, καὶ ἐλογίσθη αὐτῷ εἰς δικαιοσύνην καὶ φίλος θεοῦ ἐκλήθη. 24 ὁρᾶτε ὅτι ἐξ ἔργων δικαιοῦται ἄνθρωπος καὶ οὐκ ἐκ πίστεως μόνον. 25 ὁμοίως δὲ καὶ Ῥαὰβ ἡ πόρνη οὐκ ἐξ ἔργων ἐδικαιώθη ὑποδεξαμένη τοὺς ἀγγέλους καὶ ἑτέρᾳ ὁδῷ ἐκβαλοῦσα; 26 ὥσπερ γὰρ τὸ σῶμα χωρὶς πνεύματος νεκρόν ἐστιν, οὕτως καὶ ἡ πίστις χωρὶς ἔργων νεκρά ἐστιν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	14 Meine Brüder, was nützt es, wenn einer sagt, er habe Glauben, aber es fehlen die Werke? Kann etwa der Glaube ihn retten? 15 Wenn ein Bruder oder eine Schwester ohne Kleidung ist und ohne das tägliche Brot 16 und einer von euch zu ihnen sagt: Geht in Frieden, wärmt und sättigt euch!, ihr gebt ihnen aber nicht, was sie zum Leben brauchen - was nützt das? 17 So ist auch der Glaube für sich allein tot, wenn er nicht Werke vorzuweisen hat. 18 Nun könnte einer sagen: Du hast Glauben und ich kann Werke vorweisen; zeig mir deinen Glauben ohne die Werke und ich zeige dir meinen Glauben aufgrund der Werke. 19 Du glaubst: Es gibt nur den einen Gott. Damit hast du Recht; das glauben auch die Dämonen und sie zittern. 20 Willst du also einsehen, du unvernünftiger Mensch, dass der Glaube ohne Werke nutzlos ist? 21 Wurde unser Vater Abraham nicht aufgrund seiner Werke als gerecht anerkannt? Denn er hat seinen Sohn Isaak als Opfer auf den Altar gelegt. 22 Du siehst, dass bei ihm der Glaube und die Werke zusammenwirkten und dass erst durch die Werke der Glaube vollendet wurde. 23 So hat sich das Wort der Schrift erfüllt: Abraham glaubte Gott, und das wurde ihm als Gerechtigkeit angerechnet, und er wurde Freund Gottes genannt. 24 Ihr seht, dass der Mensch aufgrund seiner Werke gerecht wird, nicht durch den Glauben allein. 25 Wurde nicht ebenso auch die Dirne Rahab durch ihre Werke als gerecht anerkannt, weil sie die Boten bei sich aufnahm und dann auf einem anderen Weg entkommen ließ? 26 Denn wie der Körper ohne den Geist tot ist, so ist auch der Glaube tot ohne Werke.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

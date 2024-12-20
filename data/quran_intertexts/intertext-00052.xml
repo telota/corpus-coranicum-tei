@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lehrgedicht über die Gottesmutter (Sermo de Genetrice Dei II)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_52" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>52</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Ebenso wie in Q 19:20 befragt Maria im vorliegenden Text den Engel, wie denn ihre Schwangerschaft zustande kommen könnte. Die Antwort, die Gabriel laut (Pseudo-)Ephrem Maria gegeben hat, ähnelt der Aussage des Engels in Q 19:21; nämlich, dass es für Gott ein Leichtes sei, das Wunder der Schwangerschaft Marias zu bewirken (qāla rabbuki huwa ʿalayya hayyinun, "Dein Herr sagte Dir: "Es ist mir ein Leichtes!'", vgl. im Syrischen: da-dlīl-ū leh l-allāhā wa-pšīq-ū leh kulmeddem "dass es ihm, Gott, ein leichtes ist und ihm alles einfach ist").
+
+	Für die Datierung der pseudephremischen Lehrgedichte über die Gottesmutter, siehe Anm. zu TUK_0044.
+</summary>
+            <msItem>
+              <title>Lehrgedicht über die Gottesmutter (Sermo de Genetrice Dei II)</title>
+              <author>(Pseudo-)Ephrem (6. Jh.)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">521-599</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Nachträge zu Ephrem Syrus, Louvain 1975 (Corpus Scriptorum Christianorum Orientalium 363, Scriptores Syri 159), S. 39-41.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>25 ܬܕܡܘܪܬܐ ܚܕܬܐ ܣܥܪ ܗܘܐ ܐܠܗܐ ܒܝܬ ܐܖ̈ܥܢܐ ܕܝܠܝܕ ܗܘܐ ܕܠܐ ܙܘܘܓܐ ܘܟܪܘܙܗ ܕܠܐ ܒܟܝܢܐ29 ܡܫܝܚܐ ܫܡܝܐ ܒܝܕ ܙܪܬܗ ܘܓܢܐ ܒܐܘܪܝܐ ܡܠܐ ܙܪܬܐ ܗܘܐ ܕܝܢ ܝܡܐ ܡܠܐ ܫܘܥܠܗ ܘܗܘܐ ܝܠܕܗ ܒܡܥܪܬܐ33 ܡܠܝܐ ܫܡܝܐ ܬܫܒܘܚܬܗ ܘܡܠܐ ܐܘܪܝܐ ܡܢ ܙܝܘܗ ܒܥܐ ܡܘܫܐ ܢܚܙܐ ܫܘܒܚܗ ܘܠܐ ܣܦܩ ܘܚܙܝܗܝ ܐܝܟ ܕܒܥܐ37 ܢܐܬܐ ܢܚܙܝܘܗܝ ܝܘܡܢܐ ܕܓܢܐ ܒܐܘܪܝܐ ܒܥܙܖ̈ܘܪܐ ܗܝܕܝܢ ܐܢܫ ܠܐ ܡܡܪܚ ܗܘܐ ܕܠܐܠܗܐ ܢܚܙܐ ܘܢܐܚܐ41 ܝܘܡܢܐ ܟܠ ܕܚܙܐܘܗܝ ܚܝܘ ܡܢ ܡܘܬܐ ܬܢܝܢܐ ܡܘܫܐ ܪܐܙܐ ܨܐܪ ܗܘܐ ܕܚܙܐ ܢܘܪܐ ܒܓܘ ܣܢܝܐ45 ܘܡܓܘ̈ܫܐ ܫܡܠܝܘ ܪܐܙܐ ܕܚܙܘ ܢܘܗܪܐ ܒܥܙܖ̈ܘܪܐ ܩܪܐ ܒܩܠܐ ܒܣܢܝܐ ܠܡܘܫܐ ܕܢܫܪܐ ܡܣ̈ܐܢܘܗܝ ܡܢ ܖ̈ܓܠܘܗܝ49 ܘܟܘܟܒܐ ܒܫܬܩܐ ܠܡܓܘ̈ܫܐ ܕܢܐܬܘܢ ܠܐܬܪܐ ܩܕܝܫܐ ܠܐ ܐܫܟܚ ܡܘܫܐ ܕܢܚܙܝܘܗܝ ܠܐܠܗܐ ܐܟܡܐ ܕܐܝܬܘܗܝ53 ܘܡ̈ܓܘܫܐ ܥܠܘ ܘܚܙܘܘܗܝ ܠܐܠܗܐ ܕܗܘܐ ܐܢܫܐ ܕܡ̇ܝܐ ܡܥܪܬܐ ܠܡܥܪܬܐ ܘܕܡܐ ܡܘܫܐ ܠܡܓܘܫ̈ܐ 57 ܐܢ ܕܝܢ ܐܡܪ ܫܡܘܥܐ ܕܡܢ ܐܝܟܐ ܕܡ̇ܐ ܦܘܚܡܐ ܕܡܘܫܐ ܪܝܫܐ ܕܢܒ̈ܝܐ ܠܡܓܘ̈ܫܐ ܖ̈ܝܫܝ ܦܪܣ61 ܢܬܛܦܝܣ ܡܢܗ ܕܐܠܗܐ ܐܝܟ ܦܪܘܫܐ ܚܟܝܡܐ ܕܐܠܘ ܠܐ ܡܢ ܩܕܡ ܙܒܢܐ ܓܒ̣ܐ ܐܢܘܢ ܕܢܗܘܘܢ ܟܖ̈ܘܙܘܗܝ 65 ܠܘ ܩܘܖ̈ܒܢܐ ܡܩܒܠ ܗܘܐ ܡܢ ܐܝ̈ܕܝܐ ܕܠܐ ܩܕܝܫܢ ܡܘܫܐ ܖ̈ܐܙܐ ܨܐܪ ܗܘܐ ܘܡܪܢ ܖ̈ܐܙܐ ܡܫܡܠܐ ܗܘܐ69 ܦܪܨܘܦ ܡܘܫܐ ܐܙܕܗܝ ܕܡܠܠ ܥܡܗ ܐܠܗܐ ܘܫܘܫܦܐ ܩܕܡ ܗܘܐ ܐܦ̈ܘܗܝ ܕܠܐ ܐܫܟܚ ܥܡܐ ܕܢܚܙܝܘܗܝ73 ܐܝܟ ܕܡܪܢ ܕܡܢ ܓܘ ܦܓܪܐ ܫܘܫܦ ܦܓܪܐ ܥܠ ܘܠܒܫ ܘܕܢܚ ܘܢܦܩ ܘܚܙܐܘܗܝ ܡܓܘܫ̈ܐ ܘܐܝܬܝܘ ܩܘܖ̈ܒܢܐ77 ܪܒ ܬܗܪܐ ܕܗܘܐ ܒܐܪܥܢ [ܕܢܚܬ ܠܗ] ܡܪܐ ܕܟܘܠܐ ܐܠܗܐ ܗܘܐ ܒܪܐܢܫܐ ܘܥܬܝܩܐ ܗܘܐ ܝܠܘܕܐ81 ܡܪܐ ܠܥܒ̈ܕܐ ܐܬܕܡܝ ܘܒܪ ܡܠܟܐ ܗܘܐ ܐܝܟ ܫܛܝܐ ܟܝܢܐ ܪܡܐ ܐܬܬܚܬܝ ܘܒܟܝܢܢ ܗܐ...85 ܘܡܕܡ ܕܢܘܟܪܝ [ܠܟܝܢܗ ܩܒܠ] ܥܠܘܗܝ ܡܛܠ ܟܠܢ [ܡܢ] ܠܐ ܢܫܡܥ ܕܘܡܪܐ ܕܐܠܗܐ ܐܬܐ ܠܝܠܕܐ89 ܡܢ ܠܐ ܢܬܗܪ ܟܕ [ܚ̇ܙܐ] ܕܡܪܐ ܥܝܖ̈ܐ ܐܬܝܠܕ ܕܠܐ ܥܘܩܒ ܗܝܡܢ ܘܐܫܪ ܕܗܟܢ [ܐܝܬܝܗ̇] ܒܫܪܪܐ 93 ܚܘܪܘ ܒܗ̇ ܒܡܪܝܡ ܚܒܝ̈ܒܝ ܟܕ ܥܠ ܨܝܕܝܗ̇ ܓܒܪܝܐܝܠ ܘܟܕ ܕܪܫ̇ܐ ܥܡܗ ܐܡܪܬ ܕܐܝܟܢܐ ܬܗܘܐ ܗܕܐ 97 ܘܦ̇ܢܝ ܗܘܐ ܫܡܫ ܪܘܚܐ ܦܬܓܡܐ ܠܡܪܝܡ ܘܐܡܪ ܕܕܠܝܠ ܗܘ ܠܗ ܠܐܠܗܐ ܘܦܫܝܩ ܗܘ ܠܗ ܟܠܡܕܡ101 ܘܟܕ ܐܫܪܬ ܗ̇ܘ ܡܐ ܕܫܡܥܬ ܘܐܡܪܬ ܕܐܡܬܗ ܐܢܐ ܕܡܪܝܐ ܢܚ̣ܬ ܗܟܝܠ ܐܝܟ ܕܗ̣ܘ ܝ̇ܕܥ ܘܙܚ ܘܐܬܐ ܐܝܟ ܕܫܦܪ ܠܗ 105 ܘܥܠ ܘܥܡܪ ܒܗ̇ ܘܠܐ ܪܓܫܬ ܘܩܒܠܬܗ ܟܕ ܠܐ ܚܫܬ ܘܗܘܐ ܒܟܪܣܗ̇ ܐܝܟ ܥܘܠܐ ܟܕ ܬܐܒܝܠ ܡܠܝܐ ܡܢܗ 109 ܕܚܘܪܗ ܢܬܠܗ ܕܢܚܕܬ ܨܠܡܗ ܕܐܕܡ ܥܬܝܩܐ ܡܐ ܕܫܡܥܬ ܗܟܝܠ ܝܠܕܗ ܕܐܠܗܐ ܒܫܬܩܐ ܩܘܐ113 ܘܗ̇ܝ ܕܐܡܪ ܗܘܐ ܓܒܪܐܝܠ ܗܘܬ ܨܝܪܐ ܒܓܘ ܪܥܝܢܟ ܠܝܬ ܓܝܪ ܡܕܡ ܕܥܛܠ ܠܗ̇ ܠܗ̇ܝ ܪܒܘܬܐ ܡܫܒܚܬܐ 117 ܕܡܛܠܬܢ ܐܬܪܟܢܬ ܘܒܢ ܡܢܢ ܐܬܝܠܕܬ ܗܘܬ ܗܘܬ ܠܢ ܡܪܝܡ ܝܘܡܢܐ ܫܡܝܐ ܛܥܝܢܬ ܠܐܠܗܐ 121 ܒܗ̇ ܗܘ ܓܝܪ ܢܚܬܬ ܘܫܪܬ ܐܠܗܘܬܐ ܡܪܝܡܬܐ ܒܗ̇ ܙܥܪܬ ܕܠܢ ܬܘܪܒ ܟܕ ܒܟܝܢܗ̇ ܠܐ ܙܥܪܬ125 ܒܗ̇ ܙܩܪܬ ܠܢ ܬܠܒܫܬܐ ܕܠܢ ܒܗ̇ ܢܗܘܐ ܦܘܪܩܢܐ ܒܗ̇ ܐܣܬܝܟܘ ܩ̈ܠܝܗܘܢ ܕܢܒ̈ܝܐ ܘܕܙܕܝ̈ܩܐ129 ܡܢܗ̇ ܕܢܚ ܠܢ ܢܗܝܪܐ ܘܩܦܠ ܚܫܟܐ ܕܚܢܦܘܬܐ ܕܫܡ̈ܗܐ ܕܡܪܝܡ ܣ̈ܓܝܐܝܢ ܘܚܫܚ ܠܝ ܕܒܗܘܢ ܐܩܪܝܗ̇133 ܒܝܪܬܐ ܐܝܬܝܗ̇ ܕܫ̣ܪܐ ܒܗ̇ ܡܠܟܐ ܕܡ̈ܠܟܐ ܬܩܝܦܐ [ܘܠܐ ܐܝܟ] ܕܥܠ ܠܗ̇ ܢܦܩ ܡܢܗ̇ ܕܡܢܗ̇ ܦܓܪܐ ܠܒܫ ܘܢܦܩ 137 ܫܡܝܐ ܬܘܒ ܚܕܬܐ ܐܝܬܝܗ̇ ܕܥܡܪ ܒܗ̇ ܡܠܟܐ ܕܡ̈ܠܟܐ ܕܢܚ ܒܗ̇ ܘܢܦܩ ܠܒܪܝܬܐ ܟܕ [ܨܝܪ] ܘܠܒܝܫ ܕܡ̈ܘܬܗ̇141 ܣܬܐ ܐܝܬܝܗ̇ ܕܣܓܘܠܐ ܦܐܪܐ ܝܗܒܬ ܕܠܐ ܒܟܝܢܐ ܘܟܕ ܟܝܢܗ ܠܐ ܕܡ̇ܐ ܠܗ̇ ܠܒܫ ܓܘܢܗ̇ ܘܢܦܩ ܡܢܗ̇145 ܡܒܘܥܐ ܗܝ ܕܪܕܘ ܡܢܘ̇ ܡ̈ܝܐ ܚ̈ܝܐ ܠܨܗ̈ܝܐ ܘܐܝܠܝܢ ܕܛܥܡܘ ܡܢ ܫܩܝܗ ܝ̇ܗܒܝܢ ܦܐܖ̈ܐ ܚܕ ܒܡܐܐ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>25 Ein neues Wunder vollbrachte Gott unter den Irdischen: ohne eheliche Verbindung wurde er geboren und sein Herold gegen die Natur.29 Christus, der Himmel ist in der Spanne seiner (Hand) und er nahm Platz in der Krippe, eine Handspanne breit! Das Meer füllte seine flache Hand, und seine Geburt geschah in einer (kleinen) Grotte.33 Sein Ruhm erfüllt die Himmel und die Krippe sein Glanz. Es bat Moses, seine Herrlichkeit zu schauen, und er vermochte es nicht und sah ihn (doch) wie er gebeten hatte.37 Laßt uns kommen und ihn heute schauen, wie er in Windeln in der Krippe liegt! Damals wagte es niemand, Gott zu sehen und am Leben zu bleiben.41 Heute: alle die ihn sahen, lebten auf aus dem zweiten Tod! Moses formte ein Symbol, wie er das Feuer im Dornbusch sah. 45 Und die Magier erfüllten das Symbol, wie sie das Feuer in den Windeln sahen. (Gott) rief mit einer Stimme aus dem Dornbusch dem Moses zu, daß er die Schuhe löse von seinen Füßen;49 und der Stern (rief) mit Schweigen die Magier, daß sie zum heiligen Ort kommen sollten. Nicht konnte Moses Gott sehen, so wie er ist.53 Und die Magier traten ein und sahen Gott, der Mensch geworden war. Die Grotte gleicht der Grotte, und Moses gleicht den Magiern.57 Wenn nun der Hörer fragt: woher soll stimmen der Vergleich des Moses, des Hauptes der Propheten, mit den Magiern, den Häuptern Persiens?,61 so soll er sich von Gott überzeugen lassen als verständiger, weiser Mann. Wenn nicht schon vor der Zeit (Gott) sie auserwählt hätte, seine Herolde zu sein,65 hätte er die Opfergaben nicht angenommen aus unheiligen Händen. Moses formte die Symbole, und unser Herr vollendete sie.69 Das Antlitz des Moses erstrahlte, weil Gott mit ihm redete. Und ein Schleier war vor seinem Gesicht, weil das Volk ihn nicht schauen konnte.73 Wie unser Herr aus dem Körper; er trat ein und hüllte sich in den Körperschleier, und er ging auf und trat hervor und es sahen ihn die Magier und brachten die Opfergaben.77 Groß ist das Wunder, das auf unsrer Erde geschah, daß der Herr des Alls herabstieg. Gott wurde Mensch und der Uralte wurde ein Kind.81 Der Herr wurde den Knechten gleich und der Königssohn wurde wie ein Törichter. Die himmlische Natur erniedrigte sich und ist in unsrer Natur… [Beck, S. 52, Fn. 16 „Das Verb ist in der Hs unlesbar.“] 85 Und etwas, das seiner Natur fremd ist, nahm er auf sich für uns alle. Wer wird nicht ein Wunder hören, daß Gott zur Geburt kam. 89 Wer wird nicht staunen, wenn er sieht, daß der Herr der Engel geboren wurde! Ohne zu forschen glaube und halte für wahr, daß es so in Wahrheit ist93 Schaut auf Maria, meine Lieben [Beck: Geliebten], wie Gabriel bei ihr eintrat, und wie sie mit ihm disputierte [Beck: disputierend sprach]: "Wie wird das geschehen" 97 Der Diener des Geistes antwortete Maria [Übersetzung Beck: Und es erwiderte der Diener des Geistes Maria und sprach]: "Einfach ist es für Gott und alles ist für ihn leicht [Übersetzung Beck: unschwer]." 101 Und da sie glaubte, was sie gehört hatte, und sprach: „Ich bin eine Magd des Herrn“, stieg er herab, so wie er es weiß, brach er auf und kam, wie es ihm gefiel; 105 und er trat ein und wohnte in ihr, ohne daß sie es fühlte, und sie empfing ihn ohne Schmerzen; und er wurde in ihrem Schoß wie zu einer Leibesfrucht, während der Erdkreis von ihm erfüllt war, 109 um sein Vorbild zu geben, daß er erneuern werde das alte Bild Adams. Wenn du also gehört hast von der Geburt Gottes, dann verharre in Schweigen,113 und das, was Gabriel sprach, sei abgebildet in deinem Geist! Denn es gibt nichts, das unmöglich wäre für jene gepriesene Maiestät,117 die unsertwillen sich herabließ und aus uns geboren wurde. Maria wurde heute für uns zum Himmel, der Gott trägt.121 Denn die erhabene Gottheit, die herabstieg, nahm in ihr Wohnung. In ihr wurde sie, um uns zu erheben, klein ohne in ihrer Natur klein zu werden.125 In ihr wob sie für uns ein Kleid, damit dadurch uns Rettung werde. In ihr fanden ihr Ende die Stimmen der Propheten und Gerechten.129 Aus ihr ging uns auf die Sonne und sie vertrieb die Finsternis des Heidentums. Zahlreich sind die Namen Mariens, und es schickt sich, daß ich sie damit nenne.133 Sie ist der Palast, in dem gewohnt hat der starke König der Könige. Und nicht verließ er sie so, wie er eintrat; denn in einen Körper kleidete er sich aus ihr und so ging er hervor.137 Sie ist ferner der neue Himmel, in dem der König der Könige wohnte. In ihr ging (Christus) auf und (von ihr) zog er aus in die Schöpfung, geformt und gehüllt in ihre Bilder.141 Der Weinstock ist sie mit der Traube; eine Frucht gab sie, die nicht in der Natur sich findet. Und obwohl seine Natur ihr nicht gleicht, hüllte er sich in ihre Farbe und kam aus ihr hervor.145 Die Quelle ist sie, aus der hervorfloß das lebendige Wasser für die Dürstenden. Und die von ihrem Trank verkosteten, geben Früchte, hundertfach. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>25 A novel wonder has God performed among the earth-born,in that He is born without marriage,and His herald’s birth, too, is beyond nature’s bounds.He who measures the heavens with the span of His hand30 lies in a manger, a span’s breadth;He whose cupped hands contain the seais born in a cave;His glory fills the heavensand the manger is filled with His splendour.35 Moses wished to see His glorybut was unable to see Him as he wished;let us come and see Him todayas He lies in the manger in swaddling clothesFormerly there was none who dared40 to see God and still live,but today all who have seen Himare saved from second death.Moses depicted His symbolswhen he saw fire in the bush,45 the Magi fulfilled these symbolswhen they saw Fire in the swaddling clothes.A voice cried out of the bush to Mosesthat he loose his sandals from his feet,the silence of a star told the Magi50 to come to the sacred place.Moses was unable to seethe Godhead, as Scripture tells,but the Magi entered and sawthe Godhead who had become Man.55 The cave corresponds to the heavens,and Moses to the Magi; if the hearer askswhere the correspondence liesbetween Moses, head of the prophets,60 and the Magi, heads of Persia,he should be persuaded by the factthat, had not God in former timechosen out wise and discerning mento be His heralds,65 He would not have accepted giftsfrom hands that were not holy.Moses depicted the symbols,our Lord fulfilled them.The face of Moses shone70 when God spoke with him,and he laid a veil over his facefor the people were unable to behold him-just as our Lord, from the womb,entered and put on the veil of the body.75 He shone out and went forth, and the Magibeheld Him and brought gifts.Great is the amazement on this earth of oursthat the Lord of all has come down to it:God has become Man,80 the Ancient has become a child,the Master has become like His servants,the King’s Son is as someone despised.The Exalted Nature has become low,mixing itself with our nature,85 taking upon itself, for us all,what is alien to its nature.Who is it who will not listen to this wonder,that God has come to be born?Who will not be amazed when he sees90 that the Lord of the angels has been born?Believe and hold it true without enquirythat this is so in truth.Look upon Mary, my beloved,how, when Gabriel entered to her95 and she spoke with him words of enquiry,“How shall this thing be?,”and the minister of the Spirit gave replyto Mary and said,“It is easy for God,100 all things are simple for Him.”She held it true when she heard, and said,“Behold, His handmaid am I.”Therefore He came down in a manner He knows;He stirred and came in a way that pleased Him.105 He entered and dwelt in her without her perceiving;she received Him, suffering nothing.He was in her womb as an infant,yet the whole world was full of Him.Of his love He came down to renew110 the image of Adam that had grown old.Therefore, when you hear of the birthof God, remain in silence;let the word of Gabrielbe depicted in your mind,115 for there is nothing that is hardfor that glorious Majestywhich, for our sakes, leaned downand for our sakes was revealed,for It bent down toward us,120 and among us was born, from one of us.This day Mary has become for usthe heaven that bears God,for in her the exalted Godheadhas descended and dwelt;125 in her It has grown small, to make us great,-but Its nature does not diminish;in her It has woven us a garment that shall be for our salvation.In her the words of the prophets130 and the just are all contained;from her the Luminous One has shone forthand dispelled the darkness of paganism.The titles of Mary are many and it is right that I should use them:135 she is the palace where dwells the mighty King of kings;not as He entered her did He leave her,for from her He put on a body and came forth.Again, she is the new heaven,140 in which there dwells the King of kings;He shone out in her and came forth into creation, formed and clothed in her features.She is the stem of the Cluster of grapes;she gave forth fruit beyond nature’s means; 145 and He, though His nature bore no resemblance to her,put on her hue and came forth from her.She is the fountain, whence flowedliving water for the thirsty,and those who have tasted its draught150 give forth fruit a hundred-fold.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

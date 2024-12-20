@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Palmyrenische Inschrift (CIS II: 3973)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1268" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1268</idno>
+          </msIdentifier>
+          <msContents>
+            <summary> Im Koran lässt sich eine gewisse Ambiguität gegenüber dem Wein feststellen, der zunächst unter die guten Gaben Gottes gerechnet wurde (Q 16:67). Später werden die Gläubigen ermahnt, nicht betrunken zum Gebet zu erscheinen (Q 4:43), und schließlich wird der Genuss des Weines (ḫamr) als eine schwere Sünde verurteilt (Q 2:219), mit dem Teufel in Verbindung gesetzt (Q 5:90) und strikt verboten (Kueny 2001: 1–24). Im Himmel hingegen erscheint der Wein als Getränk der Gerechten (Q 83:22–25; Q 37:45–47; Q 47:15), wobei betont wird, dass er, dort genossen, nicht betrunken mache (Qian 2017: 254–259).
+Im Zusammenhang mit der vorislamischen arabischen Weinkultur weist Mohammed Maraqten darauf hin, dass sich in einer durch den nabatäischen Reiter ʿUbaidū b. Ġānimū b. Saʿdallāt auf einem Altar in Palmyra angebrachten Inschrift aus dem Jahr 132 n. Chr., die der Gottheit Šayʿ al-Qaum zugeeignet ist, Hinweise auf ein religiös konnotiertes Weinverbot finden lassen (Maraqten 1993: 109). Nach Maraqten war den Anhängern der Gottheit der Genuss von Wein und das rituelle Trankopfer verboten (Maraqten 1993: 11). Bereits Enno Littmann hatte die Möglichkeit erwogen, dass die Enthaltsamkeit gegenüber dem Wein einen nomadischen Hintergrund haben könnte (Littmann 1904: 73–74; so auch Teixidor 1979: 86). Daneben stellt Maraqten heraus, dass es sich um einen mit dem Karawanenhandel assoziierten Gott gehandelt habe, der vornehmlich von Nomaden verehrt worden sei. In Petra ist dieser Gott nicht nachgewiesen, jedoch im Ḥaurān (im Süden des heutigen Syrien) und in Hegra/Madāʾin Ṣāliḥ (Roche 2017: 371–377, siehe zu dieser Gottheit allgemein Littmann 1904: 73 u. Teixidor 1979: 85–87).
+Susanne Krone weist darauf hin, dass safaitische (altnordarabische) Inschriften Šayʿ al-Qaum mit der Gottheit al-Lāt in Verbindung setzten (Krone 1992: 108–109; Roche 2017: 385–389), von der auch der Koran berichtet (Q 53:19–23). Die Stadt ʿĀna, aus der ʿUbaidū b. Ġānimū stammte, soll berühmt für ihren Wein gewesen sein (Heine 1982: 2). Mithin kann es sich nach nach Maraqten um einen Gegen-Kult in Bezug auf den nabatäischen Hauptgott Ḏū š-Šarā gehandelt haben (Maraqten 1993: 110). In diesem Zusammenhang ist eine Passage bei Diodorus Siculus (gest. ca. 30 v. Chr.) aufschlussreich, der von den Nabatäern zu berichten weiß, dass sie, einer beduinischen Lebensweise verpflichtet, keine Häuser erbauten, keine fruchtragenden Bäume kultivierten und auch keinen Wein konsumierten (TUK_1444). Javier Teixidor betont, dass sich die Lebensweise der Nabatäer seit der Zeit, auf die Diodorus Siculus Bezug nimmt, zwar verändert habe, einzelne Stämme, wie der der Rauḥa, dem ʿUbaidū angehörte, jedoch bei ihrer nomadischen Lebensweise geblieben seien (Teixidor 1979: 86–87). In einem rezenten Aufsatz bringt Steven A. Rosen zahlreiche archäologische Belege, die, neben einer durch den Handel geprägten städtischen Kultur, auf eine Persistenz nomadischer Lebensweisen schließen lassen (Rosen 2007). Darüber hinaus findet sich in der hebräischen Bibel (Jer 35:5–10) ein Hinweis darauf, dass beduinische Stämme sich des Weintrinkens enthielten (TUK_1450), und auch Ibn Ḥabīb stellt in seinem Kitāb al-muḥabbār eine Liste von insgesamt 29 Personen aus der vorislamischen Zeit zusammen, die keinen Wein getrunken hätten (Verweis bei Maraqten 1993: 111).
+</summary>
+            <msItem>
+              <title>Palmyrenische Inschrift (CIS II: 3973)</title>
+              <author>ʿUbaidū b. Ġānimū b. Saʿdallāt</author>
+              <textLang mainLang="">Aramäisch (Palmyrenisch)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">132 n. Chr.</origDate>
+              <origPlace>Palmyra (Nordarabien)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Académie des Inscriptions et Belles-Lettres 1926: 156–157</bibl>
+              <bibl type="literatur">Acad&amp;#xE9;mie des Inscriptions et Belles-Lettres: Corpus Inscriptionum Semiticarum. Pars Secunda: Inscriptiones Aramaicas continens. Tomus III. Fasciculus Primus. Paris 1926.</bibl>
+              <bibl type="literatur">Heine, Peter: Weinstudien. Untersuchungen zu Anbau, Produktion und Konsum des Weins im arabisch-islamischen Mittelalter. Wiesbaden 1982.</bibl>
+              <bibl type="literatur">Krone, Susanne: Die altarabische Gottheit al-L&amp;#x101;t. Lang, Frankfurt am Main 1992.</bibl>
+              <bibl type="literatur">Kueny, Kathrin: The Rhetoric of Sobriety. Wine in Early Islam. Albany 2001.</bibl>
+              <bibl type="literatur">Littmann, Enno: Semitic Inscriptions. New York 1904.</bibl>
+              <bibl type="literatur">Maraqten, Mohammed: &amp;#x201E;Wine Drinking and Wine Prohibition in Arabia before Islam&amp;#x201C;. In: Proceedings of the Seminar for Arabian Studies 23 (1993), S. 95&amp;#x2013;115.</bibl>
+              <bibl type="literatur">Qian, Ailin: &amp;#x201E;Delights in Paradise: A Comparative Survey of Heavenly Food and Drink&amp;#x201C;. In: Sebastian G&amp;#xFC;nther &amp;amp; Tod Lawson (Hrsg.), Roads to Paradise: Eschatology and Concepts of the Hereafter in Islam. Leiden/Boston 2017, S. 251&amp;#x2013;270.</bibl>
+              <bibl type="literatur">Roche, Marie-Jeanne: &amp;#x201E;Arabes et Jud&amp;#xE9;o-chr&amp;#xE9;tiens: &amp;#xE0; propos de Shay&amp;#x2BF; al-Qawm et de Jean le Baptiste&amp;#x201C;. In: Semitica 59 (2017), S. 369&amp;#x2013;408.</bibl>
+              <bibl type="literatur">Rosen, Steven A.: &amp;#x201E;The Nabateans as Pastoral Nomads: An Archaeological Perspective&amp;#x201C;. In: Konstantinos D. Politis (Hrsg.), The World of the Nabataeans. Stuttgart 2007, S. 345&amp;#x2013;373.</bibl>
+              <bibl type="literatur">Teixidor, Javier: The Pantheon of Palmyra. Leiden 1979.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FLittmann.jpg&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>1 [ת]רתן עלותא אלן עבד עבידו בר ענמו2 [בר] שעדלת נבטיא רוחיא די הוא פרש3 [ב]חירתא ובמשריתא די ענא4  לשיע־אלקום אלהא טבא ושכרא די לא5  שתא חמר על חיוהי וחיי מעיתי6  ועבדו אחוהי ושעדלת ברה בירח7  אלול שנת 443 ודכיר זבידא בר8  שמעון בר בלעקב גירה ורחמה קדם9  שיע־אלקום אלהא טבא ודכיר כל10 [די מ]עיד עלותא אלן ואמר דכירין11 [נשא] אלן כלהון בטב</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Diese beiden Altäre wurden angefertigt von ʿUbaidū, dem Sohn des Ġanimū
+2 [Sohn] des Saʿdallāt, der Nabatäer, (vom Stamm) der Ruḥāyyā, der ein Reiter war,
+3 in der Festung und Heerlager von ʿĀna
+4 für Šayʿ al-qawm, Gott und Segenbringer, der trinkt keinen
+5 Wein, für sein Leben und das Leben von Muġīṯay
+6 und ʿAbdū, seine Brüder, und Saʿdallāt, seinen Sohnen. Im Monat
+7 Elūl, im Jahr 132, möge des Zabīdā gedacht werden, des Sohn des
+8 [Š]imʿūn, Sohn des Bēlʿaqab, seines Patron und seiner Verwandten angesichts
+9 Šayʿ al-qawm, des guten Gottes. Es sei erinnert an alle
+10 Besucher dieses Altars and gesagt, dass gedacht sei
+11 ihrer aller in gutem (Andenken).</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 These [t]wo Altars made by ʿUbaidū son of Ġanimū
+2 [son] of Saʿdallāt, the Nabataen (the tribe) Ruḥāyyā who was a horse-man
+3 in the fort and the camp of ʿĀna
+4 for Šayʿ al-qawm, the god and the bountiful god, who does not drink
+5 wine. For his life and the life of Muġīṯay
+6 and ʿAbdū his brothers and Saʿdallāt his son. in the month
+7 Elūl , in the year 132 AD and may there be remembered Zabīdā son of
+8 [Š]imʿūn son of Bēlʿaqab his patron and his relatives in front of
+9 Šayʿ al-qawm, the good god, and may there be remembered
+10 all visitors of this altar (who visit it) and say may there be remembered11 all of them with good. (Maraqten 1993: 109–110)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

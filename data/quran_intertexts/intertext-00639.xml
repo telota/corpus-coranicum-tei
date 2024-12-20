@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ezechiel 1:4-28</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_639" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>639</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der göttliche Thron wird bereits in der biblischen Prophetie sowie in der späteren jüdischen Literatur thematisiert (Stellenangaben bei Speyer 1931: p. 21), vgl. etwa die Thronvisionen zu Beginn des Ezechielbuchs oder in Jesaja 6. Besonders eng berühren sich diese Stellen mit Q 81:20, wo der Thron ebenfalls im Kontext einer Vision erwähnt wird. Vgl. auch den Kommentar zu Q 69:17, sowie O'Shaughnessy 1973.
+</summary>
+            <msItem>
+              <title>Ezechiel 1:4-28</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. v. Chr. oder früher</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">O&amp;#x2019;Shaughnessy, Thomas: &amp;#x201E;God&amp;#x2019;s Throne and the Biblical Symbolism of the Qur&amp;#x2BE;&amp;#x101;n&amp;#x201C;. In: Numen 20 Fasc. 3 (1973), S. 202&amp;#x2013;221.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וָאֵרֶא וְהִנֵּה רוּחַ סְעָרָה בָּאָה מִן־הַצָּפוֹן עָנָן גָּדוֹל וְאֵשׁ מִתְלַקַּחַת וְנֹגַהּ לוֹ סָבִיב וּמִתּוֹכָהּ כְּעֵין הַחַשְׁמַל מִתּוֹךְ הָאֵשׁ : וּמִתּוֹכָהּ דְּמוּת אַרְבַּע חַיּוֹת וְזֶה מַרְאֵיהֶן דְּמוּת אָדָם לָהֵנָּה : וְאַרְבָּעָה פָנִים לְאֶחָת וְאַרְבַּע כְּנָפַיִם לְאַחַת לָהֶם : וְרַגְלֵיהֶם רֶגֶל יְשָׁרָה וְכַף רַגְלֵיהֶם כְּכַף רֶגֶל עֵגֶל וְנֹצְצִים כְּעֵין נְחֹשֶׁת קָלָל : וִידֵו אָדָם מִתַּחַת כַּנְפֵיהֶם עַל אַרְבַּעַת רִבְעֵיהֶם וּפְנֵיהֶם וְכַנְפֵיהֶם לְאַרְבַּעְתָּם : חֹבְרֹת אִשָּׁה אֶל־אֲחוֹתָהּ כַּנְפֵיהֶם לֹא־יִסַּבּוּ בְלֶכְתָּן אִישׁ אֶל־עֵבֶר פָּנָיו יֵלֵכוּ וּדְמוּת פְּנֵיהֶם פְּנֵי אָדָם וּפְנֵי אַרְיֵה אֶל־הַיָּמִין לְאַרְבַּעְתָּם וּפְנֵי־שׁוֹר מֵהַשְּׂמֹאול לְאַרְבַּעְתָּן וּפְנֵי־נֶשֶׁר לְאַרְבַּעְתָּן : וּפְנֵיהֶם וְכַנְפֵיהֶם פְּרֻדוֹת מִלְמָעְלָה לְאִישׁ שְׁתַּיִם חֹבְרוֹת אִישׁ וּשְׁתַּיִם מְכַסּוֹת אֵת גְּוִיֹתֵיהֶנָה : וְאִישׁ אֶל־עֵבֶר פָּנָיו יֵלֵכוּ אֶל אֲשֶׁר יִהְיֶה־שָׁמָּה הָרוּחַ לָלֶכֶת יֵלֵכוּ לֹא יִסַּבּוּ בְּלֶכְתָּן : וּדְמוּת הַחַיּוֹת מַרְאֵיהֶם כְּגַחֲלֵי־אֵשׁ בֹּעֲרוֹת כְּמַרְאֵה הַלַּפִּדִים הִיא מִתְהַלֶּכֶת בֵּין הַחַיּוֹת וְנֹגַהּ לָאֵשׁ וּמִן־הָאֵשׁ יוֹצֵא בָרָק : וְהַחַיּוֹת רָצוֹא וָשׁוֹב כְּמַרְאֵה הַבָּזָק : וָאֵרֶא הַחַיּוֹת וְהִנֵּה אוֹפַן אֶחָד בָּאָרֶץ אֵצֶל הַחַיּוֹת לְאַרְבַּעַת פָּנָיו : מַרְאֵה הָאוֹפַנִּים וּמַעֲשֵׂיהֶם כְּעֵין תַּרְשִׁישׁ וּדְמוּת אֶחָד לְאַרְבַּעְתָּן וּמַרְאֵיהֶם וּמַעֲשֵׂיהֶם כַּאֲשֶׁר יִהְיֶה הָאוֹפַן בְּתוֹךְ הָאוֹפָן : עַל־אַרְבַּעַת רִבְעֵיהֶן בְּלֶכְתָּם יֵלֵכוּ לֹא יִסַּבּוּ בְּלֶכְתָּן : וְגַבֵּיהֶן וְגֹבַהּ לָהֶם וְיִרְאָה לָהֶם וְגַבֹּתָם מְלֵאֹת עֵינַיִם סָבִיב לְאַרְבַּעְתָּן : וּבְלֶכֶת הַחַיּוֹת יֵלְכוּ הָאוֹפַנִּים אֶצְלָם וּבְהִנָּשֵׂא הַחַיּוֹת מֵעַל הָאָרֶץ יִנָּשְׂאוּ הָאוֹפַנִּים : עַל אֲשֶׁר יִהְיֶה־שָּׁם הָרוּחַ לָלֶכֶת יֵלֵכוּ שָׁמָּה הָרוּחַ לָלֶכֶת וְהָאוֹפַנִּים יִנָּשְׂאוּ לְעֻמָּתָם כִּי רוּחַ הַחַיָּה בָּאוֹפַנִּים : בְּלֶכְתָּם יֵלֵכוּ וּבְעָמְדָם יַעֲמֹדוּ וּבְהִנָּשְׂאָם מֵעַל הָאָרֶץ יִנָּשְׂאוּ הָאוֹפַנִּים לְעֻמָּתָם כִּי רוּחַ הַחַיָּה בָּאוֹפַנִּים : וּדְמוּת עַל־רָאשֵׁי הַחַיָּה רָקִיעַ כְּעֵין הַקֶּרַח הַנּוֹרָא נָטוּי עַל־רָאשֵׁיהֶם מִלְמָעְלָה : וְתַחַת הָרָקִיעַ כַּנְפֵיהֶם יְשָׁרוֹת אִשָּׁה אֶל־אֲחוֹתָהּ לְאִישׁ שְׁתַּיִם מְכַסּוֹת לָהֵנָּה וּלְאִישׁ שְׁתַּיִם מְכַסּוֹת לָהֵנָּה אֵת גְּוִיֹּתֵיהֶם : וָאֶשְׁמַע אֶת־קוֹל כַּנְפֵיהֶם כְּקוֹל מַיִם רַבִּים כְּקוֹל־שַׁדַּי בְּלֶכְתָּם קוֹל הֲמֻלָּה כְּקוֹל מַחֲנֶה בְּעָמְדָם תְּרַפֶּינָה כַנְפֵיהֶן : וַיְהִי־קוֹל מֵעַל לָרָקִיעַ אֲשֶׁר עַל־רֹאשָׁם בְּעָמְדָם תְּרַפֶּינָה כַנְפֵיהֶן : וּמִמַּעַל לָרָקִיעַ אֲשֶׁר עַל־רֹאשָׁם כְּמַרְאֵה אֶבֶן־סַפִּיר דְּמוּת כִּסֵּא וְעַל דְּמוּת הַכִּסֵּא דְּמוּת כְּמַרְאֵה אָדָם עָלָיו מִלְמָעְלָ וָאֵרֶא כְּעֵין : חַשְׁמַל כְּמַרְאֵה־אֵשׁ בֵּית־לָהּ סָבִיב מִמַּרְאֵה מָתְנָיו וּלְמָעְלָה וּמִמַּרְאֵה מָתְנָיו וּלְמַטָּה רָאִיתִי כְּמַרְאֵה־אֵשׁ וְנֹגַהּ לוֹ סָבִיב : כְּמַרְאֵה הַקֶּשֶׁת אֲשֶׁר יִהְיֶה בֶעָנָן בְּיוֹם הַגֶּשֶׁם כֵּן מַרְאֵה הַנֹּגַהּ סָבִיב הוּא מַרְאֵה דְּמוּת כְּבוֹד־יְהוָה וָאֶרְאֶה וָאֶפֹּל עַל־פָּנַי וָאֶשְׁמַע קוֹל מְדַבֵּר :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	4 Ich sah: Ein Sturmwind kam von Norden, eine große Wolke mit flackerndem Feuer, umgeben von einem hellen Schein. Aus dem Feuer strahlte es wie glänzendes Gold. 5 Mitten darin erschien etwas wie vier Lebewesen. Und das war ihre Gestalt: Sie sahen aus wie Menschen. 6 Jedes der Lebewesen hatte vier Gesichter und vier Flügel. 7 Ihre Beine waren gerade und ihre Füße wie die Füße eines Stieres; sie glänzten wie glatte und blinkende Bronze. 8 Unter den Flügeln an ihren vier Seiten hatten sie Menschenhände. [Auch Gesichter und Flügel hatten die vier.] 9 Ihre Flügel berührten einander. Die Lebewesen änderten beim Gehen ihre Richtung nicht: Jedes ging in die Richtung, in die eines seiner Gesichter wies. 10 Und ihre Gesichter sahen so aus: Ein Menschengesicht (blickte bei allen vier nach vorn), ein Löwengesicht bei allen vier nach rechts, ein Stiergesicht bei allen vier nach links und ein Adlergesicht bei allen vier (nach hinten). 11 Ihre Flügel waren nach oben ausgespannt. Mit zwei Flügeln berührten sie einander und mit zwei bedeckten sie ihren Leib. 12 Jedes Lebewesen ging in die Richtung, in die eines seiner Gesichter wies. Sie gingen, wohin der Geist sie trieb, und änderten beim Gehen ihre Richtung nicht. 13 Zwischen den Lebewesen war etwas zu sehen wie glühende Kohlen, etwas wie Fackeln, die zwischen den Lebewesen hin- und herzuckten. Das Feuer gab einen hellen Schein und aus dem Feuer zuckten Blitze. 14 Die Lebewesen liefen vor und zurück und es sah aus wie Blitze. 15 Ich schaute auf die Lebewesen: Neben jedem der vier sah ich ein Rad auf dem Boden. 16 Die Räder sahen aus, als seien sie aus Chrysolith gemacht. Alle vier Räder hatten die gleiche Gestalt. Sie waren so gemacht, dass es aussah, als laufe ein Rad mitten im andern. 17 Sie konnten nach allen vier Seiten laufen und änderten beim Laufen ihre Richtung nicht. 18 Ihre Felgen waren so hoch, dass ich erschrak; sie waren voll Augen, ringsum bei allen vier Rädern. 19 Gingen die Lebewesen, dann liefen die Räder an ihrer Seite mit. Hoben sich die Lebewesen vom Boden, dann hoben sich auch die Räder. 20 Sie liefen, wohin der Geist sie trieb. Die Räder hoben sich zugleich mit ihnen; denn der Geist der Lebewesen war in den Rädern. 21 Gingen die Lebewesen, dann liefen auch die Räder; blieben jene stehen, dann standen auch sie still. Hoben sich jene vom Boden, dann hoben sich die Räder zugleich mit ihnen; denn der Geist der Lebewesen war in den Rädern. 22 Über den Köpfen der Lebewesen war etwas wie eine gehämmerte Platte befestigt, furchtbar anzusehen, wie ein strahlender Kristall, oben über ihren Köpfen. 23 Unter der Platte waren ihre Flügel ausgespannt, einer zum andern hin. Mit zwei Flügeln bedeckte jedes Lebewesen seinen Leib. 24 Ich hörte das Rauschen ihrer Flügel; es war wie das Rauschen gewaltiger Wassermassen, wie die Stimme des Allmächtigen. Wenn sie gingen, glich das tosende Rauschen dem Lärm eines Heerlagers. Wenn sie standen, ließen sie ihre Flügel herabhängen. 25 Ein Rauschen war auch oberhalb der Platte, die über ihren Köpfen war. Wenn sie standen, ließen sie ihre Flügel herabhängen. 26 Oberhalb der Platte über ihren Köpfen war etwas, das wie Saphir aussah und einem Thron glich. Auf dem, was einem Thron glich, saß eine Gestalt, die wie ein Mensch aussah. 27 Oberhalb von dem, was wie seine Hüften aussah, sah ich etwas wie glänzendes Gold in einem Feuerkranz. Unterhalb von dem, was wie seine Hüften aussah, sah ich etwas wie Feuer und ringsum einen hellen Schein. 28 Wie der Anblick des Regenbogens, der sich an einem Regentag in den Wolken zeigt, so war der helle Schein ringsum. So etwa sah die Herrlichkeit des Herrn aus. Als ich diese Erscheinung sah, fiel ich nieder auf mein Gesicht. Und ich hörte, wie jemand redete.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1617">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Boston, Massachussets, Museum of Fine Arts, 09.333.1-2</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="63">Museum of Fine Arts
+                            , Boston, Massachussets</repository>
+            <idno>09.333.1-2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 bifol. on parchment; Shelfmark: 09.333.1-2; 7 lines per page; Dimensions: ca. 155 x 168mm (bifol.: 310 x 168mm).</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://collections.mfa.org/objects/8986/">museum's website</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_692234" n="1v">
+              <title type="numeric" key="005:036:024-005:038:013">
+                                    005:036:024-005:038:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692233" n="4r">
+              <title type="numeric" key="005:045:031-005:046:025">
+                                    005:045:031-005:046:025
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 4
+                                    <dimensions unit="mm"><width>155</width><height>168</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_52192">
+      <graphic decls="#imageRights-1" url="manuscript/1617/78980c5a-20bf-4b12-98c0-97f723834de5/manuscript-1617-page-52192-image-40870.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1617/8b0d58b7-2dd7-4484-a0cf-4c541bd04441/manuscript-1617-page-52192-image-40871.jpg"/>
+    </surface>
+    <surface n="4r" xml:id="mysql_id_52191">
+      <graphic decls="#imageRights-1" url="manuscript/1617/d4947c6c-177e-4e3f-bae9-a50c447df180/manuscript-1617-page-52191-image-40868.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1617/5c484280-791c-459d-953c-d92ff7fcae72/manuscript-1617-page-52191-image-40869.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

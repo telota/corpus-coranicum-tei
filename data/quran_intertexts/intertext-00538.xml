@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_538" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>538</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie an den angegebenen Koranstellen, erscheint bei Jakob von Sarug die Vorstellung, dass der Teufel und seine Heerscharen (arabisch ǧunūd, syrisch ḥaylawwātā) am Ende der Zeit endgültig in die Hölle geworfen werden. Diese Idee findet sich bereits in der Offenbarung des Johannes 20:10, vgl. auch TUK_0537.
+</summary>
+            <msItem>
+              <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan (Hg.), Homiliae Selectae Mar-Jacobi Sarugensis, Band 1, Paris 1905, S. 704-709.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>135 ܕܓܠܘܬܐ ܘܡܣܒ ܒܐܦ̈ܐ ܛܪܝܢ ܡ̣ܢ ܬܡܢ:ܕܟܐܝܢ ܗ̣̄ܘ ܕܝܢܐ ܘܩܐܡ ܟܠܗ ܒܬܪܝܨܘܬܐ܀ܒܗܘ̇ ܒܝܬ ܕܝܢܐ ܠܕܝܢܐ ܥܐܠܝܢ ܐܦ ܕܝܢ̈ܐ:ܟܕ ܡܬܥܩܒܝܢ ܣܘܥܖ̈ܢܝܗܘܢ ܘܥܒܕܝ̈ܗܘܢ܀ܫܩܝܠܝܢ ܕܖ̈ܓܐ ܡ̣ܢ ܕܝܢ̈ܐ ܘܥܐܠܝܢ ܢܗܘܘܢ:140 ܡܬܬܕܝ̈ܢܢܐ ܒܕܝܢܐ ܟܐܢܐ ܡ̣ܢ ܟܐܢܘܬܐ܀ܦܪܝܛܝܢ ܟܒ̈ܢܐ ܕܫܠܝܛܢ̈ܐ ܘܥܪܛܠܐܝܬ:ܒܨܘܪܐ ܓܠܝܐ ܩܝܡܝܢ ܬܡܢ ܐܝܟ ܚܠܫ̈ܐ܀ܠܐ ܐ̄ܢܫ ܚܙ̇ܐ ܡܠܟܐ ܕܐܝܬ ܠܗ ܟܠܝܠܐ ܬܡܢ:ܘܠܐ ܕܝܢܐ ܕܐܝܬ ܠܗ ܡܘܬܒܐ ܒܗܘ̇ ܒܝܬ ܕܝܢܐ܀145 ܥܡ ܡܣܟ̈ܢܐ ܩܝܡܝܢ ܬܡܢ ܡܖ̈ܘܬܐ:ܘܠܐ ܐ̄ܢܫ ܦܩ̇ܕ ܐܠܐ ܚܕ ܗ̣̄ܘ ܪܫ ܕܝܢ̈ܐ܀ܟܠܗܘܢ ܕܝ̈ܢܐ ܕܐܬܬܕܝܢܘ ܗܪܟܐ ܥܘܠܐܝܬ:ܠܕܝܢܐ ܥܐܠܝܢ ܕܢܦܩܘܢ ܬܡܢ ܙܕܝܩܐܝܬ܀ܟܠܝ̈ܠܐ ܘܬܓ̈ܐ ܘܟܘܖ̈ܣܘܬܐ ܕܫܠܝܛܢ̈ܐ:150 ܣܚܝܦܝܢ ܐܢܘܢ ܡ̣ܢ ܐܖ̈ܟܘܢܐ ܒܕܝܢܐ ܟܐܢܐ܀ܘܐܝܟ ܬܚܘܒ̈ܐ ܩܝܡܝܢ ܬܡܢ ܒܥܒܕܝ̈ܗܘܢ:ܘܐܝܟ ܒܗܝ̈ܬܐ ܐܠܐ ܬܪܝܨܝܢ ܣܘܥܖ̈ܢܝܗܘܢ܀ܠܐ ܡܬܒܥ̈ܝܢ ܡܠ̈ܐ ܬܡܢ ܘܠܐ ܡܠܠ̈ܐ:ܕܚܕ ܗ̣̄ܘ ܡܡܠܠ ܘܟܠܗ ܥܠܡܐ ܒܙܘܥܐ ܩܐܡ܀155 ܠܐ ܚܟܝ̈ܡܐ ܐܦܠܐ ܡܠ̈ܐ ܚܟܝ̈ܡܬܐ:ܩܝܡܝܢ ܬܡܢ ܐܠܐ ܫܪܪܐ ܘܗܝܡܢܘܬܐ܀ܠܚܟܡܬܐ ܘܥܘܬܪܐ ܒܥܠܡܢ ܒܠܚܘܕ ܐܝܬ ܐܝܩܪܐ:ܒܗܘ̇ ܕܝܢ ܥܠܡܐ ܙܕܝܩܘܬܐ ܢܨܚܐ ܬܡܢ܀ܐܝܢܐ ܕܣܚ̇ܐ ܒܝܡܐ ܕܢܘܪܐ ܘܠܐ ܡܘܩܕ ܠܗ:160 ܣܓܝ ܚܟܝܡ ܕܝܕܥ̇ ܢܙܟܐ ܠܫܠܗܒܝܬܐ܀ܐܝܢܐ ܕܥܠ ܩܡ̣ ܢܗܘܐ ܝܪܬܐ ܒܝܬ ܡܠܟܘܬܐ:ܗܘܝܘ ܕܥܬܝܪ ܥܘܬܪܐ ܕܫܪܝܪ ܘܡܠܐ ܛܘ̈ܒܐ܀ܘܠܐ ܢܒܝܘܬܐ ܪܒܐ ܬܡܢ ܐܘ ܡܬܒܥܝܐ:ܕܒܗܘ̇ ܥܠܡܐ ܠܐ ܕܡܬܢܒܐ ܘܠܐ ܕܡܬܪܓܡ܀165 ܢܒ̈ܝܘܬܐ ܫܩܠ̣ ܣܟܝ̈ܗܝܢ ܥܡ ܙܒܢܝ̈ܗܝܢ:ܘܬܘܒ ܠܐ ܡܫܟܚ ܐ̄ܢܫ ܢܬܢܒܐ ܒܥܠܡܐ ܚܕܬܐ܀ܡܢ ܓܝܪ ܐܝܬ ܠܗ ܠܕܡܬܢܒܐ ܕܢܐܡܪ ܬܡܢ:ܕܟܠܗ ܪܗܛܐ ܕܢܒܝܘܬܐ ܢܚ ܠܗ ܬܡܢ܀ܟܠܗܘܢ ܐ̄ܖ̈ܙܐ ܟܠ ܚܟܝ̈ܡܐ ܟܠ ܡܠܦܢ̈ܐ:170 ܟܠ ܕܐܬܢܒܝܘ ܡܛܠ ܥܠܡܐ ܚܕܬܐ ܡܠܠܘ܀ܡܐ ܕܐܬ̣ܐ ܠܗ ܥܠܡܐ ܚܕܬܐ ܐܝܟ ܕܐܣܬܟܝ:ܡܢ ܬܘܒ ܢܐܡܪܘܢ ܐܘ ܢܬܢܒܘܢ ܡܢܗ ܘܠܗܠ܀ܠܘ ܡܥܒܪܬܐ ܐ̄ܚܪܬܐ ܐܝܬ ܠܗ ܠܥܠܡܐ ܪܒܐ:ܘܥܠ ܗܘ̇ ܥܒܪܐ ܢܬܢܒܐ ܐ̄ܢܫ ܐܘ ܕܢܡܠܠ܀175 ܠܐ ܗ̄ܘ̣ܐ ܕܢܦܠ ܐܝܬ ܠܗ ܠܥܠܡܐ ܗܘ̇ ܕܠܥܠܡ:ܕܥܠ ܡܦܘܠܬܐ ܢܐܬܐ ܢܒܝܐ ܘܢܬܢܒܐ ܗ̄ܘ̣ܐ܀ܠܐ ܗ̄ܘ̣ܐ ܙܒ̈ܢܐ ܟܕܝܢܝܢ ܬܡܢ ܥܠ ܡܥܒܪܬܐ:ܕܢܡܠܠ ܐ̄ܢܫ ܡܛܠ ܙܒ̈ܢܐ ܐ̄ܚܖ̈ܝܐ ܕܐܬܝܢ܀ܓܫܪܐ ܦܣܝܩ ܗ̄ܘ̣ ܩܕܡ ܥܕܢ̈ܐ ܕܠܐ ܢܬܟܪܟܘܢ:180 ܕܥܠܡܐ ܪܒܐ ܩܐܡ ܘܓܠܐ ܕܠܐ ܫܘܚܠܦܐ܀ܥܕܡܐ ܠܬܡܢ ܐܝܬ ܗ̣̄ܘ ܪܗܛܐ ܠܢܒܝܘܬܐ:ܘܫܠܡܬ ܪܗܛܗ̇ ܘܗܐ ܚܕܝܐ ܒܗ ܒܥܠܡܐ ܚܕܬܐ܀ܘܡܛܠ ܗܢܐ ܦܘܠܘܣ ܪܒܐ ܟܕ ܡܠܦ ܗ̄ܘ̣ܐ:ܐ̄ܡ̣ܪ ܗ̄ܘ̣ܐ ܕܒܛܠܐ ܐܦ ܝܕܥܬܐ ܘܢܒܝܘܬܐ܀185 ܡܐ ܕܐܬܢܒܝ ܢܒܝܐ ܘܒܕܩ ܥܠ ܣܘܥܪܢܐ:ܠܡܢ ܓܝܪ ܐܠܨܐ ܕܢܬܢܒܐ ܬܘܒ ܕܩܡ ܣܘܥܪܢܐ܀ܢܒܝ̈ܐ ܟܠܗܘܢ ܗܐ ܐܬܢܒܝܘ ܥܠ ܡܐܬܝܬܐ:ܘܡܐ ܕܕܢܚܬ ܠܗ̇ ܦܫ ܠܗ ܪܗܛܗ̇ ܕܢܒܝܘܬܐ܀ܬܒܝܪ ܗ̣̄ܘ ܣܪܢܗ̇ ܕܓܝܓܠܐ ܕܙܒ̈ܢܐ ܘܠܐ ܡܬܟܪܟܐ:190 ܘܠܐ ܡܣܬܟܐ ܙܒܢܐ ܐ̄ܚܪܢܐ ܕܢܐܬܐ ܠܐܪܥܐ܀ܒܛܠܝܢ ܖ̈ܗܛܐ ܐܦ ܐܬܠܝ̈ܣܐ ܕܙܕܝܩܘܬܐ:ܘܠܐ ܐܝܬ ܐܬܪܐ ܠܐ ܠܒܥܘܬܐ ܘܠܐ ܠܨܠܘܬܐ܀ܕܢܦܠ ܢܦܝܠ ܘܕܠܐ ܢܦܝܠ ܗܐ ܩܐܡ ܗ̄ܘ̣:ܘܠܐ ܐܝܬ ܬܡܢ ܠܐ ܐܓܘܢܐ ܘܠܐ ܡܦܘܠܬܐ܀195 ܐܟܠܩܪܨܐ ܢܦܠ̣ ܠܗ ܒܢܘܪܐ ܘܚܝ̈ܠܘܬܗ: ܘܠܝܬ ܐܓܘܢܐ ܐܦ ܠܐ ܫܕ̈ܠܐ ܕܪ̈ܓܝܓܬܐ܀ܠܛܘܥܚ ܬܡܢ ܠܐ ܬܘܒ ܐܝܬ ܠܗ̇ ܥܒܕܐ ܬܥܒܕ:ܕܡܬܓܠܝܐ ܠܗ̇ ܗܝ̇ ܬܚܦܝܬܐ ܡ̣ܢ ܢܦ̈ܫܬܐ܀ܚܕ̣ܐ ܝܕܥܬܐ ܘܚܕ ܣܘܟܠܐ ܘܚܕ ܪܥܝܢܐ:200 ܗܘ̇ܐ ܬܡܢ ܠܒܢܝ̈ܢܫܐ ܕܠܐ ܫܘܚܠܦܐ܀ܐܠܗܐ ܓܝܪ ܟܠ ܒܟܠ ܗܘ̇ܐ ܒܥܠܡܐ ܚܕܬܐ:ܘܚܕܐ ܗ̣̄ܝ ܬܡܢ ܗܝܡܢܘܬܐ ܕܠܐ ܚܪܝܢܐ܀ܠܘ ܗܘ̇ ܗܟܢ ܘܗܢܐ ܐ̄ܚܪܢܐ ܗܟܢ ܐܡ̇ܪ:ܒܟܠ ܘܒܟܠܢܫ ܚܕܐ ܗ̣̄ܝ ܝܕܥܬܐ ܕܗܝܡܢܘܬܐ܀205 ܐܠܗܐ ܓܝܪ ܕܠܐ ܬܚܦܝܬܐ ܡܚܘܐ ܢܦܫܗ:ܘܒܟܠ ܗܘ̇ܐ ܫܪܪܐ ܕܢܕܥܘܢ ܚܕ ܐܠܗܐ܀ܡ̣ܢ ܡܠܟܘܬܐ ܘܡ̣ܢ ܓܗܢܐ ܚܕ ܪܥܝܢܐ:ܚܕܐ ܬܫܒܘܚܬܐ ܚܕܐ ܬܘܕܝܬܐ ܠܚܕ ܐܠܗܐ܀ܡܫܒܚܝܢ ܛܒ̈ܐ ܡܛܠ ܕܫܩܠܘ ܦܘܖ̈ܥܢܝܗܘܢ:210 ܡܘܕܝܢ ܒܝ̈ܫܐ ܒܢܓܕܐ ܕܢܘܪܐ ܠܣܘܥܖ̈ܢܝܗܘܢ܀ܕܚܕ ܗ̄ܘ̣ ܡܡܠܠ ܘܫܠܐ ܟܠܢܫ ܘܡܠܐ ܙܘܥܐ:ܘܗܝ ܬܪܥܝܬܗ ܕܝܢܐ ܠܟܠܢܫ ܥܠ ܣܘܥܖ̈ܢܘܗܝ܀ܒܛܠܝܢ ܬܡܢ ܖ̈ܗܛܝ ܥܠܡܐ ܘܥܒܝ̈ܕܬܗ:ܘܫܐܠܐ ܬܘܬܐ ܥܠ ܖ̈ܥܝܢܐ ܕܐܫܬܥܒܕܘ ܠܗ̇܀215 ܗܘ ܠܗ ܒܣܪ ܟܠ ܐ̄ܢܫ ܬܡܢ ܐܝܟ ܕܝܢܐ:ܘܡܟܘܢܐ ܠܗ ܬܐܪܬܗ ܕܢܒܗܬ ܡ̣ܢ ܟܐܢܘܬܐ܀ܟܡܐܢ̈ܐ ܕܥܘܠܐ ܘܟܠ ܐܣܟܡ̈ܐ ܕܕܓܠܘܬܐ:ܡܦܪܣܝܢ ܩܝܡܝܢ ܘܠܝܬ ܣܬܪܐ ܢܛܫܐ ܐܢܘܢ܀ܟܠ ܟܣ̈ܝܬܐ ܕܒܚܫܘܟܐ ܡܣܬܥܪܢ ܗ̣̄ܘܝ̈:220 ܠܓܠܝܐ ܢܦ̈ܩܢ ܢܚܙܐ ܐܢܝܢ ܥܠܡܐ ܟܠܗ܀ܥܒܕ̈ܐ ܟܠܗܘܢ ܛܒ̈ܐ ܘܒܝ̈ܫܐ ܙܖ̈ܥܐ ܐܢܘܢ:ܘܪܥܡܐ ܕܚܝ̈ܐ ܠܟܠܗܘܢ ܡܘܥܐ ܢܦܪܣܐ ܐܢܘܢ܀ܐܝܢܐ ܕܥ̣ܒܕ ܛܒܬܐ ܘܛܡܪܗ̇ ܕܠܐ ܬܬܚܘܐ:ܡܚܘܝܐ ܢܦܫܗ̇ ܘܡܫܒܚܐ ܠܗ ܩܕܡ ܕܝܢܐ܀225 ܘܐܝܢܐ ܕܛܫܝ ܒܝܫܬܗ ܒܟܣܝܐ ܘܕܡܣܬܥܪܐ:ܬܡܢ ܫܘܚܐ ܘܝܗܒܐ ܠܡܪܗ̇ ܒܗܬܬ ܐܦ̈ܐ܀ܡ̣ܢ ܟܣ̈ܝܬܐ ܗܘ̇ܐ ܕܝܢܐ ܒܗܘ̇ ܒܝܬ ܕܝܢܐ:ܘܟܠܗܝܢ ܗܘ̈ܝܢ ܓܠ̈ܝܢ ܬܡܢ ܐܝܟ ܖ̈ܡܬܐ܀ܛܘܪܐ ܪܡܐ ܦܫܝܩ ܢܬܚܦܐ ܡ̣ܢ ܐܝܡܡܐ:230 ܐܘ ܒܘܨܪܐ ܙܥܘܪܐ ܬܡܢ ܡ̣ܢ ܕܝܢܐ܀ܡܠ̈ܐ ܕܦܘܡܐ ܠܕܝܢܐ ܥܐ̈ܠܢ ܐܝܟ ܣܘܥܖ̈ܢܐ:ܘܟܠܢܫ ܡܬܬܒܥ ܢܦܘܩ ܪܘܚܐ ܕܡܢܐ ܡܠܠ܀ܖ̈ܡܙܐ ܕܥܝ̈ܢܐ ܥܒܕ̈ܐ ܐܢܘܢ ܒܗܘ̇ ܒܝܬ ܕܝܢܐ:ܘܪܐܓ ܐܢ̄ܬܬܐ ܥܡ ܓܝܖ̈ܐ ܡܬܝܚ ܢܬܢܓܕ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>195 Der Verleumder [der Teufel] und seine Heerscharen sind ins Feuer gefallen. Es gibt nun keinen Streit und auch keine Sinnesverführungen mehr.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

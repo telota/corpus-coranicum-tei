@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_993">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 27</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 27</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>F. Déroche schreibt zu dem Fragment (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, S. 53): "7 / Single folio / Second half of the 8th century AD or early 9th / Fragmentary (largest dimensions now 14.2x16.5cm), with parts of 15 lines surviving / <hi rend="italic">Material</hi> Parchment; the recto is the hair side / <hi rend="italic">Text area</hi> Length 12.8cm; maximum width now 16.5cm / <hi rend="italic">Script</hi> Close to style B.1 / <hi rend="italic">Accession no</hi>. KFQ27 / Cat.8 is from the same Qur’an / This folio is badly damaged, and parts of the text, including perhaps a line at the bottom, are missing. The surviving text, which runs from <hi rend="italic">Sūrat al-aʿrāf </hi>(VII),<hi rend="italic"> </hi>verse 204<hi rend="italic">,</hi> to <hi rend="italic">Sūrat al-anfāl</hi> (VIII), verse 15, was written in black ink, with diacritical strokes. (Note that <hi rend="italic">qāf</hi> is marked by a dot under the letter.) There is no vocalization. The verses are divided by clusters of strokes (I.I.I). A decorative band was drawn in brown ink between the two surahs, but only the central part survives. This is divided into three panels: that on the left is divided by x-shapes into smaller areas decorated with circular motifs; the middle panel is filled with a rope-work pattern; and the right-hand compartment is decorated by a series of small circles between two festoon-like bands. Arrow-like devices extend above and below the central section and mark its junctions with the other elements."</p>
+            </summary>
+            <msItem xml:id="mysql_id_678256" n="1r">
+              <title type="numeric" key="007:204:005-008:006:011">
+                                    007:204:005-008:006:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678257" n="1v">
+              <title type="numeric" key="008:007:015-008:014:006">
+                                    008:007:015-008:014:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>165</width><height>142</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40355">
+      <graphic decls="#imageRights-1" url="manuscript/993/fa51e933-fbd2-4f21-8d9c-30a72e98d733/manuscript-993-page-40355-image-27763.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40356">
+      <graphic decls="#imageRights-1" url="manuscript/993/77b49a05-a494-4a57-8b31-047ab53785e8/manuscript-993-page-40356-image-27764.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

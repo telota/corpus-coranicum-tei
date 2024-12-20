@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1902">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Istanbul Üniversitesi Kütüphanesi, A 6803</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="99">Istanbul Üniversitesi Kütüphanesi
+                            , Istanbul</repository>
+            <idno>A 6803</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Two folios; Writing Surface: parchment; Shelfmark: A 6803; Qurʾānic Text: Q 9:1-3, Q 9:46-49; Lines per page: 7; Dimensions: 333 x 310 mm; Script style: kūfī (type D); Estimated date of production: 750-900.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts in the Istanbul university library contains the following information (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/VJT6C762" sameAs="VJT6C762" type="zotero">Karatay 1951</ref>, p. 1): </p>
+              <p>"No. 2,A 6803  Kurandan bis parça   Parṣömen. 333 m.m. boy ve 310 m.m.  eninde 2 yaprak; sahifede 240 m.m. uzun. kûfî yazı ile yazilmiṣ 7 satır.  II/VIII. asır olması muhtemeldir.  Kuranın 10. suresi olan sūrat  at-Tavba'nın 1,2,3,47,48,49 ve 50. ayetleri yazıldır. Sure baṣı ara üslûbunda basit tezhiplidir. Cildi yeṣil bez ile kaplıdır." </p>
+            </summary>
+            <msItem xml:id="mysql_id_698533" n="1r">
+              <title type="numeric" key="009:000:000-009:002:006">
+                                    009:000:000-009:002:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_698534" n="1v">
+              <title type="numeric" key="009:002:007-009:003:015">
+                                    009:002:007-009:003:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_698535" n="2r">
+              <title type="numeric" key="009:046:013-009:047:017">
+                                    009:046:013-009:047:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_698536" n="2v">
+              <title type="numeric" key="009:048:001-009:049:011">
+                                    009:048:001-009:049:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>333</width><height>310</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_54268">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_54269">
+                    </surface>
+    <surface n="2r" xml:id="mysql_id_54270">
+                    </surface>
+    <surface n="2v" xml:id="mysql_id_54271">
+                    </surface>
+  </facsimile>
+</TEI>

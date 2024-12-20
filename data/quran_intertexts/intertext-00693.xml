@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus Rabba, Parascha 3:16</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_693" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>693</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In Q 19:53 wird Aaron als nabīy ("Prophet") bezeichnet. Q 4:163 nennt Aaron als Teil einer Liste von Propheten (nabiyyūn), denen Gott Offenbarungen eingegeben hat (ʾauḥainā). Daneben finden sich Stellen, die ein Prophetentum Aarons implizieren könnten. So wird Aaron in Q 37:114-122 Mose gleichgestellt, z.B. werden beide den geraden Weg geleitet, beide erhalten die Schrift (kitāb), über beide wird die Eulogie gesprochen, etc. Ähnlich auch in Q 21:48. In Q 6:84 erscheint Aaron als Teil einer Liste Rechtgeleiter aus der Nachkommenschaft Abrahams, die verschiedene Propheten umfasst. Auch Texte der jüdischen Tradition weisen Stellen auf, die sich als Hinweise auf eine Vorstellung vom Prophetentum Aarons interpretieren lassen. Heinrich Speyer weist in diesem Zusammenhang auf Ex 4:14-16 hin, sowie auf Ex 7:1-2 (vgl. dazu TUK_0434 und die Anmerkung dort), wobei dort hebr. naḇiʾ eher "Sprecher" bedeutet, so evtl. auch in Q 19:53. Als möglicher Hinweis auf ein Prophetentum Aarons in der Hebräischen Bibel lässt sich vielleicht auch noch Ex 4:27 sehen, wo Gott Aaron aufträgt, Moses entgegen zu gehen. Explizit findet sich die Vorstellung vom Prophetentum Aarons dagegen im hier zitierten Midrasch (Speyer 1931: p. 261-262).
+
+	Die Datierung von Exodus Rabba ist umstritten. Obwohl Shinan zufolge die Endredaktion von Exodus Rabba erst im 10. Jh. stattgefunden hat, ist doch eine Verwendung früherer Traditionen wahrscheinlich. Aufgrund der relativ späten Endredaktion kann aber nicht ausgeschlossen werden, dass bereits islamische Elemente Eingang in Exodus Rabba gefunden haben. Allgemein zur Problematik der Datierung von Exodus Rabba siehe Günter Stemberger, Einführung in Talmud und Midrasch, 9. Auflage, München 2011, S. 342-343.
+</summary>
+            <msItem>
+              <title>Exodus Rabba, Parascha 3:16</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 10. Jh.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Avigdor Shinan, Midrash Shemot Rabbah, Chapters I-XIV. A Critical Edition Based on a Jerusalem Manuscript, with Variants, Commentary and Introduction, Tel Aviv 1984.
+</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ורבנן אמרי: סבור אתה שהיה משה מעכב לילך? אינו כן, אלא כמדבר לאהרן. היה משה אומר  עד שלא עמדתי היה אהרן אחי מתנבא להם במצרים פ' שנה.  הוא שכתוב: ואודע להם בארץ מצרים. ומנין שאהרן היה מתנבא? שכן הוא אומר: ויבא איש אלהים אל עלי ויאמר אליו [כה אמר ה'] הנגלה נגליתי אל בית אביך [בהיותם במצרים לבית פרעה] ובחר אתו מכל שבטי ישראל לי לכהן אמר משה: עכשיו אכנס אני לתחומו של אחי ויהיה מייצר, לפיכך לא היה מבקש לילך.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Die Rabbinen sagen: solltest du etwa meinen, dass Moses sich geweigert habe zu gehen? Keineswegs, er tat es nur, um Aaron zu ehren; denn Moses dachte: bevor ich noch erstanden war, hat mein Bruder Aaron in Ägypten schon 80 Jahre ihnen prophezeit, wie es heisst: "ich gab mich ihnen im Lande Ägypten zu erkennen." [Ezechiel 20:] Und woher lässt sich beweisen, dass Aaron prophezeit hat? Aus 1 Samuel 2:27-28: "Es kam ein Mann Gottes zu Eli und sprach zu ihm: So spricht der Ewige: Habe ich mich nicht deinem Vaterhause offenbart, als sie in Ägypten waren im Hause Pharaos; und ich habe ihn aus allen Stämmen Israels zu meinem Priester erkoren." Moses dachte nämlich: Jetzt soll ich in das Gebiet meines Bruders dringen, dass er sich darüber grämt; darum wollte er nicht gehen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>The Rabbis say that one must not think that Moses refused to go, he only wished to pay respect to Aaron; for Moses said: "Before I arose, my brother Aaron prophesied to them in Egypt for eighty years", as it is written: I made Myself known unto them in the land of Egypt (Ez 20:5). Whence do we know that it was Aaron who prophesied? For so it says: And there came a man of God unto Eli, and said unto him: Thus saith the Lord: Did I reveal Myself unto the house of thy father, when they were in Egypt in bondage to Pharao's house? And did I choose him out of all the tribes of Israel to be My priest? (1 Sam 2:27-28). Moses thought: "If I now trespass upon the domain of my brother, he will be vexed." On this account, he was reluctant to go.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

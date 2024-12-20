@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Altsüdarabische Inschrift Ry 520: Bauinschrift der Synagoge Yaʿūq</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1430" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1430</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Unter den Gottheiten, von deren Anbetung Noah in Q 71:23 die Menschen abbringen will, ist neben Wadd, Suwāʿ, Yaġūṯ und Nasr die Gottheit Yaʿūq genannt (zur Gottheit Wadd, vgl. TUK_0940). Muslimische Gelehrte wie aṭ-Ṭabarī (gest. 923) berichten, dass die arabischen Stämme vor dem Islam verschiedene Gottheiten angebetet hätten, vgl. Tafsīr: "Bišr überliefert von Saʿīd nach Qatāda... Wadd war bei dem Stamm der Kalb, der in Dūmat al-Ǧandal lebt, und Suwāʿ [wurde verehrt] bei den Huḏailiten in Riyāṭ. Yaġūṯ bei den Banū Ġuṭaif aus dem Stamm der Murāḍ in der Region al-Ǧurf im Jemen, Yaʿūq in Balḫaʾ bei den Hamdān. Nasr [wurde verehrt] vom Klan der Ḏū Kilāʿ aus Himjar. Die genannten Gottheiten verehrte das Volk Noahs bevor die Araber Allāh annahmen, ohne sich Abbilder [von Gottheiten] aus Holz, Lehm oder Stein [anzufertigen].", siehe arabische Edition: ḥaddaṯanā Bišr qāla ḥaddaṯanā Saʿīd ʿan Qatāda.... qāla kāna Wadd 
+li-hāḏa l-ḥayyi min Kalb bi-Dūmat al-Ǧandal wa-kānat Suwāʿ li-Huḏail 
+bi-Riyāṭ wa-kāna Yaġūṯ li-Banī Ġuṭaif min Murād bi-l-Ǧurf min Sabaʾ 
+wa-kāna Yaʿūq li-Hamdān bi-Balḫaʿ wa-kāna Nasr li-Ḏī Kilāʿ min Ḥimyar 
+qala kānat hāḏihi l-ʾālihatu yaʿbudūnahā qaumu Nūḥa ṯumma ttaḫaḏaha 
+l-ʿArab baʿda ḏālika wa-llāha mā ʿadā ḫašbatan ʾau ṭīnatan ʾau ḥaǧaran  (aṭ-Ṭabarī 1999: p. 204).Anders als für die Gottheiten Wadd und Yaġūṯ, die epigraphisch belegt sind, cf. TUK_0940, ist in den altsüdarabischen Inschriften keine Gottheit mit dem Namen "Yaʿūq" erwähnt. In der angebenen Inschrift ist Yaʿūq der Name einer Synagoge (sabäisch mkrb belegt in den Inschriften Garb Bayt al-Ashwal, Ry 534 + Rayda 1, Ḥaṣī 1, Gl 1194, CIH 151 + CIH 152, Ja 856 und YM 1200 Robin 2003: pp. 97-172, p. 122.). Das Wort wird in Zeile 4 Yʿq geschrieben, in Zeile 9 Yʿwq (mit dem Buchstaben /w/), weshalb die Vokalisierung "Yaʿūq" mit langem /ū/ gerechtfertigt erscheint. Die Bauinschrift wurde von nicht näher bekannten Personen gestiftet, deren Namen in der angegebenen Übersetzung unvokalisiert bleiben. Sie erwähnt vier Mal den Gottesnamen Raḥmanan, einmal mit der Namensergänzung "Herr der Himmel" (bʿl smyn), einem Ausdruck, der der koranischen Gottesbezeichnung rabb as-samawāt ("Herr der Himmel") entspricht (z.B. Q 17:102, Q 18:14, Q 26:24). Der Name der Synagoge mag zufällig den gleichen Namen haben wie die Gottheit Yaʿūq aus der koranischen Noahgeschichte in Q 71:23. Bei dem Namen Yaʿūq, der sich bislang sprachhistorisch nicht aus dem Arabischen, Hebräischen oder Sabäischen erklären lässt, könnte es sich um den Namen einer antiken Gottheit oder eines Kultortes handeln, der in der monotheistischen Epoche des Jemen (ab dem 4. Jh.) weiterlebte.Die Inschrift Ry [= Ryckmans] 520 wurde vom belgischen Orientalisten Gonzague Ryckmans (1887-1969) 1954 publiziert. Von der Inschrift ist nur ein Scharz-Weiß-Foto vorhanden (siehe Abbildung) und ihr genauer Fundort bleibt unbekannt. Sie soll aus der Umgebung von Sanaa stammen, evtl. aus dem acht Kilometer von Sanaa entfernten Ort Ḍulaʿ (oder Ḍilaʿ) oder aber aus Ḍulaʿ al-Ašmūr, vgl. Müller, Walter W. 2010: p. 79 mit Hinweis auf  Wissmann 1964: p. 358 f.. Sie ist datiert durch die Angabe in Zeile 10, die das Jahr 574 angibt, das nach der himjaritischen Ära zu verstehen ist, die vom Jahr 115 oder aber 110 v. Chr. aus rechnet (Müller, Walter W. 2010: p. IX), d.h. sie stammt entweder aus dem Jahr 464 oder 469 n.Chr. Gonzague Ryckmans schreibt zu der Inschrift, vgl. Ryckmans, p. 99-100: "Le 20 octobre 1953, un ami nous envoya la photographie d'une inscription appartenant à une collection privée dans le Proche-Orient. Il la soumettait à notre examen de la part du propriétaire de la pierre, auquel elle avait été donnée dans le Yemen méridional ; elle proviendrait des environs de Ṣanʿâ. Le 6 décembre suivant, le propriétaire lui-même nous autorisait à publier l'inscription, et il nous donnait les renseignements suivants sur sa nature et ses dimensions: "Granit dur, blanc. Hauteur : 52cm ; largeur : 71 cm ; épaisseur : 14 cm ; hauteur des lettres : 4 cm." En remerciant le propriétaire de sa libéralité éclairée, et l'intermédiaire bénévole de sa grande obligeance, nous faisons connaître bien volontiers ce petit monument, dont l'importance s'affirme à plus d'un titre. L'inscription est intacte, sauf au début de la l. 1, où les caractères sont mutilés par le haut. On peut toutefois tenter de les rétablir, la restitution du premier mot restant conjecturale. Les caractères en relief sont apparentés de près à ceux de CIH 540, tels qu'on les connaît par les photographies de A. Fakhry, An archeolog. Journey to Yemen, III, 1951, pl. XXIX et XXX. Le b présente un deuxième trait horizontal (parfois oblique ; cf. l. 4 : mkrbn ; l. 5 : bʿl) reliant entre elles les deux hampes à mi-hauteur, et même plus bas (cf. l. 1 ḏbnnr) ; le š s'inscrit à peu près dans un rectangle ; dans le sens de la hauteur à droite, il présente une hampe presque verticale. Les deux dernières lignes sont très serrées. - Photographie, pl. I."</summary>
+            <msItem>
+              <title>Altsüdarabische Inschrift Ry 520: Bauinschrift der Synagoge Yaʿūq</title>
+              <author/>
+              <textLang mainLang="xna">Altsüdarabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">574 himjaritische Ära (464 oder 459 n.Chr.)</origDate>
+              <origPlace>Umgebung von Sanaa (Jemen)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Gonzague Ryckmans, Inscriptions sud-arabes, onzième série, Le Muséon
+ 67 (1954), pp. 99-105: XXXVI. Inscription monothéiste sabéenne, Tafel I;  Walter W. Müller, Sabäische Inschriften nach Ären datiert. Bibliographie, Texte und Glossar. (Veröffentlichungen der Orientalischen Kommission, 53). Wiesbaden 2010, p. 79. </bibl>
+              <bibl type="literatur">M&amp;#xFC;ller, Walter W.: Sab&amp;#xE4;ische Inschriften nach &amp;#xC4;ren datiert. Bibliographie, Texte und Glossar. Harrassowitz Verlag, Wiesbaden 2010.</bibl>
+              <bibl type="literatur">Robin, Christian J.: &amp;#x201E;Le juda&amp;#xEF;sme de &amp;#x1E24;imyar&amp;#x201C;. In: Arabia (2003), S. 97&amp;#x2013;172.</bibl>
+              <bibl type="literatur">Wissmann, Hermann v.: Zur Geschichte und Landeskunde von Alt-S&amp;#xFC;darabien. H&amp;#xF6;hlaus, Wien 1964.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FRyckmans+1954+planche+I+avec+image+de+l+inscription+Ry+520.JPG&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="xna">
+        <p>
+	1 𐩢𐩧𐩣 𐩽 𐩱𐩥𐩦𐩫 𐩽 𐩹𐩫𐩨𐩪𐩺𐩬 𐩽 𐩥𐩹𐩥𐩵𐩬𐩣 𐩽 𐩥𐩹𐩨𐩬𐩬𐩧 𐩽 𐩥
+	2 𐩪𐩣𐩺𐩻𐩲 𐩽 𐩥𐩹𐩪𐩵𐩬 𐩽 𐩱𐩤𐩥𐩡 𐩽 𐩱𐩦𐩲𐩨𐩬 𐩽 𐩩𐩬𐩲𐩨𐩣 𐩽 𐩥𐩥𐩣𐩲
+	3 𐩣𐩽 𐩥𐩣𐩵𐩱𐩡 𐩽 𐩥𐩬𐩺𐩣𐩬 𐩽 𐩥𐩱𐩺𐩻𐩲𐩬 𐩽 𐩥𐩢𐩡𐩣𐩡𐩣 𐩽 𐩠𐩤𐩦𐩨
+	4 𐩥 𐩽 𐩣𐩫𐩧𐩨𐩬 𐩽 𐩺𐩲𐩤 𐩽 𐩨𐩠𐩴𐩧𐩠𐩣𐩥 𐩽 𐩨𐩡𐩲𐩣 𐩽 𐩡𐩣𐩧𐩱𐩠𐩣
+	5 𐩥 𐩽 𐩧𐩢𐩣𐩬𐩬 𐩽 𐩨𐩲𐩡 𐩽 𐩪𐩣𐩺𐩬 𐩽 𐩡𐩭𐩣𐩧𐩠𐩥 𐩽 𐩥𐩱𐩢𐩦𐩫𐩩
+	6 𐩠𐩥 𐩽 𐩥𐩥𐩡𐩵𐩠𐩥 𐩽 𐩧𐩢𐩣𐩬𐩬 𐩽 𐩢𐩺𐩺 𐩽 𐩢𐩺𐩥 𐩽 𐩮𐩵𐩤𐩣 𐩽 𐩥
+	7 𐩣𐩥𐩩 𐩽 𐩣𐩥𐩩 𐩽 𐩮𐩵𐩤𐩣 𐩽 𐩥𐩡𐩭𐩣𐩧𐩠𐩥 𐩽 𐩧𐩢𐩣𐩬𐩬 𐩽 𐩥𐩡𐩵
+	8 𐩣𐩽 𐩮𐩡𐩢𐩣 𐩽 𐩪𐩨𐩱𐩣 𐩽 𐩡𐩪𐩣𐩧𐩢𐩣𐩬𐩬 𐩽 𐩥𐩠𐩤𐩦𐩨𐩥 𐩽 𐩠𐩥
+	9 𐩩 𐩽 𐩣𐩫𐩧𐩨𐩬 𐩽 𐩺𐩲𐩥𐩤 𐩽 𐩨𐩬 𐩽 𐩣𐩥𐩻𐩧𐩠𐩥 𐩽 𐩲𐩵𐩺 𐩽 𐩩𐩰𐩧𐩲𐩠𐩥 𐩽 𐩥𐩣𐩯𐩥𐩵𐩠𐩥 𐩽 𐩥𐩱𐩪𐩤
+	10 𐩰𐩠𐩥 𐩽 𐩥𐩧𐩭𐩠𐩥 𐩽 𐩹𐩵𐩱𐩥𐩬 𐩽 𐩹𐩡𐩭𐩧𐩺𐩰𐩬 𐩽 𐩹𐩡𐩱𐩧𐩨𐩲𐩩 𐩽 𐩥𐩪𐩨𐩲𐩺 𐩽 𐩥𐩭𐩣𐩪 𐩽 𐩣𐩱𐩩𐩣</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1  Ḥrm ʾwšk ḏ-Kbsyn, ḏ-Wdnm, ḏ-Bnnr,2  S¹myṯʿ, ḏ-Sdn, ʾqwl aus dem Stamm Tnʿmm, Wmʿ3  m, Mdʾl, Nymn, ʾyṯʿn, Ḥlmlm hat gebaut4 die Synagoge (mkrb) Yʿq in der Stadt Ḍlʿm für Ihren Herrn 
+ 5 den Barmherzigen (Rḥmnn), den Herrn des Himmels, damit der Barmherzige (Rḥmnn) ihnen, ihren Gattinnen6 und ihren Söhnen ein rechtes Leben schenke7 und einen rechten Tod. Dass der Barmherzige (Rḥmnn) ihnen Söhne schenke, 8  gesund, die im Namen des Barmherzigen (Rḥmnn) kämpfen. Sie bauten diese 9  Synagoge [mit dem Namen] Yʿwq von den Fundamenten bis zum Giebel, ihren Innenraum und ihre 10  Dächer. Im Monat Dʾwn des Jahres 574 [der himjaritischen Zeitrechnung].</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1  Ḥrm ʾws²k ḏ-Kbs¹yn, ḏ-Wdnm, ḏ-Bnnr, 2  S¹myṯʿ, ḏ-S¹dn, ʾqwl of the tribe Tnʿmm, Wmʿ- 3  m, Mdʾl, Nymn, ʾyṯʿn, Ḥlmlm built 4  the synagogue Yʿq in their town of Ḍlʿm for their Lord 5  Rḥmnn, Lord of the Heaven, in order that Rḥmnn might grant, to their wifes 6  and to their sons to live a worthy life and 7  to die a worthy death. That Rḥmnn may grant them healthy sons, 8  militant for the Rḥmnn's cause. They built this 9  synagogue Yʿwq from its foundation to its top, its hall and its 10  roofs. In the month of Dʾwn of the year five hundred seventy-four. siehe: DASI (Digital Archive for the Study of pre-Islamic Arabian Inscriptions) CSAI Corpus of Sabaic Inscriptions (work in progress)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1034">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 2</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 2; Lines per page: 9; Dimensions: 106 x 171 mm; Qurʾānic Text: Q 96:1-19; Script style: kūfī D.Va; Estimated date of production: 800-1000.</p>
+              <p>Cf. entry by François Déroche about fragment KFQ 2 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 101): "48 / Single folio / End oft he 9th century AD or first half of the 10th / 10.6x17.1cm, with 9 lines to the page / <hi rend="italic">Material</hi> Parchment; the verso is the hair side / <hi rend="italic">Text area</hi> 7.2x12.7cm / <hi rend="italic">Script</hi> Style D.Va / <hi rend="italic">Accession no</hi>. KFQ 2 / This folio contains <hi rend="italic">Sūrat al- ʿalaq</hi> (XCVI), verses 1-19. The text is written in dark brown ink, with numerous diacritical strokes. Red dots indicate the vocalization. The verses are punctuated by 3.1.1 devices. A gold Kufic <hi rend="italic">hāʾ</hi> marks the end of every fifth verse, and a 4.A.I ornament with the number of verses written out in gold script D on a red ground indicates the end of a group of ten verses. A frame of gold, green and blue fillets has been added.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_682459" n="1r">
+              <title type="numeric" key="096:001:001-096:010:003">
+                                    096:001:001-096:010:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682460" n="1v">
+              <title type="numeric" key="096:011:001-096:019:005">
+                                    096:011:001-096:019:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>171</width><height>106</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="9">9 - 9 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42464">
+      <graphic decls="#imageRights-1" url="manuscript/1034/8358eda3-7c99-49d2-b025-add9ece73ff5/manuscript-1034-page-42464-image-28126.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42465">
+      <graphic decls="#imageRights-1" url="manuscript/1034/26a591ac-b752-43ee-ae0a-3c7a18745719/manuscript-1034-page-42465-image-28127.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

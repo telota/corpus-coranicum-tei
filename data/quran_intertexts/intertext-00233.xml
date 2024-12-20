@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2. Petrusbrief 3:8-13</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_233" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>233</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 70:8  weist einen deutlichen Anklang an 2 Petrus 3:12 auf, wo es heißt, am Jüngsten Tag würden sich "der Himmel im Feuer auflösen und die Elemente im Brand zerschmelzen"; vgl. auch 2 Clemens 16:3 (TUK_0234). Wie die beiden frühchristlichen Texte sagt auch Q 70:8.9 die Auflösung von Bestandteilen der Welt voraus, die in der menschlichen Alltagswirklichkeit der Vergänglichkeit enthoben scheinen: im Koran sind dies Himmel und Berge, im deutlicher von populärphilosophischer Spekulation geprägten 2. Petrusbrief sind es der Himmel und die in der natürlichen Weltordnung allem Werden und Vergehen zugrundeliegenden (und damit nicht selbst von Werden und Vergehen betroffenen) Elemente, stoicheia. Vgl. dazu auch TUK_0536 (Jakob von Sarug).
+</summary>
+            <msItem>
+              <title>2. Petrusbrief 3:8-13</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 110-130 n. Chr.</origDate>
+              <origPlace>Ägypten oder Rom?</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	8 Ἓν δὲ τοῦτο μὴ λανθανέτω ὑμᾶς, ἀγαπητοί, ὅτι μία ἡμέρα παρὰ κυρίῳ ὡς χίλια ἔτη καὶ χίλια ἔτη ὡς ἡμέρα μία. 9 οὐ βραδύνει κύριος τῆς ἐπαγγελίας, ὥς τινες βραδύτητα ἡγοῦνται, ἀλλὰ μακροθυμεῖ εἰς ὑμᾶς, μὴ βουλόμενός τινας ἀπολέσθαι ἀλλὰ πάντας εἰς μετάνοιαν χωρῆσαι. 10 Ἥξει δὲ ἡμέρα κυρίου ὡς κλέπτης, ἐν ᾗ οἱ οὐρανοὶ ῥοιζηδὸν παρελεύσονται στοιχεῖα δὲ καυσούμενα λυθήσεται καὶ γῆ καὶ τὰ ἐν αὐτῇ ἔργα εὑρεθήσεται.  11 Τούτων οὕτως πάντων λυομένων ποταποὺς δεῖ ὑπάρχειν [ὑμᾶς] ἐν ἁγίαις ἀναστροφαῖς καὶ εὐσεβείαις, 12 προσδοκῶντας καὶ σπεύδοντας τὴν παρουσίαν τῆς τοῦ θεοῦ ἡμέρας δι᾽ἣν οὐρανοὶ πυρούμενοι λυθήσονται καὶ στοιχεῖα καυσούμενα τήκεται.  13 καινοὺς δὲ οὐρανοὺς καὶ γῆν καινὴν κατὰ τὸ ἐπάγγελμα αὐτοῦ προσδοκῶμεν, ἐν οἷς δικαιοσύνη κατοικεῖ.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	8 Das eine aber, liebe Brüder, dürft ihr nicht übersehen: dass beim Herrn ein Tag wie tausend Jahre und tausend Jahre wie ein Tag sind. 9 Der Herr zögert nicht mit der Erfüllung der Verheißung, wie einige meinen, die von Verzögerung reden; er ist nur geduldig mit euch, weil er nicht will, dass jemand zugrunde geht, sondern dass alle sich bekehren. 10 Der Tag des Herrn wird aber kommen wie ein Dieb. Dann wird der Himmel prasselnd vergehen, die Elemente werden verbrannt und aufgelöst, die Erde und alles, was auf ihr ist, werden (nicht mehr) gefunden. 11 Wenn sich das alles in dieser Weise auflöst: wie heilig und fromm müsst ihr dann leben, 12 den Tag Gottes erwarten und seine Ankunft beschleunigen! An jenem Tag wird sich der Himmel im Feuer auflösen und die Elemente werden im Brand zerschmelzen. 13 Dann erwarten wir, seiner Verheißung gemäß, einen neuen Himmel und eine neue Erde, in denen die Gerechtigkeit wohnt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

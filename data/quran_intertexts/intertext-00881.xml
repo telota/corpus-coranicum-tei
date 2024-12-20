@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hiob 8:1-22</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_881" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>881</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 29:41 vergleicht diejenigen, die sich Freunde außer Gott nehmen (allaḏīna ttaḫaḏū min dūni llāhi ʾauliyāʾ) mit einer Spinne (ʿankabūt), die sich ein Haus (bait) gebaut hat, welches das schwächste aller Häuser ist. Ein ähnlicher Vergleich findet sich auch in Hiob 8:14. Dort wird die Sicherheit des Gottlosen ebenfalls mit dem "Haus der Spinne" (bet ʿakkabiš) verglichen. Zur aramäischen Etymologie von arabisch ʿankabūt ("Spinne") siehe Jeffery 1938: p. 217-218. Vgl. auch Hiob 27:18 (dort steht ʿaš "Motte", die Septuaginta ergänzt noch "Spinne": ἀπέβη δὲ ὁ οἶκος αὐτοῦ ὥσπερ σῆτες καὶ ὥσπερ ἀράχνη, "Er baut wie die Motte sein Haus und wie die Spinne").
+</summary>
+            <msItem>
+              <title>Hiob 8:1-22</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5.-2. Jh. v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיַּעַן בִּלְדַּד הַשּׁוּחִי וַיֹאמַר 2 עַד־אָן תְּמַלֶּל־אֵלֶּה וְרוּחַ כַּבִּיר אִמְרֵי־פִיךָ 3 הַאֵל יְעַוֵּת מִשְׁפָּט וְאִם־שַׁדַּי יְעַוֵּת־צֶדֶק 4 אִם־בָּנֶיךָ חָטְאוּ־לוֹ וַיְשַׁלְּחֵם בְּיַד־פִּשְׁעָם 5 אִם־אַתָּה תְּשַׁחֵר אֶל־אֵל וְאֶל־שַׁדַּי תִּתְחַנָּן 6 אִם־זַךְ וְיָשָׁר אָתָּה כִּי־עַתָּה יָעִיר עָלֶיךָ וְשִׁלַּם נְוַת צִדְקֶךָ 7 וְהָיָה רֵאשִׁיתְךָ מִצְעָר וְאַחֲרִיתְךָ יִשְׂגֶּה מְאֹד 8 כִּי־שְׁאַל־נָא לְדֹר רִישׁוֹן וְכוֹנֵן לְחֵקֶר אֲבוֹתָם 9 כִּי־תְמוֹל אֲנַחְנוּ וְלֹא נֵדָע כִּי צֵל יָמֵינוּ עֲלֵי־אָרֶץ 10 הֲלֹא־הֵם יוֹרוּךָ יֹאמְרוּ לָךְ וּמִלִּבָּם יוֹצִאוּ מִלִּים 11 הֲיִגְאֶה־גֹּמֶא בְּלֹא בִצָּה יִשְׂגֶּה־אָחוּ בְלִי־מָיִם 12 עֹדֶנּוּ בְאִבּוֹ לֹא יִקָּטֵף וְלִפְנֵי כָל־חָצִיר יִיבָשׁ 13 כֵּן אָרְחוֹת כָּל־שֹׁכְחֵי אֵל וְתִקְוַת חָנֵף תֹּאבֵד 14 אֲשֶׁר־יָקוֹט כִּסְלוֹ וּבֵית עַכָּבִישׁ מִבְטַחוֹ 15 יִשָּׁעֵן עַל־בֵּיתוֹ וְלֹא יַעֲמֹד יַחֲזִיק בּוֹ וְלֹא יָקוּם 16 רָטֹב הוּא לִפְנֵי־שָׁמֶשׁ וְעַל גַּנָּתוֹ יֹנַקְתּוֹ תֵצֵא 17 עַל־גַּל שָׁרָשָׁיו יְסֻבָּכוּ בֵּית אֲבָנִים יֶחֱזֶה 18 אִם־יְבַלְּעֶנּוּ מִמְּקוֹמוֹ וְכִחֶשׁ בּוֹ לֹא רְאִיתִיךָ 19 הֶן־הוּא מְשׂוֹשׂ דַּרְכּוֹ וּמֵעָפָר אַחֵר יִצְמָחוּ 20 הֶן־אֵל לֹא יִמְאַס־תָּם וְלֹא־יַחֲזִיק בְּיַד־מְרֵעִים 21 עַד־יְמַלֵּה שְׂחוֹק פִּיךָ וּשְׂפָתֶיךָ תְרוּעָה 22 שֹׂנְאֶיךָ יִלְבְּשׁוּ־בֹשֶׁת וְאֹהֶל רְשָׁעִים אֵינֶנּוּ פ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Job 8:1-22 8:1 Da antwortete Bildad von Schuach und sprach: 2 Wie lange noch willst du derlei reden? Nur heftiger Wind sind die Worte deines Mundes. 3 Beugt etwa Gott das Recht, oder beugt der Allmächtige die Gerechtigkeit? 4 Haben deine Kinder gefehlt gegen ihn, gab er sie der Gewalt ihres Frevels preis. 5 Wenn du mit Eifer Gott suchst, an den Allmächtigen dich flehend wendest, 6 wenn du rein bist und recht, dann wird er über dich wachen, dein Heim herstellen, wie es dir zusteht. 7 Und war dein Anfang auch gering, dein Ende wird gewaltig groß. 8 Ja, frag nur das frühere Geschlecht, und merk dir, was die Väter erforschten. 9 Wir sind von gestern nur und wissen nichts, wie Schatten sind auf Erden unsre Tage. 10 Unterweisen sie dich nicht, sprechen sie nicht zu dir, geben sie dir nicht Worte aus ihrem Herzen: 11 Wächst ohne Sumpf das Schilfrohr hoch, wird Riedgras ohne Wasser groß? 12 In Blüte und noch nicht gemäht, verwelkt es schon vor allem Gras. 13 So enden alle, die Gott vergessen, des Ruchlosen Hoffen wird zunichte. 14 Ein Spinngewebe ist seine Zuversicht, ein Spinnennetz sein Verlaß. 15 Stützt er sich auf sein Haus, es hält nicht stand, klammert er sich daran, es bleibt nicht stehen. 16 Er steht im Saft vor der Sonne, seine Zweige überwuchern den Garten, 17 im Geröll verflechten sich seine Wurzeln, zwischen Steinen halten sie sich fest. 18 Doch Gott tilgt ihn aus an seiner Stätte, sie leugnet ihn: Nie habe ich dich gesehen. 19 Siehe, das ist die Freude seines Weges, und ein anderer sprießt aus dem Staub. 20 Ja, Gott verschmäht den Schuldlosen nicht, die Hand der Boshaften aber hält er nicht fest. 21 Mit Lachen wird er deinen Mund noch füllen, deine Lippen mit Jubel. 22 Deine Hasser werden sich kleiden in Schmach, das Zelt der Frevler besteht nicht mehr.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

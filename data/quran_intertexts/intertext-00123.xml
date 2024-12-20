@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Offenbarung des Johannes 11:15-19</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_123" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>123</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Zahlreiche Koranstellen sprechen davon, dass am Jüngsten Tag in die Posaune gestoßen wird. Die Vorstellung steht der Johannes-Apokalypse nahe, wo allerdings von sieben Posaunenstößen die Rede ist, welche die verschiedenen Vorstadien des Jüngsten Gerichts ankündigen. Dass im Koran nur ein einziger Posaunenstoß vorausgesetzt wird, passt zu der allgemeinen Tendenz der koranischen Gerichtsschilderungen, den Jüngsten Tag als gänzlich unerwarteten, innerhalb eines einzigen Momentes über die Welt hereinbrechenden Abbruch der Geschichte zu schildern und nicht als einen durch Vorzeichen eingeleiteten und damit für Menschen auch prinzipiell zu antizipierenden Prozess. Von einem einzigen Posaunenstoß scheint auch in 1 Thessaloniker 4:16 die Rede zu sein (vgl. TUK_0492). Ein weiteres akustisches Signal mit endzeitlichem Hintergrund ist wohl das als "Schrei" übersetzte Wort ṣaiḥa. Es wird im Zusammenhang mit den Straflegenden der Völker ʿĀd, Ṯamūd etc. gebraucht (Q 11:67, 11:94, 15:73, 15:83, 23:41, 29:40, 36:29, 36:49, 36:53, 38:15, 54:31, 63:4), wird aber in Sure 50:42 ähnlich wie der Posaunenstoß zur Ankündigung des Jüngsten Gerichts verwendet. Als Synonym für ṣaiḥa ist auch der Ausdruck zaǧra (Q 37:19, 79:13) in Gebrauch. Andrae 1926: p. 64 vermutet in Anlehnung an islamische Exegeten, dass auch hiermit ein Posaunenstoß gemeint sei.
+</summary>
+            <msItem>
+              <title>Offenbarung des Johannes 11:15-19</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 90-130 n. Chr.</origDate>
+              <origPlace>Patmos (laut Offb. 1:9)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Andrae, Tor: Der Ursprung des Islams und das Christentum. Uppsala 1926.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Berenike Aschoff</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	15 Καὶ ὁ ἕβδομος ἄγγελος ἐσάλπισεν• καὶ ἐγένοντο φωναὶ μεγάλαι ἐν τῷ οὐρανῷ λέγοντες• ἐγένετο ἡ βασιλεία τοῦ κόσμου τοῦ κυρίου ἡμῶν καὶ τοῦ χριστοῦ αὐτοῦ, καὶ βασιλεύσει εἰς τοὺς αἰῶνας τῶν αἰώνων. 16 Καὶ οἱ εἴκοσι τέσσαρες πρεσβύτεροι [οἱ] ἐνώπιον τοῦ θεοῦ καθήμενοι ἐπὶ τοὺς θρόνους αὐτῶν ἔπεσαν ἐπὶ τὰ πρόσωπα αὐτῶν καὶ προσεκύνησαν τῷ θεῷ 17 λέγοντες• εὐχαριστοῦμέν σοι, κύριε ὁ θεὸς ὁ παντοκράτωρ, ὁ ὢν καὶ ὁ ἦν, ὅτι εἴληφας τὴν δύναμίν σου τὴν μεγάλην καὶ ἐβασίλευσας. 18 καὶ τὰ ἔθνη ὠργίσθησαν, καὶ ἦλθεν ἡ ὀργή σου καὶ ὁ καιρὸς τῶν νεκρῶν κριθῆναι καὶ δοῦναι τὸν μισθὸν τοῖς δούλοις σου τοῖς προφήταις καὶ τοῖς ἁγίοις καὶ τοῖς φοβουμένοις τὸ ὄνομά σου, τοὺς μικροὺς καὶ τοὺς μεγάλους, καὶ διαφθεῖραι τοὺς διαφθείροντας τὴν γῆν. 19 Καὶ ἠνοίγη ὁ ναὸς τοῦ θεοῦ ὁ ἐν τῷ οὐρανῷ καὶ ὤφθη ἡ κιβωτὸς τῆς διαθήκης αὐτοῦ ἐν τῷ ναῷ αὐτοῦ, καὶ ἐγένοντο ἀστραπαὶ καὶ φωναὶ καὶ βρονταὶ καὶ σεισμὸς καὶ χάλαζα μεγάλη.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	15 Der siebte Engel blies seine Posaune. Da ertönten laute Stimmen im Himmel, die riefen: Nun gehört die Herrschaft über die Welt unserem Herrn und seinem Gesalbten; und sie werden herrschen in alle Ewigkeit. 16 Und die vierundzwanzig Ältesten, die vor Gott auf ihren Thronen sitzen, warfen sich nieder, beteten Gott an 17 und sprachen: Wir danken dir, Herr, Gott und Herrscher über die ganze Schöpfung, der du bist und der du warst; denn du hast deine große Macht in Anspruch genommen und die Herrschaft angetreten. 18 Die Völker gerieten in Zorn. Da kam dein Zorn und die Zeit, die Toten zu richten: die Zeit, deine Knechte zu belohnen, die Propheten und die Heiligen und alle, die deinen Namen fürchten, die Kleinen und die Großen, die Zeit, alle zu verderben, die die Erde verderben. 19 Der Tempel Gottes im Himmel wurde geöffnet und in seinem Tempel wurde die Lade seines Bundes sichtbar: Da begann es zu blitzen, zu dröhnen und zu donnern, es gab ein Beben und schweren Hagel.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1546">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.73.5.491</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.73.5.491</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single folio parchment manuscript of the Qurʾān; Qurʾānic text: Q 104:2-107:5. Script style: kūfī B.II. Currently only the image of the fol. 1 recto is given by the institution.  </p>
+              <p>Cf. the website of the institution: <ref target="https://collections.lacma.org/node/240061.">https://collections.lacma.org/node/240061.</ref>  </p>
+            </summary>
+            <msItem xml:id="mysql_id_687875" n="1r">
+              <title type="numeric" key="104:002:004-105:005:003">
+                                    104:002:004-105:005:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <p>Text division: Simple verse separators consist of groups of three small dashes arranged diagonally one above the other. Every fifth verse is marked by the <hi rend="italic">abǧad</hi>-letter <hi rend="italic">hāʾ </hi>in gold. The beginning of a new Sūrah is marked with the text in gold ink in the script style D, that contains the name of the new Sūrah <hi rend="italic">al-fīl</hi> and the number of verses. The heading is outlined with a tendril ornament also in gold with red and green/blue/ (?) dots. The beginning of the next Sūrah <hi rend="italic">quraiš </hi>is different from the previous one: instead of the name of the Sūrah, the first word of the first verse is written in gold followed by the number of verses: لاٮلڡ ارٮع اٮٮ. <hi rend="italic"> </hi> </p>
+                </support>
+                <extent>Folios: 
+                                    <dimensions unit="mm"><width>166</width><height>258</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="0">0 - 0 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                                The main text is written in kūfī style B.II; Sūrah headings are written in the style D in gold ink. Diacritics are marked with small dots. Two layers of vocalisation can be traced in the manuscript: the first layer writes the vowel marks with red dots; the second layer uses the newer vocalisation system with the <hi rend="italic">fatḥah</hi>, <hi rend="italic">kasrah</hi>, <hi rend="italic">ḍammah</hi>, <hi rend="italic">sukūn </hi>etc. written in green ink.
+                            </summary>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47835">
+      <graphic decls="#imageRights-1" url="manuscript/1546/9bf8164a-ffc7-44a7-9700-386fb4e7efb3/manuscript-1546-page-47835-image-34119.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

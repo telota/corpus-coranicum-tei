@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Buch der Jubiläen 2:23-26</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1113" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1113</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der Koran teilt mit der jüdischen und christlichen Tradition die Vorstellung, dass die Welt in sechs Tagen erschaffen worden sei. Dieser Gedanke findet sich nicht nur in Genesis (TUK_1112) und Exodus, sondern, wie der vorliegende Text zeigt, auch in der späteren Literatur (Vgl. dazu auch TUK_1114, TUK_1115). An den genannten Koranstellen verdeutlichen die sechs Tage der Schöpfung Gottes Allmacht. Dagegen begründen sie im hier zitierten Text die im Jubiläenbuch zentrale Institution des Sabbats. Der Koran nimmt an anderen Stellen auf das Sabbatgebot als ein spezifisch jüdisches Gebot Bezug (vgl. TUK_0265), stellt dabei aber keine Verbindung zur Anzahl der Schöpfungstage her. Einige Koranstellen wenden sich aber möglicherweise zumindest implizit gegen ein Ruhen Gottes am siebten Tag (vgl. TUK_1137, TUK_1138, TUK_0889).
+
+	Das Buch der Jubiläen präsentiert sich als die Sinaioffenbarung an Moses, die ihm durch Engel vermittelt wird. Teil dieser Offenbarung sind nach dem Verständnis des Jubiläenbuches nicht nur die Gesetze, sondern auch der Pentateuch, der hier neu erzählt, bzw. unter einer bestimmten Zielsetzung interpretiert wird. Als Trägerkreis lässt sich eine antihellenistische priesterliche Reformgruppe identifizieren, die mit den Asidäern und der kurz darauf entstehenden Qumrangruppe in historischer Verbindung steht. Ziel des Jubiläenbuches ist die Bewahrung der Identität und kultischen Integrität Israels, wobei der Einhaltung des Kalenders und des Sabbats, sowie dem Zusammenhalt der Familie eine besondere Rolle zukommt, was in den Vätergeschichten exemplarisch dargestellt wird. Ursprünglich wurde das Jubiläenbuch auf Hebräisch verfasst; so sind alle in Qumran gefundenen Fragmente hebräisch. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (lateinisch; eine anonyme syrische Chronik; Zitate bei griechischen Schriftstellern) zeugen. Vollständig erhalten ist das Buch der Jubiläen dagegen nur in der äthiopischen Übersetzung; wahrscheinlich dadurch bedingt, dass es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Berger 1981: p. 279-300).
+</summary>
+            <msItem>
+              <title>Buch der Jubiläen 2:23-26</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 167 und 140 v. Chr.</origDate>
+              <origPlace>Palästina (Jerusalem?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">James C. Vanderkam (Hg.), The Book of Jubilees. A Critical Text, Louvain 1989 (Corpus Scriptorum Christianorum Orientalium 510, Scriptores Aethiopici 87).</bibl>
+              <bibl type="literatur">Berger, Klaus: Das Buch der Jubil&amp;#xE4;en. 1981.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>23 ዕሥራ፡ ወክልኤ፡ አርእስተ፡ ሰብእ፡ እምአዳም፡ እስከኔሁ። ወዕሥራ፡ ወክልኤ፡ ዘመደ፡ ግብር፡ ተገብረ፡ እስከ፡ ዕለተ፡ ሳብዕት፡ ዝንቱ፡ ቡሩክ፡ ወቅዱስ፡ ወውእቱኒ፡ ቡሩክ፡ ወቅዱስ፡ ወዝንቱ፡ ምስለ፡ ዝንቱ፡ ኮነ፡ ለቅዳሴ፡ ወለበረከት፡ 24 ወተውህበ፡ ለዝንቱ፡ ከመ፡ ይኩኑ፡ ኵሎ፡ መዋዕለ፡ ቡሩካነ፡ ወቅዱሳነ። ዘስምዕ፡ ወሕግ፡ ቀዳሚ፡ በከመ፡ ተቀደሰ፡ ወተባረከ፡ በዕለተ፡ ሳብዕት። 25 ፈጠረ፡ ሰማየ፡ ወምድረ፡ ወኵሎ፡ ዘተፈጥረ፡ በሰዱስ፡ ዕለት። ወወሀበ፡ እግዚአብሔር፡ ዕለተ፡ በዓል፡ ቅድስተ፡ ለኵሉ፡ ምግባሩ፡ በእንተዝ፡ አዘዘ፡ በእንቲአሃ፡ ኵሉ፡ ዘይገብር፡ ባቲ፡ ኵሎ፡ ግብረ፡ ይሙት፡ ወዘኒ፡ ያረኵሳ፡ ሞተ፡ ለይሙት። 26 ወአንተ፡ አዝዝ፡ ለደቂቀ፡ እስራኤል፡ ወይዕቀቡ፡ ዕለተ፡ ዛቲ፡ ይቀድስዋ፡ ወከመ፡ ኢይግበሩ፡ ባቲ፡ ኵሎ፡ ግብረ፡ ወከመ፡ ኢያርኵስዋ፡ እስመ፡ ቅድስት፡ ይእቲ፡ እምኵሉ፡ መዋዕል።</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	23 Zweiundzwanzig Häupter der Menschen sind es von Adam bis Jakob, und zweiundzwanzig Arten von Werken wurden gemacht bis zum siebenten Tag. Dieser ist gesegnet und geheiligt, und auch jener ist gesegnet und geheiligt. Und dieser zusammen mit jenem wurde zur Heiligekeit und zum Segen. 24 Und es wurde diesem gegeben, daß er war alle Tage als Gesegnete und Geheiligte des Zeugnisses und des ersten Gesetzes, wie er geheiligt und gesegnet wurde am Tag des Sabbats, em siebenten. 25 Er hat geschaffen Himmel und Erde und alles, was er schuf, in sechs Tagen. Und der Herr gab einen Festtag, heilig für all sein Werk. Deswegen hat er geboten in betreff dieses (Tages): Jeder, der tut  an ihm jegliches Werk, soll sterben. Und wer ihn verunreinigt, soll des Todes sterben. 26 Und du gebiete den Kindern Israels, und sie sollen bewahren diesen Tag, daß sie ihn heiligen und daß sie nicht tun an ihm jegliches Werk und daß sie ihn nicht verunreinigen, denn heiliger ist er als alle Tage.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

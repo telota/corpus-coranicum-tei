@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_536" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>536</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die hier angegebene Stelle von Jakob von Sarug und die Stellen im Koran stimmen in den eschatologischen Motiven überein: Sonne und Mond, Himmel und Berge sind zwar von Gott geschaffen, aber nicht ewig, sie erfüllen vielmehr ihre Aufgaben (Zeitmessung, Zyklus der Jahreszeiten, usw.) und werden dann am Jüngsten Tag vergehen, vgl. dazu TUK_0233. Das Werk Jakobs von Sarug enthält auch sonst zahlreiche Beschreibungen des Weltendes, die Gemeinsamkeiten mit dem Koran aufzeigen, siehe auch TUK_0531, TUK_0532, TUK_0533, TUK_0534, TUK_0537, TUK_0538.</summary>
+            <msItem>
+              <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan, Homiliae Selectae Mar-Jacobi Sarugensis, Band 1, Paris 1905, S. 698-704.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܪܘܚܐ ܕܚܝ̈ܐ ܬܫܒ ܠܝ ܡܪܝ ܡ̣ܢ ܓܠܝܢܟ:ܘܢܬܡܠܠ ܒܝ ܡܐܡܪܐ ܕܬܗܪܐ ܥܠ ܡܐܬܝܬܟ܀ܢܥܝܪ ܒܝ ܩܠܘ̈ܗܝ ܝܘܡܐ ܕܕܝܢܐ ܒܚܫܐ ܪܒܐ:ܘܐܟܪܙ ܒܐܪܥܐ ܥܠ ܢܘܚܡܐ ܕܗܐ ܡܛܝ ܠܗ܀5 ܐܝܟ ܕܠܫܘܒܚܟ ܐܙܝܥ ܡܠܬܝ ܒܪ ܐܠܗܐ:ܘܠܝܘܬܪܢܐ ܕܓܘܐ ܐܡܪ ܡܘܢ ܕܐܡ̇ܪ ܐ̄ܢܐ܀ܗܒ ܠܝ ܚܫܐ ܘܙܘܥܐ ܘܬܗܪܐ ܟܕ ܐܡ̇ܪ ܐ̄ܢܐ:ܕܠܐ ܒܥܝܕܐ ܬܒܛܠ ܡܠܬܝ ܡ̣ܢ ܝܘܬܖ̈ܢܐ܀ܐܢ ܦܘܪܫܢܐ ܠܐ ܡܥܝܪ ܠܝ ܠܡܡܠܠܘ:10 ܥܝܕܐ ܡܣܪܚ ܣܪܚ̇ ܡܠܬܐ ܕܬܗܘܐ ܚܪܒܐ܀ܟܡܐ ܡܠܠ̈ܐ ܡܠܠܘ ܡܠ̈ܐ ܕܠܐ ܝܘܬܖ̈ܢܐ:ܘܟܕ ܫܦܝܖ̈ܢ ܚܖ̈ܝܒܢ ܗ̄ܘܝ̈ ܡ̣ܢ ܥܘܕܪܢܐ܀ܠܟܡܐ ܪܗܛܖ̈ܐ ܘܦܝܠܣ̈ܘܦܐ ܐܝܬ ܝܘܠܦܢܐ:ܕܡܐ ܕܝܠܦܗ ܐ̄ܢܫ ܡܕܡ ܡܢܗ ܠܐ ܡܬܥܕܪ܀15 ܟܡܐ ܚܟܝ̈ܡܐ ܣܕܪܘ ܡܠܝ̈ܗܘܢ ܒܗ̈ܦܟܬܐ:ܘܠܐ ܐܬܥܕܪܘ ܫܡܘܥܝ̈ܗܘܢ ܡ̣ܢ ܩܠܝ̈ܗܘܢ܀ܠܟܡܐ ܣܦܖ̈ܐ ܐܝܬ ܕܘܪܫܐ ܘܚܟܝܡܘܬܐ:ܘܠܐ ܐ̄ܢܫ ܝܬܪܘ ܡ̣ܢ ܚܟܡܬܗܘܢ ܕܬܗܝܪܐ ܗ̄ܘܬ܀ܡܬܠܟ ܕܝܠܟ ܒܪ ܐܠܗܐ ܚܝ̈ܐ ܡܠܝܐ:20 ܘܟܕ ܡܬܟܪܙܐ ܡ̣ܢ ܗܕܝܘܛ̈ܐ ܢܘܗܪܐ ܐܝܬܝܗ̇܀ܒܦܫܝܛܘܬܟ ܒܗܕܝܘܛܘܬܟ ܒܟܪܝܗܘܬܟ:ܗܒ ܠܝ ܡܪܢ ܡܠܬܐ ܕܡܠܝܐ ܟܠ ܝܘܬܖ̈ܢܝܢ܀ܟܕ ܠܐ ܪܕܝܐ ܘܠܐ ܚܟܝܡܐ ܘܠܐ ܫܦܝܪܐ:ܗܒ ܠܗ̇ ܠܡܠܬܝ ܬܘܬܪ ܟܠܝܘܡ ܠܕܫܡܥ̇ ܠܗ̇܀25 ܐܢ ܡܐܬܪ ܓܝܪ ܠܐ ܝܬܪ ܒܗ̇ ܡܐ ܕܫܡܥ̇ ܠܗ̇:ܠܡܢ ܒܛ̇ܠ ܒܗ̇ ܐܘ ܐܡܘܪܐ ܠܡܢ ܠܐ̇ܐ ܒܗ̇܀ܝܘܬܪܢܐ ܐܢ̄ܬ ܡܪܢ ܟܠܟ ܒܪ ܐܠܗܐ:ܗܒ ܠܝ ܐܘܬܪ ܠܕܫܡܥ̇ ܠܝ ܡܛܠܬܟ܀ܡܢ ܓܝܪ ܚܙ̇ܐ ܫܡܫܐ ܪܒܐ ܘܠܐ ܢܗܪ ܒܗ:30 ܐܘ ܡܢ ܡܫܟܚ ܓܙܐ ܡܠܝܐ ܘܠܐ ܥܬܪ ܒܗ܀ܐܘ ܡܢ ܐܟ̇ܠ ܠܚܡܟ ܚܝܐ ܘܠܐ ܡܣܒܥ ܠܗ:ܐܘ ܡܢ ܫܬ̇ܐ ܟܣܟ ܚܝܐ ܘܠܐ ܡܪܘܐ ܠܗ܀ܡܢܘ ܒܪܟ ܫܬ̇ܐ ܡܢܟ ܒܪ ܐܠܗܐ:ܘܐܝܬ ܒܗ ܚܝܠܐ ܕܢܫܩܘܠ ܦܘܡܗ ܡ̣ܢ ܡܒܘܥܟ܀35 ܚܠ̈ܝܢ ܡܠܝ̈ܟ ܛܒ ܡ̣ܢ ܕܒܫܐ ܕܟܟܪܝܬܐ:ܘܐܝܢܐ ܫܪܒܐ ܡܚܠܐ ܠܚܟܐ ܐܠܐ ܕܝܠܟ܀ܡܪܝܪ ܥܠܡܐ ܘܟܠܗܝܢ ܡܠܘ̈ܗܝ ܡܘܬܐ ܡܠ̈ܝܢ:ܚܘܝܐ ܓܣ̣ܐ ܒܗ ܘܠܐ ܡܬܚܠܐ ܐܠܐ ܐܢ ܒܟ܀ܫܪܒܟ ܕܝܠܟ ܡܥܒܪ ܫܖ̈ܒܐ ܕܠܐ ܫܦܝܪܝܢ:40 ܕܢܘܗܪܐ ܗ̣̄ܝ ܡܠܬܟ ܕܠܛ̈ܠܠܐ ܕܥܠܡܐ ܛܪܕܬ܀ܢܫܠܐ ܟܠܢܫ ܡ̣ܢ ܟܠ ܫܖ̈ܒܝܢ ܥܠܡܢܝ̈ܐ:ܘܡܠܬܟ ܕܝܠܟ ܢܫܡܥ ܒܠܚܘܕ ܕܕܝܘܬܪܢܐ ܗ̣̄ܝ܀ܥܠܡܐ ܒܛ̇ܠ ܫܘܦܪܗ ܚܡ̇ܐ ܚܝܠܗ ܢܦ̇ܠ:ܥܘܬܪܗ ܥܒ̇ܪ ܘܐܢ̄ܬ ܩܝܡ ܐܢ̄ܬ ܚܝ̇ܐ ܒܟ ܟܠ܀45 ܖ̈ܘܚܝ ܥܠܡܐ ܥܠ ܡܛܪܬܗ ܕܥܠܡܐ ܣܝ̈ܡܢ:ܕܢܫ̈ܒܢ ܥܒܖ̈ܢ ܥܡ ܙܒܢܝ̈ܗܝܢ ܘܬܚܘܡܝ̈ܗܝܢ܀ܖ̈ܘܚܐ ܕܥܘܬܪܐ ܘܕܫܠܝ̈ܛܐ ܘܕܥܙܝ̈ܙܐ:ܢܫ̈ܒܢ ܒܙܒܢ ܫܠ̈ܝܢ ܒܙܒܢ ܡ̣ܢ ܐ̄ܢܫܘܬܐ܀ܚܕ ܢܫ̇ܒ ܗ̄ܘܐ ܘܫܓܝܫ ܐܬܡܠܝ ܘܝܘܡܢ ܠܝܬܘܗܝ:50 ܐ̄ܚܪܢܐ ܒܥܘܬܪܗ ܡܬܓܐܐ ܗ̄ܘ̣ܐ ܘܗܐ ܫܕܐ ܒܫܝܘܠ܀ܪܘܚܐ ܕܕܖ̈ܓܐ ܗܐ ܥܙܝܙܐ ܨܝܕ ܫܠܝܛ̈ܐ:ܘܐܢ ܬܓܪ ܠܗ̇ ܩܠܝܠ ܒܛܠܬ ܘܐܘܦܝ ܫܪܒܗ̇܀ܡܠܬܐ ܕܚܝ̈ܐ ܠܐ ܙܒܢܐ ܠܗ̇ ܘܠܐ ܡܥܒܪܬܐ:ܘܠܐ ܡܫܬܪܝܐ ܕܟܠܗܘܢ ܙܒ̈ܢܐ ܕܝܠܗ̇ ܐܢܘܢ܀55 ܢܬܪ ܥܠܡܐ ܐܝܟ ܗܒܒܐ ܒܛܗܪܐ ܪܒܐ:ܘܡܠܬ ܚܝ̈ܐ ܡܪܓܢܝܬܐ ܗ̣̄ܝ ܠܕܫܡܥ̇ ܠܗ̇܀ܪܚ̇ܡ ܥܠܡܐ ܫܕܝ ܗܒܒܐ ܕܠܐ ܡܬܩܕܐ:ܘܬܐ ܬܠܝ ܒܐܕܢܟ ܡܪܓܢܝܬܐ ܕܠܐ ܐ̄ܢܬ ܠܗ̇ ܛܝ̈ܡܐ܀ܪܘܚ ܢܘܚܡܐ ܗܐ ܢܫܒܐ ܒܝ ܘܡܙܝܥܐ ܠܝ:60 ܬܐ ܙܘܥ ܘܫܡܥ ܥܠ ܡܐܬܝܬܐ ܕܡܠܝܐ ܬܗܪܐ܀ܒܪ ܐܠܗܐ ܠܕܝܢܐ ܐܬ̇ܐ ܘܠܥܘܩܒܐ:ܡܢ ܠܐ ܢܕܚܠ ܡ̣ܢ ܕܝܢܐ ܟܐܢܐ ܕܠܚܝܡ܀ܒܢܘܪܐ ܕܐܢ ܘܐܝܬ ܠܗ ܫܒܛ̈ܐ ܕܫܠܗܒܝܬܐ:ܘܒܓܘܙܠܬܐ ܦܪܫ ܟܐܢ̈ܐ ܡ̣ܢ ܥܘܠ̈ܐ܀65 ܠܘ ܫܐܘܠܐ ܕܡܠ̈ܐ ܥܒ̇ܕ ܥܡ ܚܛܝ̈ܐ:ܐܠܐ ܒܢܘܪܐ ܡܘܩܕ ܬܒܢܐ ܘܚܛ̈ܐ ܟܢ̇ܫ܀ܠܟܠܗ ܥܠܡܐ ܫܕܐ ܒܢܘܪܐ ܐܝܟ ܕܠܕܗܒܐ:ܘܐܝܟܐ ܕܚܙܝܐ ܢܘܪܐ ܨܐܬܐ ܠܒܟܬ ܬܘܩܕ܀ܠܕܗܒܐ ܣܢܝܢܐ ܡܕܟܝܐ ܘܡܪܩܐ ܘܡܙܗܪ ܫܘܦܪܗ:70 ܘܚܫܠܐ ܡܢܗ ܟܠܝܠܐ ܠܡܠܟܐ ܕܫܘܦܪܐ ܪܚ̇ܡ܀ܒܝܬ ܒܒܠܝ̈ܐ ܕܝܢܐ ܕܚܪܬܐ ܚܙܘ ܣܓܝ̈ܐܐ:ܘܝܠܦܘܗ̇ ܠܢܘܪܐ ܕܠܐܝܢܐ ܢܛܪܐ ܡ̣ܢ ܝܩܕܢܐ܀ܦܓܖ̈ܐ ܕܟܐܢ̈ܐ ܕܢܛܪܘ ܫܘܦܪܐ ܕܩܕܝܫܘܬܐ:ܫܦܪܘ ܒܗ̇ ܘܐܙܗܪܘ ܘܩܢܘ ܒܐܪܥܐ ܫܡܐ ܢܨܝܚܐ܀75 ܘܠܥܘܠ̈ܐ ܘܠܚܛܝ̈ܐ ܗܘܬ ܠܗ̇ ܢܘܪܐ:ܡܛܠ ܕܗܘܘ ܗܢܘܢ ܝܥܪܐ ܘܐܟܠܬ ܐܢܘܢ܀ܢܕܚܠ ܡܕܝܢ ܡ̣ܢ ܡܐܬܝܬܗ ܕܒܪ ܐܠܗܐ:ܘܢܪܗܛ ܟܠܢܫ ܠܬܝܒܘܬܐ ܒܙܘܥܐ ܪܒܐ܀ܠܘ ܐܝܟ ܕܐܬ̣ܐ ܒܗܝ̇ ܡܐܬܝܬܐ ܕܙܩܝܦܘܬܐ:80 ܗܟܢ ܐܬ̇ܐ ܒܗܝ̇ ܡܐܬܝܬܐ ܕܬܪܬܝܢ ܕܐܬ̇ܐ܀ܒܗܕܐ ܐܬ̣ܐ ܕܢܗܘܐ ܕܒܚܐ ܚܠܦ ܚܛܝ̈ܐ:ܘܒܗܝ̇ ܐܬ̇ܐ ܕܢܥܒܕ ܕܝܢܐ ܘܙܕܝܩܘܬܐ܀ܗܪܟܐ ܡܟܝܟ ܘܪܟܝܒ ܥܝܠܐ ܒܪ ܐܬܢܐ:ܠܗܠ ܒܥܢܢ̈ܐ ܕܢܘܪܐ ܐܬ̇ܐ ܢܕܘܢ ܫܖ̈ܒܬܐ܀85 ܗܪܟܐ ܐܬܬܕܝܢ ܐܝܟ ܡܟܝܟܐ ܘܠܐ ܡܠܠ ܗ̄ܘܐ:ܘܠܗܠ ܕܐܢ ܐܝܟ ܥܙܝܙܐ ܒܫܠܗܒܝܬܐ܀ܗܪܟܐ ܨܠܝܒܐ ܡܛܠ ܥܘܠܗ ܕܥܠܡܐ ܣܝܒܪ:ܘܬܡܢ ܬܒܥ̇ ܠܐܝܢܐ ܕܫܛܗ̇ ܠܨܠܝܒܘܬܐ܀ܗܪܟܐ ܐܠܦ ܘܐܪܬܝ ܘܟ̣ܘܢ ܠܒܢܝ̈ܢܫܐ:90 ܘܠܕܠܐ ܫܡܥ̇ ܡܠܦܢܘܬܗ ܒܢܘܪܐ ܫܕܐ܀ܕܚܝܠ ܗ̄ܘ̣ ܝܘܡܗ ܘܩܫܐ ܘܡܪܝܪ ܘܡܠܐ ܙܘ̈ܥܐ: ܛܢܢܐ ܕܢܘܪܐ ܕܐܟܠܐ ܟܘ̈ܒܐ ܘܝܥܪܐ ܣܢܝܐ܀ ܩܠܐ ܕܚܝܠܐ ܕܩܪܢܐ ܐ̄ܚܪܝܬܐ ܕܫܪܝܐ ܠܐܪܥܐ: ܘܣܬܪ ܡܚܸܬ ܐܣܝ̈ ܬܒܝܠ ܟܗܝ̈ܢܬܐ܀ 95 ܥܝܪ̈ܐ ܕܢܦܩܝܢ ܡ̣ܢ ܒܝܬ ܐܒܐ ܥܠ ܬܒ̈ܥܬܐ: ܘܡܟܢܫܝܢ ܠܗ ܠܥܠܡܐ ܠܕܝܢܐ ܕܦܣܝ̈ܩܬܐ܀ ܙܘܥܐ ܕܡܪܗܒ ܠܐܪܥܐ ܘܢܝܕܐ ܐܝܟ ܥܪܙܠܐ: ܘܠܠܐ ܡܕܡ ܫܪܟ ܫܘܦܪܗ̇ ܘܥܒܝ̈ܕܬܗ̇܀ ܫܡܫܐ ܘܣܗܪܐ ܘܚܝ̈ܠܘܬܐ ܕܐܝܬ ܒܪܩܝܥܐ: 100 ܢܬܪܝܢ ܟܠܗܘܢ ܒܕܡܘܬ ܛܖ̈ܦܐ ܡ̣ܢ ܐܝܠܢ̈ܐ܀ ܓܝܓܠܐ ܕܙܒ̈ܢܐ ܟܕ ܡܫܬܪܝܐ ܡ̣ܢ ܪܘܟܒܐ: ܘܢܦܠܝܢ ܡܢܗ̇ ܖ̈ܡܫܐ ܘܨܦܖ̈ܐ ܕܟܕܝܢܝܢ ܒܗ̇܀ ܪܗܛܐ ܪܗܝܒܐ ܕܠܝ̈ܠܘܬܐ ܐܦ ܕܐܝܡܡ̈ܐ: ܕܒܗ̇ܠ ܩܐܡ ܥܠ ܡܥܒܪܬܐ ܘܬܘܒ ܠܐ ܪܕܐ܀ 105 ܐܘܪܚܐ ܕܙܒ̈ܢܐ ܘܕܥܕܢ̈ܐ ܟܕ ܡܬܦܣܩܐ: ܘܠܐ ܬܘܒ ܪܗܛܐ ܥܠ ܕܘܒܖ̈ܐ ܐܝܟ ܕܡܥܕܐ܀ ܪܡܙܐ ܕܩܐܡ ܥܠ ܡܥܒܪܬܐ ܕܚܝ̈ܠܘܬܐ: ܘܠܡܘܙܠܬܐ ܡܫܠܚ ܫܕܐ ܡ̣ܢ ܪܘܟܒܗ̇܀ ܩܝܛܐ ܘܣܬܘܐ ܕܠܐ ܡܬܟܪܟܝܢ ܒܥܝܕܝ̈ܗܘܢ: 110 ܘܫܠܡܝܢ ܙܒ̈ܢܐ ܘܒܛ̇ܠ ܥܠܡܐ ܡ̣ܢ ܕܘܒܪܐ܀ ܪܩܝܥܐ ܦܐܝܐ ܡܐ ܕܡܫܬܠܚ ܡ̣ܢ ܨܘܪ̈ܬܗ: ܘܥܪܛܠ ܩܐܡ ܟܕ ܠܐ ܡܨܒܬ ܡ̣ܢ ܢܗܝܖ̈ܐ܀ ܖ̈ܗܛܐ ܫܓܝ̈ܫܐ ܕܒܢܝ̈ܢܫܐ ܡܐ ܕܡܬܒܣܪܝܢ: ܘܒܛܠܝܢ ܟܠܗܘܢ ܡܡ̈ܠܠܐ ܘܫܪ̈ܒܐ ܐܦ ܣܘܥܖ̈ܢܐ܀115 ܪܚܡܬ ܥܠܡܐ ܒܗܬܐ ܘܩܝܡܐ ܐܝܟ ܓܢܒܐ:ܕܡܬܦܪܣܐ ܠܗ ܥܠܡܐ ܘܚܘܒܗ ܕܠܘ ܡܕܡ ܗ̄ܘ̣܀ܩܠܐ ܕܙܘܥܐ ܕܡܕܘܕ ܠܗ̇ ܠܪܚܡܬ ܟܣܦܐ:ܘܡܬܒܣܖ̈ܢ ܒܗ̇ ܟܠ ܢܦ̈ܫܬܐ ܕܫܓܫܬ ܐܢܝܢ܀ܬܡܢ ܒܗ̇ܬ ܥܘܬܪܐ ܕܙܒܢܐ ܕܠܐ ܐܬܩܕܝ:120 ܘܪܓܬ ܥܠܡܐ ܕܫܠܡ ܙܒܢܗ̇ ܘܨܦܚܗ̇ ܪܘܓܙܐ܀ܬܡܢ ܒܣܪܝܢ ܟܠ ܩܢܝܢ̈ܐ ܠܩܢܝܝ̈ܗܘܢ:ܘܠܫܠܝ̈ܛܐ ܣܚ̇ܦ ܙܘܥܐ ܡ̣ܢ ܕܖ̈ܓܝܗܘܢ:ܬܡܢ ܕܢܚ̇ ܢܘܗܪܐ ܪܒܐ ܥܠ ܬܐܖ̈ܬܐ:ܟܕ ܡܬܟܘ̈ܢܢ ܗܢܝܢ ܡܢܗܝܢ ܕܟܡܐ ܐܡܪܚ܀125 ܬܡܢ ܗܘ̇ܐ ܕܐܢ ܟܠܢܫ ܗܘ ܠܩܢܘܡܗ:ܥܠ ܕܐܛܥܝ ܒܗ ܥܠܡܐ ܘܪܚܡܗ ܘܠܐ ܐܬܩܕܝ܀ܪܚܡܬ ܕܗܒܐ ܕܗܐ ܝܩ̇ܕ ܒܗ̇ ܥܠܡܐ ܟܠܗ:ܬܡܢ ܕܥܟܐ ܡ̣ܢ ܖ̈ܥܝܢܐ ܕܐܚܝܕܝܢ ܒܗ̇܀ܨܦܬܗ ܕܥܠܡܐ ܡܫܬܩܠܐ ܠܗ̇ ܡ̣ܢ ܢܦ̈ܫܬܐ:130 ܕܕܗܝ̇ ܢܘܪܐ ܝܨ̇ܦ ܟܠܢܫ ܡܐ ܕܝܩ̇ܕ ܒܗ̇܀ܙܘܥܐ ܘܬܗܪܐ ܘܪܗܝܒܘܬܐ ܘܓܘܢܚܐ ܪܒܐ:ܚܙܬܐ ܕܡܠܝܐ ܟܠ ܣܘܖ̈ܕܐ ܡ̣ܢ ܟܠ ܓܒܝ̈ܢ܀ܥܒ̇ܪ ܥܠܡܐ ܘܥܒܪܝܢ ܥܡܗ ܐܦ ܐܣܟܡܘ̈ܗܝ:ܘܥܠܡܐ ܚܕܬܐ ܡܚܘܐ ܢܦܫܗ ܐܝܟ ܫܦܝܪܐ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Furchterregend, hart, bitter und voller Aufregung ist Sein [der Ankunft Jesu, d.h. des Jüngsten Gerichts] Tag: Die Strenge des Feuers, welches Dornen und Unkraut verschlingt. Die furchterregende Stimme der nächsten Posaune, welche die Erde auflöst: Sie zerstört und bringt nieder die Welt der Reichtümer. 95 Die Wächterengel, die aus dem Haus des Vaters hinausgehen, um zu rächen: sie versammeln die gesamte Welt für das endgültige Gericht. Das Zittern, welches die Erde erschreckt und sie wie ein Netz zusammenzieht: und ihre Schönheit und Taten werden zu nichts werden. Sonne und Mond und alle Mächte des Firmaments 100 werden fallen wie Blätter von Bäumen. Das Zeitenrad löst sich aus dem Getriebe, und Abende und Morgen, welche daran gebunden sind, fallen von ihm ab. Der schnelle Lauf von Nächten und Tagen erstarrt, steht am Übergang und bewegt sich nicht mehr. 105 Der Weg der Zeiten und Perioden geht zu Ende, und er läuft nicht mehr, die gewohnten Aufgaben zu verrichten. Das Zeichen, welches über dem Untergang der Mächte steht, entblößt die himmlischen Sphären und wirft sie aus ihrer Anordnung. Sommer und Winter folgen einander nicht mehr wie gewohnt: 110 die Zeiten gehen zu Ende, und das Getriebe der Welt hört auf. Das ansehnliche Firmament ist entblößt von seinen Bildern, und nackt steht es ohne den Schmuck seiner Leuchten. Das aufgeregte Gerenne der inkarnierten Menschen: Alles Gerede, alle Geschichten und Taten sind zu Ende.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

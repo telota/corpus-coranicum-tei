@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Buch der Jubiläen 10:23-26</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_925" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>925</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 26:128-129 wirft den ʿĀd vor, sich Gebäude zu errichten, um sich zu verewigen (wa-tattaḫiḏūna maṣāniʿa laʿallakum taḫludūna). Heinrich Speyer sieht darin Reminiszenzen an die Erzählung vom Turmbau zu Babel (vgl. Gen 11:4 wə-naʿaśeh lanu šem; "und machen wir uns damit einen Namen") und vermutet daher, dass die Vernichtung der ʿĀd durch einen Wind ebenfalls auf die Turmbauerzählung zurückgeht: Anders als in Genesis (vgl. TUK_0224) zerstört Gott der Erzählung im Jubiläenbuch zufolge den Turm durch einen Wind (Speyer 1931: p. 116-118).
+
+	Das Buch der Jubiläen präsentiert sich als die Sinaioffenbarung an Moses, die ihm durch Engel vermittelt wird. Teil dieser Offenbarung sind nach dem Verständnis des Jubiläenbuches nicht nur die Gesetze, sondern auch der Pentateuch, der hier neu erzählt, bzw. unter einer bestimmten Zielsetzung interpretiert wird. Als Trägerkreis lässt sich eine antihellenistische priesterliche Reformgruppe identifizieren, die mit den Asidäern und der kurz darauf entstehenden Qumrangruppe in Verbindung steht. Ziel des Jubiläenbuches ist die Bewahrung der Identität und kultischen Integrität Israels, wobei der Einhaltung des Kalenders und des Sabbats, sowie dem Zusammenhalt der Familie eine besondere Rolle zukommt, was in den Vätergeschichten exemplarisch dargestellt wird. Ursprünglich wurde das Jubiläenbuch auf Hebräisch verfasst; so sind alle in Qumran gefundenen Fragmente hebräisch. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (lateinisch; eine anonyme syrische Chronik; Zitate bei griechischen Schriftstellern) zeugen. Vollständig erhalten ist das Buch der Jubiläen dagegen nur in der äthiopischen Übersetzung; wahrscheinlich dadurch bedingt, dass es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Berger 1981: p. 279-300).
+</summary>
+            <msItem>
+              <title>Buch der Jubiläen 10:23-26</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 167 und 140 v. Chr.</origDate>
+              <origPlace>Palästina (Jerusalem?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">James C. Vanderkam (Hg.), The Book of Jubilees. A Critical Text, Louvain 1989 (Corpus Scriptorum Christianorum Orientalium 510, Scriptores Aethiopici 87).</bibl>
+              <bibl type="literatur">Berger, Klaus (Hrsg.): Das Buch der Jubil&amp;#xE4;en. G&amp;#xFC;tersloh 1981.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	ወወረደ፡ እግዚአብሔር፡ ወወረድነ፡ ምስሌሁ፡ ንርአይ፡ ሀገረ፡ ወማኅፈደ፡ ዘሐነጹ፡ ውሉደ፡ ሰበእ። ወሦጠ፡ ኵሎ፡ ቃለ፡ ልሳናቲሆሙ፡ ወኢሰምዐ፡ እንከ፡ አሐዱ፡ ቃለ፡ ካልኡ፡ ወአንተጉ፡ እንከ፡ ሐኒጸ፡ ሀገር፡ ወማኅፈድ። በእንተዝ፡ ተሰምየት፡ ኵላ፡ ምድረ፡ ሰናኦር፡ ባቤል፡ እስመ፡ በህየ፡ ሦጠ፡ አምላክ፡ ኵሎ፡ ልሳናቲሆሙ፡ ለውሉደ፡ ሰብእ። ወእምህየ፡ ተዘርዉ፡ ውስተ፡ አህጉሪሆሙ፡ በበ፡ ልሳናቲሆሙ፡ ወበበ፡ ሕዘቢሆሙ፡ ወፈነወ፡ እግዚአብሔር፡ ነፋሰ፡ ውስተ፡ ማኅፈድ፡ ወገፍትኦ፡ ውስተ፡ ምድር። ወናሁ፡ ውእቱ፡ ማእከለ፡ አሱር፡ ወባቢሎን፡ ውስተ፡ ምድረ፡ ሰናኦር፡ ወጸውዐ፡ ሰሞ፡ ድቀት።
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	23 Und der Herr stieg herab, und wir [die Engel] stiegen herab mit ihm, die Stadt zu sehen und den Turm, den die Menschenkinder gebaut hatten. 24 Und er verwirrte alle Worte ihrer Sprachen. Und einer verstand nicht mehr die Sprache des anderen. Und sie hörten nun auf, die Stadt und den Turm zu bauen. 25 Deswegen wurde das ganze Land Senaer "Babel" genannt, denn dort hatte Gott alle Sprachen der Menschenkinder verwirrt, und von dort aus wurden sie zerstreut in ihre Städte, je nach ihren Sprachen und je nach ihren Stämmen. 26 Und der Herr schickte einen Wind gegen den Turm und vernichtete ihn auf der Erde. Und siehe, er war zwischen Assur und Babylon im Lande Senaer. Und man nannte seinen Namen "Ruine".
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

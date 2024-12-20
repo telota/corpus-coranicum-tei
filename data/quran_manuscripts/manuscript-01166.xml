@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1166">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (7)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0013.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0014.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (7)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p/><p>1 fol. on parchment; Shelfmark: Vat. Ar. 1605 (VII); Qurʾānic  Text: Q 67:30-68:27; 12-13 lines per page; Dimensions:  251 x 149mm; Script style: kūfī C; Estimated date of production: 700-900.</p><p> </p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 6):<p/><p>"7. (Tavola 2) Cm. 14,9 x 25,1; 12 linee nel recto, 13 nel verso. Sura 67,30 ماؤكم – 68,11 هماز; verso: sura 68,11 اسٰـ]طير] – 27 نحن. Questo foglio segue immediatamente al precedente. Il titolo della sura 68 è della stessa scrittura riscontrata nel no. 3: فٰتحة ن والقلم وهى خمسون واثنتان [اية].  La scrittura del verso è ripassata come nei ni. 2-4 e 6. Nell’ultima  linea del recto dopo il v. 10 appare un di visore denario di aspetto  differente da quello del numero precedente: un cerchio d’oro punteggiato  di rosso e riem pito di nero, salvo il centro che è lasciato in bianco.  La parte superiore del foglio è danneggiata, con per dita di due linee;  il resto è intatto, salvo un lieve guasto nel màrgine inferiore." </p></summary>
+            <msItem xml:id="mysql_id_679591" n="7r">
+              <title type="numeric" key="067:030:005-068:011:001">
+                                    067:030:005-068:011:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679592" n="7v">
+              <title type="numeric" key="068:015:006-068:027:002">
+                                    068:015:006-068:027:002
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>251</width><height>149</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12 13">12 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="7r" xml:id="mysql_id_40479">
+      <graphic decls="#imageRights-1" url="manuscript/1166/dd5e02bb-3d7e-466e-8c2a-23f2c31644bc/manuscript-1166-page-40479-image-25681.jpg"/>
+    </surface>
+    <surface n="7v" xml:id="mysql_id_40480">
+      <graphic decls="#imageRights-2" url="manuscript/1166/a4354ddb-cc5e-4a48-8277-67958af96a1a/manuscript-1166-page-40480-image-25682.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

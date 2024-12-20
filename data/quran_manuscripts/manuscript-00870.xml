@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_870">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.1118</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Cambridge University Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.1118</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: MS Add.1118; Text: Q 3:147-160; 14 lines per page; Dimensions: 230 x 159mm; Script style: kūfī D common; Estimated date of production: 9th or 10th century AD /3rd or 4th century Hijri. </p>
+              <p> </p>
+              <p>Fragment of an Abbasid Qur'ān probably written  in the third or fourth century A.H. / ninth or tenth century C.E,  containing verses 147-160 from Sura Āl ʿImrān (سورة آل عمران). The  script seems to correspond to the Abbasid Style <hi rend="italic">D common</hi> as <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">described by F. Deroche</ref>. For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01118/1">entry in the Digital Library of Cambridge University</ref>.</p>
+              <p> </p>
+              <p>The University of Cambridge acquired the fragment in 1878 from Edward H.  Palmer (1840-1882) and E.E. Tyrwhitt Drake. The displayed fragment and  other early Qur'an manuscripts (call numbers Add.1115 - Add.1150) were  acquired by Palmer during a research trip to the Sinai Peninsula (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UUUFI42M">Ansorge 2016</ref>).</p>
+            </summary>
+            <msItem xml:id="mysql_id_687987" n="1r">
+              <title type="numeric" key="003:147:009-003:152:013">
+                                    003:147:009-003:152:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687988" n="1v">
+              <title type="numeric" key="003:152:014-003:154:026">
+                                    003:152:014-003:154:026
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687989" n="2r">
+              <title type="numeric" key="003:154:027-003:156:011">
+                                    003:154:027-003:156:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687990" n="2v">
+              <title type="numeric" key="003:156:012-003:160:008">
+                                    003:156:012-003:160:008
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>230</width><height>159</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="14">14 - 14 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D common
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47947">
+      <graphic decls="#imageRights-1" url="manuscript/870/3a51fa7d-6351-429a-8d7a-9e518ec3bafc/manuscript-870-page-47947-image-34383.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47948">
+      <graphic decls="#imageRights-1" url="manuscript/870/74366e94-1a49-4800-bfc3-9a15b92401a3/manuscript-870-page-47948-image-34384.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47949">
+      <graphic decls="#imageRights-1" url="manuscript/870/181f1911-3452-4aa9-a51a-a101c8350722/manuscript-870-page-47949-image-34385.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_47950">
+      <graphic decls="#imageRights-1" url="manuscript/870/0ef760e0-6f4f-49fe-827c-2a4abe3fa1d9/manuscript-870-page-47950-image-34386.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

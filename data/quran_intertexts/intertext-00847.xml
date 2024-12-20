@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Trostschreiben an die himjaritischen Christen</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_847" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>847</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In diesem Trostbrief an die unterdrückten Christen Südarabiens (vgl. TUK_0846, TUK_0848) entwirft Jakob von Sarug eine lange Rede gegen die jüdischen Untertanen des Königs Masruq, der für die Verfolgung der Christen aus Naǧrān bekannt war. Wenn diese Episode in der Tat das Thema von Q 85 ist, wie es schon einige Koranexegeten vermutet haben (vgl. aber Robin 2015), so könnte man aus dem Brief Jakobs (und aus anderen Quellen über Naǧrān) möglicherweise weitere Informationen über die Hintergründe dieser Sure erhalten (dazu Shahîd 1971). Jakob beschreibt z.B. die Juden in der hier zitierten Passage als „wider die Christen geschart“, was an den koranischen Begriff quʿūd („Sitzende“, Vers 6) erinnert: die Gläubigen in der Feuergrube werden von ihren Mördern am Rande der Grube umgeben.	</summary>
+            <msItem>
+              <title>Trostschreiben an die himjaritischen Christen</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">R. Schröter (Hg.), Trostschreiben Jacob's v. Sarug an die himjaritischen Christen, ZDMG 31 (1877), S. 371-377.</bibl>
+              <bibl type="literatur">Robin, Christian Julien: &amp;#x201E;L&amp;#x2019;Arabie dans le Coran. R&amp;#xE9;examen de quelques termes a la lumiere des inscriptions pr&amp;#xE9; islamiques&amp;#x201C;. In: Fran&amp;#xE7;ois D&amp;#xE9;roche, Christian Julien Robin, &amp;amp; Michel Zink (Hrsg.), Les origines du Coran, le Coran des origines: actes du colloque international organis&amp;#xE9; par l&amp;#x2019; Acad&amp;#xE9;mie des Inscriptions et Belles-Lettres et la Berlin-Brandenburgische Akademie der Wissenschaften ... 3 et 4 mars 2011. Acad&amp;#xE9;mie des Inscriptions et Belles-Lettres, Paris 2015, S. 27&amp;#x2013;74.</bibl>
+              <bibl type="literatur">Shah&amp;#xEE;d, Irfan: The martyrs of Najr&amp;#xE2;n: new documents. Soc. des Bollandistes, Bruxelles 1971.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܒܗܢܐ ܕܝܢ ܙܒܢܐ. ܐܝܟ ܕܡܢ ܣܓ̈ܝܐܐ ܫܡܥܢ ܚܢܢ. ܕܠܐܬܪܐ ܕܝܠܟܘܢ ܡܛܬ ܦܨܬܐ܇ ܕܬܚܘܐ ܒܗ ܣܒܪܬܐ ܢܨܚܢܗ̇. ܘܒܚܫ̈ܝܟܘܢ ܡܫܚ̈ܠܦܐ. ܐܚܕ ܙܩܝܦܐ ܢܐܘܡܐ ܒܐܬܪܐ ܕܚܡܝܖ̈ܝܐ. ܘܛܘܒܝܟܘܢ ܕܩܪܬܟܘܢ ܛܝܒܘܬܐ. ܕܠܘ ܟܖ̈ܣܛܝܢܐ ܒܫܡܐ ܬܗܘܘܢ܆ ܐܠܐ ܕܐܦ ܐܣܝܖ̈ܘܗܝ ܕܝܫܘܥ ܬܬܗܝܡܢܘܢ. ܘܠܘ ܠܣܓܕܬܗ ܒܠܚܘܕ ܐܫܬܘܝܬܘܢ܉ ܐܠܐ ܐܦ ܐܘ̈ܠܨܢܐ ܚܠܦܘܗܝ ܬܣܝܒܪܘܢ ܥܙܝܬܘܢ. ܫܦܝܪ ܠܟܘܢ ܪܕܘܦܝܐ. ܡܛܠ ܕܥܬܝܪܐ ܒܟܘܢ ܪܚܡܬܗ ܕܙܩܝܦܐ. ܚܒܝ̈ܒܝܢ ܥܠܝܟܘܢ ܐܘܠܨ̈ܢܐ. ܥܠ ܕܝܩܕܐ ܒܟܘܢ ܢܘܪܐ ܕܚܘܒܗ܇ ܕܗܘ̇ ܕܐܪܡܝ ܢܘܪܗ ܒܥܠܡܐ. ܬܡܝܗ ܐܓܘܢܟܘܢ ܥܠ ܕܒܝ̈ܫܝܢ ܖ̈ܕܘܦܝܟܘܢ܇ ܘܡܠܐ ܬܗܪܐ ܕܪܟܘܢ. ܥܠ ܕܡܪܝܪܝܢ ܒܥܠܕܒܒ̈ܝܟܘܢ. ܐܠܘ ܡܢ ܚܢ̈ܦܐ ܡܬܪܕܦܝܢ ܗܘܝܬܘܢ܆ ܐܝܬ ܗܘܐ ܐܦܬܐ ܠܚܫܝ̈ܟܘܢ܆ ܘܢܦܐܫܐ ܠܐܠܨ̈ܢܝܟܘܢ. ܗܫܐ ܕܝܢ ܕܝܗܘܕ̈ܝܐ ܒܥܠܕܒܒܘ̈ܗܝ ܕܙܩܝܦܐ ܣܕܝܪܝܢ ܠܘܩܒܠܟܘܢ܆ ܪܡܝܢ ܐܢܘܢ ܚܫ̈ܝܟܘܢ ܡܢ ܚܫ̈ܐ. ܘܢܨܝܚ ܟܠܝܠܟܘܢ ܡܢ ܟܠܝܠܐ. ܗܕܐ ܐܘܡܬܐ ܩܛܘܠܬܐ܇ ܐܥܝܪܬ ܗܪܬܐ ܠܘܩܒܠܟܘܢ. ܗܕܐ ܕܡܗܝܪܐ ܒܩܛܠܐ ܘܡܢܦܩܐ ܒܕܡܐ. ܘܥܬܝܪ ܒܗ̇ ܚܣܡܐ ܘܡܠܐ ܠܒܗ̇ ܢܟܠܐ. ܘܚܟܝܡܐ ܕܬܪܕܘܦ. ܘܝܕܥܐ ܕܬܙܩܘܦ. ܘܡܛܝܒܐ ܕܬܩܛܘܠ܉ ܘܥܬܝܕܐ ܕܬܪܓܘܡ. ܘܫܟܝܚܝܢ ܠܗ ܟܡܐܢ̈ܐ ܠܬܡܝܡ̈ܐ. ܘܠܛܝܫܐ ܣܟܝܢܗ̇ ܥܠ ܨܘܪܐ ܕܫܦܝܖ̈ܐ. ܘܡܬܪܘܪܒܐ ܚܪܒܗ̇ ܒܕܡܐ ܕܙܟ̈ܝܐ. ܘܫܡܝܛܐ ܣܦܣܪܗ̇ ܥܠ ܓܒܐ ܕܡܗܝܡܢܐ. ܗܕܐ ܕܝܗܒܬ ܢܦܫܗ̇ ܘܝܠܦܬ܉ ܘܣܡܬ ܐܦ̈ܝܗ ܘܐܬܢܦܩܬ. ܘܒܐܣܟܡ̈ܝܗܘܢ ܕܚܫ̈ܐ ܐܬܕܪܫܬ. ܘܢܗܝܪܐܝܬ ܝܕܥܐ ܬܪܟܒ ܙܩܝܦܐ. ܘܬܠܛܘܫ ܪܘܡܚܐ: ܬܚܠܘܛ ܚܠܐ ܒܡܪܖ̈ܐ ܬܓܕܘܠ ܟܠܝܠܐ ܕܥܘܙܢܝ̈ܐ. ܬܓܚܟ ܟܕ ܩܛܠܐ. ܘܬܡܝܩ ܡܐ ܕܨܠܒܐ. ܘܬܢܝܕ ܪܫܗ̇܉ ܘܬܪܦܘܣ ܒܪܓܠܗ̇܉ ܘܬܫܒ ܨܘܚ̈ܝܬܐ ܐܝܟ ܖ̈ܘܚܐ ܘܬܡܠܠ ܓܘܕ̈ܦܐ ܐܝܟ ܡܫ̈ܒܐ ܥܙܝ̈ܙܐ. ܬܬܪܘܥ ܨܥܪܐ ܐܝܟ ܝܡܐ. ܘܬܐܫܘܕ ܒܙܚܐ ܐܝܟ ܪܓܠܬܐ ܥܫܝܢܬܐ. ܡܢ ܗܕܐ ܫܪܒܬܐ ܒܝܫܬܐ ܘܓܝܪܬܐ܇ ܕܒܗܠܝܢ ܟܠܗܝܢ ܡܕܪܫܐ܇ ܐܬܬܥܝܪ ܥܠܝܟܘܢ ܪܕܘܦܝܐ: ܐܘ ܬܠܡܝܕܘ̈ܗܝ ܫܖ̈ܝܪܐ ܕܙܩܝܦܐ. ܘܡܟܝܠ ܠܬܗܪܐ ܫܘܐ ܩܪܒܟܘܢ܇ ܕܐܝܠܝܢ ܒܥܠܕܒܒ̈ܐ ܣܕܝܪܝܢ ܒܓܒܐ ܠܘܩܒܠܟܘܢ. ܚܢ̈ܦܐ ܠܟܘܢ ܣܢܝܢ. ܠܡܪܟܘܢ ܕܝܢ ܠܐ ܝܕܥܝܢ. ܝܗܘ̈ܕܝܐ ܕܝܢ ܡܢ ܣܢܐܬܗ ܕܡܪܟܘܢ܇ ܣܕܪܝܢ ܠܘܩܒܠܟܘܢ ܐܘ̈ܠܨܢܐ. ܒܥܠܕܒܒܘܬܐ ܥܬܝܩܬܐ ܡܬܗܦܟܐ ܒܢܦܫܗܘܢ܇ ܕܢܪܕܦܘܢ ܠܬܠܡܝܕܘ̈ܗܝ ܕܙܩܝܦܐ. ܨܒܝܢ ܕܝܢ ܕܢܚܘܘܢ܉ ܕܝܖ̈ܬܘܗܝ ܐܢܘܢ ܟܫܝܖ̈ܐ ܕܚܢܢ ܘܕܩܝܦܐ. ܘܬܠܡܝܕܘ̈ܗܝ ܡܗܝܖ̈ܐ ܕܝܗܘܕܐ ܡܫܠܡܢܐ. ܘܣܒ̇ܪ ܐܢܐ ܕܡܐ ܕܪܕܦܝܢ ܠܟܘܢ܆ ܡܥܩܝܢ ܥܠ ܕܠܟܘܢ ܪܕܦܝܢ܇ ܘܠܘ ܠܝܫܘܥ ܒܐܝ̈ܕܝܗܘܢ ܓܘܫܡܢܐܝܬ ܠܒܟܝܢ ܕܢܨܥܪܘܢ܇ ܘܬܘܒ ܡܢ ܕܪܝܫ ܢܙܩܦܘܢ. ܘܖ̈ܓܓܝܢ ܗܘܘ ܕܢܣܬܩܒܠܘܢ ܒܗܝ̇ ܐܣܦܝܪ ܣܪܝܚܬܐ ܕܙܩܘ̈ܦܐ܇ ܕܥܒܝܕ ܗܘܐ ܪܝܫܗ̇ ܝܗܘܕܐ ܒܪ ܣܡܠܐ. ܚܕ ܚܕ ܡܢܗܘܢ ܓܝܪ ܕܗܠܝܢ ܒܥܠܕܒܒܝ̈ܟܘܢ܇ ܡܐ ܕܫܡܥܘ ܡܢܐ ܥܒܕܘ ܐܒܗܘ̈ܗܝ ܠܡܪܢ ܡܫܝܚܐ. ܙܥܪܐ ܢܦܫܗ ܒܥܝܢܘ̈ܗܝ ܥܠ ܕܗܘ ܠܟܘܢ ܪܕܦ̇ ܘܠܘ ܠܡܪܟܘܢ ܐܝܟ ܐܒܗܘ̈ܗܝ ܩ̇ܛܠ. ܘܚܣܡܝܢ ܒܝܗܘܕܐ. ܘܒܥܝܢ ܗܘܘ ܕܢܡܠܘܢ ܕܘܟܬܗ. ܐܦ ܡܬܪܓܪܓܝܢ ܠܥܒܕܗ ܕܗܘ̇ ܕܡܚ̇ܐ ܦܟܐ ܠܝܫܘܥ. ܕܐܠܘ ܩܪܝܒܝܢ ܗܘܘ ܐܟܘܬܗ ܢܡܪܚܘܢ܇ ܠܗܘ̇ ܕܝܢ ܕܡܚܗܝ ܒܪܘܡܚܐ ܛܘܒܐ ܝܗܒܝܢ. ܘܠܗܘ̇ ܕܐܘܫܛ ܠܗ ܚܠܐ ܘܡܪܖ̈ܐ. ܥܬܝܪ ܦܘܖ̈ܫܢܐ ܚܫܒܝܢ. ܘܗܟܢ ܡܥܩܝܢ. ܥܠ ܕܠܘ ܗܢܘܢ ܗܠܝܢ ܥܒܕܘ܇ ܐܠܐ ܡܢ ܐܚܖ̈ܢܐ ܐܣܬܥܪ. ܘܡܛܠ ܗܕܐ ܐܠܨܝܢ ܕܢܘܣܦܘܢ ܠܟܘܢ ܐܘ̈ܠܨܢܐ. ܕܢܗܘܐ ܢܦܐܫܐ ܠܪܓܬܗܘܢ܉ ܕܒܟܘܢ ܠܡܫܝܚܐ ܢܨܥܪܘܢ. ܘܡܐ ܕܠܟܘܢ ܪܕܦܝܢ܇ ܗܟܢܐ ܡܬܦܪܣܝܢ ܘܒܥܝܢ. ܕܒܡܪܕܘܬܟܘܢ ܕܝܠܟܘܢ܉ ܢܚܘܘܢ ܒܘܩܝܐ ܕܨܒܝܢܟܘܢ ܒܝܫܐ. ܕܠܐ ܡܒܨܪܝܢ ܡܕܡ ܡܢ ܒܝܫܘܬܐ ܕܙܩܘ̈ܦܐ ܐܒܗܝܗ̈ܘܢ. ܘܡܟܝܠ ܗܢܐ ܟܠܗ ܪܡ ܕܪܓܐ ܕܡܘܕܝܢܘܬܟܘܢ ܡܢ ܕܡܘܕܝ̈ܢܐ. ܟܡܐ ܕܒܝ̈ܫܝܢ ܖ̈ܕܘܦܝܟܘܢ ܡܢ ܖ̈ܕܘܦܐ. ܒܝܫܘܬܗܘܢ ܡܣܓܐ ܠܟܘܢ ܚܫ̈ܐ. ܘܐܝܟ ܕܣܓܝܐܝ̈ܢ ܚܫ̈ܐ. ܗܟܢ ܝܪܒܝܢ ܟܠܝܠܝ̈ܟܘܢ. ܘܟܡܐ ܕܡܬܥܫܢ ܪܕܘܦܝܐ. ܗܟܢ ܡܬܢܨܚܐ ܙܟܘܬܐ. ܚܢܢ ܕܝܢ ܖ̈ܗܘܡܝܐ ܝ̈ܬܒܝ ܒܫܝܢܐ ܕܡ̈ܠܟܐ ܟܖ̈ܣܛܝܢܐ. ܛܘܒ̈ܐ ܝܗܒܝܢ ܚܢܢ ܠܚܝܝܟ̈ܘܢ ܡܛܖ̈ܦܐ ܘܐܠ̈ܨܐ ܘܡܕܚܐ ܘܣܖ̈ܝܓܝ ܥܠ ܚܫܘ̈ܗܝ ܕܙܩܝܦܐ. ܘܗܟܢܐ ܚܖ̈ܝܢ ܚܢܢ ܒܫܝܢܐ ܕܝܠܢ ܐܝܟ ܒܛܠܝܐ ܕܡܢ ܚ̈ܝܐ. ܘܚܫܝܒ ܠܢ ܪܕܘܦܝܐ ܕܝܠܟܘܢ܉ ܐܝܟ ܚ̈ܝܐ ܫܪܝܖ̈ܐ ܕܒܐܠܗܐ ܓܫܝܡܝܢ. ܘܟܕ ܟܠܟܘܢ ܡܗܝ̈ܡܢܐ: ܠܚܕܐ ܦܠܚܘܬܗ ܕܚܕ ܡܠܟܐ ܫܡܝܢܐ. ܐܬܩܪܝܬܘܢ܉ ܒܡܘܠܕܐ ܕܡܢ ܕܪܫ. ܡܫܚܠܦܝܢ ܐܢܘܢ ܫܘܦܖ̈ܝܟܘܢ ܡܢ ܕܚܕ̈ܕܐ. ܠܦܘܬ ܣܕܖ̈ܐ ܕܚܫܝ̈ܟܘܢ ܡܫܚ̈ܠܦܐ. ܕܗܢܐ ܕܝܢ ܣܓܝ̈ܐܝܢ ܫܘܦܖ̈ܘܗܝ. ܕܐܝܢܐ ܕܣܓܝ̈ܐܝܢ ܚܫܘ̈ܗܝ. ܘܗܟܢ ܫܦܝܪ ܟܠܝܠܐ. ܟܡܐ ܕܩܫ̇ܐ ܐܘܠܨܢܐ. ܚܕܥ̇ ܗܘ ܓܝܪ ܪܘܚܐ ܦܪܩܠܝܛܐ ܡܚܟܡܢܟܘܢ܇ ܕܢܡܠܠ ܒܟܘܢ ܘܢܐܡܪ܉ ܕܠܐ ܫܘܝܢ ܚܫܘ̈ܗܝ ܕܙܒܢܐ ܗܢܐ܇ ܠܬܫܒܘܚܬܐ ܐܝܕܐ ܕܥܬܝܕܐ ܕܬܬܓܠܐ ܒܢ. ܐܘܠܨܢܐ ܕܝܢ ܕܙܒܢܐ ܙܥܘܪܐ. ܠܚ̈ܝܐ ܡܬܝ̈ܚܐ ܕܠܝܬ ܠܗܘܢ ܫܘܠܡܐ. ܡܩܪܒ ܠܟܘܢ ܕܬܣܡܟܘܢ. ܘܡܐ ܕܥܢܕܬܘܢ ܡܢ ܥܠܡܐ ܒܡܘܬܐ. ܡܬܓܠܝܢ ܐܢܬܘܢ ܥܡ ܡܫܝܚܐ ܒܚ̈ܝܐ. ܘܡܢܘ ܟܝ ܕܠܐ ܢܬܪܓܪܓ ܕܢܩܛܘܦ܇ ܡܢ ܐܘܠܨܢ̈ܐ ܕܙܒܢܐ ܚܝ̈ܐ ܕܠܥܠܡ. ܥܠܡܐ ܡܫܬܪܐ ܠܗ ܘܡܬܚܒܠ ܫܘܦܪܗ. ܘܡܫܬܒܩ ܥܘܬܪܗ ܘܥܒ̇ܪ ܫܘܠܛܢܗ. ܘܡܣܬܢܝܐ ܦܐܝܘܬܗ̇ ܘܒܛܠܝܢ ܕܖ̈ܓܘܗܝ. ܘܡܘܦܝܢ ܢܝܚܘ̈ܗܝ. ܘܡܬܚ̇ܠܦܝܢ ܐܣܟܡܘ̈ܗܝ: ܘܢܬܪ ܐܝܟ ܗܒܒܐ. ܘܚܡܐ ܐܝܟ ܦܩܚܐ. ܘܥܪܩ ܐܝܟ ܛܠܠܐ ܕܦܢܝܐ. ܘܗܐ ܡܬܟܪܟ ܘܪܗ̇ܛ ܐܝܟ ܓܝܓܠܐ. ܕܢܥܒܕ ܘܢܥܒܪ ܥܡܗ. ܟܠܗܝܢ ܨܒܘ̈ܬܐ ܕܒܓܘܗ ܖ̈ܕܝܢ. ܐܢ ܢܝܚ̈ܐ ܘܐܢ ܛܘܖ̈ܦܐ. ܐܢ ܐܝܩܪܐ ܘܐܢ ܨܥܪܐ. ܟܠܗܝܢ ܕܝܠܗ ܥܡܗ ܘܐܟܘܬܗ ܒ̈ܛܠܢ. ܘܠܐ ܐܘ̈ܠܨܢܘܗܝ ܡܓܪܝܢ. ܘܠܐ ܢܝܚܘ̈ܗܝ ܫܪܝܖ̈ܝܢ. ܥܠ ܗܢܐ ܡܢܘ ܢܬܬܟܠ. ܐܠܐ ܡ̇ܢ ܕܛܥܝ ܒܬܪܗ. ܘܠܗܠܝܢ ܚܝ̈ܐ ܙܥܘܖ̈ܐ ܘܡܙ̈ܠܗܙܐ. ܡܢܘ ܢܪܚܡ܇ ܐܠܐ ܡ̇ܢ ܕܠܐ ܪܓܝܫ ܒܗܠܝܢ ܚܝ̈ܐ ܫܪܝܖ̈ܐ ܘܠܐ ܡܬܚ̈ܒܠܢܐ. ܐܢܬܘܢ ܕܝܢ ܐܚ̈ܝ. ܘܠܥܠܡܐ ܐܝܟ ܕܐܝܬܘܗܝ ܚܙܝܬܘܢ܆ ܘܒܐܠܗܐ ܐܝܟ ܕܐܝܬܘܗܝ ܐܪܓܫܬܘܢ܆ ܘܕܥܒܪ ܠܗ ܐܣܟܡܗ ܕܥܠܡܐ ܝܠܦܬܘܢ. ܘܕܠܐ ܬܘܒ ܡܫܬܚܠܦ ܫܘܦܪܗ ܕܐܠܗܐ ܐܬܥܗܪܬܘܢ. ܘܡܛܠ ܗܢܐ ܒܡܘܬܐ ܡܗܠܝܢ ܐܢܬܘܢ. ܘܡܢ ܐܘܠܨܢܐ ܕܙܒܢܐ ܠܐ ܡܬܪܗܒܝܢ ܐܢܬܘܢ. ܟܡܐ ܕܝܢ ܕܥܝܢܗ̇ ܕܢܦܫܟܘܢ: ܚܝܪܐ ܢܗܝܪܐܝܬ ܒܚܫܘ̈ܗܝ ܕܙܩܝܦܐ. ܕܬܚܫܒܘܢ ܠܚܫܝ̈ܟܘܢ ܕܚܫ̈ܐ ܐܢܘܢ ܠܐ ܡܫܟܚܝܢ ܐܢܬܘܢ ܐܝܬ ܠܟܘܢ ܓܝܪ ܠܡܐܡܪ܆ ܕܐܢ ܗܘ ܠܐܡܝܘܬܐ ܡܛܠ ܚܝ̈ܝܢ ܕܝܠܢ܇ ܒܨܒܝܢܗ ܠܡܘܬܐ ܐܫܬܠܡ. ܚܢܢ ܡܫܥ̈ܒܕܝ ܠܡܘܬܐ: ܒܓܙܪ ܕܝܢܐ ܕܥܒ̇ܪ ܢܡܘܣܐ. ܟܡܐ ܙܕܩ ܠܢ ܕܢܬܠ ܢܦܫܢ ܠܡܘܬܐ ܕܚܠܦ ܫܪܪܗ̇. ܕܢܝܩܪ ܒܡܘܬܢ ܠܡܘܬܗ ܕܚܠܦܝܢ. ܐܢ ܠܡܪܗ̇ ܕܬܫܒܘܚܬܐ ܙܩܝܦܐ ܕܚܣܕܐ. ܠܢ ܒܨܝܖ̈ܐ ܘܕܘ̈ܝܐ. ܐܝܢܐ ܨܥܪܐ ܡܬܚܝܒ. ܠܒܪܗ ܕܐܠܗܐ ܝܚܝܕܝܐ ܪܘܩܐ ܘܩܘܦܚܐ ܘܢܓ̈ܕܐ ܘܦܖ̈ܓܠܐ. ܘܢܚ̈ܬܐ ܕܒܙܚܐ ܘܟܠܝܠܐ ܕܟܘܒ̈ܐ. ܘܚܠܐ ܒܡܪܖ̈ܐ. ܘܦܟܪܐ ܕܥܠ ܙܩܝܦܐ. ܘܒܘܙܥܐ ܕܐܝܕ̈ܝܐ ܘܕܖ̈ܓܠܐ. ܘܬܘܪܥܬܐ ܕܕܦܢܐ. ܘܦܘܠܓ ܢܚ̈ܬܐ. ܘܟܠ ܚܫ̈ܝܢ ܥܡ ܟܠ ܒܙܚ̈ܝܢ. ܘܟܠ ܟܐܒ̈ܝܢ ܥܡ ܟܠ ܡܘܝ̈ܩܝܢ. ܐܢ ܗܘ̣ ܡܛܠܬܢ ܗܠܝܢ ܟܠܗܝܢ ܣܝܒܪ: ܚܢܢ ܚܠܦ ܢܦܫܢ ܠܐ ܡܣܝܒܪܝܢ ܚܢܢ ܐܘܠܨܢ̈ܐ ܙܥܘܖ̈ܐ: ܕܢܫܟܚ ܒܝܕ ܡܘܬܐ ܚܝ̈ܐ ܫܪܝܪܐ. ܘܥܡ ܗܠܝܢ ܬܘܒ. ܕܚܠܬܐ ܗܝ ܪܒܬܐ ܢܘܪܐ ܕܠܗܠ  ܕܡܛܝܒܐ ܠܟܦܘܖ̈ܐ܇ ܕܕܠܐ ܪܚܡܝܢ ܒܓܘܗ̇ ܢܫܬܢܩܘܢ. ܡܢܘ ܟܝ ܕܠܐ ܕܚ̇ܠ ܡܢ ܝܡܐ ܕܢܘܪܐ܇ ܘܡܢ ܢܗܪܐ ܪܒܐ ܕܫܠܗܒܝܬܐ. ܘܡܢ ܦܚܬܐ ܕܚܝܠܐ ܕܓܘܙܠܬܐ܇ ܘܡܢ ܚܫܘܟܐ ܒܪܝܐ܇ ܘܡܢ ܒܟܝܐ ܘܚܘܪܩ ܫ̈ܢܐ܇ ܘܡܢ ܗܘ̇ ܬܫܢܝܩܐ ܕܒܓܘ ܓܗܢܐ܇ ܕܢܬܪܦܐ ܡܢ ܫܪܪܗ܇ ܘܢܟܦܘܪ ܒܚܝ̈ܐ ܕܚܝܘ̈ܗܝ܇ ܕܐܝܬܘܗܝ ܡܫܝܚܐ ܣܒܪܗ̇ ܕܡܘܕܝܢܘܬܐ. ܐܘ ܡܢ̣ܘ ܟܝ ܕܠܐ ܢܬܪܓܪܓ ܠܬܫܒܘܚܬܐ ܕܒܢܘ̈ܗܝ ܕܢܘܗܪܐ܇ ܘܠܐܣܛܠܐ ܦܐܝܬܐ ܕܡܠܟܘܬܐ܇ ܘܠܟ̈ܠܝܠܐ ܕܫܘܒܚܐ ܕܢܦܩܝܢ ܠܙܟ̈ܝܐ܇ ܘܠܦܬܘܪ ܛܘܒ̈ܐ ܕܡܬܩܢ ܠܩܕ̈ܝܫܐ܇ ܘܠܓܢܘܢܐ ܕܢܘܗܪܐ ܕܡܛܝܒ ܠܡܗܝ̈ܡܢܐ܇ ܕܒܝܕ ܪܓܬܐ ܕܗܠܝܢ. ܬܟܬܪ ܢܦܫܐ ܒܫܪܪܗ̇܆ ܘܬܬܐܣܪ ܒܫܘܘܕ̈ܝܐ ܕܩܝܡܗ̇܇ ܘܬܫܘܛ ܠܚܫ̈ܐ ܐܢ ܥܪܨܝܢ ܥܠܝܗ̇܇ ܘܟܕ ܚܕܝܐ ܬܣܝܒܪ ܐܘ̈ܠܨܢܐ ܡܐ ܕܡܛܐܘܗ̇܇ ܘܠܐ ܬܨܛܠܐ ܠܟܦܘܪܝܐ ܘܬܦܠ ܡܢ ܐܠܗܐ܇ ܗܘ ܕܡܠܐ ܟܠ ܛܘܒ̈ܝܢ ܠܟܠ ܡܢ ܕܡܚܡܣܢ ܒܫܪܪܗ. ܗܐ ܡܠܟܘܬܐ ܪܓܝܓܐ ܘܓܗܢܐ ܕܚܝܠܐ. ܘܙܩܝܦܐ ܪܚܝܡ ܘܚܒܝܒ. ܘܟܦܘܪܝܐ ܣܢ̣ܐ ܘܡܟܐܪ ܘܡܘܕܝܢܘܬܐ ܫܦܝܪܐ ܘܡܝܬܪܐ. ܘܟܠܗܝܢ ܚܕܐ ܠܚܕܐ ܡܥܕܖ̈ܢ. ܕܒܝܕ ܟܠܗܝܢ ܨܝܕ ܐܠܗܐ ܢܟܬܪ܆ ܒܫܪܪܐ ܕܠܐ ܡܨܛܠܐ ܡܢ ܣܒܪܗ܉
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	In dieser Zeit ist, wie wir von vielen gehört haben, eurem Orte das Los zugefallen, dass an ihm das Evangelium seine Glorie kund mache, und durch eure mannigfachen Leiden das Kreuz sich ausbreitete am Orte der Himjariten. Heil euch, dass die Gnade euch berufen hat, nicht Christen dem Namen nach zu werden, sondern auch als Gebundene (für) Jesu euch treu zu erweisen, dass ihr nicht nur seiner Anbetung gewürdigt werdet, sondern dass ihr auch Bedrückungen für ihn standhaft ertragt. Herrlich ist für euch die Verfolgung, weil in euch die Liebe zum Kreuze reich ist; erwünscht sind euch Bedrückungen, weil in euch das Feuer seiner Liebe (der Liebe zu Christo) brennt, der sein Feuer in die Welt (in der Welt) ausgeworfen hat. Bewundernswerth ist euer Kampf, weil böse eure Verfolger sind; staunenswerth euer Streit, weil grausam eure Feinde sind. Wenn ihr von Heiden verfolgt wurdet, so wurde euch doch eine Pause für eure Leiden und ein Aufathmen für eure Bedrückungen zu Theil; nun aber, da Juden, die Feinde des Kreuzes, sich wider euch geschaart haben, sind erhabener eure Leiden als Leiden, berühmter eure Krone als Kronen. Dieses mörderische Volk stiftet Streit wider euch an, dieses, das im Morden erfahren und im Blutvergiessen geübt ist. Reich ist in ihm der Neid und sein Herz erfüllt Betrug. Weise ist es zu verfolgen, es versteht ans Kreuz zu nageln, bereit ist es zu tödten, fertig zu steinigen. Nach stellt es Unbescholtenen und sein Schwert ist für den Hals Vortrefflicher geschärft. Uebermüthig ist sein Schwert vom Blute Schuldloser, gezückt sein Eisen gegen die Seite der Gläubigen; dieses, das sich hingegeben (gewidmet), gelernt, seine Aufmerksamkeit darauf gerichtet und sich fertig gemacht hat und in den Arten der Leiden geübt ist, und sehr wohl versteht das Kreuz aufzusetzen, die Lanze zu schärfen, Essig mit Wermuth zu mischen, die Dornenkrone zu flechten, zu lachen, wenn es tödtet, zu spotten, wenn es kreuzigt, sein Haupt zu bewegen (zu schütteln mit seinem Haupte), mit seinem Fusse zu treten, Schmähungen gleich Winden auszublasen, Verläumdungen gleich starken Windeswehen auszustossen, Lästerung gleich dem Meere auszuwerfen und Verspottung gleich dem mächtigen Strome ausströmen zu lassen. Von dieser bösen und ehebrecherischen Nation, die in allem diesem geübt ist, ist Verfolgung wider euch, o ihr wahren Jünger des Kreuzes, angeregt worden. Bewunderungswerth ist nun euer Kampf; was für Feinde haben sich (auf der Seite) wider euch geschaart! Die Heiden hassen euch, euren Herrn aber kennen sie nicht; die Juden aber bereiten aus Hass wider euren Herrn gegen euch Bedrückungen; alte Feindschaft nämlich ist in ihnen rege, die Jünger des Kreuzes (Gekreuzigten) zu verfolgen; denn sie wollen zeigen, dass sie fähige (ächte) Erben Hanans und Kaiphas sind und einsichtsvolle Schüler des Verräthers Judas. Ich glaube, dass, wann sie euch verfolgen, sie missvergnügt sind (sich gedrückt fühlend), dass sie euch (nur) verfolgen, und nicht Jesus leibhaftig in den Händen haben, um (ihn) zu verspotten und wiederum zu kreuzigen. Sie werden von dem Verlangen beseelt, jener verderblichen Schaar der Kreuziger angehören zu können, deren Haupt Judas der Dämon (Sohn der Linken) geworden war. Ein jeder einzelne von ihnen, diesen euren Feinden nämlich, als er gehört hatte, was seine Väter an dem Herrn, dem Messias, gethan hatten, kam sich gering vor, dass er euch (nur) verfolgen und nicht euren Herrn, wie seine Väter, tödten könne. Sie sind neidisch auf Judas und wollen seine Stelle einnehmen; sie sind begierig nach der That jenes, der Jesus auf die Wange schlug; denn, wenn sie (ihm) nahe wären, wie er, würden sie eben so unverschämt sich benehmen; den aber, der ihn mit der Lanze durchbohrte, preisen sie, und den, der Essig mit Wermuth ihm darreichte, halten sie für reich an Klugheit. So fühlen sie sich gedrückt, dass sie dieses nicht gethan haben, sondern dass es von andern ausgeführt worden ist. Desshalb fühlen sie sich gedrängt, eure Bedrückungen zu mehren, damit ihrer Gier die Beruhigung zu Theil werde, dass sie in euch den Messias (schmähen) misshandeln. Wie oft sie euch aber verfolgen, so streben sie und suchen durch euren Widerstand den Beweis eures bösen Willens zu liefern, damit sie nicht in der Bosheit der Kreuziger, ihrer Väter, in etwas nachstehn. Durch dieses alles nun überragt der Grad eueres Confessorthums den (anderer) Confessoren, um wie viel schlimmer eure Verfolger sind als (andere) Verfolger; denn ihre Bosheit mehrt eure Leiden; wie sich aber eure Leiden mehren, so mehren sich auch eure Kronen, und je heftiger die Verfolgung ist, desto glänzender ist auch der Sieg. Wir Römer aber, die wir ruhig unter christlichen Königen wohnen, preisen euer geängstetes, bedrängtes, geplagtes, und den Kreuzesleiden verwobenes Leben, und sehen so unsre Ruhe wie ein müssiges (aufhörendes) Leben an und uns gilt eure Verfolgung wie wahres Leben, das in Gott Realität gewinnt. Und obwohl ihr Gläubigen alle zu dem einen Dienste des einen himmlischen Königs durch die Wiedergeburt berufen seid, sind doch eure Herrlichkeiten von einander verschieden nach den Ordnungen eurer verschiedenen Leiden; desjenigen Herrlichkeiten aber sind zahlreich, dessen Leiden zahlreich waren, und um so herrlicher ist die Krone, je härter die Bedrückung war. Jener Geist, der Paraklet, der euch weise machte, weiss durch euch zu sprechen und zu sagen: „Nicht sind werth die Leiden dieser Zeit der Herrlichkeit, die an uns offenbar werden wird.“ Die Drangsal aber der kurzen Zeit verschafft euch, dass ihr erlangt ein unendliches herrliches Leben. Und wenn ihr durch den Tod von der Welt scheidet, werdet ihr offenbar (erscheint ihr) mit dem Messias im Leben. Wer ist aber, der nicht darnach verlangen sollte, von der Drangsal dieser kurzen Zeit ewiges Leben zu (pflücken) ernten. Die Welt wird zerstört und ihre Herrlichkeit vernichtet, ihr Reichtum wird zurückgelassen und ihre Herrschaft vergeht, ihre Pracht wird hässlich (hassenswerth), ihre Grade hören auf, ihre Ruhe verschwindet und ihre Gestalt verändert sich, sie fällt ab wie die Blüthe und vertrocknet (verwelkt) wie die Blume; sie flieht wie der Schatten der Sonnenneige (des Abends), sie dreht sich und läuft gleich einem Rade, das vorüber fährt und mit sich vorüberführt alle Dinge, die in ihm sich bewegen, sei es Ruhe, sei es Angst, sei es Ehre, sei es Schande, all das ihre hört mit ihr und gleich ihr auf; weder sind ihre Drangsale dauernd, noch ihre Ruhe beständig. Wer vertraut auf sie, ausser der ihr nachirrt, und wer liebt dieses kurze und beengte Leben, ausser der, welcher jenes wahre und unvergängliche Leben nicht kennt. Ihr aber, meine Brüder, habt sowohl die Welt, wie sie ist, gesehen, als auch Gott, wie er ist, kennen gelernt, und dass die Gestalt der Welt vergeht, erfahren und seid darüber, dass die Herrlichkeit Gottes dagegen unveränderlich ist, klar geworden. Deshalb verachtet ihr den Tod und schreckt vor der zeitlichen Drangsal nicht zurück. Wenn (so oft) aber euer Geistesauge die Leiden des Gekreuzigten klar betrachtet, so könnt ihr eure Leiden nicht für Leiden rechnen; denn ihr müsst sagen: Wenn er, der Unsterbliche, um unsers Lebens willen durch seinen (Gottes oder Christus’) Willen dem Tode übergeben worden ist, wie viel mehr geziemt es uns, die wir durch Gerichtsbeschluss für die Gesetzesübertretung dem Tode verfallen sind, uns dem Tode für seine Wahrheit zu überliefern, dass wir durch unsern Tod seinen Tod für uns (erlitten) ehren. Wenn dem Herrn der Herrlichkeit das Kreuz der Schande (zu Theil wurde), welche Schmach gebührt uns, den Geringen und Niedrigen? Dem eingebornen Sohn Gottes (ward zu Theil): Anspeien, Schlagen mit Fäusten, Geisselungen, Peitschungen, Spottkleider, Dornenkrone, (Trank von) Essig mit Wermuth, Fesselung an das Kreuz, Durchbohrung der Hände und Füsse, Zerreissen der Seite, Theilung der Kleider und alle Leiden mit allen Verspottungen und alle Schmerzen mit allen Verhöhnungen. Wenn er nun unsertwegen dieses alles ertrug, sollten wir da nicht für uns geringe Drangsale ertragen, damit wir durch den Tod wahres Leben erlangen? Hierzu kommt ferner die grosse Furcht vor dem künftigen Feuer, das den Ungläubigen bereitet ist, die ohne Erbarmen in ihm werden gemartert werden. Wer sollte sich nicht fürchten vor dem Feuermeer, vor dem grossen Flammenstrome, vor der furchtbaren Flammentiefe, vor der äussersten Finsternis, vor dem Weinen und Zähneklappern, vor jener Marter, die in der Gehenna (den trifft), der seine (Christi) Wahrheit verlässt und das Leben seines Lebens verleugnet, welches der Messias ist, die Hoffnung des Confessorthums? oder wer sollte nicht verlangen nach der Herrlichkeit der Kinder des Lichts, nach dem schönen Pallium des Reiches (Himmelreiches), nach den Kronen der Glorie, die den Siegern (Reinen) zu Theil werden, nach dem Gnadentische, der den Heiligen angerichtet ist, nach dem Lichtgemache, das für die Gläubigen bereitet ist? Durch das Verlangen nach allen diesen bleibt die Seele in ihrer Wahrheit, sie wird gefesselt in den Verheissungen ihres Bundes, sie verachtet die Leiden, wenn sie ihr begegnen, erträgt freudig die Drangsale, wenn sie über sie kommen, sie verirrt sich nicht zur Verläugnung und fällt von Gott nicht ab, der mit allen Heilsgütern jeden erfüllt, der in seiner Wahrheit verharrt. Siehe das ersehnte Reich (Himmelreich) und die gefürchtete Gehenna, das geliebte und theure Kreuz, die verhasste und verworfene Verleugnung, das prächtige und vortreffliche Bekenntniss, sie alle gegenseitig unterstützen uns, dass wir durch sie alle bei Gott bleiben in der Wahrheit, die von der Hoffnung auf ihn nicht abirrt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

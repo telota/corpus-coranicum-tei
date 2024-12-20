@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hymnen auf die Geburt Jesu (De Nativitate) 1:17</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_73" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>73</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das Zitat reflektiert speziell die Assoziation Marias mit dem in Numeri 17 erwähnten Aaronsstab; bei der Bezeichnung Marias als "Schwester Aarons" in Q 19:28 könnten solche Vorstellungen im Hintergrund stehen. Vgl. TUK_0051, TUK_0066 u.a.
+
+</summary>
+            <msItem>
+              <title>Hymnen auf die Geburt Jesu (De Nativitate) 1:17</title>
+              <author>Ephrem der Syrer (306–373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">306-373</origDate>
+              <origPlace>Nisibis oder Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck, Des heiligen Ephrem des Syrers Hymnen de Nativitate, Louvain 1959 (Corpus Scriptorum Christianorum Orientalium 186, Scriptores Syri 82), S. 1-6.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>1 ܗܢܐ ܝܘܡܐ ܚ̇ܕܝ ܡܪܝ ܠܡ̈ܠܟܐ ܟܗ̈ܢܐ ܘܢܒ̈ܝܐ ܕܒܗ ܐܫܬܠܡ ܡ̈ܠܝܗܘܢ ܘܗ̈ܘܝ ܟܠܗܝܢ ܒܥܒܕܐ[ܥܘܢܝܐ: ܠܟ ܫܘܒܚܐ ܒܪ ܒܪܘܝܢ ܬܢܝ]2 ܒܬܘܠܬܐ ܓܝܪ ܝܘܡܢ ܝܠܕܬ ܠܥܡܢܘܐܝܠ ܒܝܬ ܠܚܡ ܩܠܐ ܕܡܠܠ ܐܫܥܝܐ ܝܘܡܢܐ ܗܘ̣ܐ ܣܘܥܪܢܗ3 ܗܢܐ ܐܬܝܠܕ ܬܡܢ ܕܒܟܬܒܐ ܠܥܡ̈ܡܐ ܡܢܐ ܙܡܝܪܬܐ ܕܙܡ̣ܪ ܗܘܐ ܕܘܝܕ ܝܘܡܢܐ ܗܘ̣ܐ ܫܘܠܡܗ̇4 ܡܠܬܐ ܕܡܠܠ ܗܘܐ ܡܝܟܐ ܝܘܡܢܐ ܗܘܬ ܒܥ̇ܒܕܐ ܕܪܥܝܐ ܢܦ̣ܩ ܡܢ ܐܦܪܬܐ ܘܪܥ̣ܐ ܚܘܛܪܗ ܢܦܫ̈ܬܐ5 ܗܐ ܕܚܕ ܟܘܟܒܐ ܡܢ ܝܥܩܘܒ ܘܩܡ ܪܫܐ ܡܢ ܐܝܣܪܐܝܠ ܢܒܝܘܬܐ ܕܡܠܠ ܒܠܥܡ ܝܘܡܢܐ ܗܘ̣ܐ ܦܘܫܩܗ̇6 ܢܚܬ ܗܘܐ ܬܘܒ ܢܘܗܪܐ ܟܣܝܐ ܘܕܢܚ̣ ܫܘܦܪܗ ܡܢ ܦܓܪܐ ܕܢܚܐ ܕܐܡܝܪ ܒܙܟܪܝܐ ܝܘܡܢ ܐܙܠܓ ܒܝܬܠܚܡ7 ܕܢܚ̣ ܠܗ ܢܘܗܪܐ ܕܡܠܟܘܬܐ ܒܐܦܪܬܐ ܩܘܪܝܬ ܡ̈ܠܟܐ ܒܘܪܟܬܐ ܕܒ̇ܪܟ ܗܘܐ ܝܥܩܘܒ ܝܘܡܢܐ ܗܘ̣ܐ ܫܘܠܡܗ̇8 ܐܝܠܢܐ ܬܘܒ ܕܚ̈ܝܐ ܣܒܪܐ ܡ̇ܝܬܐ ܠܡ̈ܝܘܬܐ ܡܬܠܗ ܟܣܝܐ ܕܫܠܝܡܘܢ ܝܘܡܢܐ ܗܘܐ ܬܘܪܓܡܗ9 ܝܘܡܢ ܐܬܝܠܕ ܝܠܕܐ ܘܫܡܗ ܐܬܩܪܝ ܕܘܡܪܐ ܕܘܡܪܐ ܗܘ ܓܝܪ ܕܐܠܗܐ [ܕܐܝܟ] ܥܘܠܐ ܚ̇ܘܝ ܢܦܫܗ10 ܒܬܘܠܥܐ ܗ̣ܘ ܡܬܠܬܗ ܗܘܬ ܪܘܚܐ ܕܡܘܠܕܗ ܕܠܐ ܙܘܘܓܐ ܗ̣ܘ ܛܘܦܣܐ ܕܨܪܬ̇ ܪܘܚ ܩܘܕܫܐ ܝܘܡܢܐ ܗܘ̣ܐ ܣܘܟܠܗ11 ܣ̣ܠܩ ܐܝܟ ܥܩܪܐ ܩܕܡܘܗܝ ܥܩܪܐ ܕܐܪܥܐ ܨܗܝܬܐ ܡܕܡ ܕܐܡܝܪ ܟܣܝܐܝܬ ܗܘܐ ܠܗ ܝܘܡܢ ܓܠܝܐܝܬ12 ܕܡ̇ܠܟܐ ܟܣ̣ܐ ܗܘܐ ܒܝܗܘܕܐ ܓܢܒܬܗ ܬܡܪ ܡܢ ܚܨܗ ܝܘܡܢܐ ܕܢܚ̣ ܢܨܚܢܗ ܕܫܘܦܪܐ ܕܪܚܡܬ ܟܣܝܘܬܗ13 ܪܥܘܬ ܨܝܕ ܒܥܙ ܢܦܠܬ ܗܘܬ ܕܣܡ ܚܝ̈ܐ ܚ̣ܙܬ ܕܟܣܐ ܒܗ ܝܘܡܢ ܐܫܬܠܡ ܢܕܪܗ̇ ܕܡܢ ܙܪܥܗ̇ ܕܢܚ ܡܚܐ ܟܠ ܐܕܡ ܐܪܡܝ ܗܘܐ ܚܘܒܠܐ ܥܠ ܐܢܬܬܐ ܕܡܢܗ ܢܦܩܬ ܝܘܡܢܐ ܦܪܥܬܗ ܚܘܒܠܗ ܕܝܠܕܬ ܠܗ ܗ̣ܝ ܦܪܘܩܐ14ܠܚܘܐ ܝܠܘܕܬܐ ܝܠܕܗ̇ ܓܒܪܐ ܕܡܡܬܘܡ ܠܐ ܝ̇ܠܕ ܟܡܐ ܬܬܗܝܡܢ ܒܪܬ ܚܘܐ ܕܠܐ ܓܒܪܐ ܝܠܕܐ ܝܠܕܬ15ܐܪܥܐ ܒܬܘܠܬܐ ܝܠܕܬ ܗܘܬ ܠܗ̇ܘ ܐܕܡ ܪܝܫܐ ܕܐܪܥܐ ܒܬܘܠܬܐ ܝܘܡܢܐ ܝܠܕܬ ܠܐܕܡ ܪܝܫܐ ܕܫܡܝܐ16ܫܒܛܗ ܕܐܗܪܘܢ ܐܦܪܥ ܗܘܐ ܘܐܦܪܝ ܩܝܣܐ ܝܒܝܫܐ ܐܪܙܗ ܝܘܡܢ ܐܬܦܫܩ ܕܥܘܒܐ ܒܬܘܠܐ ܕܐܘܠܕ ܗܘܐ1718 ܢܒܗܬ ܗ̇ܘ ܥܡܐ ܕܐܚܝܕ ܠܢܒ̈ܝܐ ܐܝܟ ܫܖ̈ܝܪܐ ܕܐܠܘ ܠܐ ܐܬ̣ܐ ܦܪܘܩܢ ܐܬܕܓܠ ܗ̈ܘܝ ܡ̈ܠܝܗܘܢ19 ܒܪܝܟ ܗܘ ܫܪܝܪܐ ܕܐܬ̣ܐ ܡܢ ܠܘܬ ܐܒܐ ܕܫܪܪܐ ܘܡ̇ܠܝ ܡ̈ܠܐ ܕܫܪܝܖ̈ܐ ܘܐܫܬܠܡ ܒܫܪܪܝܗܝܢ20 ܡܢ ܒܝܬ ܓܙܟ ܢܣܪܚ ܡܪܝ ܡܢ ܣܝܡ̈ܬܐ ܕܟܬܒ̈ܝܟ ܫܡ̈ܗܐ ܕܟܐ̈ܢܐ ܩܕܡ̈ܝܐ ܕܣܟ̇ܝܘ ܕܢܚܙܘܢ21 ܫܝܬ ܗ̇ܘ ܕܗܘܐ ܚܠܦ ܗܒܝܠ ܠܒܪܐ ܩܛܝܠܐ ܚܐܪ ܗܘܐ ܕܒܩܛܠܗ ܬܩܗܐ ܚܪܒܐ ܕܐܥܠ ܩܐܝܢ ܠܒܪܝܬܐ22 ܚܙܐ ܢܘܚ ܠܒ̈ܢܝ ܐܠܘܗܝܡ ܩܕܝ̈ܫܐ ܕܐܦܚܙܘ ܡܢ ܫܠܝ ܘܣܟܝ ܠܒܪܐ ܩܕܝܫܐ ܕܐܬܩܕܫܘ ܒܗ ܙ̈ܢܝܐ23 ܬܖ̈ܝܢ ܐ̈ܚܝܢ ܕܠܢܘܚ ܟܣ̇ܝܘ ܚܪܘ ܠܝܚܝܕܗ ܕܐܠܗܐ ܕܢܐܬܐ ܢܟ̇ܣܐ ܦܘܪܣܝܗ ܕܐܕܡ ܕܪܘܝ ܒܪܡܘܬܐ24 ܫܝܡ ܘܝܦܬ ܐܝܟ ܚ̈ܢܢܐ ܣܟܝܘ ܠܒܪܐ ܚ̇ܢܢܐ ܕܢܐܬܐ ܢܚ̇ܪܪ ܗܘܐ ܠܟܢܥܢ ܡܢ ܥܒܕܘܬܐ ܕܚܛܝܬܐ25 ܡܠܟܝܙܕܩ ܠܗ ܗ̣ܘ ܣܟܝ ܢ̇ܛܪ ܕܘܟܬܐ ܚܐܪ ܗܘܐ ܕܢܚܙܐ ܠܡܪܗ̇ ܕܟܘܡܪܘܬܐ ܕܙܘܦܗ ܚܘܪ ܒܖ̈ܝܬܐ26 ܚ̣ܙܐ ܗܘܐ ܠܘܛ ܠܣܕܘܡ̈ܝܐ ܕܠܟܝܢܐ ܬܩܢܐ ܗܦܟܘܗܝ ܠܡܪܐ ܟܝ̈ܢܐ ܚܐܪ ܗܘܐ ܕܝܗ̣ܒ ܩܘܕܫܐ ܕܠܐ ܒܟܝܢܐ27 ܠܗ ܣܟܝ ܐܗܪܘܢ ܕܚ̣ܙܐ ܕܐܢ ܚܘܛܪܗ ܒܠ̣ܥ ܬ̈ܢܝܢܐ ܨܠܝܒܗ ܒ̇ܠܥ ܬܢܝܢܐ ܕܒܠ̣ܥ ܠܐܕܡ ܘܠܚܘܐ28 ܚ̣ܙܐ ܡܘܫܐ ܚܘܝܐ ܩܒܝܥܐ ܕܐܣܝ ܢܘ̈ܟܬܬ ܚܖ̈ܡܢܐ ܘܣܟܝ ܕܢܚܙܐ ܠܗ̇ܘ ܕܐܣܝ ܡܚܘܬܗ ܕܚܘܝܐ ܩܕܡܝܐ29 ܚ̣ܙܐ ܡܘܫܐ ܕܗ̣ܘ ܒܠܚܘܕܘܗܝ ܩܒ̇ܠ ܙܝܘܐ ܕܐܠܗܐ ܘܣ̇ܟܝ ܠܗ̇ܘ ܕܐ̇ܬܐ ܡܣܓܐ ܐ̈ܠܗܝܐ ܒܝܘܠܦܢܗ30 ܟܠܒ ܓܫܘܫܐ ܛܥܢܗ ܠܣܓܘܠܐ ܒܩܘܦܐ ܘܐܬ̣ܐ ܣܟܝ ܕܢܚܙܐ ܛܘܛܝܬܐ ܕܚܡܪܗ̇ ܒܝܐ ܒܖ̈ܝܬܐ31 ܠܗ ܣܟܝ ܝܫܘܥ ܒܪܢܘܢ ܕܢܨܘܪ ܚܝܠܐ ܕܟܘܢܝܗ ܕܐܢ ܒܫܡܗ ܗܟܢ ܐܝܪܒ ܒܝܠܕܗ ܟܡܐ ܟܝ ܝܪܒ̇ ܗܘܐ32 ܗ̇ܘ ܝܫܘܥ ܕܐܘܣܦ ܘܩ̣ܛܦ ܘܐܘܒܠ ܥܡܗ ܡܢ ܦܐܖ̈ܐ ܠܐܝܠܢ ܚ̈ܝܐ ܣܟܝ ܗܘܐ ܕܢܛܥܡ ܦܐܪܗ ܕܡ̇ܚܐ ܟܠ 33 ܪܚܒ ܠܗ ܗ̣ܘ ܚ̣ܪܬ ܗ̣ܘܬ ܕܐܢ ܚܘܛܐ ܕܙܚܘܪܝܬܐ ܒܐܪܙܐ ܦܪܩܗ̇ ܡܢ ܪܘܓܙܐ ܒܐܪܙܐ ܛܥܡܬܗ ܠܫܪܪܐ34 ܠܗ ܐܬܪܓܪܓ ܐܠܝܐ ܘܕܠܐ ܚܙܝܗܝ ܠܒܪܐ ܒܐܪܥܐ ܗܝܡܢ ܘܐܣܓܝ ܐܨܛܠܠ ܕܢܣܩ ܢܚܙܝܘܗܝ ܒܫܡܝܐ35 ܠܗ ܚܪܘ ܡܘܫܐ ܘܐܠܝܐ ܡܟܝܟܐ ܣܠ̣ܩ ܡܢ ܥܘܡܩܐ ܘܛܢܢܐ ܢܚ̣ܬ ܡܢ ܪܘܡܐ ܘܚܙܘ ܠܒܪܐ ܒܡܨܥܬܐ36 ܨܪܘ ܗܘܘ ܐܪܙܐ ܕܡܐܬܝܬܗ ܗ̣ܘܐ ܡܘܫܐ ܛܘܦܣܐ ܠܡ̈ܝܬܐ ܘܐܠܝܐ ܛܘܦܣܐ ܠܚ̈ܝܐ ܕܦܖ̈ܚܝܢ ܠܐܘܪܥܗ ܡܐ ܕܐ̇ܬܐ 37 ܚܠܦ ܡܘܬܐ ܕܛܥܡܘ ܡ̈ܝܬܐ ܠܗܘܢ ܗ̣ܘ ܥܒ̇ܕ ܩܕܡ̈ܝܐ ܘܐܚܖ̈ܝܐ ܕܠܐ ܡܬܩܒܖ̈ܝܢ ܒܚܪܬܐ ܠܐܘܪܥܗ ܡܬܚܛܦܝܢ38 ܡ̣ܢܘ ܡܘܦܐ ܠܝ ܕܐܡܢܐ ܙܕܝ̈ܩܐ ܕܣܟܝܘ ܠܒܪܐ ܕܡܢܝܢܗܘܢ ܠܐ ܡܣܬܝܟ ܡܢ ܦܘܡܐ ܕܡܚܝܠܘܬܢ39 ܨ̇ܠܘ ܥܠܝ ܚܒ̈ܝܒܝ ܕܐܬܚܝܠ ܒܐܚܪܝܢ ܥܕܢ ܘܐܣܪܚ ܬܘܒ ܒܐܚܪܝܢ ܫܪܒܐ ܛܥܡ̈ܬܗܘܢ ܐܝܟ ܕܡܨܐ ܐܢܐ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Dieser Tag, mein Herr, hat erfreut die Könige, Priester und Propheten, weil in ihm ihre Worte in Erfüllung gingen, sie alle verwirklicht wurden.Responsorium: Dir sei Lob, Sohn unseres Schöpfers!2 Die Jungfrau nämlich hat heute geboren den Emmanuel zu Bethlehem. Das Wort, das Isaias sprach, heute ist es verwirklicht worden.3 Jener wurde dort geboren, der „im Buche die Völker zählt“. Der Psalm, den David sang, heute ist er in Erfüllung gegangen.4 Das Wort, das Michaeas sprach, heute wurde es zur Tat; denn ein Hirt ging aus von Ephrata und sein Stab weidete die Seelen.5 „Siehe aufging ein Stern aus Jakob und es erstand ein Haupt aus Israel“. Die Weissagung, die Balaam sprach, heute fand sie ihre Deutung.6 Herabstieg unsichtbares Licht und aufging seine Schönheit aus dem Körper. Der Aufgang, von dem Zacharias sprach, ließ heute Bethlehem leuchten.7 Aufging das königliche Licht in Ephrata, der Königsstadt. Der Segen, den Jakob sprach, heute ist er in Erfüllung gegangen. 8 Und der Baum des Lebens bringt Hoffnung den Sterblichen. Das dunkle Sprichwort Salomos, heute fand es seine Erklärung.9 Heute wurde ein Kind geboren und ihm der Name „Wunder“ gegeben. Denn ein Wunder ist es, daß Gott als Kind sich zeigte.10 Der Geist gab sein Gleichnis im Wurm, dessen Zeugung keine Begattung kennt. Der Typus, den der Heilige Geist geformt hatte, heute ereignete sich sein Sinn.11 Er wuchs empor vor ihm wie eine Wurzel, eine Wurzel der dürstenden Erde. Was (hier) dunkel gesagt war, heute geschah es offenkundig.12 Weil der König verborgen war in Juda, stahl ihn Thamar aus seinen Lenden. Heute ging auf der Glanz der Schönheit, der in ihrer Verborgenheit die Liebe Thamars galt.13 Ruth legte sich zu Booz, weil sie sah, daß die Lebensarznei in ihm verborgen war. Heute erfüllte sich ihr Gebetswunsch; denn aus ihrem Samen ging der Allbelebende auf.14 Adam legte die Schuld auf das Weib, das aus ihm hervorgegangen war. Heute hat (Eva) ihm die Schuld gelöst, da sie ihm den Erlöser gebar.15 Eva, die Mutter, gebar der Mann, der niemals gebiert. Wie sehr verdient (daher) Glauben, daß die Tochter Evas ohne Mann das Kind gebar!16 Die jungfräuliche Erde gebar jenen Adam, das Haupt der Erde. Die Jungfrau gebar heute Adam, das Haupt des Himmels.17 Der Stab Aarons spross, und das trockene Holz brachte Frucht hervor. Dieses [Übersetzung Beck: Sein] Mysterium fand heute seine [Übersetzung Beck: die] Erklärung: Es ist der jungfräuliche Schoß, der gebar. 18 Beschämt werde das Volk, das die Propheten für wahr hält! Wenn unser Erlöser nicht gekommen wäre, wären ihre Worte der Lüge überführt!19 Gepriesen sei der Wahre, welcher kam vom wahren Vater! Und er erfüllte die Worte der wahren (Propheten) und sie gingen in ihrer Wahrheit in Erfüllung.20 Aus deinem Schatzhaus, mein Herr, aus den Schätzen deiner Schriften, laßt uns hervorholen die Namen der Gerechten der Vorzeit, die harrten, daß sie dein Kommen sähen.21 Jener Seth, der an die Stelle Abels trat, schaute nach dem getöteten Sohne aus, daß durch seinen Tod das Schwert stumpf werde, das Kain in die Schöpfung gebracht.22 Noe sah die Söhne Gottes, die keuschen, plötzlich unzüchtig werden, und er harrte auf den keuschen Sohn, durch den Ehebrecherinnen keusch wurden.23 Die zwei Brüder, die Noe bedeckten, schauten aus nach dem Ein(gebornen) Gottes, daß er kommen und bedecken möge die Blöße Adams, den der Hochmut berauscht hatte.24 Sem und Japhet haben in ihrer Barmherzigkeit nach dem barmherzigen Sohn ausgeschaut daß er komme und Kanaan befreie aus der Knechtschaft der Sünde.25 Melchisedech harrte auf ihn, der Stellvertreter schaute (nach ihm) aus, daß er den Herrn des Priestertums sehe, dessen Ysop die Geschöpfe weiß wusch.26 Es sah Lot die Sodomiten, wie sie die Ordnung der Natur verkehrten. Nach dem Herrn der Naturen schaute er aus, der eine Keuschheit schenkte, die nicht in der Natur (liegt).27 Auf ihn harrte Aaron, der sah, daß, wenn schon sein Stab die Schlangen verschlungen hatte, sein Kreuz die Schlange verschlinge werde, die Adam und Eva verschlang.28 Es sah Moses, wie die aufgehängte Schlange von den Bissen der Vipern heilte, und er harrte, daß er jenen sehe, der geheilt hat die Wunde der uralten Schlange.29 Es sah Moses, daß nur er allein göttlichen Glanz erhalten habe, und er harrte auf jenen, der kommen und zahlreich machen sollte die Göttlichen durch seine Lehre.30 Kaleb, der Späher, trug die Traube an der Stange und kam. Er harrt, daß er die Traube sehe, deren Wein die Geschöpfe getröstet hat.31 Auf ihn harrte Jesus, der Sohn des Nun, daß er die Kraft seines Namens verkörpere. Denn wenn er schon durch seinen Namen geehrt wurde, wie mußte er da durch seine Geburt geehrt werden!32 Jener Jesus, der ein zweitesmal gepflückt und mit sich von den Früchten (des gelobten Landes) gebracht hatte, harrte auf den Baum des Lebens, daß er die Frucht des Allbelebenden verkoste.33 Rahab schaute nach ihm aus; denn wenn der purpurne Faden durch die Symbol(kraft) sie vom Zorn(gericht) erlöste, dann verkostete sie im Symbol die Wirklichkeit.34 Nach ihm sehnte sich Elias. Und weil er den Sohn nicht auf Erden sah, steigerte er seinen Glauben und seine Reinheit, um aufzusteigen und ihn im Himmel zu sehen.35 Nach ihm schauten Moses und Elias aus. Der Sanftmütige stieg aus der Tiefe empor, der Eiferer kam von der Höhe herab, und sie sahen den Sohn in (ihrer) Mitte.36 Sie formten ein Symbol jener (zweiten) Ankunft: Moses wurde zum Typus für die Toten, und Elias zum Typus der Lebenden, die ihm entgegenfliegen werden, wann er kommen wird.37 Dafür daß die Toten den Tod verkosten (mußten), wird er sie zu den ersten machen, und als letzte werden, die nicht begraben wurden, beim Ende ihm entgegen (in die Luft) entführt werden.38 Wer brächte mich an ein Ende in der Aufzählung (aller) Gerechten, die auf den Sohn harrten. Ihre Zahl kann nicht umfassen mein schwacher Mund.39 Betet für mich, meine Geliebten, daß mir ein zweites Mal die Kraft gegeben werde, in einer zweiten Rede vorzubringen ihre Beispiele, so wie ich es vermag.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 My Lord, this day gladdens kings, priests and prophets, for on it were fulfilled and realized all their words.Refrain: Glory to You, Son of our Creator!2 Since today the Virgin has given birth to Emmanuel in Bethlehem, the word Isaiah spoke was accomplished today.3 He Who registers the peoples was born there; the psalm that David sang has been fulfilled today.4 The word that Micah spoke was realized today, for a shepherd went out from Ephrata, and his staff herded souls.5 “Behold, a star shone forth from Jacob, and a prince arose from Israel.” The prophecy that Balaam spoke found its meaning today.6 The hidden light descended, and its beauty shone forth from a body; the dawn of which Zechariah spoke lights up Bethlehem today.7 The light of kingship glorifies him in Ephrata, the city of kings; the blessing that Jacob pronounced found its fulfillment today.8 “The tree of life brings hope” to the dying; the hidden saying of Solomon found its explanation today.9 Today a child was born, and he was called “wonder”, for it is a wonder that God reveals Himself as an infant.10 The Spirit spoke a parable in the worm, for it reproduces without sexual union; the type the Holy Spirit fashioned receives its meaning today.11 He rose up like a shoot before Him, a shoot from the parched earth; something spoken secretly occurred openly today.12 Since the King was hidden in Judah, Tamar stole Him from his loins; today shone forth the splendor of the beauty whose hidden form she loved.13 Ruth lay down with Boaz because she saw hidden in him the medicine of life; today her vow is fulfilled since from her seed arose the Giver of all life.14 Man imposed corruption on woman when she came forth from him; today she has repaid him – she who bore for him the Savior.15 He gave birth to the Mother, Eve – he, the man who never was born; how worthy of faith is the daughter of Eve, who without a man bore a child!16 The virgin earth gave birth to that Adam, head of the earth; the Virgin today gave birth to [second] Adam, head of heaven.17 The staff of Aaron sprouted, and the dry wood brought forth; his symbol has been explained today – it is the virgin womb that gave birth.18 Put to shame is the people that holds the prophets to be true, for if our Savior had not come, their words would have become lies.19 Blessed is the True One Who comes from the True Father. He fulfilled the words of the true [prophets], and they are complete in their truth.20 From Your treasury, my Lord, let us fetch from the treasures of Your scriptures the names of the just men of old who said they saw Your coming.21 That Seth who took the place of Abel resembled the murdered son to dull the sword that Cain brought into the creation.22 Noah saw the sons of God, the holy ones, who were suddenly made wanton, and he anticipated the Holy Son by Whom fornicators would be made chaste.23 The two brothers who hid Noah looked for the Only-Begotten of God to come and hide the nakedness of man, intoxicated with pride.24 Shem and Japheth, as compassionate [men] anticipated the compassionate Son Who would come and free Canaan from the servitude of sin.25 Melchizedek anticipated Him; he the vicar was watching to see priesthood’s Lord Whose hyssop cleanses creation.26 Lot saw the Sodomites who perverted nature; he looked for the Lord of natures Who gave chastity beyond nature.27 Aaron anticipated Him—he who saw that if his staff swallowed reptiles, His cross would swallow the Reptile that swallowed Adam and Eve.28 Moses saw the fixed serpent that healed the stings of basilisks, and he anticipated he would see the Healer of the first Serpent’s wound.29 Moses saw that he alone received the brightness of God, and he anticipated the One to come—by His teaching, the Multiplier of the godlike.30 Kaleb, the scout, came carrying the cluster on a pole; he anticipated seeing the Grape Whose wine would console creation.31 Joshua bar Nun anticipated Him—he who represents the power of His name; if by His name he is thus magnified, how much more would he be exalted by His birth!32 That Joshua who also plucked and carried with him some of the fruits anticipated the Tree of Life Who would give His all life-giving fruit to taste.33 Rahab beheld Him; for if the scarlet thread saved her by a symbol from [divine] wrath, by a symbol she tasted the truth.34 Elijah yearned for Him and without having seen the Son on earth, he believed and increased his prayers that he might ascend and see Him in heaven.35 Moses and Elijah looked for Him; the humble one ascended from the depth, and the zealous one came down from the height, and they saw the Son in the middle.36 They represented a symbol of His coming: Moses was a type for the dead, and Elijah a type for the living who will fly to meet Him when He comes.37 Because the dead have tasted death, He will repair them first, but those not yet buried will be snatched up to meet Him at the end.38 Who will bring me to the end of enumerating the just men who anticipated the Son, whose number cannot be encompassed by our weak mouth?39 Pray for me, my friends, that I may be strengthened once more to set forth their qualities again in another account as much as I am able.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

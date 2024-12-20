@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 15:1-4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1062" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1062</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>	Im Koran finden sich zahlreiche Anspielungen auf die Durchquerung des Roten Meeres und das Ertrinken der Ägypter. Zum Hintergrund dieser Koranstellen, vgl. allgemein Exodus 14 (TUK_0228). Neben Exodus 14 sind in diesem Zusammenhang auch noch andere Texte relevant, wie der hier zitierte Ausschnitt aus Ex 15, der durch seine Verwendung in der Liturgie (s. unten) Verbreitung erfahren haben kann. So weist Q 28:40 (fa-aḫaḏnāhu wa-ǧunūdahū fa-nabaḏnāhum fi l-yammi) eine auffällige Übereinstimmung in der Ausdrucksweise ("Pharao und sein Heer"; "ins Meer werfen") mit Exodus 15:1.4 auf (Speyer 1931: p. 290). Während in Ex 14 die Durchquerung des Roten Meeres ausführlich geschildert wird, handelt es sich sowohl bei dem sogenannten Schilfmeerlied in Ex 15 als auch bei Q 28:40 um Reminiszenzen daran, die die Kenntnis der Ereignisse voraussetzen. Obwohl auch in Exodus 14 die Rettung der Israeliten durch Gottes Eingreifen geschieht, liegt durch die Beschreibung, wie Moses seine Hand ausstreckt und dadurch das Wasser über den Ägyptern zusammenfließt, der Schwerpunkt etwas anders als in Ex 15 und Q 28:40. In den beiden letztgenannten Versen wird jeweils durch die Formulierung, daß Gott Pharao und sein Heer ins Meer geworfen habe, das aktive Eingreifen Gottes noch stärker in den Vordergrund gerückt. Q 28:40 unterscheidet sich dabei von Ex 15 durch die unterschiedliche Perspektive und damit auch Aussageabsicht: Bei Exodus 15 handelt es sich um einen Lobpreis Gottes durch Moses. Demgegenüber berichtet in Sure 28 Gott selbst das Geschehen. Q 28:40 fügt sich damit in eine längere Erzählung der Ereignisse aus Moses Leben in Sure 28 ein, die von Gott selbst explizit als göttliches Wirken gedeutet werden, das sich in den Gnadenerweisen an Moses und in der Vernichtung der Frevler manifestiert.	Speyer 1931: p. 290 weist darauf hin, daß Ex 15 in späterer Zeit in die jüdische Morgenliturgie eingegangen ist. Im Sabbat-Gottesdienst ist die Verwendung des Schilfmeerliedes dagegen schon älter (Elbogen 1995: p. 86, 113). Allerdings geben weder Speyer noch Elbogen eine genaue Datierung an.</summary>
+            <msItem>
+              <title>Exodus 15:1-4</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Elbogen, Ismar: Der j&amp;#xFC;dische Gottesdienst in seiner geschichtlichen Entwicklung. Georg Olms Verlag, Hildesheim; New York 1995.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> אָ֣ז יָשִֽׁיר־מֹשֶׁה֩ וּבְנֵ֨י יִשְׂרָאֵ֜ל אֶת־הַשִּׁירָ֤ה הַזֹּאת֙ לַֽיהוָ֔ה וַיֹּאמְר֖וּ לֵאמֹ֑ר אָשִׁ֤ירָה לַֽיהוָה֙ כִּֽי־גָאֹ֣ה גָּאָ֔ה ס֥וּס וְרֹכְבֹ֖ו רָמָ֥ה בַיָּֽם׃
+עָזִּ֤י וְזִמְרָת֙ יָ֔הּ וַֽיְהִי־לִ֖י לִֽישׁוּעָ֑ה זֶ֤ה אֵלִי֙ וְאַנְוֵ֔הוּ אֱלֹהֵ֥י אָבִ֖י וַאֲרֹמְמֶֽנְהוּ׃ 
+יְהוָ֖ה אִ֣ישׁ מִלְחָמָ֑ה יְהוָ֖ה שְׁמֹֽו׃
+מַרְכְּבֹ֥ת פַּרְעֹ֛ה וְחֵילֹ֖ו יָרָ֣ה בַיָּ֑ם וּמִבְחַ֥ר שָֽׁלִשָׁ֖יו טֻבְּע֥וּ בְיַם־סֽוּף׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Damals sang Mose mit den Israeliten dem Herrn dieses Lied; sie sagten: Ich singe dem Herrn ein Lied, denn er ist hoch und erhaben. Rosse und Wagen warf er ins Meer.  2 Meine Stärke und mein Lied ist der Herr, er ist für mich zum Retter geworden. Er ist mein Gott, ihn will ich preisen; den Gott meines Vaters will ich rühmen. 3 Der Herr ist ein Krieger, YHWH ist sein Name. 4 Pharaos Wagen und seine Streitmacht warf er ins Meer. Seine besten Kämpfer versanken im Schilfmeer.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

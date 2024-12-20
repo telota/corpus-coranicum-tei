@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht Nr. 32:24-36 (Schulthess)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_530" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>530</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Schulthess fasst das vorliegende, fragmentarisch beginnende Textstück als Fortsetzung eines Lobgedichts auf Gott auf, das aufgrund seiner zahlreichen Anklänge an Koranstellen nicht echt sein dürfte (so auch Frank-Kamenetzky 1911: p. 48). Die hier zitierten Verse, die sich sprachlich lediglich in der Nennung des Ǧūdī-Bergs (vgl. Q 11:44) mit den koranischen Noah-Erzählungen berühren, sind aber wohl authentisch (Frank-Kamenetzky 1911: p. 48). Wie bei dem als TUK_560 zitierten Gedicht Umayyas, das ebenfalls von Noah und der Sintflut handelt (vgl. die Anmerkung dort), fällt die Ätiologie des Halsbands der Taube als Gegenleistung für die Überbringung der Nachricht vom Sinken der Wasser auf, die sich im Koran nicht findet. Im Gegensatz zur Bibel wird die Dauer der Sintflut mit sieben Tagen angegeben (Hirschberg 1939: p. 120). Die Aussage, dass „schwarzes Gewölk das Wasser einhüllte“ (V. 25), könnte auf rabbinische Überlieferung zurückgehen (Hirschberg 1939: p. 119). Zu ǧūdī vgl. Jeffery 1938: p. 106f.
+
+Zur umstrittenen Authentizität der Umayya ibn abī ṣ-Ṣalt zugeschriebenen Gedichte vgl. allgemein die Anmerkung zu TUK_420.</summary>
+            <msItem>
+              <title>Gedicht Nr. 32:24-36 (Schulthess)</title>
+              <author>Umayya ibn abī ṣ-Ṣalt (gest. um 630 n.Chr.) ?</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Anfang 7. Jh.</origDate>
+              <origPlace>Aṭ-Ṭāʾif (Ḥiǧāz)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Friedrich Schulthess, Umajja ibn Abi ṣ Ṣalt. Die unter seinem Namen überlieferten Gedichtfragmente, Leipzig 1911, S. 37-42;	Bahǧa ʿAbdalġafūr al-Ḥadīṯī, Umayya ibn abī ṣ-Ṣalt: Ḥayātuhū wa-šiʿruhū, Bagdad 1975, S. 318-321.</bibl>
+              <bibl type="literatur">Frank-Kamenetzky, Israel: Untersuchungen &amp;#xFC;ber das Verh&amp;#xE4;ltnis der dem Umajja b. Abi &amp;#x1E63; &amp;#x1E62;alt zugeschriebenen Gedichte zum Qor&amp;#x101;n. Kirchhain 1911.</bibl>
+              <bibl type="literatur">Hirschberg, Joachim W.: J&amp;#xFC;dische und christliche Lehren im vor- und fr&amp;#xFC;hislamischen Arabien. Ein Beitrag zur Entstehungsgeschichte des Islams. Krakau 1939.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>1. أَلا كُلُ شَىْءٍ هالِكٌ غَيْرَ رَبِّنا وَلِلَّهِ مِيراثُ الذى كانَ فانِيَا2. وَلِىّ لَهُ مِن دونِ كُلِ وِلايَةٍ إذا شاءَ لَم يُمْسوا جَميعاً مَوالِيا3. وَإِن يَكُ شَىْءٌ خَالِداً وَمُعَمَّراً تَأمَلْ تَجِدْ مِن فَوْقِهِ اللَهَ باقِيا4. لَهُ ما رَأَتْ عَينُ البَصيرِ وَفوقَهُ سَماءُ الآِلَهِ فَوقَ سَبْعِ سَمائِيا5. أَلا لَن يَفوتَ المَرءَ رَحْمةَ رَبِّهِ وَلو كانَ تَحتَ الأَرضِ سَبعينَ وادِيا6. تَعالَ وَتُدْرِكْهُ مِن اللَهِ رَحمَةٌ وَيُضْحى ثَناه فى البَرِيَّةِ زاكِياكَرَحمَةِ نُوحٍ يَومَ حَلَّ بسبعة لِشيعَتِهِ كَانوا جَميعاً ثَمانِيافَلَمّا استُشارَ اللَهُ تَنُّورَ أَرْضِهِ فَفارَ وَكانَ الماءُ فى الأَرضِ ساحيا7. إِلَى اللَّهِ أُهْدى مِدْحَتِى وَثَنَائِيَا وَقَوْلًا رَصِينًا لَا يَنِى الدَهْرَ بَاقِيًا8. إِلَى الْمَلِكِ الْأَعْلَى الذِى لَيْسَ فَوْقَهُ إِلَهٌ وَلَا رَبٌّ يَكُونُ مُدَانِيَا9. أَلَا أيُّهَا الْإِنْسَانُ إِيَّاكَ وَالرَّدَى فَإِنَّكَ لَا تُخْفَى مِنَ اللَّهِ خَافِيَا    10. وَإِيَّاكَ لَا تَجْعَلْ مَعَ اللَّهِ غَيْرَهُ فَإِنَّ سَبِيلَ الرُّشْدِ أَصْبَحَ بَادِيَا11. حَنَانَيْكَ إِنَّ الْجِنَّ كانَت رَجَاءَهُمْ وَأَنْتَ إِلَهِى رَبُّنَا وَرَجَائِيَا12. رَضِيتُ بِكَ اللَّهُمَّ رَبًّا فَلَنْ أُرَى أَدِينُ إِلَهًا غَيْرَكَ اللهُ ثَانِيَا13. وَأَنْتَ الذِى مِنْ فَضْلِ مَنٍّ وَرَحْمَةٍ بَعَثْتَ إِلَى مُوسَى رَسُولًا مُنَادِيَا14. فَقُلْتَ لَهُ اذْهَبْ وهَارُونَ فَادْعُوَا إِلَى اللهِ فِرْعَوْنَ الذى كَانَ طَاغِيَا15. وَقُولَا لَهُ أَأَنْتَ سَوَّيْتَ هَذِهِ بِلَا وَتَدٍ حَتَّى اطْمَأَنَّتْ كَمَا هِيَا16. وَقُولَا لَهُ أَأَنْتَ رَفَّعْتَ هَذِهِ بِلَا عَمَدٍ أَرْفِقْ إِذًاً بِكَ بَانِيَا17. وَقُولَا لَهُ أَأَنْتَ سَوَّيْتَ وَسْطَهَا مُنِيرًا إِذَا مَا جَنَّهُ اللَّيْلُ هَادِيَا18. وَقُولَا لَهُ مَنْ يُرْسِلُ الشَّمْسَ غُدْوَةً فَيُصْبِحُ مَا مَسَّتْ مِنَ الأَرْضِ ضَاحِيَا19. وَقُولَا لَهُ مَنْ يُنْبِتُ الحَبَّ فِى الثَّرَى فَيُصْبِحَ مِنْهُ البَقْلُ يَهْتَزُّ رَابِيَا20. وَيُخْرِجُ مِنْهُ حَبَّهُ فِى رُؤُوسِهِ وَفِى ذَاكَ آيَاتٌ لِمَنْ كَانَ وَاعِيَا21. وَأنْتَ لِفَضْلٍ مِنْكَ نَجَّيْتَ يُونُسًا وَقَدْ بَاتَ فِى أَضْعَافِ حُوتٍ لَيَالِيَا22. وَإِنِّى وَلَوْ سَبَّحْتُ بِاسْمِكَ رَبَّنَا لَأُكْثِرُ إِلَّا مَا غَفَرْتَ خَطَائِيَا    23. فَرَبَّ العِبَادِ أَلْقِ سَيْبًا وَرَحْمَةً عَلَيَّ وَبَارِكْ فِي بَنِيَّ وَمَالِيَافَقالَ أَعِنّى يا اِبْنَ أُمَى فَإِنَّنى كَثيرٌ بِهِ يا رَبُّ صِل لى جَناحِيَاو قلتَ لهرونَ اذْهَبَا فتَظاهروا على المَرْء فِرْعَوْنَ الذى كان طاغياأَرينُ إلهاً يُسْتخارُ و لا أُرَى ارين لِمَنْ لَمْ يَسْمَعُ الدَّهْرَ داعيا24. تَرَفَّعُ فى جَرْىٍ كَأَنَّ أَطِيطَهُ صَرِيفُ مَحالٍ يَستَعيدُ الدَوالِيَا25. عَلى ظَهْرِ جَوْنٍ لَم يُعَدَّ يُعَدِّ لِراكِبٍ سُراهُ وَغَيْمٌ أَلبَسَ الماءَ داجِيا26. فَصارَت بِها أَيّامُهَا ثَمَّ سَبعَةً وَسِتَّ لَيالٍ دائِباتٍ غَواطِيا27. تَشُقُّ بِهِم تَهْوى بِأَحْسَنِ إِمْرَةٍ كَأَنَّ عَليها هادِياً وَنَواتِيا28. وَكانَ لَها الجودِىُّ نِهْياً وَغايَةً وَأَصبَحَ عَنهُ مُوْجُهُ مُتَراخِيا29. وَما كانَ أَصْحابُ الحَمامَةِ خيفةً غَداةَ غَدَتْ فيهُم تَضُمُّ الخَوافِيا30. رَسولاً لَهُم واللَهُ يَحْكِم أَمْرَهُ يُبَيِّنُ لَهُم هَل يُؤنَسُ التُرْبُ باديا31. فَجاءَتْ بِقِطْفٍ آيَةٍ مُسْتَبِينةً فَأَصبَحَ مِنها مَوضِعُ الطينِ جارِيا32. عَلى خَطْمِها وَاِسْتَوْهَبَتْ ثَمَّ طَوْقَها وَقالَت أَلا لا تَجعَلِ الطَوقَ بالِيا33. وَلا ذاهِباً إِنّى أَخافُ نِبالَهُم يَخالونَهُ مالى وَليسَ بِمالِيا34. وَزِدْنى عَلى طَوْقى مِن الحَلْىِ زينَةً تُصيبُ إِذا أَتْبَعْتُ طَوقى خِضابِيا35. وَزِدْنى لطَرْفٍ العين منكك بنِعْمةٍ و وَرِّثْ اذا ما مِتُّ طوقى حَماميا36. يكونُ لِأَوْلادى جَمالاً و زينةً وَيَهْوَيْنَ زَيْنى زينَةً أَنْ يُرانِيا37. وَمرهنة عِندَ الغُرابِ حَبيبَهُ فَأَوْفَيتُ مَرهوناً وَخَلَفاً مُسابِيا38. أَدُلُّ عَلَىَّ الديكِ إِنّى كَما تَرى فَأَقْبِل عَلى شَأَنى وَهاكَ رِدائِيا39. أَمِنْتُكَ لا تَلْبَثْ مِن الدَهرِ ساعَةً وَلا نِصْفَها حَتّى تَؤوبَ مَآبِيا40. وَلا تُدْرِكَنْكَ الشَمسُ عِند طُلوعِها فَأَعْلَقَ فيهِم أَو يَطولَ ثَوائِيا41. فَرَدَّ الغُرابُ وَالرِداءُ يَحوزَهُ إِلى الديكِ وَعْداً كاذِباً وَأَمانِيا42. بأَيَّةِ ذَنْبٍ أَم بِأَيَّةِ حُجَّةٍ أَدَعْكَ فَلا تَدْعو عَلىَّ وَلا لِيا43. فَإِنّى نَذَرتُ حِجَّةً لَنْ أَعوقَها فَلا تَدْعُوَنّى دُعْوَةً مِن وَرائِيا44. تَطيّرتُ مِنها وَالدُعاءَ يَعوقُنى وَأَزْمَعتُ حَجّاً أَن أَطيرَ أَماميا45. فَلا تَبْتَئسْ إِنّى مَعَ الصُبْحِ باكِرٌ أُوافى غَدَاً نَحْوَ الحَجِيجِ الغَوادِيا46. لِحُبِّ اِمْرِئٍ فاكَهْتُهُ قَبْلَ حِجَّتى وَآثَرْتُ عَمداً شَأنَهُ قَبْلَ شانِيا47. هُنالِكَ ظَنَّ الدِيكُ إِذ دالَ دَوْلةٌ وَطالَ عَليهِ اللَيلُ أَن لا مُغارِيا48. فَلَمّا أَضَاءَ الصُبْحُ طَرَّبَ صَرْخَةً أَلا يا غُرابُ هَل سَمِعتَ نِدائِيا49. عَلى وُدِّهِ لَو كانَ ثَمَّ مُجيبَهُ وَكانَ لَهُ نَدْمانَ صِدْقٍ مُؤاتِيا50. وَأَمْسَى الغُرابُ يَضْرِبُ الأَرضَ كُلَّها عَتيقاً وَأَضْحَى الديكُ فى القِدِّ عانِيا51. فَذلِكَ مِمَّا أَسْهَبَ الخَمْرُ لُبَّهُ وَنادَمَ نَدْماناً مِنَ الطَيْرِ غاوِياوَما ذاكَ إِلا الديكُ شارِبُ خَمْرَةٍ نَديمُ غُرابٍ لا يَمَلُّ الحَوانِيافلمّا استقَلَّ الصبحُ نادى بصَوْته  ألا يا غرابُ هل رددتَ ردائيا
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	24. indem es sich hob im Laufe, mit einem Geräusch gleich dem Geknirsch einer Winde, die immerfort die Wassereimer heraufzieht;
+	25. auf der Fläche eines leuchtendfarbigen (Wassers), dessen Befahrung noch kein Schiffer für möglich gehalten hatte, und schwarzes Gewölk hüllte das Wasser ein.
+	26. So befand es sich dort ununterbrochen während sieben Tagen und sechs dunklen Nächten,
+	27. indem es mit ihnen flott die Wogen spaltete, in bester Ordnung, als wären Steuermann und Matrosen auf ihm.
+	28. Und der Ǧūdī-Berg war ihm Ziel und Endstation, und vor ihm erlahmten die (Meeres-)Fluten.
+	29. Und die Genossen der Taube waren nicht länger in Furcht an dem Morgen, an dem sie unter ihnen erschien, die Schwungfedern schliessend,
+	30. als Bote an sie - Gott führt seine Pläne klug aus! -, der sie darüber aufklärte, ob der Erdboden zum Vorschein komme;
+	31. denn sie brachte einen Rebenzweig als unzweideutigen Beweis, und die Stelle, wo sie von Lehmkot beschmutzt war, ging
+	32. bis zum Schnabel hinab. Und sie erbat sich dort ihr Halsband zum Geschenk und sprach: "Mache das Halsband nicht so, dass es vergänglich
+	33. und verlierbar ist, denn ich fürchte, ihre Pfeilschützen könnten meinen, es sei mein (zufälliges und erworbenes) Eigentum, während es das doch nicht wäre;
+	34. und statte mir mein Halsband noch mit einem schönen Schmuck aus, der mir, wenn ich meines Halsbandes teilhaftig geworden bin, das Färbemittel versieht,
+	35. und gewähre mir durch deine Güte noch etwas dazu: und lass, wenn ich sterbe, mein Halsband als Erbe auf meine Tauben übergehen.
+	36. Es sei so meinen Nachkommen zum Schmuck und zur Zier, und Kennzeichen meiner Zier ist es, dass sie eine Zier aus Erde ist.
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

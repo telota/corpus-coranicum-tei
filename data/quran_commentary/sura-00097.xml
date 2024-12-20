@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sure 97 — <foreign xml:lang="ar-Latn">al-Qadr</foreign> — »Die Bestimmung«</title>
+        <editor role="translator">Nicolai Sinai</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Corpus Coranicum Project</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Übersetzt und analysiert von Nicolai Sinai</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="Textstruktur" resp="an">
+        <lg type="sura" xml:id="sura-097">
+          <lg type="Hauptteil" n="h-000">
+            <lg type="Abschnitt" n="a-000">
+              <lg type="Gesaetz" n="g-000">
+                <lg type="Vers" n="v-000">
+                  <lg type="Teilvers" n="t-000" rhyme="2n/m">
+                    <l n="0" xml:lang="ar">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</l>
+                    <l n="0" xml:lang="de">Im Namen Gottes, des barmherzigen Erbarmers!</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-001">
+                  <lg type="Teilvers" n="t-001" rhyme="3Kr">
+                    <l n="1" xml:lang="ar">إِنَّآ أَنزَلۡنَٰهُ فِی لَيۡلَةِ ٱلۡقَدۡرِ</l>
+                    <l n="1" xml:lang="de">Wir sandten es herab in der Nacht der Vorherbestimmung.</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-002">
+                  <lg type="Teilvers" n="t-002" rhyme="3Kr">
+                    <l n="2" xml:lang="ar">وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ</l>
+                    <l n="2" xml:lang="de">Was lässt dich wissen, was die Nacht der Vorherbestimmung ist?</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-003">
+                  <lg type="Teilvers" n="t-003" rhyme="3Kr">
+                    <l n="3" xml:lang="ar">لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٌۭ مِّنۡ أَلۡفِ شَهۡرٍۢ</l>
+                    <l n="3" xml:lang="de">Die Nacht der Vorherbestimmung ist besser als tausend Monate.</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-004">
+                  <lg type="Teilvers" n="t-004" rhyme="3Kr">
+                    <l n="4" xml:lang="ar" ana="einschub">تَنَزَّلُ ٱلۡمَلَٰٓئِكَةُ وَٱلرُّوحُ فِيهَا</l>
+                    <l n="4" xml:lang="de" ana="einschub">In ihr steigen die Engel und der Geist herab</l>
+                    <l n="5" xml:lang="ar" ana="einschub">بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٍۢ</l>
+                    <l n="5" xml:lang="de" ana="einschub">mit der Erlaubnis ihres Herrn in jeder Sache.</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-005">
+                  <lg type="Teilvers" n="t-005" rhyme="3Kr">
+                    <l n="6" xml:lang="ar">سَلَٰمٌ هِیَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ</l>
+                    <l n="6" xml:lang="de">Friede ist sie bis zum Beginn der Morgenröte!</l>
+                  </lg>
+                </lg>
+              </lg>
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <div resp="an" type="datierung">
+        <ab type="title">Mekka I (Gruppe I)</ab>
+        <p>Während <bibl type="zotero" key="zotero-RF8JH6HZ">Nöldeke (<hi rend="italic">GdQ</hi>, Bd. 1, 93 f.)</bibl> eine Verkündigung des Textes noch in Mekka
+    annimmt, argumentiert Wagtendonk auf der Grundlage der prophetenbiographischen Tradition für
+    einen medinensischen Entstehungszeitpunkt zwischen der Hiǧra und der Schlacht von Badr (<bibl type="zotero" key="zotero-I3CZBR6N">Wagtendonk 1968, 88 ff. und insb. 95
+     f.</bibl>). Gegen eine mekkanische Datierung der Sure führt er dabei insbesondere seine Deutung
+    der altarabischen <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> als alljährlich wiederkehrender
+    Gerichtsnacht an, die er aufgrund ihres zyklischen Charakters für inkompatibel mit der
+    eschatologischen Kernbotschaft der mekkanischen Texte hält (<bibl type="zotero" key="zotero-I3CZBR6N">ebd., 95</bibl>). Wagtendonks Verständnis der
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> als <hi rend="italic">Gerichts-</hi> und nicht
+    als <hi rend="italic">Schicksals</hi>nacht ist jedoch durchaus nicht zwingend (s. <ref type="anmerkung" target="anmerkung-097:001-097:001">Anm. zu V. 1</ref>), so dass eine
+    frühmekkanische Datierung keinesfalls von vornherein ausscheidet. Tatsächlich weist die Sure in
+    stilistischer Hinsicht eine Reihe von charakteristischen Merkmalen früher mekkanischer Texte
+    auf: den <foreign xml:lang="ar-Latn">ʾinnā</foreign>-Einsatz (vgl. <ref type="koran" target="koran-108:000-108:003">Q 108</ref> und die von Nöldeke an der Schwelle zur mittelmekkanischen Periode
+    angesetzte <ref type="koran" target="koran-071:000-071:028">Sure 71</ref>; mit <ref type="koran" target="koran-048:000-048:029">Q 48</ref> existiert allerdings auch ein
+    medinensischer Text mit <foreign xml:lang="ar-Latn">ʾinnā</foreign>-Einsatz), die Kürze der Verse (zum
+    deutlich längeren <ref type="koran" target="koran-097:004-097:004">V. 4</ref>
+    <ref type="anmerkung" target="anmerkung-097:004-097:004">s. u.</ref>), die mit
+    <foreign xml:lang="ar-Latn">mā ʾadrāka mā …</foreign> beginnende Lehrfrage in <ref type="koran" target="koran-097:002-097:002">V. 2</ref> (s. <ref type="koran" target="koran-074:027-074:027">Q 74:27</ref>, <ref type="koran" target="koran-082:017-082:018">82:17.18</ref>, <ref type="koran" target="koran-083:008-083:008">83:8</ref>.<ref type="koran" target="koran-083:019-083:019">19</ref>, <ref type="koran" target="koran-086:002-086:002">86:2</ref>, <ref type="koran" target="koran-090:012-090:012">90:12</ref>, <ref type="koran" target="koran-104:005-104:005">104:5</ref>; vgl. ähnlich <ref type="koran" target="koran-101:002-101:002">Q 101:2</ref>; paraphrasierte Fragen der Zuhörer wie
+    <foreign xml:lang="ar-Latn">yasʾalūnaka ʿan</foreign>, „sie fragen dich nach …“, finden sich dagegen
+    nicht nur in relativ frühen Texten wie <ref type="koran" target="koran-079:042-079:042">Q
+     79:42</ref> und <ref type="koran" target="koran-051:012-051:012">Q 51:12</ref>, sondern auch
+    noch in medinensischen Suren wie <ref type="koran" target="koran-007:187-007:187">Q
+     7:187</ref> und <ref type="koran" target="koran-033:063-033:063">Q 33:63</ref>). Darüber
+    hinaus manifestiert die Sure keine der terminologischen und stilistischen Besonderheiten, die
+    für medinensische Texte charakteristisch sind. Würde man die Sure nach Medina setzen, so müsste
+    man deshalb mit einer absichtsvollen Nachgestaltung älterer Formen rechnen, die bewusst hinter
+    die literarischen Konventionen der medinensischen Zeit zurückgeht. Schließlich ist auch das
+    Verhältnis zwischen <ref type="koran" target="koran-097:000-097:005">Q 97</ref> und dem
+    Eröffnungsabschnitt der mittelmekkanischen <ref type="koran" target="koran-044:000-044:059">Sure 44</ref> (<ref type="koran" target="koran-044:001-044:008">V. 1–8</ref>) zu bedenken.
+    Insbesondere <ref type="koran" target="koran-044:003-044:004">V. 3.4</ref>
+    (<foreign xml:lang="ar-Latn">ʾinnā ʾanzalnāhu fī lailatin mubārakatin ʾinnā kunnā munḏirīn / fīhā yufraqu kullu ʾamrin ḥakīm</foreign>,
+    „Wir haben ihn in einer gesegneten Nacht herabgesandt …, / in der lauter weise Verfügungen
+    getroffen werden“) lesen sich wie eine Paraphrase der einleitenden Offenbarungsbestätigung <ref type="koran" target="koran-097:001-097:001">97:1</ref>, welche den Terminus
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign>, „die Nacht der Bestimmung“, durch „eine
+    gesegnete Nacht, in der lauter weise Verfügungen getroffen werden“ ersetzt. Diese „gesegnete
+    Nacht, in der lauter weise Verfügungen getroffen werden“, umschreibt offenbar eine ganz
+    bestimmte, den Hörern bereits vertraute Nacht, so dass die mittelmekkanische <ref type="koran" target="koran-044:000-044:059">Sure 44</ref> als
+    <foreign xml:lang="lat-Latn">terminus ad quem</foreign> für die Verkündigung von <ref type="koran" target="koran-097:000-097:005">Q 97</ref> gelten kann.</p>
+        <p>Verschiedene Erwägungen weisen folglich eher auf einen frühmekkanischen als auf einen
+    medinensischen Entstehungszeitpunkt. <ref type="koran" target="koran-097:000-097:005">Q
+     97</ref> würde damit der Bildung einer genuinen koranischen Gemeinde vorangehen, so dass die
+    Aussage des Textes nicht in der Instituierung eines kollektiv zu begehenden Gedenkfestes
+    bestehen dürfte, wie es bei Wagtendonks medinensischer Datierung naheläge. Am ehesten scheint
+    die Verkündigung der Sure nach den in Text- und Verslänge vergleichbaren Droh- und Scheltworten
+     <ref type="koran" target="koran-095:000-095:008">Q 95</ref>, <ref type="koran" target="koran-102:000-102:008">102</ref>, <ref type="koran" target="koran-103:000-103:003">103</ref>, <ref type="koran" target="koran-104:000-104:009">104</ref> und <ref type="koran" target="koran-107:000-107:007">107</ref> und den Danksuren <ref type="koran" target="koran-105:000-105:005">105</ref> und <ref type="koran" target="koran-106:000-106:004">106</ref> denkbar (ohne den problematischen <ref type="koran" target="koran-097:004-097:004">Vers 4</ref> hat <ref type="koran" target="koran-097:000-097:005">Q 97</ref>
+    eine durchschnittliche Verslänge von 10,8 Silben). Sie lässt sich lesen als nachträgliche
+    Autorisierung und Herkunftsbestimmung dieser frühesten Korantexte, welche die – zwar als
+    Gottesrede markierten, ihre göttliche Provenienz aber ansonsten nicht thematisierenden – Droh-
+    und Scheltsuren auf ein Offenbarungserlebnis in der
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> zurückführt. In mancher Hinsicht scheint der Text
+    mit dem Trostsuren-Cluster <ref type="koran" target="koran-093:000-093:011">93</ref>, <ref type="koran" target="koran-094:000-094:008">94</ref> und <ref type="koran" target="koran-108:000-108:003">108</ref> verwandt: Denn durch ihre Fokussierung auf die
+    Gestalt des Botschaftsüberbringers leisten diese ebenfalls eine Autorisierung der bis dato
+    verkündeten Korantexte, und zumindest eine von ihnen, <ref type="koran" target="koran-108:000-108:003">Sure 108</ref>, setzt wie die vorliegende Sure mit einer
+    <foreign xml:lang="ar-Latn">ʾinnā</foreign>-Aussage ein. Zwar wird der Verkünder in <ref type="koran" target="koran-097:000-097:005">Q 97</ref>, anders als in den drei Trostsuren, nicht direkt
+    angesprochen, doch geht es in <ref type="koran" target="koran-097:000-097:005">Q 97</ref>
+    immerhin um den „Mittelpunkt seines Wirkens“ (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren,
+    103</bibl>), die koranischen Verkündigungen.</p>
+        <p>Eine leicht abweichende Datierung vertritt Neuwirth: Sie stellt die Sure zusammen mit den
+    Trostsuren <ref type="koran" target="koran-093:000-093:011">Sure 93</ref>, <ref type="koran" target="koran-094:000-094:008">94</ref> und <ref type="koran" target="koran-108:000-108:003">108</ref> sowie den Gottes Begünstigung Mekkas und der Quraiš thematisierenden
+    Suren <ref type="koran" target="koran-105:000-105:005">105</ref> und <ref type="koran" target="koran-106:000-106:004">106</ref> an den Anfang der koranischen Textgenese (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth,
+     Frühmekkanische Suren, 44 f.</bibl>). Neuwirth geht dabei von dem Gedanken aus, dass die „noch
+    exklusiv an ein ‚Du‘ gerichteten Suren“ <ref type="koran" target="koran-093:000-093:011">93</ref>, <ref type="koran" target="koran-094:000-094:008">94</ref>, <ref type="koran" target="koran-097:000-097:005">97</ref>, <ref type="koran" target="koran-107:000-107:007">107</ref> und <ref type="koran" target="koran-108:000-108:003">108</ref> zu
+    einem „vor-kerygmatischen“ Stadium der Korangenese gehören, auf welches erst in einem zweiten
+    Schritt eschatologisch geprägte Mahn- und Drohworte wie etwa <ref type="koran" target="koran-102:000-102:008">Q 102</ref> und <ref type="koran" target="koran-107:000-107:007">107</ref>
+    gefolgt seien. Zur Kritik an dieser Konstruktion vgl. den Abschnitt <ref type="literarkritik" target="literarkritik-108:000-108:003">“Datierung“ im Kommentar zu Q 108</ref>.</p>
+      </div>
+      <div resp="an" type="literarkritik">
+        <ab type="title">V. 4 Einschub</ab>
+        <p>Nöldeke und Schwally erwägen für die Sure (wie auch für die anderen mit
+    <foreign xml:lang="ar-Latn">ʾinnā</foreign> beginnenden <ref type="koran" target="koran-048:000-048:029">Suren 48</ref>, <ref type="koran" target="koran-071:000-071:028">71</ref>,
+     <ref type="koran" target="koran-097:000-097:005">97</ref> und <ref type="koran" target="koran-108:000-108:003">108</ref>), sie könnte „ihren ursprünglichen Anfang
+    verloren haben“ (<bibl type="zotero" key="zotero-RF8JH6HZ"><hi rend="italic">GdQ</hi>, Bd. 1, 92 f.</bibl>). Die Existenz von immerhin vier mit
+    <foreign xml:lang="ar-Latn">ʾinnā</foreign> einsetzenden Suren macht den Wegfall einer Einleitung in
+    allen Fällen jedoch recht unwahrscheinlich. Die Unmittelbarkeit des Einsatzes wird man deshalb
+    innerhalb der koranischen Formensprache durchaus als literarische Möglichkeit akzeptieren
+    müssen. Die Vermutung, dass es sich bei <ref type="koran" target="koran-097:000-097:005">Q
+     97</ref> um ein isoliertes, aus einem ursprünglich sehr viel umfangreicheren Textzusammenhang
+    herausgefallenes Schlussgesätz handelt, hat <foreign xml:lang="lat-Latn">prima facie</foreign> wenig
+    für sich, da vergleichbare Fälle im koranischen Korpus nicht nachweisbar sind.</p>
+        <p>Aus den weitgehend eingliedrigen Versen fällt nur der überlange <ref type="koran" target="koran-097:004-097:004">V. 4</ref> heraus (24 Silben gegenüber 10 oder 11 Silben in
+     <ref type="koran" target="koran-097:001-097:003">V. 1–3</ref>.<ref type="koran" target="koran-097:005-097:005">5</ref>). Auch inhaltlich und terminologisch sticht der
+    Vers hervor. Vor allem die das selbstständige Agieren der Engel einschränkende Wendung
+    <foreign xml:lang="ar-Latn">bi-ʾiḏni rabbihim</foreign> („mit der Erlaubnis ihres Herrn“) deutet auf
+    ein Stadium theologischer Reflexion, welches zu Beginn der Korangenese noch nicht vorauszusetzen
+    ist: Insofern sie die Subordination von Engeln und Geist unter den Befehl Gottes verdeutlicht
+    und so dem Anschein einer allzu großen Selbstständigkeit derselben vorbeugt, wie ihn der
+    grammatische Subjektstatus von Engeln und Geist nahegelegt haben könnte (in <ref type="koran" target="koran-097:004-097:004">V. 4</ref> steht <foreign xml:lang="ar-Latn">tanazzala</foreign>,
+    „herabsteigen“, im Gegensatz zu <foreign xml:lang="ar-Latn">ʾanzala</foreign>, „herabsenden“, in <ref type="koran" target="koran-097:001-097:001">V. 1</ref>), ist die Wendung vergleichbar mit
+    den ebenfalls theologische Reflexion spiegelnden Zusätzen <ref type="koran" target="koran-074:056-074:056">Q 74:56</ref>, <ref type="koran" target="koran-076:030-076:030">76:30</ref>
+    und <ref type="koran" target="koran-081:029-081:029">81:29</ref>, welche die vom jeweils
+    vorhergehenden Vers implizierte menschliche Willensfreiheit unter den Vorbehalt eines
+    entsprechenden göttlichen Wollens stellen. Bestätigt wird diese Vermutung dadurch, dass
+    <foreign xml:lang="ar-Latn">bi-ʾiḏni</foreign>-Einschränkungen sonst in frühen Texten nicht belegt
+    sind – so fehlt eine ähnliche Qualifikation etwa in dem sprachlich und inhaltlich eng mit <ref type="koran" target="koran-097:004-097:004">97:4</ref> verwandten <ref type="koran" target="koran-078:038-078:038">Vers 78:38</ref>
+    (<foreign xml:lang="ar-Latn">yauma yaqūmu r-rūḥu wa-l-malāʾikatu ṣaffan</foreign>), der gleichfalls
+    ein eigenständiges Handeln von „Geist und Engeln“ suggeriert. Die Einschränkung wird selbst in
+    dem nicht mehr frühmekkanischen Einschub <ref type="koran" target="koran-070:000-070:004">70:4</ref>
+    (<foreign xml:lang="ar-Latn">taʿruǧu l-mālāʾikatu wa-r-rūḥu ʾilaihi fī yaumin kāna miqdāruhū ḫamsīna ʾalfa sanah</foreign>)
+    noch nicht verwendet, sondern erst in spätmekkanischen oder medinensischen Suren, etwa <ref type="koran" target="koran-002:097-002:097">Q 2:97</ref>, wo Gabriels Rolle im
+    Offenbarungsprozess mittels derselben Formulierung von der Erlaubnis Gottes abhängig gemacht
+    wird (zum selben Ergebnis kommt – mit ähnlichen Argumenten – <bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren, 96
+     f.</bibl>).</p>
+        <p>Auffällig ist daneben die Erwähnung des „Geistes“ (<foreign xml:lang="ar-Latn">rūḥ</foreign>),
+    dessen Rolle im Offenbarungsprozess in <ref type="koran" target="koran-016:002-016:002">Q
+     16:2</ref>.<ref type="koran" target="koran-016:102-016:102">102</ref>, <ref type="koran" target="koran-026:193-026:193">26:193</ref> und <ref type="koran" target="koran-040:015-040:015">40:15</ref> hervorgehoben wird (in <ref type="koran" target="koran-017:025-017:025">17:25</ref> wird eine Nachfrage nach dem „Geist“ abgewehrt) und den ein
+    medinensischer Vers (<ref type="koran" target="koran-002:097-002:097">2:97</ref>) schließlich
+    mit dem Erzengel Gabriel identifiziert. Daneben existiert allerdings auch eine frühmekkanische
+    Stelle, in denen der <foreign xml:lang="ar-Latn">rūḥ</foreign> zusammen mit den Engeln genannt wird,
+    nämlich <ref type="koran" target="koran-078:038-078:038">Q 78:38</ref>
+    (<foreign xml:lang="ar-Latn">yauma yaqūmu r-rūḥu wa-l-malāʾikatu ṣaffan</foreign>); <ref type="koran" target="koran-070:004-070:004">Q 70:4</ref>
+    (<foreign xml:lang="ar-Latn">taʿruǧu l-mālāʾikatu wa-r-rūḥu ʾilaihi fī yaumin kāna miqdāruhū ḫamsīna ʾalfa sanah</foreign>)
+    ist ein späterer Einschub (s. den Kommentar zu Q 70). Doch auch in <ref type="koran" target="koran-078:038-078:038">78:38</ref> erscheint der „Geist“ nicht wie in <ref type="koran" target="koran-097:004-097:004">97:4</ref> oder <ref type="koran" target="koran-026:193-026:193">26:193</ref> als Offenbarungsmittler; der Kontext ist dort
+    ein eschatologischer. Sehr wahrscheinlich ist deshalb der gesamte <ref type="koran" target="koran-097:004-097:004">Vers 97:4</ref> (und nicht etwa nur die Wendung
+    <foreign xml:lang="ar-Latn">bi-ʾiḏni rabbihim</foreign>) als nachträgliches, den besonderen Charakter
+    der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> näher ausführendes „Interpretament“ anzusehen
+     (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth,
+     Frühmekkanische Suren, 96</bibl>). Aufgrund des Fehlens der Einschränkung
+    <foreign xml:lang="ar-Latn">bi-ʾiḏni rabbihim</foreign> in dem ebenfalls nachträglich eingefügten <ref type="koran" target="koran-070:004-070:004">Vers 70:4</ref> dürfte <ref type="koran" target="koran-097:004-097:004">97:4</ref> der spätere Einschub von beiden sein.</p>
+        <p>Gegen diese Hypothese könnte eingewandt werden, dass das in <ref type="koran" target="koran-097:003-097:003">V. 3</ref> enthaltene Werturteil über die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign>, ihr hyperbolisch ausgedrückter Ausnahmecharakter
+    („ist besser als tausend Monate“), erst in <ref type="koran" target="koran-097:004-097:004">V. 4</ref> begründet bzw. ‚ausgeredet’ wird, so dass der Text bei Ausscheidung des gesamten
+    Verses lückenhaft wirke (vgl. schon <bibl type="zotero" key="zotero-4WEWN8NZ">Neuwirth, Studien, 231</bibl>, die
+    sich hier noch gegen die Hypothese wendet, der vierte Vers sei ein Einschub). Dieser Eindruck
+    mag jedoch subjektiv sein: Setzt man voraus, dass die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> den Hörern bereits vertraut war (s. den <ref type="anmerkung" target="anmerkung-097:001-097:001">Stellenkommentar zu V. 1</ref>), so war
+    eine Motivierung ihres in <ref type="koran" target="koran-097:003-097:003">V. 3</ref> und <ref type="koran" target="koran-097:005-097:005">5</ref> formulierten Ausnahmecharakters
+    möglicherweise nicht unbedingt nötig.</p>
+      </div>
+      <div resp="an" type="aufbauinhalt">
+        <p><ref type="koran" target="koran-097:000-097:005">Q 97</ref> gliedert sich in eine
+    selbstreferentielle Aussage über die Herabsendung der von Muḥammad vorgetragenen Texte in der
+    „Nacht der Bestimmung“ (<foreign xml:lang="ar-Latn">lailat al-qadr</foreign>, <ref type="koran" target="koran-097:001-097:001">V. 1</ref>), eine Lehrfrage (<ref type="koran" target="koran-097:002-097:002">V. 2</ref>) und eine die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> charakterisierende dreiversige Antwort auf
+    dieselbe (<ref type="koran" target="koran-097:003-097:005">V. 3–5</ref>).</p>
+      </div>
+      <div resp="an" type="ueberblick">
+        <p>
+          <table cols="2" rend="boxed" rows="3">
+            <head/>
+            <row>
+              <cell>
+                <hi rend="superscript">
+                  <ref type="koran" target="koran-097:001-097:005">1–5</ref>
+                </hi>
+                <hi rend="italic">3Kr</hi>
+              </cell>
+              <cell><hi rend="superscript"><ref type="koran" target="koran-097:001-097:001">1</ref></hi>
+       Offenbarungsbestätigung</cell>
+            </row>
+            <row>
+              <cell/>
+              <cell><hi rend="superscript"><ref type="koran" target="koran-097:002-097:005">2.3.5</ref></hi> daran anknüpfende Lehrfrage mit
+       zweiteiliger Antwort</cell>
+            </row>
+            <row>
+              <cell/>
+              <cell>[<hi rend="superscript"><ref type="koran" target="koran-097:004-097:004">4</ref></hi>
+       erklärender Zusatz]</cell>
+            </row>
+          </table>
+        </p>
+      </div>
+      <div resp="an" type="anmerkungen">
+        <div ana="kommentar-000">
+          <p><app><lem>bi-smi llāhi r-raḥmāni r-raḥīm]</lem></app> Zur Basmala s. die entsprechende <ref type="anmerkung" target="anmerkung-093:000-093:000">Anmerkung zu 93</ref>; zum Gottesnamen
+    <foreign xml:lang="ar-Latn">raḥmān</foreign> s. die <ref type="anmerkung" target="anmerkung-055:001-055:001">Anmerkung zu 55:1</ref>.</p>
+        </div>
+        <div ana="kommentar-001-005">
+          <p>Vgl. <ref type="koran" target="koran-044:003-044:006">44:3–6</ref>:
+    <foreign xml:lang="ar-Latn">ʾinnā ʾanzalnāhu fī lailatin mubārakatin ʾinnā kunnā munḏirīn / fīhā yufraqu kullu ʾamrin ḥakīm / ʾamran min ʿindinā ʾinnā kunnā mursilīn / raḥmatan min rabbika ʾinnahū huwa s-samīʿu l-ʿalīm</foreign>(„Wir
+    haben ihn in einer gesegneten Nacht herabgesandt …, / in der lauter weise Verfügungen getroffen
+    werden“). Die Verse lesen sich wie eine Paraphrase der einleitenden Offenbarungsbestätigung <ref type="koran" target="koran-097:001-097:001">97:1</ref>, welche den Terminus
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign>, „die Nacht der Bestimmung“ durch die
+    Charakterisierung „eine gesegnete Nacht, in der lauter weise Verfügungen getroffen werden“
+    ersetzt. <ref type="koran" target="koran-044:003-044:003">Q 44:3</ref> hält wie <ref type="koran" target="koran-097:001-097:001">97:1</ref> fest, dass „es“ (die koranischen
+    Offenbarungen, s. <ref type="anmerkung" target="anmerkung-097:001-097:001">Anm. zu V. 1</ref>)
+    „in einer gesegneten Nacht herabgesandt“ worden sei; <ref type="koran" target="koran-044:004-044:006">44:4–6</ref> schließen dann wie <ref type="koran" target="koran-097:003-097:005">97:3–5</ref> eine nähere Bestimmung dieser Nacht an, wobei in beiden Passagen
+    der Ausdruck <foreign xml:lang="ar-Latn">ʾamr</foreign> erscheint (in <ref type="koran" target="koran-044:000-044:059">Q 44</ref> sogar zweimal, nämlich in <ref type="koran" target="koran-044:004-044:004">V. 4</ref> und <ref type="koran" target="koran-044:005-044:005">5</ref>). – Zu phonologischen Aspekten der Sure vgl. <bibl type="zotero" key="zotero-SDCB3CFI">Sells
+    1991</bibl>.</p>
+        </div>
+        <div ana="kommentar-001">
+          <p><app><lem>ʾinnā ʾanzalnāhu]</lem></app> Zum <foreign xml:lang="ar-Latn">ʾinnā</foreign>-Einsatz der Sure vgl.
+    noch <ref type="koran" target="koran-108:000-108:003">Q 108</ref>. Das Verb
+    <foreign xml:lang="ar-Latn">ʾanzala</foreign> erscheint frühmekkanisch nur noch in <ref type="koran" target="koran-078:014-078:014">78:14</ref> und <ref type="koran" target="koran-056:069-056:069">56:69</ref> (Gruppe IIIa und IIIb), allerdings im Zusammenhang mit Gottes
+    „Herabsendung“ von Wasser; <ref type="koran" target="koran-053:023-053:023">53:23</ref>
+    (<foreign xml:lang="ar-Latn">mā ʾanzala llāhu bihā min sulṭānin</foreign>), wo
+    <foreign xml:lang="ar-Latn">ʾanzala</foreign> wie im vorliegenden Vers im Sinne von „offenbaren“
+    verwendet wird, ist ein späterer – wohl nicht mehr frühmekkanischer – Einschub. Zumindest die
+    zugrunde liegende Wurzel <foreign xml:lang="ar-Latn">n-z-l</foreign> tritt jedoch in drei gegen Ende
+    der frühmekkanischen Zeit zu verortenden Stellen (Gruppe IIIb) noch einmal in prophetologischem
+    Zusammenhang auf: In <ref type="koran" target="koran-069:043-069:043">69:43</ref> und <ref type="koran" target="koran-056:080-056:080">56:80</ref>
+    (<foreign xml:lang="ar-Latn">tanzīlun min rabbi l-ʿālamīn</foreign>) findet sich zum ersten Mal die
+    später häufige Bezeichnung der Botschaftsübermittlung als
+    <foreign xml:lang="ar-Latn">tanzīl</foreign>, und in <ref type="koran" target="koran-053:013-053:013">53:13</ref> ist in einer Visionsbeschreibung von der „Herabkunft“
+    (<foreign xml:lang="ar-Latn">nazla</foreign>) Gottes die Rede. Die Verwendung von
+    <foreign xml:lang="ar-Latn">n-z-l</foreign> für den Offenbarungsvorgang intensiviert sich im Folgenden
+    deutlich, wobei jetzt auch wieder das Verb <foreign xml:lang="ar-Latn">ʾanzala</foreign> gebraucht
+    wird: In mittel- und spätmekkanischer Zeit stehen
+    <foreign xml:lang="ar-Latn">ʾinnā-ʾanzalnā</foreign>-Aussagen häufig in der Sureneinleitung (<ref type="koran" target="koran-012:002-012:002">12:2</ref>, <ref type="koran" target="koran-039:002-039:002">39:2</ref>, <ref type="koran" target="koran-044:003-044:003">44:3</ref>), üblicherweise nach einer Bezeichnung des Vorgetragenen als
+    <foreign xml:lang="ar-Latn">tanzīl</foreign> oder <foreign xml:lang="ar-Latn">tanzīl al-kitāb</foreign> (s.
+    allg. <bibl type="zotero" key="zotero-RH7ZBBK6">Wild 1996</bibl>). Obwohl <ref type="koran" target="koran-097:001-097:001">97:1</ref> unter Voraussetzung der weiter oben
+    vertretenen Datierung die erste koranische Verwendung von
+    <foreign xml:lang="ar-Latn">ʾanzala</foreign> im Sinne von „offenbaren“ darstellen dürfte, avanciert
+    das Verb also erst mit gewisser Verzögerung zu einem zentralen koranischen Terminus.</p>
+          <p>Über die Vorgeschichte dieser offenbarungstheologischen Verwendungsweise von
+    <foreign xml:lang="ar-Latn">n-z-l</foreign> lassen sich vorerst nur Hypothesen anstellen. Die
+    Entwicklung des Bildes von der göttlichen ‚Herabsendung’ der koranischen Offenbarungen mag
+    zunächst eine Neubesetzung des älteren mythischen Paradigmas von den mit übernatürlicher Rede
+    auf die Dichter ‚herabkommenden’ Ǧinnen gewesen sein, also keineswegs eine spontane theologische
+    Begriffsschöpfung des Koran: Noch in <ref type="koran" target="koran-026:221-026:223">26:221 ff.</ref> ist – kontrastiv zum <foreign xml:lang="ar-Latn">tanazzul</foreign> der Engel in <ref type="koran" target="koran-097:000-097:005">Q 97</ref> – von einem
+    <foreign xml:lang="ar-Latn">tanazzul</foreign> der <foreign xml:lang="ar-Latn">šayāṭīn</foreign> die Rede,
+    womit wohl polemisch die Unterstellung einer Ǧinn-Inspiration des Propheten abgewehrt wird (vgl.
+    a. <ref type="koran" target="koran-069:040-069:043">69:40 ff.</ref>, wo dieselbe Vorstellung
+    im Hintergrund des Vorwurfs, Muḥammad sei ein Dichter oder Wahrsager, steht). Dieser
+    vor-islamische Kontext dürfte das frühe Verständnis des
+    <foreign xml:lang="ar-Latn">tanzīl</foreign>-Begriffs zumindest mitgeprägt haben (vgl. <bibl type="zotero" key="zotero-PEEF36TT">Abū Zaid 1990, 38–40</bibl>). Andererseits wird
+    in Ephrems „Hymnen auf die Geburt des Herrn“ von den Engeln das dem arabischen
+    <foreign xml:lang="ar-Latn">ʾanzala</foreign> entsprechende syrische Verb
+    <foreign xml:lang="syc-Latn">naḥḥet</foreign> gebraucht: Die Engel „haben neue Lobgesänge herabkommen
+    lassen“, heißt es dort (<bibl type="zotero" key="zotero-P4AATWXC">Beck 1959a,
+     104 f., Nr. 21:3</bibl>; Übersetzung nach <bibl type="zotero" key="zotero-MHU89J2N">Beck 1959b,
+     94 f.</bibl>; zu diesem von Yousef Kouriyhe identifizierten Intertext s. ausführlicher <bibl type="zotero" key="zotero-P4AATWXC">TUK, Nr.
+     147</bibl>). Es ist deshalb nicht auszuschließen, dass die Semantik von koran.
+    <foreign xml:lang="ar-Latn">ʾanzala</foreign> bzw. <foreign xml:lang="ar-Latn">tanazzala</foreign> (<ref type="koran" target="koran-097:004-097:004">V. 4</ref>) teilweise auch von solchen
+    christlichen Referenzen bestimmt war.</p>
+          <p>Zum bezuglosen Suffix in <foreign xml:lang="ar-Latn">ʾanzalnāhū</foreign> vgl. die folgenden frühen
+    koranischen Selbstbeschreibungen, die ebenfalls frei schwebende, d. h. nicht auf ein
+    vorangehendes Bezugswort verweisende Suffixe oder Demonstrativa verwenden: <ref type="koran" target="koran-069:040-069:043">69:40–43</ref>
+    (<foreign xml:lang="ar-Latn">ʾinnahū la-qaulu rasūlin karīm …</foreign>), <ref type="koran" target="koran-073:019-073:019">73:19</ref>
+    (<foreign xml:lang="ar-Latn">ʾinna hāḏihī taḏkiratun</foreign>), <ref type="koran" target="koran-074:054-074:055">74:54.55</ref>
+    (<foreign xml:lang="ar-Latn">kallā ʾinnahū taḏkirah / fa-man šāʾa ḏakarah</foreign>), <ref type="koran" target="koran-077:050-077:050">77:50</ref>
+    (<foreign xml:lang="ar-Latn">fa-bi-ʾayyi ḥadīṯin baʿdahū yuʾminūn</foreign>), <ref type="koran" target="koran-081:019-081:019">81:19</ref>.<ref type="koran" target="koran-081:025-081:025">25</ref>
+    (<foreign xml:lang="ar-Latn">ʾinnahū la-qaulu rasūlin karīm, wa-mā huwa bi-qauli šaiṭānin raǧīm</foreign>),
+     <ref type="koran" target="koran-086:013-086:014">86:13.14</ref>
+    (<foreign xml:lang="ar-Latn">ʾinnahū la-qaulun faṣl / wa-mā huwa bi-l-hazl</foreign>). In <ref type="koran" target="koran-044:003-044:003">44:3</ref> (s. o., <ref type="anmerkung" target="anmerkung-097:001-097:005">Anm. zu V. 1–5</ref>) verweist das Suffix von
+    <foreign xml:lang="ar-Latn">ʾanzalnāhu</foreign> wohl auf das im vorangehenden <ref type="koran" target="koran-044:002-044:002">Vers 2</ref> als Schwurgegenstand genannte „klare Buch“. In
+    der medinensischen Stelle <ref type="koran" target="koran-022:016-022:016">22:16</ref> steht
+    <foreign xml:lang="ar-Latn">ʾanzalnāhu</foreign> wie in <ref type="koran" target="koran-097:000-097:005">Q 97</ref> ohne vorangehendes Bezugswort, muss sich jedoch auf die koranischen
+    Offenbarungen beziehen. Auch sonst treten als Objekt von <foreign xml:lang="ar-Latn">ʾanzala</foreign>
+    üblicherweise göttliche Offenbarungen auf. Das Objektsuffix in <ref type="koran" target="koran-097:000-097:005">Q 97</ref> ist deshalb mit Sicherheit nicht auf den
+    Erzengel Gabriel zu beziehen, wie manche islamischen Kommentatoren meinen (vgl. <bibl type="zotero" key="zotero-SDCB3CFI">Sells 1991, 244, mit
+     Anm. 15</bibl>). Noch unwahrscheinlicher ist angesichts der generellen koranischen Verwendung
+    von <foreign xml:lang="ar-Latn">ʾanzala</foreign> die von <bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl> vorgeschlagene Beziehung des Suffixes auf das Jesuskind. In europäischen
+    Übersetzungen wird das Pronomen üblicherweise mit „dem Koran“ identifiziert (vgl. etwa Parets
+    Übersetzung des Verses). Nimmt man jedoch für <ref type="koran" target="koran-097:000-097:005">Q 97</ref> einen frühmekkanischen Entstehungszeitpunkt an (s. o.), so ist
+    zweifelhaft, ob das Korpus der von Muḥammad verkündeten Offenbarungen bereits zu diesem
+    Zeitpunkt als „der Koran“ bezeichnet wurde (<ref type="koran" target="koran-084:021-084:021">Q 84:21</ref> spricht zwar davon, dass „der
+    <foreign xml:lang="ar-Latn">qurʾān</foreign> vorgetragen wird“, aber hier hat
+    <foreign xml:lang="ar-Latn">qurʾān</foreign> wohl noch nicht den Status eines Eigennamens erlangt,
+    sondern bedeutet lediglich „Lesung, Rezitation“; dasselbe gilt für <ref type="koran" target="koran-073:004-073:004">73:4</ref>,
+    <foreign xml:lang="ar-Latn">wa-rattili l-qurʾāna tartīlā</foreign>). An Stellen wie <ref type="koran" target="koran-074:054-074:054">74:54</ref> oder <ref type="koran" target="koran-086:013-086:014">86:13.14</ref> lässt sich das frei schwebende Pronomen als metatextueller
+    Verweis auf die jeweils vorliegende Einzelsure oder sogar nur auf das jeweils Vorhergehende
+    lesen (so <bibl type="zotero" key="zotero-PH6RCMQ9">Sinai 2006,
+     110</bibl>), doch ist eine solche Deutung in <ref type="koran" target="koran-097:000-097:005">Q 97</ref> kaum durchführbar, da das Pronomen hier nicht am Ende einer Sure
+    oder zumindest eines Surenabschnitts begegnet, auf die oder den es sich beziehen könnte. Gemeint
+    ist deshalb vermutlich in allen Fällen das koranische Offenbarungsgeschehen insgesamt bzw. die
+    Gesamtmenge der von Muḥammad bis dato empfangenen Offenbarungen. Der ursprüngliche Grund für den
+    Gebrauch solcher ‚schwebenden’ pronominalen Referenzen könnte gerade darin gelegen haben, dass
+    zu Beginn der frühmekkanischen Zeit noch kein etablierter Eigenname für die von Muḥammad
+    vorgetragenen Texte zur Verfügung stand. – Ob <ref type="koran" target="koran-097:000-097:005">Q 97</ref> sagen will, dass alle bis dato vorliegenden Korantexte in einer
+    einzigen Nacht herabgesandt wurden, oder ob es lediglich um den <hi rend="italic">Beginn</hi>
+    des Herabsendungsprozesses geht, muss offen bleiben. Doch da die koranischen Texte einer
+    späteren Aussage zufolge nicht „auf einmal“ (<foreign xml:lang="ar-Latn">ǧumlatan wāḥidatan</foreign>,
+     <ref type="koran" target="koran-025:032-025:032">25:32</ref>), sondern ‚in Serie’ verkündet
+    wurden, ist es <foreign xml:lang="lat-Latn">prima facie</foreign> wahrscheinlicher, dass der <hi rend="italic">Beginn</hi> der „Herabsendung“ der Korantexte intendiert ist (vgl. <bibl type="zotero" key="zotero-SDCB3CFI">Sells 1991, 244,
+     Lohmann 1969, 277 f.</bibl>).</p>
+          <p><app><lem>lailat al-qadr]</lem></app><bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl> fasst arab. <foreign xml:lang="ar-Latn">qadr</foreign> als Übersetzung von syr.
+    <foreign xml:lang="syc-Latn">ḥelqā</foreign> („Los, Schicksal“) auf; da
+    <foreign xml:lang="syc-Latn">ḥelqā</foreign> im Sinne von „Schicksal“ gelegentlich synonym mit der
+    Wendung <foreign xml:lang="syc-Latn">bēṯ yaldā</foreign> („Geburt“ bzw. „Geburtshoroskop“) gebraucht
+    wird, was wiederum die im Syrisch-Aramäischen übliche Bezeichnung für „Weihnachten“ ist,
+    schließt er, mit der koranischen <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> müsse die
+    Weihnachtsnacht gemeint sein. Nun ist Bedeutungsgleichheit allerdings keine notwendigerweise
+    transitive Relation, d. h. aus der Tatsache, dass A und B sowie B und C bedeutungsgleich sind,
+    folgt nicht, dass auch A und C bedeutungsgleich sein müssen („Bauer“ ist sowohl synonym mit
+    „Landwirt“ als auch mit „Vogelkäfig“, woraus jedoch nicht folgt, dass ein Landwirt ein
+    Vogelkäfig ist). Eine ernst zu nehmende Hypothese wäre Luxenbergs Deutung also allenfalls dann,
+    wenn er konkrete Belege dafür beibringen könnte, dass es eine syrische Wendung
+    <foreign xml:lang="syc-Latn">lelyā ḏ-ḥelqā</foreign> gibt, die wie das geläufige
+    <foreign xml:lang="syc-Latn">bēṯ yaldā</foreign> zur Bezeichnung der Weihnachtsnacht dient. Den
+    Nachweis dafür bleibt Luxenberg, der sich auf eine Konsultation syrischer Wörterbücher
+    beschränkt, jedoch schuldig.</p>
+          <p>Die Deutung der Wendung hat deshalb sinnvollerweise bei einem Überblick über den koranischen
+    Gebrauch der Wurzel <foreign xml:lang="ar-Latn">q-d-r</foreign> anzusetzen, wie ihn <bibl type="zotero" key="zotero-89WAAM3P">Ambros, Dictionary, 220
+     f.</bibl>, bietet: <foreign xml:lang="ar-Latn">Qadara</foreign> bedeutet u. a. „einschätzen“ (etwa <ref type="koran" target="koran-006:091-006:091">6:91</ref>:
+    <foreign xml:lang="ar-Latn">mā qadarŭ llāha ḥaqqa qadrihī</foreign>, „sie haben Gott nicht richtig
+    eingeschätzt“), aber auch „begrenzen“ (vgl. die Wendung
+    <foreign xml:lang="ar-Latn">yabsuṭu r-rizqa li-man yašāʾu wa-yaqdiru</foreign>, etwa in <ref type="koran" target="koran-013:026-013:026">13:26</ref>), „zuteilen“, „zumessen“ (so in <ref type="koran" target="koran-077:022-077:023">77:22.23</ref>), gelegentlich sogar
+    „festlegen“ oder sogar „vorherbestimmen“ (<ref type="koran" target="koran-054:012-054:012">54:12</ref>: <foreign xml:lang="ar-Latn">ʿalā ʾamrin qad qudira</foreign>, „wie es festgelegt bzw.
+    vorherbestimmt war“). Letztere Bedeutung wird insbesondere von
+    <foreign xml:lang="ar-Latn">qaddara</foreign> im zweiten Stamm transportiert (vgl. <ref type="koran" target="koran-015:060-015:060">15:60</ref>, wo es von Lots Frau heißt:
+    <foreign xml:lang="ar-Latn">ʾillă mraʾatahū qaddarnā ʾinnahā la-mina l-ġābirīn</foreign>, „wir haben
+    vorherbestimmt, dass …“). Das Substantiv <foreign xml:lang="ar-Latn">qadr</foreign>, das als
+    Verbalsubstantiv zu <foreign xml:lang="ar-Latn">qadara</foreign> prinzipiell alle Bedeutungen des
+    Verbs besitzen kann, erscheint außer in <ref type="koran" target="koran-097:000-097:005">Q
+     97</ref> nur noch zweimal im Koran, einmal als inneres Objekt in der bereits erwähnten Stelle <ref type="koran" target="koran-006:091-006:091">6:91</ref> (im Sinne von „Einschätzung“), das
+    zweite Mal in <ref type="koran" target="koran-065:003-065:003">65:3</ref> im Sinne von „Maß“
+    (<foreign xml:lang="ar-Latn">qad ǧaʿala llāhu li-kulli šaiʾin qadrā</foreign>, „Gott hat allem ein
+    <foreign xml:lang="ar-Latn">qadr</foreign> gesetzt“). <ref type="koran" target="koran-097:001-097:002">97:1.2</ref> ist wohl nicht mit diesen beiden Vorkommnissen von
+    <foreign xml:lang="ar-Latn">qadr</foreign> zusammenzustellen, sondern eher mit
+    <foreign xml:lang="ar-Latn">qadar</foreign> in Stellen wie <ref type="koran" target="koran-033:038-033:038">33:38</ref>
+    (<foreign xml:lang="ar-Latn">wa-kāna ʾamru llāhi qadaran maqdūrā</foreign>, „Gottes Befehl ist eine
+    vorherbestimmte = ausgemachte Sache“), vgl. <bibl type="zotero" key="zotero-89WAAM3P">Ambros, Dictionary, 220</bibl>: „prob.
+    <foreign xml:lang="ar-Latn">qadr</foreign> and <foreign xml:lang="ar-Latn">qadar</foreign> are to be
+    considered merely as variants of one lexeme; the meanings listed for each word are somewhat
+    artificially differentiated and tend to overlap.“ <foreign xml:lang="ar-Latn">Lailat al-qadr</foreign>
+    ist also wohl die „Nacht der Vorherbestimmung“. <bibl type="zotero" key="zotero-I3CZBR6N">Wagtendonk 1968, 83 ff.</bibl> übersetzt „night of the
+    measuring-out“, worunter er keine <hi rend="italic">Schicksals-</hi>, sondern eine zyklisch
+    wiederkehrende <hi rend="italic">Gerichts</hi>nacht verstehen will (<bibl type="zotero" key="zotero-I3CZBR6N">ebd., 85</bibl>). Überzeugende Argumente hierfür vermag er
+    jedoch nicht beizubringen, zumal die Sure keinerlei drohende Untertöne aufweist, sondern im
+    Gegenteil den friedvollen Charakter der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign>
+    hervorhebt (was auch Wagtendonk selbst zugibt, vgl. <bibl type="zotero" key="zotero-I3CZBR6N">ebd., 86</bibl>). Die ebenfalls denkbare Übersetzungsalternative
+    „Nacht der Macht“ kann sich zwar auf die Wendung <foreign xml:lang="ar-Latn">qādir ʿalā</foreign> (von
+    Gott) = „imstande zu“ (etwa in <ref type="koran" target="koran-086:008-086:008">86:8</ref>)
+    stützen, ist aber sachlich weniger wahrscheinlich. Gegen sie spricht vor allem <ref type="koran" target="koran-044:003-044:006">44:3–6</ref>, wo es heißt, in der „gesegneten Nacht“, in
+    der „es“ herabgesandt wurde, würde „jegliche weise Angelegenheit entschieden“
+    (<foreign xml:lang="ar-Latn">ʾinnā ʾanzalnāhu fī lailatin mubārakatin ʾinnā kunnā munḏirīn / fīhā yufraqu kullu ʾamrin ḥakīm</foreign>).
+    Hier ist also ganz deutlich von einer Schicksalsnacht die Rede. Zwar handelt es sich bei <ref type="koran" target="koran-044:000-044:059">Q 44</ref> um einen mittelmekkanischen, also
+    späteren Text; doch gibt es zumindest <hi rend="italic">prima facie</hi> keine Anhaltspunkte,
+    dass dieser nicht einfach als Explikation von bereits in <ref type="koran" target="koran-097:000-097:005">Q 97</ref> vorausgesetzten Vorstellungen, sondern als regelrechte Umdeutung der
+    früheren Sure aufzufassen ist. Für diesen Befund spricht einerseits die Bezeichnung
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> selbst, die sich zwanglos im Sinne von <ref type="koran" target="koran-044:003-044:006">44:3–6</ref> verstehen lässt. Eine
+    Interpretation von <ref type="koran" target="koran-097:001-097:001">97:1</ref> im Sinne von
+     <ref type="koran" target="koran-044:003-044:006">44:3–6</ref> wird darüberhinaus auch durch
+    die Tatsache nahegelegt, dass <ref type="koran" target="koran-097:000-097:005">Sure 97</ref>
+    in ihrer ursprünglichen Fassung (d. h. ohne <ref type="koran" target="koran-097:004-097:004">V. 4</ref>) lediglich lehrt, in der offenbar bereits bekannten
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> hätten die koranischen Offenbarungen eingesetzt;
+    worauf sich der besondere Status dieser – anscheinend bereits <hi rend="italic">vor</hi> ihrer
+    Verknüpfung mit dem Koran sakral bedeutungsvollen – Nacht gründet, wird offengelassen und als
+    den Hörern bekannt vorausgesetzt (so auch <bibl type="zotero" key="zotero-EQMEMW5F">Wensinck 1925, 1 f.</bibl>). Erst die
+    spätere Passage <ref type="koran" target="koran-044:003-044:006">44:3–6</ref> nimmt dann
+    nachträglich dieses Vorverständnis der Hörer in das koranische Korpus selbst auf.</p>
+          <p>Bei der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> dürfte es sich also um ein den
+    Adressaten des Koran vertrautes, im altarabischen Kultus beheimatetes Fest handeln, dem
+    vermutlich die in verschiedenen Kulturen anzutreffende Vorstellung zugrunde liegt, dass sich in
+    einer bestimmten Nacht oder auch einer Periode von mehreren Tagen das Schicksal der Menschen im
+    folgenden Jahr entscheidet, weil die betreffende Zeitspanne das gesamte folgende Jahr
+    präfiguriert (vgl. <bibl type="zotero" key="zotero-EQMEMW5F">Wensinck 1925</bibl> und die darauf
+    bezügliche Zusammenfassung und Kritik bei <bibl type="zotero" key="zotero-I3CZBR6N">Wagtendonk 1968, 98–105</bibl> ; s. a. <bibl type="zotero" key="zotero-6QU3X49Z">Lohmann 1969</bibl>). Obwohl Wagtendonks medinensische Datierung der Sure alles andere als
+    belastbar ist (s. o.), so können seine Überlegungen zum ursprünglichen Datum der
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> durchaus eine gewisse Wahrscheinlichkeit
+    beanspruchen. Ihm zufolge ist die altarabische <foreign xml:lang="ar-Latn">lailat al-qadr</foreign>
+    nicht im Ramaḍān zu verorten, der erst in medinensischer Zeit sakralen Status erhält (vgl. <ref type="koran" target="koran-002:185-002:185">2:185</ref>) und innerhalb desselben unter
+    islamischen Autoren überdies keine Einstimmigkeit über den genauen Zeitpunkt der fraglichen
+    Nacht besteht, sondern im Raǧab, der in vorislamischer Zeit <hi rend="italic">den</hi> heiligen
+    Monat schlechthin darstellte (<bibl type="zotero" key="zotero-VKIT2JX6">Wellhausen 1897</bibl> , 98). Als Datum kommt seiner Meinung nach am ehesten der 27. Raǧab in
+    Frage (<bibl type="zotero" key="zotero-I3CZBR6N">Wagtendonk 1968,
+     106–108</bibl>), ein alter mekkanischer Festtag (vgl. <bibl type="zotero" key="zotero-BS9X4HFZ">Snouck Hurgronje 1889, 70 f.</bibl>), der im späteren
+    islamischen Festkalender als die Nacht von Muḥammads Himmelfahrt
+    (<foreign xml:lang="ar-Latn">lailat al-miʿrāǧ</foreign>) gefeiert wird. Die Tatsache, dass die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> später in den Ramaḍān verlegt wird, erklärt
+    Wagtendonk als Resultat einer Harmonisierung von <ref type="koran" target="koran-097:000-097:005">Sure 97</ref> mit dem späteren <ref type="koran" target="koran-002:185-002:185">Vers 2:185</ref>, demzufolge „der Koran“ im Ramaḍān herabgesandt worden
+    sei.</p>
+        </div>
+        <div ana="kommentar-003">
+          <p><app><lem>lailatu l-qadri ḫairun min ʾalfi šahr]</lem></app> Vgl. im Koran <ref type="koran" target="koran-070:004-070:004">70:4</ref>
+    (<foreign xml:lang="ar-Latn">taʿruǧu l-malāʾikatu wa-r-rūḥu ʾilaihi fī yaumin kāna miqdāruhū ḫamsīna ʾalfa sanah</foreign>)
+    und den Kommentar dazu; s. a. spätmekkanisch <ref type="koran" target="koran-032:005-032:005">32:5</ref>. Die Vorstellung von einer auch durch noch so umfangreiche profane
+    Zeitabschnitte nicht in ihrer Wertigkeit zu überbietenden Gotteszeit ist, wie Neuwirth
+    hervorhebt (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren, 99 f.</bibl>), bereits in biblischer Literatur nachweisbar,
+    vgl. <ref type="bibel" subtype="Ps" target="bibel-084:011-084:011">Psalm 84:11</ref> („Denn ein
+    Tag in den Vorhöfen deines Heiligtums ist besser als tausend“), und <ref type="bibel" subtype="Ps" target="bibel-090:004-090:004">90:4</ref> („Denn tausend Jahre sind für dich wie der Tag,
+    der gestern vergangen ist, wie eine Wache in der Nacht“; vgl. <bibl type="zotero" key="zotero-FTTPNU68">Speyer, Biblische Erzählungen, 449</bibl>). In
+    Ephrems Hymnen auf die Geburt wird dieses Motiv speziell mit der Weihnachtsnacht in Verbindung
+    gebracht (<bibl type="zotero" key="zotero-P4AATWXC">Beck 1959a,
+     104 f., Nr. 21:2</bibl>; Übersetzung in <bibl type="zotero" key="zotero-MHU89J2N">Beck 1959b,
+     94 f.</bibl>): „Wollen wir nicht unser (heutiges) Wachen für ein alltägliches Wachen halten! –
+    Es ist ein Fest, dessen Lohn hundertmal größer ist …“ (zu diesem von Yousef Kouriyhe
+    identifizierten Intertext s. ausführlicher TUK, Nr. 147). Die Tatsache, dass im vorliegenden
+    Vers von tausend <hi rend="italic">Monaten</hi> die Rede ist, erklärt <bibl type="zotero" key="zotero-I3CZBR6N">Wagtendonk 1968, 97 f.</bibl>, damit,
+    dass die <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> mit einem spezifischen Monat, nämlich
+    dem heiligen Monat Raǧab, assoziiert war (s. <ref type="anmerkung" target="anmerkung-097:001-097:001">Anm. zu V. 1</ref>). – Angesichts der angeführten psalmischen Parallelen
+    erübrigt sich Luxenbergs Konjunktur, <foreign xml:lang="ar-Latn">šahr</foreign> sei nicht im Sinne von
+    „Monat“, sondern im Sinne von syr. <foreign xml:lang="syc-Latn">šahrā</foreign> („Vigilie“) zu lesen
+     (<bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl>), zumal sich diese Deutung für keine der übrigen koranischen Verwendungen von
+    <foreign xml:lang="ar-Latn">šahr</foreign> plausibel machen lässt und insofern einen methodologisch
+    problematischen <foreign xml:lang="lat-Latn">ad-hoc</foreign>-Charakter hat.</p>
+          <p><hi rend="italic">Versabteilung</hi>: Die damaszenische und mekkanische Tradition setzen nach
+    <foreign xml:lang="ar-Latn">qadr</foreign> einen Versschluss an (<bibl type="zotero" key="zotero-WCNUUFAC">Spitaler, Verszählung,
+     71</bibl>). Diese Versabteilung ist wohl darauf zurückzuführen, dass auch die beiden
+    vorangegangenen Verse auf <foreign xml:lang="ar-Latn">qadr</foreign> enden. Allerdings ergeben sich
+    dabei zwei unverhältnismäßig kurze Verse mit für den Koran untypischem Enjambement, weshalb die
+    kufische Zählung vorzuziehen ist (<bibl type="zotero" key="zotero-4WEWN8NZ">Neuwirth, Studien, 34</bibl>).</p>
+        </div>
+        <div ana="kommentar-004">
+          <p><app><lem>tanazzalu l-malāʾikatu wa-r-rūḥu fīhā]</lem></app> Zu <foreign xml:lang="ar-Latn">tanazzala</foreign>
+    vgl. die Hinweise zu <ref type="anmerkung" target="anmerkung-097:001-097:001">V. 1</ref>
+    (<foreign xml:lang="ar-Latn">ʾanzala</foreign>). Das Bild von der Herabkunft der Engel geht letztlich
+    auf die biblische Erzählung von der Jakobsleiter (<ref type="bibel" subtype="Gen" target="bibel-028:010-028:019">Genesis 28:10–19</ref>) zurück, auf der die Engel auf- und absteigen: „Jakob
+    zog aus Beerscheba weg und ging nach Haran. / Er kam an einen bestimmten Ort, wo er
+    übernachtete, denn die Sonne war untergegangen. Er nahm einen von den Steinen dieses Ortes,
+    legte ihn unter seinen Kopf und schlief dort ein. / Da hatte er einen Traum: Er sah eine Treppe,
+    die auf der Erde stand und bis zum Himmel reichte. Auf ihr stiegen Engel Gottes auf und nieder.
+    / Und siehe, der Herr stand oben und sprach: …“ (s. schon <bibl type="zotero" key="zotero-6BJ43G6S">Ahrens 1930</bibl> ; zu weiteren
+    Literaturangaben vgl. <ref target="#TUK171">TUK, Nr. 171</ref>). Es handelt sich dabei um ein
+    einprägsames und vermutlich auch außerhalb jüdisch-christlicher Kreise bekanntes Motiv, das auch
+    in <ref type="koran" target="koran-070:004-070:004">70:4</ref> erscheint (s. die <ref type="anmerkung" target="anmerkung-070:004-070:004">Anmerkung ebd.</ref>).</p>
+          <p><app><lem>ar-rūḥ]</lem></app> Das Wort erscheint in der vorkoranischen Dichtung, jedoch nicht in der
+    koranischen Bedeutung einer übernatürlichen, engelhaften Wesenheit (vgl. <bibl type="zotero" key="zotero-3ISTPSJA">Sells, „Spirit“, EQ</bibl>). Die koranische Semantik
+    des Wortes ist offensichtlich durch syrische Interferenzen bestimmt: syr.
+    <foreign xml:lang="syc-Latn">rūḥā d-qūdšā</foreign> bzw. <foreign xml:lang="syc-Latn">rūḥā qaddīšā</foreign>
+    ist der „Heilige Geist“ (vgl. <bibl type="zotero" key="zotero-ECH3JFAU">Brockelmann 1928, 718</bibl>), der dem nizänisch-konstantinopolitanischen Glaubensbekenntnis
+    zufolge „durch die Propheten spricht“ (vgl. <bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren,
+    101</bibl>). Zum <foreign xml:lang="ar-Latn">rūḥ</foreign> existiert eine ganze Reihe koranischer
+    Aussagen, von denen hier nur die wichtigsten kurz aufgeführt werden sollen (da <ref type="koran" target="koran-097:004-097:004">V. 4</ref> ein späterer Einschub sein dürfte, erscheint
+    dabei eine Beschränkung auf frühmekkanische Parallelstellen nicht sinnvoll):</p>
+          <p>
+            <list rend="runon" type="ordered">
+              <label n="1"/>
+              <item n="1">gemeinsames Auftreten des <foreign xml:lang="ar-Latn">rūḥ</foreign> und der Engel: Q
+      78:38 (<foreign xml:lang="ar-Latn">yauma yaqūmu r-rūḥu wa-l-malāʾikatu ṣaffan</foreign>), 70:4
+      (<foreign xml:lang="ar-Latn">taʿruǧu l-mālāʾikatu wa-r-rūḥu ʾilaihi fī yaumin kāna miqdāruhū ḫamsīna ʾalfa sanah</foreign>);</item>
+              <label n="2"/>
+              <item n="2">explizite Benennung der Rolle des <foreign xml:lang="ar-Latn">rūḥ</foreign> im
+      Offenbarungsprozess: Q 16:2
+      (<foreign xml:lang="ar-Latn">yunazzilu l-malāʾikata bi-r-rūḥi min ʾamrihī ʿalā man yašāʾu min ʿibādihī</foreign>),
+      16:102 (<foreign xml:lang="ar-Latn">qul nazzalahū rūḥu l-qudusi min rabbika bi-l-ḥaqqi</foreign>),
+      26:193 (<foreign xml:lang="ar-Latn">nazala bihi r-rūḥu l-ʾamīn</foreign>) und 40:15
+      (<foreign xml:lang="ar-Latn">yulqĭ r-rūḥa min ʾamrihī ʿalā man yašāʾu min ʿibādihī</foreign>);</item>
+              <label n="3"/>
+              <item n="3">der <foreign xml:lang="ar-Latn">rūḥ</foreign> als Bote an Maria: 19:17;</item>
+              <label n="4"/>
+              <item n="4">in 17:25 wird eine Nachfrage nach dem „Geist“ abgewehrt;</item>
+              <label n="5"/>
+              <item n="5">in 2:97 (Medina) schließlich wird der „Geist“ mit dem Erzengel Gabriel
+      identifiziert.</item>
+            </list>
+          </p>
+          <p>Daneben existieren Stellen wie <ref type="koran" target="koran-021:091-021:091">21:91</ref>, die den <foreign xml:lang="ar-Latn">rūḥ</foreign> nicht als selbstständig agierendes Wesen
+    aufzufassen scheinen (über Maria:
+    <foreign xml:lang="ar-Latn">fa-nafaḫnā fīhā min rūḥinā</foreign>).</p>
+          <p><app><lem>min kulli ʾamrin]</lem></app> Überliefert wird auch die Lesung
+    <foreign xml:lang="ar-Latn">min kulli mriʾin</foreign> (<bibl type="zotero" key="zotero-KVFTU3XN">Muʿǧam, ad loc.</bibl>), „über jeden Mann“, wobei es sich aber wohl
+    um einen nachträglichen Vereinfachungsversuch handelt. Paret versteht
+    <foreign xml:lang="ar-Latn">min kulli ʾamrin</foreign> als partitive Apposition zu „die Engel und der
+    Geist“ und übersetzt „lauter Logoswesen“. Um seine Deutung zu beurteilen, ist ein kurzer
+    Überblick über den koranischen Gebrauch von <foreign xml:lang="ar-Latn">ʾamr</foreign> erforderlich
+    (vgl. <bibl type="zotero" key="zotero-89WAAM3P">Ambros,
+     Dictionary, 27 f.</bibl>; vgl. allg. Baljon 1959). Das Wort bedeutet zunächst „Angelegenheit,
+    Sache“ (u. a. in Verbindung mit <foreign xml:lang="ar-Latn">qaḍā</foreign>, vgl. <ref type="koran" target="koran-002:210-002:210">2:210</ref>, <ref type="koran" target="koran-006:008-006:008">6:8</ref>.<ref type="koran" target="koran-006:085-006:085">85</ref>, <ref type="koran" target="koran-040:068-040:068">40:68</ref>) oder „Befehl“ (insb. in der
+    Wendung <foreign xml:lang="ar-Latn">bi-ʾamrihī</foreign>, „auf seinen Befehl“). In verschiedenen
+    spätmekkanischen Koranstellen wird der Ausdruck jedoch in Verbindung mit dem Verb
+    <foreign xml:lang="ar-Latn">dabbara</foreign> auf eine Weise gebraucht, die an die targumische
+    Vorstellung von einem als Mittler zwischen Gott und Schöpfung fungierenden göttlichen „Wort“
+    (<foreign xml:lang="hbo-Hebr">מאמרא</foreign>, mit derselben Wurzel wie
+    <foreign xml:lang="ar-Latn">ʾamr</foreign>; vgl. <bibl type="zotero" key="zotero-FTTPNU68">Speyer, Biblische Erzählungen, 24 f.</bibl>)
+    erinnert: In <ref type="koran" target="koran-010:003-010:003">10:3</ref>.<ref type="koran" target="koran-010:031-010:031">31</ref>, <ref type="koran" target="koran-013:002-013:002">13:2</ref> und <ref type="koran" target="koran-032:004-032:005">32:4.5</ref>
+    ist die Rede davon, dass Gott, nachdem er sich im Anschluss an sein Schöpfungswerk auf dem
+    „Thron“ niedergelassen hat (<ref type="koran" target="koran-010:003-010:003">10:3</ref>, <ref type="koran" target="koran-013:002-013:002">13:2</ref>, <ref type="koran" target="koran-032:004-032:004">32:4</ref>) „den <foreign xml:lang="ar-Latn">ʾamr</foreign>
+    führt“, <foreign xml:lang="ar-Latn">yudabbiru l-ʾamra</foreign>, und zwar, wie <ref type="koran" target="koran-032:005-032:005">32:5</ref> hinzufügt, „vom Himmel zur Erde, worauf er (der
+    <foreign xml:lang="ar-Latn">ʾamr</foreign>) wieder zu ihm hinaufsteigt an einem Tag, dessen Länge nach
+    eurer Rechnung tausend Jahre beträgt“,
+    <foreign xml:lang="ar-Latn">yudabbiru l-ʾamra mina s-samāʾi ʾilă l-ʾarḍi ṯumma yaʿruǧu ʾilaihi fī yaumin kāna miqdāruhū ʾalfa sanatin mimmā taʿuddūn</foreign>
+    (<foreign xml:lang="ar-Latn">dabbara</foreign> hat in diesen Kontexten dieselbe Bedeutung wie syr.
+    <foreign xml:lang="syc-Latn">dabbar</foreign> = „führen“, „leiten“, welche sich von arab.
+    <foreign xml:lang="ar-Latn">dubur</foreign> = „Rücken, Hinterteil“ – so in <ref type="koran" target="koran-012:025-012:025">12:25</ref>.<ref type="koran" target="koran-012:027-012:028">27.28</ref>, <ref type="koran" target="koran-054:045-054:045">54:45</ref> u.
+    a. – und <foreign xml:lang="ar-Latn">ʾadbara</foreign>, „den Rücken kehren“ – so in <ref type="koran" target="koran-070:017-070:017">70:17</ref>, <ref type="koran" target="koran-074:023-074:023">74:23</ref>.<ref type="koran" target="koran-074:033-074:033">33</ref> etc. –
+    nicht gut ableiten lässt). Hier ist der <foreign xml:lang="ar-Latn">ʾamr</foreign> offenbar ein dem
+    targumischen <foreign xml:lang="hbo-Latn">memrā</foreign> verwandtes hypostaseähnliches Wesen, welches
+    sich räumlich verorten lässt. Dabei ist der koranische <foreign xml:lang="ar-Latn">ʾamr</foreign>
+    jedoch nicht ohne weiteres mit griech. <foreign xml:lang="gr-Latn">logos</foreign> gleichzusetzen:
+    <foreign xml:lang="gr-Latn">Logos</foreign> als christologischer Hoheitstitel, wie er auf die
+    Eröffnungspassage des Johannes-Evangeliums zurückgeht, wird im Koran, wie Hubert Grimme bemerkt
+    hat, nicht mit <foreign xml:lang="ar-Latn">ʾamr</foreign>, sondern mit
+    <foreign xml:lang="ar-Latn">kalimat Allāh</foreign> wiedergegeben (<bibl type="zotero" key="zotero-FTTPNU68">Speyer, Biblische Erzählungen, 24 f.</bibl>),
+    sodass die beiden lexikalisch und auch in ihrer theologischen Funktion verwandten Ausdrücke
+    <foreign xml:lang="hbo-Hebr">מאמרא</foreign> / <foreign xml:lang="gr-Latn">logos</foreign> in koranischer
+    Terminologie auseinanderfallen; Parets Übersetzung von
+    <foreign xml:lang="ar-Latn">yudabbiru l-ʾamra</foreign> mit „den Logos dirigieren“ verdeckt dies.</p>
+          <p>Zumindest in <ref type="koran" target="koran-010:003-010:003">10:3</ref>, <ref type="koran" target="koran-013:002-013:002">13:2</ref>, <ref type="koran" target="koran-032:004-032:005">32:4.5</ref> weist der koranische Gebrauch von
+    <foreign xml:lang="ar-Latn">ʾamr</foreign> also durchaus Konnotationen des targumischen
+    <foreign xml:lang="hbo-Hebr">מאמרא</foreign> auf. Damit ist allerdings noch nicht ausgemacht, dass
+    dies auch für <ref type="koran" target="koran-097:004-097:004">97:4</ref> gilt und Parets
+    Übersetzung von <foreign xml:lang="ar-Latn">min kulli ʾamrin</foreign> mit „lauter Logoswesen“ korrekt
+    ist. Tatsächlich ist im vorliegenden Vers weder die Rede davon, dass Gott sich nach der
+    Weltschöpfung auf dem Thron niederlässt, noch wird <foreign xml:lang="ar-Latn">ʾamr</foreign> hier mit
+    dem Verb <foreign xml:lang="ar-Latn">dabbara</foreign> kombiniert. Viel eher ist <ref type="koran" target="koran-097:004-097:004">97:4</ref> vom Sprachgebrauch her mit <ref type="koran" target="koran-044:004-044:004">44:4</ref> zusammenzustellen, wo ebenfalls im Zusammenhang
+    mit der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> (dort: eine „gesegnete Nacht“) die Worte
+    <foreign xml:lang="ar-Latn">kull</foreign> + <foreign xml:lang="ar-Latn">ʾamr</foreign> auftauchen: <ref type="koran" target="koran-044:004-044:004">44:4</ref> zufolge wird in dieser Nacht „jede
+    weise Angelegenheit [<foreign xml:lang="ar-Latn">kullu ʾamrin ḥakīm</foreign>, Paret: jede
+    Angelegenheit, die Weisheit erfordert] entschieden“.
+    <foreign xml:lang="ar-Latn">Min kulli amrin</foreign> ist deshalb wohl im Sinne von „in jeglicher
+    Angelegenheit, Sache“ zu verstehen bzw. „in jedwedem Auftrag (Gottes)“, wobei
+    <foreign xml:lang="ar-Latn">min</foreign> für das geläufigere <foreign xml:lang="ar-Latn">fī</foreign>
+    stünde (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren, 102</bibl>): Alles, was die Engel und der Geist tun,
+    untersteht einer vorgängigen Erlaubnis Gottes, sie sind nicht eigenmächtig aktiv.
+    <foreign xml:lang="ar-Latn">ʾAmr</foreign> in Verbindung mit der Präposition
+    <foreign xml:lang="ar-Latn">min</foreign> erscheint noch in der Wendung
+    <foreign xml:lang="ar-Latn">min ʾamrihī</foreign> aus <ref type="koran" target="koran-016:002-016:002">16:2</ref> und <ref type="koran" target="koran-040:015-040:015">40:15</ref>,
+    die gleichfalls in Verbindung mit den Engeln und dem „Geist“ verwendet wird (<ref type="koran" target="koran-016:002-016:002">16:2</ref>:
+    <foreign xml:lang="ar-Latn">yunazzilu l-malāʾikata bi-r-rūḥi min ʾamrihī ʿalā man yašāʾu min ʿibādihī</foreign>,
+    40:15: <foreign xml:lang="ar-Latn">yulqĭ r-rūḥa min ʾamrihī ʿalā man yašāʾu min ʿibādihī</foreign>).
+    In diesen beiden Stellen ist <foreign xml:lang="ar-Latn">min</foreign> vielleicht kausal zu verstehen
+    (vgl. <bibl type="zotero" key="zotero-7CQS5C2X">Wright, Bd. 2,
+     131</bibl>) und <foreign xml:lang="ar-Latn">min ʾamrihī</foreign> im Sinne von „aufgrund seiner
+    Verfügung“: „Er sendet die Engel mit dem Geist aufgrund seiner Verfügung,
+    <foreign xml:lang="ar-Latn">min ʾamrihī</foreign>, herab, auf wen unter seinen Dienern er will“ (<ref type="koran" target="koran-016:002-016:002">16:2</ref>). Für <ref type="koran" target="koran-097:004-097:004">97:4</ref> ergäbe sich analog dazu eine Deutung von
+    <foreign xml:lang="ar-Latn">min kulli ʾamrin</foreign> im Sinne von „aufgrund von lauter (göttlichen)
+    Verfügungen, Aufträgen“ (vgl. die von Baljon 1959, 11 f. vorgeschlagene Übersetzung „by virtue
+    of every decree“): „In ihr steigen herab die Engel und der Geist mit der Erlaubnis ihres Herrn
+    aufgrund von / wegen lauter Verfügungen“ (zu <foreign xml:lang="ar-Latn">kull</foreign> +
+    indeterminiertes Substantiv im Singular = „lauter“ vgl. <bibl type="zotero" key="zotero-7CQS5C2X">Wright, Bd. 2, 205, Anm.</bibl>). Sachlich wäre
+    dasselbe wie in der vorigen Übersetzungsalternative gemeint: Die Engel und der Geist steigen
+    nicht eigenmächtig herab, sondern aufgrund vorgängiger göttlicher Verfügungen.</p>
+          <p>Einen Bezug zwischen <foreign xml:lang="ar-Latn">ʾamr</foreign> und aramäisch
+    <foreign xml:lang="hbo-Latn">memrā</foreign> stellt übrigens auch <bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl> her, der <foreign xml:lang="ar-Latn">ʾamr</foreign> dabei jedoch im Sinne der syrischen
+    Bedeutung von <foreign xml:lang="hbo-Latn">memrā</foreign> („Hymnus“) verstehen will – ein durch
+    keinerlei innerkoranische Belege gedecktes <foreign xml:lang="lat-Latn">ad-hoc</foreign>-Postulat, das
+    vor allem dazu dient, seine Umdeutung von <ref type="koran" target="koran-097:000-097:005">Sure 97</ref> zu einem arabischen Weihnachtshymnus zu stützen (vgl. a. die <ref type="anmerkung" target="anmerkung-097:001-097:001">Anm. zu V. 1</ref> und <ref type="anmerkung" target="anmerkung-097:003-097:003">3</ref> mit weiteren kritischen Kommentaren zu Luxenbergs
+    Interpretation des Textes).</p>
+        </div>
+        <div ana="kommentar-005">
+          <p><app><lem>salāmun hiya ḥattā maṭlaʿi l-faǧr]</lem></app> „The idea of the night being ‚peace’ recalls
+    descriptions of the Eve of the Nativity“ (<bibl type="zotero" key="zotero-W242HJS4">Bell, Commentary, ad
+     loc.</bibl>). Vermutlich denkt Bell dabei vor allem an den Hymnus der Engel aus <ref type="bibel" subtype="Lk" target="bibel-002:014-002:014">Lukas 2:14</ref>: „Lob sei Gott in der Höhe und
+    Friede auf Erden den Menschen seiner Gnade“ (vgl. auch <bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl> , allerdings ohne Verweis auf Bell). Der friedvolle Charakter der Weihnachtsnacht
+    wird auch in Ephrems „Hymnen auf die Geburt des Herrn“ hervorgehoben (<bibl type="zotero" key="zotero-P4AATWXC">Beck 1959a, 11, 1:88.91</bibl>; Übersetzung in <bibl type="zotero" key="zotero-MHU89J2N">Beck 1959b, 10</bibl>; zu diesem von Yousef Kouriyhe identifizierten
+    Intertext vgl. ausführlicher <ref target="#TUK150">TUK, Nr. 150</ref>): „Dies ist die Nacht der
+    Versöhnung; in ihr finde sich keiner (mit) erzürntem und finsterem (Blick). – In dieser alles
+    befriedenden Nacht finde sich keiner, der droht und lärmt! / 〈…〉 An diesem milden Tag lasst uns
+    nicht heftig sein! – An diesem friedlichen Tag lasst uns nicht zornig sein!“</p>
+        </div>
+      </div>
+      <div resp="an" type="kommentar">
+        <div ana="kommentar-001">
+          <p>Die Sure setzt wie <ref type="koran" target="koran-108:000-108:003">Sure 108</ref> „mit
+    einer für den Verkünder persönlich relevanten <foreign xml:lang="ar-Latn">innā</foreign>-Aussage ein“
+     (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth,
+     Frühmekkanische Suren, 102</bibl>), also in dem die Sure insgesamt autorisierenden Register
+    göttlicher Wir-Rede. Während die Trostsuren <ref type="koran" target="koran-093:000-093:011">Q 93</ref>, <ref type="koran" target="koran-094:000-094:008">94</ref> und <ref type="koran" target="koran-108:000-108:003">108</ref> jedoch der Person Muḥammads zuteil
+    gewordene Gnadenerweise rekapitulieren, geht es hier um die durch ihn vorgetragenen
+    Offenbarungen, deren Empfang als in der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> beginnend
+    vorgestellt wird (vgl. <bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren,
+    102</bibl>). In diesem Zusammenhang gebraucht die Sure erstmals das ab mittelmekkanischer Zeit
+    so häufige Verb <foreign xml:lang="ar-Latn">ʾanzala</foreign>, „herabsenden“, das sowohl altarabische
+    als auch christliche Konnotationen transportiert haben könnte (s. o., Anmerkungen).</p>
+          <p>Was es mit der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> selbst auf sich hat, wird
+    offenbar als den Hörern bekannt vorausgesetzt: Neben der Aussage, dass in ihr die koranischen
+    Offenbarungen „herabgesandt“ worden seien, enthält die Sure in ihrer ursprünglichen Gestalt nur
+    zwei hymnische Qualifikationen dieser Nacht, welche ihre besondere Wertigkeit gegenüber profanen
+    Zeiträumen und den in ihr herrschenden Frieden evozieren (<ref type="koran" target="koran-097:003-097:003">V. 3</ref>.<ref type="koran" target="koran-097:005-097:005">5</ref>); der
+    eigentliche Grund für den herausgehobenen Status der Nacht wird nicht genannt. Eine
+    mittelmekkanische Sure (<ref type="koran" target="koran-044:003-044:006">44:3–6</ref>)
+    beschreibt die Nacht der Koranoffenbarung – also die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> – als eine Schicksalsnacht, in der Gott das
+    Ergehen der Geschöpfe im nächsten Jahr entscheidet. Ähnliche Vorstellungen sind wohl bereits in
+    altarabischer Zeit vorauszusetzen und dürften deshalb im Hintergrund von <ref type="koran" target="koran-097:000-097:005">Q 97</ref> stehen, sie stellen das Thema dar, welches mit
+    dem Rhema ‚<foreign xml:lang="ar-Latn">lailat al-qadr</foreign> als Offenbarungszeitpunkt’ verknüpft
+    wird (dies passt im Übrigen dazu, dass der koranische Offenbarungsvorgang sich auch anderswo
+    nachts zu vollziehen scheint, vgl. <ref type="koran" target="koran-073:000-073:020">Q
+     73</ref>). Die <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> wird so offenbarungstheologisch neu
+    gefüllt – eine „Umwertung“ altarabischer Überlieferungen, welche der „theologischen Neudeutung
+    mekkanischer Lokaltraditionen bzw. lokalen Institutionen“ in <ref type="koran" target="koran-105:000-105:005">Q 105</ref> und <ref type="koran" target="koran-106:000-106:004">106</ref>
+    analog ist (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren, 105</bibl>).</p>
+          <p>Damit thematisieren die koranischen Verkündigungen zum ersten Mal selbstreferentiell ihre
+    eigene Herkunft. <ref type="koran" target="koran-097:000-097:005">Sure 97</ref> stellt
+    insofern den Vorläufer von koranischen Selbstbeschreibungen wie <ref type="koran" target="koran-081:026-081:028">81:26–28</ref>, <ref type="koran" target="koran-084:020-084:021">84:20.21</ref> und <ref type="koran" target="koran-086:013-086:014">86:13.14</ref> (Gruppe II) und <ref type="koran" target="koran-074:054-074:054">74:54</ref>
+    und <ref type="koran" target="koran-075:016-075:019">75:16–19</ref> (Gruppe IIIa) dar; diese
+    entwickeln sich dann zur Binnenform der koranischen Offenbarungsbestätigung weiter, wie sie
+    später häufig am Ende mehrteiliger Suren zum Einsatz kommt. (Eine analoge Entwicklung, bei der
+    sich eine zunächst selbstständige auftretende literarische Form zu einer Teilform innerhalb
+    eines umfassenderen Kompositionszusammenhanges entwickelt, lässt sich auch im Bereich des
+    Narrativen beobachten: Die Strafzyklen im Mittelteil von Suren wie <ref type="koran" target="koran-037:000-037:182">Q 37</ref>, <ref type="koran" target="koran-051:000-051:060">51</ref> und <ref type="koran" target="koran-054:000-054:055">54</ref>
+    dürften letzten Endes auf eine Verkettung von nach dem Vorbild von <ref type="koran" target="koran-105:000-105:005">Q 105</ref> gestalteten Einzelerzählungen zurückgehen,
+    wobei die Aneinanderreihung von Einzelstoffen zu Erzählzyklen wohl Straflisten wie in <ref type="koran" target="koran-085:017-085:018">Q 85:17.18</ref> und <ref type="koran" target="koran-089:006-089:010">Q 89:6–10</ref> zu verdanken ist.)</p>
+        </div>
+        <div ana="kommentar-002-005">
+          <p>Die in der Anfangsaussage genannte <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> wird im
+    zweiten Vers Anknüpfungspunkt einer Lehrfrage, auf die in der ursprünglichen Fassung ein
+    biblisch geprägter Vergleich der betreffenden Nacht mit profanen Zeitabschnitten (<ref type="koran" target="koran-097:003-097:003">V. 3</ref>) und ein Schlussruf (<ref type="koran" target="koran-097:005-097:005">V. 5</ref>) folgt. Der Schlussvers könnte
+    christliche Assoziationen erweckt haben; die <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> wäre
+    dann hier auf eine Weise charakterisiert, die sie in bewusste Konkurrenz zum Weihnachtsfest
+    setzen würde.</p>
+        </div>
+        <div ana="kommentar-004">
+          <p>Möglicherweise wurde die Beantwortung der Lehrfrage nach der
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> durch zwei hymnische Qualifikationen in <ref type="koran" target="koran-097:003-097:005">V. 3</ref>.<ref type="koran" target="koran-097:005-097:005">5</ref> nicht als befriedigende Auflösung der durch <ref type="koran" target="koran-097:002-097:002">V. 2</ref> aufgebauten Spannung empfunden (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth,
+     Frühmekkanische Suren, 103</bibl>). Der später eingeschobene <ref type="koran" target="koran-097:004-097:004">Vers 4</ref> liefert weitere Angaben über die besondere
+    Beschaffenheit der <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> und erfüllt so die „im
+    ursprünglichen Text offengebliebene Hörererwartung nach dem konkreten Szenario der in V. 1
+    angesprochenen Botschaftsvermittlung“ (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren,
+    105</bibl>). Die <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> zeichnet sich durch eine
+    besondere „kosmische Öffnung“ aus, eine Durchlässigkeit, die es den Engeln und „dem Geist“
+    (<foreign xml:lang="ar-Latn">ar-rūḥ</foreign>) gestattet, vom Himmel auf die Erde hinabzusteigen
+     (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth,
+     Frühmekkanische Suren, 104</bibl>). Es ist diese Möglichkeit eines ungehinderten
+    Kommunikationsflusses, welche die <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> zur
+    Übermittlung von Offenbarungsbotschaften prädestiniert. Dabei trägt die Erwähnung des
+    <foreign xml:lang="ar-Latn">rūḥ</foreign> der Tatsache Rechnung, dass dieser in mittel- und
+    spätmekkanischer Zeit explizit als Offenbarungsmittler genannt wird (<ref type="koran" target="koran-016:002-016:002">16:2</ref>.<ref type="koran" target="koran-016:102-016:102">102</ref>, <ref type="koran" target="koran-026:193-026:193">26:193</ref> und
+     <ref type="koran" target="koran-040:015-040:015">40:15</ref>) (<bibl type="zotero" key="zotero-X6J8ZZSZ">Neuwirth, Frühmekkanische Suren,
+    105</bibl>). Zumindest das Herabsteigen des „Geistes“, und damit wohl auch das der in
+    Konjunktion mit ihm erscheinenden Engel, dient also speziell der Übermittlung der von Muḥammad
+    empfangenen Offenbarungen.</p>
+          <p>Der Einschub klärt also die durch die Aussage des Eingangsverses aufgeworfene Frage nach der
+    Modalität der Offenbarungsübermittlung. Er tut dies, indem er die
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> mit dem biblischen Motiv der auf der Jakobsleiter
+    auf- und absteigenden Engel verknüpft, wie es – wohl zu einem früheren Zeitpunkt – auch
+    nachträglich in <ref type="koran" target="koran-070:000-070:044">Sure 70</ref> eingeschaltet
+    wurde (<ref type="koran" target="koran-070:004-070:004">V. 4</ref>). Zumal in Verbindung mit
+    dem an <ref type="bibel" subtype="Lk" target="bibel-002:014-002:014">Lukas 2:14</ref>
+    anklingenden <ref type="koran" target="koran-097:005-097:005">V. 5</ref> dürfte der Einschub
+    jedoch auch eine neutestamentlich-christliche Assonanz besessen haben, insofern die Geburt
+    Christi in der lukanischen Weihnachtsgeschichte (<ref type="bibel" subtype="Lk" target="bibel-002:009-002:015">2:9 ff.</ref>) durch die Geburt von Engeln begleitet wird. Die koranische
+    <foreign xml:lang="ar-Latn">lailat al-qadr</foreign> ist also nicht einfach mit Weihnachten zu
+    identifizieren (so <bibl type="zotero" key="zotero-6XDZERHX">Luxenberg
+     2003</bibl>), sondern die Sure setzt dem christlichen Gründungsereignis
+    <foreign xml:lang="fr-Latn">par exellence</foreign> ein spezifisch koranisches Gründungsgeschehen
+    entgegen; das christliche Weihnachtsfest wird durch ein neues koranisches Offenbarungsfest
+    gleichsam überschrieben. Der Einschub verstärkt insofern das bereits im Schlussvers der
+    ursprünglichen Fassung erkennbare Bestreben, christliche Motive zu adaptieren und als Mittel
+    einer Autorisierung der koranischen Verkündigungen zu nutzen.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1204">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (41)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0097.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0098.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (41)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Vat. Ar.  1605 (XLI); Qurʾānic Text: Q 11:108-11:113,  11:117-12:3; 15 lines per page; Dimensions: 242 x 207mm; Script style: kūfī C.Ia; Estimated date of production: 700-900.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 31): </p>
+              <p>"41. Cm. 20,7 x 24,2; 15 linee. Sura 11,108 (110) ففى – 116 (118) [كـ]ـان; verso: sura 11,117 (119) نظلم  – 12,3 الـ[ـقران]. Questo foglio appartiene allo stesso esemplare del numero precedente. Il titolo della sura 12 è in nasḫī, di color rosso سورة [يوسف] مائة واحدى وعـ[شر اية]. Oltre ai divisori di versetti segnalati nel numero precedente, un divisore quinario, in forma di <hi rend="italic">alif </hi>stilizzata  di color rosso, appare nel recto dopo il v. 115. Il divisore denario  che appare nel verso dopo il v. 122 è conforme alla numerazione di Baṣra  e Medina II, in cui quel versetto è il 120° (v. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/PWGCAS53">SPITALER</ref>,  p. 40). Il foglio è rotto da tutti i lati, e solo una piccolissima  porzione del margine interno è conservata. La scrittura del recto è  molto sbiadita."  </p>
+            </summary>
+            <msItem xml:id="mysql_id_679761" n="41r">
+              <title type="numeric" key="011:108:004-011:113:006">
+                                    011:108:004-011:113:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679762" n="41v">
+              <title type="numeric" key="011:117:006-012:003:010">
+                                    011:117:006-012:003:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>242</width><height>207</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C.Ia
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="41r" xml:id="mysql_id_40602">
+      <graphic decls="#imageRights-1" url="manuscript/1204/62a87e74-ccef-4dc3-b7f6-62267326c136/manuscript-1204-page-40602-image-25832.jpg"/>
+    </surface>
+    <surface n="41v" xml:id="mysql_id_40603">
+      <graphic decls="#imageRights-2" url="manuscript/1204/665598b5-8ba7-4f55-b360-59bae0177942/manuscript-1204-page-40603-image-25833.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

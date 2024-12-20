@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Abendgebet am Freitag</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_173" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>173</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der Text stammt aus einem Gebet für den Freitagabend, in dem unter anderem der Märtyrer gedacht wird; er verspricht ihnen als Belohnung die Schau dessen "was das Auge nicht gesehen hat". Ähnlich spricht der Koran von "dem, was für die Seele an verborgenen Freuden vorgesehen ist". - Zur Problematik der Datierung der liturgischen Texte vgl. Anmerkung in TUK_0068.
+</summary>
+            <msItem>
+              <title>Abendgebet am Freitag</title>
+              <author/>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Julius Isa Çiçek (Hg.), Ktābā da-šḥīmā [Stundengebetbuch], Beirut 1982, S. 125</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>
+	ܣܗ̈ܕܘܗܝ ܐܢܬܘܢ ܕܝܚܝܕܝܐ ܪܚܘܡܘܗܝ ܐܢܬܘܢ ܕܒܘܟܪܗ ܕܥܠܝܐ
+	ܕܡܛܠܬܗ ܐܬܩܛܠܬܘܢ ܘܡܛܠ ܚܘܒܗ ܚܫ̈ܐ ܣܝܒܪܬܘܢ
+	ܘܡܛܠܬܗ ܠܕܒܚܬܐ ܐܬܩܪܒܬܘܢ ܒܪܝܟ ܕܐܘܪܒ ܕܘܟܪ̈ܢܝܟܘܢ
+	ܛܘܒ ܠܢܒܝ̈ܐ ܛܘܒ ܠܫܠܝ̈ܚܐ ܘܛܘܒܐ ܠܣܘܗܕ̈ܐ ܒܝܘܡܗ ܕܢܘܚܡܐ
+	ܕܫܡܥܝܢ ܠܐܒܐ ܘܚܙܝܢ ܠܐܒܪܐ ܘܠܪܘܚܩܘܕܫܐ ܕܓܕܠܐ ܟܠܝ̈ܠܝܗܘܢ
+	ܘܥܐܠܝܢ ܝܪܬܝܢ ܠܗܘ ܛܘܒܐ ܕܥܝܢܐ ܠܐ ܚܙܬ ܘܐܕܢܐ ܕܒܣܪܐ ܠܐ ܫܡܥܬ
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Ihr seid die Märtyrer des Einzigen, die den Erstgeborenen des Höchsten lieben.
+	
+	Um dessen willen ihr getötet wurdet und um dessen Liebe willen ihr Leiden ertrugt.
+	
+	Und um dessen willen ihr zur Hinrichtung gebracht wurdet.
+	Gesegnet wer Euch hochpreist.
+	
+	Wohl den Propheten und wohl den Aposteln und wohl den Märtyrern am Tage der Wiederauferstehung.
+	
+	Sie werden den Vater hören und den Sohn und den Heiligen Geist sehen. Ihnen werden Kronen geflochten.
+	
+	Sie treten ein und erben das Gute, welches das Auge nicht gesehen und das fleischliche Ohr zuvor nicht gehört hat.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

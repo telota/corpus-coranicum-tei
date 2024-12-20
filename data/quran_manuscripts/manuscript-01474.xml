@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1474">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>San Francisco, California, Asian Art Museum, 2004.59.a.b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="75">Asian Art Museum
+                            , San Francisco, California</repository>
+            <idno>2004.59.a.b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 bifol. on parchment; Shelfmark: 2004.59.a.b; Qurʾānic Text:  Q 7:33-7:35, Q 7:41-7:43; 5 lines per page; Dimensions: 400 x 216mm; Script style: maghribī. </p><p> </p>For more information see the <ref target="https://searchcollection.asianart.org/objects/15977">website of the museum</ref>.<p/><p>  </p><p/></summary>
+            <msItem xml:id="mysql_id_687641" n="1r">
+              <title type="numeric" key="007:033:014-007:034:006">
+                                    007:033:014-007:034:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687638" n="1v">
+              <title type="numeric" key="007:034:007-007:035:010">
+                                    007:034:007-007:035:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687639" n="2r">
+              <title type="numeric" key="007:041:009-007:042:015">
+                                    007:041:009-007:042:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687640" n="2v">
+              <title type="numeric" key="007:043:001-007:043:020">
+                                    007:043:001-007:043:020
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>400</width><height>216</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47601">
+      <graphic decls="#imageRights-1" url="manuscript/1474/45a73882-b986-46de-8112-c03e07756b31/manuscript-1474-page-47601-image-33771.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1474/3192165e-9245-4000-b30a-c3e2482e5bd4/manuscript-1474-page-47601-image-33772.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47598">
+      <graphic decls="#imageRights-1" url="manuscript/1474/118b9c5a-96ca-4540-92c9-85d2c98191db/manuscript-1474-page-47598-image-33765.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1474/ce9e4965-fd24-4372-bd8b-9f7687b197d8/manuscript-1474-page-47598-image-33766.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47599">
+      <graphic decls="#imageRights-1" url="manuscript/1474/e15f5b99-0b49-4110-bade-e4fc996a4e8c/manuscript-1474-page-47599-image-33767.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1474/ce012f44-4a84-43ce-9796-c093586ee08b/manuscript-1474-page-47599-image-33768.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_47600">
+      <graphic decls="#imageRights-1" url="manuscript/1474/feae8115-d512-408a-b4f1-a8a91325eed6/manuscript-1474-page-47600-image-33769.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1474/c76ae31b-739e-48fe-ab20-298879c57bd2/manuscript-1474-page-47600-image-33770.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

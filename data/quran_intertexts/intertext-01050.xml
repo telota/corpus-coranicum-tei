@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 45:18</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1050" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1050</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die koranische Bezeichnung Gottes als fāṭir as-samāwāt wa-l-ʾarḍ  ("Schöpfer des Himmels und der Erde") erinnert an  boreʾ ha-šamayim [...] yoṣer ha-ʾareṣ in Jesaja 45:18. Der koranischen Formulierung näher ist yoṣer šamayim wa-ʾareṣ, das Heinrich Speyer zufolge in der jüdischen Liturgie vorkommt (Speyer 1931: p. 221). Ebenso ist auch Gen 14:19.22 (qoneh šamayim wa-areṣ) näher am Korantext (Hinweis von Dirk Hartwig). Zur wahrscheinlichen Entlehnung von fāṭir aus dem Äthiopischen vgl. Jeffery 1938: p. 221 und Nöldeke 1910: p. 49, sowie TUK_1193. Neben f-ṭ-r werden noch andere Wurzeln zur Beschreibung von Gottes Erschaffung des Himmels und der Erde gebraucht: ḫ-l-q (Q 6:73; Q 7:54; Q 9:36; Q 10:3; Q 11:7; Q 14:19; Q 14:32; Q 16:3; Q 17:99; Q 20:4; Q 25:59; Q 27:60; Q 29:44; Q 29:61; Q 30:8; Q 31:25; Q 32:4; Q 36:81; Q 39:5; Q 39:38; Q 45:22; Q 46:33; Q 57:4; Q 64:3; Q 65:12), b-d-ʿ (Q 2:117; Q 6:101), b-r-ʾ (Q 2:54; Q 57:22; Q 59:24; Q 98:6-7).
+</summary>
+            <msItem>
+              <title>Jesaja 45:18</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">N&amp;#xF6;ldeke, Theodor: Neue Beitr&amp;#xE4;ge zur semitischen Sprachwissenschaft von Theodor N&amp;#xF6;ldeke. Tr&amp;#xFC;bner, Strassburg 1910.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	כִּ֣י כֹ֣ה אָֽמַר־יְ֠הוָה בּוֹרֵ֙א הַשָּׁמַ֜יִם ה֣וּא הָאֱלֹהִ֗ים יֹצֵ֙ר  הָאָ֤רֶץ וְעֹשָׂהּ֙ ה֣וּא כֽוֹנְנָ֔הּ לֹא־תֹ֥הוּ בְרָאָ֖הּ לָשֶׁ֣בֶת יְצָרָ֑הּ אֲנִ֥י יְהוָ֖ה וְאֵ֥ין עֽוֹד׃
+
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Denn so spricht der Herr, der den Himmel erschuf, er ist der Gott, der die Erde geformt und gemacht hat - er ist es, der sie erhält, er hat sie nicht als Wüste geschaffen, er hat sie zum Wohnen gemacht -: Ich bin der Herr, und sonst niemand
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

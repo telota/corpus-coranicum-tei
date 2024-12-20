@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_33">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 332</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+        <availability xml:id="imageRights-3" status="restricted" default="false">
+          <p>Image credits: Gotthelf-Bergsträßer-Filmarchiv, Bayerische Akademie der Wissenschaften.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 332</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Qurʾān fragment on parchment; Shelfmark Arabe 332; 49 fol; 21 lines per page; Script style <hi rend="italic">kūfī </hi>type C.Ia influenced by <hi rend="italic">ḥiǧāzī IV</hi> and the early <hi rend="italic">kūfī </hi>script style B.I.</p>
+              <p> </p>
+              <p>Another three fragments <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/73/verse/18/manuscripts/1301">Vat.ar.1784</ref> from Vatican, <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/64/verse/14/manuscripts/893">KFQ 49</ref> from the Khalili Collections in London and fol. 1 of <ref target="https://corpuscoranicum.de/en/manuscripts/892/page/1r?sura=39&amp;amp;verse=47">E 16264 D</ref> from Pennsylvania University Museum originally belonged to the same codex. Estimated date of production: 700-800 CE. </p>
+              <p> </p>
+              <p>In his catalogue from 1992 F. Déroche gives no estimate date of production of <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/64/verse/14/manuscripts/893">KFQ 49</ref> and labels the script of the fragment as 'unclassified' (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">See Déroche 1992: p. 129</ref>), although in his early publication about the BnF collection Déroche classifies the script of the sister fragment Arabe 332 "to be close" to C.Ia (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/KCAZQ5NS">See Déroche 1983: p. 77</ref>). The connection of the script of the codex with early script styles such as <hi rend="italic">ḥiǧāzī IV</hi> and the <hi rend="italic">kūfī </hi>script style B.I suggest an early dating. The absence of the vocalisation and a very scarce usage of the diacritical signs also speak for an early date. </p>
+              <p> </p>
+              <p>The catalogue of the Paris collection <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/5RF6W5GJ" sameAs="5RF6W5GJ" type="zotero">(Déroche 1983: p. 77)</ref> has following information about the manuscript: "Arabe <hi rend="bold">332 </hi>:   Fo 1 à 6 : III, 66-178 ; fo 7 à 14 : VII, 1-157 ; fo 15 à 16 : VII, 170-VIII, 7 ; fo 17 à 20 : VIII, 29-IX, 26 ; fo 21 à 22 : IX, 40-73 ; fo 23 à 31 : XIII, 4-XVI, 36 ; fo 32 : XIX, 64-XX, 1 ; fo 33 à 40 : XXXII, 24-XXXV, 11 ; fo 41 à 48 : XXXVI, 7-XXXIX, 6 ; fo 49 : LIV, 24-LV, 22.  Copie anonyme et non datée. Graphie à rapprocher de C I a. Diacritiques : traits obliques, partiellement portés d’origine ; vocalisation absente — sauf aux ffo 30 v et 31 où ont été ajoutées ponctuation et vocalisation modernes. Des groupes de trois ou quatre traits obliques séparent les versets ( 1.1.1) ; des cercles rubriqués indiquent les groupes de dix versets (1.A.I) et pour les centaines, on rencontre une forme élaborée où le cercle initial est augmenté de quatre pointes blanches disposées sur les axes vertical et horizontal, ainsi que d'une couronne blanche (cf. ffo 2 v, 12 r et 16 r). Dans l’espace qui, originellement, séparait les sourates les unes des autres, une main plus récente a ajouté, à l’encre noire, les titres et le nombre de versets des sourates (cf. ffo 16 v, 19 v, 25 V, 28 r, 30 r, 32 v, 33 r, 37 v, 40 r, 43 r, 46 r, 48 v). Dans les marges extérieures des ffo 1 r et 44 r, le mot <hi rend="italic">waqf</hi> est inscrit verticalement.   Parchemin. Page : 428 x 350 ; certains feuillets sont mutilés. Encre brun pâle. 21 lignes. Surface d’écriture :357 x 310."</p>
+            </summary>
+            <msItem xml:id="mysql_id_679644" n="1r">
+              <title type="numeric" key="003:066:003-003:075:036">
+                                    003:066:003-003:075:036
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662294" n="1v">
+              <title type="numeric" key="003:076:002-003:083:009">
+                                    003:076:002-003:083:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679645" n="2r">
+              <title type="numeric" key="003:084:007-003:093:024">
+                                    003:084:007-003:093:024
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662295" n="2v">
+              <title type="numeric" key="003:095:007-003:103:034">
+                                    003:095:007-003:103:034
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679702" n="3r">
+              <title type="numeric" key="003:104:014-003:113:011">
+                                    003:104:014-003:113:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662296" n="3v">
+              <title type="numeric" key="003:114:006-003:121:004">
+                                    003:114:006-003:121:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679703" n="4r">
+              <title type="numeric" key="003:122:006-003:135:002">
+                                    003:122:006-003:135:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662297" n="4v">
+              <title type="numeric" key="003:135:010-003:145:012">
+                                    003:135:010-003:145:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679704" n="5r">
+              <title type="numeric" key="003:146:001-003:153:019">
+                                    003:146:001-003:153:019
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662298" n="5v">
+              <title type="numeric" key="003:154:009-003:159:021">
+                                    003:154:009-003:159:021
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679705" n="6r">
+              <title type="numeric" key="003:159:030-003:167:031">
+                                    003:159:030-003:167:031
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662299" n="6v">
+              <title type="numeric" key="003:169:011-003:178:016">
+                                    003:169:011-003:178:016
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679701" n="7r">
+              <title type="numeric" key="007:000:001-007:017:008">
+                                    007:000:001-007:017:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679947" n="7v">
+              <title type="numeric" key="007:017:009-007:027:012">
+                                    007:017:009-007:027:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679706" n="8r">
+              <title type="numeric" key="007:027:013-007:035:017">
+                                    007:027:013-007:035:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679651" n="8v">
+              <title type="numeric" key="007:035:018-007:042:011">
+                                    007:035:018-007:042:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679652" n="9r">
+              <title type="numeric" key="007:042:012-007:050:013">
+                                    007:042:012-007:050:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679653" n="9v">
+              <title type="numeric" key="007:050:014-007:057:028">
+                                    007:050:014-007:057:028
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679654" n="10r">
+              <title type="numeric" key="007:057:029-007:069:012">
+                                    007:057:029-007:069:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679655" n="10v">
+              <title type="numeric" key="007:069:013-007:076:003">
+                                    007:069:013-007:076:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679656" n="11r">
+              <title type="numeric" key="007:076:004-007:087:001">
+                                    007:076:004-007:087:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679657" n="11v">
+              <title type="numeric" key="007:087:002-007:096:010">
+                                    007:087:002-007:096:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679658" n="12r">
+              <title type="numeric" key="007:096:011-007:110:005">
+                                    007:096:011-007:110:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679659" n="12v">
+              <title type="numeric" key="007:110:006-007:128:006">
+                                    007:110:006-007:128:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679660" n="13r">
+              <title type="numeric" key="007:128:007-007:137:012">
+                                    007:128:007-007:137:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679661" n="13v">
+              <title type="numeric" key="007:137:013-007:144:014">
+                                    007:137:013-007:144:014
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679662" n="14r">
+              <title type="numeric" key="007:145:001-007:151:005">
+                                    007:145:001-007:151:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679663" n="14v">
+              <title type="numeric" key="007:151:006-007:157:021">
+                                    007:151:006-007:157:021
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679664" n="15r">
+              <title type="numeric" key="007:170:010-007:180:003">
+                                    007:170:010-007:180:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679665" n="15v">
+              <title type="numeric" key="007:180:004-007:189:026">
+                                    007:180:004-007:189:026
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679677" n="16r">
+              <title type="numeric" key="007:189:027-007:203:011">
+                                    007:189:027-007:203:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679678" n="16v">
+              <title type="numeric" key="007:203:012-008:007:010">
+                                    007:203:012-008:007:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679679" n="17r">
+              <title type="numeric" key="008:029:003-008:038:011">
+                                    008:029:003-008:038:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679680" n="17v">
+              <title type="numeric" key="008:038:012-008:047:001">
+                                    008:038:012-008:047:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679681" n="18r">
+              <title type="numeric" key="008:047:002-008:056:005">
+                                    008:047:002-008:056:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679682" n="18v">
+              <title type="numeric" key="008:056:009-008:067:001">
+                                    008:056:009-008:067:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679683" n="19r">
+              <title type="numeric" key="008:067:002-008:075:008">
+                                    008:067:002-008:075:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679684" n="19v">
+              <title type="numeric" key="008:075:012-009:007:023">
+                                    008:075:012-009:007:023
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679685" n="20r">
+              <title type="numeric" key="009:008:001-009:018:009">
+                                    009:008:001-009:018:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679686" n="20v">
+              <title type="numeric" key="009:018:010-009:026:004">
+                                    009:018:010-009:026:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679687" n="21r">
+              <title type="numeric" key="009:040:016-009:048:010">
+                                    009:040:016-009:048:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679688" n="21v">
+              <title type="numeric" key="009:048:011-009:059:005">
+                                    009:048:011-009:059:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679689" n="22r">
+              <title type="numeric" key="009:059:006-009:067:017">
+                                    009:059:006-009:067:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679690" n="22v">
+              <title type="numeric" key="009:067:018-009:073:006">
+                                    009:067:018-009:073:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679691" n="23r">
+              <title type="numeric" key="013:004:002-013:011:035">
+                                    013:004:002-013:011:035
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679692" n="23v">
+              <title type="numeric" key="013:012:001-013:017:036">
+                                    013:012:001-013:017:036
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662268" n="24r">
+              <title type="numeric" key="013:017:041-013:027:008">
+                                    013:017:041-013:027:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679693" n="24v">
+              <title type="numeric" key="013:027:009-013:034:004">
+                                    013:027:009-013:034:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662269" n="25r">
+              <title type="numeric" key="013:034:005-013:043:008">
+                                    013:034:005-013:043:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679694" n="25v">
+              <title type="numeric" key="013:043:009-014:008:005">
+                                    013:043:009-014:008:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662270" n="26r">
+              <title type="numeric" key="014:008:006-014:016:002">
+                                    014:008:006-014:016:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679695" n="26v">
+              <title type="numeric" key="014:016:003-014:023:009">
+                                    014:016:003-014:023:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662271" n="27r">
+              <title type="numeric" key="014:023:010-014:034:011">
+                                    014:023:010-014:034:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679696" n="27v">
+              <title type="numeric" key="014:034:012-014:044:023">
+                                    014:034:012-014:044:023
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662272" n="28r">
+              <title type="numeric" key="014:044:024-015:008:004">
+                                    014:044:024-015:008:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679697" n="28v">
+              <title type="numeric" key="015:008:005-015:028:008">
+                                    015:008:005-015:028:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662273" n="29r">
+              <title type="numeric" key="015:028:009-015:052:008">
+                                    015:028:009-015:052:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679698" n="29v">
+              <title type="numeric" key="015:052:009-015:078:002">
+                                    015:052:009-015:078:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662274" n="30r">
+              <title type="numeric" key="015:078:003-016:001:004">
+                                    015:078:003-016:001:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679699" n="30v">
+              <title type="numeric" key="016:001:005-016:014:009">
+                                    016:001:005-016:014:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662275" n="31r">
+              <title type="numeric" key="016:014:010-016:027:020">
+                                    016:014:010-016:027:020
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679700" n="31v">
+              <title type="numeric" key="016:027:021-016:036:019">
+                                    016:027:021-016:036:019
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662276" n="32r">
+              <title type="numeric" key="019:064:010-019:078:005">
+                                    019:064:010-019:078:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679929" n="32v">
+              <title type="numeric" key="019:078:006-020:002:002">
+                                    019:078:006-020:002:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662277" n="33r">
+              <title type="numeric" key="032:024:002-033:005:014">
+                                    032:024:002-033:005:014
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679930" n="33v">
+              <title type="numeric" key="033:005:018-033:013:015">
+                                    033:005:018-033:013:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662278" n="34r">
+              <title type="numeric" key="033:013:016-033:021:017">
+                                    033:013:016-033:021:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679931" n="34v">
+              <title type="numeric" key="033:022:001-033:031:002">
+                                    033:022:001-033:031:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662279" n="35r">
+              <title type="numeric" key="033:031:003-033:037:004">
+                                    033:031:003-033:037:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679932" n="35v">
+              <title type="numeric" key="033:037:006-033:048:005">
+                                    033:037:006-033:048:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662280" n="36r">
+              <title type="numeric" key="033:048:006-033:053:006">
+                                    033:048:006-033:053:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679933" n="36v">
+              <title type="numeric" key="033:053:007-033:059:016">
+                                    033:053:007-033:059:016
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662281" n="37r">
+              <title type="numeric" key="033:059:017-033:073:006">
+                                    033:059:017-033:073:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679934" n="37v">
+              <title type="numeric" key="033:073:007-034:009:008">
+                                    033:073:007-034:009:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662282" n="38r">
+              <title type="numeric" key="034:009:009-034:017:003">
+                                    034:009:009-034:017:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679935" n="38v">
+              <title type="numeric" key="034:017:004-034:028:005">
+                                    034:017:004-034:028:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662283" n="39r">
+              <title type="numeric" key="034:028:006-034:037:017">
+                                    034:028:006-034:037:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679936" n="39v">
+              <title type="numeric" key="034:037:018-034:046:021">
+                                    034:037:018-034:046:021
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662284" n="40r">
+              <title type="numeric" key="034:046:022-035:003:015">
+                                    034:046:022-035:003:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679937" n="40v">
+              <title type="numeric" key="035:003:017-035:011:024">
+                                    035:003:017-035:011:024
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662285" n="41r">
+              <title type="numeric" key="036:007:006-036:023:011">
+                                    036:007:006-036:023:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679938" n="41v">
+              <title type="numeric" key="036:023:012-036:041:001">
+                                    036:023:012-036:041:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662286" n="42r">
+              <title type="numeric" key="036:041:002-036:057:006">
+                                    036:041:002-036:057:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679939" n="42v">
+              <title type="numeric" key="036:058:001-036:075:007">
+                                    036:058:001-036:075:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662287" n="43r">
+              <title type="numeric" key="036:076:001-037:011:011">
+                                    036:076:001-037:011:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679940" n="43v">
+              <title type="numeric" key="037:011:012-037:039:005">
+                                    037:011:012-037:039:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662288" n="44r">
+              <title type="numeric" key="037:039:006-037:071:004">
+                                    037:039:006-037:071:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679941" n="44v">
+              <title type="numeric" key="037:071:005-037:102:017">
+                                    037:071:005-037:102:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662289" n="45r">
+              <title type="numeric" key="037:102:018-037:134:003">
+                                    037:102:018-037:134:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679942" n="45v">
+              <title type="numeric" key="037:134:004-037:169:003">
+                                    037:134:004-037:169:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662290" n="46r">
+              <title type="numeric" key="037:169:004-038:010:005">
+                                    037:169:004-038:010:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679943" n="46v">
+              <title type="numeric" key="038:010:006-038:024:018">
+                                    038:010:006-038:024:018
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662291" n="47r">
+              <title type="numeric" key="038:024:019-038:036:006">
+                                    038:024:019-038:036:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679944" n="47v">
+              <title type="numeric" key="038:036:007-038:056:002">
+                                    038:036:007-038:056:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662292" n="48r">
+              <title type="numeric" key="038:056:003-038:079:002">
+                                    038:056:003-038:079:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679945" n="48v">
+              <title type="numeric" key="038:079:003-039:006:023">
+                                    038:079:003-039:006:023
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_662293" n="49r">
+              <title type="numeric" key="054:024:009-054:046:006">
+                                    054:024:009-054:046:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679946" n="49v">
+              <title type="numeric" key="054:047:001-055:022:003">
+                                    054:047:001-055:022:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                  <p>Text division: The group of three oblique dashes mark the end of a verse. Every tenth verse is marked by a circle filled with red ink with a dot in the center. Sūrahs were originally separated with a blank space, a later hand writes the Sūrah title and the number of verses in a cursive hand in black ink. Other three sister fragments <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/73/verse/18/manuscripts/1301">Vat.ar.1784</ref>, <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/64/verse/14/manuscripts/893">KFQ 49</ref> and <ref target="https://corpuscoranicum.de/en/manuscripts/892/page/1r?sura=39&amp;verse=47">E 16264 D</ref> show the same separation of the verses. The cursive hand that writes the title of the Sūrahs and the number of verses seems to be the same in all the fragments except for <ref target="https://corpuscoranicum.de/en/manuscripts/892/page/1r?sura=39&amp;verse=47">E 16264 D</ref>, where the separation is not attested.</p>
+                </support>
+                <extent>Folios: 49
+                                    <dimensions unit="mm"><width>350</width><height>428</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="21">21 - 21 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>This manuscript represents a script style close to <hi rend="italic">kūfī </hi>type C.Ia influenced by the early <hi rend="italic">kūfī </hi>script style B.I and <hi rend="italic">ḥiǧāzī IV</hi>. The letter<hi rend="italic"> ʾalif</hi> resembles the C.Ia group. Within a word, the letters <hi rend="italic">ǧīm/ḥāʾ/ḫāʾ</hi> cross the<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/DUKI9PWV" sameAs="DUKI9PWV" type="zotero">(_test _test 2019: PN)</ref> base line diagonally (not after a denticle) as those of B.I group, unlike those of C.Ia, where the letter rests on the base line. The tail of the letter in the final position is horizontal as those of C.Ia. The letter <hi rend="italic">ʿayn</hi> in the initial position is close to C.Ia but shows an interesting form of the upper hook: the hook has a rounded shape that looks like a dot, that cannot be seen in any other script groups. Within a word the letter resembles the B.Ib group, the right hand antenna being vertical. The final form of the letter is identical to those seen in the D.IV group, but is also close to the B.I/B.II group. The letter <hi rend="italic">qāf</hi> isolated or in the final position is similar to those of C.Ia group. The initial and medial forms of the letter <hi rend="italic">hāʾ</hi>, alongside with the letter <hi rend="italic">nūn </hi>in the final or isolated position and the letter <hi rend="italic">mīm</hi> at the end of a word show a similar form seen in the <hi rend="italic">ḥiǧāzī IV</hi> manuscript <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/1/verse/1/manuscripts/53">Saray 50385</ref> from Istanbul, the script of which also shows similarities to the C.Ia group. As for the ligature <hi rend="italic">lām-ʾalif</hi>, the form is similar to the C.Ia group.</p>
+                <p>F. Déroche relates the script of the fragment <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/3/verse/66/manuscripts/33">BnF Arabe 332</ref>  to the C.Ia group (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/KCAZQ5NS">See Déroche 1983: p. 77</ref>). The script of the second sister fragment, <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/64/verse/14/manuscripts/893">KFQ 49</ref> from the Khalili Collections in London is categorized by Déroche as 'unclassified', although he links the manuscript with <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/3/verse/66/manuscripts/33">BnF Arabe 332</ref> (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">See Déroche 1992: p. 129</ref>).  </p>
+                <p>The manuscript shows occasional diacritical marking, but no signs of vocalisation. </p>
+                <p>Typical letter shapes are presented in the palaeographic table, accessible as image no. 2 under <ref target="https://corpuscoranicum.de/en/manuscripts/33/page/1r?sura=3&amp;verse=66">fol. 1r.</ref></p>
+              </summary>
+              <scriptNote>
+                                                                kūfī C.Ia
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-800</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Tobias J. Jocham</p>
+                <p>assistance: Jens Sauer</p>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_28207">
+      <graphic decls="#imageRights-1" url="manuscript/33/2e521cd4-8de0-48cf-af7e-25361b495669/manuscript-33-page-28207-image-12963.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/754c64a7-6ea9-47d6-bbcf-5748ca8f7f74/manuscript-33-page-28207-image-47342.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_4073">
+      <graphic decls="#imageRights-3" url="manuscript/33/c68872d4-12d3-420d-a12c-5643156aebda/manuscript-33-page-4073-image-3016.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/35e0a620-c617-491d-b0e1-63ea6351ad6a/manuscript-33-page-4073-image-3017.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_28208">
+      <graphic decls="#imageRights-1" url="manuscript/33/82d5e07a-53d8-4af5-a098-cf3aee91795a/manuscript-33-page-28208-image-12964.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_4074">
+      <graphic decls="#imageRights-3" url="manuscript/33/5d64f11f-a40e-4f8b-9031-75e30bc5fc6b/manuscript-33-page-4074-image-3018.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/23f18189-37f2-4e06-b323-a5fe4f234399/manuscript-33-page-4074-image-3019.jpg"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_28209">
+      <graphic decls="#imageRights-1" url="manuscript/33/4a40c860-57a2-4751-93b6-f0e91de0f390/manuscript-33-page-28209-image-12965.jpg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_4075">
+      <graphic decls="#imageRights-3" url="manuscript/33/a5b6deec-32a6-488c-b279-d61a4c94a604/manuscript-33-page-4075-image-3020.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/ba1d4f66-1e0e-4e89-9ed2-f529d3178a53/manuscript-33-page-4075-image-3021.jpg"/>
+    </surface>
+    <surface n="4r" xml:id="mysql_id_28210">
+      <graphic decls="#imageRights-1" url="manuscript/33/214f59e7-5ba3-4e81-b49d-5a2867e77721/manuscript-33-page-28210-image-12966.jpg"/>
+    </surface>
+    <surface n="4v" xml:id="mysql_id_4076">
+      <graphic decls="#imageRights-3" url="manuscript/33/25713cbc-2e49-4fb0-94d3-0dfa59d137d1/manuscript-33-page-4076-image-3022.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/df1e3cd5-fe97-4b6c-bf6f-83a6bd9a1a9e/manuscript-33-page-4076-image-3023.jpg"/>
+    </surface>
+    <surface n="5r" xml:id="mysql_id_28211">
+      <graphic decls="#imageRights-1" url="manuscript/33/bf5cff6e-06de-4236-84f9-8582ce4b8bad/manuscript-33-page-28211-image-12967.jpg"/>
+    </surface>
+    <surface n="5v" xml:id="mysql_id_4077">
+      <graphic decls="#imageRights-3" url="manuscript/33/7dfcd4a5-dc93-429e-b123-f9ae1ebcb914/manuscript-33-page-4077-image-3024.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/46a66d82-db6a-4a17-8dda-122b8397d88d/manuscript-33-page-4077-image-3025.jpg"/>
+    </surface>
+    <surface n="6r" xml:id="mysql_id_28212">
+      <graphic decls="#imageRights-1" url="manuscript/33/154c5ab9-f4c4-4623-afb3-a131732f3aa7/manuscript-33-page-28212-image-12968.jpg"/>
+    </surface>
+    <surface n="6v" xml:id="mysql_id_4078">
+      <graphic decls="#imageRights-3" url="manuscript/33/758e71d6-244e-42e7-a91b-43b7aa090d7d/manuscript-33-page-4078-image-3026.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/a65418c7-8dcd-4b8e-9e85-02f7720084ba/manuscript-33-page-4078-image-3027.jpg"/>
+    </surface>
+    <surface n="7r" xml:id="mysql_id_38723">
+      <graphic decls="#imageRights-1" url="manuscript/33/6bd117f4-8a6b-4316-8f08-f1a821e6f324/manuscript-33-page-38723-image-23542.jpg"/>
+    </surface>
+    <surface n="7v" xml:id="mysql_id_38724">
+      <graphic decls="#imageRights-1" url="manuscript/33/5085fa27-14aa-4eab-b4d8-59287cc8724a/manuscript-33-page-38724-image-23543.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/88c062e1-9490-4364-9743-238a3d0cd0f1/manuscript-33-page-38724-image-54260.jpg"/>
+    </surface>
+    <surface n="8r" xml:id="mysql_id_38725">
+      <graphic decls="#imageRights-1" url="manuscript/33/862ba6d7-5e6b-4089-9b4e-3b31acab947e/manuscript-33-page-38725-image-23544.jpg"/>
+    </surface>
+    <surface n="8v" xml:id="mysql_id_38726">
+      <graphic decls="#imageRights-1" url="manuscript/33/eacd3953-f1b5-4154-a264-ad485ed864dd/manuscript-33-page-38726-image-23545.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/4e676281-1c67-461d-9cac-352a534da281/manuscript-33-page-38726-image-54261.jpg"/>
+    </surface>
+    <surface n="9r" xml:id="mysql_id_38727">
+      <graphic decls="#imageRights-1" url="manuscript/33/0b60c305-be5e-4c52-b153-dd12e6152b1a/manuscript-33-page-38727-image-23546.jpg"/>
+    </surface>
+    <surface n="9v" xml:id="mysql_id_38728">
+      <graphic decls="#imageRights-1" url="manuscript/33/cf2c6078-259c-4db1-8506-d3bdde3366b9/manuscript-33-page-38728-image-23547.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/3a1c4e54-de28-4223-9338-eb9689ad957e/manuscript-33-page-38728-image-54262.jpg"/>
+    </surface>
+    <surface n="10r" xml:id="mysql_id_38729">
+      <graphic decls="#imageRights-1" url="manuscript/33/abfe248e-a8e3-4a87-b8c8-d4e64297d78f/manuscript-33-page-38729-image-23548.jpg"/>
+    </surface>
+    <surface n="10v" xml:id="mysql_id_38730">
+      <graphic decls="#imageRights-1" url="manuscript/33/084502d4-0263-4020-8553-30b662e1646a/manuscript-33-page-38730-image-23549.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/a8fa2afb-7db4-43f3-a4a4-9dbbe0098cf3/manuscript-33-page-38730-image-54263.jpg"/>
+    </surface>
+    <surface n="11r" xml:id="mysql_id_38731">
+      <graphic decls="#imageRights-1" url="manuscript/33/42a54105-4b61-4f88-b086-740df448ce55/manuscript-33-page-38731-image-23550.jpg"/>
+    </surface>
+    <surface n="11v" xml:id="mysql_id_38732">
+      <graphic decls="#imageRights-1" url="manuscript/33/39f2cfeb-edf7-45eb-b2dd-41343c7e79fa/manuscript-33-page-38732-image-23551.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/97c560a7-d589-4217-a70e-ceaeba0bda9c/manuscript-33-page-38732-image-54264.jpg"/>
+    </surface>
+    <surface n="12r" xml:id="mysql_id_38733">
+      <graphic decls="#imageRights-1" url="manuscript/33/b5cce87f-4474-4be9-9d39-ea8fb3c681c9/manuscript-33-page-38733-image-23552.jpg"/>
+    </surface>
+    <surface n="12v" xml:id="mysql_id_38734">
+      <graphic decls="#imageRights-1" url="manuscript/33/dcf09d6a-8287-4114-ae67-d18bb05ab061/manuscript-33-page-38734-image-23553.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/b5428a8a-157b-4c8f-a0e5-194fbd1eeb90/manuscript-33-page-38734-image-54265.jpg"/>
+    </surface>
+    <surface n="13r" xml:id="mysql_id_38735">
+      <graphic decls="#imageRights-1" url="manuscript/33/5345e33f-5af9-4264-994c-d3c82b68173e/manuscript-33-page-38735-image-23554.jpg"/>
+    </surface>
+    <surface n="13v" xml:id="mysql_id_38736">
+      <graphic decls="#imageRights-1" url="manuscript/33/fd00e215-91cb-4ef9-b313-4f400ee2d688/manuscript-33-page-38736-image-23555.jpg"/>
+    </surface>
+    <surface n="14r" xml:id="mysql_id_38737">
+      <graphic decls="#imageRights-1" url="manuscript/33/d17b98a2-b784-40e8-988a-501f9b5e1ff9/manuscript-33-page-38737-image-23556.jpg"/>
+    </surface>
+    <surface n="14v" xml:id="mysql_id_38738">
+      <graphic decls="#imageRights-1" url="manuscript/33/330535c3-7077-4380-8b81-db2e33b39cfd/manuscript-33-page-38738-image-23557.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/3ade8978-b521-4d86-a351-ab4d9d2a429b/manuscript-33-page-38738-image-54266.jpg"/>
+    </surface>
+    <surface n="15r" xml:id="mysql_id_38739">
+      <graphic decls="#imageRights-1" url="manuscript/33/5faf8806-5ca5-425c-b987-62206c6ee50c/manuscript-33-page-38739-image-23558.jpg"/>
+    </surface>
+    <surface n="15v" xml:id="mysql_id_38740">
+      <graphic decls="#imageRights-1" url="manuscript/33/27c0d547-438b-4595-8572-8317d651c1df/manuscript-33-page-38740-image-23559.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/d17e2fa1-a015-464c-9614-0cb1a3cc43f6/manuscript-33-page-38740-image-54267.jpg"/>
+    </surface>
+    <surface n="16r" xml:id="mysql_id_38741">
+      <graphic decls="#imageRights-1" url="manuscript/33/e5f2161e-edf4-48a4-b4c6-1c231155d201/manuscript-33-page-38741-image-23560.jpg"/>
+    </surface>
+    <surface n="16v" xml:id="mysql_id_38742">
+      <graphic decls="#imageRights-1" url="manuscript/33/3d1f33cb-53b3-40f8-b92a-3fc0fea9c207/manuscript-33-page-38742-image-23561.jpg"/>
+    </surface>
+    <surface n="17r" xml:id="mysql_id_38743">
+      <graphic decls="#imageRights-1" url="manuscript/33/a042e80e-b6b5-4ff5-a684-7f0cc235b420/manuscript-33-page-38743-image-23562.jpg"/>
+    </surface>
+    <surface n="17v" xml:id="mysql_id_38744">
+      <graphic decls="#imageRights-1" url="manuscript/33/f6d99127-2488-4467-a5af-59291b137793/manuscript-33-page-38744-image-23563.jpg"/>
+    </surface>
+    <surface n="18r" xml:id="mysql_id_38745">
+      <graphic decls="#imageRights-1" url="manuscript/33/2aeafdce-03a4-46ca-9637-7aed44d61961/manuscript-33-page-38745-image-23564.jpg"/>
+    </surface>
+    <surface n="18v" xml:id="mysql_id_38746">
+      <graphic decls="#imageRights-1" url="manuscript/33/71226628-ece7-45b1-ac41-e23defbbe26d/manuscript-33-page-38746-image-23565.jpg"/>
+    </surface>
+    <surface n="19r" xml:id="mysql_id_38747">
+      <graphic decls="#imageRights-1" url="manuscript/33/773cbaee-632f-4e44-be82-cfbf3516b0c4/manuscript-33-page-38747-image-23566.jpg"/>
+    </surface>
+    <surface n="19v" xml:id="mysql_id_38748">
+      <graphic decls="#imageRights-1" url="manuscript/33/3579e888-bf36-4e3a-8611-03841f3dd70c/manuscript-33-page-38748-image-23567.jpg"/>
+    </surface>
+    <surface n="20r" xml:id="mysql_id_38749">
+      <graphic decls="#imageRights-1" url="manuscript/33/a15d4e94-82ff-4f0b-83f3-8ef24f9d7cbc/manuscript-33-page-38749-image-23568.jpg"/>
+    </surface>
+    <surface n="20v" xml:id="mysql_id_38750">
+      <graphic decls="#imageRights-1" url="manuscript/33/7413ba8b-64f6-4755-8d52-a496b2aa72c1/manuscript-33-page-38750-image-23569.jpg"/>
+    </surface>
+    <surface n="21r" xml:id="mysql_id_38751">
+      <graphic decls="#imageRights-1" url="manuscript/33/77b836fb-d8b0-4d15-ac0f-870563f309f9/manuscript-33-page-38751-image-23570.jpg"/>
+    </surface>
+    <surface n="21v" xml:id="mysql_id_38752">
+      <graphic decls="#imageRights-1" url="manuscript/33/ea2ba9bf-4244-4cff-b420-462ac4bb70c3/manuscript-33-page-38752-image-23571.jpg"/>
+    </surface>
+    <surface n="22r" xml:id="mysql_id_38753">
+      <graphic decls="#imageRights-1" url="manuscript/33/91ec34aa-a548-4c18-b866-296e021249ed/manuscript-33-page-38753-image-23572.jpg"/>
+    </surface>
+    <surface n="22v" xml:id="mysql_id_38754">
+      <graphic decls="#imageRights-1" url="manuscript/33/cd298c0c-27ed-48b1-a105-5d560303f316/manuscript-33-page-38754-image-23573.jpg"/>
+    </surface>
+    <surface n="23r" xml:id="mysql_id_38755">
+      <graphic decls="#imageRights-1" url="manuscript/33/91f615a4-261f-4a47-b2a0-93b8629e3fbf/manuscript-33-page-38755-image-23574.jpg"/>
+    </surface>
+    <surface n="23v" xml:id="mysql_id_38756">
+      <graphic decls="#imageRights-1" url="manuscript/33/234629c6-c467-4d43-969d-26a42df3a138/manuscript-33-page-38756-image-23575.jpg"/>
+    </surface>
+    <surface n="24r" xml:id="mysql_id_4047">
+      <graphic decls="#imageRights-3" url="manuscript/33/fcab385b-55dd-445b-8baf-e918fc3ab031/manuscript-33-page-4047-image-2990.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/a767cbd9-a5d2-4b25-b9a0-3b11a78ec85b/manuscript-33-page-4047-image-23576.jpg"/>
+    </surface>
+    <surface n="24v" xml:id="mysql_id_38758">
+      <graphic decls="#imageRights-1" url="manuscript/33/c6bcb47c-9fc9-4ca6-99e5-4ad1cf6f71de/manuscript-33-page-38758-image-23577.jpg"/>
+    </surface>
+    <surface n="25r" xml:id="mysql_id_4048">
+      <graphic decls="#imageRights-3" url="manuscript/33/5ec3fe2f-9598-4a1e-a78c-f2582594e322/manuscript-33-page-4048-image-2991.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/cff28419-4f4d-4ef5-b7cd-39a30016d92c/manuscript-33-page-4048-image-23578.jpg"/>
+    </surface>
+    <surface n="25v" xml:id="mysql_id_38760">
+      <graphic decls="#imageRights-1" url="manuscript/33/f493a8d0-2793-4513-8ea8-70d973b593e9/manuscript-33-page-38760-image-23579.jpg"/>
+    </surface>
+    <surface n="26r" xml:id="mysql_id_4049">
+      <graphic decls="#imageRights-3" url="manuscript/33/417a3615-b76a-4427-b174-174f91f007ac/manuscript-33-page-4049-image-2992.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/d2e0e9f3-2182-4650-9436-2f152d9072e0/manuscript-33-page-4049-image-23580.jpg"/>
+    </surface>
+    <surface n="26v" xml:id="mysql_id_38762">
+      <graphic decls="#imageRights-1" url="manuscript/33/87629eab-f3ba-4dc0-aee1-948329af353d/manuscript-33-page-38762-image-23581.jpg"/>
+    </surface>
+    <surface n="27r" xml:id="mysql_id_4050">
+      <graphic decls="#imageRights-3" url="manuscript/33/de71b4ad-6aee-4350-97f7-1ccd53601f73/manuscript-33-page-4050-image-2993.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/bf4cbe76-7f8b-4454-a2e7-ed23ee1691b0/manuscript-33-page-4050-image-23582.jpg"/>
+    </surface>
+    <surface n="27v" xml:id="mysql_id_38764">
+      <graphic decls="#imageRights-1" url="manuscript/33/13347e88-e2ae-4ec2-8850-2987dc8a6886/manuscript-33-page-38764-image-23583.jpg"/>
+    </surface>
+    <surface n="28r" xml:id="mysql_id_4051">
+      <graphic decls="#imageRights-3" url="manuscript/33/7ef917bf-57f6-439f-87bb-dbd64ccece73/manuscript-33-page-4051-image-2994.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/1429379b-f343-4250-a53a-1ba54b3791e4/manuscript-33-page-4051-image-23584.jpg"/>
+    </surface>
+    <surface n="28v" xml:id="mysql_id_38766">
+      <graphic decls="#imageRights-1" url="manuscript/33/4f44a128-f9d9-47c9-8c58-0240b3a5dd4a/manuscript-33-page-38766-image-23585.jpg"/>
+    </surface>
+    <surface n="29r" xml:id="mysql_id_4052">
+      <graphic decls="#imageRights-3" url="manuscript/33/bb3c1235-dd27-4eb1-95d5-735b343f1ede/manuscript-33-page-4052-image-2995.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/ebe39de9-d213-49a1-8fce-fdb177d2d4d1/manuscript-33-page-4052-image-23586.jpg"/>
+    </surface>
+    <surface n="29v" xml:id="mysql_id_38768">
+      <graphic decls="#imageRights-1" url="manuscript/33/8681d753-cc5c-4de9-91c8-3315b8096fed/manuscript-33-page-38768-image-23587.jpg"/>
+    </surface>
+    <surface n="30r" xml:id="mysql_id_4053">
+      <graphic decls="#imageRights-3" url="manuscript/33/04d089ae-0bbf-470a-8db7-0c4284c3f144/manuscript-33-page-4053-image-2996.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/73966763-c12c-473d-b10b-faa1309af6bc/manuscript-33-page-4053-image-23588.jpg"/>
+    </surface>
+    <surface n="30v" xml:id="mysql_id_38770">
+      <graphic decls="#imageRights-1" url="manuscript/33/2a9e71a6-717b-421c-bcbf-626088c52071/manuscript-33-page-38770-image-23589.jpg"/>
+    </surface>
+    <surface n="31r" xml:id="mysql_id_4054">
+      <graphic decls="#imageRights-3" url="manuscript/33/cbf01b93-102f-4697-843d-e16d1dbdf6ae/manuscript-33-page-4054-image-2997.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/21823c9d-a620-4082-ab7e-78b840c5de41/manuscript-33-page-4054-image-23590.jpg"/>
+    </surface>
+    <surface n="31v" xml:id="mysql_id_38772">
+      <graphic decls="#imageRights-1" url="manuscript/33/97bf7036-54a6-47a7-8cf8-72f23eb7c8df/manuscript-33-page-38772-image-23591.jpg"/>
+    </surface>
+    <surface n="32r" xml:id="mysql_id_4055">
+      <graphic decls="#imageRights-3" url="manuscript/33/c166f067-6ade-4da8-96d7-8ab7cdfe910e/manuscript-33-page-4055-image-2998.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/79d94704-8f2f-421b-85e6-c85da2a98201/manuscript-33-page-4055-image-23592.jpg"/>
+    </surface>
+    <surface n="32v" xml:id="mysql_id_38774">
+      <graphic decls="#imageRights-1" url="manuscript/33/d49bf02f-8b87-400c-bf4e-3dcc605c780c/manuscript-33-page-38774-image-23593.jpg"/>
+    </surface>
+    <surface n="33r" xml:id="mysql_id_4056">
+      <graphic decls="#imageRights-3" url="manuscript/33/a969bd1a-c455-40af-b411-691d82bacd53/manuscript-33-page-4056-image-2999.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/5ba9f1af-9ed8-490b-8349-20dd8ea70008/manuscript-33-page-4056-image-23594.jpg"/>
+    </surface>
+    <surface n="33v" xml:id="mysql_id_38776">
+      <graphic decls="#imageRights-1" url="manuscript/33/0a91f01a-0c07-4d26-9749-65518e95d65b/manuscript-33-page-38776-image-23595.jpg"/>
+    </surface>
+    <surface n="34r" xml:id="mysql_id_4057">
+      <graphic decls="#imageRights-3" url="manuscript/33/4869b1d2-9ebc-4156-9fb2-37d0a26c2f77/manuscript-33-page-4057-image-3000.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/ccc9448c-c0ca-4cd5-a590-63f96d7fafa6/manuscript-33-page-4057-image-23596.jpg"/>
+    </surface>
+    <surface n="34v" xml:id="mysql_id_38778">
+      <graphic decls="#imageRights-1" url="manuscript/33/f1f66c3d-23e7-406a-a101-71fc1d09b780/manuscript-33-page-38778-image-23597.jpg"/>
+    </surface>
+    <surface n="35r" xml:id="mysql_id_4058">
+      <graphic decls="#imageRights-3" url="manuscript/33/8d08d651-0363-4de1-ab00-72c3afdd7730/manuscript-33-page-4058-image-3001.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/35cddf54-491f-4381-83b8-7d92eff35aa7/manuscript-33-page-4058-image-23598.jpg"/>
+    </surface>
+    <surface n="35v" xml:id="mysql_id_38780">
+      <graphic decls="#imageRights-1" url="manuscript/33/7af578b6-9020-4db4-aa4d-f0a8db0663ee/manuscript-33-page-38780-image-23599.jpg"/>
+    </surface>
+    <surface n="36r" xml:id="mysql_id_4059">
+      <graphic decls="#imageRights-3" url="manuscript/33/51fd6478-57a1-4a28-badf-b1e0519dcff4/manuscript-33-page-4059-image-3002.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/7db163d8-b083-4f02-afb7-5370b377715b/manuscript-33-page-4059-image-23600.jpg"/>
+    </surface>
+    <surface n="36v" xml:id="mysql_id_38782">
+      <graphic decls="#imageRights-1" url="manuscript/33/ba0ac55f-1493-4ab8-accb-1fc4aa51b336/manuscript-33-page-38782-image-23601.jpg"/>
+    </surface>
+    <surface n="37r" xml:id="mysql_id_4060">
+      <graphic decls="#imageRights-3" url="manuscript/33/975af4d1-16d0-41f1-bfa3-15c3a629fc07/manuscript-33-page-4060-image-3003.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/fce53d68-112b-4de3-a6ca-3d6159fcd3cb/manuscript-33-page-4060-image-23602.jpg"/>
+    </surface>
+    <surface n="37v" xml:id="mysql_id_38784">
+      <graphic decls="#imageRights-1" url="manuscript/33/58f069ec-d35e-4fb7-a41a-0d5e26700a6f/manuscript-33-page-38784-image-23603.jpg"/>
+    </surface>
+    <surface n="38r" xml:id="mysql_id_4061">
+      <graphic decls="#imageRights-3" url="manuscript/33/00b2a29a-478d-4c72-af25-1556ba6e7a9f/manuscript-33-page-4061-image-3004.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/c11035b6-407e-4707-a57d-7d5ebd52a8e6/manuscript-33-page-4061-image-23604.jpg"/>
+    </surface>
+    <surface n="38v" xml:id="mysql_id_38786">
+      <graphic decls="#imageRights-1" url="manuscript/33/c96c291f-86db-4cf2-a04b-a5a539c8f266/manuscript-33-page-38786-image-23605.jpg"/>
+    </surface>
+    <surface n="39r" xml:id="mysql_id_4062">
+      <graphic decls="#imageRights-3" url="manuscript/33/c2584465-3ffb-4b6b-a687-507db4bce0df/manuscript-33-page-4062-image-3005.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/4178f2f2-f602-4a53-b438-7ef45716955e/manuscript-33-page-4062-image-23606.jpg"/>
+    </surface>
+    <surface n="39v" xml:id="mysql_id_38788">
+      <graphic decls="#imageRights-1" url="manuscript/33/7e952db6-41f5-4255-a4f4-2a1c3a270e59/manuscript-33-page-38788-image-23607.jpg"/>
+    </surface>
+    <surface n="40r" xml:id="mysql_id_4063">
+      <graphic decls="#imageRights-3" url="manuscript/33/96f488a4-deb9-4346-9a29-b76740e5b5b9/manuscript-33-page-4063-image-3006.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/7c5dde4f-f88a-4b8b-8ea0-1a505925f8df/manuscript-33-page-4063-image-23608.jpg"/>
+    </surface>
+    <surface n="40v" xml:id="mysql_id_38790">
+      <graphic decls="#imageRights-1" url="manuscript/33/3589d8a8-e1eb-4fa5-8ca3-f6328d095e96/manuscript-33-page-38790-image-23609.jpg"/>
+    </surface>
+    <surface n="41r" xml:id="mysql_id_4064">
+      <graphic decls="#imageRights-3" url="manuscript/33/ead7087b-20c0-4f20-8488-06048ba130e8/manuscript-33-page-4064-image-3007.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/ed09eef3-f69c-49d2-868b-2a5beaeaa1bd/manuscript-33-page-4064-image-23610.jpg"/>
+    </surface>
+    <surface n="41v" xml:id="mysql_id_38792">
+      <graphic decls="#imageRights-1" url="manuscript/33/6695b68f-255d-4ff4-8c48-20ae7cfc2b27/manuscript-33-page-38792-image-23611.jpg"/>
+    </surface>
+    <surface n="42r" xml:id="mysql_id_4065">
+      <graphic decls="#imageRights-3" url="manuscript/33/13771624-8983-40c1-aaea-0a817b7ca416/manuscript-33-page-4065-image-3008.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/6309c807-4780-41b0-b8af-bc3715f39214/manuscript-33-page-4065-image-23612.jpg"/>
+    </surface>
+    <surface n="42v" xml:id="mysql_id_38794">
+      <graphic decls="#imageRights-1" url="manuscript/33/a69548ad-5a5b-4f25-9012-fea87851e99c/manuscript-33-page-38794-image-23613.jpg"/>
+    </surface>
+    <surface n="43r" xml:id="mysql_id_4066">
+      <graphic decls="#imageRights-3" url="manuscript/33/1e31f21e-f19b-498d-bde0-f16c5d49c5d4/manuscript-33-page-4066-image-3009.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/a70b686c-5d6f-4abf-97fc-dacf33c0d5a2/manuscript-33-page-4066-image-23614.jpg"/>
+    </surface>
+    <surface n="43v" xml:id="mysql_id_38796">
+      <graphic decls="#imageRights-1" url="manuscript/33/7c8ac13a-f100-4bf2-be46-696eb6175820/manuscript-33-page-38796-image-23615.jpg"/>
+    </surface>
+    <surface n="44r" xml:id="mysql_id_4067">
+      <graphic decls="#imageRights-3" url="manuscript/33/a05ccaaf-7fd6-4629-aeee-eb59fbbbc5a8/manuscript-33-page-4067-image-3010.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/98c34205-73d1-4cd3-b54e-1029a17ab113/manuscript-33-page-4067-image-23616.jpg"/>
+    </surface>
+    <surface n="44v" xml:id="mysql_id_38798">
+      <graphic decls="#imageRights-1" url="manuscript/33/a2375704-6a22-4284-85d7-d30aefeabc6f/manuscript-33-page-38798-image-23617.jpg"/>
+    </surface>
+    <surface n="45r" xml:id="mysql_id_4068">
+      <graphic decls="#imageRights-3" url="manuscript/33/51afcb78-b660-4f41-ba70-2c94a46b5145/manuscript-33-page-4068-image-3011.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/0596b1fa-b3df-4b37-a905-7836e4f1c03d/manuscript-33-page-4068-image-23618.jpg"/>
+    </surface>
+    <surface n="45v" xml:id="mysql_id_38800">
+      <graphic decls="#imageRights-1" url="manuscript/33/1c8354cc-9380-4430-94f1-15279ab0fa73/manuscript-33-page-38800-image-23619.jpg"/>
+    </surface>
+    <surface n="46r" xml:id="mysql_id_4069">
+      <graphic decls="#imageRights-1" url="manuscript/33/cac6edf8-6e47-44ba-bd92-dc2245ba035a/manuscript-33-page-4069-image-23620.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/33/f9580883-3465-4c3c-8ea9-66fceaa1432b/manuscript-33-page-4069-image-54268.png"/>
+    </surface>
+    <surface n="46v" xml:id="mysql_id_38802">
+      <graphic decls="#imageRights-1" url="manuscript/33/d01ceb14-d080-4259-94db-bacd0b1d60b3/manuscript-33-page-38802-image-23621.jpg"/>
+    </surface>
+    <surface n="47r" xml:id="mysql_id_4070">
+      <graphic decls="#imageRights-3" url="manuscript/33/caaaebde-b806-4a20-b591-b29a5e612f8a/manuscript-33-page-4070-image-3013.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/fbbba229-1ea9-47f6-871c-332854b0bdcf/manuscript-33-page-4070-image-23622.jpg"/>
+    </surface>
+    <surface n="47v" xml:id="mysql_id_38804">
+      <graphic decls="#imageRights-1" url="manuscript/33/d15ddfed-a2ff-4815-b873-1dead7eb5ea8/manuscript-33-page-38804-image-23623.jpg"/>
+    </surface>
+    <surface n="48r" xml:id="mysql_id_4071">
+      <graphic decls="#imageRights-3" url="manuscript/33/25fa7752-f81b-4771-afd8-c603ff746840/manuscript-33-page-4071-image-3014.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/2384da47-a516-4e08-896e-8972e8fb3174/manuscript-33-page-4071-image-23624.jpg"/>
+    </surface>
+    <surface n="48v" xml:id="mysql_id_38806">
+      <graphic decls="#imageRights-1" url="manuscript/33/ac3e18f3-b61c-415a-9701-30a4145b0419/manuscript-33-page-38806-image-23625.jpg"/>
+    </surface>
+    <surface n="49r" xml:id="mysql_id_4072">
+      <graphic decls="#imageRights-3" url="manuscript/33/a8ffb08c-a963-4900-af4e-74587b08fedb/manuscript-33-page-4072-image-3015.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/33/10eb7385-7696-4921-9e5b-705dc8d08e24/manuscript-33-page-4072-image-23626.jpg"/>
+    </surface>
+    <surface n="49v" xml:id="mysql_id_38808">
+      <graphic decls="#imageRights-1" url="manuscript/33/ba6945a3-606c-4801-abc8-32c2d9c46b33/manuscript-33-page-38808-image-23627.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

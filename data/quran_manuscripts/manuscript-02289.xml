@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2289">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Saint Petersburg, The National Library of Russia (Российская национaльная библиотeка), Marcel 71</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="23">The National Library of Russia (Российская национaльная библиотeка)
+                            , Saint Petersburg</repository>
+            <idno>Marcel 71</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>18 fol. on parchment; Shelfmark: Marcel 71; Qurʾānic Text: Q 25:63-25:76, Q 26:1-26:146; 5 lines per page; Dimensions:  330 x 225mm; Script style: kūfi D.III.</p>
+              <p> </p>
+              <p>The fragments <ref target="https://corpuscoranicum.de/de/manuscripts/626/page/1r">Arabe 351</ref> (BNF) and maybe <ref target="https://corpuscoranicum.de/de/manuscripts/2280/page/1r">Marcel 64</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/2287/page/1r">Marcel 68</ref> and <ref target="https://corpuscoranicum.de/de/manuscripts/2288/page/1r">Marcel 69</ref> (NLR) belong to the same manuscript.</p>
+              <p> </p>
+              <p>The catalogue entry by Valery V. Polosin (1939-2014) contains the following information:</p>
+              <p>"<hi rend="bold">Марсель</hi><hi rend="bold"> 71</hi></p>
+              <p><hi rend="underline">Четыре фрагмента</hi>: <hi rend="bold">25</hi>:64(63)–76(76), <hi rend="bold">26</hi>:1(1)–34(35), <hi rend="bold">26</hi>:120(120)–125(125), <hi rend="bold">26</hi>:142(142)–146(146).</p>
+              <p>18 л. 330 х 225 мм (1,47). Пергамен от тонкого до толстого, прозрачный, гладкий, желтоватый. Чернила почти черные.</p>
+              <p><hi rend="underline">Тетради:</hi> одна полная и фрагменты двух <hi rend="italic">куррас</hi>: 1 VI(iii+iii), в/м↔м/в, л. 1 и 6, 3–4 парные, л. 2 и 5 одинарные с подгибом; 2 X(v+v), в/м-в/м-в/м-в/м-в/м↔м/в-м/в-в/м(!)-м/в-м/в, л. 7 и 16, 9 и 13(!) парные, остальные одинарные с подгибом; 3 II(i+i), в/м; м/в, бифолио.</p>
+              <p><hi rend="underline">Текст</hi>: 5 строк, 200 x 100 мм (2,0).</p>
+              <p><hi rend="underline">Разлиновка</hi>: отсутствует.</p>
+              <p><hi rend="underline">Письмо</hi>: крупный <hi rend="italic">куфи</hi> (D III). Огласовка: красные, синие и зеленые круглые крупные точки. Диакритика: отсутствует.</p>
+              <p><hi rend="underline">Разделители</hi>: между стихами – каплевидные медальоны (близкие к типу 4.1.1) золотом и красками, со вписанным словом اية;</p>
+              <p>между группами по 5 стихов – в строке медальон (тип 2.A.II) золотом и красками, со вписанным золотом словом خمس;</p>
+              <p>между группами по 10 стихов – в строке или на поле медальоны разных типов золотом и красками, со вписанными номерами стихов: тип 3.B.I –  سبعون (л. 4r), عشرون (л. 13r); тип 2''.A.II – عشر (л. 10r); тип 3.C.II – ماية عشرون (л. 17r); цветок сложной формы – ثلاثون л. (16r).</p>
+              <p><hi rend="underline">Записи</hi>: на внутреннем поле л. 5r <hi rend="italic">вакфная</hi> запись по-арабски коричневыми чернилами, небрежным <hi rend="italic">насхом</hi>:حبس / موقوف / مؤبّد ؟ في / الجامع / لا يباع / و لا يورّث / و لا يوهب / و لا يتلف / و لا يورَث (<hi rend="italic">Вакфный вклад на вечное хранение в Соборной мечети: не продаётся, не передаётся в наследство, не передаётся в дар и не наследуется</hi>); на всех листах карандашом проставлены номера сур «римскими» цифрами и номера стихов «арабскими».</p>
+              <p><hi rend="underline">Брошюровка: </hi>нить в проколах л. 13; на внешнем сгибе второй тетради остатки темно-коричневого материала (кожи) от корешка. <hi rend="underline"> </hi></p>
+              <p><hi rend="underline">Дефекты</hi>: незначительные загрязнения, повреждения боковых внешних полей л. 16–18; чернила местами осыпались.</p>
+              <p><hi rend="underline">Старый шифр</hi>: B. 48 (по описи Ланглуа).</p>
+              <p>
+                <hi rend="underline">Содержание:</hi>
+              </p>
+              <p>Л. 1r–6v. Сура 25, стихи 64(63)–76(76). Начало: [هونًا و اذا] خاطبهم الجاهلون. Конец:  مستقرًا و [مقامًا].</p>
+              <p>Л. 7r–16v. Сура 26, стихи 1(1)–34(35). Начало: بسم الله. Конец: يريد ان يخر[جكم من ارضكم] .</p>
+              <p>Л. 17r–17v. Сура 26, стихи 120(120)–125(125). Начало: [اغرقنا بعد] الباقين * ان في ذلك لأيةً . Конец: ألا تتّقون إنّي [لكم رسول أمين *] .</p>
+              <p>Л. 18r–18v. Сура 26, стихи 142(142)–146(146). Начало: [أخوهم صلح] ألا تتّقون * إنّي لكم رسول أمين * . Конец: هاهنا امينين * [في جنّتٍ وعيونٍ] .</p>
+              <p><hi rend="underline">Другие фрагменты той же рукописи:</hi> Марсель 69, 64(?), 68(?), BNF Arabe 351."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706601" n="1r">
+              <title type="numeric" key="025:063:009-025:065:001">
+                                    025:063:009-025:065:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706602" n="1v">
+              <title type="numeric" key="025:065:002-025:066:002">
+                                    025:065:002-025:066:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706603" n="2r">
+              <title type="numeric" key="025:066:002-025:067:008">
+                                    025:066:002-025:067:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706604" n="2v">
+              <title type="numeric" key="025:067:009-025:068:010">
+                                    025:067:009-025:068:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706605" n="3r">
+              <title type="numeric" key="025:068:010-025:069:003">
+                                    025:068:010-025:069:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706606" n="3v">
+              <title type="numeric" key="025:069:003-025:070:007">
+                                    025:069:003-025:070:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706607" n="4r">
+              <title type="numeric" key="025:070:008-025:071:002">
+                                    025:070:008-025:071:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706609" n="5r">
+              <title type="numeric" key="025:072:006-025:073:008">
+                                    025:072:006-025:073:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706610" n="5v">
+              <title type="numeric" key="025:073:009-025:074:009">
+                                    025:073:009-025:074:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706611" n="6r">
+              <title type="numeric" key="025:074:009-025:075:005">
+                                    025:074:009-025:075:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706612" n="6v">
+              <title type="numeric" key="025:075:005-025:076:005">
+                                    025:075:005-025:076:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706613" n="7r">
+              <title type="numeric" key="026:000:001-026:003:002">
+                                    026:000:001-026:003:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706614" n="7v">
+              <title type="numeric" key="026:003:003-026:004:009">
+                                    026:003:003-026:004:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706615" n="8r">
+              <title type="numeric" key="026:004:010-026:005:010">
+                                    026:004:010-026:005:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706616" n="8v">
+              <title type="numeric" key="026:005:011-026:007:002">
+                                    026:005:011-026:007:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706617" n="9r">
+              <title type="numeric" key="026:007:002-026:008:004">
+                                    026:007:002-026:008:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706618" n="9v">
+              <title type="numeric" key="026:008:005-026:010:004">
+                                    026:008:005-026:010:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706619" n="10r">
+              <title type="numeric" key="026:010:004-026:012:004">
+                                    026:010:004-026:012:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706620" n="10v">
+              <title type="numeric" key="026:012:004-026:014:001">
+                                    026:012:004-026:014:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706621" n="11r">
+              <title type="numeric" key="026:014:002-026:015:004">
+                                    026:014:002-026:015:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706622" n="11v">
+              <title type="numeric" key="026:015:005-026:016:007">
+                                    026:015:005-026:016:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706623" n="12r">
+              <title type="numeric" key="026:017:001-026:018:009">
+                                    026:017:001-026:018:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706624" n="12v">
+              <title type="numeric" key="026:018:010-026:020:004">
+                                    026:018:010-026:020:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706625" n="13r">
+              <title type="numeric" key="026:020:005-026:021:011">
+                                    026:020:005-026:021:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706626" n="13v">
+              <title type="numeric" key="026:021:011-026:023:005">
+                                    026:021:011-026:023:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706627" n="14r">
+              <title type="numeric" key="026:023:005-026:025:002">
+                                    026:023:005-026:025:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706628" n="14v">
+              <title type="numeric" key="026:025:003-026:027:003">
+                                    026:025:003-026:027:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706629" n="15r">
+              <title type="numeric" key="026:027:004-026:028:009">
+                                    026:027:004-026:028:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706630" n="15v">
+              <title type="numeric" key="026:029:001-026:031:004">
+                                    026:029:001-026:031:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706631" n="16r">
+              <title type="numeric" key="026:031:005-026:033:003">
+                                    026:031:005-026:033:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706632" n="16v">
+              <title type="numeric" key="026:033:003-026:035:003">
+                                    026:033:003-026:035:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706633" n="17r">
+              <title type="numeric" key="026:120:004-026:122:004">
+                                    026:120:004-026:122:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706634" n="17v">
+              <title type="numeric" key="026:122:005-026:125:001">
+                                    026:122:005-026:125:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706635" n="18r">
+              <title type="numeric" key="026:142:006-026:145:002">
+                                    026:142:006-026:145:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706636" n="18v">
+              <title type="numeric" key="026:145:003-026:146:005">
+                                    026:145:003-026:146:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 18
+                                    <dimensions unit="mm"><width>330</width><height>225</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Valery V. Polosin (1939-2014)</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_62294">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_62295">
+                    </surface>
+    <surface n="2r" xml:id="mysql_id_62296">
+                    </surface>
+    <surface n="2v" xml:id="mysql_id_62297">
+                    </surface>
+    <surface n="3r" xml:id="mysql_id_62298">
+                    </surface>
+    <surface n="3v" xml:id="mysql_id_62299">
+                    </surface>
+    <surface n="4r" xml:id="mysql_id_62300">
+                    </surface>
+    <surface n="5r" xml:id="mysql_id_62302">
+                    </surface>
+    <surface n="5v" xml:id="mysql_id_62303">
+                    </surface>
+    <surface n="6r" xml:id="mysql_id_62304">
+                    </surface>
+    <surface n="6v" xml:id="mysql_id_62305">
+                    </surface>
+    <surface n="7r" xml:id="mysql_id_62306">
+                    </surface>
+    <surface n="7v" xml:id="mysql_id_62307">
+                    </surface>
+    <surface n="8r" xml:id="mysql_id_62308">
+                    </surface>
+    <surface n="8v" xml:id="mysql_id_62309">
+                    </surface>
+    <surface n="9r" xml:id="mysql_id_62310">
+                    </surface>
+    <surface n="9v" xml:id="mysql_id_62311">
+                    </surface>
+    <surface n="10r" xml:id="mysql_id_62312">
+                    </surface>
+    <surface n="10v" xml:id="mysql_id_62313">
+                    </surface>
+    <surface n="11r" xml:id="mysql_id_62314">
+                    </surface>
+    <surface n="11v" xml:id="mysql_id_62315">
+                    </surface>
+    <surface n="12r" xml:id="mysql_id_62316">
+                    </surface>
+    <surface n="12v" xml:id="mysql_id_62317">
+                    </surface>
+    <surface n="13r" xml:id="mysql_id_62318">
+                    </surface>
+    <surface n="13v" xml:id="mysql_id_62319">
+                    </surface>
+    <surface n="14r" xml:id="mysql_id_62320">
+                    </surface>
+    <surface n="14v" xml:id="mysql_id_62321">
+                    </surface>
+    <surface n="15r" xml:id="mysql_id_62322">
+                    </surface>
+    <surface n="15v" xml:id="mysql_id_62323">
+                    </surface>
+    <surface n="16r" xml:id="mysql_id_62324">
+                    </surface>
+    <surface n="16v" xml:id="mysql_id_62325">
+                    </surface>
+    <surface n="17r" xml:id="mysql_id_62326">
+                    </surface>
+    <surface n="17v" xml:id="mysql_id_62327">
+                    </surface>
+    <surface n="18r" xml:id="mysql_id_62328">
+                    </surface>
+    <surface n="18v" xml:id="mysql_id_62329">
+                    </surface>
+  </facsimile>
+</TEI>

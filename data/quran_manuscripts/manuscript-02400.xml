@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2400">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Saint Petersburg, The National Library of Russia (Российская национaльная библиотeка), Marcel 87</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="23">The National Library of Russia (Российская национaльная библиотeка)
+                            , Saint Petersburg</repository>
+            <idno>Marcel 87</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>30 fol. on parchment; Shelfmark: Marcel 87; Qurʾānic Text: Q 34:23-35:11; 5 lines per page; Dimensions: 270 x 190mm; Script style:  kūfī D.III.  </p><p> </p><p>The fragments <ref target="https://corpuscoranicum.de/de/manuscripts/2388">Marcel 84</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/2399">Marcel 86</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/2415">Marcel 102/1</ref> and <ref target="https://corpuscoranicum.de/de/manuscripts/2436">Marcel 124</ref> (NLR) belong to the same manuscript. This manuscript directly follows Marcel 124.</p><p> </p><p>The information about this manuscript was made available by Valery V. Polosin (1939-2014).</p><p> </p>An image of fol. 22r can be seen on the <ref target="https://expositions.nlr.ru/eng/ex_manus/Koran/list.php">website of the NLR</ref> (No. 11).<p/><p/>
+                    </summary>
+            <msItem xml:id="mysql_id_707884" n="1">
+              <title type="numeric" key="034:023:015-035:011:0-1">
+                                    034:023:015-035:011:0-1
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708161" n="22r">
+              <title type="numeric" key="034:054:015-035:001:002">
+                                    034:054:015-035:001:002
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 30
+                                    <dimensions unit="mm"><width>270</width><height>190</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_76748">
+                    </surface>
+    <surface n="22r" xml:id="mysql_id_82396">
+                    </surface>
+  </facsimile>
+</TEI>

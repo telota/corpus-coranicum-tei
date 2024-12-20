@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kölner Mani-Kodex 70-72</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_526" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>526</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 33:40 wird Muhammad als ḫātam an-nabiyyīn ("Siegel der Propheten") bezeichnet. Der vorliegende Text, in dem die Schüler Manis das "Siegel seiner Sendung" genannt werden, macht wahrscheinlich, dass die Metapher des Siegels auf den Aspekt der Bestätigung und nicht auf den des zeitlichen Abschlusses abzielt. Vgl. auch TUK_0432.
+	Es sei weiterhin angemerkt, dass al-Bīrūnī berichtet, im "Buch des lebendigen Evangeliums" habe Mani sich als "von Christus verkündeten Parakleten und Siegel der Propheten" bezeichnet (al-Bīrūnī 1878: p. 207). Die Tatsache, dass auch der Kölner Mani-Kodex berichtet, dass der prophetischen Sendung ein "Siegel" aufgesetzt wird, lässt vermuten, dass der Islam und der Manichäismus beide dieses Bild von Judenchristen geerbt haben  (Vgl. Blois, François de 2004: p. 46; Colpe 1986: p. 71-83; Harnack 1931: p. 534).
+	Hier bleibt allerdings offen, ob das 'Siegel' als Abschluss zu verstehen ist, oder eher als Bestätigung früherer Schriften. De Blois erläutert sich diesbezüglich folgendermaßen: "Ein Siegel wird einem juristischen Dokument aufgesetzt, um seine Echtheit zu bezeugen. In diesem Sinn besiegeln die Schüler die Echtheit der Offenbarung des Propheten, aber im gleichen Sinn könnte man auch sagen, dass jeder Prophet die früheren Offenbarungen besiegelt." (Blois, François de 2004: p. 46). Zu ḫāṭam vgl. (Jeffery 1938: p. 120f.) Zu nabīy, vgl. (Jeffery 1938: p. 276).
+</summary>
+            <msItem>
+              <title>Kölner Mani-Kodex 70-72</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">4.-5. Jh. n. Chr. (Kompilation)</origDate>
+              <origPlace>Ägypten</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Ludwig Koenen und Cornelia Römer (Hg. und Übers.), Der Kölner Mani-Kodex. Über das Werden seines Leibes, Opladen 1988 (Abhandlungen der Rheinisch-Westfälischen Akademie der Wissenschaften, Papyrologica Coloniensia 14), S. 48-51.</bibl>
+              <bibl type="literatur">Blois, Fran&amp;#xE7;ois de: &amp;#x201E;Elchasai-Manes-Mu&amp;#x1E25;ammad. Machich&amp;#xE4;ismus und Islam in religionshistorischem Vergleich&amp;#x201C;. In: Der Islam 81 (2004), S. 31&amp;#x2013;48.</bibl>
+              <bibl type="literatur">Colpe, Carsten: &amp;#x201E;Das Siegel der Propheten&amp;#x201C;. In: Orientalia suecana 33/35 (1986), S. 71&amp;#x2013;83.</bibl>
+              <bibl type="literatur">Harnack, Adolf: Lehrbuch der Dogmengeschichte. Die Entwicklung des kirchlichen Dogmas. 32 1931.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">al-B&amp;#x12B;r&amp;#x16B;n&amp;#x12B;, Abu r-Rai&amp;#x1E25;&amp;#x101;n Mu&amp;#x1E25;ammad Ibn A&amp;#x1E25;mad: Chronologie orientalischer V&amp;#xF6;lker (E. Sachau, Hrsg.). Brockhaus, Leipzig 1878.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Tolou Khademalsharieh</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	πλεῖσται δέ ὑπερβολαὶ καὶ ἄλλαι παραπλήσιαι ταύταις ὑπ[ά]ρχουσιν ἐν ταῖς βίβλοις τοῦ π(ατ)ρ(ὸ)ς ἡμῶν, αἳ δεικνύουσι τήν τε ἀποκάλυψιν αὐτοῦ καὶ ἁρπαγὴν τῆς αὐτοῦ ἀποστολῆς; μεγί[στ]η γὰρ τυγχάνει ἥδε ἡ [ὑ]περβολὴ τῆς ἀφίξεως [τ]αύτης τῆς διὰ τοῦ πα[ρακ]λ[ή]του πν(εύματο)ς τῆς ἀλη[θείας ἀφ]ικομένης πρὸς [ἡμᾶς]. περὶ γὰρ τούτων τίνος χάριν καὶ διὰ [τί κε]κίνηται ἡμῖν ἅπαξ [πε]πεισμένοις ὑπερβάλλ[ειν] τήνδε τὴν ἀποστολὴν ἐν ταῖς αὐτῆς ἀποκαλύψεσιν; τούτου δὲ χάριν ἐδευτερώσαμεν ἀπὸ τῶν προγόνων ἡμῶ[ν] πατέρων τήν τε ἁρπαγὴν αὐτῶν καὶ ἀποκάλυψιν ἑνὸς ἑκάστου, εἵνεκα τῶν λογισμῶν τῶν ἐνδεδυμένων τὴν ἀπιστίαν καὶ οἰομένων τι περὶ ταύτης τῆς ἀποκαλύψεως καὶ ὀπτασί[ας] τοῦ π(ατ)ρ(ὸ)ς ἡμῶν, ἵνα ε[ἰδῶ]σιν ὡς ὅτι καὶ τῶ[ν προγό]νων ἀποστόλων [τοιαύ]τη γέγονεν ἡ διατα[γή]. ὁπηνίκα γὰρ ἕκα[στος αὐ]τῶν ἡρπάζετο [ἃ ἐθεώ]ρει καὶ ἤκουε [ταῦτα πάντα ἔ]γραφεν καὶ ὑπεδεί[κ]νυεν καὶ αὐτὸς αὑτοῦ τῆς ἀποκαλύψεως μάρτυς ἐγένετο; οἱ δὲ μαθηταὶ αὐτοῦ ἐγίγνοντο σφαγὶς αὐτοῦ τῆς ἀποστολῆς.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	In den Büchern unseres Vaters stehen noch viele ähnliche alles Maß übersteigende Begebenheiten , welche seine Offenbarung und die Entrückung zu seiner Sendung beweisen; denn gewaltig groß ist dieses Übermaß der jetzigen Ankunft, die durch den Parakletengeist der Wahrheit zu [uns] kommt. Wozu nämlich und warum sind wir hiermit befaßt, da wir doch ein und für alle Mal überzeugt sind, daß dieses Apostolat durch seine Offenbarungen alles Maß übersteigt? Deshalb sind wir von unseren Vorvätern ausgegangen und haben ihre Entrückung und die Offenbarung eines jeden von ihnen dargelegt: wegen der Gedanken derer, die den Unglauben angezogen haben und etwas (Falsches) über diese Offenbarung und Vision unseres Vaters glauben; sie sollen wissen, daß auch der Auftrag an die früheren Apostel solcher Art war. Als ein jeder von ihnen entrückt wurde, schrieb er [das alles] auf, [was] er gesehen und gehört hatte, berichtete es und wurde selbst zum Zeugen seiner Offenbarung. Seine Schüler aber wurden zum Siegel seiner Sendung.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

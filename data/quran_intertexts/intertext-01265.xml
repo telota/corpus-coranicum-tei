@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Syrische Baruchapokalypse (2 Baruch) 23:6-24:1</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1265" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1265</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Das Thema der endzeitlichen Vergeltung der guten und der bösen Taten der Menschen ist in der alt- und neutestamentlichen, sowie in der apokryphen Literatur weit verbreitet (grundlegende Texte sind Dan 7:10; Offb 20:12; 1 Hen 90:20, 98:6-8; AscJes 9:20-23 u.a., dazu TUK_0130; TUK_0892; TUK_0914; TUK_0915). Mit diesem Exzerpt aus der syrischen Baruchapokalypse (2 Baruch, vgl. auch TUK_1262) ist somit eine weitere Belegstelle gewonnen, welche die Nähe zwischen der jüdisch-christlichen und der koranischen Vorstellung vom Jüngsten Gericht beweist.</summary>
+            <msItem>
+              <title>Syrische Baruchapokalypse (2 Baruch) 23:6-24:1</title>
+              <author>(Pseudo-)Baruch</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">70-130 n.Chr.</origDate>
+              <origPlace>Jerusalem/Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">R. Graffin (ed.), Patrologia Syriaca, Pars prima, tomus secundus, Paris 1907, S. 1108;	Daniel M. Gurtner (ed.), Second Baruch: A Critical Edition of the Syriac Text. With Greek and Latin Fragments, English Translation, Introduction, and Concordances, New York/London 2009, S. 58-61.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	ܘܬܘܒ ܐܝܬ ܠܟ ܕܬܫܡܥ ܡܕܡ ܕܥܬܝܕ ܕܢܐܬܐ ܡܢ ܒܬܪ ܗܠܝܢ ܙܒ̈ܢܐ. ܫܪܝܪܐܝܬ ܓܝܪ ܩܪܝܒ ܗܘ ܦܘܪܩܢܝ ܕܢܐܬܐ ܘܠܐ ܗܘܐ ܪܚܝܩ ܐܝܟ ܕܡܢ ܩܕܝܡ܀ ܗܐ ܓܝܪ ܝܘ̈ܡܬܐ ܐܬܝܢ ܘܢܓܠܘܢ ܣܦܖ̈ܐ: ܐܝܟܐ ܕܟܬܝܒܝܢ ܚܛܳܗ̈ܐ ܕܟܠܗܘܢ ܐܝܠܝܢ ܕܚܛܘ ܘܬܘܒ ܐܘܨܪ̈ܐ ܐܝܟܐ ܕܐܙܕܕܩܘ ܒܒܪܝܬܐ ܐܬܟܢܫܬ.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Und wiederum kommt es dir zu, von etwas Zukünftigem zu hören, das nach diesen Zeiten kommen soll. Denn wahrhaftig ist meine Erlösung nahe und nicht (mehr) weit entfernt wie einstmals. (24:1) Denn siehe, es werden die Tage kommen und die Bücher werden geöffnet, wo die Sünden aller (Menschen) die gesündigt haben geschrieben stehen. (Geöffnet werden) auch die Schatzkammer, worin die Gerechtigkeit all‘ derjenigen gesammelt ist, die in der Schöpfung gerecht gehandelt haben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	23:6 And again it is given to you to hear what things are to come after these times. 7 For truly My redemption has drawn nigh, and is not far distant as aforetime. 24:1 'For behold! the days come and the books shall be opened in which are written the sins of all those who have sinned, and again also the treasuries in which the righteousness of all those who have been righteous in creation is gathered.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

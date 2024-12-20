@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1146">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 27.102</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: The Metropolitan Museum of Art (New York).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>27.102</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 27.102; Qurʾānic Text: Q 30:24-30:39; 13 lines per page; Dimensions: 203 x 152mm; Script style:  kūfī D; Estimated date of production: 800–1000.</p><p> </p>For more information, please visit the <ref target="https://www.metmuseum.org/art/collection/search/448016">website of the Metropolitan Museum of Art (New York)</ref>.<p/></summary>
+            <msItem xml:id="mysql_id_678297" n="1r">
+              <title type="numeric" key="030:024:007-030:030:018">
+                                    030:024:007-030:030:018
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678296" n="1v">
+              <title type="numeric" key="030:030:019-030:039:013">
+                                    030:030:019-030:039:013
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>203</width><height>152</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="13">13 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40395">
+      <graphic decls="#imageRights-1" url="manuscript/1146/94a0e9d9-1bd3-43a5-acbd-e3c01ddf8ad9/manuscript-1146-page-40395-image-25577.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40394">
+      <graphic decls="#imageRights-1" url="manuscript/1146/c6a56f17-7a4a-430b-a940-da8321301827/manuscript-1146-page-40394-image-25578.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

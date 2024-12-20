@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Muʿallaqa Imruʾ al-Qais</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1015" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1015</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Sure 37:49 werden die Jungfrauen im Paradies als wohlverwahrte Eier beschrieben. Zwei Verse (V. 23 und 41) in der Muʿallaqa von Imruʾ al-Qais hin zeigen, dass der Vergleich von Frauen mit Eiern offenbar etabliert war: wa-baiḍata ḫidrin lā yurāmu ḫibāʾuhā… („Und das abgeschirmte Ei, auf dessen Zelt nicht zu hoffen war…“), ka-bikri l-muqānāti l-bayyāḍi bi-ṣufratin…(„[Sie ist] wie das erste Ei des Straußes, weiß mit gelb gemischt.“). Richard Bell erklärt in diesem Zusammenhang, dass die Farbe des Straußeneis der bevorzugten Hautfarbe für Frauen entspräche (Bell 1991: Kommentar zu 37:49). Rudi Paret scheint hingegen in seinem Kommentar anzunehmen, dass sich dieser Vergleich auf ihre Unberührtheit bezieht und listet deswegen Parallelstellen auf, die von der Jungfräulichkeit der Paradiesbewohnerinnen sprechen (Paret 1977: Kommentar zu 37:49). Der Vergleichspunkt, den Paret gewählt hat, liegt in der Verborgenheit des Eis, während Bell und auch Nicolai Sinai diesen in der Farbe des Vergleichsgegenstands sehen. Die Dichtung unterstützt beide Ansichten.
+</summary>
+            <msItem>
+              <title>Muʿallaqa Imruʾ al-Qais</title>
+              <author>Imruʾ al-Qais (6. Jhd.)</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">6. Jahrhundert</origDate>
+              <origPlace>Arabische Halbinsel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Alan Jones, Early Arabic Poetry, vol. 2, Selected Odes. Edition, Translation and Commentary by Alan Jones, Oxford 1996,S. 55-86.</bibl>
+              <bibl type="literatur">Paret, Rudi. Der Koran: Kommentar Und Konkordanz. 2. Aufl. Stuttgart [u.a.]: Kohlhammer, 1977.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Hannelies Koloska</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>
+	٢٣ وَبَيْضَةِ خِدْرٍ لَا يُرَامُ خِباؤُهَا   تَمَتَّعْتُ مِن لَهْوٍ بِهَا غَيْرَ مُعْجَلِ
+
+	...
+
+	٤١ كَبِكْرِ المُقَانَاةِ ابَيَاضَ بِصُفْرَةٍ   غَذَاهَا نَمِيرُ المَاءِ غَيْرَ مُحَلَّلِ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	23 Und [oft denke ich an] das abgeschirmte Ei, auf dessen Zelt nicht zu hoffen war, ich genoss die Tändelei damit ohne Hast.
+
+	41 [Sie ist] wie das erste Ei des Straußes, weiß mit gelb gemischt, ernährt durch reines Wasser, durch das noch keine Tiere hindurchzogen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

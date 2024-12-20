@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1495">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 42.63</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>42.63</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 42.63; Qurʾānic text: Q 39:1-39:5; Dimensions: 559 x 535mm; Lines per page: 7; Script style: maghribī.</p><p> </p>For more information, please visit the <ref target="https://www.metmuseum.org/art/collection/search/452935">website of the Metropilitan Museum of Art</ref>.<p/></summary>
+            <msItem xml:id="mysql_id_687745" n="1r">
+              <title type="numeric" key="039:001:001-039:003:017">
+                                    039:001:001-039:003:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687746" n="1v">
+              <title type="numeric" key="039:003:018-039:005:018">
+                                    039:003:018-039:005:018
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>559</width><height>535</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb)
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47705">
+      <graphic decls="#imageRights-1" url="manuscript/1495/f57e2cfd-9b90-4d93-b3e2-6d5df6b73731/manuscript-1495-page-47705-image-33919.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1495/9bcc52fb-3eac-4c15-9ec1-a3ce5350ad1a/manuscript-1495-page-47705-image-33921.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47706">
+      <graphic decls="#imageRights-1" url="manuscript/1495/955878f9-894d-44fa-a400-0176c70f284e/manuscript-1495-page-47706-image-33920.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

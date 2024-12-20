@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Die Testamente der zwölf Patriarchen: Testament Levi 3:1-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1126" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1126</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Laut Q 40:7-9 bitten die Engel, die Gottes Thron tragen und ihn umgeben, um Vergebung für die Gläubigen. Eine ähnliche Vorstellung findet sich auch im Testament der zwölf Patriarchen, demzufolge die Erzengel Sühneopfer für die Verfehlungen der Gerechten darbringen. Zur Fürsprache durch die Engel im Judentum vgl. Schäfer 1975: p. 28-30, 62-64 mit weiteren Belegstellen.Bei den Testamenten der zwölf Patriarchen handelt es sich um eine 
+pseudepigraphische Schrift, die dem hellenistischen Judentum zuzuordnen 
+ist. Sie wurde mehrfach überarbeitet und erweitert, wobei der Grundstock
+ vermutlich im 2. Jh. v. Chr. in Ägypten entstanden ist. Im 2. Jh. n. 
+Chr. erfolgte schließlich noch eine christliche Redaktion. Im Aufbau 
+orientieren sich die Testamente der zwölf Patriarchen an Genesis 49, wo 
+Jakob vor seinem Tod seine Söhne versammelt, sie segnet und kurz das 
+Schicksal jedes Stammes voraussagt. In den Testamenten sind es nun 
+Jakobs zwölf Söhne selbst, die vor ihrem Tod ihren eigenen Söhnen ihre 
+Lebensgeschichte erzählen, ihnen Mahnungen mit auf den Weg geben und die
+ Zukuft des Stammes und ganz Israels vorhersagen. Dabei behandelte 
+Themen sind das Liebesgebot, das Lob des Landmannes, die Vorrangstellung
+ Levis und Judas sowie der Themenkomplex Sünde - Exil - Rückkehr. Die 
+Testamente der zwölf Patriarchen wurden auf Griechisch verfasst; daneben
+ existieren armenische und slawische Rezensionen. Außerdem gibt es 
+Gemeinsamkeiten des Testament Levis mit in Qumran gefundenen Fragmenten 
+der aramäischen Levi-Tradition. (Vgl. dazu Becker 1980: p. 16-29)
+</summary>
+            <msItem>
+              <title>Die Testamente der zwölf Patriarchen: Testament Levi 3:1-8</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">200-174 v. Chr. (Grundstock) - 2. Jh. n. Chr. (christliche Bearbeitung)</origDate>
+              <origPlace>Ägypten (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">M. de Jonge (Hg.), The Testament of the Twelve Patriarchs. A Critical Edition of the Greek Text, Leiden 1978, S. 27-28. </bibl>
+              <bibl type="literatur">Becker, J&amp;#xFC;rgen: Die Testamente der zw&amp;#xF6;lf Patriarchen. G&amp;#xFC;tersloh 1980.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>1 Ἄκουσον οὖν περὶ τῶν ἑπτα οὐρανῶν. ὁ κατώτερος διὰ τοῦτο στυγνότερός 
+ἐστιν, ἐπειδὴ οὗτος ὁρᾷ πάσας ἀδικίας ἀνθρώπων. 2 ὁ δεύτερος ἔχει πῦρ, 
+χιόνα, κρύσταλλον, ἕτοιμα εἰς ἡμέραν προστάγματος κυρίου ἐν τῇ 
+δικαιοκρισίᾳ τοῦ θεοῦ · ἐν αὐτῷ εἰσι πάντα τὰ πνεύματα τῶν ἐπαγωγῶν εἰς 
+ἐκδίκησιν τῶν ἀνόμων. 3 ἐν τῷ τρίτῳ εἰσὶν αἱ δυνάμεις τῶν παρεμβολῶν, οἱ
+ ταχθέντες εἰς ἡμέραν κρίσεως ποιῆσαι ἐκδίκησιν ἐν τοῖς πνεύμασι τῆς 
+πλάνης καὶ τοῦ Βελιάρ. οἱ δὲ εἰς τὸν τέταρτον ἐπάνω τούτων ἅγιοί εἰσιν ·
+ 4 ὅτι ἐν τῷ ἀνωτέρῳ πάντων καταλύει ἡ μεγάλη δόξα ἐν ἁγίῳ ἁγίων ὑπεράνω
+ πάσης ἁγιότητος. 5 ἐν τῷ μετ' αὐτὸν οἱ ἄγγελοί εἰσι τοῦ προσώπου 
+κυρίου, οἱ λειτουργοῦντες καὶ ἐξιλασκόμενοι πρὸς κύριον ἐπὶ πάσαις ταῖς 
+ἀγνοίαις τῶν δικαίων. 6 προσφέρουσι δὲ κυρίῳ ὀσμὴν εὐωδίας λογικὴν καὶ 
+ἀναίμακτον προσφοράν. 7 ἐν δὲ τῷ ὑποκάτω εἰσιν οἱ ἄγγελοι οἱ φέροντες 
+τὰς ἀποκρίσεις τοῖς ἀγγέλοις τοῦ προσώπου κυρίου. 8 ἐν δὲ τῷ μετ' αὐτόν 
+εἰσι θρόνοι, ἐξουσίαι, ἐν ᾧ ὕμνοι ἀεὶ τῷ θεῷ προσφέρονται.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	3:1 Höre nun über die dir gezeigten Himmel! Der unterste erschien dir darum dunkel, weil er alle Ungerechtigkeit der Menschen sieht. 2 Und er hat Feuer, Schnee und Eis, zubereitet für den Tag des Gerichts, an (dem) Gott (sein) gerechtes Gericht (ausübt). In ihm sind alle Geister, die zur Vergeltung an den Menschen dienen. 3 Im zweiten (Himmel) sind die Mächte der Schlachtreihen, aufgestellt für den Tag des Gerichts, Vergeltung zu üben an den Geistern des Irrtums und an Beliar. Und über ihnen sind die Engel. 4 Im (Himmel) über allen verweilt die große Herrlickeit, hoch über jeder Heiligkeit. 5 Im nächsten (darunter) sind die Erzengel, die Dienst tun und zum Herrn Sühne darbringen für alle (unwissentlichen) Verfehlungen der Gerechten. 6 Sie bringen dem Herrn Wohlgeruch des Räucherwerks als ein vernünftiges und unblutiges Opfer dar. 7 In dem (Himmel) darunter sind Engel, die Antworten bringen den Engeln des Angesichts des Herrn. 8 Im nächsten (darunter) gelegenen (Himmel) sind Throne und Gewalten. In ihm werden beständig Hymnen Gott dargebracht.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

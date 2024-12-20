@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri 11:4-5, 21:4-5</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_230" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>230</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Bei Q 2:49-64 handelt es sich um eine Neuinterpretation der Erzählung der Wüstenwanderung der Israeliten im Rahmen einer längeren wahrscheinlich an die medinensischen Juden gerichteten Ansprache, deren Adressaten mit yā banī ʾisraʾīl angeredet werden. Die einzelnen Teile dieser Rede werden jeweils von wa-ʾiḏ eingeleitet und evozieren bestimmte Ereignisse der Wüstenwanderung. Dabei geht es weniger um eine einfache Nacherzählung des Geschehens, sondern den Juden wird ein Ausschnitt aus ihrer kollektiven Erinnerung neu gedeutet, wobei kurze Anspielungen auf die Ereignisse genügen, da der Inhalt als bekannt vorausgesetzt wird. In diesem Zusammenhang erwähnt Q 2:61 das aus den Büchern Exodus (vgl. TUK_0229) und Numeri (der hier zitierte Text) bekannte Murren der Israeliten, daß sie nichts zu essen hätten, bzw. daß sie der vorhandenen Nahrung überdrüssig seien.
+</summary>
+            <msItem>
+              <title>Numeri 11:4-5, 21:4-5</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	11:4-5
+	וְהָאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָׂר : זָכַרְנוּ אֶת־הַדָּגָה אֲשֶׁר־נֹאכַל בְּמִצְרַיִם חִנָּם אֵת הַקִּשֻּׁאִים וְאֵת הָאֲבַטִּחִים וְאֶת־הֶחָצִיר וְאֶת־הַבְּצָלִים וְאֶת־הַשּׁוּמִים :
+	[...]
+	
+	21:4-5
+	וַיִּסְעוּ מֵהֹר הָהָר דֶּרֶךְ יַם־סוּף לִסְבֹב אֶת־אֶרֶץ אֱדוֹם וַתִּקְצַר נֶפֶשׁ־הָעָם בַּדָּרֶךְ : וַיְדַבֵּר הָעָם בֵּאלֹהִים וּבְמֹשֶׁה לָמָה הֶעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵל :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	11:4 Die Leute, die sich ihnen angeschlossen hatten, wurden von der Gier gepackt und auch die Israeliten begannen wieder zu weinen und sagten: Wenn uns doch jemand Fleisch zu essen gäbe! 5 Wir denken an die Fische, die wir in Ägypten umsonst zu essen bekamen, an die Gurken und Melonen, an den Lauch, an die Zwiebeln und an den Knoblauch. [...]
+	
+	21:4 Die Israeliten brachen vom Berg Hor auf und schlugen die Richtung zum Schilfmeer ein, um Edom zu umgehen. Unterwegs aber verlor das Volk den Mut, 5 es lehnte sich gegen Gott und gegen Moses auf und sagte: Warum habt ihr uns aus Ägypten heraufgeführt? Etwa damit wir in der Wüste sterben? Es gibt weder Brot noch Wasser. Dieser elenden Nahrung sind wir überdrüssig.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

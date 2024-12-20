@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1785">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, AL-16</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>AL-16</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p/>
+              <p>Single folio on parchment in horizontal format; Qurʾanic text: Q 6:68-75;  Sixteen lines per page; AL-16 and another fragment from the same collection <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/27/verse/19/manuscripts/1944">AL-11</ref> and two other fragments from the Freer Gallery collection <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/35/verse/18/manuscripts/1273">F1945.19</ref> and <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/26/verse/225/manuscripts/1274">F1945.20</ref> originally belonged to the same codex. For a detailed description of sister fragments of these fragments see  the entry by Marcus Fraser: "Doha, Qatar National Library: <ref target="https://corpuscoranicum.de/handschriften/index/sure/46/vers/16?handschrift=1418">HC.MS.2017.0010</ref>".</p>
+              <p> Cf. also the website of the institution: https://www.loc.gov/item/2019714726/</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_692635" n="1r">
+              <title type="numeric" key="006:071:011-006:075:004">
+                                    006:071:011-006:075:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692636" n="1v">
+              <title type="numeric" key="006:068:006-006:071:010">
+                                    006:068:006-006:071:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                  <p>Fol. <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/6/verse/71/manuscripts/1785/page/1r">1 recto</ref> is flesh side, fol. <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/6/verse/71/manuscripts/1785/page/1v">1 verso</ref> is hair side. </p>
+                  <p>Text division: Simple verse separators consist of a cluster of three strokes arranged one above  the other in the shape of an arrow. Verse separators after ten verses are illuminated with gold, red and brown ink. </p>
+                </support>
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>255</width><height>192</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>Script: kūfī type B.II. The letter <hi rend="italic">ʾalif </hi>is always vertical, with short return at the baseline in the independent form. The characteristic shape of the letter <hi rend="italic">qāf </hi>in the final position is given with its ending going far to the right. The <hi rend="italic">mašq</hi>-method, the horizontal elongation of the letters, is used in the manuscript. Vocalisation is made by red dots. Diacritical marks are used sparsely, originally only the letter <hi rend="italic">nūn </hi>in the independent position is being marked with a dash. </p>
+              </summary>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52593">
+      <graphic decls="#imageRights-1" url="manuscript/1785/7d7e8caf-efc2-454c-bab2-6f27ad0e4895/manuscript-1785-page-52593-image-41319.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52594">
+      <graphic decls="#imageRights-1" url="manuscript/1785/99b7d412-b4fd-4e56-81d0-83cbf6f1ea9b/manuscript-1785-page-52594-image-41320.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

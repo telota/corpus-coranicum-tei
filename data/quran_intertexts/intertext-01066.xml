@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Weisheit Salomos 7:1-2</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1066" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1066</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die genannten Koranstellen und der hier zitierte Ausschnitt aus der Weisheit Salomos beschreiben die Entstehung des Embryos auf ähnliche Weise. So erwähnen beide Texte die Stadien Samen (arab. nuṭfa, gr. σπέρμα), Blutgebilde (arab. ʿalaqa) bzw. Blut (gr. αἵμα) und Fleischgebilde (arab. muḍġa) bzw. Fleisch (gr. σάρξ). Diese Vorstellung spiegelt das antike medizinische Wissen wider, wie es etwa bei Galen überliefert ist (TUK_0986). Auch bei Jakob von Sarug findet sich ähnliches (TUK_0955); allerdings wird dort, anders als bei Galen, das erschaffende Eingreifen Gottes betont, was wiederum an die koranische Darstellung erinnert. Q 22:5, Q 23:12-13 und Q 40:67 stimmen zudem in einem weiteren Punkt mit der Weisheit Salomos überein, indem beide Texte sowohl auf die Erschaffung des ersten Menschen aus Erde, bzw. Lehm (Vgl. dazu TUK_0191, TUK_0442, TUK_1187, TUK_1235) als auch auf die Entstehung des einzelnen Menschen im Mutterleib hinweisen. Trotz dieser Gemeinsamkeiten sind Kontext und Aussageintention unterschiedlich. Die Weisheit Salomos präsentiert sich als Rede Salomos, der im hier zitierten Abschnitt seine niedrige Herkunft gleich allen Menschen betont, da er wie diese aus Samen, Blut und Fleisch entstanden sei und erst durch Gott Weisheit erlangt habe. Im Koran dagegen dient die Schilderung der Entstehung des Embryos dazu, Gottes schöpferische Allmacht hervorzuheben. 
+
+
+	 
+</summary>
+            <msItem>
+              <title>Weisheit Salomos 7:1-2</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">1. Hälfte des 1. Jh. n. Chr.</origDate>
+              <origPlace>Alexandria</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Alfred Rahlfs und Robert Hanhart (Hg.), Septuaginta. Editio altera, Stuttgart 2006.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 εἰμὶ μὲν κἀγὼ θνητὸς ἄνθρωπος ἴσος ἅπασιν καὶ γηγενοῦς ἀπόγονος πρωτοπλάστου καὶ ἐν κοιλίᾳ μητρὸς ἐγλύφην σὰρξ2 δεκαμηνιαίῳ χρόνῳ παγεὶς ἐν αἵματι ἐκ σπέρματος ἀνδρὸς καὶ ἡδονῆς ὕπνῳ συνελθούσης3 καὶ ἐγὼ δὲ γενόμενος ἔσπασα τὸν κοινὸν ἀέρα καὶ ἐπὶ τὴν ὁμοιοπαθῆ κατέπεσον γῆν πρώτην φωνὴν τὴν ὁμοίαν πᾶσιν ἴσα κλαίων·4 ἐν σπαργάνοις ἀνετράφην καὶ φροντίσιν.5 οὐδεὶς γὰρ βασιλέων ἑτέραν ἔσχεν γενέσεως ἀρχήν,6 μία δὲ πάντων εἴσοδος εἰς τὸν βίον ἔξοδός τε ἴση.7 διὰ τοῦτο εὐξάμην, καὶ φρόνησις ἐδόθη μοι· ἐπεκαλεσάμην, καὶ ἦλθέν μοι πνεῦμα σοφίας.8 προέκρινα αὐτὴν σκήπτρων καὶ θρόνων καὶ πλοῦτον οὐδὲν ἡγησάμην ἐν συγκρίσει αὐτῆς·9 οὐδὲ ὡμοίωσα αὐτῇ λίθον ἀτίμητον, ὅτι ὁ πᾶς χρυσὸς ἐν ὄψει αὐτῆς ψάμμος ὀλίγη, καὶ ὡς πηλὸς λογισθήσεται ἄργυρος ἐναντίον αὐτῆς·10 ὑπὲρ ὑγίειαν καὶ εὐμορφίαν ἠγάπησα αὐτὴν καὶ προειλόμην αὐτὴν ἀντὶ φωτὸς ἔχειν, ὅτι ἀκοίμητον τὸ ἐκ ταύτης φέγγος.11 ἦλθεν δέ μοι τὰ ἀγαθὰ ὁμοῦ πάντα μετ᾽ αὐτῆς καὶ ἀναρίθμητος πλοῦτος ἐν χερσὶν αὐτῆς·12 εὐφράνθην δὲ ἐπὶ πᾶσιν, ὅτι αὐτῶν ἡγεῖται σοφία, ἠγνόουν δὲ αὐτὴν γενέτιν εἶναι τούτων.13 ἀδόλως τε ἔμαθον ἀφθόνως τε μεταδίδωμι, τὸν πλοῦτον αὐτῆς οὐκ ἀποκρύπτομαι·14 ἀνεκλιπὴς γὰρ θησαυρός ἐστιν ἀνθρώποις, ὃν οἱ κτησάμενοι πρὸς θεὸν ἐστείλαντο φιλίαν διὰ τὰς ἐκ παιδείας δωρεὰς συσταθέντες.15 ᾿Εμοὶ δὲ δῴη ὁ θεὸς εἰπεῖν κατὰ γνώμην καὶ ἐνθυμηθῆναι ἀξίως τῶν δεδομένων, ὅτι αὐτὸς καὶ τῆς σοφίας ὁδηγός ἐστιν καὶ τῶν σοφῶν διορθωτής.16 ἐν γὰρ χειρὶ αὐτοῦ καὶ ἡμεῖς καὶ οἱ λόγοι ἡμῶν πᾶσά τε φρόνησις καὶ ἐργατειῶν ἐπιστήμη.17 αὐτὸς γάρ μοι ἔδωκεν τῶν ὄντων γνῶσιν ἀψευδῆ εἰδέναι σύστασιν κόσμου καὶ ἐνέργειαν στοιχείων, 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Ich bin zwar sterblich gleich allen und ein Abkömmling des erstgeschaffenen Erdgeborenen und ward als Fleisch im Leibe der Mutter gebildet 2 in zehnmonatlicher Frist, zusammengeronnen im Blut aus Mannessamen und der im Beischlafe sich zugesellenden Lust. 3 Und als ich geboren war, sog ich die [allen] gemeinsame Luft ein und sank auf die Erde, wie dies allen widerfährt, den ersten Ton auf die gleiche Weise weinend. 4 In Windeln ward ich aufgezogen und unter [allerlei] Fürsorge. 5 Denn kein König hatte einen anderen Anfang seines Daseins; 6 denselben Eingang haben alle in das Leben und auch den gleichen Ausgang. 7 Deshalb flehte ich und Einsicht ward mir gegeben; ich rief [Gott] an, und es kam zu mir der Geist der Weisheit. 8 Ich schätzte sie höher als Szepter und Thron und Reichtum achtete ich für nichts im Vergleiche mir ihr. 9 Nicht stellte ich ihr gleich unschätzbaren Edelstein, weil alles Gold neben ihr gleich ein wenig Sand ist, und Silber ihr gegenüber wie Kot erachtet wird. 10 Mehr als Gesundheit und Wohlgestalt liebte ich sie und ich zog es vor, sie als Leuchte zu gebrauchen, weil das von ihr ausgehende Licht nie verlöscht. 11 Es kamen aber zugleich mit ihr alle Güter zu mir, und unschätzbarer Reichtum war in ihren Händen. 12 Ich ergötzte mich an allen [diesen Dingen], weil die Weisheit ihre Führerin ist; ich wußte aber noch nicht, daß sie auch die Urheberin derselben sei. 13 Ohne Hintergedanken lernte ich [sie], neidlos teile ich [davon] mit, den Reichtum derselben verberge ich nicht. 14 Denn ein nie versagender Schatz ist sie für die Menschen, durch den sich, die sich seiner bedienten, bei Gott Freundschaft erwarben, indem sie wegen der aus der Bildung [ihnen gewordenen] Gaben [ihm] gut empfohlen waren. 15 Mir aber möge Gott verleihen, nach [meiner] Absicht zu reden und des [mir] Verliehenen würdige Erwägungen anzustellen, weil er auch der Weisheit Führer ist und der Weisen Verbesserer. 16 Denn in seiner Hand sind sowohl wir als auch unsere Worte und jede Einsicht und Kenntnis von Kunstfertigkeiten. 17 Denn er hat mir die irrtumslose Kenntnis der Dinge verliehen, so daß ich das System der Welt und die Kraft der Elemente kenne.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

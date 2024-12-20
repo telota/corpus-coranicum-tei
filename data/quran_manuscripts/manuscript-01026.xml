@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1026">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 11</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 11</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 11; Lines per page: 16; Dimensions: 135 x 212 mm; Qurʾānic Text: Q 43:12-43; Script style: kūfī D.IV; Estimated date of production: 750-900.</p>
+              <p>Cf. François Déroche about fragment KFQ 11 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 89): "40 / Single folio / 9th century AD / 13.5 x 21.2 cm, with 16 lines to the page / <hi rend="italic">Material</hi> Parchment; the recto is the hair side / <hi rend="italic">Text area</hi> 9x16cm / <hi rend="italic">Script</hi> A form of style D.IV influenced by B.II / <hi rend="italic">Accession no</hi>. KFQ 11 / This script may be interpreted as a hybrid between D.IV and B.II on the basis of the presence in this fragment of letter forms typical of the two styles: the independent form of <hi rend="italic">alif</hi> employed is clearly that of B.II, but final <hi rend="italic">nūn</hi> and <hi rend="italic">mīm</hi> and medial <hi rend="italic">hāʾ</hi> seem closer to D.IV., for example. Both scripts are small in scale, but the occasional use of <hi rend="italic">mashq</hi> also points to the influence of D.IV. / The text – verses 12-34 of <hi rend="italic">Sūrat al-zukhruf</hi> (XLIII) – is written in black ink, without diacritical strokes. There is no vocalization. The end of every verse is marked by a 1.1.4 device; in one instance, a red circle (I.A.I) was later placed over the device to indicate the end of a group of ten verses. / In one place (recto, line 3), an error in the text has been erased by scraping."</p>
+            </summary>
+            <msItem xml:id="mysql_id_682502" n="1r">
+              <title type="numeric" key="043:012:003-043:023:012">
+                                    043:012:003-043:023:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682503" n="1v">
+              <title type="numeric" key="043:023:013-043:034:001">
+                                    043:023:013-043:034:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>212</width><height>135</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.IV
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42507">
+      <graphic decls="#imageRights-1" url="manuscript/1026/e29847e7-2944-4881-8d14-2c01cbd03429/manuscript-1026-page-42507-image-28170.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42508">
+      <graphic decls="#imageRights-1" url="manuscript/1026/abf3ffdd-ec5e-426f-b39e-6281883f351d/manuscript-1026-page-42508-image-28171.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

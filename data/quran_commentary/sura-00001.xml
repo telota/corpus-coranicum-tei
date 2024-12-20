@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sure 1 — <foreign xml:lang="ar-Latn">al-fātiḥa</foreign> — »Die Eröffnende«</title>
+        <editor role="translator">Angelika Neuwirth</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Corpus Coranicum Project</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Übersetzt und analysiert von Dirk Hartwig und Angelika Neuwirth unter Mitwirkung von Ali
+    Aghaei und Tolou Khademalsharieh</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="Textstruktur" resp="an">
+        <lg type="sura" xml:id="sura-001">
+          <lg type="Hauptteil" n="h-000">
+            <lg type="Abschnitt" n="a-000">
+              <lg type="Gesaetz" n="g-000">
+                <lg type="Vers" n="v-001">
+                  <lg type="Teilvers" n="t-001" rhyme="2n/m">
+                    <l n="1" xml:lang="ar">بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</l>
+                    <l n="1" xml:lang="de">Im Namen Gottes, des barmherzigen Erbarmers!</l>
+                  </lg>
+                </lg>
+              </lg>
+            </lg>
+          </lg>
+          <lg type="Hauptteil" n="h-001">
+            <lg type="Abschnitt" n="a-001">
+              <lg type="Gesaetz" n="g-001">
+                <lg type="Vers" n="v-002">
+                  <lg type="Teilvers" n="t-002" rhyme="2n/m">
+                    <l n="2" xml:lang="ar">ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ </l>
+                    <l n="2" xml:lang="de">Lob sei Gott, dem Herrn der Welten,</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-003">
+                  <lg type="Teilvers" n="t-003" rhyme="2n/m">
+                    <l n="3" xml:lang="ar">ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ</l>
+                    <l n="3" xml:lang="de">dem barmherzigen Erbarmer,</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-004">
+                  <lg type="Teilvers" n="t-004" rhyme="2n/m">
+                    <l n="4" xml:lang="ar">مَٰلِكِ يَوۡمِ ٱلدِّينِ</l>
+                    <l n="4" xml:lang="de">dem König des Gerichtstags!</l>
+                  </lg>
+                </lg>
+              </lg>
+              <lg type="Gesaetz" n="g-002">
+                <lg type="Vers" n="v-005">
+                  <lg type="Teilvers" n="t-005" rhyme="2n/m">
+                    <l n="5" xml:lang="ar">إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ</l>
+                    <l n="5" xml:lang="de">Dir dienen wir und dich rufen wir um Hilfe an!</l>
+                  </lg>
+                </lg>
+              </lg>
+              <lg type="Gesaetz" n="g-003">
+                <lg type="Vers" n="v-006">
+                  <lg type="Teilvers" n="t-006" rhyme="2n/m">
+                    <l n="6" xml:lang="ar">ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ</l>
+                    <l n="6" xml:lang="de">Führe uns den geraden Weg,</l>
+                  </lg>
+                </lg>
+                <lg type="Vers" n="v-007">
+                  <lg type="Teilvers" n="t-007" rhyme="2n/m">
+                    <l n="7" xml:lang="ar">صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ </l>
+                    <l n="7" xml:lang="de">den Weg derer, denen du Huld erwiesen hast,</l>
+                    <l n="8" xml:lang="ar">غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِم</l>
+                    <l n="8" xml:lang="de">nicht derer, auf denen dein Zorn lastet,</l>
+                    <l n="9" xml:lang="ar">وَلَا ٱلضَّآلِّينَ</l>
+                    <l n="9" xml:lang="de">und nicht derer, die irregehen.</l>
+                  </lg>
+                </lg>
+              </lg>
+            </lg>
+          </lg>
+        </lg>
+      </div>
+      <div resp="an" type="literarkritik">
+        <ab type="title">Keine Einschübe</ab>
+        <p>Der kurze, teilweise (<ref type="koran" target="koran-001:003-001:004">V. 3, 4</ref>)
+    litaneiartige Text ist offenbar nicht ohne kompositorische Absicht von der ʿuṯmānischen – oder
+    späteren – Redaktion dem Korankodex vorangestellt worden. Denn der vor-ʿuṯmānische Kodex von Ibn
+    Masʿūd enthält die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ebensowenig wie die beiden – unter dem
+    Sammelnamen <foreign xml:lang="ar-Latn">al-muʿawwiḏatān</foreign> (»die beiden, mit denen man Zuflucht
+    nimmt«) zusammengefaßten letzten Suren, <ref type="koran" target="koran-113:000-113:005">Q
+     113</ref>, <ref type="koran" target="koran-114:000-114:006">Q 114</ref> (siehe <bibl type="zotero" key="zotero-4HR2RHA3">Jeffery 1937: 21</bibl>). Diese im kanonischen Corpus den Rahmen des
+    Koran bildenden Texte, der erste ein Gebet, die beiden letzten apotropäische Sprüche, betonen
+    die zeremoniale Dimension des Schriftcorpus, in dessen Lektüre der Leser mit einem Gebet
+    eintritt und dessen Unberührbarkeit durch Kräfte des Bösen er mit einem Abwehrspruch sichert. –
+    Die <foreign xml:lang="ar-Latn">Fātiḥa</foreign>, die als Gebet – und nicht Anrede an den Verkünder –
+    selbst aus dem Rahmen der Surengattung als Gottesrede herausfällt, könnte bei vergleichendem
+    Blick auf andere signifikante Schriftcorpora der Spätantike (vgl. etwa Vergils <hi rend="italic">Aeneis</hi> I 1–7) buchtechnisch als eine Art Proömium verstanden werden, als ein Vorspann,
+    der nicht zum Corpus gehört, diesem aber präludiert. Im Fall der
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ist es nicht der Autor, der durch seinen Appell an
+    übernatürliche Mächte autorisiert werden will, sondern die Gemeinde, die von der – für die
+    Textanordnung zuständigen – Redaktion als Empfängergruppe autorisiert wird.</p>
+        <p>Die hier als erster Vers begegnende <foreign xml:lang="ar-Latn">Basmala</foreign>, ist in Analogie
+    zu ihrer Funktion als bloßer Vorspann in den übrigen Suren nicht selbst als Teil des Textes zu
+    betrachten. Wenn sie in der kufischen Zählung dennoch als Vers gerechnet wird, so mit der
+    Absicht, die für die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> traditionell angesetzte Siebenzahl
+    voll zu machen.</p>
+        <p>
+          <hi rend="bold">Versabteilungsdifferenzen</hi>
+        </p>
+        <p>Obwohl die <foreign xml:lang="ar-Latn">Basmala</foreign>, die Invokationsformel
+    <foreign xml:lang="ar-Latn">bi-smi llāhi r-raḥmāni r-raḥīm</foreign> (»Im Namen Gottes, des
+    barmherzigen Erbarmers«), traditionell durchweg als Anfangsvers von <ref type="koran" target="koran-001:000-001:007">Q 1</ref> verstanden wird, zählen drei Verszähltraditionen
+    – Basra, Damaskus und Medina (siehe <bibl type="zotero" key="zotero-PWGCAS53">Spitaler 1935:31</bibl>) – sie
+    nicht als eigenen Vers, sondern ziehen sie mit dem folgenden zusammen, setzen dafür aber in <ref type="koran" target="koran-001:007-001:007">V .7</ref> nach
+    <foreign xml:lang="ar-Latn">ʿalaihim</foreign> ein Versende an, so daß sich wieder die geforderte
+    Siebenzahl ergibt (siehe zur Problematik Neuwirth, <bibl type="zotero" key="zotero-BCNMF6E3">Neuwirth
+     1991:335</bibl>). – Die Siebenzahl wird durch die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign>-Referenz in <ref type="koran" target="koran-015:087-015:087">Q 15:87</ref> als <foreign xml:lang="ar-Latn">sabʿan mina l-maṯānī</foreign> (»sieben
+    Wiederholte/sieben Wiederholverse«) nahegelegt (siehe <bibl type="zotero" key="zotero-X9T7RF7R"><hi rend="italic">KKK</hi>, S. 11f.</bibl>, <bibl type="zotero" key="zotero-792KHHPN">Neuwirth 2000</bibl> und
+    unten <ref type="kommentar" target="kommentar-001:001-001:001">Kommentar zu V .1</ref>).</p>
+      </div>
+      <div resp="an" type="textkritik">
+        <p>Die der Übersetzung zugrunde gelegte Textvariante <foreign xml:lang="ar-Latn">malik</foreign>
+    (»König«, <ref type="koran" target="koran-001:004-001:004">V. 4</ref>) wird in der sonst
+    befolgten Lesung von Ḥafṣ ʿan ʿĀṣim nicht vertreten. Unter den sieben kanonischen Lesern lesen
+    ʿĀṣim und al-Kisāʾī <foreign xml:lang="ar-Latn">mālik</foreign> (»Besitzer/Regierender«), die übrigen
+    fünf <foreign xml:lang="ar-Latn">malik</foreign>. Exegeten und Philologen diskutieren beide Lesarten
+    (siehe www.corpuscoranicum.de, »<ref type="lesarten" target="lesarten-001:004-001:004">Lesarten</ref>«).</p>
+        <p>Für <foreign xml:lang="ar-Latn">malik</foreign> (»König«) sprechen nicht nur liturgische Intertexte
+    (siehe <ref type="kommentar" target="kommentar-001:004-001:004">unten</ref>), sondern auch das in
+    der Spätantike ikonographisch und textuell geläufige Bild des thronenden Königs, der über die
+    Menschen am Jüngsten Tag richtet (zu Gott als König siehe <bibl type="zotero" key="zotero-VKPMA39Q">Rippin
+     2006</bibl>).</p>
+      </div>
+      <div resp="an" type="komposition">
+        <p>
+          <table rows="4" cols="2">
+            <head/>
+            <row>
+              <cell>(<hi rend="superscript"><ref type="koran" target="koran-001:001-001:001">1</ref></hi></cell>
+              <cell><foreign xml:lang="ar-Latn">Basmala</foreign>)</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="superscript">
+                  <ref type="koran" target="koran-001:002-001:004">2–4</ref>
+                </hi>
+              </cell>
+              <cell>Hymnische Anrufung</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="superscript">
+                  <ref type="koran" target="koran-001:005-001:005">5</ref>
+                </hi>
+              </cell>
+              <cell>Zweifache Affirmation der Gebetssituation der Sprecher</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="superscript">
+                  <ref type="koran" target="koran-001:006-001:007">6–7</ref>
+                </hi>
+              </cell>
+              <cell>Bitte um Rechtleitung mit Spezifizierung des erbetenen Weges in Abgrenzung zu anderen
+       Wegen</cell>
+            </row>
+          </table>
+        </p>
+        <p/>
+        <p>
+          <hi rend="bold">Strukturformel/Proportionen</hi>
+        </p>
+        <p>
+          <table rows="1" cols="1">
+            <head/>
+            <row>
+              <cell>(1) + 3 + 1 + 2</cell>
+            </row>
+          </table>
+        </p>
+      </div>
+      <div resp="an" type="kommentar">
+        <div ana="kommentar-001">
+          <p><app><lem>bi-smi llāhi r-raḥmāni r-raḥīm]</lem></app> Die Invokationsformel, mit dem Akronym <hi rend="italic">»<foreign xml:lang="ar-Latn">Basmala</foreign>«</hi> benannt, wird – wohl ab
+    mittelmekkanischer Zeit – allen Suren vorangestellt, d.h. nachträglich auch den bereits
+    verkündeten. Ihr Gebrauch entspricht dem der Trinitätsformel »Im Namen des Vaters und des Sohnes
+    und des Heiligen Geistes« in christlichen Texten, die relevanten öffentlichen und offiziellen
+    Mitteilungen vorangestellt ist. Diese wird hier zu einer Aussage über den einen Gott
+    umformuliert. Innerhalb eines Surentexts begegnet die <foreign xml:lang="ar-Latn">Basmala</foreign>
+    einzig in der spätmittelmekkanischen Sure <ref type="koran" target="koran-027:030-027:030">Q 27:30</ref>, wo sie einen – im Koran zitierten – Brief Salomos an die Königin von Saba, d.h.
+    ein Schriftstück, einleitet. Sollte diese innertextliche Verwendung der Formel darauf hindeuten,
+    daß auch mit den Suren von dieser Zeit an schriftliche Dokumente vorlagen?</p>
+          <p>Auf die mittelmekkanische Herkunft der <foreign xml:lang="ar-Latn">Basmala</foreign> verweist vor
+    allem der Gottesname <foreign xml:lang="ar-Latn">ar-Raḥmān</foreign>, der in der Gruppe der
+    sogenannten <foreign xml:lang="ar-Latn">Raḥmān</foreign>-Suren (<ref type="koran" target="koran-019:000-019:098">Q 19</ref>, <ref type="koran" target="koran-020:000-020:135">20</ref>, <ref type="koran" target="koran-021:000-021:112">21</ref>, <ref type="koran" target="koran-025:000-025:077">25</ref>, <ref type="koran" target="koran-036:000-036:083">36</ref>, <ref type="koran" target="koran-043:000-043:089">43</ref>, <ref type="koran" target="koran-067:000-067:030">67</ref>) an die Stelle des vorher üblichen
+    <foreign xml:lang="ar-Latn">ar-rabb/rabbuka</foreign> getreten ist (siehe <bibl type="zotero" key="zotero-6I96FAXT"><hi rend="italic">KTS</hi>, S. 472–474</bibl>). Ludwig Ammann (<bibl type="zotero" key="zotero-HAWEGFU2">2001:38</bibl>) sieht in der Einführung von <foreign xml:lang="ar-Latn">ar-raḥmān</foreign> ein
+    Mittel der Milderung der vorher frequenten Höllendrohungen: »›Der Barmherzige‹ betont die
+    Heilsgewißheit«. In <ref type="koran" target="koran-001:001-001:001">Q 1:1</ref> verbindet er
+    sich mit dem ab Spätmekka üblichen Gottesnamen Allāh (zur Geschichte des Namens Allāh siehe
+     <bibl type="zotero" key="zotero-YZUPYCPD">Kiltz 2011</bibl>), der vorher nur gelegentlich gebraucht worden
+    war. Der auch in zentralen jüdischen liturgischen und in epigraphischen Texten geläufige
+    Gottesname (hebr. <foreign xml:lang="hbo-Latn">ha-raḥamān</foreign>) ist mit hoher Wahrscheinlichkeit
+    über Südarabien in die nordarabische Liturgiesprache gelangt (siehe dazu bereits <bibl type="zotero" key="zotero-7ZT4GBE9">Horovitz 1925:201–203</bibl> und jetzt <bibl type="zotero" key="zotero-QQWCZRZ2">Robin 2004</bibl>). Die etymologisch und semantisch eng verwandte Prädikation
+    <foreign xml:lang="ar-Latn">raḥīm</foreign> ›übersetzt‹ den vorgefundenen Namen noch einmal in das
+    gebräuchliche Arabisch.</p>
+          <p>Seine Prädominanz in einer mittelmekkanischen Surengruppe, den sogenannten
+    »<foreign xml:lang="ar-Latn">Raḥmān</foreign>-Suren«, ist mit dieser Genealogie aber nicht erklärt.
+    Bedenkt man, daß in der am Ende der frühmekkanischen Periode stehenden
+    <foreign xml:lang="ar-Latn">Sūrat ar-Raḥmān</foreign>, einem Text, der einen liturgisch prominenten
+    Psalm (<ref type="bibel" target="bibel-018:001-018:110">Ps 136</ref>) schöpfungstheologisch
+    ›um-schreibt‹, ganz offenbar Liturgieerfahrung für die Fokussierung des Leitgedankens (speziell:
+    Schöpfungsharmonie als Zeichen göttlicher Huld) ausschlaggebend war (siehe <bibl type="zotero" key="zotero-X6J8ZZSZ"><hi rend="italic">HK 1</hi>, S. 584–618</bibl> zu <ref type="koran" target="koran-055:000-055:078">Q 55</ref>), so möchte man auch hier einen Anstoß aus
+    liturgischer Richtung vermuten. Man denke etwa an die in der christlichen Liturgie ubiquitäre
+    Formel <foreign xml:lang="gr-Latn">kyrie eleēson</foreign> (»Herr, erbarme dich«). Da die Wurzel
+    <foreign xml:lang="ar-Latn">RḤM</foreign> in den mit der christlichen Heiligen Familie befaßten
+    <foreign xml:lang="ar-Latn">Raḥmān</foreign>-Suren besonders häufig ist, könnten sich mit dem
+    Gottesnamen Assoziationen an die christliche Heilsgeschichte verbinden (siehe den <ref type="kommentar" target="kommentar-019:000-019:098">Kommentar zu Q 19</ref>). Das mit dem
+    Gottesnamen <foreign xml:lang="ar-Latn">ar-Raḥmān</foreign> und der
+    <foreign xml:lang="ar-Latn">Basmala</foreign> insgesamt herausgehobene Attribut Gottes als
+    »barmherzig« trägt der in Mittelmekka neu in den Vordergrund gestellten emotionalen Dimension
+    göttlichen sowie vorbildlichen menschlichen Handelns Rechnung (siehe dazu die Einleitung,
+    <?oxy_comment_start author="Tobias J. Jocham" timestamp="20230821T135050+0200" comment="Verknüpfung nachtragen!"?>S.
+    27f.<?oxy_comment_end?>).</p>
+          <p>Das Mitrechnen der <foreign xml:lang="ar-Latn">Basmala</foreign> unter die Verse der Sure geht auf
+     <ref type="koran" target="koran-015:087-015:087">Q 15:87</ref> zurück, wo auf die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> mit <foreign xml:lang="ar-Latn">sabʿan mina l-maṯānī</foreign>
+    (»sieben Wiederholte/Wiederholverse«) rekurriert wird. Die Zahl Sieben ist hier jedoch, wie
+     <bibl type="zotero" key="zotero-AU5JMMZI">Rubin (1993)</bibl> gezeigt hat, nicht als präzise numerische
+    Angabe zu verstehen, sondern steht für eine »runde Zahl unter zehn« (siehe auch <bibl type="zotero" key="zotero-792KHHPN">Neuwirth 2000</bibl>). An der Identifikation der »sieben
+    Wiederholelemente« mit der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ist angesichts der zahlreichen
+    weiteren <foreign xml:lang="ar-Latn">Fātiḥa</foreign>-Referenzen in <ref type="koran" target="koran-015:000-015:099">Q 15</ref>
+    (<?oxy_comment_start author="Tobias J. Jocham" timestamp="20230821T135943+0200" comment="Könnte eigentlich entfallen, ist ja shcon verknüpft.."?>siehe
+    unten<?oxy_comment_end?>) nicht zu zweifeln, doch ist eine Herstellung von präzise sieben Versen
+    nicht erforderlich, um sie aufrechtzuerhalten.</p>
+        </div>
+        <div ana="kommentar-002">
+          <p><app><lem>l-ḥamdu li-llāhi rabbi l-ʿālamīn]</lem></app> Mit dieser hymnischen Preisung, nach der die Sure
+    auch mit ihrem alternativen Namen <foreign xml:lang="ar-Latn">al-Ḥamd</foreign> benannt ist, beginnt
+    der eigentliche Text (siehe zu ihren liturgiegeschichtlichen Vorläufern <ref type="kommentar" target="kommentar-001:007-001:007">unten zu V. 7</ref>). Die Doxologie
+    <foreign xml:lang="ar-Latn">al-ḥamdu li-llāh</foreign> war bereits frühmekkanisch (so in <ref type="koran" target="koran-052:048-052:048">Q 52:48</ref>) in Gebrauch, hier wie in den
+    weiteren mittelmekkanischen Texten <ref type="koran" target="koran-037:182-037:182">Q
+     37:182</ref> und <ref type="koran" target="koran-039:075-039:075">39:75</ref> verbindet sie
+    sich mit dem Epithet <foreign xml:lang="ar-Latn">rabb al-ʿālamīn</foreign>. Dieses bereits
+    frühmekkanische Epithet Gottes (siehe <ref type="koran" target="koran-083:006-083:006">Q
+     83:6</ref>; <ref type="koran" target="koran-081:027-081:027">81:27</ref>, <ref type="koran" target="koran-081:029-081:029">29</ref>; <ref type="koran" target="koran-069:043-069:043">69:43</ref>; <ref type="koran" target="koran-068:052-068:052">68:52</ref>;
+     <ref type="koran" target="koran-056:080-056:080">56:80</ref>) wird von den Übersetzern
+    verschieden gedeutet: <bibl type="zotero" key="zotero-X9T7RF7R">Paret (<hi rend="italic">KKK</hi>, S.
+     12)</bibl> betont, daß dabei zumeist an die Herrschaft Gottes über die Menschen gedacht ist –
+    das Wort <foreign xml:lang="ar-Latn">ʿālamīn</foreign>, im Koran stets flektiert gebraucht, begegnet
+    gelegentlich auch unabhängig von <foreign xml:lang="ar-Latn">rabb</foreign> (siehe <ref type="koran" target="koran-026:165-026:165">Q 26:165</ref>; <ref type="koran" target="koran-029:006-029:006">29:6</ref>; <ref type="koran" target="koran-002:047-002:047">2:47</ref>, <ref type="koran" target="koran-002:122-002:122">122</ref>) und bezeichnet dann Menschen. Er
+    vertritt die Übersetzung »Herr der Menschen in aller Welt«, »Herr der Weltbewohner«. Das mag
+    sachlich richtig sein, doch blendet diese Wiedergabe die eschatologische Dimension des Ausdrucks
+    aus: Für die Bezeichnung »Herr der Menschen« stünde <foreign xml:lang="ar-Latn">rabb an-nās</foreign>
+    (wie in <ref type="koran" target="koran-114:001-114:001">Q 114:1</ref>) zur Verfügung.
+    Vielmehr entspricht das Epithet <foreign xml:lang="ar-Latn">rabb al-ʿālamīn</foreign> dem aus der
+    jüdischen Liturgie bekannten hebräischen <foreign xml:lang="hbo-Latn">ribbon ʿōlām</foreign> (»Herr
+    der Welt«), das eschatologisch konnotiert ist; denn <foreign xml:lang="hbo-Latn">ʿōlām</foreign> steht
+    sowohl für die diesseitige als auch die jenseitige Welt. (Es ist bemerkenswert, daß die syrische
+    Entsprechung <foreign xml:lang="syc-Latn">māryā de-ʿālmā</foreign>, »Herr der Welt«, keine
+    eschatologische Konnotation hat, siehe Jakob von Sarug bei <bibl type="zotero" key="zotero-C2QJIUCA">Paul
+     Bedjan 1905:627–629</bibl>; freundliche Mitteilung von Josef Kouriyhe, Corpus Coranicum.) Doch
+    figuriert syrisch <foreign xml:lang="syc-Latn">ʿâlam ʿâlmīn</foreign> im Sinne von griechisch
+    <foreign xml:lang="gr-Latn">eis tous aiōnas tōn aiōnōn</foreign> (»in alle Ewigkeit«) so prominent in
+    der Liturgie, daß eine mit <foreign xml:lang="ar-Latn">ʿālamīn</foreign> angestrebte lautliche
+    Reminiszenz an diese eschatologische Formel nicht auszuschließen ist.</p>
+          <p>Nun ist <foreign xml:lang="ar-Latn">ʿālamīn</foreign> mit der semantischen Deutung als
+    »Weltbewohner«, »Menschen in aller Welt« morphologisch noch nicht bestimmt; wenn auch die
+    »gesunde Pluralform« die einzig haltbare Deutung im Sinne von einem Personenkollektiv andeutet,
+    denn eine Pluralform zu dem arabischen Wort <foreign xml:lang="ar-Latn">ʿālam</foreign> (»Welt«) kommt
+    nicht in Frage. Es dürfte hier aber ein sprachenübergreifendes Wortspiel vorliegen, das die
+    Menschen in der Phase der Herausbildung des neuen Gottesvolkes als »Bürger beider Welten«, der
+    hiesigen und der jenseitigen, ins Bewußtsein bringen soll. Dazu wird von
+    <foreign xml:lang="ar-Latn">ʿālam</foreign> – verstanden im Sinne des rabbinisch-hebräischen
+    <foreign xml:lang="hbo-Latn">ʿōlām</foreign> (das in der Formel
+    <foreign xml:lang="hbo-Latn">ribbon ʿōlām</foreign>, »Herr der Welt«, eine eschatologische Konnotation
+    hat, nämlich <foreign xml:lang="hbo-Latn">ha-ʿōlām ha-zeh</foreign> und
+    <foreign xml:lang="hbo-Latn">ha-ʿōlām ha-bā</foreign>, die »diesseitige und die kommende Welt«,
+    einbegreift) – ein Adjektiv abgeleitet, eine <hi rend="italic">»<foreign xml:lang="ar-Latn">nisbe</foreign>«</hi> auf <foreign xml:lang="ar-Latn">-ī</foreign> gebildet.
+    So entsteht <foreign xml:lang="ar-Latn">ʿālamīyūn</foreign>, im Casus obliquus:
+    <foreign xml:lang="ar-Latn">ʿālamīyīn</foreign>, die kontrahiert dann
+    <foreign xml:lang="ar-Latn">ʿālamīn</foreign> lautet. Der Terminus gehört in die mit der
+    mittelmekkanischen Theologie des neuen Gottesvolkes einhergehende Schaffung eines neuen –
+    eschatologisch konnotierten – Lexikons (siehe dazu die
+    <?oxy_comment_start author="Tobias J. Jocham" timestamp="20230822T095347+0200" comment="Wie verknüpfen?"?>Einleitung,
+    S. 55–61<?oxy_comment_end?>). Im Fall von <foreign xml:lang="ar-Latn">ʿālamīn</foreign> wird ein
+    säkularer Begriff durch einen theologisch befrachteten ersetzt: Der in Frühmekka durchweg
+    negativ konnotierte Mensch (<foreign xml:lang="ar-Latn">al-insān</foreign>, siehe etwa <ref type="koran" target="koran-103:000-103:003">Q 103</ref>) wird mit der Einführung des Kollektivs
+    <foreign xml:lang="ar-Latn">al-ʿālamīn</foreign>, das ja zumeist mit einer Nennung Gottes
+    (<foreign xml:lang="ar-Latn">rabb</foreign>) als des Herrschers über die hiesige und die jenseitige
+    Welt verbunden ist, neu als <foreign xml:lang="lat-Latn">homo eschatologicus</foreign>, als den beiden
+    Welten zugehörig, ausgewiesen. Will man bei rabb <foreign xml:lang="ar-Latn">al-ʿālamīn</foreign> die
+    über eine bloße Autoritätsangabe hinausgehende eschatologische Dimension nicht unterschlagen, so
+    hat man mit »Herr der Welten«, wobei die Menschen mitgedacht sind, zu übersetzen; in den Fällen,
+    wo eindeutig Menschen gemeint sind, wird das sperrige »Herr der Zugehörigen zu beiden Welten«
+    einfach durch »Menschen« ersetzt; die Wahrnehmung der eschatologischen Konnotation wird dann
+    stillschweigend vorausgesetzt.</p>
+        </div>
+        <div ana="kommentar-003">
+          <p><app><lem>r-raḥmāni r-raḥīm]</lem></app> Da <ref type="koran" target="koran-001:001-001:001">V.
+     1</ref> nicht Teil des Textes ist – die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> wird in einigen
+    Riten bis heute ohne die <foreign xml:lang="ar-Latn">Basmala</foreign> rezitiert (siehe Neuwirth,
+     <bibl type="zotero" key="zotero-3VUVHDEU">Neuwirth 1991:348</bibl>) –, ist die Prädikation an dieser Stelle
+    nicht Wiederholung, sondern emphatische Einführung des neuen Titels.</p>
+        </div>
+        <div ana="kommentar-004">
+          <p><app><lem>māliki yaumi d-dīn]</lem></app> Die in der Übersetzung zugrunde gelegte Lesart
+    <foreign xml:lang="ar-Latn">malik</foreign> (»König«) wird in der sonst befolgten Tradition von Ḥafṣ
+    ʿan ʿĀṣīm nicht vertreten. ʿĀṣīm liest vielmehr – vielleicht aus rhythmisch-prosodischen Gründen
+    – <foreign xml:lang="ar-Latn">mālik</foreign> (»Besitzer, Regierender«; siehe www.corpuscoranicum.de,
+     <ref type="lesarten" target="lesarten-001:004-001:004">»Lesarten«</ref>). Handschriftliche
+    Nachweise der einen oder der anderen Lesart sind gegenwärtig noch nicht zugänglich, da bei den
+    ältesten Codices gewöhnlich gerade Anfang und Schluß fehlen. Für
+    <foreign xml:lang="ar-Latn">malik</foreign> (»König«) spricht das in der Spätantike nicht nur aus
+    Texten, sondern auch ikonographisch geläufige Bild des thronenden Königs, der als Pantokrator
+    über die Menschen am Jüngsten Tag richtet. Zu denken ist dabei an Christus bei seiner Parusie
+    (vgl. <ref type="bibel" target="bibel-018:001-018:110">Mt 25,31</ref>:
+    <foreign xml:lang="gr-Latn">Hotan de elthē ho hyios tou anthrōpou en tē doxē autou kai pantes hoi angeloi met' autou, tote kathisei epi thronou doxēs autou</foreign>,
+    »Wenn der Menschensohn in seiner Herrlichkeit kommt und alle Engel mit ihm, wird er sich auf den
+    Thron seiner Herrlichkeit setzen«). Vor seinem furchteinflößenden Thron zu bestehen ist
+    Gegenstand kirchlicher Bittgebete (siehe etwa das Gebet nach der Vorbereitung der Gaben in der
+    Chrysostomos-Liturgie:
+    »<foreign xml:lang="gr-Latn">〈…〉 kai kalēn apologian epi tou phoberou bēmatos tou Christou aitēsometha</foreign>;
+    <foreign xml:lang="ar-Latn">〈…〉 wa-ǧawāban ḥasanan ladā minbari l-masīḥi l-marhūb nasʾal</foreign>;
+    »〈…〉 und eine gute Rechtfertigung vor dem furchterregenden Richterthron Christi erbitten wir«).
+    Das hier angesprochene eschatologische Königtum Gottes wird vor allem im Introitus der
+    Sonntagsliturgie abgerufen (siehe
+    <?oxy_comment_start author="Tobias J. Jocham" timestamp="20230822T095849+0200" comment="Womit verknüpfen?"?>unten<?oxy_comment_end?>).
+    Zu Gott als König siehe <bibl type="zotero" key="zotero-VKPMA39Q">Rippin 2006</bibl>.</p>
+          <p><foreign xml:lang="ar-Latn">Yaum ad-dīn</foreign> entspricht syrisch (Peschitta)
+    <foreign xml:lang="syc-Latn">yōmā de-dīnā</foreign> (siehe dazu <bibl type="zotero" key="zotero-RF8JH6HZ"><hi rend="italic">GdQ I</hi>, S. 113f., Anm. IV</bibl>).
+    <foreign xml:lang="ar-Latn">Yaum ad-dīn</foreign> (<ref type="koran" target="koran-056:056-056:056">Q 56:56</ref>; <ref type="koran" target="koran-070:026-070:026">70:26</ref>)
+    wie auch <foreign xml:lang="ar-Latn">al-yaum</foreign> (<ref type="koran" target="koran-069:035-069:035">Q 69:35</ref>) war bereits frühmekkanisch für den Gerichtstag geläufig. Dagegen
+    wird die Vorstellung vom Königtum Gottes wie auch von seinem Hofstaat erst in mittelmekkanischer
+    Zeit ein zentrales Thema
+    <?oxy_comment_start author="Tobias J. Jocham" timestamp="20230822T104251+0200" comment="Leicht angepaſste Verknüpfungen…"?>(siehe
+    zu <ref type="kommentar" target="kommentar-054:055-054:055">Q 54:55</ref> und <ref type="kommentar" target="kommentar-076:000-076:031">Q 76</ref>)<?oxy_comment_end?>.</p>
+        </div>
+        <div ana="kommentar-005">
+          <p><app><lem>ʾiyyāka naʿbudu wa-ʾiyyāka nastaʿīn]</lem></app> Mit dieser doppelten Wir-Aussage erweist sich
+    der Text explizit als Gebet einer Glaubensgemeinde. Er verstößt damit gegen die für Suren
+    geltende Regel, daß der Sprecher Gott und der Angesprochene/die Angesprochenen der Prophet bzw.
+    seine Gemeinde ist. Gewiß, mit <bibl type="zotero" key="zotero-HDW5LYTG">Devin Stewart (2016)</bibl> ließe
+    sich die besondere Wortstellung (<foreign xml:lang="ar-Latn">ʾiyyāka nastaʿīn</foreign> statt
+    <foreign xml:lang="ar-Latn">nastaʿīnuka</foreign> als durch den nur so zu erreichenden Reim erklären,
+    doch dürften die beiden Litanei-Elemente eher liturgischer Konvention geschuldet sein. Viele
+    ähnlich litaneihafte Anrufungen aus anderen Liturgien ließen sich nennen, etwa aus der
+    Chrysostomos-Liturgie (als Antwort auf das Hochgebet):
+    <foreign xml:lang="gr-Latn">se hymnoumen, se eulogoumen, soi eucharistoumen, kyrie, kai deometha sou, ho theos hēmōn</foreign>
+    (<foreign xml:lang="ar-Latn">ʾiyyāka nusabbiḥ, ʾiyyāka nubārik, ʾiyyāka naškuru yā-rabbanā wa-minka naṭlubu, yā-ʾilāhanā</foreign>;
+    »Dich loben wir, dich preisen wir, dir danken wir, Herr, und an dich richten wir unsere Bitten,
+    unser Gott«), doch entspricht die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> als ganze eher einem
+    Introitusgebet (siehe unten zu »<ref type="inhaltstruktur" target="inhaltstruktur-001:000-001:007">Inhalt und Struktur</ref>«). Zur Position der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> innerhalb
+    des Koran siehe <bibl type="zotero" key="zotero-6I96FAXT"><hi rend="italic">KTS</hi>, S. 192–197</bibl>, zu
+    ihrer liturgischen Funktion siehe unten »<ref type="entwicklungsgeschichtlicheEinordnung" target="entwicklungsgeschichtlicheEinordnung-001:000-001:007">Entwicklungsgeschichtliche Einordnung</ref>«.</p>
+        </div>
+        <div ana="kommentar-006">
+          <p><app><lem>hdina ṣ-ṣirāṭa l-mustaqīm]</lem></app> Das letztlich auf die jüdisch-christliche
+    Zwei-Wege-Lehre zurückverweisende Bild des rechten Weges erhält durch die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> seine Standardformulierung. Es entspricht fast wörtlich
+     <ref type="bibel" subtype="Ps" target="bibel-027:011-027:011">Ps. 27,11</ref>:
+    <foreign xml:lang="hbo-Latn">u-neḥenī be-oraḥ mišōr</foreign> (»und leite mich auf dem geraden Weg«;
+    siehe <bibl type="zotero" key="zotero-RF8JH6HZ"><hi rend="italic">GdQ I</hi>, S. 114, Anm. V</bibl>). Zu
+    <foreign xml:lang="ar-Latn">ṣirāṭ</foreign> – ursprünglich lateinisches Lehnwort aus
+    <foreign xml:lang="lat-Latn">strata via</foreign> (»geebnete Straße«) – siehe <bibl type="zotero" key="zotero-Z468GCXQ"><hi rend="italic">FVQ</hi>, S. 196f.</bibl> Damit verweist das Wort auf
+    das aus der Anschauung bekannte römische Straßensystem, wo sich Heerstraßen in gerader Linie
+    durch weite Landstriche ziehen. Der metaphorische Gebrauch des Wortes sollte aber bereits üblich
+    gewesen sein. Denn der Ausdruck <foreign xml:lang="ar-Latn">ṣirāṭ mustaqīm</foreign> wird in <ref type="koran" target="koran-015:041-015:041">Q 15:41</ref> noch vorterminologisch im Sinne
+    von »rechtes Vorgehen« in einer Auseinandersetzung Gottes mit Iblīs, dem Menschenverführer,
+    gebraucht: <foreign xml:lang="ar-Latn">hāḏā ṣirāṭun ʿalayya mustaqīm</foreign> (»das ist mir ein
+    gerader Weg«, <ref type="koran" target="koran-015:041-015:041">Q 15:41</ref>); erst nach der
+    Durchsetzung der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> wird er offenbar für die göttliche
+    Leitung der Menschen insgesamt reserviert.</p>
+        </div>
+        <div ana="kommentar-007">
+          <p><app><lem>ṣirāṭa llaḏīna ʾanʿamta ʿalaihim ġairi l-maġḍūbi ʿalaihim wa-la ḍ-ḍāllīn]</lem></app> Die mit
+    Konkatenation an den vorausgehenden Vers angeschlossene Spezifizierung des rechten Weges dient
+    der Abgrenzung gegen konkurrierende Gruppen, die gleichfalls als auf einem Wege zu Gott
+    vorgestellt werden, deren Zuordnung aber nicht unproblematisch ist. Die erste Gruppe,
+    <foreign xml:lang="ar-Latn">allaḏīna ʾanʿamta ʿalaihim</foreign> (»die, denen du Huld er- wiesen
+    hast«), ist nicht eindeutig zu bestimmen; die Formulierung bezeichnet anderswo (z.B. <ref type="koran" target="koran-019:058-019:058">Q 19:58</ref>) von Gott ausgezeichnete
+    Gerechte allgemein, hier könnte aber speziell an die in Mittelmekka in den Vordergrund tretenden
+    Christen gedacht sein, deren Geschichten in mittelmekkanischer Zeit im Zentrum des Interesses
+    stehen und deren Protagonisten explizit mit göttlicher Huld oder Barmherzigkeit in Verbindung
+    gebracht werden, so etwa Zacharia, dessen Geschichte als Hulderweis eingeführt wird
+    (<foreign xml:lang="ar-Latn">ḏikru raḥmati rabbika ʿabdahū Zakariyyā</foreign>, »Gedacht sei deines
+    Herrn Barmherzigkeit an seinem Diener Zacharia«, <ref type="koran" target="koran-019:002-019:002">Q 19:2</ref>). In <ref type="koran" target="koran-019:058-019:058">Q
+     19:58</ref>, einem medinischen Zusatz, werden unter den ›mit Huld Bedachten‹
+    (<foreign xml:lang="ar-Latn">allaḏīna ʾanʿama llāhu ʿalaihim</foreign>) die Christen besonders
+    hervorgehoben:
+    <foreign xml:lang="ar-Latn">ʾiḏā tutlā ʿalaihim ʾāyātu r-Raḥmāni ḫarrū suǧǧadan wa-bukiyyā</foreign>
+    (»die, denen Gott Huld˙erwiesen hat, die, werden ihnen die Verse des Erbarmers vorgetragen,
+    weinend in tiefer Ergebung niederfallen«), siehe den <ref type="kommentar" target="kommentar-019:000-019:098">Kommentar zur Sure</ref>. Ebenso kann aber auch generell an von Gott
+    ausgezeichnete monotheistische Vorläufer der Gemeinde gedacht sein.</p>
+          <p>Sollte die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> – wie Nöldeke (<bibl type="zotero" key="zotero-RF8JH6HZ"><hi rend="italic">GdQ I</hi>, S. 110–117</bibl>) vertritt – an christliche Traditionen
+    anknüpfen, so würde die zweitgenannte Gruppe ursprünglich auf die Juden zielen, die in der
+    christlichen Polemik stereotyp als dem Zorn Gottes verfallen figurieren. Auch innerkoranisch
+    verbindet sich die Vorstellung des Gotteszorns im allgemeinen mit den Juden. Dieses Bild der
+    Juden findet sich jedoch erst in Medina (siehe <bibl type="zotero" key="zotero-2CCTUCDB">Neuwirth
+    2004</bibl>), und auch dort wird es nicht zu einem koranischen Stereotyp. Die Identifizierung
+    der Zornbelasteten mit den Juden wäre daher in der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> für
+    die Zeit ihrer Erstverkündigung ein Anachronismus. Die Formulierung reflektiert vielleicht die
+    Aufnahme eines vorgefundenen Topos, jedoch unter Ausblendung der religionspolitischen Spitze;
+    denn gegnerische Juden treten in mittelmekkanischer Zeit noch gar nicht in den Horizont der
+    Gemeinde. Die Ausfüllung dieser Kategorie bleibt also dem Hörer/Leser überlassen. –
+    <foreign xml:lang="ar-Latn">Aḍ-ḍāllīn</foreign> (»die Irregehenden«) ist dagegen in Mittelmekka als
+    Standardbezeichnung für die paganen Gegner eindeutig, so schon frühmekkanisch, siehe z.B. <ref type="koran" target="koran-056:051-056:051">Q 56:51</ref>, <ref type="koran" target="koran-056:092-056:092">92</ref>.</p>
+          <p>Das Gebet wäre – so verstanden – eine an christliche Vorbilder angelehnte Neuformulierung
+    eines Gemeindegebets. Die Verwandtschaft zum christlichen Vaterunser (<ref type="bibel" target="bibel-018:001-018:110">Mt 6,9–13</ref>) ist früh betont worden (siehe <bibl type="zotero" key="zotero-MSJZPB92">Winkler 1928</bibl> und <bibl type="zotero" key="zotero-M45CCQP2">Goitein
+    2009</bibl>). Wenn das Vaterunser auch nicht mit einer Doxologie beginnt, sondern mit einer
+    Anrufung, wie sie in der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> erst in <ref type="koran" target="koran-001:006-001:006">V. 6</ref> erfolgt, so teilt es doch den Gedanken der
+    eschatologischen Gottesherrschaft (man vergleiche zu
+    <foreign xml:lang="ar-Latn">māliki yaumi d-dīn</foreign> »Dein Reich komme«, arab.
+    <foreign xml:lang="ar-Latn">li-yaʾtiya malakūtuk</foreign>, syr.
+    <foreign xml:lang="syc-Latn">tithe malkūthaḫ</foreign>) ebenso wie die dichotomisch formulierte
+    Ausgrenzung des Bösen (man vergleiche zu
+    <foreign xml:lang="ar-Latn">ṣirāṭa llaḏīna ʾanʿamta ʿalaihim ġairi l-maġḍūbi ʿalaihim wa-la ḍ-ḍāllīn</foreign>
+    »und führe uns nicht in Versuchung, sondern erlöse uns von dem Bösen«,
+    <foreign xml:lang="gr-Latn">kai mē eisenengkeis hēmas eis peirasmon alla rysai hēmas apo tou ponērou</foreign>,
+    arab. <foreign xml:lang="ar-Latn">wa-lā tudḫilnā fī taǧribah lākin naǧǧinā mina š-širrīr</foreign>,
+    syr. <foreign xml:lang="syc-Latn">we-lā taʿlan le-nesyōnā, ellā pasan men bishā</foreign>). <bibl type="zotero" key="zotero-5HHNN7MF">Martin Bauschke (2013:67–69)</bibl> betont noch stärker als Winkler, daß
+    mit der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> »eine authentische Auseinandersetzung Muhammeds
+    mit Christus« vorliege; »die anonymen Spuren Jesu im Koran 〈…〉 lassen sich bis in das islamische
+    Hauptgebet hinein verfolgen« (<bibl type="zotero" key="zotero-5HHNN7MF">S. 69</bibl>).</p>
+          <p>Aus einer theologischen Perspektive stellt sich die Lage differenzierter dar: Da, wo es im
+    Christentum um die Erlösung von der Sünde geht, erweist sich im Koran das Wahren des rechten
+    Pfades als heilsrelevant. Es geht in beiden Texten also um eine unterschiedliche Wahrnehmung des
+    Bösen. Josef van Ess hat auf die ganz verschiedene Verortung des Bösen in beiden Texten
+    hingewiesen: in der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> bei einer unser in der Seele des
+    einzelnen Menschen, die vor Versuchung bewahrt werden muß (siehe <bibl type="zotero" key="zotero-KDB6ATM5">van Ess 1984</bibl>). Theologisch verfolgt die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> eine
+    andere Richtung als das Vaterunser.</p>
+          <p>Ganz geht die Gleichung zwischen den beiden Texten also nicht auf; man wird das Hauptargument
+    für die Ähnlichkeit der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> mit dem Vaterunser daher am
+    ehesten auf die gemeinsame Gattung des Gemeindegebets begrenzen.</p>
+          <p>Aber ist die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> wirklich nur ein Gebet? Deutliche
+    Parallelen bestehen au˙ch zwischen ihr und dem kirchlichen Gottesdiensteinsatz wie in der
+    Chrysostomos- und der Basilios-Liturgie, dem Introitus, bei dem die Doxologie ja auch in ein
+    Gebet einmündet. Die entscheidenden liturgiegeschichtlichen Beobachtungen hat Anton Baumstark
+    vorgetragen, der im Kontext seines Versuchs, die koranischen Gotteslobformeln typologisch
+    einzuordnen, eine monotheistische ›Genealogie‹ auch für die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> rekonstruieren kann. Ihr Anfang bildet nach <bibl type="zotero" key="zotero-KG7QBP8V">Baumstark (1927: 242–248)</bibl> in Formelhaftigkeit und Struktur einen
+    altchristlichen Lobpreis ab, die Doxologie des griechischen Tagzeitengebets – dem Gloria in
+    excelsis der lateinischen Messe entsprechend –, die wie die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> selbst ein Herzstück der täglich zelebrierten Liturgie
+    ist. Denn geht man davon aus, daß, wie in einzelnen Riten bis heute üblich, die
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> im Kultus ohne die
+    <foreign xml:lang="ar-Latn">Basmala</foreign> auskommt, so lautet der Anfang des Gebetsrituals
+    <foreign xml:lang="ar-Latn">al-ḥamdu li-llāhi rabbi l-ʿālamīn</foreign>. Dies entspricht – in
+    universalistische Diktion überführt – der Doxologie, mit der etwa die Chry- sostomos- und die
+    Basilios-Liturgie beginnen:
+    <foreign xml:lang="gr-Latn">eulogēmenē hē basileia tou patros kai tou hyiou kai tou hagiou pneumatos, nyn kai aiei kai eis tous aiōnas tōn aiōnōn</foreign>
+    (»Gepriesen sei das Königtum des Vaters und des Sohnes und des Heiligen Geistes, jetzt und immer
+    und in alle Ewigkeit«). In beiden Liturgien, der koranischen wie auch der ostkirchlichen, haben
+    wir einen hymnischen Einsatz vor uns, der in der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> durch
+    zwei mehrgliedrige Prädikationen <ref type="koran" target="koran-001:002-001:003">(V. 2 und
+     3)</ref> fortgeführt wird. In der griechischen Liturgie füllt er dagegen einen komplexen Satz,
+    der zusammen mit dem unmittelbar folgenden antiphonisch respondierenden
+    <foreign xml:lang="gr-Latn">kyrie eleēson</foreign> (»Herr, erbarme dich«) alle wesentlichen Elemente
+    des ersten Teils der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> enthält: die Preisung
+    (<foreign xml:lang="gr-Latn">eulogein</foreign> - <foreign xml:lang="ar-Latn">ḥamida</foreign>); den Verweis
+    auf das eschatologische Königtum (<foreign xml:lang="gr-Latn">basileia tou theou</foreign> –
+    <foreign xml:lang="ar-Latn">mālik yaum ad-dīn</foreign>, <ref type="koran" target="koran-001:004-001:004">V. 4</ref>) bzw. die Herrschaft über Jetztzeit und Ewigkeit
+    (<foreign xml:lang="gr-Latn">[nyn kai aei kai] eis tous aiōnas tōn aiōnōn</foreign> –
+    <foreign xml:lang="ar-Latn">rabbi l-ʿālamīn</foreign>, <ref type="koran" target="koran-001:002-001:002">V. 2</ref>) bzw. den Gedanken der Barmherzigkeit
+    (<foreign xml:lang="gr-Latn">kyrie eleēson</foreign> –
+    <foreign xml:lang="ar-Latn">ar-raḥmān ar-raḥīm</foreign>, <ref type="koran" target="koran-001:003-001:003">V. 3</ref>); und eschatologische Königtum
+    (<foreign xml:lang="gr-Latn">hē basileia tou theou</foreign> – <foreign xml:lang="ar-Latn">mālik yaum ad-dīn</foreign>
+    <ref type="koran" target="koran-001:004-001:004">V. 4</ref>).</p>
+          <p>Ähnliche Parallelen lassen sich zwischen dem zweiten Teil der
+    <foreign xml:lang="ar-Latn">Fātiḥa</foreign> und der – in der Liturgie an den Hymnus anschließenden -
+    Ektenie, einem Bittgebet, nachweisen (siehe Neuwirth, <bibl type="zotero" key="zotero-BCNMF6E3">Neuwirth
+     1991</bibl>), so daß die Annahme, die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> stehe als
+    Gottesdiensteinleitung in der Tradition älterer Gottesdienstanfangsteile – neben der von <bibl type="zotero" key="zotero-MSJZPB92">Winkler</bibl> und <bibl type="zotero" key="zotero-M45CCQP2">Goitein</bibl>
+    vertretenen Hypothese, die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> sei ein islamisches Vaterunser
+    –, erheblich an Plausibilität gewinnt. Die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> dürfte während
+    des Prozesses der Korangenese beide Funktionen, die eines Gemeindegebets und die des
+    Eingangsteils einer Liturgie, besetzt haben. Sie markiert damit einen wichtigen Schritt in der
+    Gemeindeentwicklung.</p>
+        </div>
+      </div>
+      <div resp="an" type="analysedeutung">
+        <ab type="title"/>
+        <div type="EntwicklungsgeschichtlicheEinordnung">
+          <ab type="title"/>
+          <p>Die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> chronologisch einzuordnen ist schwierig. Da aber
+     bereits die frühesten mittelmekkanischen Suren Anklänge an sie aufzuweisen scheinen (siehe die
+     Kommentare zu <ref type="koran" target="koran-054:055-054:055">Q 54:55</ref> und <ref type="koran" target="koran-037:087-037:087">37:87</ref>, <ref type="koran" target="koran-037:118-037:118">118</ref>, <ref type="koran" target="koran-037:182-037:182">182</ref>), erscheint es berechtigt, sie ganz an den Anfang zu stellen.</p>
+          <p>Sie gehört offenbar eng mit <ref type="koran" target="koran-015:000-015:099">Q 15</ref>
+     zusammen, wo in triumphalem Ton das Vorliegen von
+     <foreign xml:lang="ar-Latn">sabʿan mina l-maṯānī</foreign> (»sieben Wiederholverse« oder wörtlich
+     »sieben Wiederholte«) konstatiert wird. Daß mit diesen nur die
+     <foreign xml:lang="ar-Latn">Fātiḥa</foreign> gemeint sein kann, wird durch zahlreiche
+     <foreign xml:lang="ar-Latn">Fātiḥa</foreign>-Referenzen in <ref type="koran" target="koran-015:000-015:099">Q 15</ref> nahegelgt. Wären tatsächlich, wie die Mehrzahl der kritischen
+     Forscher gegen die einstimmige islamische Tradition annimmt, mit »den sieben Wiederholten«
+     (<foreign xml:lang="ar-Latn">maṯānī</foreign>) sieben Straflegenden gemeint (siehe zu dieser
+     Hypothese <bibl type="zotero" key="zotero-D4MWQ4HG">Rubin 2006</bibl>; <bibl type="zotero" key="zotero-TJNE7TP3"><hi rend="italic">KU</hi></bibl>; <bibl type="zotero" key="zotero-28ANAHPR">Paret 1965</bibl>, so müßte man <ref type="koran" target="koran-015:000-015:099">Q 15</ref> wesentlich später datieren, da in
+     der mittelmekkanischen <foreign xml:lang="ar-Latn">Raḥmān</foreign>-Periode noch keine sieben solcher
+     Legenden vorliegen. Auch bliebe der Verweis auf gerade sieben solcher koranischer Erzählungen
+     gänzlich unbegründet und würde kaum eine so triumphale Erwähnung der
+     <foreign xml:lang="ar-Latn">maṯānī</foreign>, der »Wiederholten«, als ein Textcorpus <hi rend="italic">zusätzlich</hi> zum Koran
+     (<foreign xml:lang="ar-Latn">sabʿan mina l-maṯānī wa-l-qurʾān</foreign>) rechtfertigen. Die hier
+     entscheidende Beobachtung ist aber die, daß die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> selbst,
+     deren Einzelelemente in mehreren frühmittelmekkanischen Suren ›zitiert‹ werden, in <ref type="koran" target="koran-015:000-015:099">Q 15</ref> mit nicht weniger als sieben
+     Reminiszenzen evoziert wird (siehe Neuwirth, <bibl type="zotero" key="zotero-BCNMF6E3">Neuwirth
+     1991</bibl>), so daß von einer sehr engen Verbindung zwischen beiden Texten ausgegangen werden
+     kann (vgl. <bibl type="zotero" key="zotero-4WEWN8NZ"><hi rend="italic">SKMS</hi>, S. 340f.</bibl>). Wenn nun
+     die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> in <ref type="koran" target="koran-015:087-015:087">Q 15:87</ref> – wie wir mit der islamischen Tradition annehmen – als bereits
+     in Umlauf befindlich attestiert wird, muß sie älter sein als <ref type="koran" target="koran-015:000-015:099">Q 15</ref>. Sie scheint auch in den ersten
+     mittelmekkanisch eingeordneten <ref type="koran" target="koran-054:000-054:055">Suren
+      54</ref> und <ref type="koran" target="koran-037:000-037:182">37</ref> bereits anzuklingen
+     <?oxy_comment_start author="Tobias J. Jocham" timestamp="20230822T204057+0200" comment="Sollte übearbeitet werden…"?>(siehe
+     den <ref type="kommentar" target="kommentar-054:000-055:000">Kommentar zu diesen
+     Suren</ref>)<?oxy_comment_end?>, so daß wir ihre Formulierung schon früher, noch vor der
+     allgemeinen Durchsetzung des Gottesnamens <foreign xml:lang="ar-Latn">ar-Raḥmān</foreign> – d.h. vor
+     der Verkündigung der <foreign xml:lang="ar-Latn">Raḥmān</foreign>-Suren (<ref type="koran" target="koran-019:000-019:098">Q 19</ref>, <ref type="koran" target="koran-020:000-020:135">20</ref>, <ref type="koran" target="koran-021:000-021:112">21</ref>, <ref type="koran" target="koran-025:000-025:077">25</ref>, <ref type="koran" target="koran-036:000-036:083">36</ref>, <ref type="koran" target="koran-043:000-043:089">43</ref>, <ref type="koran" target="koran-067:000-067:030">67</ref>) –, anzusetzen haben.</p>
+          <p>Das bedeutet, daß die sich in Mittelmekka herausbildende Wahrnehmung, eine durch göttliche
+     Erwählung ausgezeichnete Gemeinde zu sein, der Ausschnitte aus der himmlischen Schrift
+     vorgetragen werden, sich schon früh mit dem neuen Bewußtsein verbindet, zusätzlich zur
+     Koranrezitation noch ein wichtiges zweites liturgisches Textkorpus zu besitzen: ein
+     Gemeindegebet oder doch einen formalen Gottesdiensteinsatz. Denn beides, gemeindliches
+     Selbstbewußtsein und eine tragfähige Gottesdienststruktur, gehören zusammen. Mit der
+     <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ist nun ein Element gegeben, das anders als die
+     Rezitation der Suren der Gemeinde selbst eine Stimme verleiht. Man kann daher in der
+     <foreign xml:lang="ar-Latn">Fātiḥa</foreign> sowohl eine Entsprechung zum christlichen Vaterunser
+     sehen (siehe <bibl type="zotero" key="zotero-MSJZPB92">Winkler 1928</bibl> und <bibl type="zotero" key="zotero-M45CCQP2">Goitein 1966</bibl>) als auch eine Reformulierung dessen, was im christlichen Gottesdienst
+     als Introitus am Anfang steht.</p>
+          <p>Daß die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> – obwohl ein offenkundig mündlicher Gebetstext
+     – in der Forschung bisher stets als Teil des kodifizierten Koran, als eine der
+     Offenbarungen/Verkündigungen, wahrgenommen und nicht als erst redaktionell dem Kodex als eine
+     Art Proömium vorangestellter Paralleltext zu ihm erkannt worden ist, erklärt sich aus der
+     vorherrschenden Sicht auf den Koran als einen schriftlich verfaßten Text, nicht aber als ein
+     Corpus von liturgischen Vortragstexten, die im Gottesdienst auf weitere komplementäre Texte
+     angewiesen sind.</p>
+        </div>
+        <div type="Inhaltstruktur">
+          <ab type="title"/>
+          <p>Der kurze Text beginnt (<ref type="koran" target="koran-001:002-001:002">V. 2</ref>) mit
+     einer Doxologie, die Gott zuerst unter Rekurs auf ein bereits vorliegendes monotheistisches
+     Formular als den Herrn der Welten, d.h. der diesseitigen wie auch der jenseitigen preist. Als
+     zweite Preisung (<ref type="koran" target="koran-001:003-001:003">V. 3</ref>) erscheint fast
+     antithetisch zu dem Allmachtgedanken die in der – vielleicht kurz vorher eingeführten –
+     <foreign xml:lang="ar-Latn">Basmala</foreign> thematisierte Prädikation Gottes als barmherziger
+     Erbarmers. Damit ist das die <foreign xml:lang="ar-Latn">Raḥmān</foreign>-Phase beherrschende Bild
+     von Gott als einem emotional am Schicksal der Menschen beteiligten, mitfühlenden Gott
+     eingeblendet, in dessen Händen laut der dritten Prädikation (<ref type="koran" target="koran-001:004-001:004">V. 4</ref>) das gerechte Urteil am Jüngsten Tag liegt.
+     Seine aus der rabbinischen Tradition geläufigen Eigenschaften (strafende) Gerechtigkeit
+     (<foreign xml:lang="hbo-Latn">middat ha-dīn</foreign>) und Huld
+     (<foreign xml:lang="hbo-Latn">middat ha-ḥesed</foreign>) wiegen einander auf (siehe dazu <bibl type="zotero" key="zotero-7FCFFUC2">Grözinger 1980</bibl>). Obwohl der Gottesname
+     <foreign xml:lang="ar-Latn">Raḥmān</foreign> selbst als Eigenname aus dem zeitweise
+     jüdisch-christlich geprägten Südarabien nach Nordarabien gelangt sein sollte, dürfte er der
+     Gemeinde durch liturgische Kontexte bereits bekannt geworden und von ihr als sprechender Name
+     rezipiert worden sein, der durch eine nachgestellte Übersetzung
+     (<foreign xml:lang="ar-Latn">raḥīm</foreign>) als Bezeichnung eines den Menschen barmherzig
+     zugewandten Gottes gewissermaßen eindeutig gemacht wurde. Erst danach folgt (<ref type="koran" target="koran-001:005-001:005">V. 5</ref>) die Selbstidentifikation der Sprecher als
+     Gottesdiener und auf die Hilfe Gottes Hoffender. Denn die
+     <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ist kein freier Hymnus wie etwa <ref type="koran" target="koran-017:001-017:001">Q 17:1</ref>:
+     <foreign xml:lang="ar-Latn">subḥāna llaḏī ʾasrā bi-ʿabdihī 〈…〉</foreign> (»Gepriesen sei, der nachts
+     seinen Diener ausziehen ließ 〈…〉«), sondern ein Text im Munde menschlicher Sprecher, die ihr
+     eigenes Gebet vortragen. Das anaphorische <foreign xml:lang="ar-Latn">ʾiyyāka</foreign> (<ref type="koran" target="koran-001:005-001:005">V. 5</ref>) betont die Exklusivität des
+     Angerufenen, der anders als im Fall der paganen <foreign xml:lang="ar-Latn">mušrikūn</foreign>, die
+     Gott zwar in extremen Situationen um Hilfe rufen, ihm aber nicht dienen (vgl. <ref type="koran" target="koran-017:067-017:067">Q 17:67</ref>), Adressat sowohl von Hilferufen als auch
+     von Gottesdienst ist (siehe dazu <bibl type="zotero" key="zotero-HAWEGFU2">Ammann 2001:25–29</bibl>).</p>
+          <p>An diese im Zentrum stehende Affirmation der Alleinverehrung Gottes schließt die Bitte um
+     Rechtleitung an (<ref type="koran" target="koran-001:007-001:007">V. 7</ref>). Der hier
+     erhoffte »gerade Weg« (<ref type="koran" target="koran-001:006-001:006">V. 6</ref>) soll
+     demjenigen der bereits von Gott mit Huld bedachten Vorläufer folgen. Diese werden nicht
+     explizit gemacht und dürften zur Zeit der Entstehung der <foreign xml:lang="ar-Latn">Fātiḥa</foreign>
+     auch unbestimmt intendiert gewesen sein. Erst später – mit der Herausbildung von
+     Kollektivbildern – ließen sich die Zielgruppen <foreign xml:lang="lat-Latn">ex silentio</foreign>
+     erschließen. Doch wurde die allgemeinere Deutung der mit Huld Bedachten im Sinne von positiven
+     monotheistischen Vorläufern, den dem Zorn Verfallenen im Sinne von negativen Vorläufern und den
+     Irrenden im Sinne von Nichtmonotheisten in der Exegese ebenfalls aufrechterhalten.</p>
+          <p>Auffallend sind die neuen Prädikationen Gottes zum einen als barmherziger Erbarmer, eine
+     Eigenschaft, die den Text in die Nähe zu <foreign xml:lang="ar-Latn">Sūrat Maryam</foreign> (<ref type="koran" target="koran-019:000-019:098">Q 19</ref>) rückt, in der
+     <foreign xml:lang="ar-Latn">raḥma</foreign> (»Barmherzigkeit«) und Derivate von
+     <foreign xml:lang="ar-Latn">raḥma</foreign> besonders zahlreich sind, zum anderen die von Gott als
+     eschatologischer Herrscher, der das in der christlichen Johannesapokalypse entfaltete Bild
+     evoziert.</p>
+          <p>Die <foreign xml:lang="ar-Latn">Fātiḥa</foreign> ist einer der wenigen Korantexte, bei denen die
+     Gattung und damit die performative Funktion – Gemeindegebet oder gemeindlich gesprochener
+     Introitus – den Schlüssel zur Kontextualisierung liefert. Der Text ist nicht nur semantisch,
+     sondern vor allem liturgisch mit anderen prominenten Texten der Spätantike verwandt, deren
+     Einsatz mit einem Ausruf sich – nach Abtrennung der <foreign xml:lang="ar-Latn">Basmala</foreign> -
+     in der <foreign xml:lang="ar-Latn">Fātiḥa</foreign> reflektiert.</p>
+        </div>
+        <div type="Situativität">
+          <ab type="title">Sprecher-Hörer-Interaktion; Autorisierung</ab>
+          <p>Der gesamte Text ist Rede der Hörergemeinde. Die Ballung der Gottesepitheta (<ref type="koran" target="koran-001:002-001:004">V. 2–4</ref>) setzt bereits die Bekanntheit der Hörer mit
+     einem sowohl gnädigen als auch gerechten Gott voraus; Gottes doppelte Selbstmanifestation als
+     barmherzig und strafend (<foreign xml:lang="hbo-Latn">middat ha-dīn/middat ha-ḥesed</foreign>) wird
+     in mehreren frühmittelmekkanischen Suren fokussiert.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

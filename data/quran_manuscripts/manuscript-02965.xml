@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2965">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 208 [= Karatay 85]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 208 [= Karatay 85]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>  </p>
+              <p>350(?) fol.; Writing surface: paper; Shelfmark: E. H. 208; Qurʾānic Text: Q 2:30-69:46; 19 lines per page; Dimensions: 180 x 255mm; Script style: kūfī.</p>
+              <p> </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p> </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962) </ref>describes the manuscripts as follows, p. 28: "85 E. H. 208. Aynı. Esmer kâğıt. 255mm boy ve 180mm eninde 350mm[?] yaprak. Sahifede V- VI asır kûfi yazısı ile 115mm uzunl.[uğunda] 19 satır. Miklep ve şemseli kahve rengi deri cilt. Baş tarafınba halife ʿOs̱man’ın hattı ile olduğuna dair bir çok yazı varsa da mushafın birinci asır yazısı ile olmadığı âşıkârdır. Bu ciltte Kur’an’ın Baḳara (2) suresinin 30. ayetinin أتجعل فيها kelimesinden Ḥāḳḳa (69) suresinin 46. ayetinin sonuna kadardır."</p>
+              <p> </p>
+              <p>This can be translated as follows: "85 E. H. 208. Same. Brown paper. 350[?] leaves of 255 mm height and 180 mm width. The text area written in Kufic script from the 5th to 6th century [contains] 19 lines measuring 115 mm. Brown leather binding with flap (miklep) and mandorla (şemse). While there are many writings at the beginning, regarding it is in the handwriting of Caliph ʿUthmān, it is obvious that it is not the first-century script of the Qurʾān. This part is from the word أتجعل فيها of Q 2:30 (Sūra al-Baqara) until the end of Q 69:46 (Sūra al-Ḥāḳḳa).”</p>
+            </summary>
+            <msItem xml:id="mysql_id_712348" n="1">
+              <title type="numeric" key="002:030:011-069:046:004">
+                                    002:030:011-069:046:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 350
+                                    <dimensions unit="mm"><width>180</width><height>255</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="19">19 - 19 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Ayşenur Elif Ünal Şahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_99811">
+                    </surface>
+  </facsimile>
+</TEI>

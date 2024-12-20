@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber de Haeresibus CXLVII</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1237" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1237</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Im Koran werden verschiedene Episoden aus der Lebensgeschichte Abrahams erzählt (wie z.B. seine Auserwählung von Gott und die Errichtung eines Gebetshaus [Q 2:124-136] oder die Opferung seines Sohnes [37:101-113]). Eine theologisch prägnante Episode ist die Geschichte der Zerstörung der Götzen (Q 37:93), die kurz aber bedeutungsträchtig erzählt wird. Abrahams Zerstörung der Götzenstatuen seines Vaters ist eine Geschichte, die in verschiedenen Variationen sowohl in der jüdischen als auch in der christlichen Tradition bekannt ist, vor allen in Texten, wie Genesis Rabba, dem Buch der Jubiläen, der Apokalypse Abrahams und Hieronymus (vgl. TUK_0660, TUK_0673; TUK_0675; TUK_0456, TUK_1238). Diese Episode, die im biblischen Text nicht enthalten ist, findet sich aber im häresiologischen Katalog von Philastrius, Bischof von Brescia in Italien aus dem vierten Jahrhundert. Die beiläufige Erwähnung der Geschichte in diesem Werk bezeugt ihre Popularität und Verbreitung in der christlichen Literatur der Spätantike.
+</summary>
+            <msItem>
+              <title>Liber de Haeresibus CXLVII</title>
+              <author>Philastrius von Brescia</author>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 370-380 n.Chr.</origDate>
+              <origPlace>Italien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Sancti Philastrii, Liber de Haeresibus, Migne Patrologia Latina 12:1280-1281</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Emmanouela Grypeou</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>
+	Sunt quidam haeretici non intelligentes quod dicit Scriptura: Diis alienis non maledicetis (Exod. XXIII, 28). Et ita observant, putantes de vanitate paganorum dixisse, atque ita sentientes non parvum salutis suae sustinent detrimentum. Cum enim Moses dicat: Templa eorum destruetis, idola frangetis (Exod. XXXIV, 13) ; et Abraham beatissimus frangens idola iustificatus est; et Gedeon (Iudic. VI, 28) nocte incendens idola, et frangens ...
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Es gibt einige Häretiker, die nicht verstehen, was die Schrift sagt: du sollst andere Götter nicht verfluchen. Und indem sie das beachten, denken sie, dass dies die Eitelkeit der Heiden betrifft, und so fühlen sie sich, dass ihre eigene Erlösung darunter gar nicht leidet . Denn als Moses sagte: Ihre Altäre sollt ihr vielmehr niederreißen, ihre Steinmale zerschlagen (siehe Ex 34, 13.); der selige Abraham war im Recht die  Idole zu zerschlagen; und Gideon (Richter 6, 28) verbrannt in der Nacht, das Verbrennen die Götzen und zerschlag sie... 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

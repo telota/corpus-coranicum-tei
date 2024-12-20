@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1012">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 35</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 35</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>François Déroche schreibt zum Fragment KFQ 35 (Déroche,  <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, S. 77): "26 / Single folio / Mid-9th century AD or later / Fragmentary (largest dimensions now 16.5 x 26 cm), with 5 lines to the page / <hi rend="italic">Material</hi> Parchment, badly stained; the recto is the hair side / <hi rend="italic">Text area</hi> 10.3x20.7cm / <hi rend="italic">Script</hi> Style D.III / <hi rend="italic">Accession no</hi>. KFQ35 / <hi rend="italic">Comparative item</hi> The script is very close to that of Istanbul, Topkapı Palace Library, MS.R.II (Karatay 1962, no.20) / This folio contains <hi rend="italic">Sūrat al-najm</hi> (LIII), verses 6-11. The text is written in brown ink, and the diacriticals are later additions. The red dots indicate the vocalization, while the green dots may indicate prolongation of <hi rend="italic">alif</hi>. The verses are punctuated by 2.2.3 C and 2.2.3 D devices, except at the end of verse 10, where there is a circle of dots. The remains of a complementary ornament rendered in two colours of gold can be seen in the margins.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_686849" n="1r">
+              <title type="numeric" key="053:006:001-053:009:003">
+                                    053:006:001-053:009:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686850" n="1v">
+              <title type="numeric" key="053:009:003-053:011:003">
+                                    053:009:003-053:011:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>260</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_46857">
+      <graphic decls="#imageRights-1" url="manuscript/1012/37d89d64-ab91-40ca-b119-34b9110faef1/manuscript-1012-page-46857-image-32676.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_46856">
+      <graphic decls="#imageRights-1" url="manuscript/1012/d065edf5-e850-466d-b70f-956fbb593d7b/manuscript-1012-page-46856-image-32677.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

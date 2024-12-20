@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hiob 1:6-12</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_411" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>411</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 7:14-18, 17:61-65 und Q 38:77-85 schildern, wie Iblīs aufgrund seiner Weigerung, sich vor Adam niederzuwerfen, aus dem Paradies verstoßen wird und daraufhin ankündigt, er werde von nun an die Menschen - ausgenommen Gottes "auserwählte Knechte" - in Versuchung führen und "abirren lassen". Wohl nicht ganz zu Unrecht assoziiert Thyen 1989: p. 258-259 diese Stelle mit Hiob 1:12, wo der Satan von Gott die Erlaubnis erhält, zu versuchen, Hiob durch eine Reihe von Schicksalsschlägen zum Abfall von Gott zu verführen. Von der Verführung der Menschen durch den Satan sprechen auch Q 4:117-120 und Q 34:20-21. Vgl. dazu auch TUK_0919, TUK_0920, TUK_1098.
+</summary>
+            <msItem>
+              <title>Hiob 1:6-12</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5.-2. Jh. v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Bibel und Koran: eine Synopse gemeinsamer &amp;#xDC;berlieferungen: Bo&amp;#x308;hlau, Ko&amp;#x308;ln 1989.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיְהִי הַיּוֹם וַיָּבֹאוּ בְּנֵי הָאֱלֹהִים לְהִתְיַצֵּב עַל־יְהוָה וַיָּבוֹא גַם־הַשָּׂטָן בְּתוֹכָם : וַיֹּאמֶר יְהוָה אֶל־הַשָּׂטָן מֵאַיִן תָּבֹא וַיַּעַן הַשָּׂטָן אֶת־יְהוָה וַיֹּאמַר מִשּׁוּט בָּאָרֶץ וּמֵהִתְהַלֵּךְ בָּהּ : וַיֹּאמֶר יְהוָה אֶל־הַשָּׂטָן הֲשַׂמְתָּ לִבְּךָ עַל־עַבְדִּי אִיּוֹב כִּי אֵין כָּמֹהוּ בָּאָרֶץ אִישׁ תָּם וְיָשָׁר יְרֵא אֱלֹהִים וְסָר מֵרָע : וַיַּעַן הַשָּׂטָן אֶת־יְהוָה וַיֹּאמַר הַחִנָּם יָרֵא אִיּוֹב אֱלֹהִים : הֲלֹא־אַתָּ שַׂכְתָּ בַעֲדוֹ וּבְעַד־בֵּיתוֹ וּבְעַד כָּל־אֲשֶׁר־לוֹ מִסָּבִיב מַעֲשֵׂה יָדָיו בֵּרַכְתָּ וּמִקְנֵהוּ פָּרַץ בָּאָרֶץ : וְאוּלָם שְׁלַח־נָא יָדְךָ וְגַע בְּכָל־אֲשֶׁר־לוֹ אִם־לֹא עַל־פָּנֶיךָ יְבָרֲכֶךָּ :  וַיֹּאמֶר יְהוָה אֶל־הַשָּׂטָן הִנֵּה כָל־אֲשֶׁר־לוֹ בְּיָדֶךָ רַק אֵלָיו אַל־תִּשְׁלַח יָדֶךָ וַיֵּצֵא הַשָּׂטָן מֵעִם פְּנֵי יְהוָה :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	6 Nun geschah es eines Tages, da kamen die Gottessöhne, um vor den Herrn hinzutreten; unter ihnen kam auch der Satan. 7 Der Herr sprach zum Satan: Woher kommst du? Der Satan antwortete dem Herrn und sprach: Die Erde habe ich durchstreift, hin und her. 8 Der Herr sprach zum Satan: Hast du auf meinen Knecht Ijob geachtet? Seinesgleichen gibt es nicht auf der Erde, so untadelig und rechtschaffen, er fürchtet Gott und meidet das Böse. 9 Der Satan antwortete dem Herrn und sagte: Geschieht es ohne Grund, dass Ijob Gott fürchtet? 10 Bist du es nicht, der ihn, sein Haus und all das Seine ringsum beschützt? Das Tun seiner Hände hast du gesegnet; sein Besitz hat sich weit ausgebreitet im Land. 11 Aber streck nur deine Hand gegen ihn aus und rühr an all das, was sein ist; wahrhaftig, er wird dir ins Angesicht fluchen. 12  Der Herr sprach zum Satan: Gut, all sein Besitz ist in deiner Hand, nur gegen ihn selbst streck deine Hand nicht aus! Darauf ging der Satan weg vom Angesicht des Herrn. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

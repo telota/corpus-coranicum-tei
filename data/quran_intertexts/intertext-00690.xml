@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gebet Ephrem des Syrers</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_690" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>690</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie auch in der ersten Sure ergeht bei Ephrem die Bitte an Gott "auf den rechten Weg" geführt zu werden. Der koranische Ausdruck hadā ṣirāṭa l-mustaqīm "auf den geraden, rechten Weg führen" (Q 1:6; Q 37:118, vgl. auch TUK_0548) erinnert dabei an die syrische Wendung hdā la-šbīlā trīṣā (“er hat einen geraden Weg gewiesen”) aus Ephrems Gebet. Die Metapher des ‘rechten Weges’ für die Rechtschaffenheit des Menschen findet sich an zahlreichen Stellen in der Bibel und wird als solche auch in jüdischen und christlichen Gebeten. Die religiöse Konnotation des Begriffs "rechtleiten, führen" (arab. hadā) im Koran hatte schon Ahrens mit der syrisch-christlichen Terminologie in Verbindung gebracht, wo das entsprechende syrische Verbum hdā z.B. den Aposteln zugeschrieben wird: sie agieren als “Leiter” (haddāyā) der christlichen Gemeinde (Ahrens 1930: p. 42, vgl. auch die Bezeichnung des Korans als hudā, Q 2:2). Zum zentralen Begriff des “rechten Weges” (as-ṣirāṭ al-mustaqīm) im Koran, mit einem Überblick zu den wichtigen Stellen, siehe Frolov 2004: 28-31.
+</summary>
+            <msItem>
+              <title>Gebet Ephrem des Syrers</title>
+              <author>Ephrem der Syrer (306–373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">306-373</origDate>
+              <origPlace>Nisibis / Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Ignatius Aphram Barsoum (Hg.), Kitāb at-tuḥfa ar-rūḥiya fī ʾṣ-ṣalāt al-farḍiyya, Aleppo 1911.</bibl>
+              <bibl type="literatur">Ahrens, Karl: &amp;#x201E;Christliches im Qoran. Eine Nachlese&amp;#x201C;. In: Zeitschrift der Deutschen Morgenl&amp;#xE4;ndischen Gesellschaft 84 (1930), S. 15&amp;#x2013;68, 148&amp;#x2013;190.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>
+	ܨܠܘܬܐ ܕܡܪܝ ܐܦܪܝܡ ܣܘܪܝܝܐ ܚܰܒܝܒܝ ܘܦܪܘܩܝ ܗܘܝ ܠܝ ܐܘܪܚܐ ܕܚ̈ܝܐ ܕܠܥܠܡ ܕܡܘܒܠܐ ܠܝ ܠܘܬ ܐܒܐ ܟܪ ܕܚܕܘܬܐ ܘܒܣܝܡܘܬܐ ܘܡܠܟܘܬܐ ܫܡܝܢܝܬܐ. ܡܒܘܥܟ ܟܠܗ ܡܘܗܒ̈ܬܐ: ܘܛܝܒܘܬܟ ܒܠܒܗ ܕܥܒܕܟ ܢܘܗܪܐ ܘܚܕܘܳܐ ܘܫܠܡܐ ܘܚܠܝܘܬܐ ܕܚܠܝܐ ܡܢ ܕܒܫܐ ܘܣܝܡܬܐ ܕܒܨܝܪܝܢ ܡܢܗܿ ܟܠܗܘܢ ܣܝܡ̈ܬܐ. ܛܝܒܘܬܟ ܐܝܬܗܿ ܠܝ ܒܝܬ ܓܘܣܐ ܘܚܝܠܐ ܘܙܟܘܬܐ ܘܪܡܪܡܐ ܘܫܘܒܗܪܐ ܘܚܝ̈ܐ ܘܟܠܝܠܐ ܕܫܘܒܚܐ ܘܬܓܐ ܫܦܝܪܐ. ܐܝܟܢ ܢܫܬܘܩ ܠܫܢܝ ܡܢ ܡܡܠܠܐ ܕܥܠ ܒܣܝܡܘܬܐ ܕܚܘܒܟ ܘܦܨܝܚܘܬܟ: ܐܘ ܐܝܟܢ ܐܫܠܶܐ ܡܢ ܬܶܫܒ̈ܚܬܟ ܘܙܘܡܪܐ ܕܒܫܘܒܚܐ ܕܛܝܒܘܬܟ ܒܙܘܡܪ̈ܐ ܪ̈ܘܚܢܝܐ. ܠܗܝܩܘܬܐ ܕܠܟ ܢܓܕܐ ܠܝ ܠܘܬܟ ܐܘ ܚܝ̈ܝ ܕܺܐܬܐ ܒܬܪܟ ܕܢܗܘܐ ܠܒܝ ܐܪܥܐ ܛܘܒܬܐ ܕܬܙܪܘܥ ܒܗ ܙܪܥܐ ܕܡܠܟܘܬܟ ܘܬܰܫܩܝܘܗܝ ܒܪ̈ܣܝܣܐ ܕܚ̈ܝܐ ܕܠܥܠܡ: ܕܬܚܨܘܕ ܡܢܗ ܒܟܠܙܒܢ ܨܠܘ̈ܬܐ ܘܣܶܓܕ̈ܬܐ ܘܬܫܡܫ̈ܬܐ ܘܕܟܝܘܬܐ ܘܚܘܒܐ. ܐܠܳܗܝ ܢܰܦܫܝ ܛܰܥܝܐ ܠܳܟ: ܬܳܐ ܘܗܰܕܗܿ ܠܰܫܒܝܠܐ ܬܪܝܨܐ ܘܰܐܗܦܶܟܶܝܗܿ ܠܰܛܝܪܐ ܕܦܰܪܕܰܝܣܐ ܫܒܝܚܐ ܥܡ ܐܶܡܪܳܐ ܕܰܛܥܐ ܘܩܰܪܶܒܶܝܗܿ ܒܐܝܕܟ ܠܐܒܘܟ ܫܡܰܝܢܐ ܕܬܬܛܰܟܰܣ ܒܓܘܕܐ ܕܚܟ̈ܝܡܬܐ ܕܠܐ ܫܳܠܝܢ ܡܢ ܬܫܒ̈ܚܬܟ ܘܩܘ̈ܠܣܶܐ ܠܐܒܘܟ ܘܠܪܘܚܐ ܚܝܐ ܩܕܝܫܐ: ܐܳܘ ܕܒܣܝܡܘܬܗ ܠܐ ܥܒܪܐ ܘܛܒܘܬܗ ܠܐ ܒܛܠܐ ܘܫܘܒܚܗ ܠܐ ܡܬܬܨܺܝܪ ܡܢ ܗܶܓ̈ܓܶܐ ܘܠܐ ܡܰܕܪܟܝܢ ܠܗ ܗܰܘ̈ܢܐ ܒܟܠܗܘܢ ܙܒ̈ܢܐ ܐܰܡܝܢ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Gebet des heiligen Ephrem des Syrers: "Mein Geliebter und mein Erlöser, werde mir zum Weg der ewig Lebenden, der mich zum Vater führt, wo Freude und Wonne und das himmlische Reich (sind). Deine Quelle aller Gaben und deine Gnade (sind) im Herzen deines Dieners Licht, Freude, Frieden, eine Süße die süßer ist als Honig und ein Schatz der kostbarer ist als alle Schätze. Deine Gnade ist mir Zufluchtsort und Kraft, Sieg und Erhöhung, Herrlichkeit und Leben, Kranz, Ehre und eine schöne Krone. Wie wird meine Zunge schweigen und nicht über die Wonne deiner Liebe und deiner Freude sprechen? Oder wie (wird sie) still bleiben von Lobpreisung und Gesang mit geistigen Liedern zur Ehre deiner Gnade? Deine Sehnsucht führt mich auf zu dir, o, mein Leben das Dir folgt, auf das mein Herz eine gute Erde werde, dass Du in ihr den Samen deines Reiches säest und sie mit dem sanften Regen des ewigen Lebens bewässerst, damit Du daraus auf ewig Gebete, Verehrung, Dienst, Reinheit und Liebe erntest. Mein Gott, meine Seele hat Dich vergessen. Komm‘ und führe sie auf den rechten Weg! Kehre sie um zum Pferch des gesegneten Paradieses, zusammen mit dem verirrten Lamm, führe sie mit deiner Hand zu deinem himmlischen Vater, ordne sie ein in die Reihe der Weisen, die nie aufhören mit Deiner Verherrlichung und dem Lob deines Vaters und des Heiligen und Lebendigen Geistes. O, denn ihre Wonne vergeht nicht und ihre Güte hört nicht auf; ihre Herrlichkeit kann man sich in Bildern nicht vorstellen und der Verstand erfasst sie allezeit nicht. Amen."
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1584">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.743.3</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.743.3</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio; Writing surface: parchment; Shelfmark: MS Add.743.3; Qurʾānic  text: Q 37:114-154; 16 Lines per page; Dimensions: 181 x 156mm; Script style: kūfī B II; Estimated date of production: 9th or 10th century AD /3rd or 4th century Hijri.</p>
+              <p> </p>
+              <p>Fragment of an Abbasid Qur'ān probably written  in the third or fourth century A.H. / ninth or tenth century C.E,  containing verses 114-154 from Sura al-Ṣāfāt (سورة الصافات‎). The script  seems to correspond to the Abbasid Style <hi rend="italic">B II</hi> as described by F. Deroche. For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-00743-00003/1">entry in the Digital Library of Cambridge University</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_690047" n="1r">
+              <title type="numeric" key="037:114:005-037:134:002">
+                                    037:114:005-037:134:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_690048" n="1v">
+              <title type="numeric" key="037:134:003-037:154:004">
+                                    037:134:003-037:154:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>181</width><height>156</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_50007">
+      <graphic decls="#imageRights-1" url="manuscript/1584/6120a0e0-47ba-4b3d-92df-29a91f545f2d/manuscript-1584-page-50007-image-37156.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_50008">
+      <graphic decls="#imageRights-1" url="manuscript/1584/8a3d42fe-8ea3-4f76-a582-32a87b9fe839/manuscript-1584-page-50008-image-37157.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

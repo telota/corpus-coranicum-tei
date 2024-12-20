@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ardā Wīrāz Nāmag 7:1-10:4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1333" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1333</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran findet sich die Vorstellung von vier Paradiesgärten, die den Gläubigen verheißen werden. In Sure 55:46 und 55:62 wird jeweils der Dual ǧannatān bei der Nennung der Paradiesgärten gebraucht. Entgegen der Deutung Theodor Nöldekes, der die Duale auf eine Reimkonvention zurückführt (Nöldeke 1909: 30; so auch Schimmel 1976: 17–18), argumentiert Angelika Neuwirth, dass es eine stilistische Besonderheit der arabischen Dichtung in vorislamischer Zeit gewesen sei, Duale für Ortsbezeichnungen zu verwenden (Neuwirth 1984: 458). Außerdem lasse der symmetrische Aufbau der Sure das Bild zweier Gartenpaare sinnvoll erscheinen (Neuwirth 1984: 465), so dass sich die Stelle übereinstimmend mit der altarabischen Tradition als „Garten über Garten“ (Neuwirth 1984: 473), oder „unendliche Gärten“ bestimmen lasse (Neuwirth 2010: 219).
+Daneben könnte aber auch die zoroastrische Idee von vier Paradiesen Eingang in den eschatologischen Diskurs im Koran gefunden haben: Bereits im Awesta (Vīdēvdād 7:52) ist in Andeutungen von vier Paradies-Sektionen die Rede, während in der Pahlavī-Literatur (Ardā Wīrāz Nāmag 7:10) diesen vier Paradiesen antithetisch vier Höllen (vgl. TUK_1304) und ein intermediärer Bereich (vgl. TUK_1319 u. TUK_1320) für diejenigen, deren gute und schlechte Taten einander ausgleichen, gegenübergestellt sind. Die parallele Gestaltung der eschatologischen Szenerie ist außerdem in einem awestischen Fragment, dem Hādōxt Nask 2:15 und 2:33, belegt (vgl. TUK_1330; siehe dazu auch Kellens 2012).
+
+
+Das Ardā Wīrāz Nāmag („Das Buch des Ardā Wīrāz“) stellt auf Grund seiner einzigartigen Gestaltung wie auch seiner breiten Rezeption den bedeutendsten zoroastrischen Beitrag zur Gattung der apokalyptischen Literatur dar (vgl. zum Werk Gignoux 1986). Strukturell gliedert sich das Werk in vier Teile: Auf eine kontextualisierende Einleitung (Kapitel 1–3) folgen die ausführlichen Beschreibungen des Paradieses (Kapitel 4–15) und der Hölle (Kapitel 16–100) sowie eine kurze Schlusssequenz (Kapitel 101), die eine zweite Begegnung des Ardā Wīrāz mit Ohrmazd im Paradies schildert (vgl. die ausführliche Zusammenfassung bei Haug and West 1872: LVII–LXII). In der Einleitung wird geschildert, wie Ardā Wīrāz auf Grund seiner Tugendhaftigkeit von Priestern auserkoren wird, die zoroastrische Glaubenswahrheit durch eine Himmelsreise zu bestätigen. Nachdem die Priester ihm einen narkotisierenden Trank eingeflößt haben, fällt Ardā Wīrāz für sieben Tage und sieben Nächte in einen tiefen Schlaf, bevor er das Bewußtsein wiedererlangt. Die sich anschließende Schilderung der Jenseitsreise beschreibt detailliert die Freuden der Gerechten und Leiden der Sünder (vgl. TUK_1271). Den weitaus größten Teil nimmt die Beschreibung der Hölle ein: 84 der 101 Kapitel des Werkes beschäftigen sich mit den Sünden der Hölleninsassen und den korrespondierenden Strafen (Stausberg 2009: 238; Leurini 2002: 214–220).
+Alter und Entstehungszeit sind schwer einzugrenzen. In seiner heutigen Form wurde das Werk jedoch erst nach der arabischen Eroberung verschriftlicht, wie die angefügte Einleitung deutlich macht, in der von der Invasion Irans durch die Araber die Rede ist. Martin Haug und Edward W. West betonen die literarische Eigenständigkeit der Apokalypse, die weder jüdische noch christliche Einflüsse aufweise (Haug and West 1872: LVI–LVII), und verorten die Entstehung des Werkes in die Spätphase der Sasanidenherrschaft (Haug and West 1872: LXXIII). Mary Boyce und Philippe Gignoux datieren die Endredaktion auf das 9. bzw. 10. Jahrhundert (Boyce 1968: 48; Gignoux 1969). Dabei geht Boyce von einem sehr alten Kern des Werkes aus, worauf auch der bereits in den Gāthās vorkommende Name Wīrāz (Yašt 13:101) hinweise (Boyce 1968: 48–49), und auch Faridun Vahman (Vahman 1981: 11) betont, dass die zentralen Teile des Werkes aus der sasanidischen Zeit stammen. Das Genre der Jenseitsreise, während derer eine bedeutende Person Himmel und Hölle erblickt, und somit die zoroastrische Religion durch eine transzendente Erfahrung legitimiert, ist alt; schon Zarathustra soll nach Vizīdagīhā ī Zādspram 21 in den Himmel aufgefahren sein und auch über den legendären König Vištaspa wird Ähnliches berichtet (Dēnkard 7.4:83–86). Der Hohepriester Kartīr (vgl. zu Leben und Wirken Kartīrs Skjærvø 2011), der in der zweiten Hälfte des dritten Jahrhunderts zu höchster Machtfülle im Sasanidenreich aufstieg, rühmte sich, eine Jenseitsreise unternommen zu haben, wie aus seinen Inschriften in Naqš-e Raǧab (vgl. auch TUK_1323) deutlich wird (Skjaervø 1983). Im Gegensatz zu den Inschriften Kartīrs, die eine physische Jenseitsreise des Hohepriesters beschreiben, findet sich im Ardā Wirāz Nāmag eine Akzentverschiebung hin zu einer spirituellen Reise der Seele, während derer der Körper im Diesseits verharrt.</summary>
+            <msItem>
+              <title>Ardā Wīrāz Nāmag 7:1-10:4</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Späte Sasanidenzeit (Regierungszeit des Ḫusraw I. Anūšīrwān [531–579])</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Vahman, Fereydun, Ardā Wirāz Nāmag. The Iranian ‚Divina Commedia‘, London / Malmo 1986.</bibl>
+              <bibl type="literatur">Boyce, Mary: &amp;#x201E;Middle Persian Literature&amp;#x201C;. In: Berthold Spuler (Hrsg.), Handbuch der Orientalistik. Leiden 1968, S. 31&amp;#x2013;66.</bibl>
+              <bibl type="literatur">Gignoux, Philippe: &amp;#x201E;Ard&amp;#x101; W&amp;#x12B;r&amp;#x101;z N&amp;#x101;mag&amp;#x201C;. Encyclopaedia Iranica 2.4: 356&amp;#x2013;357.</bibl>
+              <bibl type="literatur">Gignoux, Philippe: &amp;#x201E;Notes sur la r&amp;#xE9;daction de l&amp;#x2019;Ard&amp;#x101;y Vir&amp;#x101;z N&amp;#x101;mag&amp;#x201C;. In: Zeitschrift der Deutschen Morgenl&amp;#xE4;ndischen Gesellschaft Suppl. I.3 (1969), S. 998&amp;#x2013;1004.</bibl>
+              <bibl type="literatur">Gray, Louis H.: &amp;#x201E;Zoroastrian Elements in Muhammedan Eschatology&amp;#x201C;. In: Le Mus&amp;#xE9;on 21 (1902), S. 153&amp;#x2013;184.</bibl>
+              <bibl type="literatur">Haug, Martin &amp;amp; West, Edward W.: The Book of Arda Viraf. Bombay/London 1872.</bibl>
+              <bibl type="literatur">Kellens, Jean: &amp;#x201E;H&amp;#x101;d&amp;#x14D;xt Nask&amp;#x201C;. Encyclopaedia Iranica 11.5: 457&amp;#x2013;458.</bibl>
+              <bibl type="literatur">Leurini, Claudia: &amp;#x201E;Hell or Hells in Zoroastrian Afterlife: The Case of Arda Wiraz Namag&amp;#x201C;. In: Philip Huyse (Hrsg.), Iran: Questions et connaissances. Actes du IVe Congr&amp;#xE8;s europ&amp;#xE9;en des &amp;#xC9;tudes iraniennes. Vol. I La p&amp;#xE9;riode ancienne (Studia Iranica 25). Paris 2002, S. 207&amp;#x2013;220.</bibl>
+              <bibl type="literatur">N&amp;#xF6;ldeke, Theodor: Geschichte des Qor&amp;#x101;ns: Teil 1 &amp;#xDC;ber den Ursprung des Qor&amp;#x101;ns. Dieterich&amp;#x2BC;sche Verlagsbuchhandlung, Leipzig 1909.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: &amp;#x201E;Symmetrie und Paarbildung in der koranischen Eschatologie. Philologisch-Stilistisches zu S&amp;#x16B;rat ar-Ra&amp;#x1E25;m&amp;#x101;n&amp;#x201C;. In: Universit&amp;#xE9; Saint-Joseph, Beirut 1984, S. 445&amp;#x2013;480. M&amp;#xE9;langes de l&amp;#x2019;Universit&amp;#xE9; Saint-Joseph.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Schimmel, Annemarie: &amp;#x201E;The Celestial Garden in Islam&amp;#x201C;. In: Elisabeh B. MacDougall &amp;amp; Richard Ettinghausen (Hrsg.), The Islamic Garden. Washington 1976, S. 11&amp;#x2013;39.</bibl>
+              <bibl type="literatur">Skj&amp;#xE6;rv&amp;#xF8;, Prods O.: &amp;#x201E;Kartir&amp;#x201C;. Encyclopaedia Iranica 15.6: 608&amp;#x2013;628.</bibl>
+              <bibl type="literatur">Skjaerv&amp;#xF8;, Prods O.: &amp;#x201E;Kirdirs Vision: Translation and Analysis&amp;#x201C;. In: Arch&amp;#xE4;ologische Mitteilungen aus Iran 16 (1983), S. 269&amp;#x2013;305.</bibl>
+              <bibl type="literatur">Stausberg, Michael: &amp;#x201E;Hell in Zoroastrian History&amp;#x201C;. In: Numen 56 (2009), S. 217&amp;#x2013;253.</bibl>
+              <bibl type="literatur">Vahman, Faridun: Ard&amp;#x101; W&amp;#x12B;r&amp;#x101;z N&amp;#x101;mag. The Iranian &amp;#xB4;Divina Commedia&amp;#xB4;. Kopenhagen 1981.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Chapter 7
+1. And then I took the first step to the “level of the stars”, to humat, the place where the “good thoughts” dwell. And I saw the souls of the righteous, from whom a brightness like a shining star was ever kindled
+2. and their place and seats were very bright and shining and full of glory.
+3. And I asked Srōš, the pious, and the god Ādur: “What is this place and who are these people?”
+4. They, Srōṣ, the pious, and the god Ādur said: “This place is the ‘level of the stars’, and these are the souls who did not pray and did not chant the Gāthās and did not (observe) kin-marriage and did not (practise) lordship, rulership and leadership in the world.
+5. By other good deeds they were pious.
+Chapter 8
+1. I took the second step to the “level of the moon”, to hūxt, the place where the “good thoughts” dwell. And I saw a great assembly of the pious2. and I asked Srōš, the pious, and the god Ādur: “What is this place and who are these souls?”
+3. Srōš, the pious, and the god Ādur said: “This is the ‘level of the moon’, and these are the souls who in the world did not pray and did not chant the Gāthās and did not (observe) kin-marriage.
+4. Due to other good deeds they have come here5. and their brightness is like the brightness of the moon.Chapter 91. And I took the third step to huwaršt, the place where “good deeds” dwell. There I reached which they call
+2. the highest of the highest lights. I saw the (souls) of the righteous on the golden couches and the bedding. And there were people whose brightness was like the brightness of the sun.
+3. And I asked Srōš, the pious, and the god Ādur: “What is this place and who are these people?”
+4. Srōš, the pious, and the god Ādur said: “This is the ‘level of the sun’ and these are the souls who practised good kingship, rulership and leadership in the world.
+Chapter 10
+1. And I took the fourth step to the radiant, ever blissful Paradise.
+2. The souls of the deceased came to receive us.
+3. They gave greetings and offered praise and said: “How did you come, O righteous one, from that troubled and harmful world to this world (which is) free from danger and adversity. Eat (the food) of immortality, because for a long time you shall enjoy peace here.”
+4. And after that the Fire, the god Ādur, (son of) Ohrmazd came forth to receive me. (Vahman 1981: 196–197)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

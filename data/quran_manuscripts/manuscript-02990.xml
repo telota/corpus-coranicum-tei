@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2990">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cairo, Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية), "qāf 220" (Gotthelf Bergsträßer archives)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="9">Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية)
+                            , Cairo</repository>
+            <idno>"qāf 220" (Gotthelf Bergsträßer archives)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; shelfmark "qāf 225"  (Gotthelf-Bergsträßer-archives); 8 lines per page; Date estimate: 800-900 (?); Dimensions: unknown;  Qur'ānic text: Q 37:85-37:101; Script style: kūfī D.I/D.III.</p>
+            </summary>
+            <msItem xml:id="mysql_id_712834" n="1v">
+              <title type="numeric" key="037:085:003-037:094:001">
+                                    037:085:003-037:094:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_712835" n="2r">
+              <title type="numeric" key="037:094:002-037:101:003">
+                                    037:094:002-037:101:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="8">8 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I / D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>image: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_99827">
+      <graphic decls="#imageRights-1" url="manuscript/2990/fabd51d9-e2ce-42dc-a438-560568bfd812/manuscript-2990-page-99827-image-92875.png"/>
+      <graphic decls="#imageRights-1" url="manuscript/2990/4aa39100-5d38-45da-86f1-f77f4e32f385/manuscript-2990-page-99827-image-92876.png"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_99828">
+      <graphic decls="#imageRights-1" url="manuscript/2990/1c789e8d-3640-448e-a298-9242d18d0f3b/manuscript-2990-page-99828-image-92877.png"/>
+      <graphic decls="#imageRights-1" url="manuscript/2990/89117f24-3ca4-45cc-8009-49532852c136/manuscript-2990-page-99828-image-92878.png"/>
+    </surface>
+  </facsimile>
+</TEI>

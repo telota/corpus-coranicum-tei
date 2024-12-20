@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lobpreis der Gottesmutter Maria</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_72" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>72</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das Zitat reflektiert unter anderem die Assoziation Marias mit dem in Numeri 17 erwähnten Aaronsstab; bei der Bezeichnung Marias als "Schwester Aarons" in Q 19:28 könnten solche Vorstellungen im Hintergrund stehen. Tatsächlich ist die bewusste (typologische) Gleichung von Maria und Mirjam im orientalischen Christentum geläufig. Vgl. TUK_0051, TUK_0056 u.a. Mit dem in der Übersetzung genannten "Leuchter" ist der siebenarmige Leuchter, die Menora gemeint.
+</summary>
+            <msItem>
+              <title>Lobpreis der Gottesmutter Maria</title>
+              <author/>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Panqītā satwāytā. ʿEnyānē w-qālē w-madrāšē w-sugyātā w-qānūnē [Kompendium für die Winterzeit. Gebete, Lobeshymnen, Lehrgedichte, Andachtsfeiern und Gesänge], Handschrift (1984) im Besitz der syrisch-orthodoxen Kirche St. Jakob (Berlin), S. 152.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>
+	ܩܐܒܘܬܐ ܕܕܝܐܬܝܩܝ ܘܡܢܪܬܐ ܘܫܒܛܗ ܕܐܗܪܘܢ ܒܟܝ ܐܬܛܦܣܘ ܒܬܘܠܬܐ ܡܠܝܬ ܟܠ ܤܦܪ̈ܝܢ ܕܗܘܝܬܝ ܐܡܐ ܠܐܠܗܐ ܕܠܗ ܫܒܚܘ ܥܒܕܘܗܝ ܘܟܠܗܝܢ ܒܪ̈ܝܬܐ ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Die Bundeslade, der Leuchter und der Stab Aarons stehen typologisch für dich, Jungfrau, durch dich finden alle biblischen Schriften ihre Erfüllung, da du die Mutter Gottes geworden bist, den seine Diener und alle Welten preisen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Syrische Alexanderlegende (ed. Budge, S. 261)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1416" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1416</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Nach der Reise zu den östlichen und westlichen Rändern der Welt (Q 18:85-86, 89-90, dazu TUK_1403, TUK_1415) schlägt Ḏū l-Qarnain (meistens mit Alexander dem Großen identifiziert) in Q18:92 einen weiteren Weg (sabab) ein. Dieser dritte Weg führt zu einem Gebirgspass zwischen zwei Wällen (baina s-saddaini), wo Ḏū l-Qarnain auf ein Volk trifft, das die "menschliche Sprache" (qaul) kaum verstehen kann. In den folgenden Versen wird dann berichtet, wie Ḏū l-Qarnain hier die Mauer gegen Gog und Magog baut (Q 18:94-98).Wie auch für die Reise nach Osten und nach Westen steht auch in diesem Fall die im frühen 7. Jh. verfasste syrische Alexanderlegende im Hintergrund der koranischen Erzählung. In der Legende entscheidet sich Alexander, nach der Reise zum Sonnenaufgang den Weg nach Norden (urḥā ḏ-garbyā) einzuschlagen.  Er durchquert mit seinem Heer mehrere Gebiete im Kaukasus und erreicht schließlich den großen Berg Mūsas (wahrscheinlich ist hiermit Masis/Ararat gemeint). Dort, an den "Pforten des großen Berges", entdeckt Alexander einen Weg, der den Händlern aus den Steppen des Nordens den Zugang zu den inneren Gebieten (Mesopotamien) ermöglicht. Im Anschluss folgt die Errichtung der Mauer gegen Gog und Magog, die in der syrischen Alexanderlegende ausdrücklich mit den Hunnenstämmen nördlich des Kaukasus identifiziert werden (TUK_1417).Wie mehrere Forscher bereits erkannt haben (siehe zuletzt van Bladel 2008), ist der nicht näher spezifizierte "Weg" in Q 18:92 mit der ausführlich beschriebenen nördlichen Route in der syrischen Alexanderlegende zu identifizieren. Der Hauptgrund dafür ist, dass in beiden Erzählungen die Errichtung der Mauer gegen Gog und Magog unmittelbar nach der Reise zu einem Gebirgspass folgt, der zumindest im syrischen Text im Kaukasus lokalisiert wird. Bereits seit Flavius Josephus wurden "Gog und Magog" mit den Völkern nördlich des Kaukasus (etwa Skythen) assoziiert (siehe dazu TUK_0771). Ein deutlicher Unterschied zwischen den beiden Texten besteht allerdings darin, dass die syrische Alexanderlegende sehr genaue Informationen zu Nordmesopotamien, Armenien und dem Kaukasus enthält, während der Koran jegliche geographische Angaben ausblendet.Für weitere Parallelen zwischen der Alexanderliteratur und dem Koran, siehe TUK_1402, TUK_1403, TUK_1469, TUK_1470, TUK_1471.</summary>
+            <msItem>
+              <title>Syrische Alexanderlegende (ed. Budge, S. 261)</title>
+              <author>Anonym</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">um 629-630 n.Chr.</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">E. A. W. Budge, The History of Alexander the Great, Cambridge University Press, Cambridge 1899, S. 261. </bibl>
+              <bibl type="literatur">van Bladel, Kevin: &amp;#x201E;The Alexander Legend in the Qur&amp;#x2019;an 18:83-102&amp;#x201C;. In: Gabriel Said Reynolds (Hrsg.), The Qur&amp;#x2019;an in its Historical Context. Routledge, London/New York 2008, S. 175&amp;#x2013;203. Routledge Studies in the Qur&amp;#x2019;an.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܘܢܦܩܘ ܡܢ ܬܡܢ ܘܐܙܠܘ ܠܟܠܬ ܢܗܪܐ. ܘܣܠܩܘ ܠܛܘܪܐ ܕܡܬܩܪܐ ܪܡܬ. ܬܡܢ ܒܝܬ ܕܘܩܐ. ܘܩܡܘ ܐܠܟܣܢܕܪܘܣ ܘܚܝ̈ܠܘܬܗ ܒܪܫ ܛܘܪܐ. ܘܚܙܘ ܠܐܪܒܥ ܖ̈ܘܚܝ ܫܡܝܐ. ܘܐܡܪ ܐܠܟܣܢܕܪܘܣ. ܠܐܘܪܚܐ ܕܓܪܒܝܐ ܢܦܘܩ. ܘܐܬܘ ܠܣܘ̈ܦܝ ܓܪܒܝܐ. ܘܥܠܘ ܠܐܪܡܢ ܘܠܐܕܪܒܝܓܢ ܘܠܐܪܡܢ ܓܘܝܬܐ. ܘܥܒܪܘ ܐܬܪܐ ܕܛܘܪܢܓܝܘܣ. ܘܒܝܬ ܦܪܕܝܐ ܐܬܪܐ. ܘܒܝܬ ܬܩܝܠ ܐܬܪܐ. ܘܒܝܬ ܕܪܘܒܝܠ ܐܬܪܐ. ܘܒܝܬ ܩܛܪܡܢ  ܐܬܪܐ. ܘܒܝܬ ܓܒܘܠ  ܘܒܝܬ ܙܡܪܛ. ܗܠܝܢ ܐܬܖ̈ܘܬܐ ܥܒܪ ܐܠܟܣܢܕܪܘܣ. ܘܐܙܠ ܘܥܒܪ ܒܡܘܣܣ ܛܘܪܐ. ܘܥܠ ܒܦܩܥܬܐ ܚܕܐ ܕܡܬܩܪܝܐ ܒܗܝ ܠܒܬܐ. ܘܐܙܠ ܘܫܪܐ ܥܠ ܬܪܥܗ ܕܛܘܪܐ ܪܒܐ. ܘܐܝܬ ܒܗ ܐܘܪܚܐ ܕܥܐܠܝܢ ܒܗ̇ ܬܓܖ̈ܐ ܠܐܬܖ̈ܘܬܐ ܓܘ̈ܝܐ܀</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Und sie gingen von dort und erreichten den Fluss Kalaṯ [heute: Batman]. Sie bestiegen dann den Berg Ramaṯ. Dort gibt es einen Wachtturm. Alexander und sein Heer standen auf der Spitze des Berges und sahen sich die vier Himmelsrichtungen an. Alexander sagte: "Nehmen wir den Weg des Nordens!" Und sie kamen an den Rändern des Nordens an und betraten Armenien, Aḏūrbaiǧān [Atropatene], und das Innere Armenien. Sie durchquerten die Gebiete des Ṭūrnagios, des Bēṯ-Pardiā, des Bēṯ-Teqīl, des Bēṯ-Drūbīl, des Bēṯ-Qarṭamen, des Bēṯ-Gabūl, und des Bēṯ-Zamrat. Diese Länder durchquerte Alexander, und er ging und überquerte Berg Mūsas und erreichte eine Ebene die Bēṯ-Lebtā genannt wird. Er ging und schlug das Lager an den Pforten des großen Berges auf. Dort gibt es einen Weg wodurch die Händler in die inneren Gebiete eintreten.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>And they departed from thence and went to the river Kallath; and they ascended tbe mountain which is called Ramath, where there is a watch-tower. And Alexander and his troops stood upon the top of the mountain and saw the four quarters of the heavens. And Alexander said, "Let us go forth by the way to the north"; and they came to the confines of the north, and entered Armenia and Adarbaijan and Inner Armenia. And they crossed over the country of Turnagios and Beth-Pardia, and Beth-Teqil, and Beth-Drubil, and Beth-Qatarmen, and Beth-Gebul, and Beth-Zamrat. Alexander passed through all these places; and he went and passed mount Mûsâs and entered a plain which is Beth-Lebta, and he went and encamped by the gate of the great mountain. Now there was a road across it by which merchants entered the inner countries.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

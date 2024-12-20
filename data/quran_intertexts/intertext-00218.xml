@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Johannes 1:1-18</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_218" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>218</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Alle aufgelisteten Koranstellen bezeichnen Offenbarungen bzw. Offenbarungsschriften als "Barmherzigkeit/Gnade" (koranisch: raḥma); in ähnlicher Weise verbindet der Prolog des Johannesevangeliums die Fleischwerdung des Wortes und, wenn auch kontrastiv, die Offenbarung des mosaischen Gesetzes mit dem Wort "Gnade" (griechisch: χάρις, syrisch: raḥmē). Offenbarungsakte Gottes als "Gnade" und, natürlich, Wahrheitsmitteilung zu verstehen, erinnert, wie Ahrens 1935: p. 136 anmerkt, an die häufige altestamentarische Wendung ḥesed w-ʾĕmet "Güte/ Treue/ Gnade und Wahrheit", die in Johannes 1:14 anklingt. Ein bedeutsamer Unterschied besteht allerdings zwischen johannitischer und koranischer Darstellung. Während im Johannesevangelium der göttliche logos inkarniert, steht dem der Koran als direkt von Gott gelehrter, 'inlibrierter logos' gegenüber. Jeffery 1938: p. 140f. sieht die Wurzel als allgemeinsemitisch an. Christian Robin bemerkt, dass daneben noch raḫuma im Arabischen existiert. Sollte es sich bei r-ḫ-m/r-ḥ-m nicht um Wurzeldubletten handeln, müsste man für alle Ableitungen von r-ḥ-m Entlehnung annehmen. Luxenbergs (Luxenberg 2000) Interpretation des Wortes als syr. reḥmtā "Liebe" wird vom Text nicht unterstützt und findet sonst nicht explizit in den Ableitungen. Natürlich ist ein Akt der Gnade auch immer einer der Liebe, aber die Bedeutung ist spezifischer.
+</summary>
+            <msItem>
+              <title>Johannes 1:1-18</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 90-110 n. Chr.</origDate>
+              <origPlace>Kleinasien (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Ahrens, Karl. Muhammad Als Religionssstifter. Leipzig, 1935.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+              <bibl type="literatur">Luxenberg, Christoph. &amp;#x201C;Die Syro-Aram&amp;#xE4;ische Lesart Des Koran: Ein Beitrag Zur Entschl&amp;#xFC;sselung Der Koransprache.&amp;#x201D; 2nd Ed. Berlin: Hans Schiller Verlag, 2004. 351pp., 2000, IX, 311 S.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. 2 οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν. 3 πάντα δι᾽αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν 4 ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων• 5 καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν. 6 Ἐγένετο ἄνθρωπος, ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης• 7 οὗτος ἦλθεν εἰς μαρτυρίαν ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν δι᾽αὐτοῦ. 8 οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ᾽ἵνα μαρτυρήσῃ περὶ τοῦ φωτός. 9 Ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον, ἐρχόμενον εἰς τὸν κόσμον. 10 ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι᾽αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω. 11 εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον. 12 ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ, 13 οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ᾽ἐκ θεοῦ ἐγεννήθησαν. 14 Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας. 15 Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων• οὗτος ἦν ὃν εἶπον• ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.  16 ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν καὶ χάριν ἀντὶ χάριτος• 17 ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.  18 Θεὸν οὐδεὶς ἑώρακεν πώποτε• μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott. 2 Im Anfang war es bei Gott. 3 Alles ist durch das Wort geworden und ohne das Wort wurde nichts, was geworden ist. 4 In ihm war das Leben und das Leben war das Licht der Menschen. 5 Und das Licht leuchtet in der Finsternis und die Finsternis hat es nicht erfasst. 6 Es trat ein Mensch auf, der von Gott gesandt war; sein Name war Johannes. 7 Er kam als Zeuge, um Zeugnis abzulegen für das Licht, damit alle durch ihn zum Glauben kommen. 8 Er war nicht selbst das Licht, er sollte nur Zeugnis ablegen für das Licht. 9 Das wahre Licht, das jeden Menschen erleuchtet, kam in die Welt. 10 Er war in der Welt und die Welt ist durch ihn geworden, aber die Welt erkannte ihn nicht. 11 Er kam in sein Eigentum, aber die Seinen nahmen ihn nicht auf. 12 Allen aber, die ihn aufnahmen, gab er Macht, Kinder Gottes zu werden, allen, die an seinen Namen glauben, 13 die nicht aus dem Blut, nicht aus dem Willen des Fleisches, nicht aus dem Willen des Mannes, sondern aus Gott geboren sind. 14 Und das Wort ist Fleisch geworden und hat unter uns gewohnt und wir haben seine Herrlichkeit gesehen, die Herrlichkeit des einzigen Sohnes vom Vater, voll Gnade und Wahrheit. 15 Johannes legte Zeugnis für ihn ab und rief: Dieser war es, über den ich gesagt habe: Er, der nach mir kommt, ist mir voraus, weil er vor mir war. 16 Aus seiner Fülle haben wir alle empfangen, Gnade über Gnade. 17 Denn das Gesetz wurde durch Mose gegeben, die Gnade und die Wahrheit kamen durch Jesus Christus. 18 Niemand hat Gott je gesehen. Der Einzige, der Gott ist und am Herzen des Vaters ruht, er hat Kunde gebracht.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

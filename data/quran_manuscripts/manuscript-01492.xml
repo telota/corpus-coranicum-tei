@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1492">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cincinnati, Ohio, Cincinnati Art Museum, 1977.40</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Cincinnati, Cincinnati Art Museum, Fanny Bryce Lehmer Fund Accession No: 1977.40.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="91">Cincinnati Art Museum
+                            , Cincinnati, Ohio</repository>
+            <idno>1977.40</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio, Shelfmark: 1977.40; Qurʾānic Text:  18: 16-19; Lines per page: 16; Dimensions: 194 x 241 mm; Script style:                                   kūfī (Type B II) ; Estimated date of production:                                   800-900. </p>
+              <p> </p>
+              <p>The <ref target="https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=23174649">website of the Cincinnati Art Museum</ref> provides the following information about this fragment:  </p>
+              <p>"Name: Folio from the Qur’an Describing Several Pious Youth Who Take Refuge in a Cave; Sura al-Kahf (Chapter: The Cave) 18: verses 16–9  Date: 9th Century-10th Century Place: Iraq or Iran Medium: ink on parchment Measurements: 9 1/2 x 7 5/8 in. (24.1 x 19.4 cm) Classification: Manuscript Department: South Asian Art, Islamic Art and Antiquities Credit Line: Fanny Bryce Lehmer Fund  Accession No: 1977.40" </p>
+              <p>See the detailed catalogue entry by Marcus Fraser about four sister leaves from the same codex kept at Qatar National Library: <ref target="https://corpuscoranicum.de/handschriften/index/sure/11/vers/116?handschrift=1397">HC.MS.2017.0009</ref>, <ref target="https://corpuscoranicum.de/en/manuscripts/1451/page/1r">HC.MS.03119</ref>, <ref target="https://corpuscoranicum.de/en/manuscripts/1363/page/1r">HC.MS.03167</ref> and  <ref target="https://corpuscoranicum.de/en/manuscripts/1418/page/1r">HC.MS.2017.0010</ref>.  </p>
+            </summary>
+            <msItem xml:id="mysql_id_687742" n="1r">
+              <title type="numeric" key="018:016:015-018:019:026">
+                                    018:016:015-018:019:026
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706332" n="1v">
+              <title type="numeric" key="018:019:026-018:022:031">
+                                    018:019:026-018:022:031
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>241</width><height>194</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Manssur Karamzadeh</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47702">
+      <graphic decls="#imageRights-1" url="manuscript/1492/73d7507e-e69c-498d-89c1-dab8eb0fd2b7/manuscript-1492-page-47702-image-33916.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_62041">
+      <graphic decls="#imageRights-1" url="manuscript/1492/2dbb63c7-b6db-411b-815f-c972898a3940/manuscript-1492-page-62041-image-53871.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

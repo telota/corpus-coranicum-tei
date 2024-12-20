@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_171">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gotha, Forschungsbibliothek Gotha, Ms. orient. A 462</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Forschungsbibliothek Gotha.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Johann Heinrich Moeller, Paläographische Beiträge aus den Herzoglichen Sammlungen in Gotha: Orientalische Paläographie, Eisleben 1844, Tafel XIV.</p>
+        </availability>
+        <availability xml:id="imageRights-3" status="restricted" default="false">
+          <p>Image credits: Sarre, Friedrich und Frederik R. Martin, Die Ausstellung von Meisterwerken muhammedanischer Kunst in München, München 1910, Tafel 1..</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="47">Forschungsbibliothek Gotha
+                            , Gotha</repository>
+            <idno>Ms. orient. A 462</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>12 fol. on parchment; Shelfmark: Ms. orient. A 462; Qurʾānic Text: Q 43:52-46:15; Lines per page: 12; Script style: kūfī C.I.a; Dimensions: 550 x 630 mm; Estimated date of production: 700-800.</p>
+              <p> </p>
+              <p>Gotha <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/52/manuscripts/171/page/1r">Ms. orient. A 462</ref> was acquired by Ulrich Jasper Seetzen (1767-1811) in Cairo 1807-1809 (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/7ASGNEB5" sameAs="7ASGNEB5" type="zotero">Seetzen 1855</ref>, Bd. 3, p. 164-5, 389-390). This fragment belongs to a monumental codex from al-Fusṭāṭ (Old-Cairo) from which the following sister fragments seem to belong:  (1) Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/3/vers/104?handschrift=786">Arabe 324 (a)</ref>, 6 fol. (540 x 618 mm) [added at a later date, see datation below];   (2) Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/3/vers/139?handschrift=787">Arabe 324 (b)</ref>, 1. fol. (540 x [600] mm);   (3) Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/4/vers/122?handschrift=24">Arabe 324 (c)</ref>, 38 fol. (537 x 620 mm;  (4) Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/35/vers/36?handschrift=788">Arabe 324 (d)</ref>, 1 fol. (545 x 565 mm)  [added at a later date, see datation below];   (5) Gotha <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/52/manuscripts/171/page/1r">Ms. orient. A 462</ref>, 12 fol. (550 x 630 mm (= this fragment);  (6) Cairo: Egyptian National Library: <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/10/verse/59/manuscripts/376/page/1r">maṣāḥif 139</ref> (Khedival Library, No. 524, according to <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MVUHA7W6" sameAs="MVUHA7W6" type="zotero">Shebunin 1901</ref>, p. 119; 562 fol., dimensions: 530 x 680 mm);   (7) One folio kept by the Detroit Institute of Arts, <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/76/manuscripts/1599/page/1r">shelfmark 30.317</ref> (546 x 622 mm) does not originally belong to the codex because it contains text included in Gotha  <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/52/manuscripts/171/page/1r">Ms. orient. A 462</ref>. The Gotha fragment belongs most probably, together with Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/4/vers/122?handschrift=24">Arabe 324 (c)</ref>, to the original codex (see datation below);   (8) Apparently, further leaves are kept by the Museum of Turkic and Islamic Arts (Türk ve Islam Eserleri Müzesi) in Istanbul.</p>
+              <p> </p>
+              <p>Most probably fragments from Cairo, Gotha, Paris, and maybe Istanbul, belong originally to the same codex from Old Cairo (al-Fusṭāṭ). The first published image of this codex is a page from Gotha Ms. orient. A 462 (<ref target="https://corpuscoranicum.de/handschriften/index/sure/43/vers/59/handschrift/171/flip/1">fol. 1 verso)</ref>, published in 1844 by <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/HKJKRF57">Johann Heinrich Moeller 1844</ref> as table XIV (= <ref target="https://corpuscoranicum.de/handschriften/index/sure/43/vers/59/handschrift/171/flip/1">fol. 1 verso</ref>). The volume <hi rend="italic">Arabic Paleography</hi> edited by <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/ZZZEKDZ7">Bernard Moritz in 1905</ref> contains twelve <ref target="https://corpuscoranicum.de/handschriften/index/sure/37/vers/175?handschrift=340">images </ref>of it. They were kept at the time by the Khedival Library in Cairo where Moritz was director (1896-1911). Moritz considers this monumental codex, together with another huge codex of the <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/9/handschrift/170">Sayyida-Zainab-Mosque </ref>as codices of the 7<hi rend="superscript">th</hi> or 8<hi rend="superscript">th</hi> century. The codex of the Khedival Library (today Egyptian National Library Dār al-kutub) was first described by Aleksej F. Shebunin (1867-1937). In his article "<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MVUHA7W6">Куфический Коран Хедивской Библиотеки в Каире</ref>" (“The kufic Qurʾān in the Khedival Library in Cairo”), Shebunin refers to this codex as shelfmark No. 534. Apparently, the document is registered today as "maṣāḥif 139" of the National Library of Egypt (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MMPRD8Z2" sameAs="MMPRD8Z2" type="zotero">Hussein 1970</ref>, p. 114, or French edition <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/SHBIF88W" sameAs="SHBIF88W" type="zotero">Hussein 1973</ref>, p. 114). According to Shebunin, the codex itself contains 562 leaves consisting of four different parts: (1) 248 leaves of the original codex, (2) 34 folios (parchment) written by a later scribe, (3) 61 leaves of other parchment Qurʾāns as replacement of missing folios, (4) 219 paper leaves (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MVUHA7W6" sameAs="MVUHA7W6" type="zotero">Shebunin 1901</ref>, p. 120). In the 1930s, apparently, the call number was different, because Gotthelf-Bergsträßer contain images of this codex with reference to <ref target="https://corpuscoranicum.de/handschriften/index/sure/22/vers/66/handschrift/376">call number qāf 39</ref>. These photos, taken around 1930 during Bergsträßer’s visit to Cairo, some 400 black and white photos (“qāf 39”), have been completely digitized and are currently prepared to be published in this digital catalogue. Two of them, according to Shebunin’s description (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MVUHA7W6" sameAs="MVUHA7W6" type="zotero">Shebunin 1901</ref>, p. 122) fol. <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/22/verse/66/manuscripts/376/page/294r">294r</ref> und<ref target="https://corpuscoranicum.de/de/verse-navigator/sura/22/verse/66/manuscripts/376/page/294v"> 294v</ref>, are already accessible online. The<ref target="https://corpuscoranicum.de/de/verse-navigator/sura/10/verse/59/manuscripts/376/page/1r"> image given by Mohamed Hussein</ref> (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MMPRD8Z2" sameAs="MMPRD8Z2" type="zotero">Hussein 1970</ref>, p. 114) seems not to be mentioned by Shebunin; it is mentioned with reference to shelfmark <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/10/verse/59/manuscripts/376/page/1r">„Masāḥif 139</ref>“ of the National Library of Egypt (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MMPRD8Z2">Hussein, Leipzig 1970</ref>, p. 106 and p. 95). Access to this manuscript would help to understand the history of this codex. The website <ref target="https://www.islamic-awareness.org/quran/text/mss/dak139.html">Islamic Awareness</ref> gives images of another five pages, without folio numbers, from Surah 5 (Q 5:80-83, Q 5:87-5:89, Q 5:92-5:95, Q 5:96-100 and Q 5:107-110). One leave kept at the <ref target="https://www.dia.org/art/collection/object/quran-folio-49343">Detroit Museum of Arts</ref> (no. 30.317), quite similar to the mentioned codex fragments, does not belong to the ancient fragments because it contains text included in the Gotha <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/52/manuscripts/171/page/1r">Ms. orient. A 462</ref>,. The Gotha fragment has been part of the Munich exhibition „Meisterwerke muhammedanischer Kunst“ („Masterpieces of Muslim Art“ of 1910 (<ref target="https://digitalcollections.nypl.org/items/510d47e3-84ca-a3d9-e040-e00a18064a99">Tafel 1</ref>) and is also mentioned by <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/PTUZBGHT">Adolf Grohmann 1958</ref>, p. 215.</p>
+              <p> </p>
+              <p>Datation: With regard to the script style kūfī C in the typology of François Déroche (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/KCAZQ5NS" sameAs="KCAZQ5NS" type="zotero">Déroche 1983</ref>, p. 75-77), the codex was presumably produced during the 8th century. As <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/MVUHA7W6" sameAs="MVUHA7W6" type="zotero">Shebunin 1901</ref> mentions 248 leaves of the original codex, 34 folios (parchment) written by a later scribe, 61 leaves of other parchment Qurʾāns as replacement of missing folios it is possible that many fragments have been produced later after the 8<hi rend="superscript">th</hi> century maybe in order to replace damaged or lost leaves. Carbon dating of samples from the Paris fragments Arabe 324 (a), Arabe 324 (c) and 324 (d) supports this idea. Eléonore Cellard mentions in a t<ref target="https://twitter.com/CellardEleonore/status/1213439294024630273">witter message on January 4, 2020</ref> that carbon dating of samples from Arabe 324a, Arabe 324c and Arabe 324d gives the following results: “…Ar.324c (between 660-780). The others are later: Ar.324a is from the 11th-12th, and 324d is from the beginning of the 12th- beginning of the 13th” (<ref target="https://twitter.com/CellardEleonore/status/1213439294024630273">twitter message on January 20, 2020</ref>). Based on this evidence fragments Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/4/vers/122?handschrift=24">Arabe 324 (c)</ref> and Gotha <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/52/manuscripts/171/page/1r">Ms. orient. A 462</ref> are to be considered as leaves of the original codex, whereas Paris <ref target="https://corpuscoranicum.de/handschriften/index/sure/3/vers/104?handschrift=786">Arabe 324 (a)</ref> and <ref target="https://corpuscoranicum.de/handschriften/index/sure/35/vers/36?handschrift=788">Arabe 324 (d)</ref>, are likely supposed to be pages that have been produced later.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Wilhelm Pertsch gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/SGT3IUJR" sameAs="SGT3IUJR" type="zotero">Pertsch 1878, Bd. III:1</ref>, p. 395f.): </p>
+              <p>„462. (Möll. 1a.) Zwölf Blätter Pergament in sehr grossem Formate (55 auf 63 cm), wohl unzweifelhaft das älteste der in hiesiger Bibliothek befindlichen, und wohl eines der ältesten der in Europa überhaupt vorhandenen kûfischen Fragmente. Die Seite hat 12 Zeilen; das Fragment enthält Sûr. XLIII, 51 الذى bis XLVI, 14 حملته. Sehr alterthümliche, ungeschlachte, grosse Schrift mit sehr seltenen – dann aber, wie mir scheint, gleichzeitigen – diakritischen Strichen. Dehnungs-Alif ist nur sehr selten geschrieben, Vocale und sonstige Lesezeichen fehlen vollständig. Die Verse sind durch die bekannten schief geordneten Striche, die Pentaden durch eine kleinere, die Dekaden durch eine grössere Verzierung, alle drei Zeichen in Grün und Roth, getrennt. Die Sûren haben weder Über- noch Unterschriften; sie sind vielmehr – ebenso wie in dem Facsimile bei Niebuhr, Beschreibung von Arabien, Taf. IV, und nach Nöldeke, Geschichte des Qorâns, S. 419, auch in einer Berliner Handschrift – nur durch einen bunten, gleichfalls in Grün und Roth ausgeführten Streifen getrennt [1]. Ein Naschîhand hat den Sûren ihre Titel, sowie auch den einzelnen Blättern Custoden beigeschrieben. Die Farbe, mit welcher die Buchstaben aufgetragen sind, [p. 396] scheint einen ätzenden Bestandtheil in sich gehabt zu haben, da sie an nicht wenigen Stellen dem Pergament Risse und Sprünge verursacht hat. – Fol. 1b ist facsimilirt bei <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/HKJKRF57" sameAs="HKJKRF57" type="zotero">Möller a. a. O.</ref>, Taf. XIV.</p>
+              <p>[1] Die Muster dieser Verzierungen sind zwischen den verschiedenen Sûren verschieden; einmal (Fol. 3b) ist einer solchen Verzierung zum weiteren Schmuck eine Architektur in byzantinischem Rundbogenstyl beigegeben. Vielleicht wäre es möglich, dass ein Kunstkenner gerade aus diesem Schmucke der Handschrift das Alter derselben wenigstens annähernd zu bestimmen vermöchte.“ </p>
+            </summary>
+            <msItem xml:id="mysql_id_672761" n="1r">
+              <title type="numeric" key="043:052:006-043:059:003">
+                                    043:052:006-043:059:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672762" n="1v">
+              <title type="numeric" key="043:059:004-043:065:002">
+                                    043:059:004-043:065:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672763" n="2r">
+              <title type="numeric" key="043:065:003-043:071:011">
+                                    043:065:003-043:071:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672764" n="2v">
+              <title type="numeric" key="043:071:012-043:080:005">
+                                    043:071:012-043:080:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672765" n="3r">
+              <title type="numeric" key="043:080:006-043:085:010">
+                                    043:080:006-043:085:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672766" n="3v">
+              <title type="numeric" key="043:085:011-044:004:001">
+                                    043:085:011-044:004:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672767" n="4r">
+              <title type="numeric" key="044:004:002-044:013:001">
+                                    044:004:002-044:013:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672768" n="4v">
+              <title type="numeric" key="044:013:002-044:021:002">
+                                    044:013:002-044:021:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672769" n="5r">
+              <title type="numeric" key="044:021:003-044:031:002">
+                                    044:021:003-044:031:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672770" n="5v">
+              <title type="numeric" key="044:031:003-044:040:003">
+                                    044:031:003-044:040:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672771" n="6r">
+              <title type="numeric" key="044:040:004-044:052:002">
+                                    044:040:004-044:052:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672772" n="6v">
+              <title type="numeric" key="044:052:003-045:001:001">
+                                    044:052:003-045:001:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672773" n="7r">
+              <title type="numeric" key="045:002:001-045:007:003">
+                                    045:002:001-045:007:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672774" n="7v">
+              <title type="numeric" key="045:007:004-045:012:007">
+                                    045:007:004-045:012:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672775" n="8r">
+              <title type="numeric" key="045:012:008-045:016:010">
+                                    045:012:008-045:016:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672776" n="8v">
+              <title type="numeric" key="045:016:011-045:021:004">
+                                    045:016:011-045:021:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672777" n="9r">
+              <title type="numeric" key="045:021:005-045:024:006">
+                                    045:021:005-045:024:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672778" n="9v">
+              <title type="numeric" key="045:024:007-045:028:008">
+                                    045:024:007-045:028:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672779" n="10r">
+              <title type="numeric" key="045:028:009-045:032:016">
+                                    045:028:009-045:032:016
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672780" n="10v">
+              <title type="numeric" key="045:032:017-045:037:004">
+                                    045:032:017-045:037:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672781" n="11r">
+              <title type="numeric" key="045:037:005-046:004:014">
+                                    045:037:005-046:004:014
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672782" n="11v">
+              <title type="numeric" key="046:004:015-046:008:009">
+                                    046:004:015-046:008:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672783" n="12r">
+              <title type="numeric" key="046:008:010-046:011:004">
+                                    046:008:010-046:011:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672784" n="12v">
+              <title type="numeric" key="046:011:005-046:015:005">
+                                    046:011:005-046:015:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 12
+                                    <dimensions unit="mm"><width>630</width><height>550</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12">12 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C.Ia
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-800</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_37328">
+      <graphic decls="#imageRights-1" url="manuscript/171/a387373a-d0c2-4277-841c-d1d359c492ca/manuscript-171-page-37328-image-22057.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_37329">
+      <graphic decls="#imageRights-1" url="manuscript/171/f8831b7e-6fdf-4304-b13d-54887a8223be/manuscript-171-page-37329-image-22058.jpg"/>
+      <graphic decls="#imageRights-2" url="manuscript/171/00fd8c9c-9fc4-457a-9552-e1dec11413fa/manuscript-171-page-37329-image-36717.tiff"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_37330">
+      <graphic decls="#imageRights-1" url="manuscript/171/8d06dc2a-c97b-42c7-b8b5-b6428d1bc07d/manuscript-171-page-37330-image-22059.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_37331">
+      <graphic decls="#imageRights-1" url="manuscript/171/dfe610a0-c302-4c74-8678-c704d6511189/manuscript-171-page-37331-image-22060.jpg"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_37332">
+      <graphic decls="#imageRights-1" url="manuscript/171/f29405ad-39c5-4a77-8b5a-46ca6adf143c/manuscript-171-page-37332-image-22061.jpg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_37333">
+      <graphic decls="#imageRights-1" url="manuscript/171/9e827cc2-8ac8-43f8-87ce-f3242c35bd4b/manuscript-171-page-37333-image-22062.jpg"/>
+    </surface>
+    <surface n="4r" xml:id="mysql_id_37334">
+      <graphic decls="#imageRights-1" url="manuscript/171/fb9308c6-f94a-46a4-b4e2-90f900bbb688/manuscript-171-page-37334-image-22063.jpg"/>
+    </surface>
+    <surface n="4v" xml:id="mysql_id_37335">
+      <graphic decls="#imageRights-1" url="manuscript/171/42589b99-4b34-4a8b-bf42-95953be2d5f3/manuscript-171-page-37335-image-22064.jpg"/>
+    </surface>
+    <surface n="5r" xml:id="mysql_id_37336">
+      <graphic decls="#imageRights-1" url="manuscript/171/351ca267-2dbb-4e99-bec6-fa89eb20c324/manuscript-171-page-37336-image-22065.jpg"/>
+    </surface>
+    <surface n="5v" xml:id="mysql_id_37337">
+      <graphic decls="#imageRights-1" url="manuscript/171/e6d0e584-4302-4255-aa66-16e1c6eda661/manuscript-171-page-37337-image-22066.jpg"/>
+    </surface>
+    <surface n="6r" xml:id="mysql_id_37338">
+      <graphic decls="#imageRights-1" url="manuscript/171/ae8b24a1-fee8-4e51-83e3-78b454bbdccd/manuscript-171-page-37338-image-22067.jpg"/>
+    </surface>
+    <surface n="6v" xml:id="mysql_id_37339">
+      <graphic decls="#imageRights-1" url="manuscript/171/b9a1070e-6762-4847-af56-67b74f85451e/manuscript-171-page-37339-image-22068.jpg"/>
+      <graphic decls="#imageRights-3" url="manuscript/171/e3fef420-7064-4bea-a572-3d9cef4ee4c3/manuscript-171-page-37339-image-36686.jpg"/>
+    </surface>
+    <surface n="7r" xml:id="mysql_id_37340">
+      <graphic decls="#imageRights-1" url="manuscript/171/f277abf5-98cd-40ca-9eb1-2e44cf2dbd92/manuscript-171-page-37340-image-22069.jpg"/>
+    </surface>
+    <surface n="7v" xml:id="mysql_id_37341">
+      <graphic decls="#imageRights-1" url="manuscript/171/a189bbc4-81ce-4b72-8a2c-761461158638/manuscript-171-page-37341-image-22070.jpg"/>
+    </surface>
+    <surface n="8r" xml:id="mysql_id_37342">
+      <graphic decls="#imageRights-1" url="manuscript/171/8c1d850f-2bb7-4a02-8c22-b462f6340dc4/manuscript-171-page-37342-image-22071.jpg"/>
+    </surface>
+    <surface n="8v" xml:id="mysql_id_37343">
+      <graphic decls="#imageRights-1" url="manuscript/171/c752b627-86be-42a7-a7fc-92c345a02e83/manuscript-171-page-37343-image-22072.jpg"/>
+    </surface>
+    <surface n="9r" xml:id="mysql_id_37344">
+      <graphic decls="#imageRights-1" url="manuscript/171/3d68e726-aceb-4f63-b4e4-8e65c0df271b/manuscript-171-page-37344-image-22073.jpg"/>
+    </surface>
+    <surface n="9v" xml:id="mysql_id_37345">
+      <graphic decls="#imageRights-1" url="manuscript/171/aa184fae-26a2-4ade-a842-d15075e4a505/manuscript-171-page-37345-image-22074.jpg"/>
+    </surface>
+    <surface n="10r" xml:id="mysql_id_37346">
+      <graphic decls="#imageRights-1" url="manuscript/171/4892dba5-8e26-4dd2-b14e-c8305dd7d87a/manuscript-171-page-37346-image-22075.jpg"/>
+    </surface>
+    <surface n="10v" xml:id="mysql_id_37347">
+      <graphic decls="#imageRights-1" url="manuscript/171/eef523e9-693c-4f2e-84fa-9d19815bf520/manuscript-171-page-37347-image-22076.jpg"/>
+    </surface>
+    <surface n="11r" xml:id="mysql_id_37348">
+      <graphic decls="#imageRights-1" url="manuscript/171/098f0cc7-f273-4c17-99b6-a007c621b1cc/manuscript-171-page-37348-image-22077.jpg"/>
+    </surface>
+    <surface n="11v" xml:id="mysql_id_37349">
+      <graphic decls="#imageRights-1" url="manuscript/171/6e52477c-0ff4-4926-85b6-4ef6815a70df/manuscript-171-page-37349-image-22078.jpg"/>
+    </surface>
+    <surface n="12r" xml:id="mysql_id_37350">
+      <graphic decls="#imageRights-1" url="manuscript/171/67e4f130-793a-4971-b9a1-d2c04dbd3638/manuscript-171-page-37350-image-22079.jpg"/>
+    </surface>
+    <surface n="12v" xml:id="mysql_id_37351">
+      <graphic decls="#imageRights-1" url="manuscript/171/139f3827-7a2a-4c86-b4a9-f95c40930c63/manuscript-171-page-37351-image-22080.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

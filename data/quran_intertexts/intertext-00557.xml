@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 104:1-35</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_557" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>557</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die genannten Koranstellen erinnern an auch in Psalm 104 vorkommende Elemente, die in den genannten Koranversen in unterschiedlicher Kombination enthalten sind. Vgl. auch TUK_0188 (zu spezifischen Übereinstimmungen mit Sure 78) und TUK_0558 (zu Sure 16). Zu Q 31:10 vgl. auch Psalm 93:1.
+</summary>
+            <msItem>
+              <title>Psalm 104:1-35</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	֑ בָּרֲכִי נַפְשִׁי אֶת־יְהוָה יְהוָה אֱלֹהַי גָּדַלְתָּ מְּאֹד הוֹד וְהָדָר לָבָשְׁתָּ׃ עֹֽטֶה־אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָה׃ הַמְקָרֶה בַמַּיִם עֲלִיּוֹתָיו הַשָּׂם־עָבִים רְכוּבוֹ הַמְהַלֵּךְ עַל־כַּנְפֵי־רֽוּחַ׃  עֹשֶׂה מַלְאָכָיו רוּחוֹת  מְשָׁרְתָיו אֵשׁ לֹהֵט׃  יָסַד־אֶרֶץ עַל־מְכוֹנֶיהָ בַּל־תִּמּוֹט עוֹלָם וָעֶד׃ תְּהוֹם כַּלְּבוּשׁ כִּסִּיתוֹ עַל־הָרִים יַעַמְדוּ־מָיִם׃ מִן־גַּעֲרָתְךָ יְנוּסוּן מִן־קוֹל רַעַמְךָ יֵחָפֵזֽוּן׃ יַעֲלוּ הָרִים יֵרְדוּ בְקָעוֹת אֶל־מְקוֹם זֶה יָסַדְתָּ לָהֶם׃ גְּבוּל־שַׂמְתָּ בַּל־יַעֲבֹרוּן בַּל־יְשׁוּבוּן לְכַסּוֹת הָאָֽרֶץ׃ הַמְשַׁלֵּחַ מַעְיָנִים בַּנְּחָלִים בֵּין הָרִים יְהַלֵּכֽוּן׃  יַשְׁקוּ כָּל־חַיְתוֹ שָׂדָי יִשְׁבְּרוּ פְרָאִים צְמָאָֽם׃ עֲלֵיהֶם עוֹף־הַשָּׁמַיִם יִשְׁכּוֹן מִבֵּין עֳפָאיִם יִתְּנוּ־קֽוֹל׃  מַשְׁקֶה הָרִים מֵעֲלִיּוֹתָיו מִפְּרִי מַעֲשֶׂיךָ תִּשְׂבַּע הָאָֽרֶץ׃ מַצְמִיחַ חָצִיר לַבְּהֵמָה וְעֵשֶׂב לַעֲבֹדַת הָאָדָם לְהוֹצִיא לֶחֶם מִן־הָאָֽרֶץ׃ וְיַיִן יְשַׂמַּח לְבַב־אֱנוֹשׁ לְהַצְהִיל פָּנִים מִשָּׁמֶן וְלֶחֶם לְבַב־אֱנוֹשׁ יִסְעָד׃ יִשְׂבְּעוּ עֲצֵי יְהוָה אַֽרְזֵי לְבָנוֹן אֲשֶׁר נָטָע׃  אֲשֶׁר־שָׁם צִפֳּרִים יְקַנֵּנוּ חֲסִידָה בְּרוֹשִׁים בֵּיתָהּ׃ הָרִים הַגְּבֹהִים לַיְּעֵלִים סְלָעִים מַחְסֶה לַֽשְׁפַנִּים׃  עָשָׂה יָרֵחַ לְמוֹעֲדִים שֶׁמֶשׁ יָדַע מְבוֹאֽוֹ׃ תָּֽשֶׁת־חֹשֶׁךְ וִיהִי לָיְלָה  בּֽוֹ־תִרְמֹשׂ כָּל־חַיְתוֹ־יָעַר׃ הַכְּפִירִים שֹׁאֲגִים לַטָּרֶף וּלְבַקֵּשׁ מֵאֵל אָכְלָם׃ תִּזְרַח הַשֶּׁמֶשׁ יֵאָסֵפוּן וְאֶל־מְעוֹנֹתָם יִרְבָּצֽוּן׃ יֵצֵא אָדָם לְפָעֳלוֹ וְלַעֲבֹדָתוֹ עֲדֵי־עָרֶב׃ מָה־רַבּוּ מַעֲשֶׂיךָ יְהוָה כֻּלָּם בְּחָכְמָה עָשִׂיתָ מָלְאָה הָאָרֶץ קִנְיָנֶךָ׃ זֶה הַיָּם גָּדוֹל וּרְחַב יָדָיִם שָׁם־רֶמֶשׂ וְאֵין מִסְפָּר חַיּוֹת קְטַנּוֹת עִם־גְּדֹלֽוֹת׃  שָׁם אֳנִיּוֹת יְהַלֵּכוּן  לִוְיָתָן זֶה־יָצַרְתָּ לְשַׂחֶק־בּֽוֹ׃  כֻּלָּם אֵלֶיךָ יְשַׂבֵּרוּן לָתֵת אָכְלָם בְּעִתּֽוֹ׃ תִּתֵּן לָהֶם יִלְקֹטוּן תִּפְתַּח יָדְךָ יִשְׂבְּעוּן טֽוֹב׃  תַּסְתִּיר פָּנֶיךָ יִבָּהֵלוּן תֹּסֵף רוּחָם יִגְוָעוּן וְאֶל־עֲפָרָם יְשׁוּבֽוּן׃ תְּשַׁלַּח רוּחֲךָ יִבָּרֵאוּן וּתְחַדֵּשׁ פְּנֵי אֲדָמָה׃ יְהִי כְבוֹד יְהוָה לְעוֹלָם יִשְׂמַח יְהוָה בְּמַעֲשָׂיו׃ הַמַּבִּיט לָאָרֶץ וַתִּרְעָד יִגַּע בֶּהָרִים וְיֶעֱשָׁנוּ׃ אָשִׁירָה לַיהוָה בְּחַיָּי אֲזַמְּרָה לֵאלֹהַי בְּעוֹדִי׃ יֶעֱרַב עָלָיו שִׂיחִי אָנֹכִי אֶשְׂמַח בַּיהוָה׃ יִתַּמּוּ חַטָּאִים מִן־הָאָרֶץ וּרְשָׁעִים עוֹד אֵינָם בָּרֲכִי נַפְשִׁי אֶת־יְהוָה הַלְלוּ־יָֽהּ׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Lobe den Herrn, meine Seele! / Herr, mein Gott, wie groß bist du! / Du bist mit Hoheit und Pracht bekleidet. 2 Du hüllst dich in Licht wie in ein Kleid, / du spannst den Himmel aus wie ein Zelt. 3 Du verankerst die Balken deiner Wohnung im Wasser. / Du nimmst dir die Wolken zum Wagen, / du fährst einher auf den Flügeln des Sturmes. 4 Du machst dir die Winde zu Boten / und lodernde Feuer zu deinen Dienern. 5 Du hast die Erde auf Pfeiler gegründet; / in alle Ewigkeit wird sie nicht wanken. 6 Einst hat die Urflut sie bedeckt wie ein Kleid, / die Wasser standen über den Bergen. 7 Sie wichen vor deinem Drohen zurück, / sie flohen vor der Stimme deines Donners. 8 Da erhoben sich Berge und senkten sich Täler / an den Ort, den du für sie bestimmt hast. 9 Du hast den Wassern eine Grenze gesetzt, / die dürfen sie nicht überschreiten; / nie wieder sollen sie die Erde bedecken. 10 Du lässt die Quellen hervorsprudeln in den Tälern, / sie eilen zwischen den Bergen dahin. 11 Allen Tieren des Feldes spenden sie Trank, / die Wildesel stillen ihren Durst daraus. 12 An den Ufern wohnen die Vögel des Himmels, / aus den Zweigen erklingt ihr Gesang. 13 Du tränkst die Berge aus deinen Kammern, / aus deinen Wolken wird die Erde satt. 14 Du lässt Gras wachsen für das Vieh, / auch Pflanzen für den Menschen, die er anbaut,damit er Brot gewinnt von der Erde / 15 und Wein, der das Herz des Menschen erfreut, damit sein Gesicht von Öl erglänzt / und Brot das Menschenherz stärkt. 16 Die Bäume des Herrn trinken sich satt, / die Zedern des Libanon, die er gepflanzt hat. 17 In ihnen bauen die Vögel ihr Nest, / auf den Zypressen nistet der Storch. 18 Die hohen Berge gehören dem Steinbock, / dem Klippdachs bieten die Felsen Zuflucht. 19 Du hast den Mond gemacht als Maß für die Zeiten, / die Sonne weiß, wann sie untergeht. 20 Du sendest Finsternis und es wird Nacht, / dann regen sich alle Tiere des Waldes. 21 Die jungen Löwen brüllen nach Beute, / sie verlangen von Gott ihre Nahrung. 22 Strahlt die Sonne dann auf, so schleichen sie heim / und lagern sich in ihren Verstecken. 23 Nun geht der Mensch hinaus an sein Tagwerk, / an seine Arbeit bis zum Abend. 24 Herr, wie zahlreich sind deine Werke! / Mit Weisheit hast du sie alle gemacht, / die Erde ist voll von deinen Geschöpfen. 25 Da ist das Meer, so groß und weit, / darin ein Gewimmel ohne Zahl: kleine und große Tiere. 26 Dort ziehen die Schiffe dahin, / auch der Leviatan, den du geformt hast, um mit ihm zu spielen. 27 Sie alle warten auf dich, / dass du ihnen Speise gibst zur rechten Zeit. 28 Gibst du ihnen, dann sammeln sie ein; / öffnest du deine Hand, werden sie satt an Gutem. 29 Verbirgst du dein Gesicht, sind sie verstört; / nimmst du ihnen den Atem, so schwinden sie hin / und kehren zurück zum Staub der Erde. 30 Sendest du deinen Geist aus, so werden sie alle erschaffen / und du erneuerst das Antlitz der Erde. 31 Ewig währe die Herrlichkeit des Herrn; / der Herr freue sich seiner Werke. 32 Er blickt auf die Erde und sie erbebt; / er rührt die Berge an und sie rauchen. 33 Ich will dem Herrn singen, solange ich lebe, / will meinem Gott spielen, solange ich da bin. 34 Möge ihm mein Dichten gefallen. / Ich will mich freuen am Herrn. 35 Doch die Sünder sollen von der Erde verschwinden / und es sollen keine Frevler mehr da sein. / Lobe den Herrn, meine Seele! / Halleluja!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Über die Seele</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_190" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>190</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Andrae 1926: p. 163 weist darauf hin, dass nach Q 3:169-170 diejenigen, "die auf Gottes Weg getötet worden sind", bereits vor dem Jüngsten Gericht "bei Gott lebendig sind", also, nach T. Andrae, unmittelbar nach ihrem Ableben in das Paradies eingehen. Im Koran wird allerdings nicht explizit das Paradies genannt. Eine ähnliche Vorstellung findet sich unter anderem bei Tertullian: Anders als die übrigen Seelen, einschließlich die der Gerechten, gelangen die Märtyrerseelen sofort ins Paradies, was zumindest bei Tertullian die Gottesnähe impliziert. In der syrischen Tradition wird hingegen zwischen Paradies und der späteren unmittelbaren Gottesnähe im "Himmelreich" (malkūtā da-šmayyā) unterschieden.</summary>
+            <msItem>
+              <title>Über die Seele</title>
+              <author>Tertullian (ca. 160 - ca. 230)</author>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Anfang 3. Jh. n. Chr.</origDate>
+              <origPlace>Nordafrika</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Q. Septimus Florens Tertullianus, De anima, hg. von J. H. Waszink, Amsterdam 1947 (Nachdruck Hildesheim 2007), Abschnitt 55.</bibl>
+              <bibl type="literatur">Andrae, Tor. Der Ursprung Des Islams Und Das Christentum. Uppsala, 1926.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>[1] Nobis inferi non nuda cauositas nec subdiualis aliqua mundi sentina creduntur, sed in fossa terrae et in alto uastitas et in ipsis uisceribus eius abstrusa profunditas, siquidem Christo in corde terrae triduum mortis legimus expunctum, id est in recessu intimo et interno et in ipsa terra operto et intra ipsam clauso et inferioribus adhuc abyssis superstructo. [2] Quodsi Christus deus, quia et homo, mortuus secundum scripturas et sepultus secundum easdem, huic quoque legi satisfecit forma humanae mortis apud inferos functus, nec ante ascendit in sublimiora caelorum quam descendit in inferiora terrarum, ut illic patriarchas et prophetas compotes sui faceret, habes et regionem inferum subterraneam credere et illos cubito pellere qui satis superbe non putent animas fidelium inferis dignas, serui super dominum et discipuli super magistrum, aspernati, si forte, in Abrahae sinu expectandae resurrectionis solacium capere. [3] 'Sed in hoc', inquiunt, 'Christus inferos adiit, ne nos adiremus. Ceterum quod discrimen ethnicorum et Christianorum, si carcer mortuis idem?' Quo ergo animam exhalabis in caelum Christo illic adhuc sedente ad dexteram patris, nondum dei iussu per tubam archangeli audito, nondum illis quos domini aduentus in saeculo inuenerit, obuiam ei ereptis in aerem, cum his qui mortui in Christo primi resurgent? Nulli patet caelum terra adhuc salua, ne dixerim clausa. Cum transactione enim mundi reserabuntur regna caelorum. [4] Sed in aethere dormitio nostra cum puerariis Platonis aut in aere cum Ario aut circa lunam cum Endymionibus Stoicorum? Immo, inquis, in paradiso, quo iam tunc et patriarchae et prophetae appendices dominicae resurrectionis ab inferis migrauerint. Et quomodo Iohanni in spiritu paradisi regio reuelata, quae subicitur altari, nullas alias animas apud se praeter martyrum ostendit? Quomodo Perpetua, fortissima martyr, sub die passionis in reuelatione paradisi solos illic martyras uidit, nisi quia nullis romphaea paradisi ianitrix cedit nisi qui in Christo decesserint, non in Adam? [5] Noua mors pro deo et extraordinaria pro Christo alio et priuato excipitur hospitio. Agnosce itaque differentiam ethnici et fidelis in morte, si pro deo occumbas, ut paracletus monet, non in mollibus febribus et in lectulis, sed in martyriis, si crucem tuam tollas et sequaris dominum, ut ipse praecepit. Tota paradisi clauis tuus sanguis est. Habes etiam de paradiso a nobis libellum, quo constituimus omnem animam apud inferos sequestrari in diem domini.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>55. Von uns wird die Unterwelt nicht für eine blosse Aushöhlung oder eine oben offene Mistkaule der Erde, sondern für einen ungeheuren Raum im Abgrunde der Erde in der Tiefe und für einen entlegenen Schlund im Innern der Erde selbst gehalten. Denn wir lesen, dass Christus die drei Tage seines Totseins im Herzen der Erde zugebracht habe, d. h. in deren innerstem und innerlichstem Verlies, das noch in der Erde selbst verborgen, in ihr selbst verschlossen und mit noch tieferen Abgründen überbaut ist. Christus selbst, der Gott war, leistete also, weil er der Schrift zufolge ein Mensch, ein Toter und schliesslich auch ein Begrabener war, sogar diesem Gesetze Genüge, indem er der gewöhnlichen Form des menschlichen Totseins sich unterzog, und stieg nicht eher zu den höheren Regionen des Himmels empor, als bis er in die tieferen Regionen der Erde hinabgestiegen war, um dort den Patriarchen und Propheten Anteil an seiner Person zu verschaffen. Darum haben wir auch an eine unterirdische Region der Unterwelt zu glauben und jene Leute gleichsam' mit dem Ellbogen dorthin zu stossen, welche stolz genug sind und die Seele der Gläubigen zu gut für die Unterwelt halten. Das sind Diener, die über ihrem Herrn, Schüler, die über dem Lehrer stehen wollen. Sie würden es vielleicht sogar verschmähen, den Trost anzunehmen, im Schosse Abrahams die Auferstehung erwarten zu dürfen!"Gerade dazu", wenden sie ein, "hat Christus die Unterwelt betreten, damit wir es nicht brauchen. Was für ein Unterschied bestände denn zwischen Heiden und Christen, wenn ihr Kerker derselbe wäre?" ---- Wie wäre es denn aber möglich, dass die Seele zum Himmel hinaufwalle, so lange Christus dort noch sitzt zur Rechten des Vaters, so lange man den Befehl Gottes durch die Posaune des Erzengels noch nicht vernommen hat, so lange diejenigen, welche die Ankunft des Herrn in dieser Welt finden soll, noch nicht ihm entgegen hinaufgezogen worden sind in die Lüfte samt denen, welche, in Christo abgeschieden, zuerst auferstehen werden? Niemandem steht der Himmel offen, so lange die Erde noch besteht, um nicht zu sagen, so lange sie noch verschlossen ist. Denn erst mit der Umwandlung der Erde werden die Reiche des Himmels aufgeschlossen.Dann wird unsere Ruhestätte wohl bei den Knabenschändern des Plato sein, in der Luft bei Arius, oder um den Mond herum mit den Endymionen unter den Stoikern?! Nein, entgegnet man uns, im Paradiese, wohin schon damals die Patriarchen und Propheten als Gefolgschaft der Auferstehung des Herrn übergesiedelt sind. ---- Wie kam es dann aber, dass die Region des Paradieses, die dem Johannes im Geiste enthüllt wurde und die unter dem Altare gelegen ist, keine andern Seelen als solche von Martyrern aufzuweisen hatte? Wie kam es, dass die beherzte Martyrin Perpetua, als ihr am Tage ihres Leidens das Paradies enthüllt wurde, dort nur die Seelen ihrer Mitmartyrer erblickte, wenn nicht daher, dass das Schwert, welches die Pforte des Paradieses bewacht, nur denen Platz macht, die in Christo, nicht denen, die in Adam verschieden sind? Die neue Todesart für Gott und der aussergewöhnliche Tod für Christus finden in einer andern und besondern Herberge Aufnahme. Daraus also entnehme man den Unterschied zwischen einem Heiden und einem Gläubigen in bezug auf den Tod, wenn wir für Gott sterben, wie der Paraklet ermahnt, nicht in weichlichen Fieberchen und Bettchen, sondern im Martyrtum, wenn wir unser Kreuz auf uns nehmen und dem Herrn folgen, wie er selber vorgeschrieben hat. Der Schlüssel zum Paradies ist Dein eigenes Blut. Es existiert von uns auch eine eigene Schrift über das Paradies, worin wir festgestellt haben, dass alle Seelen in der Unterwelt verwahrt gehalten werden bis zum Tage des Herrn.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

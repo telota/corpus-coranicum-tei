@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apostelgeschichte 15:13-29</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_271" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>271</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Speisegebote im Koran stimmen weitgehend mit den auch in der Apostelgeschichte beibehaltenen überein (vgl. noch Apostelgeschichte 21:25). Gemeinsam ist beiden Texten insbesondere das Verbot, Opferfleisch zu verzehren (Q 5:3 und Apostelgeschichte 15:20); der Koran fügt dieser Negativbestimmung noch die positive Anweisung hinzu, über geschlachteten Tieren den Namen Gottes anzurufen (Q 5:4). Wenn Q 5:5 zu essen gestattet, was "den Schriftbesitzern" erlaubt ist, so könnten damit am ehesten die neutestamentlichen Erleichterungen der alttestamentlichen Speiseverbote gemeint sein (vgl. Thyen 2000: p. 227).</summary>
+            <msItem>
+              <title>Apostelgeschichte 15:13-29</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Ende 1. Jh. n. Chr.</origDate>
+              <origPlace>Ägäis oder Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Thyen, Johann-Dietrich, ed. Bibel Und Koran: Eine Synopse Gemeinsamer &amp;#xDC;berlieferungen. 3rd ed. K&amp;#xF6;lner Ver&amp;#xF6;ffentlichungen Zur Religionsgeschichte&amp;#x202F;: KVRG. - K&amp;#xF6;ln&amp;#x202F;: B&amp;#xF6;hlau, 1983- 19. K&amp;#xF6;ln [u.a.]: B&amp;#xF6;hlau, 2000.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>%3Cp%3E13+%CE%9C%CE%B5%CF%84%E1%BD%B0+%CE%B4%E1%BD%B2+%CF%84%E1%BD%B8+%CF%83%CE%B9%CE%B3%E1%BF%86%CF%83%CE%B1%CE%B9+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BD%BA%CF%82+%E1%BC%80%CF%80%CE%B5%CE%BA%CF%81%E1%BD%B7%CE%B8%CE%B7+%E1%BC%B8%E1%BD%B1%CE%BA%CF%89%CE%B2%CE%BF%CF%82+%CE%BB%E1%BD%B3%CE%B3%CF%89%CE%BD%E2%80%A2+%E1%BC%84%CE%BD%CE%B4%CF%81%CE%B5%CF%82+%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%E1%BD%B7%2C+%E1%BC%80%CE%BA%CE%BF%E1%BD%BB%CF%83%CE%B1%CF%84%E1%BD%B3+%CE%BC%CE%BF%CF%85.+14+%CE%A3%CF%85%CE%BC%CE%B5%E1%BD%BC%CE%BD+%E1%BC%90%CE%BE%CE%B7%CE%B3%E1%BD%B5%CF%83%CE%B1%CF%84%CE%BF+%CE%BA%CE%B1%CE%B8%E1%BD%BC%CF%82+%CF%80%CF%81%E1%BF%B6%CF%84%CE%BF%CE%BD+%E1%BD%81+%CE%B8%CE%B5%E1%BD%B8%CF%82+%E1%BC%90%CF%80%CE%B5%CF%83%CE%BA%E1%BD%B3%CF%88%CE%B1%CF%84%CE%BF+%CE%BB%CE%B1%CE%B2%CE%B5%E1%BF%96%CE%BD+%E1%BC%90%CE%BE+%E1%BC%90%CE%B8%CE%BD%E1%BF%B6%CE%BD+%CE%BB%CE%B1%E1%BD%B8%CE%BD+%CF%84%E1%BF%B7+%E1%BD%80%CE%BD%E1%BD%B9%CE%BC%CE%B1%CF%84%CE%B9+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BF%A6.+15+%CE%BA%CE%B1%E1%BD%B6+%CF%84%CE%BF%E1%BD%BB%CF%84%E1%BF%B3+%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%BF%E1%BF%A6%CF%83%CE%B9%CE%BD+%CE%BF%E1%BC%B1+%CE%BB%E1%BD%B9%CE%B3%CE%BF%CE%B9+%CF%84%E1%BF%B6%CE%BD+%CF%80%CF%81%CE%BF%CF%86%CE%B7%CF%84%E1%BF%B6%CE%BD+%CE%BA%CE%B1%CE%B8%E1%BD%BC%CF%82+%CE%B3%E1%BD%B3%CE%B3%CF%81%CE%B1%CF%80%CF%84%CE%B1%CE%B9%E2%80%A2+16+%CE%BC%CE%B5%CF%84%E1%BD%B0+%CF%84%CE%B1%E1%BF%A6%CF%84%CE%B1+%E1%BC%80%CE%BD%CE%B1%CF%83%CF%84%CF%81%E1%BD%B3%CF%88%CF%89+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%80%CE%BD%CE%BF%CE%B9%CE%BA%CE%BF%CE%B4%CE%BF%CE%BC%E1%BD%B5%CF%83%CF%89+%CF%84%E1%BD%B4%CE%BD+%CF%83%CE%BA%CE%B7%CE%BD%E1%BD%B4%CE%BD+%CE%94%CE%B1%CF%85%E1%BD%B6%CE%B4+%CF%84%E1%BD%B4%CE%BD+%CF%80%CE%B5%CF%80%CF%84%CF%89%CE%BA%CF%85%E1%BF%96%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%84%E1%BD%B0+%CE%BA%CE%B1%CF%84%CE%B5%CF%83%CE%BA%CE%B1%CE%BC%CE%BC%E1%BD%B3%CE%BD%CE%B1+%CE%B1%E1%BD%90%CF%84%E1%BF%86%CF%82+%E1%BC%80%CE%BD%CE%BF%CE%B9%CE%BA%CE%BF%CE%B4%CE%BF%CE%BC%E1%BD%B5%CF%83%CF%89+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%80%CE%BD%CE%BF%CF%81%CE%B8%E1%BD%BD%CF%83%CF%89+%CE%B1%E1%BD%90%CF%84%E1%BD%B5%CE%BD%2C+17+%E1%BD%85%CF%80%CF%89%CF%82+%E1%BC%82%CE%BD+%E1%BC%90%CE%BA%CE%B6%CE%B7%CF%84%E1%BD%B5%CF%83%CF%89%CF%83%CE%B9%CE%BD+%CE%BF%E1%BC%B1+%CE%BA%CE%B1%CF%84%E1%BD%B1%CE%BB%CE%BF%CE%B9%CF%80%CE%BF%CE%B9+%CF%84%E1%BF%B6%CE%BD+%E1%BC%80%CE%BD%CE%B8%CF%81%E1%BD%BD%CF%80%CF%89%CE%BD+%CF%84%E1%BD%B8%CE%BD+%CE%BA%E1%BD%BB%CF%81%CE%B9%CE%BF%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%80%E1%BD%B1%CE%BD%CF%84%CE%B1+%CF%84%E1%BD%B0+%E1%BC%94%CE%B8%CE%BD%CE%B7+%E1%BC%90%CF%86%E1%BE%BD+%CE%BF%E1%BD%93%CF%82+%E1%BC%90%CF%80%CE%B9%CE%BA%E1%BD%B3%CE%BA%CE%BB%CE%B7%CF%84%CE%B1%CE%B9+%CF%84%E1%BD%B8+%E1%BD%84%CE%BD%CE%BF%CE%BC%E1%BD%B1+%CE%BC%CE%BF%CF%85+%E1%BC%90%CF%80%E1%BE%BD+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BD%BB%CF%82%2C+%CE%BB%E1%BD%B3%CE%B3%CE%B5%CE%B9+%CE%BA%E1%BD%BB%CF%81%CE%B9%CE%BF%CF%82+%CF%80%CE%BF%CE%B9%E1%BF%B6%CE%BD+%CF%84%CE%B1%E1%BF%A6%CF%84%CE%B1+18+%CE%B3%CE%BD%CF%89%CF%83%CF%84%E1%BD%B0+%E1%BC%80%CF%80%E1%BE%BD+%CE%B1%E1%BC%B0%E1%BF%B6%CE%BD%CE%BF%CF%82.+19+%CE%B4%CE%B9%E1%BD%B8+%E1%BC%90%CE%B3%E1%BD%BC+%CE%BA%CF%81%E1%BD%B7%CE%BD%CF%89+%CE%BC%E1%BD%B4+%CF%80%CE%B1%CF%81%CE%B5%CE%BD%CE%BF%CF%87%CE%BB%CE%B5%E1%BF%96%CE%BD+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%80%CF%80%E1%BD%B8+%CF%84%E1%BF%B6%CE%BD+%E1%BC%90%CE%B8%CE%BD%E1%BF%B6%CE%BD+%E1%BC%90%CF%80%CE%B9%CF%83%CF%84%CF%81%E1%BD%B3%CF%86%CE%BF%CF%85%CF%83%CE%B9%CE%BD+%E1%BC%90%CF%80%E1%BD%B6+%CF%84%E1%BD%B8%CE%BD+%CE%B8%CE%B5%E1%BD%B9%CE%BD%2C+20+%3Cb%3E+%E1%BC%80%CE%BB%CE%BB%E1%BD%B0+%E1%BC%90%CF%80%CE%B9%CF%83%CF%84%CE%B5%E1%BF%96%CE%BB%CE%B1%CE%B9+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BF%96%CF%82+%CF%84%CE%BF%E1%BF%A6+%E1%BC%80%CF%80%E1%BD%B3%CF%87%CE%B5%CF%83%CE%B8%CE%B1%CE%B9+%CF%84%E1%BF%B6%CE%BD+%E1%BC%80%CE%BB%CE%B9%CF%83%CE%B3%CE%B7%CE%BC%E1%BD%B1%CF%84%CF%89%CE%BD+%CF%84%E1%BF%B6%CE%BD+%CE%B5%E1%BC%B0%CE%B4%E1%BD%BD%CE%BB%CF%89%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%84%E1%BF%86%CF%82+%CF%80%CE%BF%CF%81%CE%BD%CE%B5%E1%BD%B7%CE%B1%CF%82+%CE%BA%CE%B1%E1%BD%B6+%CF%84%CE%BF%E1%BF%A6+%CF%80%CE%BD%CE%B9%CE%BA%CF%84%CE%BF%E1%BF%A6+%CE%BA%CE%B1%E1%BD%B6+%CF%84%CE%BF%E1%BF%A6+%CE%B1%E1%BC%B5%CE%BC%CE%B1%CF%84%CE%BF%CF%82.+%3C%2Fb%3E+21+%CE%9C%CF%89%CF%8B%CF%83%E1%BF%86%CF%82+%CE%B3%E1%BD%B0%CF%81+%E1%BC%90%CE%BA+%CE%B3%CE%B5%CE%BD%CE%B5%E1%BF%B6%CE%BD+%E1%BC%80%CF%81%CF%87%CE%B1%E1%BD%B7%CF%89%CE%BD+%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%E1%BD%B9%CE%BB%CE%B9%CE%BD+%CF%84%CE%BF%E1%BD%BA%CF%82+%CE%BA%CE%B7%CF%81%E1%BD%BB%CF%83%CF%83%CE%BF%CE%BD%CF%84%CE%B1%CF%82+%CE%B1%E1%BD%90%CF%84%E1%BD%B8%CE%BD+%E1%BC%94%CF%87%CE%B5%CE%B9+%E1%BC%90%CE%BD+%CF%84%CE%B1%E1%BF%96%CF%82+%CF%83%CF%85%CE%BD%CE%B1%CE%B3%CF%89%CE%B3%CE%B1%E1%BF%96%CF%82+%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%80%E1%BE%B6%CE%BD+%CF%83%E1%BD%B1%CE%B2%CE%B2%CE%B1%CF%84%CE%BF%CE%BD+%E1%BC%80%CE%BD%CE%B1%CE%B3%CE%B9%CE%BD%CF%89%CF%83%CE%BA%E1%BD%B9%CE%BC%CE%B5%CE%BD%CE%BF%CF%82.+22+%CE%A4%E1%BD%B9%CF%84%CE%B5+%E1%BC%94%CE%B4%CE%BF%CE%BE%CE%B5+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%80%CF%80%CE%BF%CF%83%CF%84%E1%BD%B9%CE%BB%CE%BF%CE%B9%CF%82+%CE%BA%CE%B1%E1%BD%B6+%CF%84%CE%BF%E1%BF%96%CF%82+%CF%80%CF%81%CE%B5%CF%83%CE%B2%CF%85%CF%84%E1%BD%B3%CF%81%CE%BF%CE%B9%CF%82+%CF%83%E1%BD%BA%CE%BD+%E1%BD%85%CE%BB%E1%BF%83+%CF%84%E1%BF%87+%E1%BC%90%CE%BA%CE%BA%CE%BB%CE%B7%CF%83%E1%BD%B7%E1%BE%B3+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BE%CE%B1%CE%BC%E1%BD%B3%CE%BD%CE%BF%CF%85%CF%82+%E1%BC%84%CE%BD%CE%B4%CF%81%CE%B1%CF%82+%E1%BC%90%CE%BE+%CE%B1%E1%BD%90%CF%84%E1%BF%B6%CE%BD+%CF%80%E1%BD%B3%CE%BC%CF%88%CE%B1%CE%B9+%CE%B5%E1%BC%B0%CF%82+%E1%BC%88%CE%BD%CF%84%CE%B9%E1%BD%B9%CF%87%CE%B5%CE%B9%CE%B1%CE%BD+%CF%83%E1%BD%BA%CE%BD+%CF%84%E1%BF%B7+%CE%A0%CE%B1%E1%BD%BB%CE%BB%E1%BF%B3+%CE%BA%CE%B1%E1%BD%B6+%CE%92%CE%B1%CF%81%CE%BD%CE%B1%CE%B2%E1%BE%B7%2C+%E1%BC%B8%CE%BF%E1%BD%BB%CE%B4%CE%B1%CE%BD+%CF%84%E1%BD%B8%CE%BD+%CE%BA%CE%B1%CE%BB%CE%BF%E1%BD%BB%CE%BC%CE%B5%CE%BD%CE%BF%CE%BD+%CE%92%CE%B1%CF%81%CF%83%CE%B1%CE%B2%CE%B2%E1%BE%B6%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%A3%CE%B9%CE%BB%E1%BE%B6%CE%BD%2C+%E1%BC%84%CE%BD%CE%B4%CF%81%CE%B1%CF%82+%E1%BC%A1%CE%B3%CE%BF%CF%85%CE%BC%E1%BD%B3%CE%BD%CE%BF%CF%85%CF%82+%E1%BC%90%CE%BD+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%E1%BF%96%CF%82%2C+23+%CE%B3%CF%81%E1%BD%B1%CF%88%CE%B1%CE%BD%CF%84%CE%B5%CF%82+%CE%B4%CE%B9%E1%BD%B0+%CF%87%CE%B5%CE%B9%CF%81%E1%BD%B8%CF%82+%CE%B1%E1%BD%90%CF%84%E1%BF%B6%CE%BD%E2%80%A2+%CE%9F%E1%BC%B1+%E1%BC%80%CF%80%E1%BD%B9%CF%83%CF%84%CE%BF%CE%BB%CE%BF%CE%B9+%CE%BA%CE%B1%E1%BD%B6+%CE%BF%E1%BC%B1+%CF%80%CF%81%CE%B5%CF%83%CE%B2%E1%BD%BB%CF%84%CE%B5%CF%81%CE%BF%CE%B9+%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%E1%BD%B6+%CF%84%CE%BF%E1%BF%96%CF%82+%CE%BA%CE%B1%CF%84%E1%BD%B0+%CF%84%E1%BD%B4%CE%BD+%E1%BC%88%CE%BD%CF%84%CE%B9%E1%BD%B9%CF%87%CE%B5%CE%B9%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%A3%CF%85%CF%81%E1%BD%B7%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%9A%CE%B9%CE%BB%CE%B9%CE%BA%E1%BD%B7%CE%B1%CE%BD+%E1%BC%80%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%E1%BF%96%CF%82+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%90%CE%BE+%E1%BC%90%CE%B8%CE%BD%E1%BF%B6%CE%BD+%CF%87%CE%B1%E1%BD%B7%CF%81%CE%B5%CE%B9%CE%BD.+24+%E1%BC%98%CF%80%CE%B5%CE%B9%CE%B4%E1%BD%B4+%E1%BC%A0%CE%BA%CE%BF%E1%BD%BB%CF%83%CE%B1%CE%BC%CE%B5%CE%BD+%E1%BD%85%CF%84%CE%B9+%CF%84%CE%B9%CE%BD%E1%BD%B2%CF%82+%E1%BC%90%CE%BE+%E1%BC%A1%CE%BC%E1%BF%B6%CE%BD+%5B%E1%BC%90%CE%BE%CE%B5%CE%BB%CE%B8%E1%BD%B9%CE%BD%CF%84%CE%B5%CF%82%5D+%E1%BC%90%CF%84%E1%BD%B1%CF%81%CE%B1%CE%BE%CE%B1%CE%BD+%E1%BD%91%CE%BC%E1%BE%B6%CF%82+%CE%BB%E1%BD%B9%CE%B3%CE%BF%CE%B9%CF%82+%E1%BC%80%CE%BD%CE%B1%CF%83%CE%BA%CE%B5%CF%85%E1%BD%B1%CE%B6%CE%BF%CE%BD%CF%84%CE%B5%CF%82+%CF%84%E1%BD%B0%CF%82+%CF%88%CF%85%CF%87%E1%BD%B0%CF%82+%E1%BD%91%CE%BC%E1%BF%B6%CE%BD+%CE%BF%E1%BC%B7%CF%82+%CE%BF%E1%BD%90+%CE%B4%CE%B9%CE%B5%CF%83%CF%84%CE%B5%CE%B9%CE%BB%E1%BD%B1%CE%BC%CE%B5%CE%B8%CE%B1%2C+25+%E1%BC%94%CE%B4%CE%BF%CE%BE%CE%B5%CE%BD+%E1%BC%A1%CE%BC%E1%BF%96%CE%BD+%CE%B3%CE%B5%CE%BD%CE%BF%CE%BC%E1%BD%B3%CE%BD%CE%BF%CE%B9%CF%82+%E1%BD%81%CE%BC%CE%BF%CE%B8%CF%85%CE%BC%CE%B1%CE%B4%E1%BD%B8%CE%BD+%E1%BC%90%CE%BA%CE%BB%CE%B5%CE%BE%CE%B1%CE%BC%E1%BD%B3%CE%BD%CE%BF%CE%B9%CF%82+%E1%BC%84%CE%BD%CE%B4%CF%81%CE%B1%CF%82+%CF%80%E1%BD%B3%CE%BC%CF%88%CE%B1%CE%B9+%CF%80%CF%81%E1%BD%B8%CF%82+%E1%BD%91%CE%BC%E1%BE%B6%CF%82+%CF%83%E1%BD%BA%CE%BD+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%80%CE%B3%CE%B1%CF%80%CE%B7%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%A1%CE%BC%E1%BF%B6%CE%BD+%CE%92%CE%B1%CF%81%CE%BD%CE%B1%CE%B2%E1%BE%B7+%CE%BA%CE%B1%E1%BD%B6+%CE%A0%CE%B1%E1%BD%BB%CE%BB%E1%BF%B3%2C+26+%E1%BC%80%CE%BD%CE%B8%CF%81%E1%BD%BD%CF%80%CE%BF%CE%B9%CF%82+%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%B5%CE%B4%CF%89%CE%BA%E1%BD%B9%CF%83%CE%B9+%CF%84%E1%BD%B0%CF%82+%CF%88%CF%85%CF%87%E1%BD%B0%CF%82+%CE%B1%E1%BD%90%CF%84%E1%BF%B6%CE%BD+%E1%BD%91%CF%80%E1%BD%B2%CF%81+%CF%84%CE%BF%E1%BF%A6+%E1%BD%80%CE%BD%E1%BD%B9%CE%BC%CE%B1%CF%84%CE%BF%CF%82+%CF%84%CE%BF%E1%BF%A6+%CE%BA%CF%85%CF%81%E1%BD%B7%CE%BF%CF%85+%E1%BC%A1%CE%BC%E1%BF%B6%CE%BD+%E1%BC%B8%CE%B7%CF%83%CE%BF%E1%BF%A6+%CE%A7%CF%81%CE%B9%CF%83%CF%84%CE%BF%E1%BF%A6.+27+%E1%BC%80%CF%80%CE%B5%CF%83%CF%84%E1%BD%B1%CE%BB%CE%BA%CE%B1%CE%BC%CE%B5%CE%BD+%CE%BF%E1%BD%96%CE%BD+%E1%BC%B8%CE%BF%E1%BD%BB%CE%B4%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%A3%CE%B9%CE%BB%E1%BE%B6%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BD%BA%CF%82+%CE%B4%CE%B9%E1%BD%B0+%CE%BB%E1%BD%B9%CE%B3%CE%BF%CF%85+%E1%BC%80%CF%80%CE%B1%CE%B3%CE%B3%E1%BD%B3%CE%BB%CE%BB%CE%BF%CE%BD%CF%84%CE%B1%CF%82+%CF%84%E1%BD%B0+%CE%B1%E1%BD%90%CF%84%E1%BD%B1.+28+%E1%BC%94%CE%B4%CE%BF%CE%BE%CE%B5%CE%BD+%CE%B3%E1%BD%B0%CF%81+%CF%84%E1%BF%B7+%CF%80%CE%BD%CE%B5%E1%BD%BB%CE%BC%CE%B1%CF%84%CE%B9+%CF%84%E1%BF%B7+%E1%BC%81%CE%B3%E1%BD%B7%E1%BF%B3+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%A1%CE%BC%E1%BF%96%CE%BD+%CE%BC%CE%B7%CE%B4%E1%BD%B2%CE%BD+%CF%80%CE%BB%E1%BD%B3%CE%BF%CE%BD+%E1%BC%90%CF%80%CE%B9%CF%84%E1%BD%B7%CE%B8%CE%B5%CF%83%CE%B8%CE%B1%CE%B9+%E1%BD%91%CE%BC%E1%BF%96%CE%BD+%CE%B2%E1%BD%B1%CF%81%CE%BF%CF%82+%CF%80%CE%BB%E1%BD%B4%CE%BD+%CF%84%CE%BF%E1%BD%BB%CF%84%CF%89%CE%BD+%CF%84%E1%BF%B6%CE%BD+%E1%BC%90%CF%80%E1%BD%B1%CE%BD%CE%B1%CE%B3%CE%BA%CE%B5%CF%82%2C+29+%3Cb%3E+%E1%BC%80%CF%80%E1%BD%B3%CF%87%CE%B5%CF%83%CE%B8%CE%B1%CE%B9+%CE%B5%E1%BC%B0%CE%B4%CF%89%CE%BB%CE%BF%CE%B8%E1%BD%BB%CF%84%CF%89%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%B1%E1%BC%B5%CE%BC%CE%B1%CF%84%CE%BF%CF%82+%CE%BA%CE%B1%E1%BD%B6+%CF%80%CE%BD%CE%B9%CE%BA%CF%84%E1%BF%B6%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%80%CE%BF%CF%81%CE%BD%CE%B5%E1%BD%B7%CE%B1%CF%82%2C+%E1%BC%90%CE%BE+%E1%BD%A7%CE%BD+%CE%B4%CE%B9%CE%B1%CF%84%CE%B7%CF%81%CE%BF%E1%BF%A6%CE%BD%CF%84%CE%B5%CF%82+%E1%BC%91%CE%B1%CF%85%CF%84%CE%BF%E1%BD%BA%CF%82+%CE%B5%E1%BD%96+%CF%80%CF%81%E1%BD%B1%CE%BE%CE%B5%CF%84%CE%B5.+%3C%2Fb%3E+%E1%BC%94%CF%81%CF%81%CF%89%CF%83%CE%B8%CE%B5.%3C%2Fp%3E</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>13 Als sie geendet hatten, nahm Jakobus das Wort und sagte: Brüder, hört mich an! 14 Simon hat berichtet, dass Gott selbst zuerst eingegriffen hat, um aus den Heiden ein Volk für seinen Namen zu gewinnen. 15 Damit stimmen die Worte der Propheten überein, die geschrieben haben: 16 Danach werde ich mich umwenden / und die zerfallene Hütte Davids wieder aufrichten; / ich werde sie aus ihren Trümmern wieder aufrichten / und werde sie wiederherstellen, 17 damit die übrigen Menschen den Herrn suchen, / auch alle Völker, / über denen mein Name ausgerufen ist - / spricht der Herr, der das ausführt, 18 was ihm seit Ewigkeit bekannt ist. 19 Darum halte ich es für richtig, den Heiden, die sich zu Gott bekehren, keine Lasten aufzubürden; 20  man weise sie nur an, Verunreinigung durch Götzen(opferfleisch) und Unzucht zu meiden und weder Ersticktes noch Blut zu essen.  21 Denn Moses hat seit ältesten Zeiten in jeder Stadt seine Verkündiger, da er in den Synagogen an jedem Sabbat verlesen wird. 22 Da beschlossen die Apostel und die Ältesten zusammen mit der ganzen Gemeinde, Männer aus ihrer Mitte auszuwählen und sie zusammen mit Paulus und Barnabas nach Antiochia zu senden, nämlich Judas, genannt Barsabbas, und Silas, führende Männer unter den Brüdern. 23 Sie gaben ihnen folgendes Schreiben mit: Die Apostel und die Ältesten, eure Brüder, grüßen die Brüder aus dem Heidentum in Antiochia, in Syrien und Kilikien. 24 Wir haben gehört, dass einige von uns, denen wir keinen Auftrag erteilt haben, euch mit ihren Reden beunruhigt und eure Gemüter erregt haben. 25 Deshalb haben wir uns geeinigt und beschlossen, Männer auszuwählen und zusammen mit unseren lieben Brüdern Barnabas und Paulus zu euch zu schicken, 26 die beide für den Namen Jesu Christi, unseres Herrn, ihr Leben eingesetzt haben. 27 Wir haben Judas und Silas abgesandt, die euch das Gleiche auch mündlich mitteilen sollen. 28 Denn der Heilige Geist und wir haben beschlossen, euch keine weitere Last aufzuerlegen als diese notwendigen Dinge: 29  Götzenopferfleisch, Blut, Ersticktes und Unzucht zu meiden. Wenn ihr euch davor hütet, handelt ihr richtig.  Lebt wohl!</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

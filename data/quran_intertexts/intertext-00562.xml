@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht Nr. 35:1-10 (Schulthess)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_562" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>562</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Frank-Kamenetzky betrachtet den hier zitierten Einleitungsteil als authentisch (Frank-Kamenetzky 1911: p. 48), wobei vielleicht im Hinblick auf V. 7–10 mit ihrer Anspielung auf den ḥaǧǧ Vorsicht angebracht ist. Von besonderem Interesse ist V. 3: „Haben wir keinen Propheten unter uns, der uns ansagen könnte, wieweit unser Endziel entfernt ist von unserm Ausgangspunkte?“ Natürlich könnte es sich hierbei um eine spätere Fälschung handeln, die dem Ziel dient, eine dem Auftreten Muhammads vorausgehende Erwartungshaltung unter vorislamischen Monotheisten (den sogenannten Ḥanīfen) zu konstruieren, denen Umayya ibn abī ṣ-Ṣalt ja in der islamischen Überlieferung zugerechnet wird. Andererseits ist keineswegs auszuschließen, dass sich in vorislamischer Zeit biblisch gebildete, jedoch nicht dem Judentum oder Christentum zugehörige Araber wie Umayya gefragt haben könnten, ob nicht auch ihnen ein eigener Prophet zuteil werden könnte. Für die Authentizität des Textes ließe sich vielleicht auch noch anführen, dass Muhammad nach koranischem Verständnis ja keineswegs die Aufgabe hat zu verkünden, wann das Ende der Welt eintreten wird; die koranischen Verkündigungen erfüllen insofern die in V. 3 artikulierte Erwartung an einen arabischen Propheten gar nicht, was zumindest auf den ersten Blick für die Authentizität des Textstücks spricht.
+Zum Begriff nabiyy, vgl. Jeffery 1938: p. 131ff.
+
+Zur umstrittenen Authentizität der Umayya ibn abī ṣ-Ṣalt zugeschriebenen Gedichte vgl. allgemein die Anmerkung in TUK_420. Von dem hier zitierten Gedicht sind weitere Fragmente erhalten, vgl. TUK_563.
+</summary>
+            <msItem>
+              <title>Gedicht Nr. 35:1-10 (Schulthess)</title>
+              <author>Umayya ibn abī ṣ-Ṣalt (gest. um 630 n.Chr.) ?</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Anfang 7. Jh. (?)</origDate>
+              <origPlace>Aṭ-Ṭāʾif (Ḥiǧāz) (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Friedrich Schulthess, Umajja ibn Abi ṣ Ṣalt. Die unter seinem Namen überlieferten Gedichtfragmente, Leipzig 1911, S. 46f.; Bahǧa ʿAbdalġafūr al-Ḥadīṯī, Umayya ibn abī ṣ-Ṣalt: Ḥayātuhū wa-šiʿruhū, Bagdad 1975, S. 302-303.</bibl>
+              <bibl type="literatur">Frank-Kamenetzky, Israel: Untersuchungen &amp;#xFC;ber das Verh&amp;#xE4;ltnis der dem Umajja b. Abi &amp;#x1E63; &amp;#x1E62;alt zugeschriebenen Gedichte zum Qor&amp;#x101;n. Kirchhain 1911.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>1. الحَمدُ للَّهِ مُمْسانَا وَمُصْبَحَنَا بِالخَيْرِ صَبَّحَنا رَبّى وَمَسَّانا2. رَبِّ الحَنيفَةِ لَمْ تَنْفَدْ خَزائِنُها مَمْلؤَةٌ طَبَّقَ الآَفاقَ أَشْطانا3. أَلا نَبِىَّ لَنا مِنّا فَيُخْبِرَنا ما بُعْدُ غايَتِنا مِن رأَسِ مَجْرانا4. بَيْنَا يُرَبِّبُنا آَباؤُنا هَلَكوا وَبَيْنَما نَقْتَنَى الأَوْلادَ أَفْنانا5. وَقَد عَلِمْنا لَوَ انَّ العِلْمَ يَنْفَعُنا أَنْ سَوْفَ تَلْحَقُ أُخْرانا بِأولانا6. وَقَد عَجِبْتُ وَما بِالمَوْتِ مِن عَجَبٍ ما بالُ أَحْيائِنا يَبْكونَ مَوْتانا7. يا رَبِّ رَبُّ لا تَجْعَلَنِّى كافِراً أَبداً واَجْعَل سَريرَةَ قَلْبى الدَهرَ إِيماناً8. واِخْلِطْ بِهِ بِنْيَتى واِخْلِطْ بِهِ بَشَرى وَاللَحْمَ وَالدَمَ ما عُمِّرْتُ إِنْسانا9. إِنّى أَعوذُ بِمَن حَجَّ الحَجيجُ لَهُ وَالرافِعُونَ لِدينِ اللَهِ أَرْكانا10. مُسَلِّمِينَ إِليهِ عِندَ حَجِّهِمِ لَمْ يَبْتَغوا بِثَوابِ اللَهِ أَثْمانا11. وَالناسُ رَاثَ عَليهِمُ أَمْرُ ساعَتِهِم فَكُلُّهُم قائِلٌ لِلدِّينِ أَيّانا12. أَيّامَ يَلْقَى نَصارَاهُم مَسيحُهُمُ وَالكائِنينَ لَهُ وُدّاً وَقُرْبانا13. هُمْ ساعَدوهُ كَما قَالوا إلهَهم وَأَرْسَلوهُ يَسوفُ الغَيْبَ دُسْفانا14. ساحى أَياطِلَهُم لَم يَنْزَعوا تَفَثاً وَلَم يَسُلُّوا لَهُم قَمْلاً وصِئِباناً15. لا تَخْلُطَنَّ خَبِيثاتٍ بِطَيِّبَةٍ واِخْلعْ ثِيابَكَ مِنها وَانْجُ عُرْيانا16. كُلُ اِمريْءٍ سَوْفَ يُجْزَى قَرْضَهُ حَسَناً أَو سَيئاً وَمُديناً كَالذى دانا17. قَالَتْ أَرادَ بِنا سُوءاً فَقُلْتُ لَها خَزْيانُ حَيْثُ يَقولُ الزورَ بُهْتانا</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1. Lob sei Gott von uns am Abend und Morgen [Q 30:17] - schenkt er uns doch jeden Morgen und Abend Gutes -,
+	2. dem Herrn der Schöpfung mit ihren unerschöpflichen Schatzkammern [Q 6:50, 11:31, 15:21, 17:100, 38:9, 52:37, 63:7], der die Horizonte übereinander gereiht hat wie Stricke.
+	3. Haben wir keinen Propheten unter uns, der uns ansagen könnte, wieweit unser Endziel entfernt ist von unserm Ausgangspunkte?
+	4. Während uns unsere Eltern aufzogen, sind sie dahingegangen, und während wir Kinder bekommen, lässt uns (das Schicksal) plötzlich verschwinden.
+	5. Nun, wir wissen ja - möchte uns dieses Wissen frommen! - dass sich an unser erstes Leben das andere anschliesst.
+	6. Ich wundere mich wahrlich, da der Tod ja nichts zum Verwundern ist, warum bei uns die Lebenden die Toten beweinen.
+	[...?]
+	7. O Herr, lass mich nie zu den Ungläubigen gehören, sondern lass immer den Glauben meine innerste Herzenssache sein,
+	8. und lass ihn mir in meinen Körper, in Haut, Fleisch und Blut übergehen, solange ich als Mensch zu leben habe.
+	9. Ich suche meinen Hort bei dem, zu dem die Wallfahrer pilgern und die, die Gottes Religion Stützen aufrichten,
+	10. den Gruss an ihn richtend bei ihrer Wallfahrt, ohne sich göttliche Belohnung ausbedungen zu haben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

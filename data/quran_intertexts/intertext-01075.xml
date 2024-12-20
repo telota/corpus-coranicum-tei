@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Sanhedrin, 110a</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1075" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1075</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Anders als im Korach im Buch Numeri wird Qārūn (i.d.R. mit Korach identifiziert, vgl. MacDonald 2012) im Koran auch für seine Überheblichkeit wegen seines Reichtums bestraft. Korachs Reichtum spielt in der Erzählung in Numeri keine Rolle, wird aber von Flavius Josephus erwähnt (vgl. TUK_1074) und ist, wie der hier zitierte Text zeigt, auch Teil der rabbinischen Tradition. Vgl. auch bT Pesahim 119a. Allgemein zur Korach-Erzählung vgl. Numeri 16:1-35 (TUK_0277).
+
+	Laut Q 28:76 besitzt Qārūn soviele Schätze, dass mehrere kräftige Männer die Schlüssel (mafātiḥ) dazu kaum tragen können. Ähnlich heißt es in bT Sanhedrin 110a, dass Korachs Schlüssel eine Last für dreihundert Maultiere bildeten. Heinrich Speyer verweist zu diesem Koranvers auf den Jerusalemer Talmud, Nedarim IX, 4, 26b, wo eine ähnliche Aussage von einem Reichen getroffen wird (Speyer 1931: p. 343). Die hier zitierte Stelle aus dem Babylonischen Talmud wird von Speyer deshalb erwähnt, da ihr zufolge Korach einen der Schätze Josefs gefunden haben soll. Darüber hinaus steht sie Q 28:76 aber auch näher als der erwähnte Abschnitt aus dem Jerusalemer Talmud, da sie ebenfalls von Korach handelt und nicht nur allgemein von einem Reichen.
+
+	Das Bild der Schlüssel zu den Schatzkammern verweist aber nicht nur auf die rabbinische Tradition, sondern findet sich auch an anderen Koranstellen. So heißt es in Q 42:12, dass Gott die Schlüssel (maqālīd) des Himmels und der Erde hat und den Lebensunterhalt (rizq, vgl. zur Etymologie TUK_1460) austeilt. Auch im Anschluss an die Bestrafung Qārūns stellen diejenigen, die zuvor gerne an Qārūns Stelle gestanden hätten, in Q 28:82 fest, dass es Gott ist, der den Lebensunterhalt (rizq) zuteilt. Darin wird die Anmaßung Qārūns deutlich, der seinen Reichtum auf eigenes Wissen (ʿalā ʿilmin ʿindī) zurückführt.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Sanhedrin, 110a</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna 1880-1886</bibl>
+              <bibl type="literatur">MacDonald, D.B.: &amp;#x201E;&amp;#x1E32;&amp;#x101;r&amp;#x16B;n&amp;#x201C; (P. Bearman, T. Bianquis, C. E. Bosworth, E. van Donzel, &amp;amp; W. P. Heinrichs, Hrsg.). Encyclopaedia of Islam Online, Second Edition.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	 עשר שמור לבעליו לרעתו, אמר ריש לקיש: זה עושרו של קרח. יזואת כל היקום אשר ברגליהם, אמר רבי אלעזר: זה ממונו של אדם, שמעמידו על רגליו. ואמר רבי לוי: משוי שלש מאות פרדות לבנות היו מפתחות של בית גנזיו של קרח, וכולהו אקלידי וקילפי דגילדא. אמר רבי חמא ברבי חנינא: שלש מטמוניות הטמין יוסף במצרים, אחת נתגלתה לקרח, ואחת נתגלתה לאנטונינוס בן אסוירוס, ואחת גנוזה לצדיקים לעתיד לבוא.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Reichtum, der seinem Besitzer zum Übel bestimmt ist (Kohelet 5:12). R. Šimʿon b. Laqiš sagte: dies ist der Reichtum Korachs. Und der ganze Bestand zu ihren Füßen (Dt 11:6). R. Eleʿazar sagte: Dies ist das Geld des Menschen, das ihn auf die Füße stellt. R. Levi sagte. Die Schlüssel der Schatzkammern Korachs bildeten eine Last für dreihundert weiße Maultiere; alle Schlüssel und Schlösser waren aus Leder.
+
+	R. Ḥama b. Ḥanina sagte: Drei Schätze verbarg Joseph in Ägypten; einen entdeckte Korach, einen entdeckte Antoninus, Sohn des Severus, und einer ist für die Frommen in der zukünftigen Welt bestimmt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Riches kept for the owners thereof to their hurt: Resh Lakish said: This refers to Korah's wealth. And all the substance that was at their feet: R. Eleazar said: This refers to a man's wealth, which puts him on his feet. R. Levi said: The keys of Korah's treasure house were a load for three hundred white mules, though all the keys and locks were of leather. R. Hama son of R. Hanina said: Three treasures did Joseph hide in Egypt: one was revealed to Korah; one to Antoninus the son of Severus, and the third is stored up for the righteous for the future time.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis Rabba, Parascha 22:16</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_658" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>658</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 5:27-31 berichtet, wie Kain seinen Bruder Abel tötet. Die koranische Version der Erzählung ähnelt in ihren Grundzügen der Geschichte aus dem Buch Genesis (vgl. TUK_0295), weist aber noch einige zusätzliche Elemente auf, so etwa die Reue Kains (wa-ʾaṣbaḥa min an-nādimīn). Wenngleich man vielleicht Genesis 4:13 ("Zu groß ist meine Schuld, als dass ich sie tragen könnte") in diesem Sinne deuten könnte, so findet sich die Vorstellung von Kains Reue explizit erst in späterer Literatur, etwa im hier zitierten Text aus Genesis Rabba, oder auch in Leviticus Rabba 10:5, Deuteronomium Rabba 8:1 (Interpretation von Gen 4:13) und Pesiqta de Rab Kahana 25.Joseph Witztum zufolge bezeichnet die Wurzel n-d-m (anders als t-w-b) allerdings weniger echte Reue, sondern eher das Bedauern, das man aufgrund der negativen Konsequenzen der eigenen Handlung empfindet (Witztum 2011: p. 136-138). Die Parallele zwischen Q 5:31 und den oben genannten rabbinischen Quellen ist also möglicherweise weniger eng als etwa Heinrich Speyer und William St. Clair Tisdall annehmen (Speyer 1931: p. 87, St.Clair Tisdall 1905: p. 63).
+</summary>
+            <msItem>
+              <title>Genesis Rabba, Parascha 22:16</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. (?)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">J. Theodor und Chanoch Albeck, Midrash Bereshit Rabba. Critical Edition with Notes and Commentary, 3 Bände, Jerusalem 1965 (Nachdruck von Berlin 1912-36 mit Korrekturen).</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+              <bibl type="literatur">St.Clair Tisdall, William: The Original Sources of the Qur&amp;#x2BE;&amp;#xE2;n. New York 1905.</bibl>
+              <bibl type="literatur">Witztum, Joseph Benzion: &amp;#x201E;The Syriac milieu of the Quran: the recasting of biblical narratives&amp;#x201C;.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ויצא קין וגו' מאיכן יצא, ר' איבו אמר הפשיל דברים לאחוריו ויצא כגונב דעת העיליונים, ר' ברכיה בשם ר' אלעזר (אמר) יצא כמפריס כמרמא בבוראו, ר' חננא בר יצחק אמר יצא שמח כמה דתימר יוצא לקראתך וראך ושמח בלבו, פגע בו אדם אמר לו מה נעשה בדינך, אמר לו  עשיתי תשובה  ופישרתי, התחיל אדם מטפיח על פניו כך היא כח התשובה ולא הייתי יודע, מיד עמד ואמר מזמור שיר ליום השבת טוב להודות לי"י
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	"Kain ging hinweg vom Ewigen." (Genesis 4:16) Wohin ging er? Nach R. Ibo warf er die Worte hinter sich (d.i. er beachtete sie nicht) und ging fort wie einer, welcher den Höchsten täuschen wollte. Nach R. Berachja im Namen des R. Eleasar bar R. Simeon ging er wie einer mit geteilten Hufen [wie das Schwein, das vorgibt, ein erlaubtes Tier zu sein] und wie einer, der seinen Schöpfer betrügt, hinweg. Nach R. Chanina bar R. Jizchak ging er fröhlich hinweg, wie in der Schrift steht: "Er bricht gerade auf und wird dir begegnen. Wenn er dich sieht, wird er sich von Herzen freuen." (Exodus 4:14) Da begegnete ihm Adam und fragte ihn: Was ist aus deiner Rechtssache geworden? Kain antwortete: Ich habe Buße getan und in Folge dessen bin ich freigesprochen worden. Da fing Adam an, sein Gesicht zu schlagen (vor Freude) und sprach: Also so groß ist die Kraft der Buße, das habe ich nicht gewußt! Sofort stand der erste Mensch auf und sang Psalm 92:1.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

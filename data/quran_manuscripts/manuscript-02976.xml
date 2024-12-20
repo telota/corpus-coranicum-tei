@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2976">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 37(?) [= Karatay 96]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 37(?) [= Karatay 96]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>  </p>
+              <p>344  fol.; Writing surface: paper; Shelfmark: E. H. 37(?); Qurʾānic Text: complete  muṣḥaf; 12 lines per page; Dimensions: 204 x 305mm; Script style: nasḫ; Date of production: 1271-72 CE.</p>
+              <p> </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p> </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 31f: "96 E. H. 37. Aynı. Aharlı krem rengi ve vassaleli kâğıt. 305mm boy ve 204mm eninde 344 yaprak. Sahifede harekeli nesihle 110 mm uzunl.[uğunda] 12 satır. Yāḳūt al-Mustaʿṣimī eli ile 670 (1271-72) de istinsah edilmiştir. Y. 1b ve 2a da müzehhep iki levhada Fatiha ve Eliflam mim yazılı. Sure başları kırmızı ile. Cetveller ve duraklar kırmızı ve yaldızla. Miklep ve kenar suyuyunu havi sıvama yaldızlı irankâri kahverengi deri cilt."</p>
+              <p> </p>
+              <p>This can be translated as follows: "96 E. H. 37. Same. Cream-colored thick sized paper with vaṣṣālī. 344 leaves of 305 mm height and 204 mm width. The text area written in naskh with diacritics, [contains] 12 lines measuring 110 mm height. Copied by Yāḳūt al-Mustaʿṣimī in the year 670 (1271-72). There are illuminated two plates written al-Fātiḥa and Alif-Lām on the [Leaf] L. 1b and 2a. Sūra beginnings are written in red. All edges are gilded(halkâri), sūra beginnings, sajda, ḥizb, and sajda roses are illuminated. Verse separators and and the rule-borders are gilded and written in red. Brown Iranian leather binding with gilding (sıvama yaldız), flap (miklep) and decorated borders (kenar suyu).”</p>
+              <p> </p>
+              <p>As both Karatay 65 and Karatay 96 seemingly describe shelfmark "E. H. 37", the correct attribution is currently not certain.</p>
+            </summary>
+            <msItem xml:id="mysql_id_712359" n="1">
+              <title type="numeric" key="001:000:000-114:006:003">
+                                    001:000:000-114:006:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 344
+                                    <dimensions unit="mm"><width>204</width><height>305</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12">12 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                nasḫ
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1271-1272</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Ayşenur Elif Ünal Şahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_99819">
+                    </surface>
+  </facsimile>
+</TEI>

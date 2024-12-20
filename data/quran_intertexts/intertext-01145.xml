@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium 23:22-24</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1145" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1145</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 5:89 wendet sich gegen das leichtfertige Schwören von Eiden (ʾaimān), die nicht eingehalten werden und setzt bestimmte Sühneleistungen dafür fest (vgl. TUK_0502). Josef Rivlin und Heinrich Speyer verweisen in diesem Zusammenhang auf Deut 23:22-24 (Rivlin 1934: p. 60) (Speyer 1931: p. 443). Zu Gelübden, Eiden und Schwüren im Koran allgemein, vgl. Rivlin 1934: p. 49-62, zu Q 5:89 besonders S. 58-61.</summary>
+            <msItem>
+              <title>Deuteronomium 23:22-24</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Rivlin, Josef J.: Gesetz im Koran. Kultus und Ritus. Bamberger &amp;amp; Wahrmann, Jerusalem 1934.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>22 כִּֽי־תִדֹּ֥ר נֶ֙דֶר֙ לַיהוָ֣ה אֱלֹהֶ֔יךָ לֹ֥א תְאַחֵ֖ר לְשַׁלְּמ֑וֹ כִּֽי־דָּרֹ֙שׁ יִדְרְשֶׁ֜נּוּ יְהוָ֤ה אֱלֹהֶי֙ךָ֙ מֵֽעִמָּ֔ךְ וְהָיָ֥ה בְךָ֖ חֵֽטְא׃ 23 וְכִ֥י תֶחְדַּ֖ל לִנְדֹּ֑ר לֹֽא־יִהְיֶ֥ה בְךָ֖ חֵֽטְא׃ 24 מוֹצָ֥א שְׂפָתֶ֖יךָ תִּשְׁמֹ֣ר וְעָשִׂ֑יתָ כַּאֲשֶׁ֙ר נָדַ֜רְתָּ לַיהוָ֤ה אֱלֹהֶי֙ךָ֙ נְדָבָ֔ה אֲשֶׁ֥ר דִּבַּ֖רְתָּ בְּפִֽיךָ</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>22 Wenn du vor dem Herrn, deinem Gott, ein Gelübde machst, sollst du nicht zögern, es zu erfüllen; sonst wird es der Herr, dein Gott, von dir einfordern, und die Strafe für diese Sünde wird über dich kommen. 23 Wenn du davon absiehst, Gelübde zu machen, wird auch die Strafe für diese Sünde nicht über dich kommen. 24 Was deinem Mund entfahren ist, darauf sollst du auch achten, und du sollst es halten, da du dem Herrn, deinem Gott, ja aus freien Stücken gelobt hast, was dein Mund genannt hat. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

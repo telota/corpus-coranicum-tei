@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2451">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oslo, The Schøyen Collection, MS 4593</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="109">The Schøyen Collection
+                            , Oslo</repository>
+            <idno>MS 4593</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: MS 4593; Qurʾānic Text: Q  79:18-79:26; 5 lines per page; Dimensions: 260 x 340mm; Script style: maghribī;                     Estimated date  of production: 1200-1250.</p>
+              <p> </p>
+              <p>The  <ref target="https://www.schoyencollection.com/palaeography-collection-introduction/arabic-script/maghrebi-script/ms-4593">online catalogue of the Schoyen Collection</ref> offers the following information:  </p>
+              <p>"MS: 4593</p>
+              <p>MS Short Title: MAGHREBI SCRIPT QUR'AN</p>
+              <p>Text: QUR'AN, SURA 79:18 - 26</p>
+              <p>Description: MS in Arabic on pink paper, Andalusia, Spain (or North Africa), early 13th c., 1 f., 34x26 cm, single column, (23x19 cm), 5 lines in a monumental Maghrebi script, 6 gold medallions with verse numbers in red, white and blue noted in the abjad system, a large gold medallion for verse 20 with the word 'ushr, a gold large gold teardrop from verse 25 outlined in blue containing the word khums, both in gold kufic script on a red ground, the word hubus, pricked out with a needle at top margin.</p>
+              <p>Context: From a Qur'an, originally in 20 volumes, one partial volume in Bibliothèque Ben Youssouf in Marakesh. Other ff. in most famous collections worldwide.</p>
+              <p>Provenance: 1. Sam Fogg Rare Books Ltd., cat. 22(2000):7.</p>
+              <p>Commentary: The pink paper is believed to have come from the town of Jativa, south-west of Valencia, and is for this reason called in Arabic al-waraq al-Shatibi. The town was famed for its paper making in this period. One may assume that the MS was made for a member of a princely family or an important official, probably from Granada or Valencia. Both Jativa and Valencia fell to the Christians in 1239-40. An interesting feature of this MS is its endowment inscription, hubus, the Maghrebi equivalent of the word, waqf, more usually encountered in this context. By inscribing it with a series of pinpricks, rather than conventionally in ink, the status of the endowment "in perpetuity" is highlighted: the inscription cannot be erased.</p>
+              <p>Place of origin: Spain (or North Africa)</p>
+              <p>Dates: early 13c AD"</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_707393" n="1r">
+              <title type="numeric" key="079:018:0-1-079:022:003">
+                                    079:018:0-1-079:022:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_707392" n="1v">
+              <title type="numeric" key="079:023:001-079:026:005">
+                                    079:023:001-079:026:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>260</width><height>340</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+            <provenance>
+                            al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76614">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_76613">
+      <graphic decls="#imageRights-1" url="manuscript/2451/94eda28e-fe02-4bd0-aa10-c129149253f4/manuscript-2451-page-76613-image-68895.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

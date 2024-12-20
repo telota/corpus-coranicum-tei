@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1565">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.1130</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Cambridge University Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.1130</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio; Writing surface: parchment; Shelfmark: MS Add.1130; Qurʾānic  text: Q 15:96-99, Q 16:10-23; 18 Lines per page; Dimensions: 254 x 187mm; Script style: kūfī D IV; Estimated date of production: 3rd century AH / 9th century CE.</p>
+              <p> </p>
+              <p>Kufic fragments from an Abbasid Qurʼān  (probably third century A.H. / ninth century C.E.), containing verses  from the Suras al-Ḥijr (سورة الحجر) and al-Naḥl (سورة النحل). These  fragments were found in al-Haram al-Sharīf at Jerusalem. The script  seems to correspond to the Abbasid Style D.IV as described by F.  Deroche.For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01130/1">entry in the Digital Library of Cambridge University</ref>.</p>
+              <p> </p>
+              <p>The University of Cambridge acquired the fragment in 1878 from Edward H.  Palmer (1840-1882) and E.E. Tyrwhitt Drake. The displayed fragment and  other early Qur'an manuscripts (call numbers Add.1115 - Add.1150) were  acquired by Palmer during a research trip to the Sinai Peninsula (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UUUFI42M">Ansorge 2016</ref>).</p>
+            </summary>
+            <msItem xml:id="mysql_id_687991" n="1r">
+              <title type="numeric" key="015:096:004-016:010:003">
+                                    015:096:004-016:010:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687992" n="1v">
+              <title type="numeric" key="016:010:006-016:023:013">
+                                    016:010:006-016:023:013
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>254</width><height>187</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="18">18 - 18 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.IV
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47951">
+      <graphic decls="#imageRights-1" url="manuscript/1565/e413ba92-ce6a-4eab-9002-52e7a6372bf0/manuscript-1565-page-47951-image-34387.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47952">
+      <graphic decls="#imageRights-1" url="manuscript/1565/4a50a8dc-865a-4ef2-8621-412bf04c0357/manuscript-1565-page-47952-image-34388.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

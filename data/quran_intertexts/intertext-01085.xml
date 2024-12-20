@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jüdische Altertumer 8:22-24</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1085" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1085</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	1 Könige 5:9-14 (TUK_0324) erwähnt, dass Gott Salomon besondere Weisheit verliehen habe. Die hier zitierte Stelle aus den Jüdischen Altertümern zeigt, dass die Assoziation Salomos mit Weisheit auch in den späteren Traditionen sehr geläufig ist,  vgl. auch Mt 12:42 (TUK_1084), Lk 11:31, Sirach 47:14-17, Hohes Lied Rabba 1:1 (TUK_1086), Babylonischer Talmud, Erubim 21b und Berakot 56b.
+</summary>
+            <msItem>
+              <title>Jüdische Altertumer 8:22-24</title>
+              <author>Flavius Josephus (ca. 37 - nach 100)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 80 und 94 n. Chr.</origDate>
+              <origPlace>Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">B. Niese (Hg.), Flavii Iosephi opera, Berlin 1892.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	22  ἔγνω δ᾽ εἰς Γιβρῶνα παραγενόμενος ἐπὶ τοῦ χαλκέου θυσιαστηρίου τοῦ κατασκευασθέντος ὑπὸ Μουσείου θῦσαι τῷ θεῷ καὶ χίλια τὸν ἀριθμὸν ὡλοκαύτωσεν ἱερεῖα τοῦτο δὲ ποιήσας μεγάλως ἔδοξε τὸν θεὸν τετιμηκέναι φανεὶς γὰρ αὐτῷ κατὰ τοὺς ὕπνους ἐκείνης τῆς νυκτὸς ἐκέλευσεν αἱρεῖσθαι τίνας ἀντὶ τῆς εὐσεβείας παράσχῃ δωρεὰς αὐτῷ  23  Σολόμων δὲ τὰ κάλλιστα καὶ μέγιστα καὶ θεῷ παρασχεῖν ἥδιστα καὶ λαβεῖν ἀνθρώπῳ συμφορώτατα τὸν θεὸν ᾔτησεν οὐ γὰρ χρυσὸν οὐδ᾽ ἄργυρον οὐδὲ τὸν ἄλλον πλοῦτον ὡς ἄνθρωπος καὶ νέος ἠξίωσεν αὑτῷ προσγενέσθαι ταῦτα γὰρ σχεδὸν νενόμισται παρὰ τοῖς πλείστοις μόνα σπουδῆς ἄξια καὶ θεοῦ δῶρα εἶναι ἀλλὰ δός μοι φησί δέσποτα νοῦν ὑγιῆ καὶ φρόνησιν ἀγαθήν οἷς ἂν τὸν λαὸν τἀληθῆ καὶ τὰ δίκαια λαβὼν κρίνοιμι  24  τούτοις ἥσθη τοῖς αἰτήμασιν ὁ θεὸς καὶ τά τε ἄλλα πάνθ᾽ ὧν οὐκ ἐμνήσθη παρὰ τὴν ἐκλογὴν δώσειν ἐπηγγείλατο πλοῦτον δόξαν νίκην πολεμίων καὶ πρὸ πάντων σύνεσιν καὶ σοφίαν οἵαν οὐκ ἄλλος τις ἀνθρώπων ἔσχεν οὔτε βασιλέων οὔτ᾽ ἰδιωτῶν φυλάξειν τε καὶ τοῖς ἐκγόνοις αὐτοῦ τὴν βασιλείαν ἐπὶ πλεῖστον ὑπισχνεῖτο χρόνον ἂν δίκαιός τε ὢν διαμένῃ καὶ πειθόμενος αὐτῷ καὶ τὸν πατέρα μιμούμενος ἐν οἷς ἦν ἄριστος
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	22 He now resolved to go to Hebron, and sacrifice to God upon the brazen altar that was built by Moses. Accordingly, he offered there burnt offerings, in number a thousand: and when he had done this, he thought he had paid great honour to God; for as he was asleep that very night, God appeared to him, and commanded him to ask of him some gifts which he was ready to give him as a reward for his piety.  23 So Solomon asked of God what was most excellent, and of the greatest worth in itself, what God would bestow with the greatest joy, and what it was most profitable for man to receive; for he did not desire to have bestowed upon him either gold or silver, or any other riches, as a man and a youth might naturally have done, for these are the things that generally are esteemed by most men, as alone of the greatest worth, and the best gifts of God; "but,'' said he, "Give me, O Lord, a sound mind, and a good understanding, whereby I may speak and judge the people according to truth and righteousness.''  24 With these petitions God was well pleased; and promised to give him all those things that he had not mentioned in his option, riches, glory, victory over his enemies; and, in the first place, understanding and wisdom, and this in such a degree, as no other mortal man, neither kings nor ordinary persons, ever had. He also promised to preserve the kingdom to his posterity for a very long time, if he continued righteous and obedient to him, and imitated his father in those things wherein he excelled.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1929">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oxford, Ashmolean Museum Oxford, EA1962.159</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="92">Ashmolean Museum Oxford
+                            , Oxford</repository>
+            <idno>EA1962.159</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: EA1962.159; Qur'ānic text: Q 55:61-55:71, 56:29-56:41; Dimensions: 287 x 218; Lines per page: 7; Script style: kūfī D.III (see <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">Déroche 1992: pp. 44-45</ref>); Estimated date of production: 750-900 AD. </p>
+              <p> </p>
+              <p>See also the website of the collection: <ref target="https://collections.ashmolean.org/object/354253">https://collections.ashmolean.org/object/354253</ref></p>
+            </summary>
+            <msItem xml:id="mysql_id_697970" n="1r">
+              <title type="numeric" key="056:029:002-056:035:002">
+                                    056:029:002-056:035:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_697969" n="1v">
+              <title type="numeric" key="056:035:003-056:041:004">
+                                    056:035:003-056:041:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_697972" n="2r">
+              <title type="numeric" key="055:061:004-055:067:001">
+                                    055:061:004-055:067:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_697971" n="2v">
+              <title type="numeric" key="055:067:001-055:071:003">
+                                    055:067:001-055:071:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>287</width><height>218</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+            <provenance>
+                            Iraq
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_53685">
+                    </surface>
+    <surface n="1v" xml:id="mysql_id_53684">
+                    </surface>
+    <surface n="2r" xml:id="mysql_id_53687">
+                    </surface>
+    <surface n="2v" xml:id="mysql_id_53686">
+                    </surface>
+  </facsimile>
+</TEI>

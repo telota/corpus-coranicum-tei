@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 Könige 9:1-9</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_323" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>323</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 38:35 berichtet von einer Bitte Salomos um Vergebung und um "eine Königsherrschaft, wie sie nach mir niemandem mehr zukommt". Bemerkenswert ist, dass damit die biblische Verheißung Gottes an Salomo zu einem Gebet Salomos an Gott invertiert wird. Eine ähnliche Transformation liegt in der Abraham-Perikope in Q 14:35-41 vor.</summary>
+            <msItem>
+              <title>1 Könige 9:1-9</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 5.-6. Jh. v. Chr. (Redaktion des deuteronomistischen Geschichtswerks)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>  וַיְהִי כְּכַלּוֹת שְׁלֹמֹה לִבְנוֹת אֶת־בֵּית־יְהוָה וְאֶת־בֵּית הַמֶּלֶךְ  וְאֵת כָּל־חֵשֶׁק שְׁלֹמֹה אֲשֶׁר חָפֵץ לַעֲשׂוֹת  :   וַיֵּרָא יְהוָה אֶל־שְׁלֹמֹה שֵׁנִית כַּאֲשֶׁר נִרְאָה אֵלָיו בְּגִבְעוֹן :   וַיֹּאמֶר יְהוָה אֵלָיו שָׁמַעְתִּי אֶת־תְּפִלָּתְךָ וְאֶת־תְּחִנָּתְךָ אֲשֶׁר הִתְחַנַּנְתָּה לְפָנַי הִקְדַּשְׁתִּי אֶת־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִתָה לָשׂוּם־שְׁמִי שָׁם עַד־עוֹלָם וְהָיוּ עֵינַי וְלִבִּי שָׁם כָּל־הַיָּמִים :   וְאַתָּה אִם־תֵּלֵךְ לְפָנַי כַּאֲשֶׁר הָלַךְ דָּוִד אָבִיךָ בְּתָם־לֵבָב וּבְיֹשֶׁר לַעֲשׂוֹת כְּכֹל אֲשֶׁר צִוִּיתִיךָ חֻקַּי וּמִשְׁפָּטַי תִּשְׁמֹר :    וַהֲקִמֹתִי אֶת־כִּסֵּא מַמְלַכְתְּךָ עַל־יִשְׂרָאֵל לְעֹלָם כַּאֲשֶׁר דִּבַּרְתִּי עַל־דָּוִד אָבִיךָ לֵאמֹר לֹא־יִכָּרֵת לְךָ אִישׁ מֵעַל כִּסֵּא יִשְׂרָאֵל :   אִם־שׁוֹב תְּשֻׁבוּן אַתֶּם וּבְנֵיכֶם מֵאַחֲרַי וְלֹא תִשְׁמְרוּ מִצְוֹתַי חֻקֹּתַי אֲשֶׁר נָתַתִּי לִפְנֵיכֶם וַהֲלַכְתֶּם וַעֲבַדְתֶּם אֱלֹהִים אֲחֵרִים וְהִשְׁתַּחֲוִיתֶם לָהֶם :   וְהִכְרַתִּי אֶת־יִשְׂרָאֵל מֵעַל פְּנֵי הָאֲדָמָה אֲשֶׁר נָתַתִּי לָהֶם וְאֶת־הַבַּיִת אֲשֶׁר הִקְדַּשְׁתִּי לִשְׁמִי אֲשַׁלַּח מֵעַל פָּנָי וְהָיָה יִשְׂרָאֵל לְמָשָׁל וְלִשְׁנִינָה בְּכָל־הָעַמִּים :   וְהַבַּיִת הַזֶּה יִהְיֶה עֶלְיוֹן כָּל־עֹבֵר עָלָיו יִשֹּׁם וְשָׁרָק וְאָמְרוּ עַל־מֶה עָשָׂה יְהוָה כָּכָה לָאָרֶץ הַזֹּאת וְלַבַּיִת הַזֶּה :   וְאָמְרוּ עַל אֲשֶׁר עָזְבוּ אֶת־יְהוָה אֱלֹהֵיהֶם אֲשֶׁר הוֹצִיא אֶת־אֲבֹתָם מֵאֶרֶץ מִצְרַיִם וַיַּחֲזִקוּ בֵּאלֹהִים אֲחֵרִים  וַיִּשְׁתַּחֲוּ לָהֶם וַיַּעַבְדֻם עַל־כֵּן הֵבִיא יְהוָה עֲלֵיהֶם אֵת כָּל־הָרָעָה הַזֹּאת : </p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Nachdem Salomo den Bau des Tempels und des königlichen Palastes vollendet und alle Pläne, die er auszuführen wünschte, verwirklicht hatte, 2 erschien ihm der Herr zum zweiten Mal, wie er ihm in Gibeon erschienen war. 3 Er sprach zu ihm: Ich habe dein flehentliches Gebet, das du an mich gerichtet hast, gehört und dieses Haus, das du gebaut hast, geheiligt. Meinen Namen werde ich für immer hierher legen, meine Augen und mein Herz werden allezeit hier weilen. 4 Wenn du mit ungeteiltem und aufrichtigem Herzen vor mir den Weg gehst, den dein Vater David gegangen ist, und wenn du alles tust, was ich dir befohlen habe, wenn du auf meine Gebote und Rechtsvorschriften achtest, 5 dann werde ich deinen Königsthron auf ewig in Israel bestehen lassen, wie ich es deinem Vater David zugesichert habe, zu dem ich gesagt habe: Es soll dir nie an einem Nachkommen auf dem Thron Israels fehlen. 6 Doch wenn ihr und eure Söhne euch von mir abwendet und die Gebote und Gesetze, die ich euch gegeben habe, übertretet, wenn ihr euch anschickt, andere Götter zu verehren und anzubeten, 7 dann werde ich Israel in dem Land ausrotten, das ich ihm gegeben habe. Das Haus, das ich meinem Namen geweiht habe, werde ich aus meinem Angesicht wegschaffen und Israel soll zum Gespött und zum Hohn unter allen Völkern werden. 8 Dieses Haus wird zu einem Trümmerhaufen werden und jeder, der vorübergeht, wird sich entsetzen und zischen. Man wird fragen: Warum hat der Herr diesem Land und diesem Haus das angetan? 9 Und man wird antworten: Weil sie den Herrn, ihren Gott, der ihre Väter aus Ägypten geführt hat, verlassen, sich an andere Götter gehängt, sich vor ihnen niedergeworfen und sie verehrt haben, darum hat der Herr all dieses Unglück über sie gebracht. </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

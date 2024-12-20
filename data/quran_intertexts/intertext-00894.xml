@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Homilie 1, Lasst uns den Menschen nach unserem Ebenbild erschaffen und die Geburt des Messias</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_894" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>894</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In seiner Homilie beschreibt Jakob von Sarug, dass Adam wie Jesus "geformt" wird. Jesus ist der himmlische Adam. Jesus und Adam werden typologisch in Beziehung gesetzt. Die Erschaffung von Adam und Jesus wird geglichen. Ähnlich, wenn auch mit anderer Stoßrichtung, im Koran. Bei J. v. Sarug liegt die Betonung allerdings darauf, dass Adam als Ebenbild des präexistenten Jesus erschaffen wird, während im Koran der unmittelbare Schöpfungsakt Gottes und die beiden (Jesus und Adam) gemeinsame Erschaffung aus Staub betont wird. Die Aussagen sind also nicht unbedingt deckungsgleich. Die Thematik und das Motiv des Vergleiches von Adam und Jesus, sowie etwa auch der grundsätzliche Hinweis auf den Staub (arab. turāb, syr. ʿaprā) scheinen aber auf ein gemeinsames theologisches Milieu zu weisen, so dass die Texte zumindest in eine diskursive Beziehung gesetzt werden können. Zuletzt sei noch angemerkt, dass das koranische maṯal nicht nur als "Beispiel" verstanden werden kann. D.h. das Beispiel Jesu ist bei Gott wie das Beispiel Adams im Sinne: sie sind beide Beispiele einer Schöpfung ohne 'Zeugung'. Es mag jedoch auch sein, dass sich in maṯal ein Widerhall der Bedeutung "Gleichnis, Ebenbild" findet und so auch auf eine spezielle Ebenbildlichkeit von Jesus und Adam verwiesen wird (die Vorstellung von Jesus als 'zweitem Adam' bzw. Adam vor dem Fall findet sich auch sonst in christlicher Tradition). Trotzdem bleibt als gewichtiger Unterschied zwischen J. v. Sarug und Koran, dass in letzterem betont wird, dass beide, sowohl Jesus als auch Adam aus Staub erschaffen wurden ("er schuf ihn aus Staub, dann sagte er "sei", und er ward"). 
+
+	Zu ʿīsā, ʾādam, vgl. Jeffery 1938: p. 218ff., 50f.
+</summary>
+            <msItem>
+              <title>Homilie 1, Lasst uns den Menschen nach unserem Ebenbild erschaffen und die Geburt des Messias</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 523 n. Chr</origDate>
+              <origPlace>Nisibis/ Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Khalil Alwan (Hg.), Jacques de Saroug. Quatre Homélies Métriques sur la Création, Louvain 1989 (Corpus Scriptorum Christianorum Orientalium 508, Scriptores Syri 214), S. 7-15.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>105 ܐܦ ܢܡܘܣܐ ܕܐܚܬ ܡܘܫܐ ܡܢ ܛܘܪ ܣܝܢܝ:ܒܬܢܝܐ ܕܐܝܕܐ ܝܗܒܗ ܠܥܡܐ ܡܢ ܐܠܗܐ܀ܩܒܠ ܡܘܫܐ ܠܘܚ̈ܐ ܘܢܚܬ ܡܢ ܥܪܦܠܐ:ܘܡܛܠ ܕܚ̣ܙܐ ܥܘܠܐ ܒܥܡܐ ܬܒܪ ܐܢܝ̈ܢ܀ܘܐܝܟ ܕܠܡܐܡܪ ܐܒ̣ܕ ܗܘܐ ܠܗ  ܢܡܘܣܐ:110 ܘܐܬܚܒܠ ܠܗ ܘܗܘܐ ܗܘܐ ܠܗ ܐܝܟ ܠܐ ܐܝܬܘܗܝ܀ܘܕܢܚܘ ܖ̈ܚܡܐ  ܡܪܝܐ ܬܢܝܐ ܕܐܝܕܝܗ:ܘܝܗ̣ܒ ܢܡܘܣܐ  ܠܐ ܡܚܒܠ ܩ̇ܡ ܢܡܘܣܐ܀ܚܛܝܬܗ ܕܥܠܡܐ ܬܒܪܬ ܠܘܚ̈ܐ ܫܦܝܖ̈ܬܐ:ܘܖ̈ܚܡܘܗܝ ܕܐܒܐ  ܢܡܘܣܐ ܒܬܢܝܐ ܕܐܝܕܝܗ܀115 ܘܗܐ ܡܢ ܗܝܕܝܢ ܚ̇ܘܝ ܚܢܢܗ ܪܐܙܢܐܝܬ:ܘܬ̣ܢܐ ܘܒܕܩ̣ ܨܠܡܗ ܕܐܕܡ ܕܐܬܚܒܠ ܗܘܐ܀ܚ̇ܘܝ ܚܘܒܗ ܟܕ ܢܡܘܣܐ ܟܬܝܒܐ ܡܚܕܬ:ܕܡܚܕܬ ܗܘ ܐܦ ܠܟܝܢܐ ܒܕܢܚܐ ܕܒܪܗ܀ܐܦ ܠܘܚ̈ܐ ܓܝܪ ܕܐܚܬ ܡܘܫܐ ܡܢ ܛܘܪ ܣܝܢܝ:120 ܒܕܒܝܬ ܐܕܡ ܨܪ ܗܘܐ ܐܢܝ̈ܢ ܕܐܚܒܠܘ ܗܘܐ܀ܘܕܐܚܕܪ ܡܪܝܐ ܘܬܖ̈ܬܝܢ ܙܒܢܝ̈ܢ ܝܗܒ ܢܡܘܣܐ:ܥܠ ܦܘܪܩܢܐ ܕܝܚܝܕܝܗ ܓܠ̣ܐ ܠܒܪܝܬܐ܀ܬܖ̈ܬܝܢ ܠܘܚ̈ܐ ܐܝܟ ܕܠܡܐܡܪ ܚܘܐ ܘܐܕܡ:ܟܝܢܐ ܪܚܝܡܐ ܙܘܓܐ ܫܦܝܐ ܕܡܢ ܐܠܗܐ܀125 ܥܠ ܕܝܢ ܚܘܝܐ ܐܝܟ ܗ̇ܘ ܥܓܠܐ ܠܗ̇ܝ ܡܫܪܝܬܐ:ܘܗܘܬ ܥܠ̣ܬܐ ܠܕܒܝܬ ܐܕܡ ܘܐܬܚܒܠܘ ܗܘܘ܀ܐܝܟ ܕܐܬܬܒܖ̈ܝ ܗܠܝܢ ܠܘܚ̈ܐ ܩܕܡ̈ܝܬܐ:ܘܐܒ̣ܕ ܥܡܗܝܢ ܐܦ  ܐܠܗܝܐ܀ܗܟܢ ܐܒܕܘ ܐܦ ܐܬܚܒܠܘ ܚܘܐ ܘܐܕܡ:130 ܘܗܘܐ ܟܝܢܐ ܐܝܟ ܠܐ ܐܝܬܘܗܝ ܕܢܦܠ̣ ܗܘܐ ܠܗ܀ܘܐܝܟ ܕܐܬܚ̈ܕܬܝ ܗܠܝܢ ܠܘܚ̈ܐ ܒܐܝ̈ܕܝ ܡܘܫܐ:ܗܟܢ ܚܕܬ ܒܪ ܐܠܗܐ ܠܚܘܐ ܘܐܕܡ܀ܘܐܝܟ ܕܒܬܢܝܐ ܕܐܝܕܝܗ ܡܪܝܐ ܝܗ̣ܒ ܢܡܘܣܐ:ܐܦ ܠܟܝܢܐ ܒܬܢܝܐ ܕܐܝܕܝܗ ܥܒ̣ܕ ܦܘܪܩܢܐ܀135 ܥܒ̣ܕ ܐܠܗܐ ܗܠܝܢ ܠܘܚ̈ܐ ܩܕܡ̈ܝܬܐ:ܘܝܗ̣ܒ ܠܗ ܠܡܘܫܐ ܕܢܥܒܕ ܗܠܝܢ ܕܐܬܚܕܬܝ ܗ̈ܘܝ܀ܡܛܠ ܕܐܝܬܘܗܝ ܡܘܫܐ ܨܘܪܬܗ ܕܒܪ ܐܠܗܐ:ܥ̣ܠ ܗܘܐ ܡܘܫܐ ܕܢܬܩܢ ܠܘܚ̈ܐ ܐܬܗܝܡܢ ܗܘܐ܀ܘܡܛܠ ܗܢܐ ܢܒܝܐ ܐܟܘܬܝ ܩ̇ܪܐ ܗܘܐ ܠܗ:140 ܠܒܪ ܐܠܗܐ ܕܗܘܝܘ ܡܚܕܬ ܠܕܒܝܬ ܐܕܡ܀ܚܣ ܐܠܗܐ ܥܠ ܢܡܘܣܐ ܕܐܬܚܒܠ ܗܘܐ:ܘܦܩܕܗ ܠܡܘܫܐ ܕܢܬܩܢ ܠܘܚ̈ܐ ܕܐܬܬܒܪܝ ܗܘ̈ܝ܀ܚܣ ܬܘܒ ܕܚܙܝܗܝ ܐܦ ܠܟܝܢܐ ܕܐܒܕ ܗܘܐ ܠܗ:ܘܫ̣ܕܪ ܠܒܪܗ ܒܥܝܗܝ ܠܐ ܒܝܕܐ ܘܫܩܠܗ ܘܣܠ̣ܩ܀145 ܚܘܪ ܐܢܬ ܗܫܐ ܒܗ̇ܝ ܕܐܬܐܡܪܬ ܡܢ ܫܘܪܝܐ:ܕܢܥܒܕ ܐܢܫܐ ܒܨܠܡܢ ܘܚܙܝ ܠܡ̇ܢ ܐܬܐܡܪܬ܀ ܗܘܐ ܕܬܘܒ ܬܢܝܢܘܬ ܢܚܘܬ ܨܝܕܘܗܝ:ܕܠܐ ܢܚܘܬ ܗܘܐ ܨܝܕ ܢܘܟܪܝܐ ܒܨܠܡܢ ܥܒܕܗ܀ܘܕܝܕܥ ܗܘܐ ܕܡܘܣܦ ܗ̇ܘܐ ܠܗ ܬܢܝܐ ܕܐܝܕܝܗ:150 ܕܡܘܬܗ ܝܗܒ̣ ܠܗ ܕܢܣܒܝܗ̇ ܡܢܗ ܡܐ ܕܦ̇ܪܩ ܠܗ܀ܐܦ ܐܪܡܝܐ ܒܬܢܝܐ ܕܐܝܕܝܗ ܕܗ̇ܘ ܦܚܪܐ:ܚ̣ܙܐ ܗܘܐ ܕܐܬܩܢ ܡܐܢܐ ܕܚܨܦܐ ܐܝܟ ܕܒܪܐܙܐ܀ܒܥ̣ܐ ܗ̇ܘܐ ܡܪܝܐ ܕܢܚܘܐ ܠܗ ܕܐܝܟܢ ܗ̇ܦܟ:ܒ̇ܕܩ ܡܬܩܢ ܨܠܡܗ ܕܐܕܡ ܕܐܬܚܒܠ ܗܘ̇ܐ܀155 ܘܫܕܪܗ̇ ܘܢܚ̣ܬ ܨܝܕ ܦܚܪܐ ܘܚ̇ܙܐ ܬܡܢ:ܡܐܢܐ ܕܚܨܦܐ ܕܐܬܚܒܠ ܗܘ̇ܐ ܒܝܬ ܦܚܪܐ܀ܘܕܩܝܡ ܗ̇ܘܐ ܗ̇ܘ ܐܘܡܢܐ ܕܥܒܕ ܗ̇ܘܐ ܠܗ:ܐܬܩܢ ܓܡܪܗ ܘܗ̣ܘܐ ܫܦܝܪ ܡܐܢܐ ܚܕܬܐ܀ܘܒܝܕ ܗܕܐ ܐܠܦ ܬܡܢ ܗ̇ܘ ܐܪܡܝܐ:160 ܕܗܟܢ ܡܬܩܢ ܡܪܝܐ ܠܐܕܡ ܕܐܬܚܒܠ ܗ̇ܘܐ܀ܢܚ̣ܬ ܟܕ ܓܒܠܗ ܘܢܚܘܬ ܐܝܬ ܠܗ ܘܟܢ ܡܬܚܕܬ:ܕܐܦ ܐܘܡܢܐ ܒܬܪܬܝܢ ܓܡܪܗ ܠܡܐܢܐ ܕܥܒܕ܀ܐܕܡ ܐܝܬܘܗܝ ܡܐܢܐ ܕܛܝܢܐ ܘܟܕ ܓܒܠܗ ܗܘܐ:ܢܩ̣ܒ ܒܗ ܚܘܝܐ ܘܥܠ ܕܪܦܐ ܗܘܐ ܐܬܚܒܠ ܠܗ܀165 ܘܐܘܣܦ ܡܪܝܐ ܬܢܝܐ ܕܐܝܕܝܗ ܠܛܝܢܗ ܕܐܕܡ:ܘܥܒܕܗ ܡܐܢܐ ܕܠܐ ܡܚܒܠ ܠܗ ܐܦܠܐ ܡܘܬܐ܀ܬܐ ܐܪܡܝܐ ܕܝܠ̣ܦ ܪܐܙܐ ܡܢ ܦܚܪܐ:ܘܚܙܝ ܒܡܫܝܚܐ ܕܒܗ ܐܬܚܕܬ ܨܠܡܗ ܕܐܕܡ܀ܗ̇ܘ ܐܘܡܢܐ ܒܡܐܢܐ ܕܚܨܦܐ ܛܘܦܣܐ ܝܗ̣ܒ ܠܟ:170 ܘܗܐ ܓܡܝܪ ܛܘܦܣܐ ܘܓܠ̣ܐ ܪܐܙܐ ܕܒܪ ܐܠܗܐ܀ܐܬܩܢܗ ܠܐܕܡ ܕܐܬܚܒܠ ܗܘ̇ܐ ܒܗ̇ܘ ܫܘܪܝܐ:ܘܗܐ ܓܡܝܪ ܘܥܒܝܕ ܡܐܢܐ ܪܚܝܡܐ ܨܝܕ ܫܘܠܡܐ܀ܘܠܥܒܖ̈ܝܐ ܐܦܩ ܡܪܝܐ ܡܢ ܓܘ ܡܨܪܝܢ:ܘܐܘܣܦ ܐܢܘܢ ܒܬܢܝܐ ܕܐܝܕܝܗ ܡܢ ܓܘ ܐܬܘܪ܀175 ܘܒܗܘܢ ܨܝܪܐ ܗ̇ܝ ܩܕܡܝܬܐ ܒܪܝܬܗ ܕܐܕܡ:ܐܦ ܦܘܪܩܢܐ ܕܗܘܐ ܠܥܠܡܐ ܒܬܢܝܐ ܕܐܝܕܐ܀ܘܠܐ ܦܘܢܝܐ ܐܚܪܢܐ ܠܥܠܡܐ  ܒܟܬܒܐ:ܘܠܐ ܦܘܪܩܢܐ ܐܚܪܢܐ ܠܥܠܡܐ ܐܠܐ ܒܒܪܐ܀ܡܛܠܬܗ ܡ̈ܬܠܐ ܘܛܘ̈ܦܣܐ ܐܦ ܦ̈ܠܐܬܐ:180 ܐܦ ܦܘܖ̈ܩܢܐ ܐܦ ܓܠܝܢ̈ܐ ܀ܒܒܪܗ ܓܒܠܗ ܐܒܐ‍ ܠܐܕܡ ܟܕ ܓܒ̇ܠ ܠܗ܃ܘܒܗ ܒܕܡܘܬܐ ܕܦܓܪܢܘܬܗ ܬܩܢ ܨܘܪܬܗ܀ܒܨܘܪܬܗ ܕܒܪܐ ܗܿܝ ܕܒܓܠܝܐ ܠܥܠܡܐ ܢܦܩ̣ܬ܃ ܒܗ̇ ܨܪܗ ܗܘܐ ܠܗ̇ܘ ܪܫ ܛܘܗܡܐ ܟܕ ܒ̇ܪܐ ܠܗ܀ 185 ܒܫܡܝܢܐ ܐܕܡ ܕܐܝܬܘܗܝ ܡܪܝܐ ܝܫܘܥ:ܚ̣ܪ ܗܘܐ ܐܒܐ ܒܗ̇ ܒܕܡܘܬܐ ܥ̇ܒܕܗ ܠܐܕܡ܀ܕܒܪ ܐܠܗܐ ܕܩܕܡ ܫܡܫܐ ܫܡܗ ܐܝܬܘܗܝ ܗܘܐ܃ܝܗ̣ܒ ܗܘܐ ܕܡܘܬܗ ܕܢܬܝܩܪ ܒܗ ܥܦܪܐ ܕܐܕܡ܀ܥܠ ܒܩܝܡܐ ܥܡܗ ܕܥܦܪܐ ܟܕ ܓ̇ܒܠ ܠܗ:190 ܕܐܦ ܐܢ ܢܦܠ ܐܘ ܡܬܚܒܠ ܡܬܩܢ ܗܘ ܠܗ܀ܘܡܛܘܠ ܗܢܐ ܩ̇ܕܡ ܝܗ̣ܒ ܠܗ ܨܠܡܐ ܪܒܐ:ܕܢܗܘܐ ܥܠܬܐ ܠܥܦܪܐ ܕܓܒ̣ܠ ܕܠܐ ܢܐܒܕ ܠܗ܀ܬܗܘܐ ܒܥܬܐ ܥܠܘܗܝ ܕܐܒܝܕܐ ܒܥܡܠܐ ܪܒܐ܀195 ܕܐܦܢ ܥܪܨܐ ܥܕܡܐ ܠܚ̈ܫܐ ܘܠܙܩܝܦܘܬܐ:ܢܐܬܐ ܡܪܗ ܡܛܠܬܗ ܡܐ ܕܡܫܟܚ ܠܗ܀ܐܠܘ ܨܠܡܗ ܠܐ ܚܠܝܛ ܗܘܐ ܒܗ ܒܥܦܪܗ ܕܐܕܡ:ܗܠܝܢ ܚܫ̈ܐ ܒ̇ܪܐ ܥܠ ܐܦܘ̈ܗܝ ܠܐ ܣܒ̇ܠ ܗܘܐ܀ܘܡܛܠܗܢܐ ܟܕ ܒ̇ܪܐ ܗܘܐ ܝܗܒ ܠܗ ܨܠܡܗ:200 ܕܠܐ ܬܐܡܢ ܠܗ ܒܗ ܡܐ ܕܚ̈ܐܫ ܗܘܐ ܡܛܠܬܗ܀ܨܠܡܗ ܝܗ̣ܒ ܠܗ ܘܐܪܡܝ ܥܠܘܗܝ ܚܘܒܠܐ ܥܠ ܐܕܡ:ܕܐܦ ܗ̣ܘ ܐܕܡ ܢܬܠ ܨܠܡܗ ܒܚܪܬܐ ܠܒܪܐ܀ܨܒܐ ܒܪܘܝܐ ܕܐܕܡ ܢܐܪܒ ܐܝܟ ܐܠܗܐ:ܘܒܪܗ ܢܙܥܪ ܐܝܟ ܒܪܢܫܐ ܡܐ ܕܦܪܩ ܠܗ܀205 ܘܒܗ̇ܘ ܨܠܡܐ ܕܝܗ̣ܒ ܗܘܐ ܡܪܐ ܠܥܒܕܗ ܐܝܪܒ:ܘܗܐ ܥܠܬܐ ܩܪܬܗ ܠܒܪܐ ܢܡܘܬ ܥܠ ܐܦܘܗܝ܀ܚܣ̇ܡ ܗ̇ܘܐ ܚܘܝܐ ܘܡܢ ܗ̇ܘ ܪܘܡܐ ܒܪܝܟܐ ܕܥܕܝܢ:ܓܪ ܗ̇ܘܐ ܘܐܚܬܗ ܘܐܥܠ ܣܚܦܗ ܒܚ̈ܙܐ ܕܫܝܘܠ܀ܘܕܫܗ̇ ܘܫܚܩܗ ܘܥܒܕܗ ܥܦܪܐ ܐܝܟ ܕܐܝܬܘܗܝ ܗܘܐ:210 ܘܐܬܚܒܠ ܗ̇ܘܐ ܟܠ ܨܘܪܬܗ ܫܦܝܪܬܐ܀ܘܥܠ ܕܐܝܬܘܗܝ ܗܘܐ ܨܠܡܐ ܪܒܐ ܒܥܬܐ ܪܒܬܐ:ܗ̇ܘܬ̇ ܠܗ ܠܐܒܐ ܡܛܠܬܗ ܕܠܐ ܢܐܪܒ ܗܘܐ܀ܘܠܝܚܝܕܝܗ ܫ̣ܕܪ ܒܬܪܗ ܕܢܚܘܬ ܢܒܥܝܘܗܝ:ܘܫܦܪ ܗܘܐ ܠܗ ܕܠܐ ܐܪܦܝ ܗܘܐ ܠܨܠܡܗ ܢܐܒܕ܀215 ܕܢܦܪܘܩ ܨܠܡܗ ܐܫܠܡ ܠܒܪܗ ܝܚܝܕܝܐ:ܕܠܐ ܦܐܝܐ ܗܘܬ ܕܢܪܦܐ ܨܠܡܗ ܒܥܘܡܩܐ ܕܫܝܘܠ܀ܘܥܠܗ̇ܝ ܩ̇ܕܡ ܝܗܒ ܠܗ ܨܠܡܗ ܡܢ ܫܘܪܝܐ:ܕܗ̣ܘ ܢܗܘܐ ܠܗ ܥܠ̣ܬܐ ܠܚܝ̈ܐ ܨܝܕ ܫܘܠܡܐ܀ܡܟܝܠ ܗܫܐ ܡܐ ܕܫ̇ܡܥ ܐܢܬ ܠܐܒܐ ܕܐܡ̇ܪ:220 ܢܥܒܕ ܐܢܫܐ ܒܨܠܡܢ ܚܘܪ ܐܢܬ ܒܒܪܐ ܕܕܢ̣ܚ܀ܕܥܠ ܕܐܝܬ ܗܘܐ ܠܗ ܠܐܕܡ ܨܠܡܗ ܕܗ̇ܝ ܪܒܘܬܐ:ܗܘ̣ܬ̇ ܡܐܬܝܬܐ ܕܡܪܣ ܨܝܕܘܗܝ ܡ̇ܛܠ ܚܘܒܗ܀ܡܢ ܟܕ ܗܘ̇ܐ ܪܚܝܡ ܗܘܐ ܐܕܡ ܥܠ ܒܪܘܝܐ:ܕܐܦ ܡܢ ܕܐܣܟܠ ܝܩܝܪ ܗܘܐ ܥܠܘܗܝ ܟܕ ܚܐܪ ܒܗ܀225 ܚܛܐ ܘܠܐ ܠܛܗ ܕܚܘܒܗ ܒܗ ܗܘܐ ܘܠܐ ܣܢܐ ܠܗ:ܘܕܠܐ ܢܠܘܛܗ ܠܛ ܗܘܐ ܠܐܪܥܐ ܡܛܠܬܗ܀ܒܣܒܪܐ ܠܛܗ ܟܕ ܐܦܘܗܝ ܗܘܐ ܡܢ ܦܪܕܝܣܐ:ܘܕܠܐ ܠܛܗ ܚܘܝ ܪܦܝܐ ܘܡܥܠ ܗܘ ܠܗ܀ܠܒܥܠܕܒܒܐ ܕܠܐ ܪܡܐ ܗܘܐ ܟܕ ܡܦܩ ܠܗ:230 ܐܠܐ ܠܪܚܡܐ  ܩܠܝܠ ܨܝܕ ܚܒܝܒܗ܀ܟܕ ܐܬܟܣܝ ܛܖ̈ܦܝ ܬܐܢ̈ܐ ܥܠ ܦܘܪܣܗ:ܠܒܘܫܐ ܥܒ̣ܕ ܠܗ ܕܠܐ ܢܦܩܗ ܗܘܐ ܥܪܛܠܐܝܬ܀ܐܝܨܦ ܕܠܗ ܕܢܚܘܐ ܠܗ ܕܠܐ ܣܢ̣ܐ ܠܗ:ܕܐܠܘ ܣܢܝܗܝ ܗܘܐ ܠܐ ܡܠܒܫ ܗܘܐ ܘܡܢܟܦ ܠܗ܀235 ܕܝܩܝܪ ܗܘܐ ܠܗ ܟܕ ܐܣܟܠ ܒܗ ܠܐ ܠܛܗ ܗܘܐ:ܘܡܛܠ ܕܚܙܝܗܝ ܕܡܦܪܣܝ ܗܘܐ ܠܒܘܫܐ ܝܗ̣ܒ ܠܗ܀ܘܒܝܕ ܗܠܝܢ ܪܡ̇ܙ ܗܘܐ ܠܗ ܥܠ ܦܘܢܝܐ:ܕܡܥܠ ܗܘ ܠܗ ܒܙܒܢܐ ܕܣ̇ܡ ܠܗ ܕܢܬܦܢܐ ܒܗ܀ܗܟܢ ܐܚܒܗ ܡܢ ܫܘܪܝܐ ܡܪܝܐ ܠܐܕܡ:240 ܘܣܗܕܐ ܗܕܐ ܕܣܥ̣ܪ ܥܡܗ ܨܝܕ ܫܘܠܡܐ܀ܐܝܚܝܕܝܗ ܝܗ̣ܒ ܠܙܩܝܦܐ ܡܛܠܬܗ:ܘܕܢܚܘ ܟܠܗܝܢ ܫܦܝܖ̈ܬܐ ܒܕܢܚܐ ܕܒܪܗ܀ܡܟܣܐ ܟܣܐ ܗܘܐ ܚܘܒܗ ܕܐܒܐ ܡܢ ܒܖ̈ܝܬܐ:ܘܓܠܝܗܝ ܒܒܪܗ ܘܝܠ̣ܦ ܥܠܡܐ ܟܡܐ ܪܚܡ ܠܗ܀245 ܒܐܠܗܐ ܓܝܪ ܠܘ ܪܥܝܢܐ ܐܬܚܕܬ ܒܗ:ܕܒܙܒܢ ܣ̇ܢܐ ܘܒܙܒܢ ܪܚ̇ܡ ܠܒܝܬ ܐܕܡ܀ܡܪܚܡ ܪܚ̇ܡ  ܒ̇ܪܐ ܘܡܛܠܗܢܐ:ܢܥܒܕ ܐܢܫܐ ܒܨܠܡܢ ܐܡܪ ܐܦ ܘܗ̇ܘ ܚܘܫܒܐ ܕܚܘܒܗ ܕܐܝܬܘܗܝ ܐܝܟܢ ܕܐܝܬܘܗܝ:250 ܐܦܩܗ ܠܓܠܝܢܐ ܒܙܩܝܦܘܬܐ ܕܐܝܚܝܕܝܗ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>[Nach dem Abbild seines] Sohnes, [formte der Vater ihn], Adam, als er ihn formte.Und durch ihn, im Ebenbild seiner Körperlichkeit schuf er seine Gestalt.In der Gestalt des Sohnes, welcher in der Welt erschienen ist.In ihr schuf er ihn, jenen Urahnen [riš ṭūhmā], als er ihn erschuf.185 Nach dem himmlischen Adam, welcher der Herr Jesus ist.[Gott] Vater schaute ihn und schuf Adam im Ebenbild des Gottessohnes, dessen Name bereits vor der Sonne bestand.Er 'gab' ihm [dem Adam] sein Ebenbild [d.h. das Ebenbild Jesu], damit dadurch der Staub Adams geehrt würde.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

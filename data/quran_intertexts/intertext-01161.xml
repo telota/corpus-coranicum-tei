@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 10:16-39</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1161" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1161</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Laut Q 16:79 gehört zu den Zeichen Gottes (ʾayāt) (vgl. dazu den Kommentar zu Q 88:17-20 sowie Neuwirth 2010: p. 430-455), dass Gott die Vögel in der Luft hält. Karl Ahrens und Heinrich Speyer verweisen dazu auf Mt 10:29 (Ahrens 1930: p. 161) (Speyer 1931: p. 454).</summary>
+            <msItem>
+              <title>Matthäus 10:16-39</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.
+</bibl>
+              <bibl type="literatur">Ahrens, Karl: &amp;#x201E;Christliches im Qoran. Eine Nachlese&amp;#x201C;. In: Zeitschrift der Deutschen Morgenl&amp;#xE4;ndischen Gesellschaft 84 (1930), S. 15&amp;#x2013;68, 148&amp;#x2013;190.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike. Ein europ&amp;#xE4;ischer Zugang. Verlag der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>16 Ἰδοὺ ἐγὼ ἀποστέλλω ὑμᾶς ὡς πρόβατα ἐν μέσῳ λύκων· γίνεσθε οὖν φρόνιμοι ὡς οἱ ὄφεις καὶ ἀκέραιοι ὡς αἱ περιστεραί. 17 Προσέχετε δὲ ἀπὸ τῶν ἀνθρώπων· παραδώσουσιν γὰρ ὑμᾶς εἰς συνέδρια καὶ ἐν ταῖς συναγωγαῖς αὐτῶν μαστιγώσουσιν ὑμᾶς· 18 καὶ ἐπὶ ἡγεμόνας δὲ καὶ βασιλεῖς ἀχθήσεσθε ἕνεκεν ἐμοῦ εἰς μαρτύριον αὐτοῖς καὶ τοῖς ἔθνεσιν. 19 ὅταν δὲ παραδῶσιν ὑμᾶς, μὴ μεριμνήσητε πῶς ἢ τί λαλήσητε· δοθήσεται γὰρ ὑμῖν ἐν ἐκείνῃ τῇ ὥρᾳ τί λαλήσητε· 20 οὐ γὰρ ὑμεῖς ἐστε οἱ λαλοῦντες ἀλλὰ τὸ πνεῦμα τοῦ πατρὸς ὑμῶν τὸ λαλοῦν ἐν ὑμῖν. 21 Παραδώσει δὲ ἀδελφὸς ἀδελφὸν εἰς θάνατον καὶ πατὴρ τέκνον, καὶ ἐπαναστήσονται τέκνα ἐπὶ γονεῖς καὶ θανατώσουσιν αὐτούς. 22 καὶ ἔσεσθε μισούμενοι ὑπὸ πάντων διὰ τὸ ὄνομά μου· ὁ δὲ ὑπομείνας εἰς τέλος οὗτος σωθήσεται. 23 Ὅταν δὲ διώκωσιν ὑμᾶς ἐν τῇ πόλει ταύτῃ, φεύγετε εἰς τὴν ἑτέραν· ἀμὴν γὰρ λέγω ὑμῖν, οὐ μὴ τελέσητε τὰς πόλεις τοῦ Ἰσραὴλ ἕως ἂν ἔλθῃ ὁ υἱὸς τοῦ ἀνθρώπου. 24 Οὐκ ἔστιν μαθητὴς ὑπὲρ τὸν διδάσκαλον οὐδὲ δοῦλος ὑπὲρ τὸν κύριον αὐτοῦ. 25 ἀρκετὸν τῷ μαθητῇ ἵνα γένηται ὡς ὁ διδάσκαλος αὐτοῦ καὶ ὁ δοῦλος ὡς ὁ κύριος αὐτοῦ. εἰ τὸν οἰκοδεσπότην Βεελζεβοὺλ ἐπεκάλεσαν, πόσῳ μᾶλλον τοὺς οἰκιακοὺς αὐτοῦ. 26 Μὴ οὖν φοβηθῆτε αὐτούς· οὐδὲν γάρ ἐστιν κεκαλυμμένον ὃ οὐκ ἀποκαλυφθήσεται καὶ κρυπτὸν ὃ οὐ γνωσθήσεται. 27 ὃ λέγω ὑμῖν ἐν τῇ σκοτίᾳ εἴπατε ἐν τῷ φωτί, καὶ ὃ εἰς τὸ οὖς ἀκούετε κηρύξατε ἐπὶ τῶν δωμάτων. 28 Καὶ μὴ φοβεῖσθε ἀπὸ τῶν ἀποκτεννόντων τὸ σῶμα, τὴν δὲ ψυχὴν μὴ δυναμένων ἀποκτεῖναι· φοβεῖσθε δὲ μᾶλλον τὸν δυνάμενον καὶ ψυχὴν καὶ σῶμα ἀπολέσαι ἐν γεέννῃ. 29 οὐχὶ δύο στρουθία ἀσσαρίου πωλεῖται; καὶ ἓν ἐξ αὐτῶν οὐ πεσεῖται ἐπὶ τὴν γῆν ἄνευ τοῦ πατρὸς ὑμῶν. 30 ὑμῶν δὲ καὶ αἱ τρίχες τῆς κεφαλῆς πᾶσαι ἠριθμημέναι εἰσίν. 31 μὴ οὖν φοβεῖσθε· πολλῶν στρουθίων διαφέρετε ὑμεῖς. 32 Πᾶς οὖν ὅστις ὁμολογήσει ἐν ἐμοὶ ἔμπροσθεν τῶν ἀνθρώπων, ὁμολογήσω κἀγὼ ἐν αὐτῷ ἔμπροσθεν τοῦ πατρός μου τοῦ ἐν [τοῖς] οὐρανοῖς· 33 ὅστις δ’ ἂν ἀρνήσηταί με ἔμπροσθεν τῶν ἀνθρώπων, ἀρνήσομαι κἀγὼ αὐτὸν ἔμπροσθεν τοῦ πατρός μου τοῦ ἐν [τοῖς] οὐρανοῖς. 34 Μὴ νομίσητε ὅτι ἦλθον βαλεῖν εἰρήνην ἐπὶ τὴν γῆν· οὐκ ἦλθον βαλεῖν εἰρήνην ἀλλὰ μάχαιραν. 35 ἦλθον γὰρ διχάσαι ἄνθρωπον κατὰ τοῦ πατρὸς αὐτοῦ* καὶ θυγατέρα κατὰ τῆς μητρὸς αὐτῆς* καὶ νύμφην κατὰ τῆς πενθερᾶς αὐτῆς,* 36 καὶ ἐχθροὶ τοῦ ἀνθρώπου οἱ οἰκιακοὶ αὐτοῦ.* 37 Ὁ φιλῶν πατέρα ἢ μητέρα ὑπὲρ ἐμὲ οὐκ ἔστιν μου ἄξιος, καὶ ὁ φιλῶν υἱὸν ἢ θυγατέρα ὑπὲρ ἐμὲ οὐκ ἔστιν μου ἄξιος· 38 καὶ ὃς οὐ λαμβάνει τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθεῖ ὀπίσω μου, οὐκ ἔστιν μου ἄξιος. 39 ὁ εὑρὼν τὴν ψυχὴν αὐτοῦ ἀπολέσει αὐτήν, καὶ ὁ ἀπολέσας τὴν ψυχὴν αὐτοῦ ἕνεκεν ἐμοῦ εὑρήσει αὐτήν. 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>16 Seht, ich sende euch wie Schafe mitten unter die Wölfe; seid daher klug wie die Schlangen und arglos wie die Tauben! 17 Nehmt euch aber vor den Menschen in Acht! Denn sie werden euch vor die Gerichte bringen und in ihren Synagogen auspeitschen. 18 Ihr werdet um meinetwillen vor Statthalter und Könige geführt, damit ihr vor ihnen und den Heiden Zeugnis ablegt. 19 Wenn man euch vor Gericht stellt, macht euch keine Sorgen, wie und was ihr reden sollt; denn es wird euch in jener Stunde eingegeben, was ihr sagen sollt. 20 Nicht ihr werdet dann reden, sondern der Geist eures Vaters wird durch euch reden. 21 Brüder werden einander dem Tod ausliefern und Väter ihre Kinder, und die Kinder werden sich gegen ihre Eltern auflehnen und sie in den Tod schicken. 22 Und ihr werdet um meines Namens willen von allen gehasst werden; wer aber bis zum Ende standhaft bleibt, der wird gerettet. 23 Wenn man euch in der einen Stadt verfolgt, so flieht in eine andere. Amen, ich sage euch: Ihr werdet nicht zu Ende kommen mit den Städten Israels, bis der Menschensohn kommt. 24 Ein Jünger steht nicht über seinem Meister und ein Sklave nicht über seinem Herrn. 25 Der Jünger muss sich damit begnügen, dass es ihm geht wie seinem Meister, und der Sklave, dass es ihm geht wie seinem Herrn. Wenn man schon den Herrn des Hauses Beelzebul nennt, dann erst recht seine Hausgenossen. 26 Darum fürchtet euch nicht vor ihnen! Denn nichts ist verhüllt, was nicht enthüllt wird, und nichts ist verborgen, was nicht bekannt wird. 27 Was ich euch im Dunkeln sage, davon redet am hellen Tag, und was man euch ins Ohr flüstert, das verkündet von den Dächern. 28 Fürchtet euch nicht vor denen, die den Leib töten, die Seele aber nicht töten können, sondern fürchtet euch vor dem, der Seele und Leib ins Verderben der Hölle stürzen kann. 29 Verkauft man nicht zwei Spatzen für ein paar Pfennig? Und doch fällt keiner von ihnen zur Erde ohne den Willen eures Vaters. 30 Bei euch aber sind sogar die Haare auf dem Kopf alle gezählt. 31 Fürchtet euch also nicht! Ihr seid mehr wert als viele Spatzen. 32 Wer sich nun vor den Menschen zu mir bekennt, zu dem werde auch ich mich vor meinem Vater im Himmel bekennen. 33 Wer mich aber vor den Menschen verleugnet, den werde auch ich vor meinem Vater im Himmel verleugnen. 34 Denkt nicht, ich sei gekommen, um Frieden auf die Erde zu bringen. Ich bin nicht gekommen, um Frieden zu bringen, sondern das Schwert. 35 Denn ich bin gekommen, um den Sohn mit seinem Vater zu entzweien und die Tochter mit ihrer Mutter und die Schwiegertochter mit ihrer Schwiegermutter; 36 und die Hausgenossen eines Menschen werden seine Feinde sein. 37 Wer Vater oder Mutter mehr liebt als mich, ist meiner nicht würdig, und wer Sohn oder Tochter mehr liebt als mich, ist meiner nicht würdig. 38 Und wer nicht sein Kreuz auf sich nimmt und mir nachfolgt, ist meiner nicht würdig. 39 Wer das Leben gewinnen will, wird es verlieren; wer aber das Leben um meinetwillen verliert, wird es gewinnen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hādōxt Nask 2:15</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1330" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1330</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran findet sich die Vorstellung von vier Paradiesgärten, die den Gläubigen verheißen werden. In Sure 55:46 und 55:62 wird jeweils der Dual ǧannatān bei der Nennung der Paradiesgärten gebraucht. Entgegen der Deutung Theodor Nöldekes, der die Duale auf eine Reimkonvention zurückführt (Nöldeke 1909: 30; so auch Schimmel 1976: 17–18), argumentiert Angelika Neuwirth, dass es eine stilistische Besonderheit der arabischen Dichtung in vorislamischer Zeit gewesen sei, Duale für Ortsbezeichnungen zu verwenden (Neuwirth 1984: 458). Außerdem lasse der symmetrische Aufbau der Sure das Bild zweier Gartenpaare sinnvoll erscheinen (Neuwirth 1984: 465), so dass sich die Stelle übereinstimmend mit der altarabischen Tradition als „Garten über Garten“ (Neuwirth 1984: 473), oder „unendliche Gärten“ bestimmen lasse (Neuwirth 2010: 219).
+Daneben könnte aber auch die zoroastrische Idee von vier Paradiesen Eingang in den eschatologischen Diskurs im Koran gefunden haben: Bereits im Awesta (Vīdēvdād 7:52) ist in Andeutungen von vier Paradies-Sektionen die Rede, während in der Pahlavī-Literatur (Ardā Wīrāz Nāmag 7:10) diesen vier Paradiesen antithetisch vier Höllen (vgl. TUK_1304 u. TUK_1333) und ein intermediärer Bereich (vgl. TUK_1319 u. TUK_1320) für diejenigen, deren gute und schlechte Taten einander ausgleichen, gegenübergestellt sind. Die parallele Gestaltung der eschatologischen Szenerie ist außerdem in einem awestischen Fragment, dem hier vorgestellten Hādōxt Nask 2:15 und 2:33, belegt (Kellens 2012).
+
+
+Unter dem Hādōxt Nask („Buch der Schriften“) werden heute zumeist zwei Texte verstanden, die seit ihrer Edition durch Niels Ludwig Westergaard (Westergaard 1852: 294–300) zu den awestischen Fragmenten gezählt werden (andere Editionen: Haug and West 1872: 269–300, Piras 2000). Ursprünglich bezeichnete der Begriff nach Dēnkard 8:45 das sechste der sieben gāthischen Nasks des insgesamt 21 Nasks zählenden sasanidischen Awesta (Geldner 1896: 17–18, zu weiteren Fragmenten siehe Kellens 2012). Die älteste erhaltene Handschrift stammt aus dem Jahr 1350 (siehe zu den Manuskripten Piras 2000: 14–16). Inhaltlich unterscheiden sich die beiden Texte signifikant: Während im ersten Fragment die Kraft des Aṧəm-vohū-Gebets (Schlerath 1987) gepriesen wird, thematisiert der zweite Text das Schicksal der Seele nach dem Tod. Das Schicksal des „Wahrhaftigen“ (vgl. Schlerath and Skjærvø 1987) und des „Anhängers der Lüge“ (vgl. Kellens 2011) sind einander dabei antithetisch gegenübergestellt: Drei Tage verharrt die körperliche (Atem-)Seele (uruuan) am Kopf des Verstorbenen, bevor sie in der Dämmerung des vierten Tages einen Duft bzw. Gestank wahrnimmt und ihrer „Schauseele“ (daēnā), entweder in Gestalt eines schönen jungen Mädchens, oder aber einer alten hässlichen Frau, begegnet (Hādōxt Nask 2: 1–14 bzw. 2: 19–32). Nach der Schilderung der vier Stufen des Paradieses bzw. der Holle (Hādōxt Nask 2:15 bzw. 2:33) begegnet die Seele Ahura Mazdā bzw. Aŋra Mainyu und wird mit wohlschmeckenden bzw. faulem Essen bewirtet (Hādōxt Nask 2:17–18 bzw. 2:35–36).</summary>
+            <msItem>
+              <title>Hādōxt Nask 2:15</title>
+              <author/>
+              <textLang mainLang="">Awestisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace>Ostiran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Piras 2000</bibl>
+              <bibl type="literatur">Darmesteter, James: The Zend-Avesta. Oxford 1883.</bibl>
+              <bibl type="literatur">Geldner, Karl F.: &amp;#x201E;Awestalitteratur&amp;#x201C;. In: Wilhelm Geiger &amp;amp; Ernst Kuhn (Hrsg.), Grundriss der Iranischen Philologie. Strassburg 1904 1896, S. 1&amp;#x2013;54.</bibl>
+              <bibl type="literatur">Haug, Martin &amp;amp; West, Edward W.: The Book of Arda Viraf. Bombay/London 1872.</bibl>
+              <bibl type="literatur">Kellens, Jean: &amp;#x201E;Druj&amp;#x201C;. Encyclopaedia Iranica 7.6: 562&amp;#x2013;563.</bibl>
+              <bibl type="literatur">Kellens, Jean: &amp;#x201E;H&amp;#x101;d&amp;#x14D;xt Nask&amp;#x201C;. Encyclopaedia Iranica 11.5: 457&amp;#x2013;458.</bibl>
+              <bibl type="literatur">N&amp;#xF6;ldeke, Theodor: Geschichte des Qor&amp;#x101;ns: Teil 1 &amp;#xDC;ber den Ursprung des Qor&amp;#x101;ns. Dieterich&amp;#x2BC;sche Verlagsbuchhandlung, Leipzig 1909.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: &amp;#x201E;Symmetrie und Paarbildung in der koranischen Eschatologie. Philologisch-Stilistisches zu S&amp;#x16B;rat ar-Ra&amp;#x1E25;m&amp;#x101;n&amp;#x201C;. In: Universit&amp;#xE9; Saint-Joseph, Beirut 1984, S. 445&amp;#x2013;480. M&amp;#xE9;langes de l&amp;#x2019;Universit&amp;#xE9; Saint-Joseph.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Piras, Andrea: H&amp;#x101;&amp;#x3B4;oxt Nask 2: il racconto zoroastriano della sorte dell&amp;#x2019;anima. Rom 2000.</bibl>
+              <bibl type="literatur">Schimmel, Annemarie: &amp;#x201E;The Celestial Garden in Islam&amp;#x201C;. In: Elisabeh B. MacDougall &amp;amp; Richard Ettinghausen (Hrsg.), The Islamic Garden. Washington 1976, S. 11&amp;#x2013;39.</bibl>
+              <bibl type="literatur">Schlerath, Bernfried &amp;amp; Skj&amp;#xE6;rv&amp;#xF8;, Prods O.: &amp;#x201E;A&amp;#x161;a&amp;#x201C;. Encyclopaedia Iranica 694&amp;#x2013;696.</bibl>
+              <bibl type="literatur">Schlerath, Bernfried: &amp;#x201E;A&amp;#x161;&amp;#x259;m Voh&amp;#x16B;&amp;#x201C;. Encyclopaedia Iranica 2.7: 741.</bibl>
+              <bibl type="literatur">Westergaard, Nils L.: Zend-avesta or the Religious Books of the Zoroastrians. Kopenhagen 1852.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>„The first step that the soul of the faithful man made, placed him in the Good-Thought Paradise;
+The second step that the soul of the faithful man made, placed him in the Good-Word Paradise;
+The third step that the soul of the faithful man made, placed him in the Good-Deed Paradise;
+The fourth step that the soul of the faithful man made, placed him in the Endless Lights.“ (Darmesteter 1883: 317)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

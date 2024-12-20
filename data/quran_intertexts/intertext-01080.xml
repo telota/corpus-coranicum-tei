@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium Rabba, Parascha 5:3</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1080" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1080</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 38:26 ermahnt Gott David, zwischen den Menschen gerecht zu urteilen (fa-ḥkum baina n-nās bi-l-ḥaqq; "Entscheide nun zwischen den Menschen nach der Wahrheit").  Im Unterschied zur Hebräischen Bibel, wo die Gerechtigkeit Davids, 
+anders als die Salomos, nicht besonders hervorgehoben wurde, wird diese 
+Eigenschaft in der späteren jüdischen Tradition stärker betont. Bei der hier zitierten Stelle aus dem Midrasch Deuteronomium Rabba handelt es sich um eine Auslegung von 2 Sam 8:15, wo es heißt, dass David Recht und Gerechtigkeit (ha-ṣadaqa wə-ha-dinin) an seinem Volk geübt habe. Im Midrasch wird nun erklärt, auf welche Weise dies geschehen sei.
+
+	Zu Datierung und Textgeschichte von Deuteronomium Rabba siehe Stemberger 2011, S. 341.
+</summary>
+            <msItem>
+              <title>Deuteronomium Rabba, Parascha 5:3</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">zwischen 450 und 800</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>אמר לו הקב"ה הצדקה והדינין שאתה עושה חביבין עלי מבהמ"ק מבית המקדש מנין שנא' (ש"ב =שמואל ב'= ח) ויהי דוד עושה משפט וצדקה, מהו משפט וצדקה לכל עמו ר' יהודה ור' נחמן חד אמר היה דן את הדין מזכה את הזכאי ומחייב את החייב אם לא היה לחייב ליתן היה דוד נותן משלו הוי משפט וצדקה אמר לו ר"נ אן כן נמצאת מביא את ישראל לידי רמיות ומהו משפט וצדקה הי' דן את הדין מזכה את הזכאי ומחייב את החייב הוי משפט וצדקה שהיה מוציא את הגזל מידו אמר הקב"ה לישראל בני הואיל וכך הדינין חביבים לפני הוו זהירין בהם
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Gott sprach zu ihm: Die Gerechtigkeit und die Rechte, die du übst, sind mir lieber als der Tempel. Woher lässt sich das beweisen? Es heisst 2 Sam. 8, 15: „David übte Recht und Gerechtigkeit an seinem ganzen Volke.“ Was heisst das: „Recht und Gerechtigkeit an seinem ganzen Volke?“ Darüber sind R. Jehuda und R. Nachman verschiedener Meinung. Der eine sagte: Der Richter hat den Unschuldigen frei gesprochen und den Schuldigen verurtheilt und wenn der zu einer Zahlung Verurtheilte es nicht hatte, so gab es David von dem Seinigen. Das war Recht und Gerechtigkeit. Dagegen wandle R. Nachman ein: Wenn dem so ist, so hätte dieses Verfahren die Israeliten (die Armen) zu Betrügereien veranlassen können. Was war Recht und Gerechtigkeit? Dass der Richter den Unschuldigen frei sprach und den Schuldigen verurtheilte, das war Recht und Gerechtigkeit, weil er dadurch das Geraubte ihm entriss. Gott sprach zu den Israeliten: Meine Kinder! weil Recht und Gerechtigkeit vor mir so werth sind, darum seid darauf bedacht (sie zu üben).  </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	God added: 'The righteousness and justice which you do are more beloved to me than the Temple.' Whence this? For it is said, And David executed justice and righteousness unto all his people (2 Sam 8:15). What is the meaning of righteousness and justice unto all his people? Rab Judah and R. Naḥman each has his own explanation of this. The one says: [David] executed justice, he acquitted the innocent and condemned the guilty; if, however, the guilty party had not the means to pay [the sum adjudged] he would pay it himself. This is the force of 'Justice and righteousness'. Said R. Naḥman to him [Rab Judah]: If so, he would have encouraged Israel to practice deception. And what then is the meaning of 'Justice and righteousness'? He judged justly, acquitting the guiltless and condemning the guilty. This is the force of  'Justice and righteousness', that he made him give up the thing he had robbed. God said: 'My children, seeing that justice is so beloved before Me, be mindful of it.'
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

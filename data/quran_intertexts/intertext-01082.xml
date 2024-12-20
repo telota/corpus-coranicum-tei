@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Baba Qamma, 16b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1082" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1082</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 27:15 spricht davon, wie Gott David und Salomo Wissen gegeben hat. In Q 6:84 werden beide zu denen gezählt, denen Gott den rechten Weg gewiesen hat (hadainā min qablu). Heinrich Speyer führt die dort erwähnte Auszeichnung Davids und Salomos, sowie die Tatsache, dass beide im Koran oft gemeinsam genannt werden (z.B. Q 21:78-81) auf Stellen wie bT Baba Qamma 16b zurück. Dort werden David und Salomo als die Vorzüglichsten ihrer Familie bezeichnet. Auch in 2 Chronik 35:4 ("Haltet euch bereit nach euren Großfamilien und euren Abteilungen gemäß der Vorschrift Davids, des Königs von Israel, und der Weisung seines Sohnes Salomo.") und in der jüdischen Liturgie erscheinen David und Salomo nebeneinander (Speyer 1931: p. 380). Wie in der jüdischen Tradition werden David und Salomo also auch im Koran oft im selben Kontext genannt. Allerdings findet die genealogische Verbindung zwischen den beiden im Koran keine Erwähnung, außer man interpretiert Q 27:16 (wa-wariṯa Sulaimānu Dawūda; "und Salomo beerbte den David") in diesem Sinn. 
+
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Baba Qamma, 16b</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Wilna 1880-1886 </bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	מאי עלייה? אמר רבי אלעזר: במעולה שבנכסיו; וכן הוא אומר: בוישכב חזקיהו עם אבותיו ויקברוהו במעלה קברי בני דוד, ואמר ר' אלעזר: במעלה - אצל מעולים שבמשפחה, ומאן נינהו? דוד ושלמה
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Was heißt ʿalija? R. Eleʿazar erwiderte: Das beste seiner Güter, denn so heißt es: Und Ḥizqija legte sich zu seinen Vätern, und man begrub ihn am Aufstieg zu den Gräbern der Nachkommen Davids (2 Chr 32:33), und R. Eleʿazar erklärte [das Wort] mʿala [Aufstieg]: bei den Vorzüglichsten [meʿulim] der Familie, das sind David und Salomo.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>What is 'Aliyyah? — R. Eleazar said: The best of the defendant's estate as stated in Scripture: And Hezekiah slept with his fathers and they buried him [be-ma'aleh] in the best of the sepulchers of the sons of David; and R. Eleazar said: be-ma'aleh means, near the best of the family, i.e., David and Solomon.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

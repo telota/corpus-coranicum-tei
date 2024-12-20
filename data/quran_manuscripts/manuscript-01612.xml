@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1612">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Massachussets, Harvard Art Museums, 1927.162</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="70">Harvard Art Museums
+                            , Cambridge, Massachussets</repository>
+            <idno>1927.162</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 1927.162; Qurʾānic Text: Q 6:73-6:77; 7 lines per page; Dimensions: 152 x 163mm; Script style: Maġribī <hi rend="italic">mabsūṭ</hi>; Estimated date of production: 13th or early 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>Folio from a Qurʾān originally in 12 volumes. The 9th volume is in Baltimore, Walters Art Museum, <ref target="https://corpuscoranicum.de/de/manuscripts/1249">Inv. W.556</ref>. Other loose folios are in the Detroit Institute of Art, <ref target="https://corpuscoranicum.de/de/manuscripts/1953">Inv. 25.77</ref>, and in the Library of Congress, <ref target="https://corpuscoranicum.de/de/manuscripts/1804">AL-18</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/1803">AL-19</ref>.</p>
+              <p> </p>
+              <p>For further information, see the catalogue entry on the <ref target="https://hvrd.art/o/201567">museum's website</ref>. </p>
+              <p> </p>
+            </summary>
+            <msItem xml:id="mysql_id_692032" n="1r">
+              <title type="numeric" key="006:073:019-006:075:005">
+                                    006:073:019-006:075:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692033" n="1v">
+              <title type="numeric" key="006:075:006-006:076:012">
+                                    006:075:006-006:076:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>152</width><height>163</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1200-1325</origDate>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb), al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_51990">
+      <graphic decls="#imageRights-1" url="manuscript/1612/74d8954b-909c-4716-9606-117180e36e3f/manuscript-1612-page-51990-image-40666.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_51991">
+      <graphic decls="#imageRights-1" url="manuscript/1612/346d1916-d18c-4f70-8d83-223d01a9d366/manuscript-1612-page-51991-image-40667.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

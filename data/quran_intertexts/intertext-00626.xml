@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 22:20-32</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_626" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>626</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 93:3 greift den biblischen Topos der unvorhergesehenen Hinwendung Gottes zu einem Frommen auf, wie er sich auch im hier zitierten Psalmvers 22:25 findet (Neuwirth 2011: p. 79). Vgl auch Kommentar zu Q 93:3.</summary>
+            <msItem>
+              <title>Psalm 22:20-32</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran&amp;#x202F;: Handkommentar Mit &amp;#xDC;bersetzung von Angelika Neuwirth. Fr&amp;#xFC;hmekkanische Suren: Poetische Prophetie. Berlin: Verlag der Weltreligionen, 2011.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> וְאַתָּה יְהוָה אַל־תִּרְחָק אֱיָלוּתִי לְעֶזְרָתִי חוּשָׁה :   הַצִּילָה מֵחֶרֶב נַפְשִׁי מִיַּד־כֶּלֶב יְחִידָתִי :   הוֹשִׁיעֵנִי מִפִּי אַרְיֵה וּמִקַּרְנֵי רֵמִים עֲנִיתָנִי :   אֲסַפְּרָה שִׁמְךָ לְאֶחָי בְּתוֹךְ קָהָל אֲהַלְלֶךָּ :   יִרְאֵי יְהוָה הַלְלוּהוּ כָּל־זֶרַע יַעֲקֹב כַּבְּדוּהוּ וְגוּרוּ מִמֶּנּוּ כָּל־זֶרַע יִשְׂרָאֵל :    כִּי לֹא־בָזָה וְלֹא שִׁקַּץ עֱנוּת עָנִי וְלֹא־הִסְתִּיר פָּנָיו מִמֶּנּוּ וּבְשַׁוְּעוֹ אֵלָיו שָׁמֵעַ :   מֵאִתְּךָ תְהִלָּתִי בְּקָהָל רָב נְדָרַי אֲשַׁלֵּם נֶגֶד יְרֵאָיו :   יֹאכְלוּ עֲנָוִים וְיִשְׂבָּעוּ יְהַלְלוּ יְהוָה דֹּרְשָׁיו יְחִי לְבַבְכֶם לָעַד :   יִזְכְּרוּ וְיָשֻׁבוּ אֶל־יְהוָה כָּל־אַפְסֵי־אָרֶץ וְיִשְׁתַּחֲווּ לְפָנֶיךָ כָּל־מִשְׁפְּחוֹת גּוֹיִם :   כִּי לַיהוָה הַמְּלוּכָה וּמֹשֵׁל בַּגּוֹיִם :   אָכְלוּ וַיִּשְׁתַּחֲוּוּ כָּל־דִּשְׁנֵי־אֶרֶץ לְפָנָיו יִכְרְעוּ כָּל־יוֹרְדֵי עָפָר וְנַפְשׁוֹ לֹא חִיָּה :   זֶרַע יַעַבְדֶנּוּ יְסֻפַּר לַאדֹנָי לַדּוֹר :   יָבֹאוּ וְיַגִּידוּ צִדְקָתוֹ לְעַם נוֹלָד כִּי עָשָׂה :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>20 Du aber, Herr, halte dich nicht fern! / Du, meine Stärke, eil mir zu Hilfe! 21 Entreiße mein Leben dem Schwert, / mein einziges Gut aus der Gewalt der Hunde! 22 Rette mich vor dem Rachen des Löwen, / vor den Hörnern der Büffel rette mich Armen! 23 Ich will deinen Namen meinen Brüdern verkünden, / inmitten der Gemeinde dich preisen. 24 Die ihr den Herrn fürchtet, preist ihn, / ihr alle vom Stamm Jakobs, rühmt ihn; / erschauert alle vor ihm, ihr Nachkommen Israels! 25 Denn er hat nicht verachtet, / nicht verabscheut das Elend des Armen. Er verbirgt sein Gesicht nicht vor ihm; / er hat auf sein Schreien gehört. 26 Deine Treue preise ich in großer Gemeinde; / ich erfülle meine Gelübde vor denen, die Gott fürchten. 27 Die Armen sollen essen und sich sättigen; / den Herrn sollen preisen, die ihn suchen. / Aufleben soll euer Herz für immer. 28 Alle Enden der Erde sollen daran denken / und werden umkehren zum Herrn: / Vor ihm werfen sich alle Stämme der Völker nieder. 29 Denn der Herr regiert als König; / er herrscht über die Völker. 30 Vor ihm allein sollen niederfallen die Mächtigen der Erde, / vor ihm sich alle niederwerfen, die in der Erde ruhen. [Meine Seele, sie lebt für ihn; / 31 mein Stamm wird ihm dienen.] Vom Herrn wird man dem künftigen Geschlecht erzählen, / 32 seine Heilstat verkündet man dem kommenden Volk; / denn er hat das Werk getan. </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über den 7. Tag der Schöpfung</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_959" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>959</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Jakob von Sarug äußert hier die Vorstellung, dass tausend Jahre für Gott nur soviel wie ein Tag sind. Diese Vorstellung der Unterscheidung von 'menschlicher' und 'göttlicher' Zeit findet sich auch an den entsprechenden Stellen im Koran. Vgl. dazu auch Psalm 90:4 (TUK_0160) und Buch der Jubiläen 4:30 (TUK_0918).
+</summary>
+            <msItem>
+              <title>Gedicht über den 7. Tag der Schöpfung</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Takamitsu Muraoka (Hg.), Jacob of Serugh’s Hexaemeron, Peeters, Leuven 2018 (Ancient Near Eastern Studies, Supplement 52), S. 198-212.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܙ. ܘܚܙܐ ܡܪܝܐ ܠܟܠ ܒܖ̈ܝܬܐ ܕܛܒ ܫܦܝ̈ܪܢ:ܘܡܕܡ ܕܣܢܐ ܠܐ ܥܒܕ ܡܪܝܐ ܒܪܗܛܐ ܕܐܘܪܚܗ܀ܘܢܦܩܘ ܐܫܬܐ ܪܡܫ̈ܐ ܘܨܦܖ̈ܐ ܘܥܒܪܘ ܫܢܝܘ:ܘܐܬܬ [ܫܒܬ ܫܒܥܐ ܝܘ̈ܡܝܢ] ܡܠܝܬ ܐ̄ܪܙ̈ܐ܀5 ܛܥܝܢܐ ܢܝܚܐ ܘܡܠܝܐ ܫܠܝܐ ܘܨܝܪܐ ܛܘ̈ܦܣܐ:ܕܥܠܡܐ ܫܠܝܐ ܕܒܫܘܠܡܗ ܕܥܠܡܐ ܗܘܐ܀ܒܝܘܡܐ ܕܫܒܥܐ ܐܬܬܢܝܚ ܡܪܝܐ ܡܢ ܬܘܩܢܘ̈ܗܝ:ܕܪܗܛ ܐܘܪܚܗ ܘܫܡܠܝ ܥܒܕܘܗܝ ܘܥܠ ܠܢܝܚܐ܀ܒܫܒܥܐ ܝܘܡ̈ܝܢ ܩܛܪܗ̇ ܠܓܝܓܠܐ ܕܡܠܝܐ ܙܒ̈ܢܐ:10 ܫܬܐ ܕܪܗܛܐ ܘܚܕ ܕܢܝܚܐ ܕܟܕܝܢܝܢ ܒܗ̇܀ܫܒܥܐ ܝܘܡ̈ܝܢ ܐܝܟ ܥܡܘ̈ܕܐ ܠܥܠܡܐ ܛܥܢܘܗܝ:ܘܥܠܝܗܘܢ ܣܝܡ ܘܒܗܘܢ ܩܐܡ ܗܐ ܡܢ ܗܝܕܝܢ܀ܚܟܡܬ ܪܡܐ ܒܢܬ ܗ̄ܘܬ ܒܝܬܐ ܕܡܠܐ ܫܘܦܖ̈ܐ:ܘܒܥܡܘ̈ܕܐ ܫܒܥܐ ܣܡܟܬܗ ܕܢܗܘܐ ܫܦܝܪ܀15 ܫܒܥܐ ܛܒ̈ܥܝܢ ܣܡ ܒܟܠܝܠܗ ܕܥܠܡܐ ܡܪܗ:ܘܗܐ ܫܦܝܪܝܢ ܘܡܠܝܢ ܬܗܪܐ ܫܒܥܬܝ̈ܗܘܢ܀ܐܘܪܚܗ ܕܥܠܡܐ ܥܠ ܡܣܝ̈ܘܢܐ ܫܒܥ̈ܐ ܣܝܡܐ:ܫܬܐ ܕܪܗܛܐ ܘܚܕ ܕܢܝܚܐ ܕܡܠܐ ܫܠܝܐ܀ܒܪܗܛܐ ܕܫܒܥܐ ܗܐ ܡܬܦܪܢܣ ܥܠܡܐ ܟܠܗ:20 ܒܫܒ̈ܐ ܘܟܣ̈ܐܐ ܘܒܪܫ ܝܖ̈ܚܐ ܘܝܖ̈ܚܐ ܕܗܘܘ܀ܓܝܓܠܐ ܕܫܒܥܐ ܟܕ ܡܬܗܦܟܐ ܥܠ ܕܘܒܖ̈ܐ:ܫܢܝ̈ܐ ܝܠܕܐ ܘܟܠܗܘܢ ܙܒܢ̈ܐ ܒܗ̇ ܡܫܬܟܚܝܢ܀ܚܕ ܚܕ ܝܘܡܐ ܡܟܢܫܐ ܘܥܒܕܐ ܫܒܥܐ ܝܘܡ̈ܝܢ:ܘܗܢܘܢ ܗܠܝܢ ܐܙܠܝܢ ܘܐܬܝܢ ܥܠ ܡܢܝܢ̈ܐ܀25 ܘܗܢܘܢ ܗܠܝܢ ܥܒܕܝܢ ܝܖ̈ܚܐ ܒܗܘܦܟܝܗܘܢ:ܘܐܥܠܘ ܟܕܢܘܗ̇ ܠܫܢ̄ܬܐ ܕܝܖ̈ܚܐ ܬܚܝܬ ܡܘܙܠܬܐ܀ܘܫܪܝܬ ܢܓܕܐ ܠܐ̄ܚܪܢ̈ܝܬܐ ܫܢܝ̈ܐ ܥܡܗ̇:ܘܬܩܢ ܟܠܗ ܪܗܛܗ ܕܥܠܡܐ ܒܫܒܥܐ ܝܘܡ̈ܝܢ܀ܕܡܢܗܘܢ ܝܘܡ̈ܐ ܡܢܗܘܢ ܫܒ̈ܐ ܡܢܗܘܢ ܝܖ̈ܚܐ:30 ܘܫܢ̄ܬܐ ܒܪܗܛܐ ܘܥܡܗ̇ ܫܢܝ̈ܐ ܣܓܝ̈ܐܬܐ܀ܗܐ ܐܝܡܡ̈ܐ ܘܠܝ̈ܠܘܬܐ ܥܠ ܡܥܒܪܬܐ:ܣܒܠܘܗܝ ܘܐܦܩܘܗܝ ܠܥܠܡܐ ܕܢܘܦܐ ܒܫܒܥܐ ܝܘܡ̈ܝܢ܀ܐܬܟܢܫܘ ܗ̄ܘܘ ܨܦܖ̈ܐ ܘܪܡܫ̈ܐ ܘܗܘܐ ܝܘܡܐ:ܘܒܬܘܩܢܐ ܕܥܒܘܕܘܬܐ ܪܗܛܘ ܗ̄ܘܘ ܫܬܐ܀35 ܘܒܫܒܝܥܝܐ ܩܡܬ ܓܝܓܠܐ ܒܟܠ ܐܣܟܡ̈ܝܢ:ܘܗܐ ܡܬܟܪܟܐ ܗܝ̣ ܥܠ ܢܦܫܗ̇ ܒܟܠܗܘܢ ܝܘܡ̈ܐ܀ܘܟܠܗܘܢ ܙܒܢ̈ܐ ܒܗ̇ ܡܬܚܫܒܝܢ ܐܝܟ ܕܐܝܬܝܗܘܢ:ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܕܫܒܥܐ܀ܘܐܬܬܢܝܚ ܡܪܝܐ ܒܝܘܡܐ ܕܫܒܥܐ ܐܟܬܒ ܡܘܫܐ:40 ܘܓܠܝܐ ܗ̄ܝ̣ ܗܕܐ ܕܠܐܘܬܐ ܠܡܪܝܐ ܠܐ ܩܪܒܬ ܠܗ܀ܢܒܝܐ ܪܒܐ ܣܒ ܫܘܫܦܐ ܕܦܪܝܣܐ ܠܟ:ܥܠ ܦܬܓܡܝ̈ܟ ܢܚܙܐ ܫܘܦܪܐ ܕܢܒܝܘܬܟ܀ܐܢ ܐܡܪ ܐܢ̄ܬ ܕܠܐܝ ܡܪܝܐ ܡܢ ܡܫܪ ܠܟ:ܘܟܕ ܠܐ ܠܐܐ ܠܡܢܐ ܐܬܬܢܝܚ ܐܝܟ ܕܐܡܪ ܐܢ̄ܬ܀45 ܘܐܢ ܠܗ ܠܫܠܝܐ ܕܡܢ ܬܘ̈ܩܢܐ ܢܝܚܐ ܩܪܝܬ̇:ܗܐ ܠܐ ܫܠܐ ܠܗ ܡܢ ܕܡܕܒܪ ܥܠܡ̈ܐ ܕܒܪܐ܀ܡܕܢܚ ܫܡܫܐ ܘܡܪܗܛ ܣܗܪܐ ܘܥܒܕ ܒܖ̈ܩܐ:ܘܡܫܡܥ ܪܥܡ̈ܐ ܘܡܚܬ ܡܛܪܐ ܘܡܘܥܐ ܙܖ̈ܥܐ܀ܘܡܫܒ ܖ̈ܘܚܐ ܘܚܡܠ ܦܐܖ̈ܐ ܒܓܘ ܐܝ̈ܠܢܐ:50 ܘܒܓܘ ܓܘ̈ܦܢܐ ܓܠܦ ܥܢ̈ܒܐ ܒܣܓܘܠܝ̈ܗܝܢ܀ܘܡܢ ܡܒܘܥܐ ܡܓܝܚ ܡܦܩ ܢܗ̈ܪܘܬܐ:ܘܒܒܥܝ̈ܠܬܐ ܨܐܪ ܥܘ̈ܠܐ ܒܓܘ ܟܖ̈ܣܬܐ܀ܘܥܒܕ ܟܠܝܘܡ ܗܢܝܢ ܗܠܝܢ ܕܥܒܝ̈ܕܢ ܗ̄ܘܝ̈:ܐܝܟ ܕܐܡܝܪܐ ܗܝ ܕܐܒܝ ܥܕܡܐ ܠܗܫܐ ܥܒܕ܀55 ܘܐܢ ܥܒܕ ܗ̄ܘ̣ ܗܐ ܠܐ ܐܬܬܢܝܚ ܐܢ ܠܐܐ ܗ̄ܘܐ:ܘܠܡܘܢ ܐܡܪ ܡܘܫܐ ܕܐܬܬܢܝܚ ܒܫܒܝܥܝܐ܀ܡܘܫܐ ܡܚܦܝ ܘܐܝܟ ܕܐܬܚܦܝ ܡܚܦ̈ܝܢ ܡܠܘ̈ܗܝ:ܘܐܢ ܫܘܫܦܗ ܠܐ ܡܫܬܩܠܐ ܫܘܦܪܗ ܠܝܬܘܗܝ܀ܓܠܝ ܠܝ ܐܦܝ̈ܟ ܣܦܪܐ ܕܡܟܪܙ ܫܪܝ̈ܪܬܐ:60 ܘܣܒ ܫܘܫܦܐ ܡܢ ܩܪܝܢܟ ܐܚܙܐ ܫܘܦܪܗ܀ܟܕ ܠܐ ܠܐܐ ܠܐ ܡܬܛܪܦ ܡܪܝܐ ܡܪܟ:ܠܐ ܡܬܬܢܝܚ ܕܝܢ ܐܠܐ ܕܐ̄ܪܙ̈ܐ ܘܛܘܦܣ̈ܐ ܢܪܫܘܡ܀ܫܢܝ̈ܐ ܐܠܦܐ ܚܕ ܗ̄ܘ̣ ܝܘܡܐ ܚܫܝܒ ܠܐܠܗܐ: ܕܐܠܦ ܫܢܝ̈ܐ ܒܥܝܢܘ̈ܗܝ ܕܡܪܝܐ ܚܕ ܗ̄ܘ̣ ܝܘܡܐ܀65 ܘܗܠܝܢ ܝܘܡ̈ܐ ܫܬܐ ܕܒܗܘܢ ܩܡܘ ܟܠ ܬܘܩܢ̈ܝܢ:ܫܢܝ̈ܐ ܕܥܠܡܐ ܕܥܒܪ ܩܐܡ ܐܠܦ̈ܐ ܫܬܐ܀ܘܒܐܠܦܐ ܕܫܒܥܐ ܒܛܠ ܥܠܡܐ ܘܫܠܝܢ ܪܗ̈ܛܐ:ܘܗܘܝܐ ܢܝܚܬܐ ܒܐܠܦܐ ܕܫܒܥܐ ܐܝܟ ܕܐܬܪܡܙܬ܀ܐܝܟ ܡܪܟܒܬܐ ܗ̄ܘ ܗܢܐ ܥܠܡܐ ܕܪܗܛ ܒܫܬܐ:70 ܘܫܒܝܥܝܐ ܐܬܐ ܫܪܐ ܘܡܒܛܠ ܠܗ̇܀ܘܗܘܝܐ ܢܝܚܬܐ ܒܐܠܦܐ ܕܫܒܥܐ ܠܒܢܝ̈ܢܫܐ:ܘܒܛܠܐ ܒܪܝܬܐ ܐܝܟ ܕܒܫܒܬܐ ܡܢ ܦܘܠܚܢܐ܀ܒܐܫܬܐ ܪܗܛܬ ܒܫܒܥܐ ܒܛܠܬ ܥܒܘܕܘܬܐ:ܘܣܡܬܗ ܠܥܠܡܐ ܕܟܡܐ ܢܪܗܛ ܘܐܝܟܐ ܢܫܠܐ܀75 ܟܕ ܥܒܕ ܠܗ ܠܥܠܡܐ ܐܠܦܗ ܕܟܡܐ ܩܐܡ:ܘܟܡܐ ܪܗܛ ܘܠܐܡܬܝ ܫܠܡ ܪܗܛܐ ܕܠܒܟ܀ܐܬܬܢܝܚ ܡܪܝܐ ܒܫܒܝܥܝܐ ܟܕ ܪܡܙ ܗ̄ܘܐ:ܕܐܠܐ ܐܫܬܐ ܠܐ ܡܪܦܐ ܠܗ ܠܥܠܡܐ ܢܪܗܛ܀ܒܪܐ ܒܖ̈ܝܬܐ ܘܛܠܡ ܢܦܫܗ ܕܢܬܬܢܝܚ ܒܥܐ:80 ܘܐܠܦܗ ܠܥܠܡܐ ܕܐܦ ܠܗ ܐܝܬ ܠܗ ܙܒܢܐ ܢܫܠܐ܀ܒܝܘܡܐ ܕܐܫܬܐ ܫܠܡܗ ܬܘ̈ܩܢܐ ܕܟܠ ܒܖ̈ܝܬܐ:ܕܢܪܓܫ ܥܠܡܐ ܕܗܘܐ ܒܐܫܬܐ ܘܒܐܫܬܐ ܫܠܡ܀ܝܘܡܐ ܕܫܒܥܐ ܥܠܡܐ ܕܒܬܪ ܥܠܡܐ ܗܢܐ:ܕܫܠܐ ܘܡܢܚ ܡܢ ܬܘ̈ܩܢܐ ܘܠܝܬ ܒܗ ܥܡܠܐ܀85 ܠܐ ܩܠܝ̈ܠܐ ܘܠܐ ܟܫܝܖ̈ܐ ܘܠܐ ܪܗܛ̈ܐ:ܘܠܐ ܐܖ̈ܕܟܠܐ ܘܠܐ ܐܘܡܢ̈ܐ ܕܥܒܝ̈ܕܬܐ܀ܒܛܠ ܠܗ ܥܠܡܐ ܗܘܐ ܠܗ ܫܠܝܐ ܫܠܡ ܠܗ ܙܒܢܐ:ܕܥܠܬ ܫܒܬܐ ܘܦܫܘ ܟܠ ܪܗܛܝܢ ܟܕ ܒܛܝܠܝܢ܀ܫܪܗ̇ ܕܒܘܪܗ̇ ܠܗܝ ܡܪܟܒܬܐ ܟܕܝܢܬ ܒܐܫܬܐ:90 ܘܠܐ ܝܗܒ ܠܗ̇ ܕܬܪܗܛ ܬܥܒܪ ܒܫܒܝܥܝܐ܀ܘܡܚܕܐ ܕܢܦܩܐ ܠܟܠܗܘܢ ܐܫܬܐ ܡܫܬܪܝܐ ܠܗ:ܡܬܒܓܪܐ ܒܗ̇ ܒܛܠܐ ܘܩܝܡܐ ܘܠܐ ܡܬܟܪܟܐ܀ܟܬܝܒ ܕܐܠܗܐ ܒܫܒܬܐ ܐܬܬܢܝܚ ܡܢ ܬܘܩܢܘ̈ܗܝ:ܘܡܢܘ ܡܡܪܚ ܢܥܒܕ ܡܕܡ ܒܫܒܝܥܝܐ܀95 ܗܘ̣ ܐܠܗܐ ܥܠ ܠܢܝܚܐ ܟܕ ܠܐ ܠܐܐ:ܘܐܠܦܗ ܠܥܠܡܐ ܕܐܦ ܗܘ̣ ܡܬܬܢܝܚ ܡܛܠ ܕܠܐܐ܀ܫܒܥܬ ܝܘܡ̈ܐ ܒܫܒܥܬ ܐܠܦܐ ܡܬܪܫܡܐ ܗ̄ܘܬ:ܢܝܚܬܐ ܕܙܒܢܐ ܢܝܚܬܐ ܨܝܪܐ ܗܝ ܕܠܥܠܡ܀ܟܡܐ ܫܦܝ̈ܪܢ ܟܠܗܝܢ ܕܝܠܟܝ ܥܒܘܕܘܬܐ:100 ܘܡܠ̈ܝܢ ܬܗܪܐ ܘܓܢ̄ܒܪܘܬܐ ܘܚܟܝܡܘܬܐ܀ܕܢܗܘܐ ܥܠܡܐ ܡܢ ܠܐ ܡܕܡ ܓܢ̄ܒܪܘܬܐ ܗ̄ܝ:ܘܕܢܗܘܐ ܠܗ ܬܘܒ ܫܘܠܡܐ ܚܟܝܡܘܬܐ܀ܫܦܝܪ ܗ̄ܘܐ ܠܟܝ ܟܕ ܡܨܛܒܬ ܒܐܫܬܐ ܝܘܡ̈ܝܢ:ܥܠܡܐ ܡܢܟܝ ܕܢܐܚܘܕ ܣܟܐ ܕܟܠ ܬܘܩܢܘ̈ܗܝ܀105 ܬܘܒ ܫܦܝܪ ܠܟܝ ܡܐ ܕܐܣܡܟܬܝܘܗܝ ܥܠ ܫܘܠܡܐ:ܕܬܗܘܐ ܢܝܚܬܐ ܠܐܝܠܝܢ ܕܪܗܛܘ ܙܕܝܩܐܝܬ܀ܥܒܘܕܘܬܐ ܡܠܝܬ ܬܗܪܐ ܡܢ ܣܦܩ ܠܟܝ:ܐܘ ܡܢ ܡܫܟܚ ܡܫܚ ܪܘܡ̈ܐ ܕܓܢ̄ܒܪܘܬܟܝ܀ܚܟܡܬܟܝ ܒܫܘ̈ܩܐ ܗܐ ܡܫܬܒܚܐ ܒܟܠ ܒܖ̈ܝܬܟܝ:110 ܘܒܙܘ̈ܝܬܐ ܕܟܠ ܦܢ̈ܝܬܐ ܡܪܝܡܐ ܩܠܗ̇܀ܗܐ ܡܫܬܥܝܢ ܫܡܝ̈ܐ ܫܘܒܚܟܝ ܥܒܘܕܘܬܐ:ܘܥܒܕ ܐܝܕܝ̈ܟܝ ܡܚܘܐ ܪܩܝܥܐ ܠܥܠܡܐ ܟܠܗ܀ܨܦܖ̈ܐ ܘܪܡ̈ܫܐ ܘܐܦ ܐܝܡܡ̈ܐ ܘܠܝ̈ܠܘܬܐ:ܫܪܒܟܝ ܬܢܝܢ ܒܬܚܘܡܝ̈ܗܘܢ ܘܒܪܗ̈ܛܝܗܘܢ܀115 ܗܠܝܢ ܫܘܦܖ̈ܐ ܕܦܪܝܣܝܢ ܠܟܝ ܥܠ ܐܖ̈ܥܬܐ:ܗܠܝܢ ܪܗܛ̈ܐ ܕܚܝ̈ܠܘܬܐ ܕܐܝܬ ܒܪܩܝܥܐ܀ܗܠܝܢ ܪܘܡ̈ܐ ܕܬܠܝܢ ܩܝܡܝܢ ܥܠ ܠܐ ܡܕܡ:ܗܠܝܢ ܥܘܡ̈ܩܐ ܕܒܢܝܢ ܣܝܡܝܢ ܕܠܐ ܫܬܐܣܬܐ܀ܗܠܝܢ ܕܢܚ̈ܐ ܕܫܡܫܐ ܘܣܗܪܐ ܟܡܐ ܩܠܝܠܝܢ:120 ܗܠܝܢ ܬܦܐ ܕܢܗ̈ܪܘܬܐ ܕܟܡܐ ܪܕܝܢ܀ܗܠܝܢ ܓܙ̈ܐ ܕܟܠ ܡܒܘܥ̈ܐ ܟܡܐ ܥܬܝܪܝܢ:ܗܠܝܢ ܦܐܖ̈ܐ ܕܟܠ ܐܝܠܢ̈ܝܢ ܟܡܐ ܗܢܝܐܝܢ܀ܗܠܝܢ ܓܘܢ̈ܐ ܕܟܠ ܗܒܒ̈ܝܢ ܟܡܐ ܫܦܝܪܝܢ:ܗܠܝܢ ܓܢܣ̈ܐ ܕܒܓܘ ܡܝ̈ܐ ܟܡܐ ܣܓܝܐܝܢ܀125 ܗܠܝܢ ܟܘܟܒ̈ܐ ܕܐܝܬ ܒܪܩܝܥܐ ܟܡܐ ܢܗܝܪܝܢ:ܘܥܝܪܝ̈ ܢܘܪܐ ܕܐܝܬ ܒܡܪܘܡ̈ܐ ܟܡܐ ܩܕܝܫܝܢ܀ܬܟܒܘܢܝ ܫܘܦܪܝ̈ܟܝ ܡܢ ܟܠ ܓܒܝ̈ܢ ܡܢ ܟܠ ܦܢ̈ܝܢ:ܡܢ ܟܠ ܪܘܡܝ̈ܢ ܡܢ ܟܠ ܥܘܡ̈ܩܝܢ ܡܢ ܟܠ ܐܬܖ̈ܝܢ܀ܒܪܘܡܐ ܚܪܬ ܘܡܠܢܝ ܬܗܪܐ ܫܒܝܠ ܓܢ̄ܒܪܐ:130 ܠܥܘܡܩܐ ܢܚܬܬ ܘܐܚܕܢܝ ܬܗܪܐ ܒܝܡܐ ܪܒܐ܀ܒܡܕܢܚܐ ܐܚܘܪ ܛܐܦ ܐ̄ܢܐ ܠܝ ܡܢ ܙܠܝܩ̈ܐ:ܠܬܝܡܢܐ ܐܪܗܛ ܠܐ ܡܕܪܟ ܐ̄ܢܐ ܠܚܝ̈ܠܘܬܐ܀ܠܡܥܪܒܐ ܐܫܠܐ ܪܡܫܐ ܡܙܝܥ ܠܝ ܐܩܘܡ ܐܘܕܐ:ܒܓܪܒܝܐ ܐܚܘܪ ܠܠܝܐ ܬܡܢ ܘܡܣܪܕ ܠܝ܀135 ܒܝܢܬ ܣܕܖ̈ܐ ܕܠܝ̈ܠܘܬܐ ܐܦ ܕܐܝܡܡ̈ܐ:ܣܡܢܝ ܥܒܘܕܝ ܘܟܡܐ ܗ̄ܘ ܐܬܗܪ ܘܟܡܐ ܗ̄ܘ ܐܛܠܘܡ܀ܟܡܐ ܕܚܐܪ ܐ̄ܢܐ ܫܘܦܖ̈ܐ ܐܚܙܐ ܡܢ ܒܖ̈ܝܬܐ:ܘܐܠܐ ܐܚܘܪ ܬܗܪܐ ܡܙܝܥ ܠܝ ܡܢ ܒܪܘܝܐ܀ܣܓܝ ܦܐܝܐ ܕܢܗܘܐ ܬܗܪ ܐ̄ܢܫ ܒܥܒܕ̈ܐ:140 ܕܒܪܘܝܘܬܐ ܘܡܢܗܘܢ ܙܐܥ ܠܡܫܒܚܘ܀ܐܝܟ ܐܫܥܝܐ ܕܚܪ ܘܐܬܕܡܪ ܘܐܚܕܗ ܬܗܪܐ:ܒܓܒܪܘܬܐ ܕܒܪܘܝܘܬܐ ܘܒܨܒ̈ܘܬܗ̇܀ܘܒܕܘܡܪܐ ܚܪ ܒܥ̈ܒܕܐ ܕܥܒܘܕܘܬܐ:ܘܐܝܟ ܫܘܐܠܐ ܥܒܕ ܕܢܙܝܥ ܒܗ ܠܐܖ̈ܥܢܝܐ܀145 ܘܫܪܝ ܕܢܐܡܪ ܗܘ ܚܙܝܐ ܕܡܢܘ ܐܟܝܠ:ܝܡܐ ܒܫܘܥܠܗ ܐܘ ܠܫܡܝܐ ܒܙܪܬܗ ܡܫܚܗ̇܀ܘܣܡ ܒܙܘܪܗ ܘܐܚܕ ܟܠܗ ܥܦܪܗ̇ ܕܐܪܥܐ:ܘܬܩܠ ܛܘܖ̈ܐ ܘܠܖ̈ܡܬܐ ܫܕܐ ܒܡܐܣܬܐ܀ܫܡܥ ܐܢ̄ܬ ܗܫܐ ܥܡܝ̈ܩܬܗ̇ ܕܢܒܝܘܬܐ:150 ܘܒܓܢ̄ܒܪܐ ܕܐܩܝܡ ܥܠܡ̈ܐ ܬܗܪ ܐܟܘܬܗ̇܀ܢܒܝܐ ܒܡܪܗ ܐܪܓܫ ܕܐܟܝܠ ܝܡܐ ܒܫܘܥܠܗ:ܘܥܠ ܗܝ ܐܡܪ ܡܢܘ ܐܟܝܠ ܐܠܐ ܐܢ ܗܘ̣܀ܐܪܓܫ ܗ̄ܘܐ ܒܗ ܕܐܦ ܠܫܡܝܐ ܒܙܪܬܗ ܡܫܚܗ̇:ܘܬܩܠ ܛܘܖ̈ܐ ܘܐܟܝܠ ܥܦܪܐ ܕܟܠܗ̇ ܐܪܥܐ܀155 ܘܗܢܝܢ ܗܠܝܢ ܕܥܒܕ ܡܪܗ ܓܢ̄ܒܪܐܝܬ:ܣܡ ܒܡܨܥܬܐ ܕܡܢܘ ܡܨܐ ܠܡ ܢܥܒܕ ܐܢܝܢ܀ܟܕ ܛܦܚ ܗ̄ܘܐ ܡܪܝܐ ܫܡܝܐ ܒܙܪܬܗ ܡܫܚܗ̇:ܘܟܕ ܩܒܐ ܗ̄ܘܐ ܝܡܡ̈ܐ ܒܫܘܥܠܗ ܐܟܝܠ ܐܢܘܢ܀ܘܥܦܪܗ̇ ܕܐܪܥܐ ܟܕ ܡܬܩܢ ܠܗ ܣܡ ܒܙܘܪܗ:160 ܘܒܡܬܩܠܐ ܘܒܡܐܣܬܐ ܣܡ ܒܗ̇ ܛܘܖ̈ܐ܀ܐܦ ܖ̈ܡܬܐ ܟܕ ܪܩܥ ܠܗ̇ ܥܠ ܠܐ ܡܕܡ:ܐܫܘܝ ܐܢܝܢ ܟܕ ܣܡ ܐܢܝܢ ܒܐܬܖ̈ܘܬܐ܀ܘܬܩܠ ܣܡ ܒܗ̇ ܝܘܩܪܐ ܫܘܝܐ ܥܠ ܟܢ̈ܦܬܗ̇:ܘܠܐ ܡܨܛܠܝܐ ܕܒܡܬܩܠܐ ܣܝܡ ܒܗ̇ ܝܘܩܪܐ܀165 ܪܡܙܗ ܛܥܝܢ ܠܗ̇ ܘܐܝܟ ܕܒܟܦ̈ܐ ܬܩܝܠܐ ܣܝܡܐ:ܥܠ ܠܐ ܡܕܡ ܘܥܠ ܕܬܩܝܠܐ ܠܐ ܡܨܛܠܝܐ܀ܒܗ ܒܥܒܕܐ ܕܓܢ̄ܒܪܘܬܐ ܬܗܪ ܐܫܥܝܐ:ܘܥܠ ܗܝ ܫܐܠ ܡܢܘ ܕܥܒܕ ܗܠܝܢ ܫܘܦܖ̈ܐ܀ܕܢܙܝܥ ܐܢܘܢ ܠܒܢ̈ܝܢܫܐ ܘܢܬܗܪ ܐܢܘܢ:170 ܫܕܐ ܖ̈ܡܬܐ ܕܬܠܐ ܡܪܗ ܕܢܒܩܐ ܐܢܘܢ܀ܐܝܢܐ ܕܠܐ ܠܡ ܡܟܝܠ ܝܡܐ ܒܫܘܥܠܗ ܢܫܠܐ:ܘܐܠܐ ܡܫܚ ܬܘܒ ܫܡܝܐ ܒܙܪܬܗ ܦܘܡܗ ܢܣܟܘܪ܀ܡܢ ܥܘܩܒܐ ܘܡܢ ܚܪܝܢܐ ܘܡܢ ܡܨܘܬܐ:ܘܡܢ ܫܘܐܠܐ ܕܠܓܢ̄ܒܪܐ ܕܢܒܨܐ ܣܒܟ܀175 ܐܝܢܐ ܕܒܥܐ ܕܢܒܨܐ ܠܡܪܗ ܢܚܘܪ ܒܫܡܝܐ:ܘܐܠܐ ܡܫܚܗ̇ ܡܫܠܐ ܢܫܠܐ ܘܬܘܒ ܠܐ ܢܡܪܚ܀ܥܠ ܓܢ̄ܒܪܐ ܕܬܩܠ ܛܘܖ̈ܐ ܘܐܟܝܠ ܝܡܡ̈ܐ:ܘܡܫܚ ܪܘܡ̈ܐ ܘܛܠܠ ܥܘܡ̈ܩܐ ܘܩܒܐ ܬܗܘܡ̈ܐ܀ܘܐܕܠܩ ܫܡܫܐ ܘܫܚܠܦ ܣܗܪܐ ܒܪܘܡܐ ܕܐܐܪ:180 ܘܐܩܝܡ ܥܠܡܐ ܘܠܐ ܡܬܒܨܝܐ ܓܢ̄ܒܪܘܬܗ܀ܒܪܡܙܐ ܒܪܝܗܝ ܗ̄ܘܐ ܠܥܠܡܐ ܟܠܗ ܟܕ ܒܪܐ ܠܗ:ܘܒܫܬܐ ܝܘ̈ܡܝܢ ܫܘܦܖ̈ܐ ܣܕܪ ܒܗ ܐܦ ܬܘܩܢ̈ܐ܀ܘܒܫܒܝܥܝܐ ܥܒܕ ܠܗ ܡܬܠܐ ܥܠ ܫܘܠܡܗ:ܘܨܪ ܠܗ̇ ܨܠܡܐ ܠܚܪܬܐ ܒܫܒܬܐ ܕܡܠܝܐ ܫܠܝܐ܀185 ܐܘ̇ ܠܟܝ ܫܒܬܐ ܠܡܢ ܒܛܝܠܬܝ ܡܢ ܦܘܠܚܢܐ:ܡܢ ܐܬܬܢܝܚ ܒܟܝ ܟܕ ܠܐ ܠܐܐ ܘܠܐ ܡܬܛܪܦ܀ܒܫܘܠܡ ܥܠܡܐ ܨܝܪ ܒܛܠܢܐ ܕܡܫܬܡܫ ܒܟܝ:ܡܛܠܗܢܐ ܫܠܝܟܝ ܡܘܬܐ ܗ̄ܘ ܠܕܚܐܪ ܒܗ܀ܢܝܚܬܐ ܢܩܪܝܟܝ ܠܘ ܕܐܬܬܢܝܚ ܒܟܝ ܡܪܝܐ ܡܪܟܝ:190 ܐܠܐ ܕܒܛܠ ܪܗܛܗ ܕܥܠܡܐ ܡܐ ܕܦܓܥ ܒܟܝ܀ܡܢܟܝ ܒܗܬ ܥܠܡܐ ܢܫܠܐ ܡܐ ܕܡܛܬܝܘܗܝ:ܕܐܠܘܠܐ ܐܢ̄ܬܝ ܥܠܡܐ ܕܢܫܠܐ ܠܐ ܨܒܐ ܗ̄ܘܐ܀ܠܪܗܛܐ ܪܒܐ ܪܗܝܒܐ ܕܐܫܬܐ ܐܢ̄ܬܝ ܒܛܠܬܝܘܗܝ:ܘܢܫܠܐ ܠܘܬܟܝ ܚܐܦܐ ܕܟܕܢܬ ܥܒܘܕܘܬܐ܀195 ܢܝܚܬܐ ܥܒܕ ܡܪܝܐ ܠܚܪܬܐ ܠܥܠܡܐ ܟܠܗ:ܘܥܠܘܗܝ ܫܩܠܗ̇ ܘܐܡܪ ܕܐܬܬܢܝܚ ܡܢ ܬܘܩܢܘ̈ܗܝ܀ܘܐܝܢܐ ܕܝܕܥ ܕܢܩܪܐ ܒܡܘܫܐ ܪܘܚܢܐܝܬ:ܡܣܬܟܠ ܗ̄ܘ̣ ܒܐ̄ܪܙܗ̇ ܕܫܒܬܐ ܢܗܝܪܐܝܬ܀ܕܠܘ ܗܘ̣ ܡܪܝܐ ܣܢܝܩ ܗ̄ܘܐ ܕܢܬܬܢܝܚ ܟܕ ܠܐ ܠܐܐ:200 ܐܠܐ ܡܬܠܐ ܥܒܕ ܢܗܝܪܐ ܥܠ ܫܘܠܡܐ܀ܕܡܚܕܐ ܕܪܗܛܐ ܓܝܓܠܗ ܕܥܠܡܐ ܐܠܦ̈ܝܢ ܐܫܬܐ:ܒܫܒܝܥܝܐ ܡܫܬܪܝܐ ܠܗ̇ ܘܠܐ ܡܬܟܪܟܐ܀ܘܡܛܠܗܢܐ ܒܐܫܬܐ ܝܘܡܝܢ ܪܟܒ ܟܕܢܗ̇:ܘܝܗ̄ܒ ܠܗ̇ ܘܥܕܐ ܕܬܪܗܛ ܐܫܬܐ ܘܟܢ ܡܫܬܪܝܐ܀205 ܝܗ̄ܘܕܝܐ ܕܝܢ ܠܐ ܡܣܬܟܠ ܪܘܚܢܐܝܬ:ܐܠܐ ܐܡܪ ܕܐܬܬܢܝܚ ܡܪܝܐ ܘܬܘܒ ܡܕܡ ܠܐ܀ܟܕ ܠܐ ܡܓܫܡ ܥܒܕܗ ܠܐܝܐ ܕܠܐ ܒܟܝܢܐ:ܘܥܠ ܕܐܬܓܫܡ ܝܚܝܕܝܐ ܘܠܐܝ ܫܛܗ܀ܟܬܒܐ ܡܟܪܙ ܕܐܬܬܢܝܚ ܡܪܝܐ ܘܠܐ ܡܣܬܟܠ:210 ܟܕܠܐ ܓܘܫܡܐ ܠܐ ܐܝܬ ܠܐܘܬܐ ܘܠܐ ܛܘܪܦܐ܀ܒܪܐ ܕܐܬܓܫܡ ܠܐܝ ܒܙܩܝܦܐ ܡܛܠ ܐܐܪ:ܘܡܢ ܗܝ ܠܐܘܬܐ ܥܠ ܠܢܝܚܬܐ ܒܫܒܝܥܝܐ܀ܥܠ ܐܒܐ ܓܝܪ ܠܐ ܡܬܐܡܪܐ ܕܠܐܝ ܡܢ ܡܬܘܡ:ܐܦܠܐ ܕܐܬܬܢܝܚ ܐܠܐ ܒܡܬ̈ܠܐ ܘܒܦܠܐ̈ܬܐ܀215 ܥܠܡܐ ܪܒܐ ܥܠ ܡܢܝܢܐ ܕܫܒܥܐ ܝܘܡ̈ܝܢ:ܪܗܛ ܟܠܗ ܐܫܬܐ ܕܥܡܠܐ ܘܚܕ ܕܢܝܚܐ܀ܥܒܘܕܘܬܐ ܒܢܬܗ ܠܒܝܬܐ ܒܐܫܬܐ ܝܘܡ̈ܝܢ:ܘܓܕܠܬ ܪܫܡܬ ܨܪܬ ܨܒܬܬ ܟܠܗܘܢ ܫܘܦܖ̈ܘܗܝ܀ܘܡܢ ܕܐܫܬܟܠܠ ܒܝܬܐ ܒܐܫܬܐ ܢܝܚܐ ܥܒܕܬ:220 ܘܗܘܐ ܝܘܡܐ ܕܫܒܥܐ ܢܝܚܬܐ ܕܡܢ ܬܘܩܢ̈ܐ܀ܘܗܘ̣ ܡܢܝܢܐ ܕܫܒܥܐ ܫܦܝܪ ܟܕ ܡܬܟܪܟܝܢ:ܘܚܕ ܚܕ ܡܢܗܘܢ ܫܘܦܪܗ ܒܓܘܗ ܐ̄ܢܫ ܡܫܟܚ ܠܗ܀ܘܐܢ ܐܝܬ ܚܘܒܐ ܕܦܬܚ ܬܪܥܐ ܠܡܠܬܐ ܕܬܥܘܠ:ܐܦ ܐܡܪ ܐ̄ܢܐ ܟܡܐ ܫܦܝܪܝܢ ܫܒܥܬܝ̈ܗܘܢ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>63 Tausend Jahre sind für Gott (gerechnet) [nur] ein Tag. 64 Tausend Jahre sind in den Augen des Herrn [nur] ein Tag.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>7 And the Lord saw all the creation that it was very beautiful,and as He moved along His course, the Lord made nothing ugly,and six evenings and mornings came and elapsed, departed,and there arrived a sabbath of seven days, full of mysteries,5 laden with rest and full of serenity, representing (many) symbolsof the serene universe when the completion of the universe arrived.On Day Seven the Lord took rest from his activities;He had run his course, and having completed His works, He entered rest.In seven days He ran the full circle, a long stretch of time10 composed of six days for racing and one day for resting.Seven days, as (many) pillars, held up the universe,and it is set on them and it has been so standing ever since.The wisdom of the Most High built the house full of beauties,and with the seven pillars it supported it so that it would be beautiful.15 Its Master put seven seals on the crown of the universe,and behold, the seven of them are beautiful and full of marvels.The course for the universe is set to last seventy parasangs:six for running and one for resting, absolutely serene.In the course of seven (days) the whole universe is steered:20 on sabbaths, and on full-moon (nights), and on the first days of months and months that elapsed,the disc of seven (days) which rotates on its courses,producing years and all the periods found in it,assembling one day after another and producing seven days,and these go and come, each numbered25 and these bring about months which alternateand inserted and put together a year (consisting of) months under the zodiacal circle.And it began to pull away other years with itself,and the course of the entire universe was ready in seven days – in days, in weeks or in months.30 A year running and with it many years.Behold days and nights passing,they carried and brought forth the universe so that it would be self-sufficient in seven days.Mornings and evenings assembled and there emerged a (complete) dayand during the operation of the Artisan six (days) elapsed,35 and on the seventh the disc was ready in all its parts,and behold it was now revolving on its own all daysand all the periods of it were counted as they wereand an evening appeared and a morning appeared, Day Seven,and the Lord rested on Day Seven, so wrote Moses.40 It is evident that fatigue had not affected the Lord.Noble prophet, take off a veil spread for you.On your words we shall see the beauty of your prophecy.If you say that the Lord became weary, who would believe you?But if He was not tired, why did He rest, as you say?45 But if you call respite from the activities rest,behold, He had no respite since he sat at the wheel of the universe He had created,making the sun rise and the moon run and producing lightningsand sounding thunders and bringing rain down and making seeds sproutand making winds blow and putting fruits on trees50 and fashioning grapes in bunches on grapevinesand from a spring making (water) gush forth, laying riversand through wives forming babies in their bellies,doing every day these things which were (always) done,as it is said, “My father is at work still at this time.”55 If He is working, He did not rest even if He were tired,but why did Moses say then “He rested on the seventh (day)”?Moses is concealed and as he concealed himself, his words are (as) concealed.Unless his veil is removed, his beauty is not there.Reveal your face to me, O scribe who announces truths60 and take the veil off your book and let me see its beauty.When He is not tired, the Lord your Master is not fainting,Then He is not resting, but wants to record mysteries and symbolic meanings.To God a thousand years are counted as one day,for a thousand years are, in the eyes of the Lord, but one day,65 and these six days in which all was produced and came into beingare six thousand years when the universe has been moving on constantly,and in the seventh millennium the universe becomes idle and the races are suspended,and rest comes in in the seventh millennium as has been suggested.This universe, which runs over six (days), is as a carriage;70 when the seventh (day) comes, it releases it and calls a halt to it,and there arrives rest in the seventh millennium for human beings,and the creation stops working as on the sabbath;for the six (days) the work went on and on the seventh it came to a halt,and it directed to the universe how much it should run and where it should take respite.75 When He was making the universe, He taught it how long it would exist and how long it was to run and when the race it started on was to finish.The Lord rested on the seventh (day), as He was indicating,but six days He does not let the universe slacken the race.He created creatures, but restrained Himself from seeking to rest80 However, He taught the universe that also for it there is a time to take respite.On Day Six the works of the entire creation were completedso that the universe could notice that it came into being in six (days) and it was complete in six (days).On Day Seven the universe, after (the completion of) this universe,was relaxed and relieved from works and there was no labour on that (day):85 no quick people nor skilled ones nor busy ones,no builders nor artisans at work.The universe was on holiday, enjoying respite; an era was over, for the sabbath had set in and all the races came to a halt with a day off.The charioteer untied the chariot, which was yoked six (days),90 not allowing it to run and move round on the seventh (day),and the moment it finished its work on all the six (days), it is unyoked,held back idle, standing and not going round.It is written that God rested on the sabbath from His activities.Then who is it that dares do any work on the seventh (day)?95 Even God entered rest when He was not tired outand instructed the universe that it also might take rest because of fatigue.Seven days were being registered in seven thousand (years).A temporary rest symbolizes an eternal rest.O Artisan, how beautiful is all that is yours!100 It is full of marvels and might and wisdom:that the universe (made) from nothing (signifies) mightand again its completion (signifies) wisdom.It was splendid for you when it was being adorned by you in six days,that it should reach the end of all its construction works.105 Again it was splendid for you when you brought it to its completionso that there would be rest for those which had run faithfully.O Artisan full of marvels, who could be equal to you?Or who is capable of measuring the heights of your might?Your wisdom (visible) in all your creatures is praised in market places110 and raises its voice in all corners all over.O Artisan, the heavens are recounting your praiseand the works of your hands the firmament is telling to the whole universe,mornings and evenings, also days and nightstell your story in their domains and in their circuits.115 These beauties that are spread out for you on the entire earth!These orbits of the heavenly hosts that are in the firmament!These heights that hang and stay on nothing!These depths that are built and set without any foundation!These risings of the sun and the moon – how fast they are!120 These canals of rivers – how (smoothly) they flow!These sources of all the springs – how abundant they are!These fruits of all trees – how beneficial they are!These colours of all flowers – how pretty they are!These species in the water – how numerous they are!125 These stars in the firmament – how bright they are!And the flashing watchers who are in the highest – how holy they are!Your beauties came over me from all sides, from all quarters,from all heights, from all depths, from everywhere.In the height I gazed and the path of the hero filled me with amazement.130 To the depth I descended and amazement seized me with the vast sea.In the east I gaze. I am inundated by the (sun’s) rays.To the south I rush, but I cannot overtake the celestial hosts.To the west I go for rest. The evening moves me to arise and praise.In the north I see the night there. It frightens me.135 Between the breaks of nights, also of daysmy Maker put me and how much I marvel and how much I fail to do justice!As long as I gaze at the beauties, I notice them in the creation.Even if I do not gaze, amazement moves me over the Creator.It is very well that men should marvel at the works of140 creation and be moved by them to praise,as Isaiah, who saw and was astonished and seized by amazementat the power of creation and its adornmentsand gazed with astonishment at the works of the Artisan,and by way of questioning attempted to move people on the earth,145 and this visionary began to say: Who measuredthe sea with the hollow of his hand or measured the sky with his spanand put in his fist and grasped all the dust of the earthand weighed the mountains and placed the hills on the scales?You, now, hear the profound truths of the prophecy,150 and marvel likewise at the hero who established the universe.The prophet recognised his Master, who measured the sea with the hollow of His hand,and hence he said “Who measured but He?”He had sensed that He measured the heaven also with His span,and weighed the mountains and measured the dust of the whole earth,155 and these are what his Master made with might.He intervened – “Who is indeed capable of making them?”When the Lord was spreading the heaven, He measured it with His span,and when He was filling up the seas, He measured them with the hollow of His handand the dust of the earth put in His fist when He was making it160 and placed the mountains on the scales and weights.Also the hills, when He was establishing it on nothing,He levelled them, putting them at various places,and He weighed, balancing the weight of its flanks,and it was not tilting when weight was put on the scale.165 His signal was bearing it and it was being weighed as in the palms, placedon nothing and it was not tilting though being weighed.At this work of might Isaiah marvelledand hence he asked who was it that made these beautiesso that he could move men and make them marvel.170 He cast (before them) the hills which his Master presented, in order to challenge them:one who does not measure the sea with the hollow of his hand should be quietand again unless he measured the heaven with his span he should keep his mouth shutfrom investigation and from argument and from quarreland from questioning, for he is trying to investigate the Hero.175 One who desires to examine his Lord shall gaze at the heaven,and unless he measured it, he shall remain still and shall not challenge againthe Hero who weighed the mountains and measured the seasand measured the heights and roofed the depths and filled up the abyss,and kindled the sun and replaced it with the moon in the mid air,180 and established the universe and whose might is inscrutable.When he was creating it, He created the whole universe with a signaland in six days He arranged in it beauties, also various parts formed.On the seventh (day) He composed an allegory on its completion,and on the sabbath full of serenity He fashioned an image of the end.185 O sabbath, why are you not engaged in any work?Who took a day off on your (day) when he was not tired nor stressed out?At the completion of the universe indolence is born which takes advantage of you.Therefore your leisure is a death for him who gazes at it.He ought to call you quietness, not that the Lord your Master rested on your day,190 but He calls a halt to the race of the universe when it falls on you.The universe is shy of you to slow down when you arrive at its door,for but for you the universe would not wish to slow down.The great, enthusiastic endeavour of six (days) you brought to a haltand the intensity which the Artisan imposed will go slack with you around.195 The Lord provides quietness at the end for the entire universe,granting it (i.e. quietness) to it (i.e. the universe), and said that He rested from His operations,and he knows how to read Moses spirituallycomprehends the mystery of the sabbath clearly.The Lord did not need to rest as He was not tired,200 but He composed a clear allegory on the completion (of the task).The moment the wheel of the universe completed (a cycle of) 6,000 (years),in the seventh (millennium) it is discharged and does not revolve (any more),and because of this He equipped it for six days and set it to work,and gave it a target of racing six (days) and then it is discharged.205 However, Jews do not comprehend (this) spiritually,but say that the Lord rested, and that was it, nothing more.When He had no body, they made Him tired against His nature,but when the Only one became incarnate and tired, they despised Him.The scripture declares that the Lord rested, but they fail to comprehend.210 When there is no body, there is no fatigue nor exhaustion.The Son, who took body, became tired on the cross because of the air,and from that fatigue He entered rest on the seventh (day).About the Father it is not said that He ever became tired.Also He rested only in a symbolical and figurative sense.215 The great universe, having seven days in number,runs altogether six (days) for labour and one for rest.The Artisan built the house in six daysand braided, engraved, carved, adorned all its beautiesand when the house was completed in six days, He called the day,220 and Day Seven became a day of rest from activities,and this total of seven (days) is splendid when they rotate,and each one of them has its beauty with it as one discovers,and if there is love that opens the door to (my) word to let in,I would also say how beautiful these seven (days) are.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

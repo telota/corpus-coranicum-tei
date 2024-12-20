@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1953">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Detroit, Michigan, Detroit Institute of Arts, 25.77</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="96">Detroit Institute of Arts
+                            , Detroit, Michigan</repository>
+            <idno>25.77</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 25.77; Qurʾānic Text: Q 6:146-6:148; 7 lines per page; Dimensions: 156 x 165mm;  Script style: Maġribī <hi rend="italic">mabsūṭ </hi>(for the <hi rend="italic">rasm</hi>); Estimated date of production: 13th or early 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>Folio from a Qurʾān originally in 12 volumes. The 9th volume is in Baltimore, Walters Art Museum, <ref target="https://corpuscoranicum.de/de/manuscripts/1249">Inv. W.556</ref>. Two loose folios are in Washington, Library of Congress, <ref target="https://corpuscoranicum.de/de/manuscripts/1804">AL-18</ref>, <ref target="https://corpuscoranicum.de/de/manuscripts/1803">AL-19</ref>.</p>
+              <p> </p>
+              <p>This  is a collection of the fragments under the shelfmark 25.77, consisting  of <ref target="https://dia.org/collection/qur-folio-43483">25.77.A</ref> and <ref target="https://dia.org/collection/qur-folio-95406">B</ref>. For further information about the fragments in question, see the linked pages of the Detroit Institute of Arts.</p>
+              <p> </p>
+            </summary>
+            <msItem xml:id="mysql_id_708073" n="1r">
+              <title type="numeric" key="006:146:001-006:146:025">
+                                    006:146:001-006:146:025
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_698599" n="1v">
+              <title type="numeric" key="006:146:026-006:148:009">
+                                    006:146:026-006:148:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>156</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1200-1325</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76896">
+      <graphic decls="#imageRights-1" url="manuscript/1953/8014cca2-f8b3-486e-933a-6fc1e25b2359/manuscript-1953-page-76896-image-69134.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_54332">
+      <graphic decls="#imageRights-1" url="manuscript/1953/2c5de2cd-9ac4-433a-bc79-4798e196a1e2/manuscript-1953-page-54332-image-44358.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

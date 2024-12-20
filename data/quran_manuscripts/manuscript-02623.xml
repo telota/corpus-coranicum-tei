@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2623">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sanaa, Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts), DAM 14-13.3</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="22">Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts)
+                            , Sanaa</repository>
+            <idno>DAM 14-13.3</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_709768" n="1r">
+              <title type="numeric" key="022:054:013-022:063:999">
+                                    022:054:013-022:063:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_709769" n="1v">
+              <title type="numeric" key="022:063:999-022:072:999">
+                                    022:063:999-022:072:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_709770" n="2r">
+              <title type="numeric" key="022:072:999-022:078:999">
+                                    022:072:999-022:078:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_709771" n="2v">
+              <title type="numeric" key="022:078:999-023:013:005">
+                                    022:078:999-023:013:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_709772" n="3r">
+              <title type="numeric" key="048:026:017-048:029:999">
+                                    048:026:017-048:029:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_709773" n="3v">
+              <title type="numeric" key="049:001:999-049:007:023">
+                                    049:001:999-049:007:023
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                                    Pergament; drei Einzelblätter, das letzte auch mit Falz, alle mit etwas eingerissenen Rändern, verschiedene Löcher in den Blättern, nur Blatt 3 recht unbeschädigt, alle Blätter mit Verwaschungen
+                                </support>
+                <extent>Folios: 3
+                                    <dimensions unit="mm"><width>118</width><height>10</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="14">14 - 14 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                                recht ordentliche, kalligraphische Hand mit dickem Strich und mašq, leicht verrundet, Vokale und Diakritika nur sporadisch erkennbar
+                            </summary>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Manssur Karamzadeh</p>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Tobias J. Jocham</p>
+                <p>image: Tobias J. Jocham</p>
+                <p>assistance: Emaan Safah</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_94807">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_94808">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_94809">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_94810">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_94811">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_94812">
+      <graphic decls="#imageRights-1"/>
+      <graphic decls="#imageRights-1"/>
+    </surface>
+  </facsimile>
+</TEI>

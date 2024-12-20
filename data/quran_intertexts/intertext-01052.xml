@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jüdische Liturgie, Achtzehngebet (ʿAmida)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1052" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1052</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 2:133 berichtet, wie Jakob vor seinem Tod seine Söhne nach ihrem 
+Glauben fragt, woraufhin diese ihren Glauben an Gott und Gottes 
+Einzigkeit bekennen (vgl. TUK_1051). Die dabei von Jakobs Söhnen gebrauchte Formel ʾilāhaka wa-ʾilāha ʾābāʾika ʾIbrāhīma wa-ʾIsmāʿīla wa-ʾIsḥāqa ("Dem Gott von dir und deinen Vätern Abraham, Ismael und Isaak") entspricht der jüdischen Formel ʾeloheinu wə-ʾelohei ʾaḇoteinu ʾelohei ʾAḇraham ʾelohei Yiṣḥaq wə-ʾelohei Yaʿaqoḇ ("Unser Gott und der Gott unserer Väter, der Gott Abrahams, der Gott Isaaks und der Gott Jakobs"), die bereits in Ex 3:6.15-16 (TUK_1482) belegt ist und auch im hier zitierten Achtzehngebet (ʿAmida, Šəmone-ʿeśre), das Teil des täglichen Gottesdienstes ist, vorkommt. Vgl. auch Apg 3:13 (TUK_1053), 1 Kön 18:36 und Lk 20:37. Zu weiteren Belegstellen, vor allem aus den Apokryphen, vgl. Speyer 1931: p. 222-223. Anders als bei der jüdischen Formel wird in Q 2:133 auch Ismail zu den 
+Vätern gezählt, wodurch ein Bezug zu der in Q 2:124-134 geschilderten 
+Gründung der Kaʿba durch Abraham und Ismail hergestellt wird.
+
+	 
+</summary>
+            <msItem>
+              <title>Jüdische Liturgie, Achtzehngebet (ʿAmida)</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"> vor dem 2. Jh. n.Chr.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Siddur Qoren. kə-minhag q''q səfaradim / yä-Koren Siddur (yä-ṣälot mäṣḥaf). yä-səfəradim qämär, Jerusalem 2012, S. 109.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>בָּרוּךְ אַתָּה יְהֹוָה, אֱלֹהֵֽינוּ וֵאלֹהֵי אֲבוֹתֵֽינוּ אֱלֹהֵי אַבְרָהָם, אֱלֹהֵי יִצְחָק, וֵאלֹהֵי יַעֲקֹב הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן גּוֹמֵל חֲסָדִים טוֹבִים, קוֹנֵה הַכֹּל וְזוֹכֵר חַסְדֵי אָבוֹת וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַֽעַן שְׁמוֹ בְּאַהֲבָה. </p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Gelobt seist du, Ewiger, unser Gott und Gott unserer Väter, Gott Abrahams, Gott Isaaks und Gott Jakobs, großer, starker und furchtbarer Gott, höchster Gott, der du beglückende Wohltaten erweisest und Eigner des Alls bist, der du der Frömmigkeit der Väter gedenkst und einen Erlöser bringst ihren Kindeskindern um deines Namens willen in Liebe.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Syrische Alexanderlegende (ed. Budge, S. 260)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1403" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1403</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Laut Q 18:89-90 erreicht ḏū-l qarnain (Alexander der Große), nachdem er vom Ort des Sonnenuntergangs einen Weg (sababan) folgt, auch den Ort wo die Sonne aufgeht (maṭliʿa š-šamsi). An diesem Ort wohnt ein Volk (qaum), das keinen Schutz (sitr) vor der Hitze der aufgehenden Sonne hat. Genau diesselbe Vorstellung findet sich  in der syrischen Alexanderlegende (neṣḥānā ḏ-aleksandrōs) wieder, wo ausführlich beschrieben wird, wie die Menschen dort sich im Meer oder in Höhlen vor der Glut der Sonne verstecken müssen. Wie auch bei den Episoden der Errichtung der Mauer gegen Gog und Magog (TUK 1416, TUK 1417) oder jener der Auffindung des Ortes wo die Sonne untergeht (TUK 1415) scheint der koranische Bericht auch hier sich direkt auf die syrische Alexanderlegende zu beziehen und diese bei den Zuhörern als bekannt vorauszusetzen (siehe dazu auch van Bladel 2007). Dies wirft wiederum die Frage der genauen Datierung der syrischen Alexanderlegende und der Sure 18 auf: Gerrit J. Reinink datiert den syrischen Text präzise auf das Jahr 629-30, während Q 18 nach der akzeptierten Chronologie der Suren noch in Mekka (vor 622) enstanden sein muss. Zu diesem Datierungsproblem, siehe den Kommentar zur Stelle. 
+</summary>
+            <msItem>
+              <title>Syrische Alexanderlegende (ed. Budge, S. 260)</title>
+              <author>Anonym</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">um 629-630 n.Chr.</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> E. A. W. Budge, The History of Alexander the Great, Cambridge University Press, Cambridge 1899, S. 260.</bibl>
+              <bibl type="literatur">van Bladel, Kevin: &amp;#x201E;Heavenly Cords and Prophetic Authority in the Quran and Its Late Antique Context&amp;#x201C;. In: Bulletin of the School of Oriental and African Studies, University of London 70 (2007), S. 223&amp;#x2013;246.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܘܪܟܒܬ ܡܫܪܝܬܐ ܟܠܗ̇ ܘܣܠܩ ܐܠܟܣܢܕܪܘܣ ܘܚܝ̈ܠܘܬܗ ܒܝܬ ܝܡܐ ܣܪܝܐ ܠܝܡܐ ܢܗܝܪܐ. ܥܕܡܐ ܠܐܝܟܐ ܕܥܐܠ ܫܡܫܐ ܠܟܘܗ ܕܫܡܝܐ. ܡܛܠ ܕܫܡܫܐ ܥܒܕܗ ܗܘ ܕܡܪܝܐ. ܘܠܐ ܒܠܠܝܐ ܘܠܐ ܒܐܝܡܡܐ ܒܛܠ ܡ̣ܢ ܕܪܕܐ. ܘܡ̣ܢ ܐܝܟܐ ܕܕܢܚ ܥܠ ܝܡܐ ܕܢܚ. ܘܐܢ̈ܫܐ ܕܥܡ̇ܪܝܢ ܬܡ̇ܢ. ܡܐ ܕܐܬ̇ܐ ܕܢܕܢܚ ܥܪܩ̇ܝܢ ܘܛܫ̇ܝܢ ܒܝܡܐ ܕܠܐ ܢܐܩܕܘܢ ܡܢ ܙܠܝܩ̈ܘܗܝ. ܘܒܡܨܥܬܗ ܕܫܡܝܐ ܥܒܪ ܥܕܡܐ ܠܐܝܟܐ ܕܥܐܠ ܒܟܘܬܗ ܕܫܡܝܐ. ܘܐܝܟܐ ܕܥܒܪ ܫܢܢ̈ܬܐ ܐܢܝܢ ܕܚܝ̈ܠܬܐ. ܘܐܝܠܝܢ ܕܝܬܒ̇ܝܢ ܬܡ̇ܢ ܡܥܖ̈ܐ ܢܩܝܖ̈ܐ ܐܝܬ ܠܗܘܢ ܒܫܘ̈ܥܐ. ܘܡܚܕܐ ܕܚܙܝܢ ܠܗ ܠܫܡܫܐ ܕܥܪܒ. ܥܪܩܝܢ ܡ̣ܢ ܩܕܡܘܗܝ ܐܢ̈ܫܐ ܘܦܖ̈ܚܬܐ ܘܛܫ̇ܝܢ ܒܡܥܖ̈ܐ. ܡܛܠ ܕܡܬܬ̈ܠܚܢ ܡ̣ܢ ܓܘܙܠܬܗ̇ ܟܐܦ̈ܐ ܘܢܚ̈ܬܢ. ܘܐܢ ܠܒܢܝܢ̈ܫܐ ܘܐܢ ܠܒܥܝܪܐ ܡܚܕܐ ܕܡܛܝܢ ܠܗܘܢ ܝܩ̇ܕܝܢ.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Und das ganze Lager richtete sich auf und Alexander und sein Heer gingen hinauf zwischen das stinkende und das leuchtende Meer bis dorthin wo die Sonne in das Fenster des Himmels eintritt. Denn die Sonne ist der Diener des Herrn und sie lässt weder am Nacht noch am Tag von ihrem Lauf nach. Und (der Ort) woher sie aufgeht ist über das Meer, und die Menschen die dort leben fliehen und verstecken sich im Meer wenn die Sonne aufgeht, damit sie nicht von ihren Strahlen verbrannt werden. Und sie durchquert die Mitte des Himmels bis dahin wo sie in das Fenster des Himmels eintritt. Dort wo sie vorbeigeht befinden sich furchtbare Berge, und jene die dort leben haben ausgegrabene Höhlen in den Felsen, und sobald sie die Sonne vorbeigehen sehen, fliehen Menschen und Vögel vor ihr und verstecken sich in den Höhlen. Denn die Steine werden von der Glut (der Sonne) gespalten und sie fallen herab, und - sei es Menschen oder Tiere - so werden sie vernichtet sobald die (Steine) sie berühren.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>So the whole camp mounted, and Alexander and his troops went up between the fetid sea and the bright sea to the place where the sun enters the window of heaven; for the sun is the servant of the Lord, and neither by night nor by day does he cease from his traveling. The place of his rising is over the sea, and the people who dwell there, when he is about to rise, flee away and hide themselves in the sea, that they be not burnt by his rays; and he passes through the midst of the heavens to the place where he enters the window of heaven; and wherever he passes there are terrible mountains, and those who dwell there have caves hollowed out in the rocks, and as soon as they see the sun passing [over them]. Men and birds flee away from before him and hide in the caves, for rocks are rent by his blazing heat and fall down, and whether they be men or beasts, as soon as the stones touch them they are consumed.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

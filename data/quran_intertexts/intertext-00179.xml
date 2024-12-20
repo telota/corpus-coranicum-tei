@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an die Philipper 3:1-10</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_179" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>179</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl der neutestamentliche Text als auch die aufgelisteten Koranstellen beschreiben die jenseitige Verdammnis mit der "kommerziellen" (Torrey 1892: p. 32) Metapher des "Verlustes". Dabei gebraucht die syrische Übersetzung der Stelle sogar das der arabischen Wurzel ḫ-s-r ("Verlust, verlieren") entsprechende syrische Substantiv ḥusrānā (V. 7.8).
+</summary>
+            <msItem>
+              <title>Brief an die Philipper 3:1-10</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 55-60 n. Chr.</origDate>
+              <origPlace>Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Torrey, Charles Cutler: The commercial-theological terms in the Koran. Brill, Leiden 1892.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Τὸ λοιπόν, ἀδελφοί μου, χαίρετε ἐν κυρίῳ. τὰ αὐτὰ γράφειν ὑμῖν ἐμοὶ μὲν οὐκ ὀκνηρόν, ὑμῖν δὲ ἀσφαλές. 2 Βλέπετε τοὺς κύνας, βλέπετε τοὺς κακοὺς ἐργάτας, βλέπετε τὴν κατατομήν. 3 ἡμεῖς γάρ ἐσμεν ἡ περιτομή, οἱ πνεύματι θεοῦ λατρεύοντες καὶ καυχώμενοι ἐν Χριστῷ Ἰησοῦ καὶ οὐκ ἐν σαρκὶ πεποιθότες, 4 καίπερ ἐγὼ ἔχων πεποίθησιν καὶ ἐν σαρκί. Εἴ τις δοκεῖ ἄλλος πεποιθέναι ἐν σαρκί, ἐγὼ μᾶλλον• 5 περιτομῇ ὀκταήμερος, ἐκ γένους Ἰσραήλ, φυλῆς Βενιαμίν, Ἑβραῖος ἐξ Ἑβραίων, κατὰ νόμον Φαρισαῖος, 6 κατὰ ζῆλος διώκων τὴν ἐκκλησίαν, κατὰ δικαιοσύνην τὴν ἐν νόμῳ γενόμενος ἄμεμπτος. 7 [Ἀλλὰ] ἅτινα ἦν μοι κέρδη, ταῦτα ἥγημαι διὰ τὸν Χριστὸν ζημίαν. 8 ἀλλὰ μενοῦνγε καὶ ἡγοῦμαι πάντα ζημίαν εἶναι διὰ τὸ ὑπερέχον τῆς γνώσεως Χριστοῦ Ἰησοῦ τοῦ κυρίου μου, δι᾽ ὃν τὰ πάντα ἐζημιώθην, καὶ ἡγοῦμαι σκύβαλα, ἵνα Χριστὸν κερδήσω 9 καὶ εὑρεθῶ ἐν αὐτῷ, μὴ ἔχων ἐμὴν δικαιοσύνην τὴν ἐκ νόμου ἀλλὰ τὴν διὰ πίστεως Χριστοῦ, τὴν ἐκ θεοῦ δικαιοσύνην ἐπὶ τῇ πίστει, 10 τοῦ γνῶναι αὐτὸν καὶ τὴν δύναμιν τῆς ἀναστάσεως αὐτοῦ καὶ [τὴν] κοινωνίαν [τῶν] παθημάτων αὐτοῦ, συμμορφιζόμενος τῷ θανάτῳ αὐτοῦ,
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Vor allem, meine Brüder, freut euch im Herrn! Euch immer das Gleiche zu schreiben wird mir nicht lästig, euch aber macht es sicher. 2 Gebt Acht auf diese Hunde, gebt Acht auf die falschen Lehrer, gebt Acht auf die Verschnittenen! 3 Denn die Beschnittenen sind wir, die wir im Geist Gottes dienen und uns in Christus Jesus rühmen und nicht auf irdische Vorzüge vertrauen, 4 obwohl ich mein Vertrauen auch auf irdische Vorzüge setzen könnte. Wenn ein anderer meint, er könne auf irdische Vorzüge vertrauen, so könnte ich es noch mehr. 5 Ich wurde am achten Tag beschnitten, bin aus dem Volk Israel, vom Stamm Benjamin, ein Hebräer von Hebräern, lebte als Pharisäer nach dem Gesetz, 6 verfolgte voll Eifer die Kirche und war untadelig in der Gerechtigkeit, wie sie das Gesetz vorschreibt. 7 Doch was mir damals ein Gewinn war, das habe ich um Christi Willen als Verlust erkannt. 8 Ja noch mehr: ich sehe alles als Verlust an, weil die Erkenntnis Christi Jesu, meines Herrn, alles übertrifft. Seinetwegen habe ich alles aufgegeben und halte es für Unrat, um Christus zu gewinnen 9 und in ihm zu sein. Nicht meine eigene Gerechtigkeit suche ich, die aus dem Gesetz hervorgeht, sondern jene, die durch den Glauben an Christus kommt, die Gerechtigkeit, die Gott aufgrund des Glaubens schenkt. 10 Christus will ich erkennen und die Macht seiner Auferstehung und die Gemeinschaft mit seinen Leiden; sein Tod soll mich prägen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

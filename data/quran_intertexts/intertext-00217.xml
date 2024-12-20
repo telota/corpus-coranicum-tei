@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 17:14-20</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_217" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>217</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Parallele besteht hier im Gebrauch des Bildes vom Senfkorn (ḥabbatun min ḫardal) zur Veranschaulichung kleinster Einheiten: Ebenso wie Jesus die Bedeutung sogar der kleinsten Quantität Glaubens herausstreicht (vgl. auch Lukas 17:6), so betont auch der Koran die Genauigkeit und Signifikanz allerkleinster Mengen, dies allerdings im Kontext der vollkommenen Gerechtigkeit des göttlichen Urteils am Jüngsten Tag. So auch in Q 99:7-8, wo die Bedeutung auch des kleinsten "(Hirse-)Körnchens" ḏurra betont wird.
+
+	Jeffery 1938: p. 122, im Anschluss an Fränkel 1886: p. 141, sieht hier ein Lehnwort aus dem Aramäischen, genauer dem Syrischen. Er verweist auf den entsprechenden Gebrauch in der Peschitta, sowie im Christlich-Palästinischen. Die Entsprechung von aramäisch ḥ zu arabisch ḫ zeigt aber deutlich, dass es sich hier nicht um ein Lehnwort, sondern um ein urverwandtes Wort handelt. Nordwestsemitisch ḥ erscheint sonst immer als solches in Lehnwörter, vgl. etwa ʾaḥbār (dessen Anlaut auf ein altes ḫ- zurückgeht). Sollte in einer Zeit entlehnt worden sein, als aramäisch ḥ noch ḫ war, dann müsste sie z.Z. der Verkündigung des Korans bereits über 1000 Jahre alt gewesen sein. Der literarische Bezug macht es jedoch wahrscheinlich, dass der Gebrauch quasi gleichlautender Wörter nicht zufällig ist. Es liegt aber wohl keine Entlehnung, sondern Erkennen der Urverwandtschaft vor.
+</summary>
+            <msItem>
+              <title>Matthäus 17:14-20</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Fr&amp;#xE4;nkel, Siegmund. Die Aram&amp;#xE4;ischen Fremdw&amp;#xF6;rter Im Arabischen: Eine von Het Provinzial Utrechtsch Gens_schap van Kunsten an Wesenschappen Gekr&amp;#xF6;nte Preisschrift ... Leiden: Brill, 1886.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	14 Καὶ ἐλθόντων πρὸς τὸν ὄχλον προσῆλθεν αὐτῷ ἄνθρωπος γονυπετῶν αὐτὸν 15 καὶ λέγων• κύριε, ἐλέησόν μου τὸν υἱόν, ὅτι σεληνιάζεται καὶ κακῶς πάσχει• πολλάκις γὰρ πίπτει εἰς τὸ πῦρ καὶ πολλάκις εἰς τὸ ὕδωρ. 16 καὶ προσήνεγκα αὐτὸν τοῖς μαθηταῖς σου, καὶ οὐκ ἠδυνήθησαν αὐτὸν θεραπεῦσαι. 17 ἀποκριθεὶς δὲ ὁ Ἰησοῦς εἶπεν• ὦ γενεὰ ἄπιστος καὶ διεστραμμένη, ἕως πότε μεθ᾽ὑμῶν ἔσομαι; ἕως πότε ἀνέξομαι ὑμῶν; φέρετέ μοι αὐτὸν ὧδε. 18 καὶ ἐπετίμησεν αὐτῷ ὁ Ἰησοῦς καὶ ἐξῆλθεν ἀπ᾽αὐτοῦ τὸ δαιμόνιον καὶ ἐθεραπεύθη ὁ παῖς ἀπὸ τῆς ὥρας ἐκείνης. 19 Τότε προσελθόντες οἱ μαθηταὶ τῷ Ἰησοῦ κατ᾽ἰδίαν εἶπον• διὰ τί ἡμεῖς οὐκ ἠδυνήθημεν ἐκβαλεῖν αὐτό; 20 ὁ δὲ λέγει αὐτοῖς• διὰ τὴν ὀλιγοπιστίαν ὑμῶν• ἀμὴν γὰρ λέγω ὑμῖν, ἐὰν ἔχητε πίστιν ὡς κόκκον σινάπεως, ἐρεῖτε τῷ ὄρει τούτῳ• μετάβα ἔνθεν ἐκεῖ, καὶ μεταβήσεται• καὶ οὐδὲν ἀδυνατήσει ὑμῖν. 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	14 Als sie zurückkamen, begegneten sie einer großen Zahl von Menschen. Da trat ein Mann auf ihn zu, fiel vor ihm auf die Knie 15 und sagte: Herr, hab Erbarmen mit meinem Sohn! Er ist mondsüchtig und hat schwer zu leiden. Immer wieder fällt er ins Feuer oder ins Wasser. 16 Ich habe ihn schon zu deinen Jüngern gebracht, aber sie konnten ihn nicht heilen. 17 Da sagte Jesus: O du ungläubige und unbelehrbare Generation! Wie lange muss ich noch bei euch sein? Wie lange muss ich euch noch ertragen? Bringt ihn her zu mir! 18 Dann drohte Jesus dem Dämon. Der Dämon verließ den Jungen, und der Junge war von diesem Augenblick an geheilt. 19 Als die Jünger mit Jesus allein waren, wandten sie sich an ihn und fragten: Warum konnten denn wir den Dämon nicht austreiben? 20 Er antwortete: Weil euer Glaube so klein ist. Amen, das sage ich euch: Wenn euer Glaube auch nur so groß ist wie ein Senfkorn, dann werdet ihr zu diesem Berg sagen: Rück von hier nach dort!, und er wird wegrücken. Nichts wird euch unmöglich sein.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

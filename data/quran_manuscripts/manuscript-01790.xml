@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1790">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, 1-93-154.170</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>1-93-154.170</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 folios of a Qur'ān manuscript on parchment; Shelfmark: 1-93-154.170; Qur'ānic text: Q 24:21-22; 5 lines per page; Script style: New Style I. </p>
+            </summary>
+            <msItem xml:id="mysql_id_692646" n="1r">
+              <title type="numeric" key="024:021:009-024:021:019">
+                                    024:021:009-024:021:019
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692647" n="1v">
+              <title type="numeric" key="024:021:020-024:021:034">
+                                    024:021:020-024:021:034
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692648" n="2r">
+              <title type="numeric" key="024:022:001-024:022:011">
+                                    024:022:001-024:022:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692645" n="2v">
+              <title type="numeric" key="024:022:012-024:022:024">
+                                    024:022:012-024:022:024
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>136</width><height>190</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52604">
+      <graphic decls="#imageRights-1" url="manuscript/1790/f0641401-818a-4ce5-99a9-77bb2d96d40e/manuscript-1790-page-52604-image-41331.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1790/d93ad6ed-e937-4341-a614-769d427b1b75/manuscript-1790-page-52604-image-41332.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52605">
+      <graphic decls="#imageRights-1" url="manuscript/1790/50d82612-7f8b-402c-9257-8b0db4066f96/manuscript-1790-page-52605-image-41333.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1790/c06be7a3-9de0-4890-a07e-e55bb0dd9f38/manuscript-1790-page-52605-image-41334.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_52606">
+      <graphic decls="#imageRights-1" url="manuscript/1790/6724747a-f33a-4bed-91cd-ba64b197a6cb/manuscript-1790-page-52606-image-41335.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1790/7f136415-b469-45f1-b13f-10f00446b9dd/manuscript-1790-page-52606-image-41336.tif"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_52603">
+      <graphic decls="#imageRights-1" url="manuscript/1790/f5e31c13-42e1-4359-9ee7-bdf8585a7e99/manuscript-1790-page-52603-image-41329.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1790/2f3f5708-8aee-4283-b84d-cfc00f02a993/manuscript-1790-page-52603-image-41330.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

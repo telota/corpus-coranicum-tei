@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 20:1-10</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_627" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>627</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die genannten Koranstellen versprechen den Menschen, daß Gott ihnen, bei entsprechendem Verhalten, Zufriedenheit im Jenseits gewähren wird. Darin erinnern sie an Ps 20:5, der allerdings, anders als die entsprechenden Koranstellen, nicht eschatologisch konnotiert ist (Neuwirth 2011: p. 80). Vgl. dazu auch den Kommentar zu Q 93:5 und Q 101:7.</summary>
+            <msItem>
+              <title>Psalm 20:1-10</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran&amp;#x202F;: Handkommentar Mit &amp;#xDC;bersetzung von Angelika Neuwirth. Fr&amp;#xFC;hmekkanische Suren: Poetische Prophetie. Berlin: Verlag der Weltreligionen, 2011.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>לַמְנַצֵּחַ מִזְמוֹר לְדָוִד : יַעַנְךָ יְהוָה בְּיוֹם צָרָה יְשַׂגֶּבְךָ שֵׁם אֱלֹהֵי יַעֲקֹב : יִשְׁלַח־עֶזְרְךָ מִקֹּדֶשׁ וּמִצִּיּוֹן יִסְעָדֶךָּ : יִזְכֹּר כָּל־מִנְחֹתֶךָ וְעוֹלָתְךָ יְדַשְּׁנֶה סֶלָה :  יִתֶּן־לְךָ כִלְבָבֶךָ וְכָל־עֲצָתְךָ יְמַלֵּא : נְרַנְּנָה בִּישׁוּעָתֶךָ וּבְשֵׁם־אֱלֹהֵינוּ נִדְגֹּל יְמַלֵּא יְהוָה כָּל־מִשְׁאֲלוֹתֶיךָ : עַתָּה יָדַעְתִּי כִּי הוֹשִׁיעַ יְהוָה מְשִׁיחוֹ יַעֲנֵהוּ מִשְּׁמֵי קָדְשׁוֹ בִּגְבֻרוֹת יֵשַׁע יְמִינוֹ : אֵלֶּה בָרֶכֶב וְאֵלֶּה בַסּוּסִים וַאֲנַחְנוּ בְּשֵׁם־יְהוָה אֱלֹהֵינוּ נַזְכִּיר : הֵמָּה כָּרְעוּ וְנָפָלוּ וַאֲנַחְנוּ קַּמְנוּ וַנִּתְעוֹדָד : יְהוָה הוֹשִׁיעָה הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם־קָרְאֵנוּ :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 [Für den Chormeister. Ein Psalm Davids.] 2 Der Herr erhöre dich am Tag der Not, / der Name von Jakobs Gott möge dich schützen. 3 Er sende dir Hilfe vom Heiligtum / und stehe dir bei vom Zion her. 4 An all deine Speiseopfer denke er, / nehme dein Brandopfer gnädig an. [Sela] 5 Er schenke dir, was dein Herz begehrt, / und lasse all deine Pläne gelingen. 6 Dann wollen wir jubeln über deinen Sieg, / im Namen unsres Gottes das Banner erheben. / All deine Bitten erfülle der Herr. 7 Nun bin ich gewiss: / der Herr schenkt seinem Gesalbten den Sieg; er erhört ihn von seinem heiligen Himmel her / und hilft ihm mit der Macht seiner Rechten. 8 Die einen sind stark durch Wagen, die andern durch Rosse, / wir aber sind stark im Namen des Herrn, unsres Gottes. 9 Sie sind gestürzt und gefallen; / wir bleiben aufrecht und stehen. 10 Herr, verleihe dem König den Sieg! / Erhör uns am Tag, da wir rufen!</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

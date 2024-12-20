@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Syrische Baruchapokalypse (2 Baruch), 14:4-11</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1266" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1266</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Diese Stelle aus der syrischen Baruchapokalypse (2 Baruch, vgl. auch TUK_1262, TUK_1265) zeigt eine gewisse Ähnlichkeit mit den oben genannten Koranstellen, in denen die Allwissenheit Gottes im Vordergrund steht. Dem Koran nach besitzt allein Gott ein vollkommenes Wissen über alle himmlischen und irdischen Angelegenheiten, er kennt das Sichtbare und das Verborgene (Q 6:3, 6:59, 9:78, 14:38, usw.). Dagegen ist das Wissen der Menschen (einschließlich der Propheten, vgl. Q 5:109, 116) und der Engel (vgl. z.B. Q 2:32), usw. äußerst beschränkt. Ähnlich redet auch der biblische Prophet Baruch in diesem apokryphen Werk darüber, dass der Mensch die Entschlüsse Gottes nicht begreifen kann und dass ihm somit auch der tiefere Sinn der Geschichte verborgen bleibt. Im syrischen Text hängt dieses Urteil über die menschliche Unkenntnis allerdings mit dem Problem der Theodizee zusammen: Baruch sieht, dass die Gerechten leiden und die Ungerechten nicht bestraft werden und möchte den Grund dafür von Gott erfahren. Darauf antwortet Gott in Kap. 15, dass die göttliche Strafe durch die Sünden der Menschen gerechtfertigt wird, und dass die leidenden Gerechten ihren Lohn im Jenseits empfangen werden. Dies findet ebenfalls zahlreiche Anklänge in der koranischen Eschatologie (vgl. z.B. Q 3:169-171 und TUK_0190, TUK_0833).	Ferner wäre der koranische Ausdruck „etwas von (Gottes) Wissen umfassen“ (lā yuḥīṭūna bi-šayin min ʿilmihi, Q 2:255) mit 2 Baruch 14:9 zu vergleichen, wo Baruch sagt, er könne „Anfang und Ende“ (syr. rīšā u-šūlāmā) der göttlichen Weisheit nicht finden (sc. da sie allumfassend ist aber nicht umfasst werden kann).</summary>
+            <msItem>
+              <title>Syrische Baruchapokalypse (2 Baruch), 14:4-11</title>
+              <author>(Pseudo-)Baruch</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">70-130 n.Chr.</origDate>
+              <origPlace>Jerusalem/Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Daniel M. Gurtner (ed.), Second Baruch: A Critical Edition of the Syriac Text. With Greek and Latin Fragments, English Translation, Introduction, and Concordances, New York/London 2009, S. 46-48.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>14.1 ܘܥܢ̇ܝܬ ܘܐܡ̇ܪܬ. ܗܐ ܐܘܕܥܬܢܝ ܕܘܒܪܗܘܢ ܕܙܒܢܐ. ܘܡܕܡ ܕܥܬܝܕ ܕܢܗܘܐ ܡܢ ܒܬܪ ܗܠܝܢ. ܘܐܡ̣ܪܬ ܠܝ ܕܠܥܡ̈ܡܐ ܐ̇ܙܠ ܦܘܪܥܢܐ ܕܐܬܐܡܪ ܡܢܟ. 2 ܘܗܫܐ ܝܕ̇ܥ ܐܢܐ ܕܣܓܝܐܝܢ ܐܢܘܢ ܐܝܠܝܢ ܕܚܛܘ. ܘܒܡܨܠܚܢܘܬܐ ܚܝܘ. ܘܐܙܠܘ ܡܢ ܥܠܡܐ. ܘܩܠܝܠ ܗܘ ܕܝܢ ܥܡ̈ܡܐ ܡܫܬܚܪܝܢ ܒܗ̇ܢܘܢ ܙܒ̈ܢܐ. ܗ̇ܢܘܢ ܕܠܗ̇ܢܘܢ ܡܬܐܡܪܝܢ ܡ̈ܠܐ ܐܝܠܝܢ ܕܐܡ̣ܪܬ. 3 ܘܡܢܐ ܓܝܪ ܝܘܬܪܢܐ ܐܝܬ ܒܗܕܐ ܐܘ ܡܢܐ ܕܒܝܫ ܡܢ ܗܠܝܢ ܕܚ̈ܙܝܢ ܕܓ̇ܕ̈ܫܢ ܡܣ̇ܟܝܢܢ ܕܢܚܙܐ.4 ܬܘܒ ܕܝܢ ܐܡܠܠ ܩܕܡܝܟ. 5 ܡܢܐ ܝܬܪܘ ܗ̇ܢܘܢ ܕܝܕܥ̣ܘ ܩܕܡܝܟ ܘܠܐ ܐܙ̣ܠܘ ܒܣܪܝܩܘܬܐ ܐܝܟ ܫܪܟܐ ܕܥܡ̈ܡܐ. ܘܠܐ ܐܡܪܘ ܠܡܝ̈ܬܐ ܕܗܒ̣ܘ ܠܢ ܚܝ̈ܐ. ܐܠܐ ܒܟܠܙܒܢ ܡܢܟ ܕܚ̇ܠܝܢ ܗܘܘ. ܘܐܘܖ̈ܚܬܟ ܠܐ ܐܪܦܝܘ. 6 ܘܗܐ ܐܬܚܦܛܘ. ܘܐܦܠܐ ܡܛܘܠܬܗܘܢ ܪܚܡ̇ܬ ܥܠ ܨܗܝܘܢ. 7 ܘܐܢ ܐܚܖ̈ܢܐ ܐܪܫܥܘ ܡܬܒܥܐ ܗܘܐ ܠܗ̇ ܠܨܗܝܘܢ ܕܒܥ̈ܒܕܝܗܘܢ ܕܐܝܠܝܢ ܕܦܠܚܘ ܛܒ̈ܬܐ ܢܫܬܒܩ ܠܗ̇. ܘܠܐ ܒܥܒ̈ܕܝܗܘܢ ܕܥܒ̈ܕܝ ܥܘܠܐ ܬܛܒܥ. 8 ܐܠܐ ܡ̣ܢܘ ܡܪܝܐ ܡܪܝ ܡܕܪܟ ܠܗ ܠܕܝܢܟ. ܐܘ ܡ̣ܢܘ ܡܥܩܒ ܥܘܡܩܗ̇ ܕܐܘܪܚܟ. ܐܘ ܡ̣ܢܘ ܡܬܚܫܒ ܥܠ ܝܘܩܪܗ ܕܫܒܝܠܟ. 9 ܐܘ ܡ̣ܢܘ ܡܫܟܚ ܡܬܚܫܒ ܥܠ ܬܪܥܝܬܟ ܕܠܐ ܡܬܕܪܟܐ. ܐܘ ܡ̣ܢܘ ܡܡܬܘܡ ܡܢ ܐܝ̈ܠܝܕܐ ܐܫܟܚ ܪܝܫܐ ܐܘ ܫܘܠܡܐ ܕܚܟܡܬܟ.10 ܟܘܠܢ ܓܝܪ ܐܬܕܡܝܢ ܠܗܒܠܐ. 11 ܐܝ̇ܟܢܐ ܓܝܪ ܕܗܒܠܐ ܣ̇ܠܩ ܕܠܐ ܡܢ ܠܒܐ ܘܗ̇ܦܟ ܕܥ̇ܟ. ܗܟܢܐ ܗܘ ܟܝܢܗܘܢ ܕܒܢ̈ܝ ܐܢܫܐ. ܕܠܐ ܒܨܒܝܢܗܘܢ ܐ̇ܙܠܝܢ. ܘܡܢܐ ܗ̇ܘܐ ܠܗܘܢ ܒܫܘܠܡܐ ܠܐ ܝܕ̇ܥܝܢ. 12 ܙܕܝܩ̈ܐ ܓܝܪ ܫܦܝܪ ܡܣܟܝܢ ܠܫܘܠܡܐ. ܘܕܠܐ ܕܚܠܬܐ ܡܢ ܗܢܐ ܥܘܡܪܐ ܐܙ̇ܠܝܢ. ܡܛܘܠ ܕܐܝܬ ܠܗܘܢ ܠܘܬܟ ܚܝܠܐ ܕܥ̇ܒ̈ܕܐ ܕܢܛܝܪ ܒܐܘܨܖ̈ܐ. 13 ܡܛܠ ܗܢܐ ܐܦ ܗ̣ܢܘܢ ܕܠܐ ܕܚܠܬܐ ܫܒ̇ܩܝܢ ܠܗ ܠܥܠܡܐ ܗܢܐ. ܘܟܕ ܬܟܝܠܝܢ ܒܚܕܘܬܐ ܡܣܟܝܢ ܕܢܩܒܠܘܢ ܥܠܡܐ ܕܡ̇ܠܟܬ ܠܗܘܢ. 14 ܠܢ ܕܝܢ ܘܝ ܠܐܝܠܝܢ ܕܐܦ ܗܫܐ ܡܨܛܥܪܝܢ̣ܢ. ܘܒܗ̇ܘ ܙܒܢܐ ܡ̇ܣܟܝܢܢ ܠܒܝ̣ܫ̈ܬܐ.15 ܐܢܬ ܕܝܢ ܝܕ̇ܥ ܐܢܬ ܬܪܝܨ ܐܝܬ ܡܢܐ ܥܒ̣ܕܬ ܡܢ ܥܒ̣̈ܕܝܟ. ܡܛܠ ܕܚܢܢ ܠܐ ܡܫܟܚܝܢܢ ܕܢܣܬܟܠ ܒܡܕܡ ܕܛܒ. ܐܝܟܢܐ ܕܐܢܬ ܓܒܘܠܢ.16 ܬܘܒ ܕܝܢ ܐܡܠܠ ܩܕܡܝܟ ܡܪܝܐ ܡܪܝ.17 ܟܕ ܠܐ ܐܝܬܘܗܝ ܗܘܐ ܥܠܡܐ ܡܢ ܩܕܝܡ ܥܡ ܥܡܘܖ̈ܘܗܝ. ܐܬܚܫܒܬ ܘܐܡ̇ܪܬ ܒܡܠܬܐ. ܘܒܪ ܫܥܬܗ ܥܒ̈ܕܝܗܝܢ ܕܒܕ̈ܝܬܐ ܩܡܘ ܩܕܡܝܟ.18 ܘܐܡ̣ܪܬ ܕܬܥܒܕ ܠܥܠܡܟ ܒܪܢܫܐ ܡܦܪܢܣܢܐ ܠܥ̇ܒ̈ܕܝܟ. ܕܢܬܝܕܥ ܕܠܐ ܗܘܐ ܗ̣ܘ ܐܬܥܒܕ ܡܛܠ ܥܠܡܐ ܐܠܐ ܥܠܡܐ ܡܛܠܬܗ.19 ܘܗܫܐ ܚ̇ܙܐ ܐܢܐ ܕܥܠܡܐ ܕܐܬܥܒܕ ܡܛܠܬܢ ܗܐ ܡܩܘܐ. ܘܚܢܢ ܕܝܢ ܕܡܛܠܬܢ ܗ̣ܘܐ ܐܙܠܝܢܢ.܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>14.1 Und ich antwortete und sagte: „Siehe, du hast mir den Lauf der Zeiten gezeigt und das, was nach diesen Dingen geschehen wird. Und du hast zu mir gesagt: „Die Strafe, von der du gesprochen hast, wird über die Völker kommen.“2 Und nun weiß ich, daß viele gesündigt und im Glück gelebt und die Welt verlassen haben, wenige Völker aber übrigbleiben werden in jenen Zeiten, auf die sich die Worte beziehen, die du gesagt hast.3 Denn was nützt es oder was können wir Schlimmeres wohl zu sehen schon erwarten als das, was wir selbst erfahren haben?4 Und weiter will ich vor dir sprechen:5 Was hat es denen genützt, die Erkenntnis hatten vor dir und nicht wandelten in Eitelkeit wie die übrigen Völker und die nicht zu den Toten sprachen: „Gebt uns Leben!“, sondern immer Ehrfurcht vor dir hatten und deine Wege nicht verließen?6 Siehe, sie haben sich abgemüht, und dennoch hast du ihretwegen dich Zions nicht erbarmt!7 Und wenn auch andere sich frevelhaft benahmen, so hätte Zion doch vergeben werden müssen wegen der Werke derer, die gute Werke taten. Es hätte nicht versinken dürfen wegen der Werke derer, die unrecht handelten.8 O Herr, mein Herr, wer kann dein Urteil schon verstehen? Wer kann die Tiefe deines Weges untersuchen und wer durchforschen deines Pfades Majestät?9 Oder wer kann durchdenken deinen unaufspürbaren Ratschluß? Welches Geschöpf hat stets den Anfang und das Ende von deiner Weisheit aufgefunden?[Übersetzung Kouriyhe und Pirtea [14.4-9]: 4 Erneut werde ich vor Dir reden. 5 Was nutzt es denen, die Kenntnis vor Dir besitzen und nicht wie die Völker auf den Wegen der Nichtigkeit gelaufen sind und nicht zu den Toten gesagt haben: „Gibt uns Leben!“, sondern jederzeit Furcht vor Dir hatten und deine Wege nicht verlassen haben? 6 Siehe, sie glühten vor Eifer (für Dich) und doch hast Du nicht ihretwegen dein Erbarmen für Zion gezeigt! 7 Und wenn andere Böses getan haben, war es nötig für Zion, dass sie wegen der Werke derjenigen die Gutes getan haben verziehen werde und dass sie nicht wegen der Missetäter zugrunde gehe. 8 Aber wer, o Herr, mein Herr, versteht dein Urteil, oder wer kann die Tiefen deines Weges ergründen? Oder wer wird an die Last deines Pfades denken? 9 Oder wer könnte deinen unbegreiflichen Rat im Denken erfassen? Oder wer von den Geborenen hat je den Anfang und das Ende deiner Weisheit gefunden?]10 Denn alle sind wir doch geschaffen wie ein Hauch.11 Denn wie der Atem ohne Steuerung des Menschen aufsteigt und verschwindet, ist die Natur der Menschen, die nicht mit eignem Willen weggehn und nicht wissen, was sie am Ende überkommen wird.12 Denn die Gerechten haben gute Hoffnung auf das Ende und gehen ohne Furcht aus diesem Wohnsitz, dieweil sie bei dir einen Schatz von guten Werken haben, der in der Vorratskammer aufbewahrt wird.13 Darum verlassen sie auch furchtlos diese Welt, und voller freudigen Vertrauens erwarten sie, die Welt zu empfangen, die du ihnen verheißen hast.14 Weh aber uns, die wir auch schimpflich nun behandelt werden, und (auch) in jener Zeit nur Unheil zu erwarten haben.15 Du aber weißt genau, was du aus deinen Knechten machtest; denn können wir doch nicht ergründen, was gut ist, wie du, unser Schöpfer.16 Und weiter will ich vor dir reden, Herr, mein Herr:17 Als anfangs keine Welt war mit ihren Bewohnern, hast du gedacht und sprachest durch das Wort; und allsogleich erstanden deine Werke, die Geschöpfe, vor dir.18 Du hast gesagt, daß du für deine Welt den Menschen machen wolltest, um deine Werke zu regieren, damit bekannt sein sollte, daß er nicht geschaffen wäre für die Welt, sondern die Welt um seinetwillen.19 Und nun, ich sehe, daß die Welt, die doch gemacht ist nur für uns, sie bleibt; wir aber nun, um deretwillen sie besteht, wir gehn dahin.“
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>14.1 And I answered and said, „Behold, you have shown me the course of time and that which will happen after these things, and you have told me that the retribution which you have spoken of will come upon the nations. 2 And now I know that there are many who have sinned and lived in prosperity and departed from the world. But there will be few nations left in those times to whom what you have said can be spoken. 3 For what advantage is there in this? Or, what can we expect to see worse than those we have seen come upon us?4 But again I will speak in your presence.5 What have those who have knowledge before you gained, and have not walked in vanity like the rest of the nations, and have not said to the dead, "Give us life," but have always feared you, and have not left your ways? 6 And behold, they have been carried off and you did not, on their account, have mercy on Zion.7 And if others did evil, it was due to Zion that she should be forgiven because of the deeds of those who did good things she should be forgiven, and she should not have been overwhelmed because of the deeds of those who acted wickedly. 8 But who, O Lord, my Lord, will understand your judgment? Or who will explore the depths of your way? 9 Or who is able to consider your mind which is incomprehensible? Or who from those who are born has ever found the beginning or the end of your wisdom?10 For we all have been made like a breath. 11 For just as the breath vainly ascends from the heart and fades away, so it is with the sons of men, who do not depart at their own will. And they do not know what will happen to them in the end. 12 For the righteous rightly hope for the end. And without fear they leave from this habitation because they have a store of (good) deeds laip up in treasuries. 13 Therefore, they leave this world without fear and are trusting with joy (that) they will receive the world which you have promised them. 14 But as for us, woe to us who are also now shamefully treated, and who at that time look forward to evils.15 But you know precisely what you have done from your servants. For we are not able to understand what is good like you, our creator.16 But again I will speak in your presence, O Lord, my Lord.17 When there was not a world from before with inhabitants, you devised and spoke with a word. And immediately the works of creation stood before you.18 And you said that you would make a man for your world as a guardian of your works, so that it might be known that he was not created for the world, but the world for him.19 And now I see that the world which was made for us, behold, it endures, but we, for whom it was made, depart.”</p>
+      </div>
+    </body>
+  </text>
+</TEI>

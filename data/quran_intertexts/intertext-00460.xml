@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 18:1-19</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_460" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>460</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In unterschiedlicher Ausführlichkeit schildern die genannten Koranverse, wie dem alternden Abraham die Geburt eines Sohnes verheißen wird. Anders als in der entsprechenden Genesis-Stelle erscheinen Abraham im Koran Gesandte statt Gott selbst. Dies erinnert einerseits an die Interpretation in der rabbinischen Literatur, wo die drei Männer mit Engeln identifiziert werden (Speyer 1931: p. 149), reflektiert andererseits vielleicht auch die christliche Auslegung der Stelle, in der die Dreizahl der Besucher mit der Trinität gleichgesetzt wird (Kommentar, Anmerkung zu 15:51-53). Spuren einer solchen christlichen typologischen Interpretation der Sohnesverheißung an Abraham finden sich in Q 11:70, 15:53 und 51:28 in der Antwort der Gesandten an Abraham, als dieser die übernatürliche Natur seiner Besucher erkennt:  "Fürchte dich nicht!" (lā tawǧal, bzw. lā taḫaf).  Eine solche Tröstung geht über den hier zitierten Text aus dem Buch Genesis hinaus und entspricht dem Befehl des Engels an Maria in Lk 1:30 (vgl. TUK_0284 sowie Kommentar, Anmerkung zu 51:28). Die koranische Darstellung des Themas verfügt dabei aber über keinerlei christologische Bedeutung mehr.
+</summary>
+            <msItem>
+              <title>Genesis 18:1-19</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיֵּרָא אֵלָיו יְהוָה בְּאֵלֹנֵי מַמְרֵא וְהוּא יֹשֵׁב פֶּתַח־הָאֹהֶל כְּחֹם הַיּוֹם : וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה שְׁלֹשָׁה אֲנָשִׁים נִצָּבִים עָלָיו וַיַּרְא וַיָּרָץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל וַיִּשְׁתַּחוּ אָרְצָה : וַיֹּאמַר אֲדֹנָי אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּךָ : יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ : וְאֶקְחָה פַת־לֶחֶם וְסַעֲדוּ לִבְּכֶם אַחַר תַּעֲבֹרוּ כִּי־עַל־כֵּן עֲבַרְתֶּם עַל־עַבְדְּכֶם וַיֹּאמְרוּ כֵּן תַּעֲשֶׂה כַּאֲשֶׁר דִּבַּרְתָּ : וַיְמַהֵר אַבְרָהָם הָאֹהֱלָה אֶל־שָׂרָה וַיֹּאמֶר מַהֲרִי שְׁלֹשׁ סְאִים קֶמַח סֹלֶת לוּשִׁי וַעֲשִׂי עֻגוֹת : וְאֶל־הַבָּקָר רָץ אַבְרָהָם וַיִּקַּח בֶּן־בָּקָר רַךְ וָטוֹב וַיִּתֵּן אֶל־הַנַּעַר וַיְמַהֵר לַעֲשׂוֹת אֹתוֹ : וַיִּקַּח חֶמְאָה וְחָלָב וּבֶן־הַבָּקָר אֲשֶׁר עָשָׂה וַיִּתֵּן לִפְנֵיהֶם וְהוּא־עֹמֵד עֲלֵיהֶם תַּחַת הָעֵץ וַיֹּאכֵלוּ : וַיֹּאמְרוּ אֵלָיו אַיֵּה שָׂרָה אִשְׁתֶּךָ וַיֹּאמֶר הִנֵּה בָאֹהֶל : וַיֹּאמֶר שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּךָ וְשָׂרָה שֹׁמַעַת פֶּתַח הָאֹהֶל וְהוּא אַחֲרָיו : וְאַבְרָהָם וְשָׂרָה זְקֵנִים בָּאִים בַּיָּמִים חָדַל לִהְיוֹת לְשָׂרָה אֹרַח כַּנָּשִׁים : וַתִּצְחַק שָׂרָה בְּקִרְבָּהּ לֵאמֹר אַחֲרֵי בְלֹתִי הָיְתָה־לִּי עֶדְנָה וַאדֹנִי זָקֵן : וַיֹּאמֶר יְהוָה אֶל־אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַנְתִּי : הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵן : וַתְּכַחֵשׁ שָׂרָה לֵאמֹר לֹא צָחַקְתִּי כִּי יָרֵאָה וַיֹּאמֶר לֹא כִּי צָחָקְתְּ : וַיָּקֻמוּ מִשָּׁם הָאֲנָשִׁים וַיַּשְׁקִפוּ עַל־פְּנֵי סְדֹם וְאַבְרָהָם הֹלֵךְ עִמָּם לְשַׁלְּחָם : וַיהוָׂה אָמָר הַמְכַסֶּה אֲנִי מֵאַבְרָהָם אֲשֶׁר אֲנִי עֹשֶׂה : וְאַבְרָהָם הָיוֹ יִהְיֶה לְגוֹי גָּדוֹל וְעָצוּם וְנִבְרְכוּ בוֹ כֹּל גּוֹיֵי הָאָרֶץ : כִּי יְדַעְתִּיו לְמַעַן אֲשֶׁר יְצַוֶּה אֶת־בָּנָיו וְאֶת־בֵּיתוֹ אַחֲרָיו וְשָׁמְרוּ דֶּרֶךְ יְהוָה לַעֲשׂוֹת צְדָקָה וּמִשְׁפָּט לְמַעַן הָבִיא יְהוָה עַל־אַבְרָהָם אֵת אֲשֶׁר־דִּבֶּר עָלָיו :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Der Herr erschien Abraham bei den Eichen von Mamre. Abraham saß zur Zeit der Mittagshitze am Zelteingang. 2 Er blickte auf und sah vor sich drei Männer stehen. Als er sie sah, lief er ihnen vom Zelteingang aus entgegen, warf sich zur Erde nieder 3 und sagte: Mein Herr, wenn ich dein Wohlwollen gefunden habe, geh doch an deinem Knecht nicht vorbei! 4 Man wird etwas Wasser holen; dann könnt ihr euch die Füße waschen und euch unter dem Baum ausruhen. 5 Ich will einen Bissen Brot holen und ihr könnt dann nach einer kleinen Stärkung weitergehen; denn deshalb seid ihr doch bei eurem Knecht vorbeigekommen. Sie erwiderten: Tu, wie du gesagt hast. 6 Da lief Abraham eiligst ins Zelt zu Sara und rief: Schnell drei Sea feines Mehl! Rühr es an und backe Brotfladen! 7 Er lief weiter zum Vieh, nahm ein zartes, prächtiges Kalb und übergab es dem Jungknecht, der es schnell zubereitete. 8 Dann nahm Abraham Butter, Milch und das Kalb, das er hatte zubereiten lassen, und setzte es ihnen vor. Er wartete ihnen unter dem Baum auf, während sie aßen. 9 Sie fragten ihn: Wo ist deine Frau Sara? Dort im Zelt, sagte er. 10 Da sprach der Herr: In einem Jahr komme ich wieder zu dir, dann wird deine Frau Sara einen Sohn haben. Sara hörte am Zelteingang hinter seinem Rücken zu. 11 Abraham und Sara waren schon alt; sie waren in die Jahre gekommen. Sara erging es längst nicht mehr, wie es Frauen zu ergehen pflegt. 12 Sara lachte daher still in sich hinein und dachte: Ich bin doch schon alt und verbraucht und soll noch das Glück der Liebe erfahren? Auch ist mein Herr doch schon ein alter Mann! 13 Da sprach der Herr zu Abraham: Warum lacht Sara und sagt: Soll ich wirklich noch Kinder bekommen, obwohl ich so alt bin? 14 Ist beim Herrn etwas unmöglich? Nächstes Jahr um diese Zeit werde ich wieder zu dir kommen; dann wird Sara einen Sohn haben. 15 Sara leugnete: Ich habe nicht gelacht. Sie hatte nämlich Angst. Er aber sagte: Doch, du hast gelacht. 16 Die Männer erhoben sich von ihrem Platz und schauten gegen Sodom. Abraham wollte mitgehen, um sie zu verabschieden. 17 Da sagte sich der Herr: Soll ich Abraham verheimlichen, was ich vorhabe? 18 Abraham soll doch zu einem großen, mächtigen Volk werden, durch ihn sollen alle Völker der Erde Segen erlangen. 19 Denn ich habe ihn dazu auserwählt, dass er seinen Söhnen und seinem Haus nach ihm aufträgt, den Weg des Herrn einzuhalten und zu tun, was gut und recht ist, damit der Herr seine Zusagen an Abraham erfüllen kann.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Galen De Semine I, 8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_986" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>986</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Entwicklung des Menschen zwischen Zeugung und Geburt wird vom Mediziner Galen (129-199) als vierstufiger Prozess beschrieben: (1) Samen, (2) Blutgebilde, (3) erster Körper aus Fleisch und Knochen, (4) Körper mit differenzierten Organen und Gliedern. Das Werk des Galen, das als Synthese und Referenzwerk der antiken Medizin bis in die Neuzeit Geltung hatte, war im Mittelmeerraum und im Nahen Osten durch Übersetzungen ins Syrische (durch Sergios von Resh Aina, gest. 532 in Konstantinopel), und später ins Arabische durch den Gelehrten und Übersetzer Ḥunain ibn Isḥāq (gest. 873) bekannt. Sergios widmete sich (wie einige andere insbesondere ostsyrische Christen) der Übersetzung griechischer Medizin und wurde zum vielleicht bedeutendsten Übersetzer medizinischer griechischer Literatur in die syrische Sprache. Nach der Verfolgung der ostsyrischen Christen im byzantinischen Reich wurde die 555 n.Chr. vom iranischen Herrscher Anurshirvan in der südmesopotamischen Stadt Gundeshapur gegründete Medizinschule zu einem bedeutenden Zentrum der Rezeption und Weiterentwicklung der griechischen Medizin. In Q 23:12 wird zunächst die Erschaffung des ersten Menschen angesprochen: Nach koranischer Darstellung wird der erste Mensch von Gott aus Lehm (arab. ṭīn) geschaffen. Im Anschluss an die kosmologische Schaffung wird (Verse 13-14) die physiologische Entstehung des Menschen geschildert. Auch in Sure 22 (in Zusammenhang mit der Auferstehung des Menschen nach dem Tod) spricht der Koran vom Wunder der Entstehung des Menschen zwischen Zeugung und Geburt. Wie in Q 23:12 wird kurz die Schaffung des ersten Menschen aus Erde (arab. turāb) erwähnt, anschließend werden die Stufen der physiologischen Entwicklung des Menschen im Mutterleib geschildert. Beide Textstellen sprechen von einer Entwicklung des Embryos, die mit dem Samentropfen (arab. nuṭfa) beginnt, auf den dann das Stadium des Blutgebildes (arab. ʿalaqa) folgt, der sich dann zu einem Fleischgebilde (arab. muḍġa) weiterentwickelt, aus dem dann der "körperlich geformte und noch nicht vollständig gestaltete" (Q 22:5 min muḍġatin muḫallaqatin wa-ġairi muḫallaqatin) Embryo entsteht. In der Beschreibung von Sure 23 wird das Fleischgebilde zu Knochen, die mit Fleisch bedeckt werden (arab. fa-ḫalaqnā l-muḍġata ʿiẓāman fa-kasaunā l-ʿiẓāma laḥman). Diese Lebensform erhält dann schließlich eine neue Qualität: In Q 23:12 heißt es : "Hierauf ließen wir ihn als neues (w. anderes) Geschöpf entstehen. So ist Gott voller Segen. Er ist der beste Schöpfer." In Q 22:5 wird das geformte und zugleich noch nicht vollständige Geschöpf zu einem Zeichen göttlicher Macht, da Gott den Menschen seine Macht "deutlich macht" (arab. li-nubayyina). Wie der Text des Galen zeigt, scheinen die Stadien der Embryoentwicklung, wie sie der Koran an zwei Stellen differenziert schildert, das medizinische Wissen der spätantiken Welt wiederzuspiegeln, zumindest ist die Darstellung mit dem medizinischen Wissen im siebten Jahrhundert n.Chr. kompatibel. Interessant erscheint in diesem Zusammenhang auch, dass in den Darstellungen der pränatalen Stadien das Wirken Gottes nach der letzten Stufe des Fleischkörpers (arab. muḍġa) besonders hervorgehoben wird, gerade so, als ob die wissenschaftiche Beschreibung ohne die Einbeziehung göttlichen Wirkens dem eigentlichen, dem Menschen letztendlich unverständlichen Geschehen nicht gerecht wird. Zur Entstehung des Embryos in einem syrischen Lehrschreiben des Jakob von Sarug (gest. 521) vgl. TUK_0955 (Entstehung des Embryos im Brief an Mar Julian).
+</summary>
+            <msItem>
+              <title>Galen De Semine I, 8</title>
+              <author>Galen von Pergamon (129-199)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">2. Jh. n.Chr.</origDate>
+              <origPlace>Kleinasien und Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Corpus Medicorum Graecorum: Galeni de Semine, edidit, in linguam Anglicam vertit, commentatus est Ph. De Lacy, CMG V 3, 1, Berlin 1992, S. 92, 94;  (http://galen.bbaw.de/epubl/online/cmg_05_03_01.html?p=92=206).</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	9. Πάλιν δ' ἐπὶ τὴν πρώτην τοῦ ζ ῴου σύστασιν ἐπανάγωμεν τὸν λόγον· καὶ ὅπως γε ἡμῖν εὔτακτός τε ἅμα καὶ σαφὴς γίγνοιτο, διελώμεθα τέτταρσι χρόνοις τὴν σύμπασαν τῶν κυουμένων δημιουργίαν. πρῶτος μέν, ἐν ᾧ κατὰ τὰς ἀμβλώσεις τε καὶ κατὰ τὰς ἀνατομὰς ἡ τοῦ  σπέρματος ἰδέα κρατεῖ. κατὰ τοῦτον τὸν χρόνον οὐδ' Ἱπποκράτης ὁ πάντα θαυμάσιος ἤδη που κύημα καλεῖ τὴν τοῦ ζ ῴου σύστασιν, ἀλλ', ὡς ἀρτίως ἠκούσαμεν ἐπὶ τῆς ἑκταίας ἐκπεσούσης, ἔτι γονήν. ἐπειδὰν δὲ πληρωθῇ μὲν τοῦ αἵματος, ἡ καρδία δὲ καὶ ὁ ἐγκέφαλος καὶ τὸ ἧπαρ ἀδιάρθρωτα μὲν ᾖ καὶ ἀμόρφωτα, πῆξιν δ' ἠδη τινὰ καὶ μέγεθος ἀξιόλογον ἕχῃ, δεύτερος μὲν οὗτος ὁ χρόνος ἐστί, σαρκοειδὴς δὲ καὶ οὐκέτι γονοειδής ἐστιν ἡ οὐσία τοῦ κυήματος. οὐκοῦν οὐδὲ γονὴν ἔτι προσαγορεύοντα τὸν Ἱπποκράτην τοιαύτην ἰδέαν εὕροις ἄν, ἀλλ', ὡς εἴρηται, κύημα. τρίτος ἐπὶ | τῷδε χρόνος, ἡνίκα, ὡς εἴρηται, τὰς μὲν τρεῖς ἀρχὰς ἔστιν ἰδεῖν ἐναργῶς, ὑπογραφὴν δὲ τινα καὶ οἷον σκιαγραφίαν ἁπάντων τῶν ἄλλων μορίων. ἐναργεστέραν μὲν γὰρ ὄψει τὴν περὶ τὰς τρεῖς ἀρχὰς διάπλασιν, ἀμυδροτέραν δὲ τὴν τῶν κατὰ τὴν γαστέρα μορίων, καὶ πολὺ δὴ τούτων ἔτι τὴν κατὰ τὰ κῶλα. ταῦτα γάρ ὕστερον, ὡς Ἱπποκράτης ὠνόμαζεν, ὀζοῦται, τὴν πρὸς τοὺς κλάδους ἀναλογίαν ἐνδεικνύμενος τῇ προσηγορίᾳ.
+
+	Τέταρτος δ' οὗτός ἐστι καὶ τελευταῖος χρόνος, ἡνίκα ἤδη τά τ' ἐν τοῖς κώλοις ἅπαντα διήρθρωται, καὶ οὐδ' ἔμβρυον ἐτι μόνον, ἀλλ' ἤδη καὶ παιδίον ὀνομάζει τὸ κυούμενον ὁ θαυμάσιος Ἱπποκράτης, ὅτε καὶ ἀσκαρίζειν καὶ κινεῖσθαί φησιν, ὡς ζῷον ἤδη τέλειον.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Doch lass uns zurück zur Frage der ersten Gestalt des Lebewesens kommen. Und damit es uns wohlgeordnet und deutlich werde, lass uns die gesamte Erschaffung der Embryonen in vier Perioden einteilen: Die erste Periode ist die, in der noch die Form des Samens vorherrscht, wie sowohl bei Abtreibungen als auch bei Obduktionen offensichtlich wird. Diese Etappe nennt auch der ganz vorzügliche Hippokrates die Gestalt des Lebewesens nicht “Embryo”, sondern, wie wir es eben bei dem am sechsten [Tag] ausgeschiedenen [Samen] gehört haben,  [nennt er sie] “Samen”. Danach, sobald er [der Embryo] mit Blut gefüllt ist, aber das Herz, der Kopf und die Leber noch nicht gegliedert und noch formlos sind, aber er bereits eine gewisse Festigkeit und eine erwähnenswerte Größe hat, ist dies die zweite Etappe, da die Substanz des Embryos fleischförmig und nicht mehr samenförmig ist. Noch würdest du Hippokrates diese Form “Samen” nicht nennen hören, sondern, wie gesagt, “Embryo”. Dem folgt die dritte Etappe, bei der man die drei Haupt[organe] bereits deutlich sieht, von den anderen Organen aber nur einen Umriss und etwas wie ein Schattenbild. Du wirst die Gestalt der drei wesentlichen Organe deutlicher sehen, undeutlicher aber die Organe um den Magen herum, und noch [undeutlicher] die [Gestalt] der [anderen] Glieder. Diese “schlagen” als letzte “aus”, wie Hippokrates [den Prozess] nennt, indem er mit diesem Begriff die Analogie mit den Ästen [der Bäume] aufzeigt.
+Die vierte und letzte Etappe ist, wenn schon alles in den Gliedern ausgeformt ist. Der vortreffliche Hippokrates nennt dann den Embryo nicht mehr Fötus, sondern Kind, wenn es zu klopfen und sich zu bewegen anfängt, so wie ein vollkommenes Lebewesen.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	But let us take the account back again to the first conformation of the animal, and in order to make our account orderly and clear, let us divide the creation of the foetus overall into four periods of time. The first is that in which, as is seen both in abortions and in dissection, the form of the semen prevails. At this time, Hippocrates too, the all-marvelous,does not yet call the conformation of the animal a foetus; as we heard just now in the case of semen voided in the sixth day, he still calls it semen. But when it has been filled with blood, and heart, brain and liver are still unarticulated and unshaped yet have by now a certain solidarity and considerable size, this is the second period; the substance of the foetus has the form of flesh and no longer the form of semen. Accordingly you would find that Hippocrates, too no longer calls such a form semen but, as was said, foetus. The third period follows on this, when, as was said, it is possible to see the three ruling parts clearly and a kind of outline, a silhouette, as it were, of all the other parts. You will see the conformation of the three ruling parts more clearly, that of the parts of the stomach more dimly, and much more still, that of the limbs. Later on they form "twigs", as Hippocrates expressed it, indicating by the term their similarity to branches. The fourth and final period is at the stage when all the parts in the limbs have been differentiated; and at this part Hippocrates the marvellous no longer calls the foetus an embryo only, but already a child, too, when he says that it jerks and moves as an animal now fully formed.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_533" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>533</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Der Text beweist eindeutig, dass zahlreiche Motive, welche die koranische Eschatologie mit den prophetischen Büchern der Hebräischen Bibel und mit der Johannes-Apokalypse gemeinsam hat, auch im syrischen Christentum um 500 geläufig waren. Bemerkenswert sind v.a. die Erwähnung des “lauten Rufes” (ar. saiḥatun wāḥida; syr. b-ḥad qālā), der die endzeitlichen Ereignisse in Gang setzt (vgl. auch Hag 2:6; Heb 12:26-27), sowie die parallele Aufzählung der Naturelemente, die zerstört werden.  Um die Nähe zwischen Jakobs Text und der koranischen Endzeitvorstellung zu verdeutlichen, wurden die jeweiligen Übereinstimmungen im Koran in Klammern hinzugefügt. Zu weiteren biblischen Parallelen vgl. TUK_0124, TUK_0125, TUK_0127, TUK_0130 sowie TUK_0151. Zu einem weiteren eschatologischen Gedicht Jakobs von Sarug vgl. TUK_0534.</summary>
+            <msItem>
+              <title>Gedicht über das Weltende</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan (Hg.), Homiliae Selectae Mar-Jacobi Sarugensis, Band 5, Paris 1910, S. 852-856.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܕܚܠܐ ܗ̄ܘ ܐܚܝ̈ ܝܘܡ ܓܠܝܢܗ ܪܒܐ ܕܡܪܢ:ܘܡܢܘ ܡܫܟܚ ܠܡܣܝܒܪܘ ܠܥܙܝܙܘܬܗ܀ܐܟܬܢ ܣܓܝ ܘܚܡܝܡ ܪܘܓܙܗ ܥܠ ܖ̈ܫܝܥܐ:340 ܠܚܝܡ ܠܬܒܥܬܐ ܘܩܫܐ ܪܒܬ ܥܠ ܚܛܝ̈ܐ܀ܚܫܘܟ ܘܟܡܝܪ ܥܠ ܗܘ̇ ܓܒܐ ܕܒܝܬ ܣܡܠܐ:ܥܡܘܛ ܣܓܝ ܘܠܝܬ ܒܗ ܙܗܪܐ ܨܝܕ ܥܘ̈ܠܐ܀ܠܐ ܐܝܬ ܐܬܪܐ ܠܒܝ̈ܫܐ ܠܡܥܪܩ ܡ̣ܢ ܡܪܕܘܬܗ:ܘܠܐ ܣܬܪܐ ܕܢܩܘܡܘܢ ܒܗ ܕܠܐ ܢܟܝܢܐ܀345 ܡ̣ܢ ܚܕ ܓܒܐ ܢܗܡ ܪܘܓܙܐ ܒܕܡܘܬ ܐܪܝܐ:ܒܓܒܐ ܐ̄ܚܪܢܐ ܪܗܛܐ ܬܒܥܬܐ ܛܒ ܡ̣ܢ ܕܒܐ܀ܡܐ ܕܥܪܩ ܐ̄ܢܫ ܡ̣ܢ ܨܝܕ ܗܢܐ ܕܕܚܝܠ ܣܓܝ:ܦܓܥܬ ܠܗ̇ ܒܗ ܗܕܐ ܐ̄ܚܪܝܬܐ ܕܛܒ ܡܪܝܪܐ܀ܗܘܐ ܙܐܥ ܢܐܕ ܪܥܠ ܟܠܗ ܓܘܫܡܗ:350 ܘܠܐ ܐܝܬ ܐܝܟܐ ܕܢܣܡܘܟ ܪܫܗ ܕܠܐ ܣܘܪܕܐ ܗ̄ܘ܀ܒܩܠܐ ܪܡܐ ܕܩܪܐ ܒܐܪܥܐ ܕܢܥܒܕ ܕܝܢܐ:ܒܗ ܡܬܒܠܗܝܢ ܟܠܗܘܢ ܬܓܡ̈ܐ ܕܟܠ ܒܖ̈ܝܬܐ܀ܒܩܪܢܐ ܐ̄ܚܪܝܬܐ ܕܙܥܩܐ ܠܡܝ̈ܬܐ ܕܩܘܡܘ ܡ̣ܢ ܬܡܢ:ܒܗ ܡܬܒܠܗܝܢ ܟܠܗܘܢ ܣܘ̈ܦܐ ܘܥܡܡ̈ܐ ܕܒܗܘܢ܀355 ܒܗܘ̇ ܫܝܦܘܪܐ ܕܡܟܪܙ ܒܐܪܥܐ ܦܣܝ̈ܩܬܐ:ܒܗ ܡܫܬܖ̈ܝܢ ܐܣܝ̈ ܥܠܡܐ ܡ̣ܢ ܬܘܩܢ̈ܐ܀ܒܪܥܡܐ ܪܗܝܒܐ ܕܡܪܝܡ ܩܠܗ ܡ̣ܢ ܓܘ ܫܠܝܐ:ܒܗ ܡܣܬܚܦܐ ܒܝܪܬ ܬܒܝܠ ܥܠ ܥܡܘܖ̈ܝܗ̇܀ܒܦܩܥܐ ܙܪܝܙܐ ܕܨܪܐ ܠܐܪܥܐ ܒܚܣܝܢܘܬܗ:360 ܒܗ ܡܬܗܓܡܝܢ ܛܘܖ̈ܐ ܖ̈ܡܐ ܩܠܝܠܐܝܬ܀ܒܙܘܥܐ ܬܟܝܒܐ ܕܡܩܪܩܫ ܠܗ ܠܥܠܡܐ ܟܠܗ:ܒܗ ܡܫܬܪܝܐ ܒܪܝܬܐ ܕܬܫܪܟ ܨܝܕ ܠܐ ܡܕܡ܀ܬܗܪܐ ܠܡܐܡܪ ܕܒܚܕ ܩܠܐ ܪܥܠܐ ܐܪܥܐ: ܘܦܩܥܝܢ ܫܘܥ̈ܐ ܘܢܦܠܝܢ ܛܘܪ̈ܐ ܘܨܠܐ ܥܠܡܐ܀ 365 ܘܡܝܛܐ ܬܒܝܠ ܘܓܐܙ ܬܗܘܡܐ ܘܝܒܫ ܝܡܐ: ܘܡܘܦܝܢ ܡܝ̈ܐ ܘܡܐܬ ܖ̈ܚܫܐ ܘܛܠܩܝܢ ܢܘ̈ܢܐ܀ ܘܨܕܐ ܥܘܡܩܐ ܘܚܫܟ ܪܘܡܐ ܘܕܥܟ ܫܡܫܐ: ܘܥܡܛ ܣܗܪܐ ܘܥܪܒ ܢܘܗܪܐ ܘܡܘܦܐ ܟܠ ܕܐܝܬ܀ ܪܩܝܥܐ ܘܩܦܝܠ ܫܡܝܐ ܟܪܝܟܝܢ ܐܪܥܐ ܠܝܬܝܗܿ: 370 ܝܡ̈ܡܐ ܙܠܝܥܝܢ ܐܠܦ̈ܐ ܬܒܝܖ̈ܢ ܥܠܡܐ ܘܥܒܪ܀ܕܖ̈ܓܐ ܘܒܛܠܘ ܛܟܣ̈ܐ ܘܐܘܦܝܘ ܬܓܡ̈ܐ ܘܢܦܠܘ:ܫܘܦܖ̈ܐ ܘܚܡܘ ܥܘܬܪܐ ܘܒܨܪ ܢܚ̈ܬܐ ܘܦܪܚܘ܀ܢܓܕܐ ܘܩܫܐ ܕܝܢܐ ܘܢܛܝܪ ܪܘܓܙܐ ܘܠܚܝܡ:ܛܘܒܘܗܝ ܠܐܝܢܐ ܕܠܐ ܒܣܝܪ ܬܡܢ ܡܐ ܕܡܫܬܐܠ܀375 ܡܢ ܠܐ ܢܕܚܠ ܐܢ ܡܬܒܝܢ ܦܪܘܫܐܝܬ:ܒܗܘ̇ ܥܕܢܐ ܕܓܢܝ̈ܙܬܐ ܡܣܬܥܪܢ ܒܗ܀ܡܐ ܕܢܚܬ ܠܗ̇ ܪܡܙܐ ܠܐܪܥܐ ܩܠܝܠܐܝܬ:ܘܫܪܐ ܘܡܚܬ ܟܠ ܬܘ̈ܩܢܐ ܕܟܠ ܒܖ̈ܝܬܐ܀ܡܐ ܕܡܫܬܡ̈ܛܢ ܣܟܝ̈ ܥܠܡܐ ܡ̣ܢ ܟܠ ܣܘ̈ܦܝܢ:380 ܘܡܐܛ ܢܦܠ ܡܫܟܢ ܛܘܗ̈ܡܐ ܥܠ ܕܒܓܘܗ܀ܡܐ ܕܡܬܦܣܩܝܢ ܛܘ̈ܢܒܝܗ̇ ܕܐܪܥܐ ܡ̣ܢ ܟܠ ܓܒܝ̈ܢ:ܘܐܝܟ ܬܢܢܐ ܦܪܚܐ ܕܬܥܒܪ ܥܡ ܟܠ ܕܥܠܝܗ̇܀ܡܐ ܕܡܬܟܠܝܐ ܓܝܓܠ ܙܒ̈ܢܐ ܡ̣ܢ ܡܪܕܝܬܐ:ܘܒܗܠܐ ܘܩܝܡܐ ܐܘܪܚܗ ܕܥܠܡܐ ܕܬܘܒ ܠܐ ܢܪܕܐ܀385 ܡܐ ܕܡܫܬܡܛܐ ܗܝ̇ ܨܝܪܬܐ ܕܪܡܫܐ ܘܨܦܪܐ:ܘܠܐ ܐܝܬ ܠܠܝܐ ܕܦܬܚ ܘܐܚܕ ܥܠ ܒܖ̈ܝܬܐ܀ܡܐ ܕܡܬܒܠܒܠ ܡܢܝܢ ܫܥ̈ܐ ܫܡ̈ܫܝܬܐ:ܘܚܕ ܐܝܡܡܐ ܠܥܠܡ ܗܘܐ ܚܠܦ ܟܠ ܝܘܡ̈ܝܢ܀ܡܐ ܕܡܬܚܓܪܐ ܗܠܟܬܐ ܪܗܝܒܬܐ ܕܚܝ̈ܠܝ ܪܘܡܐ:390 ܘܬܥܫܐ ܪܓܠܐ ܕܟܠ ܢܗܝܖ̈ܝܢ ܒܫܒܝܠܝ̈ܗܘܢ܀ܡܐ ܕܡܬܬܒܪܝܢ ܣܖ̈ܢܝ ܥܠܡܐ ܕܠܐ ܢܬܟܪܟܘܢ:ܘܠܡܘܙܠܬܐ ܟܠܐ ܪܡܙܐ ܕܠܐ ܬܘܒ ܬܥܒܪ܀ܡܐ ܕܠܪܩܝܥܐ ܡܚܝܢ ܚܒ̈ܠܐ ܘܝܚܛ ܢܘܗܪܗ:ܘܢܬܪܝܢ ܡܢܗ ܟܠ ܢܗܝܖ̈ܝܢ ܕܣܕܝܪܝܢ ܒܗ܀395 ܡܐ ܕܡܬܩܪܩܫ ܐܝܟ ܐܝܠܢܐ ܪܩܝܥܐ ܟܠܗ:ܘܢܚܬܝܢ ܡܢܗ ܦܐܖ̈ܝ ܢܘܗܪܐ ܠܡܬܛܠܩܘ܀ܡܐ ܕܩܡ ܪܡܙܐ ܥܠ ܡܥܒܪܬܐ ܕܚܝ̈ܠܘܬܐ:ܘܟܠܐ ܐܢܘܢ ܡ̣ܢ ܗܘ̇ ܪܗܛܐ ܕܠܒܝܟܝܢ ܗ̄ܘܘ܀ܡܐ ܕܡܣܬܥܖ̈ܢ ܗܠܝܢ ܟܠܗܝܢ ܡ̣ܢ ܦܘܩܕܢܟ:400 ܒܖ̈ܚܡܝܟ ܐܚܐ ܡܫܝܚܐ ܕܐܬܐ ܕܢܥܒܕ ܕܝܢܐ܀ܗܒ ܠܝ ܐܕܚܠ ܡ̣ܢ ܓܠܝܢܟ ܠܐ ܗ̄ܘܐ ܒܡܠ̈ܐ:ܐܠܐ ܥܒܕ̈ܐ ܚܠܦ ܦܬܓܡ̈ܐ ܢܫܬܟܚܘܢ ܠܝ܀ܚܢܢܟ ܢܗܘܐ ܣܢܐܓܪܐ ܠܫܦܠܘܬܝ ܡܐ ܕܕܢܚ ܐܢ̄ܬ:ܘܚܠܦܝ ܕܝܠܝ ܢܐܡܪ ܥܡܟ ܒܣܝܡܐܝܬ܀405 ܗܘ ܢܡܠܠ ܠܟ ܪܥܘܡܐܝܬ ܡܛܠ ܒܣܝܘܬܝ:ܕܒܛܝܒܘܬܟ ܬܚܐ ܠܗܢܐ ܟܕ ܠܐ ܫܘܐ܀ܡܢܐ ܐܝܬܘܗܝ ܗܢܐ ܒܨܝܪܐ ܘܡܢ ܣܘܖ̈ܚܢܘܗܝ:ܠܐ ܬܬܚܬܐ ܨܝܕ ܚܠܫܐ ܕܬܐܡܪ ܥܡܗ܀ܒܗܢܐ ܙܥܘܪܐ ܕܝܢܟ ܪܒܐ ܠܐ ܬܘܒܕ ܒܗ:410 ܚܘܐ ܬܒܥܬܟ ܨܝܕ ܟܦܘܖ̈ܐ ܕܠܐ ܗܝܡܢܘ ܒܟ܀ܫܝܛܘܬܐ ܗ̄ܝ ܠܟ ܐܢ ܥܡ ܗܢܐ ܠܕܝܢܐ ܬܥܘܠ:ܕܠܐ ܗܘ ܡܕܡ ܐܦܠܐ ܚܛܗܘ̈ܗܝ ܣܓܝ ܡܕܡ܀ܢܗܘܐ ܕܐܝܬܘܗܝ ܟܠܗ ܚܘ̈ܒܐ ܐܝܟ ܡܐ ܕܐܝܬܘܗܝ:ܡܢܐ ܗ̄ܘ̣ ܗܢܐ ܘܡܢ ܣܘܖ̈ܚܢܘܗܝ ܬܬܒܥ ܐܢܘܢ܀415 ܗܠܝܢ ܡܠ̈ܐ ܚܢܢܟ ܢܐܡܪ ܠܟ ܡܛܠܬܝ:ܘܐܚܐ ܒܛܝܒܘ ܕܬܬܢܨܚ ܒܝ ܡܪܚܡܢܘܬܟ܀ܐܝܢ ܡܪܝ ܐܚܢܝ ܐܝܟܢ ܕܒܥܝܬ ܡܐ ܕܕܢܚ ܐܢ̄ܬ:ܕܒܡܠܟܘܬܟ ܐܚܙܐ ܫܘܒܚܟ ܘܐܘܕܐ ܠܡܫܟ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Wundersam ist es zu sagen, wie durch eine Stimme [Q 36:29.53, 37:19, 38:15, 50:42, 79:13] die Erde bebt [Q 56:4, 69:14, 73:14, 79:6.7, 99:1], die Felsen zerspringen, die Berge fallen [Q 18:47, 20:105 f., 27:88, 52:10, 56:5, 69:14, 73:14, 77:10, 78:20, 81:3] und die Welt sich neigt. 365 Der Erdkreis erzittert, die Wasser der Tiefe versiegen und das Meer trocknet aus. Die Gewässer verschwinden, alles was krabbelt stirbt und die Fische ersticken. Die Tiefe leert sich, die Höhe wird dunkel und die Sonne erlischt [Q 81:1]. Der Mond verfinstert sich [Q 75:8], das Licht vergeht und so endet alles, was es gibt. Die Feste (das Firmament) stürzt ein, die Himmel rollen sich auf [Q 21:104] und die Erde ist nicht mehr. 370 Die Meere sind ausgegossen [Q 81:6], Schiffe zerbrochen, die Welt, sie ist vergangen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

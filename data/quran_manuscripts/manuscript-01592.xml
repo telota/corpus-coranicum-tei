@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1592">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Doha, Qatar National Library  (مكتبة قطرالوطنية), HC.MS.03224</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Qatar National Library, Heritage Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="84">Qatar National Library  (مكتبة قطرالوطنية)
+                            , Doha</repository>
+            <idno>HC.MS.03224</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio; Shelfmark: HC.MS.03224; Qurʾānic Text: Q  10:28-10:33; Lines per page: 8-10; Dimensions: 191 x 193 mm; Script  style: Maġribī chrysography, interlaced angular script (for <hi rend="italic">sūra </hi>titles); Estimated date of production: Late 13th or 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>The manuscript is unlikely to have been entirely written in gold: the chrysography was probably meant to signal the end of the 21st and beginning of the 22nd <hi rend="italic">ḥizb </hi>(here placed after 10:33, although it should be after 10:25). The <hi rend="italic">taʿawwuḏ </hi>was added in an illuminated heading and written in an elaborate interlaced Kufic reminiscent of Marinid and Nasrid epigraphy from the first half of the 14th century. Yellow/orange dots mark the <hi rend="italic">hamza </hi>above or below <hi rend="italic">alif</hi>. The symbols of <hi rend="italic">sukūn </hi>and <hi rend="italic">tašdīd </hi>are traced in blue, in contrast with all the other vocalisation marks, which are in red. A portion of a similar manuscript, partially written in Maġribī chrysography (although with 11 lines per page) is in New York, Metropolitan Museum of Art, Inv. 2004.90.</p>
+            </summary>
+            <msItem xml:id="mysql_id_688873" n="1r">
+              <title type="numeric" key="010:028:015-010:031:021">
+                                    010:028:015-010:031:021
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688872" n="1v">
+              <title type="numeric" key="010:031:022-010:033:010">
+                                    010:031:022-010:033:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>193</width><height>191</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="10">10 - 10 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1275-1400</origDate>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb), al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Marcus Fraser</p>
+                <p>transliteration: Zahra Mollaei</p>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_48833">
+      <graphic decls="#imageRights-1" url="manuscript/1592/cf6b22d9-ea51-4daf-a97e-bca5574aba91/manuscript-1592-page-48833-image-35838.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_48832">
+      <graphic decls="#imageRights-1" url="manuscript/1592/c00eead0-f186-4c11-9ef4-f7eb3e6ec729/manuscript-1592-page-48832-image-35837.tif"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body source="1592_Doha_HC.MS.03224-1_tei.xml">
+      <pb xml:id="f.1r"/>
+      <!-- Page ID: 1592,f. 1r,010:028:015-010:031:027 -->
+      <!-- Lines: 10; Valid Lines: 10 -->
+      <l n="1">
+        <note/>
+        <w n="010-028-015">ما</w>
+        <pc> </pc>
+        <w n="010-028-016">کنتم</w>
+        <pc> </pc>
+        <w n="010-028-017">ايانا</w>
+        <pc> </pc>
+        <w n="010-028-018">تعبدون</w>
+        <pc> </pc>
+        <!-- Vers Break: '28'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٢٨</supplied>۝
+        </w>
+        <pc> </pc>
+        <w n="010-029-001">ڢکڢى</w>
+        <pc> </pc>
+      </l>
+      <l n="2">
+        <note/>
+        <w n="010-029-002">بال‍له</w>
+        <pc> </pc>
+        <w n="010-029-003">شهيدا</w>
+        <pc> </pc>
+        <w n="010-029-004">بيننا</w>
+        <pc> </pc>
+        <w n="010-029-005">وبينکم</w>
+        <pc> </pc>
+        <w n="010-029-006">ان</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="010-029-007">کنا</w>
+        <pc> </pc>
+        <w n="010-029-008">عن</w>
+        <pc> </pc>
+        <w n="010-029-009">عبادتکم</w>
+        <pc> </pc>
+        <w n="010-029-010">لغڢلين</w>
+        <pc> </pc>
+        <!-- Vers Break: '29'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٢٩</supplied>۝
+        </w>
+        <pc> </pc>
+      </l>
+      <l n="4">
+        <note/>
+        <w n="010-030-001">هنالک</w>
+        <pc> </pc>
+        <w n="010-030-002">تبلوا</w>
+        <pc> </pc>
+        <w n="010-030-003">کۙل</w>
+        <pc> </pc>
+        <w n="010-030-004">نڢس</w>
+        <pc> </pc>
+        <w n="010-030-005">ما</w>
+        <pc> </pc>
+        <w n="010-030-006">اسلڢت</w>
+        <pc> </pc>
+      </l>
+      <l n="5">
+        <note/>
+        <w n="010-030-007">وردوا</w>
+        <pc> </pc>
+        <w n="010-030-008">الى</w>
+        <pc> </pc>
+        <w n="010-030-009">ال‍له</w>
+        <pc> </pc>
+        <w n="010-030-010">مول<add type="rasm" subtype="variant">ي</add>هم
+        </w>
+        <pc> </pc>
+        <w n="010-030-011">الحڧ</w>
+        <pc> </pc>
+      </l>
+      <l n="6">
+        <note/>
+        <w n="010-030-012">وضل</w>
+        <pc> </pc>
+        <w n="010-030-013">عنهم</w>
+        <pc> </pc>
+        <w n="010-030-014">ما</w>
+        <pc> </pc>
+        <w n="010-030-015">کانوا</w>
+        <pc> </pc>
+        <w n="010-030-016">يڢترون</w>
+        <pc> </pc>
+      </l>
+      <l n="7">
+        <note/>
+        <!-- Vers Break: '30'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٣٠</supplied>۝
+        </w>
+        <pc> </pc>
+        <w n="010-031-001">ڧل</w>
+        <pc> </pc>
+        <w n="010-031-002">من</w>
+        <pc> </pc>
+        <w n="010-031-003">يرزڧکم</w>
+        <pc> </pc>
+        <w n="010-031-004">من</w>
+        <pc> </pc>
+        <w n="010-031-005">السما</w>
+        <pc> </pc>
+      </l>
+      <l n="8">
+        <note/>
+        <w n="010-031-006">والارض</w>
+        <pc> </pc>
+        <w n="010-031-007">امن</w>
+        <pc> </pc>
+        <w n="010-031-008">يملک</w>
+        <pc> </pc>
+        <w n="010-031-009">السمع</w>
+        <pc> </pc>
+        <w n="010-031-010">والا</w>
+      </l>
+      <l n="9">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="010-031-010">بصر</w>
+        <pc> </pc>
+        <w n="010-031-011">ومن</w>
+        <pc> </pc>
+        <w n="010-031-012">يخرج</w>
+        <pc> </pc>
+        <w n="010-031-013">الحي</w>
+        <pc> </pc>
+        <w n="010-031-014">من</w>
+        <pc> </pc>
+        <w n="010-031-015">الميت</w>
+        <pc> </pc>
+      </l>
+      <l n="10">
+        <note/>
+        <w n="010-031-016">ويخرج</w>
+        <pc> </pc>
+        <w n="010-031-017">الميت</w>
+        <pc> </pc>
+        <w n="010-031-018">من</w>
+        <pc> </pc>
+        <w n="010-031-019">الحي</w>
+        <pc> </pc>
+        <w n="010-031-020">ومن</w>
+        <pc> </pc>
+        <w n="010-031-021">يدبر</w>
+        <pc> </pc>
+      </l>
+      <pb xml:id="f.1v"/>
+      <!-- Page ID: 1592,f. 1v,010:031:028-010:034:004 -->
+      <!-- Lines: 8; Valid Lines: 8 -->
+      <l n="1">
+        <note/>
+        <w n="010-031-028" type="unclear">الامر</w>
+        <pc> </pc>
+        <w n="010-031-029" type="unclear">ڢسيڧولون</w>
+        <pc> </pc>
+        <w n="010-031-030" type="unclear">ال‍له</w>
+        <pc> </pc>
+        <w n="010-031-031" type="unclear">ڢڧل</w>
+        <pc> </pc>
+        <w n="010-031-032" type="unclear">اڢلا</w>
+        <pc> </pc>
+      </l>
+      <l n="2">
+        <note/>
+        <w n="010-031-033" type="unclear">تتڧون</w>
+        <pc> </pc>
+        <!-- Vers Break: '31'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٣١</supplied>۝
+        </w>
+        <pc> </pc>
+        <w n="010-032-001">ڢذلکم</w>
+        <pc> </pc>
+        <w n="010-032-002">ال‍له</w>
+        <pc> </pc>
+        <w n="010-032-003">ربکم</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="010-032-004">الحڧ</w>
+        <pc> </pc>
+        <w n="010-032-005">ڢماذا</w>
+        <pc> </pc>
+        <w n="010-032-006">بعد</w>
+        <pc> </pc>
+        <w n="010-032-007">الحڧ</w>
+        <pc> </pc>
+        <w n="010-032-008">الا</w>
+        <pc> </pc>
+        <w n="010-032-009">الضلل</w>
+        <pc> </pc>
+      </l>
+      <l n="4">
+        <note/>
+        <w n="010-032-010">ڢانى</w>
+        <pc> </pc>
+        <w n="010-032-011">تصرڢون</w>
+        <pc> </pc>
+        <!-- Vers Break: '32'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٣٢</supplied>۝
+        </w>
+        <pc> </pc>
+        <w n="010-033-001">کذلک</w>
+        <pc> </pc>
+      </l>
+      <l n="5">
+        <note/>
+        <w n="010-033-002">حڧت</w>
+        <pc> </pc>
+        <w n="010-033-003">کلمت</w>
+        <pc> </pc>
+        <w n="010-033-004">ربک</w>
+        <pc> </pc>
+        <w n="010-033-005">على</w>
+        <pc> </pc>
+        <w n="010-033-006">الذين</w>
+        <pc> </pc>
+      </l>
+      <l n="6">
+        <note/>
+        <w n="010-033-007">ڢسڧوا</w>
+        <pc> </pc>
+        <w n="010-033-008">انهم</w>
+        <pc> </pc>
+        <w n="010-033-009">لا</w>
+        <pc> </pc>
+        <w n="010-033-010">يومنون</w>
+        <pc> </pc>
+        <!-- Vers Break: '33'-->
+        <w n="000-000-000"><supplied reason="omitted-in-original" source="#cairo_rasm">٣٣</supplied>۝
+        </w>
+        <pc> </pc>
+      </l>
+      <l n="7">
+        <note/>
+        <w n="010-034-001">
+          <mod rend="4_-_multiple_modification">اعود</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-002">
+          <mod rend="4_-_multiple_modification">ٮال‍له</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-003">
+          <mod rend="4_-_multiple_modification">مں</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-004">
+          <mod rend="4_-_multiple_modification">السىطاں</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-005">
+          <mod rend="4_-_multiple_modification">الرحىم</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+      </l>
+      <l n="8">
+        <note/>
+        <w n="010-034-006">
+          <mod rend="4_-_multiple_modification">ڧل</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-007">
+          <mod rend="4_-_multiple_modification">هل</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-008">
+          <mod rend="4_-_multiple_modification">من</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+        <w n="010-034-009">
+          <mod rend="4_-_multiple_modification">شرکايکم</mod>
+        </w>
+        <pc>
+          <mod rend="4_-_multiple_modification"> </mod>
+        </pc>
+      </l>
+    </body>
+  </text>
+</TEI>

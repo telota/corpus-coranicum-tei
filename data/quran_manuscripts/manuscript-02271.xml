@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2271">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), B. 3 [= Karatay 47]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>B. 3 [= Karatay 47]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>105 fol.; Writing surface: parchment; Shelfmark: B. 3; Text: Q 6:21-125; 4 lines per page; Dimensions: 165 x 105 mm; Script style: kūfī; Estimated date of production: 3rd (9th) century [according to Karatay]. </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 17: "47 B. 3 An‘am [Enam] suresinden bir bölüm Parşömen. 105mm boy ve 165mm eninde 105 yaprak. Sahifede kûfî yazı ile 115mm uzunl.[uğunda] 4 satır. Tahminen III. (IX) asırda yazılmış. Y. 1b ve Y. 2a ya sonradan Basmala ve Fātiḥā yazılmıştır. Miklepli kahve rengi deri ve ebru cilt. Kenarlarını kurt yemiştir. Bu ciltte Anʿam (6) suresinin 21. ayetinden aynı surenin 125. ayetinin sonuna kadar vardır."</p>
+              <p>This can be translated as follows: "47 B. 3 A part of the Sūra al-ʾAnʿām Parchment. 105 junk shaped leaves of 105 mm height and 165 mm width. The text area written in Kufic script [contains] 4 lines measuring 115 mm. Probably copied during the 3rd (9th) century. Basmala and Fātiḥā were added later onto the L. 1b and L. 2a. Brown leather binding with flap (miklep) and marbling (ebru). The corners are worm-eaten. The fragment begins with Q 6:21 (Sūra al-ʾAnʿām) and continues until the end of Q 6:125."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706325" n="1">
+              <title type="numeric" key="006:021:000-006:125:000">
+                                    006:021:000-006:125:000
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 105
+                                    <dimensions unit="mm"><width>165</width><height>105</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4">4 - 4 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Esra Gözeler</p>
+                <p>metadata: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_62033">
+                    </surface>
+  </facsimile>
+</TEI>

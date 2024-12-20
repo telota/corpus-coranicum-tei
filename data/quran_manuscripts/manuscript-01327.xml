@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1327">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New Haven, Connecticut, Yale University Art Gallery, 1952.52.10</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="71">Yale University Art Gallery
+                            , New Haven, Connecticut</repository>
+            <idno>1952.52.10</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. (bifolium); Writing surface: Parchment, Shelfmark: 1952.52.10; Qurʾānic Text: Q 34:45-47, Q 35:8-10; 18-21; Five lines per page; Dimensions:  146 x 114 mm; Script style: kūfī D.Vb; Estimated date of production: 900-1100 (??).</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://artgallery.yale.edu/collections/objects/50100">gallery's website</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_682526" n="1r">
+              <title type="numeric" key="034:046:007-034:047:002">
+                                    034:046:007-034:047:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682527" n="1v">
+              <title type="numeric" key="035:008:006-035:008:025">
+                                    035:008:006-035:008:025
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682528" n="2r">
+              <title type="numeric" key="035:009:001-035:010:001">
+                                    035:009:001-035:010:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682529" n="2v">
+              <title type="numeric" key="034:045:005-034:046:006">
+                                    034:045:005-034:046:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>108</width><height>146</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Vb
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>900-1100</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42531">
+      <graphic decls="#imageRights-1" url="manuscript/1327/9f652be0-3351-4425-8644-649c4c9119fd/manuscript-1327-page-42531-image-28203.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1327/39bf3eb7-367a-4728-9657-dc3e2276a5e0/manuscript-1327-page-42531-image-28204.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42532">
+      <graphic decls="#imageRights-1" url="manuscript/1327/2d029f25-8e50-40ed-bfe9-9296a7973e74/manuscript-1327-page-42532-image-28205.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1327/c37ab1b4-2b55-4272-943e-daf2c8aa975f/manuscript-1327-page-42532-image-28206.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_42533">
+      <graphic decls="#imageRights-1" url="manuscript/1327/d6278b4c-b88f-4b14-841e-67ace80d7284/manuscript-1327-page-42533-image-28207.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1327/731a1f9a-b120-4c6e-a94a-e0cf0c705bfe/manuscript-1327-page-42533-image-28208.tif"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_42534">
+      <graphic decls="#imageRights-1" url="manuscript/1327/b2096b6c-472f-40cc-adfe-968218bd42eb/manuscript-1327-page-42534-image-28209.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1327/d44c8a8a-ba32-490b-9da5-28d3fb7bd2c7/manuscript-1327-page-42534-image-28210.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

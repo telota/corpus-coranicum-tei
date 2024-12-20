@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jeremia 10:1-16</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1142" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1142</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Laut Q 10:18 verehren die Sünder (al-muǧrimūna, Q 10:17) an Gottes statt etwas, das ihnen weder schadet noch nützt (mā lā yaḍurruhum wa-lā yanfaʿuhum). Ähnlich heißt es auch in Jer 10:3-9, dass die von Menschen gemachten Götzenbilder weder Schaden zufügen, noch Gutes bewirken können (ki-loʾ yareʿu wə-gam heyṭeyḇ ʾeyn ʾotam). Eine weitere Gemeinsamkeit zwischen den beiden Texten ist, dass sich jeweils ein Lob Gottes anschließt, nachdem die Nutzlosigkeit anderer Götter hervorgehoben wurde. Vgl. dazu auch TUK_0515.
+</summary>
+            <msItem>
+              <title>Jeremia 10:1-16</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">6. Jh. v. Chr. ?</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>1 שִׁמְע֣וּ אֶת־הַדָּבָ֗ר אֲשֶׁ֨ר דִּבֶּ֧ר יְהוָ֛ה עֲלֵיכֶ֖ם בֵּ֥ית יִשְׂרָאֵֽל׃2 כֹּ֣ה׀ אָמַ֣ר יְהוָ֗ה אֶל־דֶּ֤רֶךְ הַגֹּויִם֙ אַל־תִּלְמָ֔דוּ וּמֵאֹתֹ֥ות הַשָּׁמַ֖יִם אַל־תֵּחָ֑תּוּ כִּֽי־יֵחַ֥תּוּ הַגֹּויִ֖ם מֵהֵֽמָּה׃3 כִּֽי־חֻקֹּ֥ות הָֽעַמִּ֖ים הֶ֣בֶל ה֑וּא כִּֽי־עֵץ֙ מִיַּ֣עַר כְּרָתֹ֔ו מַעֲשֵׂ֥ה יְדֵ֥י־חָרָ֖שׁ בַּֽמַּעֲצָֽד׃4 בְּכֶ֥סֶף וּבְזָהָ֖ב יְיַפֵּ֑הוּ בְּמַסְמְרֹ֧ות וּבְמַקָּבֹ֛ות יְחַזְּק֖וּם וְלֹ֥וא יָפִֽיק׃5 כְּתֹ֨מֶר מִקְשָׁ֥ה הֵ֨מָּה֙ וְלֹ֣א יְדַבֵּ֔רוּ נָשֹׂ֥וא יִנָּשׂ֖וּא כִּ֣י לֹ֣א יִצְעָ֑דוּ אַל־תִּֽירְא֤וּ מֵהֶם֙ כִּי־לֹ֣א יָרֵ֔עוּ וְגַם־הֵיטֵ֖יב אֵ֥ין אֹותָֽם׃ ס6 מֵאֵ֥ין כָּמֹ֖וךָ יְהוָ֑ה גָּדֹ֥ול אַתָּ֛ה וְגָדֹ֥ול שִׁמְךָ֖ בִּגְבוּרָֽה׃7 מִ֣י לֹ֤א יִֽרָאֲךָ֙ מֶ֣לֶךְ הַגֹּויִ֔ם כִּ֥י לְךָ֖ יָאָ֑תָה כִּ֣י בְכָל־חַכְמֵ֧י הַגֹּויִ֛ם וּבְכָל־מַלְכוּתָ֖ם מֵאֵ֥ין כָּמֹֽוךָ׃8 וּבְאַחַ֖ת יִבְעֲר֣וּ וְיִכְסָ֑לוּ מוּסַ֥ר הֲבָלִ֖ים עֵ֥ץ הֽוּא׃9 כֶּ֣סֶף מְרֻקָּ֞ע מִתַּרְשִׁ֣ישׁ יוּבָ֗א וְזָהָב֙ מֵֽאוּפָ֔ז מַעֲשֵׂ֥ה חָרָ֖שׁ וִידֵ֣י צֹורֵ֑ף תְּכֵ֤לֶת וְאַרְגָּמָן֙ לְבוּשָׁ֔ם מַעֲשֵׂ֥ה חֲכָמִ֖ים כֻּלָּֽם׃10 וַֽיהוָ֤ה אֱלֹהִים֙ אֱמֶ֔ת הֽוּא־אֱלֹהִ֥ים חַיִּ֖ים וּמֶ֣לֶךְ עֹולָ֑ם מִקִּצְפֹּו֙ תִּרְעַ֣שׁ הָאָ֔רֶץ וְלֹֽא־יָכִ֥לוּ גֹויִ֖ם זַעְמֹֽו׃ ס11 כִּדְנָה֙ תֵּאמְר֣וּן לְהֹ֔ום אֱלָ֣הַיָּ֔א דִּֽי־שְׁמַיָּ֥א וְאַרְקָ֖א לָ֣א עֲבַ֑דוּ יֵאבַ֧דוּ מֵֽאַרְעָ֛א וּמִן־תְּחֹ֥ות שְׁמַיָּ֖א אֵֽלֶּה׃ ס12 עֹשֵׂ֥ה אֶ֨רֶץ֙ בְּכֹחֹ֔ו מֵכִ֥ין תֵּבֵ֖ל בְּחָכְמָתֹ֑ו וּבִתְבוּנָתֹ֖ו נָטָ֥ה שָׁמָֽיִם׃13 לְקֹ֨ול תִּתֹּ֜ו הֲמֹ֥ון מַ֨יִם֙ בַּשָּׁמַ֔יִם וַיַּעֲלֶ֥ה נְשִׂאִ֖ים מִקְצֵ֣ה אֶרֶץ בְּרָקִ֤ים לַמָּטָר֙ עָשָׂ֔ה וַיֹּ֥וצֵא ר֖וּחַ מֵאֹצְרֹתָֽיו׃14 נִבְעַ֤ר כָּל־אָדָם֙ מִדַּ֔עַת הֹבִ֥ישׁ כָּל־צֹורֵ֖ף מִפָּ֑סֶל כִּ֛י שֶׁ֥קֶר נִסְכֹּ֖ו וְלֹא־ר֥וּחַ בָּֽם׃15 הֶ֣בֶל הֵ֔מָּה מַעֲשֵׂ֖ה תַּעְתֻּעִ֑ים בְּעֵ֥ת פְּקֻדָּתָ֖ם יֹאבֵֽדוּ׃16 לֹֽא־כְאֵ֜לֶּה חֵ֣לֶק יַעֲקֹ֗ב כִּֽי־יֹוצֵ֤ר הַכֹּל֙ ה֔וּא וְיִ֨שְׂרָאֵ֔ל שֵׁ֖בֶט נַֽחֲלָתֹ֑ו יְהוָ֥ה צְבָאֹ֖ות שְׁמֹֽו׃ ס</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Hört das Wort, das der Herr zu euch spricht, ihr vom Haus Israel. 2 So spricht der Herr: Gewöhnt euch nicht an den Weg der Völker, / erschreckt nicht vor den Zeichen des Himmels, / wenn auch die Völker vor ihnen erschrecken. 3 Denn die Gebräuche der Völker sind leerer Wahn. / Ihre Götzen sind nur Holz, das man im Wald schlägt, / ein Werk aus der Hand des Schnitzers, / mit dem Messer verfertigt. 4 Er verziert es mit Silber und Gold, / mit Nagel und Hammer macht er es fest, sodass es nicht wackelt. 5 Sie sind wie Vogelscheuchen im Gurkenfeld. / Sie können nicht reden; / man muss sie tragen, weil sie nicht gehen können. Fürchtet euch nicht vor ihnen; / denn sie können weder Schaden zufügen / noch Gutes bewirken. 6 Niemand, Herr, ist wie du: / Groß bist du und groß an Kraft ist dein Name. 7 Wer sollte dich nicht fürchten, du König der Völker? / Ja, das steht dir zu. Denn unter allen Weisen der Völker / und in jedem ihrer Reiche ist keiner wie du. 8 Sie alle sind töricht und dumm. / Was die nichtigen Götzen zu bieten haben - Holz ist es. 9 Sie sind gehämmertes Silber aus Tarschisch und Gold aus Ofir, / Arbeit des Schnitzers und Goldschmieds; violetter und roter Purpur ist ihr Gewand; / sie alle sind nur das Werk kunstfertiger Männer. 10 Der Herr aber ist in Wahrheit Gott, / lebendiger Gott und ewiger König. Vor seinem Zorn erbebt die Erde, / die Völker halten seinen Groll nicht aus. 11 Von jenen dagegen sollt ihr sagen: / Die Götter, die weder Himmel noch Erde erschufen, / sie sollen verschwinden von der Erde und unter dem Himmel. 12 Er aber hat die Erde erschaffen durch seine Kraft, / den Erdkreis gegründet durch seine Weisheit, / durch seine Einsicht den Himmel ausgespannt. 13 Lässt er seine Stimme ertönen, / dann rauschen die Wasser am Himmel. Wolken führt er herauf vom Rand der Erde; / er lässt es blitzen und regnen, / aus seinen Kammern entsendet er den Wind. 14 Töricht steht jeder Mensch da, ohne Erkenntnis, / beschämt jeder Goldschmied mit seinem Götzenbild; denn seine Bilder sind Trug, / kein Atem ist in ihnen. 15 Nichtig sind sie, ein Spottgebilde. / Zur Zeit ihrer Heimsuchung gehen sie zugrunde. 16 Anders der Gott, der Jakobs Anteil ist. / Denn er ist der Schöpfer des Alls und Israel der Stamm, der ihm gehört. / Herr der Heere ist sein Name.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

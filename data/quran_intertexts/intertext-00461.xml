@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 18:18-33</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_461" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>461</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie im Buch Genesis geht die Sohnesverheißung an Abraham auch im Koran der Ankündigung der Vernichtung Sodoms und Gomorrhas voraus (vgl. TUK_0464; im Koran werden die beiden Städte nicht namentlich genannt, in einigen Suren aber als al-muʾtafika, bzw. al-muʾtafikāt bezeichnet, vgl. TUK_0668). Die biblische und die koranische Version ensprechen sich insgesamt in ihren Grundzügen, weisen aber auch einige Unterschiede auf. So fällt die Darstellung im Koran summarisch aus; die Erzählung scheint als bekannt vorausgesetzt zu werden. Anders als in Genesis erscheint Gott Abraham nicht mehr selbst; stattdessen treten Gesandte, bzw. Engel auf, um Abraham die Geburt eines Sohnes und die Zerstörung Sodom und Gomorrhas anzukündigen. In dieser Hinsicht erinnert die koranische Darstellung an die Interpretation der Genesisstelle in der rabbinischen Literatur, wo die drei Männer mit Engeln identifiziert werden (vgl. Babylonischer Talmud, Baba meṣiʿa 86b ff. und Genesis Rabba 48,9; Speyer 1931: p. 148-149). Weiterhin berichten sowohl Genesis 18 als auch Q 11 und Q 29 (vgl. TUK_0667) davon, daß Abraham für die Bewohner von Sodom und Gomorrha Fürbitte einlegt. Im Unterschied zur Erzählung der Hebräischen Bibel, in der es Abraham gelingt, mit Gott zu verhandeln, lehnt Gott in den koranischen Textpassagen, die die Erzählung wiedergeben, Abrahams Fürbitte ab.
+</summary>
+            <msItem>
+              <title>Genesis 18:18-33</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וְאַבְרָהָם הָיוֹ יִהְיֶה לְגוֹי גָּדוֹל וְעָצוּם וְנִבְרְכוּ בוֹ כֹּל גּוֹיֵי הָאָרֶץ : כִּי יְדַעְתִּיו לְמַעַן אֲשֶׁר יְצַוֶּה אֶת־בָּנָיו וְאֶת־בֵּיתוֹ אַחֲרָיו וְשָׁמְרוּ דֶּרֶךְ יְהוָה לַעֲשׂוֹת צְדָקָה וּמִשְׁפָּט לְמַעַן הָבִיא יְהוָה עַל־אַבְרָהָם אֵת אֲשֶׁר־דִּבֶּר עָלָיו : וַיֹּאמֶר יְהוָה זַעֲקַת סְדֹם וַעֲמֹרָה כִּי־רָבָּה וְחַטָּאתָם כִּי כָבְדָה מְאֹד : אֵרֲדָה־נָּא וְאֶרְאֶה הַכְּצַעֲקָתָהּ הַבָּאָה אֵלַי עָשׂוּ כָּלָה וְאִם־לֹא אֵדָעָה : וַיִּפְנוּ מִשָּׁם הָאֲנָשִׁים וַיֵּלְכוּ סְדֹמָה וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָה : וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָׁע : אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּהּ : חָלִלָה לְּךָ מֵעֲשֹׂת כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע וְהָיָה כַצַּדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כָּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּט : וַיֹּאמֶר יְהוָה אִם־אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר וְנָשָׂאתִי לְכָל־הַמָּקוֹם בַּעֲבוּרָם : וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵפֶר : אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּׁה : וַיֹּסֶף עוֹד לְדַבֵּר אֵלָיו וַיֹּאמַר אוּלַי יִמָּצְאוּן שָׁם אַרְבָּעִים וַיֹּאמֶר לֹא אֶעֱשֶׂה בַּעֲבוּר הָאַרְבָּעִים : וַיֹּאמֶר אַל־נָא יִחַר לַאדֹנָי וַאֲדַבֵּרָה אוּלַי יִמָּצְאוּן שָׁם שְׁלֹשִׁים וַיֹּאמֶר לֹא אֶעֱשֶׂה אִם־אֶמְצָא שָׁם שְׁלֹשִׁים : וַיֹּאמֶר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי אוּלַי יִמָּצְאוּן שָׁם עֶשְׂרִים וַיֹּאמֶר לֹא אַשְׁחִית בַּעֲבוּר הָעֶשְׂרִים : וַיֹּאמֶר אַל־נָא יִחַר לַאדֹנָי וַאֲדַבְּרָה אַךְ־הַפַּעַם אוּלַי יִמָּצְאוּן שָׁם עֲשָׂרָה וַיֹּאמֶר לֹא אַשְׁחִית בַּעֲבוּר הָעֲשָׂרָה : וַיֵּלֶךְ יְהוָה כַּאֲשֶׁר כִּלָּה לְדַבֵּר אֶל־אַבְרָהָם וְאַבְרָהָם שָׁב לִמְקֹמוֹ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	18 Abraham soll doch zu einem großen, mächtigen Volk werden, durch ihn sollen alle Völker der Erde Segen erlangen. 19 Denn ich habe ihn dazu auserwählt, dass er seinen Söhnen und seinem Haus nach ihm aufträgt, den Weg des Herrn einzuhalten und zu tun, was gut und recht ist, damit der Herr seine Zusagen an Abraham erfüllen kann. 20 Der Herr sprach also: Das Klagegeschrei über Sodom und Gomorra, ja, das ist laut geworden, und ihre Sünde, ja, die ist schwer. 21 Ich will hinabgehen und sehen, ob ihr Tun wirklich dem Klagegeschrei entspricht, das zu mir gedrungen ist. Ich will es wissen. 22 Die Männer wandten sich von dort ab und gingen auf Sodom zu. Abraham aber stand noch immer vor dem Herrn. 23 Er trat näher und sagte: Willst du auch den Gerechten mit den Ruchlosen wegraffen? 24 Vielleicht gibt es fünfzig Gerechte in der Stadt: Willst du auch sie wegraffen und nicht doch dem Ort vergeben wegen der fünfzig Gerechten dort? 25 Das kannst du doch nicht tun, die Gerechten zusammen mit den Ruchlosen umbringen. Dann ginge es ja dem Gerechten genauso wie dem Ruchlosen. Das kannst du doch nicht tun. Sollte sich der Richter über die ganze Erde nicht an das Recht halten? 26 Da sprach der Herr: Wenn ich in Sodom, in der Stadt, fünfzig Gerechte finde, werde ich ihretwegen dem ganzen Ort vergeben. 27 Abraham antwortete und sprach: Ich habe es nun einmal unternommen, mit meinem Herrn zu reden, obwohl ich Staub und Asche bin. 28 Vielleicht fehlen an den fünfzig Gerechten fünf. Wirst du wegen der fünf die ganze Stadt vernichten? Nein, sagte er, ich werde sie nicht vernichten, wenn ich dort fünfundvierzig finde. 29 Er fuhr fort, zu ihm zu reden: Vielleicht finden sich dort nur vierzig. Da sprach er: Ich werde es der vierzig wegen nicht tun. 30 Und weiter sagte er: Mein Herr zürne nicht, wenn ich weiterrede. Vielleicht finden sich dort nur dreißig. Er entgegnete: Ich werde es nicht tun, wenn ich dort dreißig finde. 31 Darauf sagte er: Ich habe es nun einmal unternommen, mit meinem Herrn zu reden. Vielleicht finden sich dort nur zwanzig. Er antwortete: Ich werde sie um der zwanzig willen nicht vernichten. 32 Und nochmals sagte er: Mein Herr zürne nicht, wenn ich nur noch einmal das Wort ergreife. Vielleicht finden sich dort nur zehn. Und wiederum sprach er: Ich werde sie um der zehn willen nicht vernichten. 33 Nachdem der Herr das Gespräch mit Abraham beendet hatte, ging er weg und Abraham kehrte heim.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

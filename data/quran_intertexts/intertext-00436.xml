@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 13:1-30</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_436" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>436</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 48:29 und Q 2:261 vergleichen die Gläubigen, bzw. diejenigen, die ihr Vermögen auf Gottes Weg spenden, mit einem fruchtbaren Samenkorn. Dabei wird Q 48:29 durch maṯaluhum fī l-inǧīl als Zitat aus dem Evangelium gekennzeichnet. Mit Pautz 1898: p. 67 kann man hierin einen Reflex von Matthäus 13:8 oder 13:23 sehen (vgl. auch Markus 4:8.20 und Lukas 8:8.15). A. Maier 1839: p. 91 denkt eher an Matthäus 13:31 ("Mit dem Himmelreich ist es wie mit einem Senfkorn, das ein Mann auf seinen Acker säte"), doch bezieht sich dieses Gleichnis nicht auf die Gläubigen, sondern auf das Himmelreich, ist insofern also weniger naheliegend. Vielleicht sind aber auch beide Gleichnisse zusammengeflossen.
+</summary>
+            <msItem>
+              <title>Matthäus 13:1-30</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Maier, A. &amp;#x201C;Christliche Bestandtheile Des Korans, Mit Besonderer R&amp;#xFC;cksicht Auf Die Angebliche Uebersetzung Des N. T. in Das Arabische Durch Werka, Den Sohn Nausils.&amp;#x201D; Zeitschrift F&amp;#xFC;r Theologie 2 (1839): 34&amp;#x2013;97. http://idb.ub.uni-tuebingen.de/diglit/zth_1839_02.</bibl>
+              <bibl type="literatur">Pautz, Otto. Muhammeds Lehre von Der Offenbarung. Leipzig: Hinrichs, 1898.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Εν τῇ ἡμέρᾳ ἐκείνῃ ἐξελθὼν ὁ Ἰησοῦς τῆς οἰκίας ἐκάθητο παρὰ τὴν θάλασσαν• 2 καὶ συνήχθησαν πρὸς αὐτὸν ὄχλοι πολλοί, ὥστε αὐτὸν εἰς πλοῖον ἐμβάντα καθῆσθαι, καὶ πᾶς ὁ ὄχλος ἐπὶ τὸν αἰγιαλὸν εἱστήκει. 3 Καὶ ἐλάλησεν αὐτοῖς πολλὰ ἐν παραβολαῖς λέγων• ἰδοὺ ἐξῆλθεν ὁ σπείρων τοῦ σπείρειν. 4 καὶ ἐν τῷ σπείρειν αὐτὸν ἃ μὲν ἔπεσεν παρὰ τὴν ὁδόν, καὶ ἐλθόντα τὰ πετεινὰ κατέφαγεν αὐτά. 5 ἄλλα δὲ ἔπεσεν ἐπὶ τὰ πετρώδη ὅπου οὐκ εἶχεν γῆν πολλήν, καὶ εὐθέως ἐξανέτειλεν διὰ τὸ μὴ ἔχειν βάθος γῆς• 6 ἡλίου δὲ ἀνατείλαντος ἐκαυματίσθη καὶ διὰ τὸ μὴ ἔχειν ῥίζαν ἐξηράνθη. 7 ἄλλα δὲ ἔπεσεν ἐπὶ τὰς ἀκάνθας, καὶ ἀνέβησαν αἱ ἄκανθαι καὶ ἔπνιξαν αὐτά. 8 ἄλλα δὲ ἔπεσεν ἐπὶ τὴν γῆν τὴν καλὴν καὶ ἐδίδου καρπόν, ὃ μὲν ἑκατόν, ὃ δὲ ἑξήκοντα, ὃ δὲ τριάκοντα. 9 ὁ ἔχων ὦτα ἀκουέτω. 10 Καὶ προσελθόντες οἱ μαθηταὶ εἶπαν αὐτῷ• διὰ τί ἐν παραβολαῖς λαλεῖς αὐτοῖς; 11 ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς• ὅτι ὑμῖν δέδοται γνῶναι τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν, ἐκείνοις δὲ οὐ δέδοται. 12 ὅστις γὰρ ἔχει, δοθήσεται αὐτῷ καὶ περισσευθήσεται• ὅστις δὲ οὐκ ἔχει, καὶ ὃ ἔχει ἀρθήσεται ἀπ᾽ αὐτοῦ. 13 διὰ τοῦτο ἐν παραβολαῖς αὐτοῖς λαλῶ, ὅτι βλέποντες οὐ βλέπουσιν καὶ ἀκούοντες οὐκ ἀκούουσιν οὐδὲ συνίουσιν, 14 καὶ ἀναπληροῦται αὐτοῖς ἡ προφητεία Ἠσαΐου ἡ λέγουσα• ἀκοῇ ἀκούσετε καὶ οὐ μὴ συνῆτε, καὶ βλέποντες βλέψετε καὶ οὐ μὴ ἴδητε. 15 ἐπαχύνθη γὰρ ἡ καρδία τοῦ λαοῦ τούτου, καὶ τοῖς ὠσὶν βαρέως ἤκουσαν καὶ τοὺς ὀφθαλμοὺς αὐτῶν ἐκάμμυσαν, μήποτε ἴδωσιν τοῖς ὀφθαλμοῖς καὶ τοῖς ὠσὶν ἀκούσωσιν καὶ τῇ καρδίᾳ συνῶσιν καὶ ἐπιστρέψωσιν καὶ ἰάσομαι αὐτούς. 16 ὑμῶν δὲ μακάριοι οἱ ὀφθαλμοὶ ὅτι βλέπουσιν καὶ τὰ ὦτα ὑμῶν ὅτι ἀκούουσιν. 17 ἀμὴν γὰρ λέγω ὑμῖν ὅτι πολλοὶ προφῆται καὶ δίκαιοι ἐπεθύμησαν ἰδεῖν ἃ βλέπετε καὶ οὐκ εἶδαν, καὶ ἀκοῦσαι ἃ ἀκούετε καὶ οὐκ ἤκουσαν. 18 ὑμεῖς οὖν ἀκούσατε τὴν παραβολὴν τοῦ σπείραντος. 19 παντὸς ἀκούοντος τὸν λόγον τῆς βασιλείας καὶ μὴ συνιέντος ἔρχεται ὁ πονηρὸς καὶ ἁρπάζει τὸ ἐσπαρμένον ἐν τῇ καρδίᾳ αὐτοῦ, οὗτός ἐστιν ὁ παρὰ τὴν ὁδὸν σπαρείς. 20 ὁ δὲ ἐπὶ τὰ πετρώδη σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ εὐθὺς μετὰ χαρᾶς λαμβάνων αὐτόν, 21 οὐκ ἔχει δὲ ῥίζαν ἐν ἑαυτῷ ἀλλὰ πρόσκαιρός ἐστιν, γενομένης δὲ θλίψεως ἢ διωγμοῦ διὰ τὸν λόγον εὐθὺς σκανδαλίζεται. 22 ὁ δὲ εἰς τὰς ἀκάνθας σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων, καὶ ἡ μέριμνα τοῦ αἰῶνος καὶ ἡ ἀπάτη τοῦ πλούτου συμπνίγει τὸν λόγον καὶ ἄκαρπος γίνεται. 23 ὁ δὲ ἐπὶ τὴν καλὴν γῆν σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ συνιείς, ὃς δὴ καρποφορεῖ καὶ ποιεῖ ὃ μὲν ἑκατόν, ὃ δὲ ἑξήκοντα, ὃ δὲ τριάκοντα. 24 Ἄλλην παραβολὴν παρέθηκεν αὐτοῖς λέγων• ὡμοιώθη ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ σπείραντι καλὸν σπέρμα ἐν τῷ ἀγρῷ αὐτοῦ. 25 ἐν δὲ τῷ καθεύδειν τοὺς ἀνθρώπους ἦλθεν αὐτοῦ ὁ ἐχθρὸς καὶ ἐπέσπειρεν ζιζάνια ἀνὰ μέσον τοῦ σίτου καὶ ἀπῆλθεν. 26 ὅτε δὲ ἐβλάστησεν ὁ χόρτος καὶ καρπὸν ἐποίησεν, τότε ἐφάνη καὶ τὰ ζιζάνια. 27 προσελθόντες δὲ οἱ δοῦλοι τοῦ οἰκοδεσπότου εἶπον αὐτῷ• κύριε, οὐχὶ καλὸν σπέρμα ἔσπειρας ἐν τῷ σῷ ἀγρῷ; πόθεν οὖν ἔχει ζιζάνια; 28 ὁ δὲ ἔφη αὐτοῖς• ἐχθρὸς ἄνθρωπος τοῦτο ἐποίησεν. οἱ δὲ δοῦλοι λέγουσιν αὐτῷ• θέλεις οὖν ἀπελθόντες συλλέξωμεν αὐτά; 29 ὁ δέ φησιν• οὔ, μήποτε συλλέγοντες τὰ ζιζάνια ἐκριζώσητε ἅμα αὐτοῖς τὸν σῖτον. 30 ἄφετε συναυξάνεσθαι ἀμφότερα ἕως τοῦ θερισμοῦ, καὶ ἐν καιρῷ τοῦ θερισμοῦ ἐρῶ τοῖς θερισταῖς• συλλέξατε πρῶτον τὰ ζιζάνια καὶ δήσατε αὐτὰ εἰς δέσμας πρὸς τὸ κατακαῦσαι αὐτά, τὸν δὲ σῖτον συναγάγετε εἰς τὴν ἀποθήκην μου.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 An jenem Tag verließ Jesus das Haus und setzte sich an das Ufer des Sees. 2 Da versammelte sich eine große Menschenmenge um ihn. Er stieg deshalb in ein Boot und setzte sich; die Leute aber standen am Ufer. 3 Und er sprach lange zu ihnen in Form von Gleichnissen. Er sagte: Ein Sämann ging aufs Feld, um zu säen. 4 Als er säte, fiel ein Teil der Körner auf den Weg und die Vögel kamen und fraßen sie. 5 Ein anderer Teil fiel auf felsigen Boden, wo es nur wenig Erde gab, und ging sofort auf, weil das Erdreich nicht tief war; 6 als aber die Sonne hochstieg, wurde die Saat versengt und verdorrte, weil sie keine Wurzeln hatte. 7 Wieder ein anderer Teil fiel in die Dornen und die Dornen wuchsen und erstickten die Saat. 8 Ein anderer Teil schließlich fiel auf guten Boden und brachte Frucht, teils hundertfach, teils sechzigfach, teils dreißigfach. 9 Wer Ohren hat, der höre! 10 Da kamen die Jünger zu ihm und sagten: Warum redest du zu ihnen in Gleichnissen? 11 Er antwortete: Euch ist es gegeben, die Geheimnisse des Himmelreichs zu erkennen; ihnen aber ist es nicht gegeben. 12 Denn wer hat, dem wird gegeben, und er wird im Überfluss haben; wer aber nicht hat, dem wird auch noch weggenommen, was er hat. 13 Deshalb rede ich zu ihnen in Gleichnissen, weil sie sehen und doch nicht sehen, weil sie hören und doch nicht hören und nichts verstehen. 14 An ihnen erfüllt sich die Weissagung Jesajas: Hören sollt ihr, hören, aber nicht verstehen; / sehen sollt ihr, sehen, aber nicht erkennen. 15 Denn das Herz dieses Volkes ist hart geworden / und mit ihren Ohren hören sie nur schwer / und ihre Augen halten sie geschlossen, / damit sie mit ihren Augen nicht sehen / und mit ihren Ohren nicht hören, / damit sie mit ihrem Herzen / nicht zur Einsicht kommen, / damit sie sich nicht bekehren und ich sie nicht heile. 16 Ihr aber seid selig, denn eure Augen sehen und eure Ohren hören. 17 Amen, ich sage euch: Viele Propheten und Gerechte haben sich danach gesehnt zu sehen, was ihr seht, und haben es nicht gesehen, und zu hören, was ihr hört, und haben es nicht gehört. 18 Hört also, was das Gleichnis vom Sämann bedeutet. 19 Immer wenn ein Mensch das Wort vom Reich hört und es nicht versteht, kommt der Böse und nimmt alles weg, was diesem Menschen ins Herz gesät wurde; hier ist der Samen auf den Weg gefallen. 20 Auf felsigen Boden ist der Samen bei dem gefallen, der das Wort hört und sofort freudig aufnimmt, 21 aber keine Wurzeln hat, sondern unbeständig ist; sobald er um des Wortes willen bedrängt oder verfolgt wird, kommt er zu Fall. 22 In die Dornen ist der Samen bei dem gefallen, der das Wort zwar hört, aber dann ersticken es die Sorgen dieser Welt und der trügerische Reichtum und es bringt keine Frucht. 23 Auf guten Boden ist der Samen bei dem gesät, der das Wort hört und es auch versteht; er bringt dann Frucht, hundertfach oder sechzigfach oder dreißigfach. 24 Und Jesus erzählte ihnen noch ein anderes Gleichnis: Mit dem Himmelreich ist es wie mit einem Mann, der guten Samen auf seinen Acker säte. 25 Während nun die Leute schliefen, kam sein Feind, säte Unkraut unter den Weizen und ging wieder weg. 26 Als die Saat aufging und sich die Ähren bildeten, kam auch das Unkraut zum Vorschein. 27 Da gingen die Knechte zu dem Gutsherrn und sagten: Herr, hast du nicht guten Samen auf deinen Acker gesät? Woher kommt dann das Unkraut? 28 Er antwortete: Das hat ein Feind von mir getan. Da sagten die Knechte zu ihm: Sollen wir gehen und es ausreißen? 29 Er entgegnete: Nein, sonst reißt ihr zusammen mit dem Unkraut auch den Weizen aus. 30 Lasst beides wachsen bis zur Ernte. Wenn dann die Zeit der Ernte da ist, werde ich den Arbeitern sagen: Sammelt zuerst das Unkraut und bindet es in Bündel, um es zu verbrennen; den Weizen aber bringt in meine Scheune.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

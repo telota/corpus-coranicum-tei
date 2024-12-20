@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vīdēvdād 19: 26-27</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1392" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1392</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In den koranischen Schilderungen des Jüngsten Gerichtes findet sich die 
+Vorstellung, dass die Taten der Menschen in einem Register erfasst sind,
+ das Grundlage für ihre Beurteilung sein wird. Dieses Konzept, das im 
+Koran stellenweise variiert wird, findet sich neben zahlreichen Belegen 
+in der christlichen und jüdischen Tradition (vgl. TUK_0130, TUK_0892, TUK_0914, TUK_0915, TUK_1071) auch im Zoroastrismus (vgl. den Überblick bei Williams Jackson 1895). Bereits in Yasna 31:13–14, einem Teil der Zarathustra zugeschriebenen Ahunauuaitī Gāthā
+ (zu den Hymnen Zarathustras siehe Humbach 2000), wird die Vorstellung 
+artikuliert, dass die Taten derjenigen, welche dem Pfad der Wahrheit (Aša; vgl. Schlehrath and Skjærvø 1987) folgen, ebenso wie die derjenigen, die den Pfad der Lüge (Druj; vgl. Kellens 2011) beschreiten, vermerkt und zu ihrer Beurteilung herangezogen werden (TUK_1303).
+ Auch in anderen gāthischen Passagen findet sich die korrespondierende 
+Idee, wonach die guten Taten des Menschen im Himmel verzeichnet werden (Yasna 49:10, 45:8, 34:2 passim; siehe dazu auch Pavry 1926: 49–53); ebenso lassen sich im Jungawesta Belege finden (Yašt 10:32; Vīsparad 15:1, siehe dazu auch Pavry 1926: 60–71).
+
+Das Vīdēvdād („Gesetz zur Verwerfung/Ablehnung der Dämonen“; siehe für verschiedene Deutungen der jungawestischen Wendung dāta vīdēuua Cantera 2006 und Skjærvø 2007: 106) bildet mit Yasna, Yašts, Visparad und Khorde Avesta das Corpus der heute erhaltenen awestischen Texte (siehe dazu Hintze 2009). Es stellte den 19. Teil (nask) des 21 Teile umfassenden sasanidischen Awesta dar (siehe dazu Cantera 2004; zum Vīdēvdād Malandra 2006, Skjærvø 2007 und Hintze 2009: 38–46). Hauptsächlich mit rechtlichen Fragen befasst, insbesondere Reinheitsvorschriften, bildet das Vīdēvdād zusammen mit sechs weiteren, heute verlorenen Büchern das Dād Nask, einen der drei Hauptteile des Awesta (Shaki 1993). Alter und Entstehungszeit wurden und werden kontrovers diskutiert: Während die ältere Forschung eine westiranische Provenienz annahm (siehe den Überblick bei Moazami 2014: 6–8), wird in jüngerer Zeit von der Kompilation verschiedener älterer und jüngerer Textschichten ausgegangen, die einen alten ostiranischen Kern und eine Kanonisierung zu Beginn der Achämenidenzeit wahrscheinlich erscheinen lassen (Skjærvø 2007: 112; Hintze 2009: 45–46).
+
+Der Text gliedert sich in 22 Kapitel und ist vornehmlich als Dialog zwischen Zarathustra und Ahura Mazdā gestaltet. Der mit Abstand größte Teil des Textes (3–17) ist Reinheitsvorschriften und Angaben zum Umgang mit Verletzungen derselben durch die Menschen gewidmet. Die ersten zwei und letzten fünf Kapitel befassen sich mit mythologischen Themen: die Erschaffung der Welt durch Ahura Mazdā (1), die Herrschaft Yimas über die Welt (2), die Versuchung Zarathustras und das Schicksal der Seele nach dem Tode (19), Invokationen des Wassers, der Sonne, des Mondes, der Sterne und der Kuh (21) sowie die Erschaffung von Krankheiten und Leiden durch Aŋra Mainyu und Ahura Mazdās Abwehr, wobei er sich eines heiligen Mantra und der Hilfe Airyamans (22) bedient (für eine Zusammenfassung siehe Malandra 2006).</summary>
+            <msItem>
+              <title>Vīdēvdād 19: 26-27</title>
+              <author/>
+              <textLang mainLang="">Awestisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Ca. 6. Jh. v. Chr. (verschriftlicht nach 500 n. Chr.)</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Geldner 1895: 127–128</bibl>
+              <bibl type="literatur">Cantera, Alberto: &amp;#x201E;Was ist Av. d&amp;#x101;ta- v&amp;#x12B;da&amp;#x113;uua?&amp;#x201C; In: Antonio Panaino &amp;amp; Andrea Piras (Hrsg.), Proceedings of the 5th Conference of the Societas Iranologica Europaea. Mailand 2006, S. 53&amp;#x2013;62.</bibl>
+              <bibl type="literatur">Cantera, Alberto: Studien zur Pahlavi-&amp;#xDC;bersetzung des Avesta. Wiesbaden 2004.</bibl>
+              <bibl type="literatur">Geldner, Karl F.: Avesta. Die Heiligen B&amp;#xFC;cher der Parsen. Stuttgart 1895.</bibl>
+              <bibl type="literatur">Hintze, Almut: &amp;#x201E;Avesta Literature&amp;#x201C;. In: Ronald E. Emmerick &amp;amp; Maria Macuch (Hrsg.), The Literature of Pre-Islamic Iran. Companion Volume I. London/New York 2009, S. 1&amp;#x2013;71. A History of Persian Literature.</bibl>
+              <bibl type="literatur">Malandra, William W.: &amp;#x201E;Vend&amp;#x12B;d&amp;#x101;d I. Survey of the history and contents of the text&amp;#x201C;. Encyclopaedia Iranica.</bibl>
+              <bibl type="literatur">Moazami, Mahnaz: Wrestling with the Demons of the Pahlavi Wid&amp;#x113;wd&amp;#x101;d. Transcription, Translation and Commentary. Leiden/Boston 2014.</bibl>
+              <bibl type="literatur">Shaki, Mansour: &amp;#x201E;D&amp;#x101;d Nask&amp;#x201C;. Encyclopaedia Iranica 6.5: 546&amp;#x2013;549.</bibl>
+              <bibl type="literatur">Skj&amp;#xE6;rv&amp;#xF8;, Prods O.: &amp;#x201E;The Videvdad: its Ritual-Mythical Significance&amp;#x201C;. In: Vesta Sarkhosh Curtis &amp;amp; Sarah Stewart (Hrsg.), The Age of the Parthians. London/New York 2007, S. 105&amp;#x2013;141. The Idea of Iran.</bibl>
+              <bibl type="literatur">Wolff, Fritz: Avesta. Die heiligen B&amp;#xFC;cher der Parsen. Stra&amp;#xDF;burg 1910.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>26 Es fragte Zaraθuštra den Ahura Mazdāh: „Allwissender Ahura Mazdāh! Soll ich den ašagläubigen Mann antreiben,  soll ich die ašagläubige Frau antreiben,  soll ich (sie) antreiben, (daß) sie der druggläubigen daëvaanbetenden . . . Menschen ahurageschaffenes Land sich aneignen, (ihr) fließendes Wasser, das Wachstum (ihrer) Getreide (und) ihr übriges Besitztum sich aneignen)?“ Da sagte Ahura Mazdāh: „Du sollst (sie dazu) antreiben, o ašagläubiger Zaraθuštra!“
+
+27 „O Schöpfer (der stofflichen Welt, ašaehrwürdiger!) Wo finden die Buchungen statt,  wo werden die Buchungen (mit einander) verglichen, wo werden die Buchungen zum Abschluß gebracht,  wo werden die Buchungen gegen einander abgerechnet,  (die) der Mensch im stofflichen Leben für seine Seele veranlaßt?“ (Wolff 1910: 430)</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

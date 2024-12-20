@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Sukka 51b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1350" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1350</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Islamische Korankommentare beziehen Q 17:4–8 auf die Zerstörungen des Jerusalemer Tempels (586 v. Chr durch die Babylonier und 70 n. Chr. durch die Römer). Es könnte sich um eine Erinnerung an die biblische Prophezeiung in Lev 26:14–39 handeln: „Wenn ihr mir aber nicht gehorcht und nicht all diese Gebote tut / und wenn ihr meine Ordnungen verwerft und eure Seele meine Rechtsbestimmungen verabscheut, so dass ihr nicht alle meine Gebote tut und dass ihr meinen Bund brecht, / dann werde ich meinerseits euch dieses tun: Ich werde Entsetzen über euch verhängen, Schwindsucht und Fieberglut, die die Augen erlöschen und die Seele verschmachten lassen. Und ihr werdet vergeblich euren Samen säen, denn eure Feinde werden ihn verzehren. / Und ich werde mein Angesicht gegen euch richten, dass ihr vor euren Feinden geschlagen werdet. Und eure Hasser werden über euch herrschen, und ihr werdet fliehen, obwohl niemand euch nachjagt. / Und wenn ihr mir daraufhin nicht gehorcht, dann werde ich fortfahren, euch zu züchtigen, und zwar siebenmal wegen eurer Sünden. / Und ich werde euren starken Hochmut brechen und werde euren Himmel wie Eisen machen und eure Erde wie Bronze. / Und eure Kraft wird sich umsonst verbrauchen, und euer Land wird seinen Ertrag nicht geben, und die Bäume des Landes werden ihre Frucht nicht geben. / Wenn ihr euch aber mir entgegenstellt und mir nicht gehorchen wollt, dann werde ich euch weiter schlagen, und zwar siebenfach nach euren Sünden. / Und ich werde die Tiere des Feldes unter euch senden, dass sie euch kinderlos machen und euer Vieh ausrotten und euch an Zahl verringern, und eure Wege sollen öde werden. / Und wenn ihr euch dadurch nicht von mir zurechtweisen lasst und euch mir entgegenstellt, / dann werde ich meinerseits mich euch entgegenstellen /, und ich meinerseits werde euch schlagen, und zwar siebenfach wegen eurer Sünden. / Und ich werde das Schwert über euch bringen, das die Rache des Bundes vollzieht. Und zieht ihr euch in eure Städte zurück, dann werde ich die Pest in eure Mitte senden, und ihr werdet in die Hand des Feindes gegeben werden. / Wenn ich euch den Stab / des Brotes zerbreche, werden zehn Frauen euer Brot in einem Ofen backen, und sie werden euch das Brot zurückgeben nach dem Gewicht /; und ihr werdet essen und nicht satt werden. / Und wenn ihr bei alldem mir nicht gehorcht und euch mir entgegenstellt, / dann werde ich mich euch im Grimm entgegenstellen /, und ich meinerseits werde euch züchtigen wegen eurer Sünden, und zwar siebenfach. / Und ihr werdet das Fleisch eurer Söhne essen, und das Fleisch eurer Töchter werdet ihr essen. / Und ich werde eure Höhen/ austilgen und eure Räucheraltäre ausrotten, und ich werde eure Leichen auf die Leichen eurer Götzen/ werfen, und meine Seele wird euch verabscheuen. / Und ich werde eure Städte zur Trümmerstätte machen und eure Heiligtümer öde machen, und ich werde euren wohlgefälligen Geruch / nicht riechen. / Und ich werde das Land öde machen, dass eure Feinde, die darin wohnen, sich darüber entsetzen sollen. / Euch aber werde ich unter die Nationen zerstreuen, und ich werde das Schwert hinter euch herziehen. Euer Land wird eine Öde und eure Städte werden eine Trümmerstätte sein. / Dann endlich wird das Land seine Sabbate ersetzt bekommen, all die Tage seiner Verödung, während ihr im Land eurer Feinde seid. Dann endlich wird das Land ruhen und seine Sabbate ersetzt bekommen. / All die Tage seiner Verödung wird es ruhen, was es nicht an euren Sabbaten geruht hat, als ihr darin wohntet. / Und die Übriggebliebenen von euch – in ihr Herz werde ich Verzagtheit bringen in den Ländern ihrer Feinde; und das Rauschen eines verwehten Blattes wird sie verfolgen, und sie werden fliehen, wie man vor dem Schwert flieht, und fallen, obwohl niemand sie verfolgt. / Und sie werden einer über den andern hinstürzen wie vor dem Schwert, obwohl niemand sie verfolgt; und ihr werdet vor euren Feinden nicht standhalten können. / Ihr werdet umkommen unter den Nationen, und das Land eurer Feinde wird euch fressen. / Und die Übriggebliebenen von euch werden in den Ländern eurer Feinde vergehen / in ihrer Schuld und auch in der Schuld ihrer Väter mit ihnen vergehen“ (vgl. auch die intertextuellen Bezüge zu Ez 5,5–7,27 das Gericht über Jerusalem betreffend). Diese Deutung wird auch durch Textvergleiche mit spätantiken Quellen (siehe TUK_1338, TUK_1344 und TUK_1437) unterstützt. Der Herodianische Tempel war um die Zeitenwende nicht nur das zentrale Kultheiligtum der Juden (vgl. E. Otto, 2008), sondern galt auch als eines der prachtvollsten Bauwerke der antiken Welt schlechthin. Neben Flavius Josephus (37/38 n. Chr.–ca. 100 n. Chr.; Bellum Judaicum V, 184–247, vgl. TUK_1446; Antiquitates 15, 380–423) spricht der römische Historiker Tacitus (ca. 58 n. Chr.–120 n. Chr.) von „einem Tempel ungeheurer Pracht“ (immensae opulentiae templum, Historiae 5, 8). Plinius der Ältere (23/24 n. Chr.–79 n. Chr.) sieht Jerusalem als „die weitaus berühmteste unter den Städten des Ostens“ (Hierosolyma, longe clarissima urbium Orientis, Plinius, Naturalis Historia 5, 70). Ähnlich schildert der Babylonische Talmud (bSukka 51b) Jerusalems Pracht (siehe auch ySukka 55a oder bBaba Batra 4a).Jerusalem gilt auch im Mittelalter und bis in die Neuzeit als eine herausragende Stadt mit unvergleichbarer Opulenz. Im Gegensatz zur Mosaikkarte von Madaba (6. Jh. n. Chr.), auf der Tempel selbst nicht zu sehen ist, sondern bereits durch die Grabeskirche (griech. Naos tes Anastaseos) ersetzt ist, der den Golgathafelsen und das Grab Christi umschließt, ist es im Mittelalter insbesondere die  Bedeutung des  jüdischen Tempels - MIttelpunkt der Erde --, die Jerusalems Pracht ausmacht. Der Humanist und Historiker Hartmann Schedel (1440–1514) illustriert seine 1493 veröffentlichte schedelsche Weltchronik mit einer Stadtansicht Jerusalems, die die Pracht des Jerusalemer Tempels in die Mitte der Stadt erstrahlen lässt - auch wenn der Jerusalmer Tempel schon über ein Jahrtausend zerstört ist, so ist die Pracht des Tempels auch bei Schedel noch deutlich Teil des kulturellen Gedächtnisses.Der babylonische Talmud [bT] (hebr. ha-talmud ha-bavli) zählt wie kein anderes Werk zum Traditionsschatz des rabbinischen Judentums (vgl. Günter Stemberger, Das klassische Judentum. Kultur und Geschichte der rabbinischen Zeit [70. n. Chr.–1040 n. Chr.],
+ München: C.H. Beck, 1979) und ist damit ein Hauptzeuge der jüdischen 
+Gedankenwelt klassischer Zeit. Der babylonische Talmud bezeugt eine 
+Verhandlung von Themenfeldern und Einzelproblemen, die bereits in der 
+Mischna [M] und der Baraita/Tosefta [T] aufgeworfen wurden. Es handelt 
+sich aber nicht nur um eine Sammlung rechtsphilosophischer und 
+rechtstheologischer Diskussionen, sondern bewahrt auch eine Vielzahl 
+haggadischer Materialien, welche Rückschlüsse auf die Theologie des 
+rabbinischen Judentums zulassen (vgl. Salomon Schechter, Aspects of Rabbinic Theology, London: A &amp; C Black, 1909; Ephraim E. Urbach, The Sages: Their Concepts and Beliefs, trans.
+ I. Abrahams, Jerusalem: Magnes Press, 1979). Die Textgeschichte des 
+Talmuds, der bisher häufig ins frühe sechste Jahrhundert n. Chr. datiert
+ wurde, stellt sich schwieriger dar als bisher angenommen. Selbst wenn 
+mit einer abschließenden Bearbeitung durch die Talmudredaktoren (Setammaʾim)
+ erst zu Beginn des achten Jahrhunderts n. Chr. zu rechnen ist, so sind 
+die mündlichen Überlieferungen doch älteren Datums (Moulie Vidas, Tradition and the Formation of the Talmud,
+ Princeton: Princeton University Press, 2014). Damit werden die 
+Traditionen des babylonischen Talmuds [bT] neben den frühen 
+Auslegungsmidraschim – Genesis Rabba [BerR], Leviticus Rabba [WaR], 
+Pesiqta de-Rav Kahane [PesK] – und den rechtsphilosophischen und 
+rechtstheologischen Midraschim – Mekhiltaʾ de-Rabbi Yischmaʾel [MekhY] 
+und Sifre Deuteronomium [SifDev] – zum wichtigsten Bezugspunkt jüdischen
+ Denkens der Spätantike.Ausgabe: Talmud Babli (Wilna Edition), 20 Bde., Jerusalem: o.V., 1977 [= Wilna: Romm, 1880–1886]; Übersetzung: (Deutsch) Lazarus Goldschmidt, Der babylonische Talmud, 12 Bde., Berlin: Jüdischer Verlag, 1929–1936 [Nachdruck Berlin 1996]; (Englisch) Isidore Epstein (Ed.), The Babylonian Talmud. Translated into English with Notes, Glossary and Indices, 35 Bde., London: Soncino Press, 1935–1952 [Nachdruck in 18 Bde. London 1961]; Literatur: Günter Stemberger, Einleitung in Talmud und Midrasch. Neunte, vollständig neubearbeitete Auflage, München: C.H. Beck, 2011, S. 211–247; vgl. auch Günter Stemberger, Der Talmud: Einführung, Texte, Erläuterungen, München: C.H. Beck, 1982.</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Sukka 51b</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">7./ 8. Jahrhundert (Endredaktion durch die Stamma'im)</origDate>
+              <origPlace>Babylonien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Otto, Eckart: Das antike Jerusalem. Arch&amp;#xE4;ologie und Geschichte. Beck, M&amp;#xFC;nchen 2008.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Dirk Hartwig</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FHartmann-schedel-hierosolima-1493_2-BW-1147x965.jpg&amp;dw=1000"/>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FMadaba_Karte.jpg&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>ת"ר מי שלא ראה שמחת בית השואבה לא ראה שמחה מימיו מי שלא ראה ירושלים בתפארתה לא ראה כרך נחמד מעולם מי שלא ראה בהמ"ק בבנינו לא ראה בנין מפואר מעולם מאי היא אמר אביי ואיתימא רב חסדא זה בנין הורדוס במאי בניה אמר (רבא) באבני שישא ומרמרא איכא דאמרי באבני שישא כוחלא ומרמרא אפיק שפה ועייל שפה כי היכי דלקבל סידא סבר למשעיין בדהבא אמרו ליה רבנן שבקיה דהכי שפיר טפי דמיתחזי כאדותא דימא</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>„Die Rabbanan lehrten: Wer die Lustbarkeit bei der Wasserprozession nicht gesehen hat, hat im Leben keine Lustbarkeit gesehen. Wer Jerusalem in seiner Pracht nicht gesehen hat, hat im Leben keine herrliche Großstadt gesehen. Wer den Tempel in seinem Bestande nicht gesehen hat, hat kein prächtiges Gebäude gesehen. – Welchen? Abajje, nach anderen R. Ḥisda, erwiderte: Den von Herodes erbauten. – Woraus baute er ihn? Raba erwiderte: Aus Alabaster- und Marmorstein. Manche sagen, aus Alabaster-, Stibium- und Marmorstein; eine Reihe einwärts, eine Reihe vorstehend, damit der Kalk halte. Er wollte ihn auch mit Gold verkleiden, die Weisen aber sprachen zu ihm: Laß dies, so ist es schöner, denn es sieht wie die Wellen des Meeres aus.“</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>“Our Rabbis taught, He who has not witnessed the rejoicing at the place of the Water-Drawing has never seen rejoicing in his life. He who has not seen Jerusalem in her splendour, has never seen a desirable city in his life. He who has not seen the Temple in its full construction has never seen a glorious building in his life. Which Temple? — Abaye, or it might be said, R. Hisda, replied, The reference is to the building of Herod. Of what did he build it? — Rabbah replied, Of yellow and white marble. Some there are who say, With yellow, blue and white marble. The building rose in tiers in order to provide a hold for the plaster. He intended at first to overlay it with gold, but the Rabbis told him, Leave it alone for it is more beautiful as it is, since it has the appearance of the waves of the sea.”</p>
+      </div>
+    </body>
+  </text>
+</TEI>

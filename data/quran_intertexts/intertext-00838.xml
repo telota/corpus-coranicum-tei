@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sermones III, 1, 97-130</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_838" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>838</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Der hier wiedergegebene Teil einer Predigt Ephrems des Syrers lobt die gottesfürchtige Seele, die aufgrund dieser Tugend von allen Gefahren und Strafen, sowohl in dieser als auch in der jenseitigen Welt, gerettet wird. Damit wären z.B. die letzten Verse der Sure al-Faǧr (Q 89) zu vergleichen, in der die "vertrauende Seele" (an-nafsu l-muṭmaʾinnatu) von Gott versichert und beruhigt wird, dass ihr beim Jüngsten Gericht (welches im Mittelpunkt der Sure steht) nichts zustoßen wird: "Kehr zufrieden und wohlgelitten zu deinem Herrn zurück!" Bemerkenswert ist auch die an Matth 25:21-23 erinnernde Formulierung in Q 89:28-30, wo Gott die Seele auffordert: "Tritt ein (fa-dḫulī) unter meine Diener, tritt ein in meinen Garten" (Verse 29-30). In der benannten Matthäusstelle spricht der Herr in der Parabel ebenfalls seinen treuen Diener mit der Aufforderung an: "tritt ein (εἴσελθε) in die Gunst/Freude (εἰς χαράν) deines Herrn!", was im Kontext des 25. Kapitels bei Matthäus eindeutig eschatologisch zu interpretieren ist.</summary>
+            <msItem>
+              <title>Sermones III, 1, 97-130</title>
+              <author>Ephrem der Syrer (306-373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">306-373</origDate>
+              <origPlace>Nisibis/Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Des Heiligen Ephraem des Syrers Sermones III, Louvain 1972 (Corpus Scriptorum Christianorum Orientalium 320, Scriptores Syri 138), S. 2-3.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>89 ܐܝܢܐ ܕܕܚ̇ܠ ܠܐܠܗܐ ܕܚ̈ܠܢ ܡܢܗ ܒܖ̈ܝܬܐ ܘܐܢ ܗܘ ܕܢ̇ܛܪ ܦܘܩ̈ܕܢܘܗܝ ܦܘܩܕܢܗ ܕܝܠܗ ܢܛܖ̈ܢ93 ܡܫܬܡܥܐ ܫܡܝܐ ܘܐܪܥܐ ܘܝܡܐ ܘܐܐܪ ܘܟܠ ܕܒܗܘܢ ܠܐܝܢܐ ܕܛܥܝܢ ܕܚܠܬܗ ܕܐܠܗܐ ܒܟܠܗ ܠܒܗ97 ܐܝܢܐ ܕܕܚܿܠ ܡܢ ܡܪܝܐ ܐܬܥ̇ܠܝ ܠܗ ܡܢ ܕܚ̈ܠܐ ܘܟܠܗܘܢ ܕܘܚ̈ܠܐ ܕܥܠܡܐ ܠܒܪ ܡܢܗ ܐܪܦܝ ܘܫܒܩ101 ܪܚܝܩ ܗܘ ܡܢ ܟܠ ܕܚ̈ܠܝܢ ܘܙܘ̈ܥܐ ܨܝܕܘܗܝ ܠܐ ܩܪܒܝܢ ܐܢ ܕܚ̇ܠ ܡܢ ܐܠܗܐ ܘܢ̇ܛܪ ܟܠܗܘܢ ܦܘܩ̈ܕܢܘܗܝ105 ܣ̇ܡܬܗ ܠܡܪܝܐ ܠܘܩܒܠܝ ܕܠܐ ܐܕܚܠ ܐܦܠܐ ܐܙܘܥ ܗܠܝܢ ܕܘܝܕ ܐܡ̇ܪ ܗܘܐ ܕܡܠܐ ܗܘܐ ܕܚܠܬ ܡܪܝܐ109 ܐܝܟ ܢܝܫܐ ܘܕܘܩܐ ܣܡܗ ܠܐܠܗܐ ܠܘܩܒܠ ܥܝ̈ܢܘܗܝ ܘܡܛܠܗܕܐ ܐܡ̇ܪ ܗܘܐ ܕܠܐ ܐܕܚܠ ܐܦܠܐ ܐܙܘܥ113 ܠܐ ܡܢ ܕܚ̈ܠܐ ܕܡܢ ܥܠܡܐ ܘܠܐ ܡܢ ܙܘ̈ܥܐ ܕܡܢ ܒܝܫܐ ܠܐ ܕܚ̇ܠ ܐܦܠܐ ܡܬܬܙܝܥ ܗ̇ܘ ܕܕܚ̇ܠ ܡܢ ܐܠܗܐ117 ܕܚ̇ܠ ܣܛܢܐ ܡܢ ܗ̇ܘ ܐܝܢܐ ܕܕܚ̇ܠ ܡܢ ܡܪܝܐ ܕܡܣܬܪܕܝܢ ܚܝ̈ܠܘܬܗ ܡܢ ܗ̇ܘ ܕܢ̇ܛܪ ܦܘܩ̈ܕܢܐ121 ܡܘܬܐ ܕܕܚܝܠ ܥܠ ܟܠܢܫ ܘܪܥܠܝܢ ܡܢܗ ܡܝܘ̈ܬܐ ܐܝܟ ܫܪܘܬܐ ܚ̇ܫܒ ܠܗ ܗ̇ܘ ܕܕܚ̇ܠ ܡܢ ܐܠܗܐ125 ܕܚ̇ܠ ܡܘܬܐ ܕܢܬܩܪܒ ܠܗ̇ܘ ܕܕܚ̇ܠ ܡܢ ܐܠܗܐ ܘܐܠܐ ܦܩܕ ܠܗ ܠܐ ܐ̇ܬܐ ܕܢܦܪܘܫ ܢܦܫܗ ܡܢ ܦܓܪܗ129 ܡܐ ܕܣܓܝܬ ܕܚܠܬ ܡܪܝܐ ܣܓܝܬ ܥܡܗ̇ ܡܘܟܟܐ ܢܚܬ ܐܠܗܐ ܫ̣ܪܐ ܒܢܦܫܐ ܘܥܡ̣ܪ ܒܗ̇ ܐܦ ܕܝ̇ܪ ܒܗ̇ 133 ܘܗܘܐ ܠܗ̇ ܐܝܟ ܢܛܘܪܐ ܘܛ̇ܪܕ ܡܢܗ̇ ܠܟܠ ܕܚ̈ܠܝܢ ܣܖ̈ܦܐ ܪܥܠܝܢ ܡܢ ܙܝܘܗ ܘܟܖ̈ܘܒܐ ܪܐܬܝܢ ܡܢܗ137 ܐܢ ܡܬܚܘܐ ܠܒܖ̈ܝܬܗ ܐܝܟ ܬܢܢܐ ܡܬܛܠܩ̈ܢ ܘܐܢ ܓ̇ܠܐ ܥܘܙܗ ܠܥ̈ܠܡܐ ܐܝܟ ܓ̈ܠܠܐ ܝ̇ܩܕܝܢ ܡܘܦܝܢ141 ܘܗܘ ܕܗܢܐ ܫ̇ܪܐ ܒܢܦܫܗ ܘܗ̇ܘܐ ܒܗ ܐܝܟ ܥܡܘܪܐ ܐܝܢܐ ܗܘ ܕܚܠܐ ܕܥܐܠ ܠܗ ܘܐܝܢܐ ܙܘܥܐ ܩ̇ܪܒ ܠܗ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>89 Wer Gott fürchtet, vor dem fürchten sich die Geschöpfe. Und wer seine Gebote hält, dessen Gebot halten (die Geschöpfe).93 Es gehorcht der Himmel und die Erde und das Meer und die Luft und alles, was darin ist, dem, der in seinem ganzen Herzen Furcht Gottes trägt.97 Wer sich vor Gott fürchtet, ist jeder Furcht entrückt, und alle Schrecken der Welt hat er hinter sich gelassen.101 Weit entfernt ist er von jeder Furcht, und Zittern und Beben befällt ihn nicht, wenn er sich vor Gott fürchtet und alle seine Gebote hält.105 «Ich habe den Herrn vor mich hingestellt, damit ich nicht fürchte noch zage.» Das hat David gesagt, der erfüllt war von Gottesfurcht.109 Wie ein Zeichen und eine Warte stellt er sich Gott vor die Augen, und deswegen (konnte) er sagen: «Ich werde mich nicht fürchten noch zittern.»113 Weder vor dem Schrecken, der von der Welt, noch vor dem Zittern, das vom bösen Feind kommt, fürchtet sich und zittert jener, der Gott fürchtet.117 Es fürchtet sich Satan vor dem, der Gott fürchtet, und seine Scharen beben vor dem, der die Gebote hält.121 Den Tod, den alle Menschen fürchten, und vor dem die Sterblichen beben, hält für ein Gastmahl, wer Gott fürchtet.125 Der Tod fürchtet sich, an den Gottesfürchtigen heranzugehen, und ohne (ausdrücklichen) Befehl kommt er nicht, um seine Seele vom Leib zu trennen.129 Wenn du die Gottesfurcht steigerst, mehrst du zugleich auch die Demut. Gott ist herabgestiegen und hat sich in der Seele niedergelassen und Wohnung und Aufenthalt in ihr genommen.133 Und er ist zu ihrem Beschützer geworden und verscheucht aus ihr jede Furcht. Die Seraphim beben vor seinem Glanz, und die Cherubim zittern vor ihm.137 Wenn er sich seinen Geschöpfen zeigt, dann vergehen sie wie Rauch. Und wenn er seine Macht den Welten offenbart, dann verbrennen sie wie Spreu. 141 Und jener, in dessen Seele dieser (Gott) wohnt und in dem er wie ein Insasse sich findet, welche Furcht sollte über den kommen und welches Zittern sich ihm nähern!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

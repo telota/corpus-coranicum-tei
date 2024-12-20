@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1036">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 21</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 21</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol.; Writing surface: parchment; Shelfmark: KFQ 21; Lines per page: 7; Dimensions: 122 x 183 mm (fol. 1), 120 x 190 mm, (fol. 2); Qurʾānic Text: Q 21:6-16; Script style: close to D.Va; Estimated date of production: 800-1000. [For technical reasons only the dimensions of fol. 1 are given above.] </p>
+              <p>Cf. entry by François Déroche about fragment KFQ 21 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 103): "50 / Two folios / End of the 9th century AD or first half of the 10th / 12.2 x 18.3 cm (folio I) and 12 x 19 cm, (folio 2), with 7 lines to the page / <hi rend="italic">Material</hi> Parchment / <hi rend="italic">Text area</hi> 5.7 x 12.3 cm / <hi rend="italic">Script</hi> Perhaps style D.Va / <hi rend="italic">Accession no</hi>. KFQ 21 / The text on these two folios, <hi rend="italic">Sūrat al-anbiyāʾ</hi> (XXI), verses 6-16, runs consecutively, and the two folios must have been part of the first half of a quire, as the recto is the hair side in both cases. The text is written in black ink, with diacritical strokes; some of these are later additions, probably made when a later hand wrote over the letters. Red dots indicate the vocalization. The verses are not punctuated. A gold Kufic <hi rend="italic">hāʾ </hi>marks the end of every fifth verse, while the end of every tenth verse is marked by an ornament, now damaged, which may have been of type 2.A.II.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_686835" n="1r">
+              <title type="numeric" key="021:006:007-021:008:007">
+                                    021:006:007-021:008:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686836" n="1v">
+              <title type="numeric" key="021:008:007-021:011:001">
+                                    021:008:007-021:011:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686837" n="2r">
+              <title type="numeric" key="021:011:002-021:013:006">
+                                    021:011:002-021:013:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686838" n="2v">
+              <title type="numeric" key="021:013:006-021:016:005">
+                                    021:013:006-021:016:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>190</width><height>120</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_46841">
+      <graphic decls="#imageRights-1" url="manuscript/1036/0d78349f-ae4c-4433-9193-8e610920f22c/manuscript-1036-page-46841-image-32662.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_46842">
+      <graphic decls="#imageRights-1" url="manuscript/1036/bce7462c-a001-4594-bcb6-d89659cf6338/manuscript-1036-page-46842-image-32663.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_46843">
+      <graphic decls="#imageRights-1" url="manuscript/1036/5eb14e68-dc03-4a18-b3fb-7ee2fa46c14c/manuscript-1036-page-46843-image-32664.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_46844">
+      <graphic decls="#imageRights-1" url="manuscript/1036/dd6c6834-d9aa-4500-805a-ce5d13527f47/manuscript-1036-page-46844-image-32665.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2814">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sanaa, Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts), DAM 17-14.14</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Staatsbibliothek zu Berlin - Preußischer Kulturbesitz.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="22">Dār al-Maḫṭūṭāt (دار المخطوطات House of Manuscripts)
+                            , Sanaa</repository>
+            <idno>DAM 17-14.14</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_711469" n="1r">
+              <title type="numeric" key="028:061:999-028:076:999">
+                                    028:061:999-028:076:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_711470" n="1v">
+              <title type="numeric" key="028:076:999-028:085:999">
+                                    028:076:999-028:085:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_711471" n="2r">
+              <title type="numeric" key="031:033:999-034:013:999">
+                                    031:033:999-034:013:999
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_711472" n="2v">
+              <title type="numeric" key="032:013:999-032:027:999">
+                                    032:013:999-032:027:999
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                                    Pergament
+                                </support>
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>145</width><height>194</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="17">17 - 17 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Manssur Karamzadeh</p>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Tobias J. Jocham</p>
+                <p>image: Tobias J. Jocham</p>
+                <p>assistance: Emaan Safah</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_96508">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_96509">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_96510">
+      <graphic decls="#imageRights-1"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_96511">
+      <graphic decls="#imageRights-1"/>
+      <graphic decls="#imageRights-1"/>
+    </surface>
+  </facsimile>
+</TEI>

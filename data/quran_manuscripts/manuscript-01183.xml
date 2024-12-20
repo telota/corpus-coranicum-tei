@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1183">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (20)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0045.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0046.</p>
+        </availability>
+        <availability xml:id="imageRights-3" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0043.</p>
+        </availability>
+        <availability xml:id="imageRights-4" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0044.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (20)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: Vat. Ar. 1605 (XX); Qurʾānic Text: Q 12:11-12:19; 7 lines per page; Dimensions: 171 x 103mm; Script style: kūfī D.II; Estimated date of production: 700-900.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ" sameAs="RUJN3JRQ" type="zotero">Levi Della Vida 1947</ref>, p. 15): </p>
+              <p>"20. <hi rend="italic">a</hi>) Cm. 10,3 x 17,1; 7 linee. Sura 12,11 [النٰـ]صحون – 14 لئن; verso: sura 12,14 اكله – 15 و[هم]. <hi rend="italic">b</hi>) Cm. 12,4 x 18,6; 7 linee.    Sura 12,15 لا – 18 وجاؤ(ا); verso: sura 12,18 على – 19 فادلـ[ـى]. I due fogli, appartenenti allo stesso esemplare dei ni. 18 e 19, sono consecutivi. Nel recto di <hi rend="italic">b</hi>, dopo il v. 15, appare un divisore quinario identico a quello del no. 18 <hi rend="italic">b</hi>."</p>
+            </summary>
+            <msItem xml:id="mysql_id_679709" n="20bis r">
+              <title type="numeric" key="012:015:017-012:018:001">
+                                    012:015:017-012:018:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679710" n="20bis v">
+              <title type="numeric" key="012:018:003-012:019:005">
+                                    012:018:003-012:019:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679707" n="20r">
+              <title type="numeric" key="012:011:011-012:014:002">
+                                    012:011:011-012:014:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679708" n="20v">
+              <title type="numeric" key="012:014:003-012:015:014">
+                                    012:014:003-012:015:014
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>171</width><height>103</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="20bis r" xml:id="mysql_id_40550">
+      <graphic decls="#imageRights-1" url="manuscript/1183/78c0ceb6-d7d7-46bb-9cc1-0a0a9142b5f1/manuscript-1183-page-40550-image-25780.jpg"/>
+    </surface>
+    <surface n="20bis v" xml:id="mysql_id_40551">
+      <graphic decls="#imageRights-2" url="manuscript/1183/dcefe5f2-8bfe-4dae-bd1d-b3403f7e449d/manuscript-1183-page-40551-image-25781.jpg"/>
+    </surface>
+    <surface n="20r" xml:id="mysql_id_40548">
+      <graphic decls="#imageRights-3" url="manuscript/1183/91b12b92-83fb-4ed5-b9fc-ea250f5f0a5c/manuscript-1183-page-40548-image-25778.jpg"/>
+    </surface>
+    <surface n="20v" xml:id="mysql_id_40549">
+      <graphic decls="#imageRights-4" url="manuscript/1183/8426cda5-87cd-4623-82e2-91ac77b82474/manuscript-1183-page-40549-image-25779.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

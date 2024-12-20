@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_767">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 5178 (j)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 5178 (j)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p> Der Katalog der Pariser Koranhandschriften (Déroche 1983: p. 96-97) enthält folgende Angaben: "Arabe <hi rend="bold">5178 j</hi> : fo 14 vo : LVIII, 1. Copie anonyme et non datée. Graphie proche de D I. Diacritiques : traits obliques ; vocalisation absente. La sourate est précédée de son titre et du nombre de ses versets, a l’encre dorée dans un bandeau (cf. fo 14 ro). Un décor occupe tout le fo 14 ro. Bandeau (83 X 155) : l’encadrement est réalisé par les entrelacs de deux éléments. Aux quatre coins, des ﬁgures à trois branches dont le contour est indiqué par un ﬁlet doré étendent leurs branches placées sur les côtés du rectangle pour les accrocher, sur les longueurs, à un élément horizontal, ou, sur les largeurs, à une autre ﬁgure d’angle. La troisième branche amorce la diagonale dont le tracé est poursuivi par quatre éléments plats, dessinés par des ﬁlets dorés, qui viennent chacun prendre appui sur un losange central. Les ﬁgures de l'encadrement délimitent un espace qu'occupe une bande on se déploie sur un fond vert une tige ondulée porteuse de feuillages. Un point bleu souligne les intersections des éléments constitutifs de l’encadrement. Le champ, divisé en quatre triangles isocèles égaux deux a deux, est occupé par un dessin à l’encre de palmes stylisées. On ne distingue plus que la base d’une vignette médiane. Au fo 14 ro, note : « transmis par le Cabinet des médailles, le 27 mai 1879, n. 3 ». Parchemin. 1 feuillet. Page : 106 x 175. 3 lignes et titre. Encre brune."</p>
+            </summary>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>106</width><height>175</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="3">3 - 3 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="14r" xml:id="mysql_id_36013">
+      <graphic decls="#imageRights-1" url="manuscript/767/42ba05f3-fcbb-4200-acd7-1e1818f8e6f1/manuscript-767-page-36013-image-20742.jpg"/>
+    </surface>
+    <surface n="14v" xml:id="mysql_id_36014">
+      <graphic decls="#imageRights-1" url="manuscript/767/08943994-1477-4144-a33b-4dc993afaf08/manuscript-767-page-36014-image-20743.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

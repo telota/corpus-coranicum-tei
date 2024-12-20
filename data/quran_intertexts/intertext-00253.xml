@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium 5:23-33</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_253" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>253</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die im Koran den Israeliten zugeschriebene Aussage samiʿnā wa-ʿaṣainā ("wir hören und widersetzen uns") ist lautlich fast identisch mit Deuteronomium 5:27: šāmaʿnû wə-ʿāśînû ("wir hören und tun"). Inhaltlich bedeutet die koranische Wendung natürlich das genaue Gegenteil. Der den Israeliten vorgeworfene Ungehorsam gegenüber den göttlichen Geboten wird so durch ein auf der ähnlichen Lautgestalt beider Aussagen beruhendes Wortspiel als geradezu vorsätzlicher Akt präsentiert: Bereits im Moment ihrer Zusage, die göttlichen Gebote zu halten, waren die Israeliten eigentlich schon zum Ungehorsam entschlossen. Wenn Paret 1977 (Kommentar zu 2:93) oder Horovitz 1925: p. 70 von einer "sinnentstellenden Übertragung" o. Ä. sprechen, entgeht ihnen die ganze Pointe der Anspielung: Es dürfte sich kaum um eine irrtümliche Übersetzung der hebräischen Wendung handeln, sondern eher um einen gezielten Sarkasmus.
+</summary>
+            <msItem>
+              <title>Deuteronomium 5:23-33</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Horovitz, Josef. &amp;#x201C;Jewish Proper Names and Derivatives in the Koran.&amp;#x201D; Hebrew Union College Annual 2 (1925): 144&amp;#x2013;227.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶם : וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּי־יְדַבֵּר אֱלֹהִים אֶת־הָאָדָם וָחָי : וְעַתָּה לָמָּה נָמוּת כִּי תֹאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָתְנוּ : כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּחִי : קְרַב אַתָּה וּשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ  וְשָׁמַעְנוּ וְעָשִׂינוּ  : וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּרוּ : מִי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֹתַי כָּל־הַיָּמִים לְמַעַן יִיטַב לָהֶם וְלִבְנֵיהֶם לְעֹלָם : לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶם : וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ בָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לְרִשְׁתָּהּ : וּשְׁמַרְתֶּם לַעֲשׂוֹת כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם אֶתְכֶם לֹא תָסֻרוּ יָמִין וּשְׂמֹאל : בְּכָל־הַדֶּרֶךְ אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם אֶתְכֶם תֵּלֵכוּ לְמַעַן תִּחְיוּן וְטוֹב לָכֶם וְהַאֲרַכְתֶּם יָמִים בָּאָרֶץ אֲשֶׁר תִּירָשׁוּן :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	23 Als ihr den Donner mitten aus der Finsternis gehört hattet und der Berg immer noch in Feuer stand, seid ihr zu mir gekommen - eure Stammesführer und Ältesten - 24 und habt gesagt: Sieh, der Herr, unser Gott, hat uns seine Herrlichkeit und Macht gezeigt und wir haben seine donnernde Stimme mitten aus dem Feuer gehört. Heute ist es uns geschehen, dass Gott zu Menschen sprach und sie am Leben blieben. 25 Trotzdem: Warum sollen wir noch einmal das Leben aufs Spiel setzen? Denn dieses große Feuer könnte uns verzehren. Wenn wir noch einmal die donnernde Stimme des Herrn, unseres Gottes, hören, werden wir sterben. 26 Denn welches Wesen aus Fleisch wäre am Leben geblieben, wenn es wie wir die donnernde Stimme des lebendigen Gottes gehört hätte, als er mitten aus dem Feuer redete? 27 Geh du allein hin! Höre alles, was der Herr, unser Gott, sagt. Berichte uns dann alles, was der Herr, unser Gott, dir gesagt hat, und wir werden es hören und halten. 28 Der Herr hörte euer Geschrei, als ihr auf mich einredetet, und sagte zu mir: Ich habe das Geschrei dieses Volkes gehört, mit dem es dich bedrängt hat. Alles, was sie von dir verlangen, ist recht. 29 Möchten sie doch diese Gesinnung behalten, mich fürchten und ihr Leben lang auf alle meine Gebote achten, damit es ihnen und ihren Nachkommen immer gut geht. 30 Geh und sag ihnen: Kehrt zu euren Zelten zurück! 31 Und du, stell dich hierher zu mir! Ich will dir das ganze Gebot mitteilen, die Gesetze und Rechtsvorschriften, die du sie lehren sollst und die sie halten sollen in dem Land, das ich ihnen gebe und das sie in Besitz nehmen sollen. 32 Daher sollt ihr darauf achten, dass ihr handelt, wie es der Herr, euer Gott, euch vorgeschrieben hat. Ihr sollt weder rechts noch links abweichen. 33 Ihr sollt nur auf dem Weg gehen, den der Herr, euer Gott, euch vorgeschrieben hat, damit ihr Leben habt und es euch gut geht und ihr lange lebt in dem Land, das ihr in Besitz nehmt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

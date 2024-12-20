@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1559">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.1121</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.1121</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: MS Add.1121; Qurʾānic text: Q 6:58-6:77; 23 lines per page; Dimensions: 126 x 134 mm; Script style: Maġribī micrography (for the <hi rend="italic">rasm</hi>); Estimated date of production: late 11th or 12th century; Provenance: Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>This kind of small, square codices written in diminutive scripts are attested in al-Andalus since the late 11th century: a good example is currently in the collection of Mr Hamid Dhia Jafar, copied in Córdoba in 470/1078. The CUL fragment, however, features an irregular, rather careless script, and no illumination. It is also almost entirely unvocalised, with the exception of a few lines and words that are sketchily vocalised in red. Manuscripts of similar size and layout, although illuminated and more carefully written, are in Berlin, Staatsbibliothek, mss. or. quart. 428, and Philadelphia, Pennsylvania University Museum, Inv. E 16249.</p>
+              <p> </p>
+              <p>The University of Cambridge acquired the fragment in 1878 from Edward H.  Palmer (1840-1882) and E.E. Tyrwhitt Drake. The displayed fragment and  other early Qur'an manuscripts (call numbers Add.1115 - Add.1150) were  acquired by Palmer during a research trip to the Sinai Peninsula (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UUUFI42M">Ansorge 2016</ref>).</p>
+              <p/>
+              <p> </p>
+              <p>For further information see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01121/1">entry by Ignacio Sanchez</ref> in the Digital Library of the University of Cambridge. </p>
+            </summary>
+            <msItem xml:id="mysql_id_688661" n="1r">
+              <title type="numeric" key="006:058:010-006:071:033">
+                                    006:058:010-006:071:033
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688662" n="1v">
+              <title type="numeric" key="006:071:034-006:089:017">
+                                    006:071:034-006:089:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688663" n="2r">
+              <title type="numeric" key="006:090:001-006:099:044">
+                                    006:090:001-006:099:044
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_688664" n="2v">
+              <title type="numeric" key="006:100:001-006:117:003">
+                                    006:100:001-006:117:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>126</width><height>134</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="23">23 - 23 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1075-1200</origDate>
+            </origin>
+            <provenance>
+                            al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_48621">
+      <graphic decls="#imageRights-1" url="manuscript/1559/6933aec9-fe0c-45dc-8e96-0c2bb7f8baf0/manuscript-1559-page-48621-image-35623.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_48622">
+      <graphic decls="#imageRights-1" url="manuscript/1559/2d070445-c4f7-4ba8-bf45-e17184d2b002/manuscript-1559-page-48622-image-35624.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_48623">
+      <graphic decls="#imageRights-1" url="manuscript/1559/e7f3d268-6706-447e-b18a-00fc59329e6b/manuscript-1559-page-48623-image-35625.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_48624">
+      <graphic decls="#imageRights-1" url="manuscript/1559/ea9b7e2f-9d1f-419f-a2ec-b1c7f306d7e3/manuscript-1559-page-48624-image-35626.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

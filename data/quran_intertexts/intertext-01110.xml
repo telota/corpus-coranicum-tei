@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Aboda Zara 8a</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1110" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1110</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 7:23 berichtet von Adams und Evas Bitte um Vergebung, nachdem sie vom 
+verbotenen Baum gegessen haben. Die Reue 
+Adams wird nicht im Buch Genesis (TUK_0451) erwähnt, spielt jedoch in späteren jüdischen und christlichen Traditionen, wie dem Leben Adams und Evas (TUK_0454) oder dem hier zitierten Text aus dem babylonischen Talmud eine Rolle. Vgl. auch TUK_1109.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Aboda Zara 8a</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Wilna 1880-1886</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ת"ר: יום שנברא בו אדם הראשון, כיון ששקעה עליו חמה, אמר: אוי לי, שבשביל שסרחתי עולם חשוך בעדי ויחזור עולם לתוהו ובוהו, וזו היא מיתה שנקנסה עלי מן השמים, היה יושב [בתענית] ובוכה כל הלילה וחוה בוכה כנגדו, כיון שעלה עמוד השחר, אמר: מנהגו של עולם הוא, עמד והקריב שור שקרניו קודמין לפרסותיו, שנאמר: בותיטב לה' משור פר מקרין מפריס.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Die Rabbanan lehrten: Als die Sonne unterging am Tage, an dem der Urmensch erschaffen wurde, sprach er: Wehe mir, weil ich gesündigt habe, wird mir die Welt verfinstert und zurück in Leere und Öde verwandelt; das ist der Tod, der im Himmel über mich verhängt worden ist! Da setzte er sich hin und weinte die ganze Nacht hindurch, und Eva weinte ihm gegenüber. Als aber die Morgenröte aufging, sprach er: Das ist also der Lauf der Welt! Da stand er auf und brachte einen Ochsen dar, dem die Hörner den Klauen vorangingen, denn es heißt: das wird dem Herrn besser gefallen als ein Ochs, ein Farre mit Hörnern und Klauen (Ps 69:32).
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

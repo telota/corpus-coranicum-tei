@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 Könige 5:9-14</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_324" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>324</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl die Bibel - etwa in der hier zitierten Stelle aus 1 Könige - als auch der Koran erwähnen, daß Gott Salomon besondere Weisheit verliehen habe. Zusätzlich hebt der Koran aber auch für David, der sowohl Q 21:79 als auch Q 27:15 neben Salomon genannt wird, dessen von Gott gegebene Weisheit hervor. Die Assoziation Salomons mit Weisheit ist auch für die spätere Tradition häufig belegt, vgl. auch Sirach 47:14-17, Matthäus 12:42 (TUK_1084) und Lukas 11:31, Flavius Josephus: Jüdische Altertümer (TUK_1085), Hohes Lied Rabba 1:1 (TUK_1086), Babylonischer Talmud, Erubim 21b und Berakot 56b.
+</summary>
+            <msItem>
+              <title>1 Könige 5:9-14</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 5.-6. Jh. v. Chr. (Redaktion des deuteronomistischen Geschichtswerks)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיִּתֵּן אֱלֹהִים חָכְמָה לִשְׁלֹמֹה וּתְבוּנָה הַרְבֵּה מְאֹד וְרֹחַב לֵב כַּחוֹל אֲשֶׁר עַל־שְׂפַת הַיָּם : וַתֵּרֶב חָכְמַת שְׁלֹמֹה מֵחָכְמַת כָּל־בְּנֵי־קֶדֶם וּמִכֹּל חָכְמַת מִצְרָיִם : וַיֶּחְכַּם מִכָּל־הָאָדָם מֵאֵיתָן הָאֶזְרָחִי וְהֵימָן וְכַלְכֹּל וְדַרְדַּע בְּנֵי מָחוֹל וַיְהִי־שְׁמוֹ בְכָל־הַגּוֹיִם סָבִיב : וַיְדַבֵּר שְׁלֹשֶׁת אֲלָפִים מָשָׁל וַיְהִי שִׁירוֹ חֲמִשָּׁה וָאָלֶף : וַיְדַבֵּר עַל־הָעֵצִים מִן־הָאֶרֶז אֲשֶׁר בַּלְּבָנוֹן וְעַד הָאֵזוֹב אֲשֶׁר יֹצֵא בַּקִּיר וַיְדַבֵּר עַל־הַבְּהֵמָה וְעַל־הָעוֹף וְעַל־הָרֶמֶשׂ וְעַל־הַדָּגִים : וַיָּבֹאוּ מִכָּל־הָעַמִּים לִשְׁמֹעַ אֵת חָכְמַת שְׁלֹמֹה מֵאֵת כָּל־מַלְכֵי הָאָרֶץ אֲשֶׁר שָׁמְעוּ אֶת־חָכְמָתוֹ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	9 Gott gab Salomo Weisheit und Einsicht in hohem Maß und Weite des Herzens - wie Sand am Strand des Meeres. 10 Die Weisheit Salomos war größer als die Weisheit aller Söhne des Ostens und alle Weisheit Ägyptens. 11 Er war weiser als alle Menschen, weiser als Etan, der Esrachiter, als Heman, Kalkol und Darda, die Söhne Mahols. Sein Name war bekannt bei allen Völkern ringsum. 12 Er verfasste dreitausend Sprichwörter und die Zahl seiner Lieder betrug tausendundfünf. 13 Er redete über die Bäume, von der Zeder auf dem Libanon bis zum Ysop, der an der Mauer wächst. Er redete über das Vieh, die Vögel, das Gewürm und die Fische. 14 Von allen Völkern kamen Leute, um die Weisheit Salomos zu hören, Abgesandte von allen Königen der Erde, die von seiner Weisheit vernommen hatten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 16:24-28</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_592" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>592</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Besitz und Seele, bzw. Leben (nach dem Tod) werden bei Matthaus kontrastiert. Die Nutzlosigkeit auch größten Besitzes als Gegenpreis für die Seele (das Leben) wird durch eine rhetorische Frage: "Um welchen Preis kann ein Mensch sein Leben zurückkaufen?" impliziert. Diese rhetorische Frage wird im Koran konkret beantwortet:"Hätten sie (die Ungläubigen) auch alles was auch Erden ist, und das Gleiche noch dazu, um sich damit von der Strafe am Tag der Auferstehung loszukaufen, es würde nicht angenommen..." Griechisch ton holon kosmon "die ganze Welt" entspricht hier arabisch (gesteigert) mā fi-l-ʾarḍi ǧamīʾan wa-miṯlahū maʿahū "alles auf der Erde und nochmal soviel". Das in der Einheitsübersetzung mit "einbüßen" übersetzte griechische Verb zēmiōthē bedeutet auch "bestraft werden". Würde man so übersetzen, wäre der Bezug zur Bestrafung im Koran noch näher.
+</summary>
+            <msItem>
+              <title>Matthäus 16:24-28</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	24 Τότε ὁ Ἰησοῦς εἶπεν τοῖς μαθηταῖς αὐτοῦ• εἴ τις θέλει ὀπίσω μου ἐλθεῖν, ἀπαρνησάσθω ἑαυτὸν καὶ ἀράτω τὸν σταυρὸν αὐτοῦ καὶ ἀκολουθείτω μοι. 25 ὃς γὰρ ἐὰν θέλῃ τὴν ψυχὴν αὐτοῦ σῶσαι ἀπολέσει αὐτήν• ὃς δ᾽ ἂν ἀπολέσῃ τὴν ψυχὴν αὐτοῦ ἕνεκεν ἐμοῦ εὑρήσει αὐτήν. 26 τί γὰρ ὠφεληθήσεται ἄνθρωπος ἐὰν τὸν κόσμον ὅλον κερδήσῃ τὴν δὲ ψυχὴν αὐτοῦ ζημιωθῇ; ἢ τί δώσει ἄνθρωπος ἀντάλλαγμα τῆς ψυχῆς αὐτοῦ;  27 μέλλει γὰρ ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεσθαι ἐν τῇ δόξῃ τοῦ πατρὸς αὐτοῦ μετὰ τῶν ἀγγέλων αὐτοῦ, καὶ τότε ἀποδώσει ἑκάστῳ κατὰ τὴν πρᾶξιν αὐτοῦ. 28 ἀμὴν λέγω ὑμῖν ὅτι εἰσίν τινες τῶν ὧδε ἑστώτων οἵτινες οὐ μὴ γεύσωνται θανάτου ἕως ἂν ἴδωσιν τὸν υἱὸν τοῦ ἀνθρώπου ἐρχόμενον ἐν τῇ βασιλείᾳ αὐτοῦ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	24 Darauf sagte Jesus zu seinen Jüngern: Wer mein Jünger sein will, der verleugne sich selbst, nehme sein Kreuz auf sich und folge mir nach. 25 Denn wer sein Leben retten will, wird es verlieren; wer aber sein Leben um meinetwillen verliert, wird es gewinnen. 26 Was nützt es einem Menschen, wenn er die ganze Welt gewinnt, dabei aber sein Leben einbüßt? Um welchen Preis kann ein Mensch sein Leben zurückkaufen? 27 Der Menschensohn wird mit seinen Engeln in der Hoheit seines Vaters kommen und jedem Menschen vergelten, wie es seine Taten verdienen. 28 Amen, ich sage euch: Von denen, die hier stehen, werden einige den Tod nicht erleiden, bis sie den Menschensohn in seiner königlichen Macht kommen sehen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

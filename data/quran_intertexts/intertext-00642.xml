@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Sanhedrin 90a-b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_642" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>642</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Als Gegenbegriff zu al-ʾāḫira findet sich in frühmekkanischer Zeit entweder al-ʾūlā, "das Diesseits", oder aber das räumlich konnotierte al-ḥayāt ad-dunyā ("das Leben hienieden", "das Leben auf der niedersten Sphäre"). In der jüdisch-christlichen Tradition findet sich ein analoges Begriffspaar insbesondere im rabbinischen Kontrast von ha-ʿolam ha-ze ("diese Welt") und ha-ʿolam ha-baʾ ("die kommende Welt"); vgl. exemplarisch die in der Mischna, Sanhedrin, Kap. 10, erörterte Frage, wer "keinen Anteil an der kommenden Welt hat", und die sich im babylonischen Talmud daran anknüpfenden Debatten (insb. fol. 90b unten, wo beide Begriffe im Kontrast verwendet werden). Zumindest ad-dunyā ist bereits in der vorkoranischen Dichtung geläufig (Izutsu 1964: p. 86-88) und setzt zumindest implizit die Vorstellung von einem 'Jenseits' (al-ʾāḫira) voraus, auch wenn der Dichter dessen reale Existenz ausdrücklich bestreiten mag; möglicherweise setzt sich der poetische dunyā-Diskurs also bewusst und terminologisch pointiert von jüdisch-christlichen Jenseitsvorstellungen ab, während das koranische Insistieren auf der Höherwertigkeit des Jenseits (Q 93:4, 87:17 etc.) wiederum Stellung gegen die Dichtung bezieht. Zur Übereinstimmung von mā lahu fī l-ʾāḫira min ḫalāq und ʾen lahem ḥeleq la-ʿolam ha-baʾ siehe TUK_0644.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Sanhedrin 90a-b</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Ausgabe Romm, Wilna 1880-86.</bibl>
+              <bibl type="literatur">Izutsu, Toshihiko: God and man in the Koran. Books for Libraries, Tokyo 1964.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	כל ישראל יש להם חלק  לעולם הבא  , שנאמר ועמך כלם צדיקים לעולם יירשו ארץ נצר מטעי מעשה ידי להתפאר. ואלו שאין להם חלק  לעולם הבא  : האומר אין תחיית המתים מן התורה ואין תורה מן השמים, ואפיקורוס. רבי עקיבא אומר: אף הקורא בספרים החיצונים, והלוחש על המכה ואומר כל המחלה אשר שמתי במצרים לא אשים עליך כי אני ה' רפאך. אבא שאול אומר: אף ההוגה את השם באותיותיו. שלשה מלכים וארבעה הדיוטות אין להן חלק  לעולם הבא  . שלשה מלכים: ירבעם, אחאב, ומנשה. רבי יהודה אומר: מנשה יש לו חלק  לעולם הבא  , שנאמר ויתפלל אליו וישמע תחנתו וישיבהו ירושלים למלכותו. אמרו לו: למלכותו השיבו, ולא לחיי  העולם הבא  השיבו. ארבעה הדיוטות - בלעם, ודואג, ואחיתופל, וגחזי.
+	[...]
+	תניא, אמר רבי אליעזר ברבי יוסי: בדבר זה זייפתי ספרי כותים, שהיו אומרים אין תחיית המתים מן התורה. אמרתי להן: זייפתם תורתכם, ולא העליתם בידכם כלום. שאתם אומרים אין תחיית המתים מן התורה, הרי הוא אומר הכרת תכרת הנפש ההיא עונה בה הכרת תכרת -  בעולם הזה  , עונה בה לאימת? לאו  לעולם הבא  ? אמר ליה רב פפא לאביי: ולימא להו תרוייהו מהכרת תכרת! - אינהו הוו אמרי ליה: דברה תורה כלשון בני אדם. כתנאי: הכרת תכרת, הכרת -  בעולם הזה  , תכרת -  לעולם הבא  , דברי רבי עקיבא. אמר לו רבי ישמעאל: והלא כבר נאמר את ה' הוא מגדף ונכרתה וכי שלשה עולמים יש? אלא: ונכרתה -  בעולם הזה  , הכרת -  לעולם הבא  , הכרת תכרת - דברה תורה כלשון בני אדם. בין רבי ישמעאל ובין רבי עקיבא עונה בה מאי עבדי ביה? - לכדתניא: יכול אפילו עשה תשובה - תלמוד לומר עונה בה לא אמרתי אלא בזמן שעונה בה.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Ganz Israel hat einen Anteil an der zukünftigen Welt, denn es heißt: "Dein Volk besteht aus lauter Gerechten; für immer werden sie das Land in Besitz nehmen; es ist der Sproß meiner Pflanzung, das Werk meiner Hände zur Verherrlichung." (Jesaja 60:21) Folgende haben keinen Anteil an der zukünftigen Welt: wer sagt, die Auferstehung der Toten befinde sich nicht in der Tora, [wer sagt,] die Tora sei nicht vom Himmel, und der Gottesleugner. R. Aqiba sagt, auch wer die aussenseitigen Bücher liest, und wer über eine Wunde flüstert und spricht: "Keine der Krankheiten, die ich über die Ägypter gebracht, werde ich über dich bringen, denn ich, der Herr, bin dein Arzt." (Exodus 16:26) Abba Saul sagt, auch wer den Gottesnamen buchstäblich ausspricht. Drei Könige und vier Gemeine haben keinen Anteil an der zukünftigen Welt; Drei Könige: Jerobeam, Ahab und Menaše. R. Jehuda sagt, Menaše habe einen Anteil an der zukünftigen Welt, denn es heißt: "Als er zu ihm betete, ließ er sich von ihm erbitten; er erhörte sein Flehen und brachte ihn zurück nach Jerusalem in sein Königtum." (2 Chronik 33:13) Jene entgegneten ihm: In sein Königtum brachte er ihn zurück, nicht aber in das Leben der zukünftigen Welt. Vier Gemeine: Bileam, Doeg, Aḥitophel und Geḥzi.
+	[...]
+	Es wird gelehrt: R. Eliezer b. R. Jose erzählte: Durch das Folgende habe ich die Bücher der Samaritaner, welche sagen, die Auferstehung der Toten sei nicht in der Tora zu finden, als gefälscht nachgewiesen. Ich sprach zu ihnen: Ihr habt eure Tora gefälscht ohne dadurch etwas gewonnen zu haben. Ihr sagt, die Auferstehung der Toten sei nicht in der Tora zu finden, es heißt ja: "Vertilgt, ja vertilgt soll diese Seele werden, ihre Sünde haftet an ihr." (Numeri 15:31) "Vertilgt, ja vertilgt", auf dieser Welt; "ihre Sünde haftet an ihr", wann? Doch wohl in der zukünftigen Welt. R. Papa sprach zu Abajje: Sollte er ihnen doch beides aus [den Worten] "vertilgt, ja vertilgt" gedeutet haben!? - Die Tora gebraucht die gewöhnliche Redewendung der Menschen. [Hierüber streiten] folgende Tannaim: "Vertilgt, ja vertilgt"; "vertilgt", auf dieser Welt, "ja vertilgt", in der zukünftigen Welt - so R. Aqiba. R. Jišmael sprach zu ihm: Es heißt ja bereits: "Dem Herrn fluchte er, er soll weggetilgt werden" (Numeri 15:30), gibt es denn drei Welten!? Vielmehr, "soll weggetilgt werden", auf dieser Welt; "vertilgt", in der zukünftigen Welt; "ja vertilgt", die Tora gebraucht die gewöhnliche Redeweise der Menschen. - Wofür verwenden sowohl R. Jišmael als auch R. Aqiba [die Worte] "ihre Sünde haftet an ihr"? - Für folgende Lehre: Man könnte glauben, selbst wenn er Buße getan hat, so heißt es: "ihre Sünde haftet an ihr"; ich sage es nur von dem Falle, wenn ihre Sünde ihr anhaftet.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

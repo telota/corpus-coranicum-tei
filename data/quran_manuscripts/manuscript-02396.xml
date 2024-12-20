@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2396">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleveland, Ohio, The Cleveland Museum of Art, 1924.746</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="79">The Cleveland Museum of Art
+                            , Cleveland, Ohio</repository>
+            <idno>1924.746</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on paper; Shelfmark: 1924.746; Qurʾānic Text: Q 1:1-2:14; 5-12  lines per page; Dimensions: 280 x 174mm; Script style: nasḫī; Estimated date of production: 1500-1600.</p>
+            </summary>
+            <msItem xml:id="mysql_id_706972" n="1v">
+              <title type="numeric" key="001:001:001-001:007:009">
+                                    001:001:001-001:007:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706973" n="2r">
+              <title type="numeric" key="002:000:001-002:004:012">
+                                    002:000:001-002:004:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706974" n="2v">
+              <title type="numeric" key="002:005:001-002:014:010">
+                                    002:005:001-002:014:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>174</width><height>280</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5 12">5 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                nasḫ
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1500-1600</origDate>
+            </origin>
+            <provenance>
+                            Iran
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76535">
+      <graphic decls="#imageRights-1" url="manuscript/2396/bf997b21-d8a3-4099-95b4-29071b78de80/manuscript-2396-page-76535-image-68655.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76536">
+      <graphic decls="#imageRights-1" url="manuscript/2396/b4563886-c378-4d44-88f2-69738e0abc9b/manuscript-2396-page-76536-image-68656.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_76537">
+      <graphic decls="#imageRights-1" url="manuscript/2396/15072365-64be-45dc-b09d-4ff9f0beccbf/manuscript-2396-page-76537-image-68657.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_76538">
+      <graphic decls="#imageRights-1" url="manuscript/2396/80602a0b-18f2-44c7-be4a-8456cb68b3d9/manuscript-2396-page-76538-image-68658.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

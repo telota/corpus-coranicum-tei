@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über die verstorbenen Kinder</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_181" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>181</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Diese Stelle bei Jakob von Sarug zeigt, dass die koranischen Paradiesjünglinge (wildān, ġilmān) und insbesondere ihr Vergleich mit Perlen (luʾluʾ, vgl. Q 52:24, 76:19) eine Parallele in syrisch-christlichen Beschreibungen der im Kindesalter verstorbenen Christen hat. Jakob vergleicht die verstorbenen Jünglinge mit Perlen (syr. margānītā) die aus dem Meer herausgenommen und in die Krone des Königs gesetzt werden, wodurch der syrische Theologe auf ihre bedingungslose Aufnahme im Paradies andeuten möchte. Sollten sich die Vorstellungen bei Jakob und im Koran verbinden lassen, so wäre der im syrischen Text implizite Theodizee-Diskurs („wie kann Gott unschuldige Kinder sterben lassen?“) im Koran jedoch ausgeblendet, denn die Jünglinge scheinen in den relevanten Koranversen nur noch eine Komponente innerhalb einer luxuriösen Paradieskulisse zu sein.
+</summary>
+            <msItem>
+              <title>Gedicht über die verstorbenen Kinder</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Paul Bedjan, Homiliae selectae Mar Jacobi Sarugensis, Bd. 5, Paris 1910, S. 804-805.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܦܓܪܐ ܢܩܕܐ ܘܢܦܫܐ ܕܕܟܝܐ ܡ̣ܢ ܒܝ̈ܫܬܐ:ܫܘܦܪܐ ܪܡܐ ܕܠܐ ܐܬܟܬܡ ܒܖ̈ܓܝܓܬܐ܀15 ܨܘܪܬ ܡܠܟܐ ܕܩܝܡ ܫܘܦܪܗ̇ ܘܦܐܐ ܨܠܡܗ̇:ܘܠܐ ܐܝܬ ܡܘܡܐ ܘܠܐ ܒܘܨܪܐ ܕܡܫܚܡ ܠܗ̇܀ܐܘ ܦܪܘܫܐ ܕܥܦܝ ܡܝܬܐ ܕܡܠܐ ܫܘܦܖ̈ܐ: ܠܡܢ ܒܟ̇ܐ ܐܢܬ ܥܠ ܫܦܝܪܐ ܕܠܝܬ ܒܗ ܡܘܡܐ܀ܠܡܪܓܢܝܬܐ ܕܡ̣ܢ ܒܝܬ ܓܠܠ̈ܐ ܕܝܡܐ ܣܠܩܬ: 20 ܡܢܘ ܢܒܟܝܗ̇ ܕܗܐ ܒܟܠܝܠܗ ܕܡܠܟܐ ܣܝܡܐ܀ܡ̇ܢ ܠܐ ܢܚܕܐ ܒܐܝܢܐ ܕܙܟܐ ܕܠܐ ܬܟܬܘܫܐ: ܘܕܠܐ ܕܪܐ ܢܨܚ ܘܣܕܝܪ ܥܡ ܙܟܝ̈ܐ܀ܐܘܪܚܗ ܕܥܠܡܐ ܡܫܖ̈ܘܥܝܬܐ ܘܦܚ̈ܐ ܡܠܝܐ:ܘܠܐܘܬܐ ܘܥܡܠܐ ܦܓܥ ܐܝܢܐ ܕܡܗܠܟ ܒܗ̇܀25 ܒܙܒܢ ܫܪܥ ܒܙܒܢ ܢܦܠ ܒܙܒܢ ܩܐܡ:ܒܙܒܢ ܦܚܐ ܐܚܕܗ ܘܚܢܩܗ ܡܨܥܬ ܐܘܪܚܗ܀ܐܢܕܝܢ ܛܠܝܐ ܢܦܩ̣ ܡ̣ܢ ܥܠܡܐ ܫܘܪܗ̇ ܠܐܘܪܚܗ:ܘܙܟ̣ܐ ܠܦܚ̈ܐ ܘܠܬܘ̈ܩܠܬܐ ܕܣܕܝܪܝܢ ܒܗ̇܀ܘܠܐ ܐܬܦܪܣܝ ܒܡܫܖ̈ܘܥܝܬܐ ܕܐܝܬ ܒܗ̇ ܒܐܘܪܚܐ:30 ܠܐ ܛܪܝܗܝ ܦܚܐ ܘܠܐ ܦܓܥܬ ܒܗ ܡܚܢܘܩܝܬܐ܀ܥܠ̣ ܠܗ ܠܥܠܡܐ ܘܢܦܩ̣ ܡܢܗ ܕܠܐ ܡܦܘܠܬܐ:ܘܕܠܐ ܥܡܠܐ ܘܕܠܐ ܡܘܡܐ ܒܟܠܗ̇ ܐܘܪܚܗ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Reiner Körper und von aller Bosheit gereinigte Seele,Große Schönheit nicht beschmutzt von Begierde,15 Abbild des Königs, dessen Schönheit dauerhaft und dessen Bildnis anmutig ist,Kein Fehler oder Makel haftet ihm an, der es entweihen würde.Oh Verständiger, der du diesen Toten, der voller Vorzüge ist, auf das Begräbnis vorbereitet hast!Warum weinst du über den Schönen, der ohne Fehl ist?Wer weint über eine Perle, die aus den Wellen des Meeres emporgestiegen ist? 20 Denn siehe, sie wurde in die Krone des Königs gesetzt.Wer freut sich nicht über jemanden, der ohne Kampf gesiegt hat Und ohne Ringen gewonnen hat und der mit den Siegern in einer Reihe steht?Der Weg d[iese]r Welt ist rutschig und voll von Fallstricken; Mühe und Anstrengung begegnen dem [Menschen], der auf ihm geht –25 Bald stolpernd, bald hinabfallend, bald wiederaufstehend –Manchmal zieht sich die Schlinge um ihn zu und erstickt ihn, mitten auf seinem Weg.Wenn jedoch ein Kind stirbt, überspringt es die Straße Und bezwingt die Fallen und die Stolperblöcke, die auf ihr [der Straße] aufgereiht sind.Und weder ist es [das Kind] den Schlaglöchern in der Straße ausgesetzt30 Noch tritt es in eine Falle, noch gerät es in eine Schlinge,Es kommt in die Welt und verlässt sie wieder ohne Sünde [= ohne in Sünde gefallen zu sein]Ohne Mühe und Makel auf seinem ganzen Weg.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

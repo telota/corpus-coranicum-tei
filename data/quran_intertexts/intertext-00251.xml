@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 33:7-11</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_251" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>251</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran wird mehrmals hervorgehoben, dass Moses als einziger Prophet eines unmittelbaren Gespräches mit Gott gewürdigt worden sei. Vgl. neben dem vorliegenden Intertext auch noch die folgenden Bibelstellen, die wie der Koran die besondere Stellung Moses' unter allen Propheten betonen: "Mit ihm rede ich von Mund zu Mund, von Angesicht zu Angesicht, nicht in Rätseln. Er darf die Gestalt des Herrn sehen." (Numeri 12:8); "Niemals wieder ist in Israel ein Prophet wie Moses aufgetreten. Ihn hat der Herr Auge in Auge berufen." (Deuteronomium 34:10).</summary>
+            <msItem>
+              <title>Exodus 33:7-11</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>וּמֹשֶׁה יִקַּח אֶת־הָאֹהֶל וְנָטָה־לוֹ מִחוּץ לַמַּחֲנֶה הַרְחֵק מִן־הַמַּחֲנֶה וְקָרָא לוֹ אֹהֶל מוֹעֵד וְהָיָה כָּל־מְבַקֵּשׁ יְהוָה יֵצֵא אֶל־אֹהֶל מוֹעֵד אֲשֶׁר מִחוּץ לַמַּחֲנֶה : וְהָיָה כְּצֵאת מֹשֶׁה אֶל־הָאֹהֶל יָקוּמוּ כָּל־הָעָם וְנִצְּבוּ אִישׁ פֶּתַח אָהֳלוֹ וְהִבִּיטוּ אַחֲרֵי מֹשֶׁה עַד־בֹּאוֹ הָאֹהֱלָה : וְהָיָה כְּבֹא מֹשֶׁה הָאֹהֱלָה יֵרֵד עַמּוּד הֶעָנָן וְעָמַד פֶּתַח הָאֹהֶל  וְדִבֶּר עִם־מֹשֶׁה  : וְרָאָה כָל־הָעָם אֶת־עַמּוּד הֶעָנָן עֹמֵד פֶּתַח הָאֹהֶל וְקָם כָּל־הָעָם וְהִשְׁתַּחֲוּוּ אִישׁ פֶּתַח אָהֳלוֹ :  וְדִבֶּר יְהוָה אֶל־מֹשֶׁה פָּנִים אֶל־פָּנִים כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל־רֵעֵהוּ  וְשָׁב אֶל־הַמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן־נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹהֶל :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>7 Moses nahm das Zelt und schlug es für sich außerhalb des Lagers auf, in einiger Entfernung vom Lager. Er nannte es Offenbarungszelt. Wenn einer den Herrn aufsuchen wollte, ging er zum Offenbarungszelt vor das Lager hinaus. 8 Wenn Moses zum Zelt hinausging, erhob sich das ganze Volk. Jeder trat vor sein Zelt und sie schauten Moses nach, bis er in das Zelt eintrat. 9 Sobald Moses das Zelt betrat, ließ sich die Wolkensäule herab und blieb am Zelteingang stehen. Dann redete der Herr mit Moses. 10 Wenn das ganze Volk die Wolkensäule am Zelteingang stehen sah, erhoben sich alle und warfen sich vor ihren Zelten zu Boden. 11 Der Herr und Moses redeten miteinander von Angesicht zu Angesicht, wie Menschen miteinander reden. Wenn Moses aber dann ins Lager zurückging, wich sein Diener Josua, der Sohn Nuns, ein junger Mann, nicht vom Zelt.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

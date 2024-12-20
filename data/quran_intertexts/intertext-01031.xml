@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jüdische Liturgie, Achtzehngebet (ʿAmida)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1031" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1031</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 30:50 und Q 41:39 argumentieren, dass Gott, der die trockene Erde wieder belebt, auch die Toten wieder zum Leben erwecken kann (Zu den ʾāyāt im Koran vgl. den Kommentar zu Q 88:17-20 und Neuwirth 2010: p. 433-450). Der an beiden Koranstellen dafür verwendete Ausdruck muḥyi l-mautā ("der Beleber der Toten") entspricht der Bezeichnung Gottes als məḥayye (ha-)metim im jüdischen Achtzehngebet (ʿAmida, Šəmone-ʿeśre). Vgl. auch die Verse Q 42:9 (yuḥyi l-mautā), Q 46:33 und Q 75:40 (ʾan yuḥyiya l-mautā), die allerdings kein Partizip des Verbs ʾaḥyā verwenden und damit der hier zitierten Formulierung aus dem Achtzehngebet weniger genau entsprechen.
+
+</summary>
+            <msItem>
+              <title>Jüdische Liturgie, Achtzehngebet (ʿAmida)</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor dem 2. Jh. n.Chr.</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Siddur Qoren. kə-minhag q''q səfaradim / yä-Koren Siddur (yä-ṣälot mäṣḥaf). yä-səfəradim qämär, Jerusalem 2012, S. 109, 111. </bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>מֶֽלֶךְ עוֹזֵר וּמוֹשִֽׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה יְהֹוָה, מָגֵן אַבְרָהָם. אַתָּה גִּבּוֹר לְעוֹלָם, אֲדֹנָי מְחַיֶּה מֵתִים אַתָּה, רַב לְהוֹשִֽׁיעַ (מַשִּׁיב הָרֽוּחַ וּמוֹרִיד הַגֶּֽשֶׁם) (מוֹרִיד הַטָּל) מְכַלְכֵּל חַיִּים בְּחֶֽסֶד מְחַיֶּה מֵתִים בְּרַחֲמִים רַבִּים סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר. מִי כָמֽוֹךָ, בַּֽעַל גְּבוּרוֹת וּמִי דּֽוֹמֶה לָּךְ מֶלֶךְ, מֵמִית וּמְחַיֶּה וּמַצְמִֽיחַ יְשׁוּעָה. (מִי כָמֽוֹךֱ אָב הָרַחֲמָן, זוֹכֵר יְצוּרָיו בְּרַחֲמִים לְחַיִּים.) וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים. בָּרוּךְ אַתָּה יְהֹוָה, מְחַיֶּה הַמֵּתִים.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>König, Helfer, Retter und Schild! Gelobt seist du, Ewiger, Schild Abrahams! Du bist mächtig in Ewigkeit, Herr, belebst die Toten, du bist stark zum Helfen. (Du läßt den Wind wehen und den Regen fallen.) (Du lässt den Tau herabkommen.) Du ernährst die Lebenden mit Gnade, belebst die Toten in großem Erbarmen, stützest die Fallenden, heilst die Kranken, befreist die Gefesselten und hältst die Treue denen, die im Staub schlafen. Wer ist wie du, Herr der Allmacht, und wer gleichet dir, König, der du tötest und belebst und Heil aufsprießen läßt. (Wer ist wie du, Vater des Erbarmens, der du deiner Geschöpfe zum Leben gedenkst in Barmherzigkeit.) Und treu bist du, die Toten wieder zu beleben. Gelobt seist du, Ewiger, der du die Toten wieder belebst.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

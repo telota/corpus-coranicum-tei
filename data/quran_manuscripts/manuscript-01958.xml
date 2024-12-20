@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1958">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Detroit, Michigan, Detroit Institute of Arts, 25.82</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="96">Detroit Institute of Arts
+                            , Detroit, Michigan</repository>
+            <idno>25.82</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 bifol. on paper; Shelfmark: 25.82; Qurʾānic Text: Q 23:80-23:87; 5 lines per page; Dimensions: 190 x 137mm (size of bifol.); Script style: new  style. </p>
+              <p> </p>
+              <p>This  is a collection of the fragments under the shelfmark 25.82, consisting of <ref target="https://dia.org/collection/qur-folio-43482">25.82.A</ref>, <ref target="https://dia.org/collection/qur-folio-95392">B</ref>, <ref target="https://dia.org/collection/qur-folio-95393">C</ref> and <ref target="https://dia.org/collection/qur-folio-95394">D</ref>,  which encompass the four sides of a bifolium. For further information  about the fragments in question, see the linked pages of the Detroit  Institute of Arts.</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_698604" n="1r">
+              <title type="numeric" key="023:080:005-023:082:001">
+                                    023:080:005-023:082:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708077" n="1v">
+              <title type="numeric" key="023:082:002-023:083:007">
+                                    023:082:002-023:083:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708078" n="2r">
+              <title type="numeric" key="023:083:008-023:085:003">
+                                    023:083:008-023:085:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_707072" n="2v">
+              <title type="numeric" key="023:085:004-023:087:005">
+                                    023:085:004-023:087:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>190</width><height>137</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_54337">
+      <graphic decls="#imageRights-1" url="manuscript/1958/06afb35a-3a7f-43c0-b795-e1c2a8c821a4/manuscript-1958-page-54337-image-44363.jpeg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1958/134e992c-07d2-463b-b4e6-72caef0b4fd3/manuscript-1958-page-54337-image-44364.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76900">
+      <graphic decls="#imageRights-1" url="manuscript/1958/60863107-21b8-4cd2-ae31-d897421cc541/manuscript-1958-page-76900-image-69138.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1958/1a5656a6-7ccf-41ff-b805-36672a7908b6/manuscript-1958-page-76900-image-69148.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_76901">
+      <graphic decls="#imageRights-1" url="manuscript/1958/6f7a8ed7-2db6-4453-9729-26cdd7e05ff9/manuscript-1958-page-76901-image-69139.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1958/32c7695d-7a3a-4b47-8bbe-28c1a047b03b/manuscript-1958-page-76901-image-69149.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_76582">
+      <graphic decls="#imageRights-1" url="manuscript/1958/027f8723-bce8-4996-9746-2e6afbd19c86/manuscript-1958-page-76582-image-68773.png"/>
+      <graphic decls="#imageRights-1" url="manuscript/1958/1e955347-066e-402d-ab4e-52ce68423b16/manuscript-1958-page-76582-image-68774.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

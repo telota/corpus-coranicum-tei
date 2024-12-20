@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1578">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Add.1148</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Add.1148</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>3 folios; Writing surface: parchment; Shelfmark: MS Add.1148; Qurʾānic  text: Q 39:68-75, Q 40:1-18, Q 40:84-85, Q 41:1-14; 16 Lines per page; Dimensions: 216 x 145mm; Script style: kūfī B II; Estimated date of production: 9th or 10th century AD /3rd or 4th century Hijri.</p>
+              <p> </p>
+              <p>Fragments of an Abbasid Qur'ān probably  written in the third or fourth century A.H. / ninth or tenth century  C.E, containing verses 68-75 from <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01148/1">Sura al-Zumar (سورة الزمر)</ref>, verses 1-14 from <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01148/1">Sura al-Ghāfir (سورة الغافر), also called al-Muʾmin (سورة المؤمن)</ref>, as in the manuscript, and verses 1-14 from Sura al-Fuṣṣilat (سورة الفصلت), referred to as <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01148/1">Sura al-Sajdah(سورة السجدة)</ref> in the manuscript . The two first folios are misplaced, being folio 1r the continuation of folio 2v. For more information about the manuscript, see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01148/1">entry in the Digital Library of Cambridge University</ref>.</p>
+              <p> </p>
+              <p>The University of Cambridge acquired the fragment in 1878 from Edward H.  Palmer (1840-1882) and E.E. Tyrwhitt Drake. The displayed fragment and  other early Qur'an manuscripts (call numbers Add.1115 - Add.1150) were  acquired by Palmer during a research trip to the Sinai Peninsula (cf. <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UUUFI42M">Ansorge 2016</ref>).</p>
+            </summary>
+            <msItem xml:id="mysql_id_689772" n="1r">
+              <title type="numeric" key="040:005:014-040:010:013">
+                                    040:005:014-040:010:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_689773" n="1v">
+              <title type="numeric" key="040:010:014-040:018:003">
+                                    040:010:014-040:018:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_689774" n="2r">
+              <title type="numeric" key="039:068:021-039:073:020">
+                                    039:068:021-039:073:020
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_689775" n="2v">
+              <title type="numeric" key="039:074:001-040:005:013">
+                                    039:074:001-040:005:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_689776" n="3r">
+              <title type="numeric" key="040:084:003-041:007:008">
+                                    040:084:003-041:007:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_689777" n="3v">
+              <title type="numeric" key="041:008:001-041:014:013">
+                                    041:008:001-041:014:013
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 3
+                                    <dimensions unit="mm"><width>216</width><height>145</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Ignacio Sánchez</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_49732">
+      <graphic decls="#imageRights-1" url="manuscript/1578/08a0a72d-91e7-4cda-bce1-c083145c16d1/manuscript-1578-page-49732-image-36881.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_49733">
+      <graphic decls="#imageRights-1" url="manuscript/1578/58ca4554-d693-499c-8072-91238c5d0c93/manuscript-1578-page-49733-image-36882.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_49734">
+      <graphic decls="#imageRights-1" url="manuscript/1578/25320310-04b6-48bc-aebf-a5aa47f99018/manuscript-1578-page-49734-image-36883.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_49735">
+      <graphic decls="#imageRights-1" url="manuscript/1578/70d09e17-2371-43ec-9dc1-de950812e188/manuscript-1578-page-49735-image-36884.jpeg"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_49736">
+      <graphic decls="#imageRights-1" url="manuscript/1578/44fa38d1-3e44-45b2-b1f4-59f9ce2651fd/manuscript-1578-page-49736-image-36885.jpeg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_49737">
+      <graphic decls="#imageRights-1" url="manuscript/1578/190c3ea7-3ea8-4897-aab4-c63525fa174c/manuscript-1578-page-49737-image-36886.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

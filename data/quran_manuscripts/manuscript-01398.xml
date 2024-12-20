@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1398">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Doha, Qatar National Library  (مكتبة قطرالوطنية), HC.MS.2017.0049</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Qatar National Library, Heritage Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="84">Qatar National Library  (مكتبة قطرالوطنية)
+                            , Doha</repository>
+            <idno>HC.MS.2017.0049</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Parchment bifolium, Shelfmark: HC.MS. 2017.0049; Qurʾānic Text: 9:54-56; Lines per page: 7; Dimensions: 151 x 226 mm; Script style: kūfī, (type D I-D III); Estimated date of production:  750-900. </p>
+            </summary>
+            <msItem xml:id="mysql_id_686902" n="1r">
+              <title type="numeric" key="009:054:019-009:055:012">
+                                    009:054:019-009:055:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686901" n="1v">
+              <title type="numeric" key="009:055:013-009:056:010">
+                                    009:055:013-009:056:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>226</width><height>151</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="6">6 - 6 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I / D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>transliteration: Zahra Mollaei</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_46908">
+      <graphic decls="#imageRights-1" url="manuscript/1398/2462a9c0-e251-4e1a-9d43-37c64b9bcdf9/manuscript-1398-page-46908-image-32804.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_46907">
+      <graphic decls="#imageRights-1" url="manuscript/1398/02e19f0e-b37a-4d98-b4fb-35e0f5fda0c6/manuscript-1398-page-46907-image-32803.tif"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body source="1398_Doha_HC.MS.2017.0049_tei.xml">
+      <pb xml:id="f.1v"/>
+      <!-- Page ID: 1398,f. 1v,009:055:013-009:056:010 -->
+      <!-- Lines: 6; Valid Lines: 6 -->
+      <l n="1">
+        <note/>
+        <w n="009-055-013">الدنيا</w>
+        <pc> </pc>
+        <w n="009-055-014">وتزهق</w>
+        <pc> </pc>
+        <w n="009-055-015">ا</w>
+      </l>
+      <l n="2">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-055-015">نفسهم</w>
+        <pc> </pc>
+        <w n="009-055-016">وهم</w>
+        <pc> </pc>
+        <w n="009-055-017">کفر</w>
+      </l>
+      <l n="3">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-055-017">ون</w>
+        <pc> </pc>
+        <!-- Vers Break: '55'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٥٥</supplied>
+        </w>
+        <pc> </pc>
+        <w n="009-056-001">ويحلفون</w>
+        <pc> </pc>
+        <w n="009-056-002">بالل‍ه</w>
+        <pc> </pc>
+      </l>
+      <l n="4">
+        <note/>
+        <w n="009-056-003">انهم</w>
+        <pc> </pc>
+        <w n="009-056-004">لمنکم</w>
+        <pc> </pc>
+        <w n="009-056-005">و</w>
+      </l>
+      <l n="5">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-056-005">ما</w>
+        <pc> </pc>
+        <w n="009-056-006">هم</w>
+        <pc> </pc>
+        <w n="009-056-007">منکم</w>
+        <pc> </pc>
+        <w n="009-056-008">و</w>
+      </l>
+      <l n="6">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-056-008">لکنهم</w>
+        <pc> </pc>
+        <w n="009-056-009">قوم</w>
+        <pc> </pc>
+        <w n="009-056-010">يفر</w>
+      </l>
+      <pb xml:id="f.1r"/>
+      <!-- Page ID: 1398,f. 1r,009:054:019-009:055:012 -->
+      <!-- Lines: 6; Valid Lines: 6 -->
+      <l n="1">
+        <note/>
+        <w n="009-054-019"><supplied reason="omitted-in-original" source="#cairo_rasm">ين</supplied>فقون
+        </w>
+        <pc> </pc>
+        <w n="009-054-020">الا</w>
+        <pc> </pc>
+        <w n="009-054-021">وهم</w>
+        <pc> </pc>
+      </l>
+      <l n="2">
+        <note/>
+        <w n="009-054-022">کرهون</w>
+        <pc> </pc>
+        <!-- Vers Break: '54'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٥٤</supplied>
+        </w>
+        <pc> </pc>
+        <w n="009-055-001">فلا</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="009-055-002">تعجبک</w>
+        <pc> </pc>
+        <w n="009-055-003">امولهم</w>
+        <pc> </pc>
+        <w n="009-055-004">و</w>
+      </l>
+      <l n="4">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-055-004">لا</w>
+        <pc> </pc>
+        <w n="009-055-005">اولدهم</w>
+        <pc> </pc>
+        <w n="009-055-006">انما</w>
+        <pc> </pc>
+      </l>
+      <l n="5">
+        <note/>
+        <w n="009-055-007">يريد</w>
+        <pc> </pc>
+        <w n="009-055-008">الل‍ه</w>
+        <pc> </pc>
+        <w n="009-055-009">ليعذ</w>
+      </l>
+      <l n="6">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="009-055-009">هم</w>
+        <pc> </pc>
+        <w n="009-055-010">بها</w>
+        <pc> </pc>
+        <w n="009-055-011">فے</w>
+        <pc> </pc>
+        <w n="009-055-012">الحيوة</w>
+        <pc> </pc>
+      </l>
+    </body>
+  </text>
+</TEI>

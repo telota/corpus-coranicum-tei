@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1144">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 2004.87</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: The Metropolitan Museum of Art (New York).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>2004.87</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 2004.87; Qurʾānic Text: Q 21:103-21:111; 12 lines per page; Dimensions: 700 x 550mm; Script style:  kūfī C.I; Estimated date of production: 700–900.</p>
+              <p> This folio is from a large-format quranic codex that is located in Tashkent and was previously kept in Samarkand. The only images of this monumental manuscript currently available are from the <ref target="https://corpuscoranicum.de/en/manuscripts/141">facsimile edition of 1905</ref> (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/49A8D8RW" sameAs="49A8D8RW" type="zotero">Ouspensky/Pissaref 1905</ref>), this edition however reproduces the text very imprecisely (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/GR9MHNJ7">Shebunin 1892</ref>). On further folios that probably once belonged to this codex, see Déroche 2013.</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://www.metmuseum.org/art/collection/search/454661">website of the Metropolitan Museum of Art (New York)</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_678243" n="1r">
+              <title type="numeric" key="021:103:005-021:105:011">
+                                    021:103:005-021:105:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678242" n="1v">
+              <title type="numeric" key="021:105:012-021:111:001">
+                                    021:105:012-021:111:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>700</width><height>550</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12">12 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40343">
+      <graphic decls="#imageRights-1" url="manuscript/1144/69cc468f-3c80-47fa-b49d-e6dfbc4e11eb/manuscript-1144-page-40343-image-25573.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40342">
+      <graphic decls="#imageRights-1" url="manuscript/1144/529885a6-0ac3-4c4f-81e8-7259b4fd81f1/manuscript-1144-page-40342-image-25572.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

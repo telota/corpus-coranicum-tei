@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 1:14-19</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_750" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>750</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die koranische Darstellung der Himmelsgestirne gibt dem Mond drei Aufgaben: Er leuchtet, läuft die Stationen ab, die ihm gegeben wurden, und dient damit für die Menschen zur Berechnung der Zeit. Nach Q 36:40 darf die Sonne den Mond nicht einholen, wie auch die Nacht den Tag nicht. Genesis 1,14 spricht für die Gestirne von folgenden Aufgaben: Sie sollen leuchten, Zeichen sein (hebr. we-hayu le-ʾotot) und für den Menschen zur Bestimmung von Festen und Zeit dienen. Nach bT Schabbat 75a, gilt es als eine Pflicht, die Zeit nach dem Laufe der Gestirne zu berechnen (vgl. auch Genesis Rabba 6:1 zu Gen 1,14 sowie TUK_1131 und TUK_1331). Während Gen 1,14-19 Teil der Schöpfungsgeschichte ist, gehört die 
+Beschreibung des Mondes in den genannten Koranstellen zu einer Argumentation, die sich der 
+Schilderung verschiedener Manifestationen von Gottes schöpferischer 
+Allmacht (im Koran ʾāyāt [„Zeichen“] genannt) bedient (vgl. zur koranischen Schöpfungstheologie und den ʾāyāt Neuwirth 2010: 433-450). Aber auch bereits in Gen 1,14 werden die Himmelslichter "Zeichen" (hebr. ʾotot) genannt.Dass das arabische Wort ʾāya mit dem hebräischen ʾot (von der Wurzel ʾ-W-Y) verwandt ist, hat bereits Arthur Jeffery (Jeffery 1938: 72-73) dargelegt, wobei eine syrisch-aramäische Vermittlung wahrscheinlich ist. Das Wort ist schon in der altarabischen 
+Dichtung belegt, wobei Jeffery auf einen Vers bei Imruʾul Qais (Ahlwardt 1870: 160) verweist. ʾāyā bedeutet "Zeichen, Wunderzeichen" und 
+entspricht damit der Benutzung des hebräischen ʾot, was bereits in der 
+biblischen Genesis als Zeichen gedeutet wird, an dem man den 
+Zeitverlauf und die Jahrfeste festmachen kann (Gen 1,14: [...] we-hayu 
+lə-ʾotot u-lə-moʿadim u-lə-yamim wə-šanim, "[...] und sie geben Zeichen, 
+Zeiten, Tage und Jahre"). Gleichzeitig dienen die "Zeichen der 
+Schöpfung" auch als Zeichen des Bundes zwischen Gott und Mensch. Auch 
+verweist Jeffery auf die bereits in der hebräischen Bibel zu findende Bedeutung als "Zeichen" (hebr. nes, 
+mofet) bzw. "Wunderzeichen" (hebr. peleʾ, niflaʿot), mit deren Hilfe man der
+ göttlichen Präsenz gewahr werden kann (Ex 8,19; Dtn 4,34; Jos 3,5; Ps 78,43). Einige "Zeichen" sind aber weitaus mehr als nur "Wunderzeichen", das 
+heißt sie beziehen sich nicht allein auf die Präsenz Gottes, sondern 
+auch auf sein Handeln in der Geschichte, wenn etwa Samaria (2 Kö 
+6,8-7:20) und Jerusalem (2 Kö 19,35) vor angreifenden Armeen auf 
+wundersame Weise geschützt werden. Auch Feste wie das wöchentlich 
+stattfindende Sabbat-Fest, sind ein Zeichen das den Bund zwischen 
+Gott und seinen Geschöpfen beständig in Erinnerung ruft (vgl. Ex 
+31,16-17: wə-šaməru bəne Yisraʾel ʾet ha-šabbat laʿasot ʾet 
+ha-šabbat lə-dorotam bərit ʿolam beni u-ven bəney Yisraʾel ʾot hi 
+lə-ʿolam ki šešet yamim ʿasa YHWH ʾet ha-šamayyim wə-ʾet ha-ʾareṣ [...], "Darum sollen die Israeliten den Sabbat halten, dass sie ihn auch bei 
+ihren Nachkommen halten als ewigen Bund./ Er ist ein ewiges Zeichen 
+zwischen mir und den Israeliten, denn in sechs Tagen machte der HERR 
+Himmel und Erde [...]").Auch im griechischen Neuen Testament findet sich ein Äquivalent für das hebräische Wort 
+ʾot, nämlich stoicheia ("Schöpfungszeichen") -- bei Platon etwa waren
+ die stoicheia noch die vier Elemente (vgl. auch Gal 4,3.9; 
+Kol 2,8.20; Heb 5,12; 2 Pet 3,10.12: stoicheia tou kosmou, "Satzungen 
+der Welt"). Letztlich sind es diese Wunder/Zeichen, die im Neuen Testament
+ ebenfalls berichtet werden. In ihnen wird das Wesen von Jesu Botschaft und Wirken offenbar (Mt 11,2-6, Lk 7,18-23), wobei Johannes durchweg das 
+Wort sēmeia benutzt. Im engeren Sinne ist sēmeion nach dem Gebrauch des 
+Neuen Testaments ein übernatürliches Zeichen, insbesondere für die Umstände 
+von Empfängnis und Geburt des Jesusknaben. Sie reflektieren die schöpferische Potenz der Wunderzeichen und deren
+ Satzungen, die in den folgenden Jahrhunderten buchstabenmagische 
+Spekulationen auslösen sollten, die dann folgerichtig alle 
+Buchstaben in Wort und Form als Sinnbilder der Person Christi zu 
+verstehen glaubten. Somit entsprechen nach christlicher Theologie die 22
+ Schöpfungswerke (Jub 2,1-25) den 22 Werken Christi (das hebräische Alphabet besteht aus 22 Buchstaben [hebr. ʾotot]), an denen Gottes 
+Eingreifen im Weltgeschick vor Augen geführt wird, wobei die Erwählung 
+Israels durch das Nichterkennen Jesu als Messias neutralisiert wird.Schon in der Spätantike hatte sich die Meinung durchgesetzt, dass die 
+ʾotot bzw. stoicheia als Urbilder der Schöpfung verstanden werden 
+müssten. So verband sich ein erstarkendes 
+philologisch-grammatikalisches Interesse mit den jeweiligen 
+Schöpfungstheorien (vgl. etwa das "Buch der Schöpfung" [hebr. Sefer Yeṣira] oder "Vom Mysterium der Buchstaben" [griech. Peri tou mystēriou tōn grammatōn]; s. dazu Herrmann, 2008 bzw. Bandt, 2007). Die Bedeutung der spätantiken Traditionen für die koranische Schöpfungstheologie hat Neuwirth (Neuwirth 2010: 447-450) aufgezeigt. Unter Einbeziehung der linguistischen Perspektive versteht sie ˀāyāt als Texte bzw. Koranpassagen; diese seien "semantisch" betrachtet Schöpfungsdetails und theologisch betrachtet in der Schöpfung enthaltene Zeichen, die "gelesen" einen eigenen, zu Offenbarung parallelen Text ergeben. (Neuwirth 2010: 449).</summary>
+            <msItem>
+              <title>Genesis 1:14-19</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Ahlwardt, Wilhelm (Hrsg.): The Divans of the six ancient Arabic poets Enn&amp;#x101;biga, &amp;#x2019;Antara, Tharafa, Zuhair, &amp;#x2019;Alqama und Imruulqais: chiefly according to the MSS. of Paris, Gotha, and Leyden and the collection of their fragments with a list of the various readings of the text. Tr&amp;#xFC;bner, London 1870.</bibl>
+              <bibl type="literatur">Herrmann, Klaus: Sefer Je&amp;#x1E93;ira. Verl. der Weltreligionen, Frankfurt am Main) [u.a] 2008.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Dirk Hartwig</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manuel Dreher</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין  הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים \ וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל־הָאָרֶץ וַיְהִי־כֵן \ וַיַּעַשׂ אֱלֹהִים אֶת־שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים אֶת־הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת־הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִים \ וַיִּתֵּן אֹתָם אֱלֹהִים בִּרְקִיעַ הַשָּׁמָיִם לְהָאִיר עַל־הָאָרֶץ \ וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּלֲהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טוֹב \ וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם רְבִיעִי.
+
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Dann sprach Gott: Lichter sollen am Himmelsgewölbe sein, um Tag und Nacht zu scheiden. Sie sollen Zeichen sein und zur Bestimmung von Festzeiten, von Tagen und Jahren dienen; / sie sollen Lichter am Himmelsgewölbe sein, die über die Erde hin leuchten. So geschah es. / Gott machte die beiden großen Lichter, das größere, das über den Tag herrscht, das kleinere, das über die Nacht herrscht, auch die Sterne. / Gott setzte die Lichter an das Himmelsgewölbe, damit sie über die Erde hin leuchten, / über Tag und Nacht herrschen und das Licht von der Finsternis scheiden. Gott sah, daß es gut war. / Es wurde Abend, und es wurde Morgen: vierter Tag.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: / And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so. / And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so. / And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also. / And God set them in the firmament of the heaven to give light upon the earth, / And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good. / And the evening and the morning were the fourth day. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

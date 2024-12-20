@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_653">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 356 (h)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 356 (h)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        Der Katalog der Pariser Koranhandschriften (Déroche 1983: p. 99) enthält folgende Angaben: "Arabe <hi rend="bold">356 h</hi> : fo 60. Fo 60 : XXXIX, 21—22. Copie anonyme et non datée. Graphie D II. Diacritiques absents ; vocalisation : points rouges partiellement portés ; <hi rend="italic">hamza</hi> : points jaunes, confondus avec la vocalisation; <hi rend="italic">šadda</hi> : signe moderne, de couleur rouge. Entre les deux versets ﬁgure un médaillon de type 3.C.II. Parchemin. 1 feuillet. Page : 157 x 220. 6 lignes. Encre brune. Surface d‘écriture : 68 x 145."
+                    </summary>
+            <msItem xml:id="mysql_id_679325" n="60r">
+              <title type="numeric" key="039:021:006-039:021:021">
+                                    039:021:006-039:021:021
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679326" n="60v">
+              <title type="numeric" key="039:021:022-039:022:003">
+                                    039:021:022-039:022:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>220</width><height>157</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="6">6 - 6 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-1000</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="60r" xml:id="mysql_id_31999">
+      <graphic decls="#imageRights-1" url="manuscript/653/50e80b48-60d6-4161-a18c-7473ad07cd3a/manuscript-653-page-31999-image-16728.jpg"/>
+    </surface>
+    <surface n="60v" xml:id="mysql_id_32000">
+      <graphic decls="#imageRights-1" url="manuscript/653/76eed91f-75fa-4ae3-bbf6-6cc6b3df192a/manuscript-653-page-32000-image-16729.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

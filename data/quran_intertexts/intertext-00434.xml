@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 7:1-6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_434" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>434</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In den zitierten Koranstellen wird Aaron - implizit oder explizit - als "Prophet" (nabī) bezeichnet und in eine Reihe von Propheten eingeordnet, die u. a. Noah, Moses und Jesus umfasst. Speyer verweist in diesem Zusammenhang auf Exodus 7:1, wo Gott Moses mitteilt, dass er ihm Aaron als "seinen nābîʾ" zur Seite stellt. Speyer 1931: p. 261 macht jedoch zugleich deutlich, dass hebr. nābîʾ zwar "Prophet" bedeutet, die vorliegende Bibelstelle jedoch eher meint, dass Aaron als Moses Sprecher fungieren soll. Allerdings könnte das arabische nabiyy zumindest in Q 19:53 in derselben Bedeutung wie in Exodus 7:1 gebraucht sein: "Und wir schenkten ihm [Moses] ... seinen Bruder Aaron als Propheten [= Sprecher?]". Vgl. auch TUK_0693. Zu Grunde liegen mag hier auch die Tatsache, dass zumindest hebr. nābîʾ und möglicherweise auch arab. nabiyy neben der 'technischen' Bedeutung "Prophet" einfach auch noch die allgemeinere, etymologisch ältere Bedeutung "Sprecher, Verkünder" haben kann. Letztlich gehören die Formen zu akkadisch nabû "nennen, berufen". Die Form *faʿīl ist hier aktivisch zu verstehen, wie etwa auch arab. naḏīr etc.; d.h., es ist eine Entwicklung etwa "ein mit Verkündigung Versehener" &amp;gt; "Verkünder" anzunehmen und kaum ein Verständnis als Passiv "Berufener" o.ä. (anders Huehnergard 1999: p. 88-93). Zu nabiyy vgl. Jeffery 1938: p. 276.
+</summary>
+            <msItem>
+              <title>Exodus 7:1-6</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Huehnergard, J.: &amp;#x201E;On the Etymology and Meaning of Hebrew n&amp;#x101;b&amp;#xEE;&amp;#x2BE;&amp;#x201C;. In: Eretz-Israel 26 (1999), S. 88&amp;#x2013;93.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה רְאֵה נְתַתִּיךָ אֱלֹהִים לְפַרְעֹה  וְאַהֲרֹן אָחִיךָ יִהְיֶה נְבִיאֶךָ : אַתָּה תְדַבֵּר אֵת כָּל־אֲשֶׁר אֲצַוֶּךָּ וְאַהֲרֹן אָחִיךָ יְדַבֵּר אֶל־פַּרְעֹה וְשִׁלַּח אֶת־בְּנֵי־יִשְׂרָאֵל מֵאַרְצוֹ : וַאֲנִי אַקְשֶׁה אֶת־לֵב פַּרְעֹה וְהִרְבֵּיתִי אֶת־אֹתֹתַי וְאֶת־מוֹפְתַי בְּאֶרֶץ מִצְרָיִם : וְלֹא־יִשְׁמַע אֲלֵכֶם פַּרְעֹה וְנָתַתִּי אֶת־יָדִי בְּמִצְרָיִם וְהוֹצֵאתִי אֶת־צִבְאֹתַי אֶת־עַמִּי בְנֵי־יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם בִּשְׁפָטִים גְּדֹלִים : וְיָדְעוּ מִצְרַיִם כִּי־אֲנִי יְהוָה בִּנְטֹתִי אֶת־יָדִי עַל־מִצְרָיִם וְהוֹצֵאתִי אֶת־בְּנֵי־יִשְׂרָאֵל מִתּוֹכָם : וַיַּעַשׂ מֹשֶׁה וְאַהֲרֹן כַּאֲשֶׁר צִוָּה יְהוָה אֹתָם כֵּן עָשׂוּ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Der Herr sprach zu Moses: Hiermit mache ich dich für den Pharao zum Gott; dein Bruder Aaron soll dein Prophet sein. 2 Du sollst alles sagen, was ich dir auftrage; dein Bruder Aaron soll es dem Pharao sagen und der Pharao muss die Israeliten aus seinem Land fortziehen lassen. 3 Ich aber will das Herz des Pharao verhärten und dann werde ich meine Zeichen und Wunder in Ägypten häufen. 4 Der Pharao wird nicht auf euch hören. Deshalb werde ich meine Hand auf Ägypten legen und unter gewaltigem Strafgericht meine Scharen, mein Volk, die Israeliten, aus Ägypten führen. 5 Erst wenn ich meine Hand gegen die Ägypter ausstrecke, werden sie erkennen, dass ich der Herr bin, und dann werde ich die Israeliten aus ihrer Mitte herausführen. 6 Moses und Aaron taten, was ihnen der Herr aufgetragen hatte. So machten sie es.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

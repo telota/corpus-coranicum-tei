@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_999">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 93</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 93</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>François Déroche schreibt zum Fragment KFQ 93 (Déroche,  <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, S. 58): "11 / Single folio / End of the 8th century AD / 16.5x22cm, with 16 lines to the page / <hi rend="italic">Material</hi> Parchment, dyed deep orange; the recto is the hair side / <hi rend="italic">Text area</hi> 13.2x18cm / <hi rend="italic">Script</hi> Style C.Ib / <hi rend="italic">Accession no.</hi> KFQ93 / <hi rend="italic">Published</hi> Sotheby's, London, 12 october 1990, lot no. 196 / <hi rend="italic">Another fragment from the same Qur'an </hi>/ New York, Metropolitan Museum of Art, Rogers Fund, MS. 40.164.100 / It is the colour of this folio that arrests one’s attention rather than the script. Despite the fame of the Blue Qur’an (see cat.42), examples of Qur’ans written on dyed parchment are relatively rare. In fact, Grohmann (1967, p. III) considered the Blue Qur’an the only certain example of dyed parchment and refers to the presence of saffron-coloured fragments in the collection of Archduke Rainer only with great caution. Cat.II and other examples found in Istanbul show that dyeing parchment was more widespread than Grohmann allowed and that saffron and similar colours were the most frequently used for Qur’an manuscripts, but fragments dyed in pink and violet also exist, perhaps as the result of attempts to imitate the Byzantine purple (Huart 1908, p.12). Some of the information provided by Huart with regard to dyeing paper could just as well be applied to parchment. / The text of this folio – verses 17-27 of <hi rend="italic">Sūrat Yūnus</hi> (X) – is written in dark brown ink. White dots correspond to the vocalization, but the original colour was probably black. Clusters of three oblique strokes (I.I.I) mark the end of each verse. Every fifth verse is indicated by an <hi rend="italic">alif</hi> outlined in red ink, and every tenth verse by a white circle (I.D.I)."</p>
+            </summary>
+            <msItem xml:id="mysql_id_678262" n="1r">
+              <title type="numeric" key="010:017:014-010:022:038">
+                                    010:017:014-010:022:038
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678263" n="1v">
+              <title type="numeric" key="010:022:039-010:027:016">
+                                    010:022:039-010:027:016
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>220</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C.Ib
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40361">
+      <graphic decls="#imageRights-1" url="manuscript/999/d425c686-284a-4909-adfc-6eacf2fa856c/manuscript-999-page-40361-image-27772.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40362">
+      <graphic decls="#imageRights-1" url="manuscript/999/34368724-5548-468f-907c-722ad342d529/manuscript-999-page-40362-image-27773.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

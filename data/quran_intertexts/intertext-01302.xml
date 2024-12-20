@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dādestān ī Mēnōg ī Xrad 7:27-31</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1302" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1302</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In Q 76 werden die Genüsse der Bewohner des Paradieses beschrieben: Auf Ruhebetten (Q 76:14) genießen die Gerechten mit Kampfer und Ingwer versetzten Wein (Q 76:5, 17), sie sind in Brokat und Seide gekleidet (Q 76:21), ihnen werden Früchte dargeboten (Q 76:14) und Jünglinge warten dienstbeflissen auf (Q 76:19), während sie aus prächtigen Gefäßen trinken. Beschattet in der Nähe der Quelle Salsabīl erfahren sie weder Hitze noch Kälte: lā yarauna fīhā šamsan wa-lā zamharīrā (vgl. zur dieser Vorstellung auch TUK_0604). Der Terminus zamharīr, der hier Verwendung findet, ist ein hapax legomenon, das den arabischen Lexikographen Deutungsschwierigkeiten bereitet hat und zumeist als eine „schneidende Kälte“ aufgefasst wird (Ambros and Procházka 2004: 211; Lane 1863: 1255). Dagegen versteht Angelika Neuwirth im Anschluss an Josef Horovitz (Horovitz, Josef 1923: 14) zamharīr im Sinne eines intensivierenden Parallelismus als „sengende Hitze“ (Neuwirth 2017: 512, vgl. auch TUK_0115). Roberto Tottoli wertet zahlreiche Korankommentare (tafāsīr) aus, welche zamharīr als „Mond“ (Tottoli 2008: 142, 149) verstehen, was der koranische Parallelismus zu šams („Sonne“) nahelege (Tottoli 2008: 148–149). Des Weiteren verweist er auf Muqātil b. Sulaimān (gest. 150/767 n. Chr.), der zamharīr als „Kälte“ auffasst, jedoch anmerkt, dass diese die Paradiesbewohner nicht verletze (Tottoli 2008: 143). Schließlich nennt Tottoli zahlreiche andere Exegeten, die zamharīr als eine der Höllenstrafen begreifen (Tottoli 2008: 149), und diskutiert die Möglichkeit, dass der Begriff im Sprachgebrauch der Ṭayyʾ die „Kälte des Mondes“ bezeichnet haben könnte (Tottoli 2008: 148–149). Während sich nach Tottoli Kälte als Höllenstrafe in der jüdisch-christlichen Tradition nicht finde (vgl. jedoch TUK_1274), ist darauf hingewiesen worden, dass sich diese Vorstellung im Zoroastrismus nachweisen lasse (Palacios 1919: 138–139; Gray 1902: 174). Möglicherweise handelt es sich bei zamharīr um ein Kompositum aus dem mittelpersischen Wort zam, das „Winter“ und „schneidende Kälte“ bedeutet (MacKenzie 1971: 97; Asbaghi 1988: 77), und der arabischen Wurzel h-r-r, die das „Winseln“ und „Heulen (eines Tieres)“ bezeichnet (Lane 1863: 2888).
+
+Die Vorstellung eines ausgeglichenen Klimas als Charakteristikum des Paradieses findet sich bereits im Awesta (Yasna 9:5; Yašt 15:16; 19:33; 19:69 vgl. TUK_1272). Die Umkehrung, in welcher Kälte als eine Höllenstrafe dargestellt wird, ist im spät-sasanidischen Ardā Wīrāz Nāmag (TUK_1271) vielfach bezeugt. Im hier vorgestellten Dādestān ī Mēnōg ī Xrad wird die Kälte neben Hitze und als grau beschriebenen Kreaturen als distinktives Merkmal der Hölle beschrieben. In struktureller Ähnlichkeit zum Koran wird das Schicksal der Gerechten (DMX 7:8-12) dem der Verdammten (DMX 7:20–30) antithetisch gegenübergestellt, wobei im Dādestān ī Mēnōg ī Xrad noch ein intermediärer Bereich (hamēstān) zwischen Himmel und Hölle (DMX 7:18–19) dargestellt wird, der gewisse Ähnlichkeiten zum koranischen barzaḫ (vgl. TUK_1319) aufweist.
+
+
+Das Dādestān i Mēnōg ī Xrad („Urteile des Geistes der Weisheit“) ist ein mittelpersischer zoroastrischer Text, welcher der Gattung der Weisheitsliteratur (Andarz) zugerechnet wird (vgl. Shaked and Safa 1985). Der Text selbst stellt die spätere Verschriftlichung einer zunächst mündlichen Tradition dar. Die älteste erhaltene Handschrift stammt aus dem Jahr 1589. Autor und Entstehungszeit sind unbekannt, jedoch gehen Edward W. West, Mary Boyce und Aḥmad Tafażżolī aufgrund stilistischer Besonderheiten und der Bezugnahme auf historische Ereignisse der späten Sasanidenzeit von einer schriftlichen Abfassung während der Regierungszeit des Ḫusraw I. Anūšīrwān (reg. 531–579 n. Chr.) aus (vgl. West 1885: X–XI; Boyce 1968: 54; Tafażżolī 1993). Für das Genre der Andarz-Literatur generell wird von einer schriftlichen Fixierung in der spät-sasanidischen Zeit ausgegangen (vgl. Stausberg 2002: 291–292).
+
+Formal gliedert sich der Text in 63 Abschnitte, wobei auf eine den Rahmen bildende erzählerische Einleitung 62 Dialogsequenzen folgen. Die Einleitung unterrichtet über die Bemühungen eines gewissen Dānāg (der sprechende Name kann wörtl. übersetzt werden mit „der Wissende, der Weise“), der während seiner Suche nach Wissen und Erkenntnis viele Länder bereist und dabei Sitten, Bräuche und religiöse Überzeugungen kennenlernt (DMX 1:33–38). Am Ende seiner Reise wird ihm schließlich – nach Erkennen der für den Zoroastrismus zentralen Tugend der Weisheit (xrad) – die Ehre zuteil, Fragen an den göttlichen Geist der Weisheit (Mēnōg ī Xrad) stellen zu dürfen (DMX 1:57–60). Die darauf folgenden 62 Sektionen behandeln eine Fülle von Themen: Neben lebenspraktischen Fragen etwa über das maßvolle Weintrinken (DMX 16) werden Fragen der religiös korrekten Lebensführung, wie die nach der Einhaltung der drei Gebetszeiten (DMX 53), erörtet; des Weiteren werden Begräbnis-Vorschriften (DMX 6), das Tragen des heiligen Gürtels und Essenvorschriften (DMX 6) sowie dogmatische Themen wie der Antagonismus zwischen Ohrmazd und Ahriman (DMX 45; 45; 54), Fragen des Rituals (DMX 52) sowie Sünden- und Tugendkataloge (DMX 35; 36) besprochen. Vereinzelt wird auch auf eschatologische Themen, etwa die Anzahl der Paradiese und Höllen (DMX 7), eingegangen. Daneben finden sich auch kurze kosmogonische (DMX 44) und geographische (DMX 56) Passagen, Darlegungen über die Klassenstruktur der Gesellschaft (DMX 31; 32) und weitere Themengebiete. Wie der Titel des Werkes bereits andeutet, betont der Text die sittliche Überlegenheit des Strebens nach Weisheit und spiritueller Vervollkommnung vor materiellem Wohlstand und weltlicher Macht.</summary>
+            <msItem>
+              <title>Dādestān ī Mēnōg ī Xrad 7:27-31</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Regierungszeit des Ḫusraw I. Anūšīrwān (531–597 n. Chr.)</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Anklesaria 1913: 42</bibl>
+              <bibl type="literatur">Ambros, Arne A.: A Concise Dictionary of Koranic Arabic. Reichert, Wiesbaden 2004.</bibl>
+              <bibl type="literatur">Anklesaria, Tehmuras Dinshaw: D&amp;#xE2;n&amp;#xE2;k-u Mainy&amp;#xF4;-i Khrad. Bombay 1913.</bibl>
+              <bibl type="literatur">Asbaghi, Asya: Persische Lehnw&amp;#xF6;rter im Arabischen. Wiesbaden 1988.</bibl>
+              <bibl type="literatur">Asin Palacios, Miguel: La musulmana en la Divina comedia. Madrid 1919.</bibl>
+              <bibl type="literatur">Bitsch, Sebastian: &amp;#x201E;Sengende Hitze, Eisesk&amp;#xE4;lte oder Mond? Zum Echo zoroastrischer eschatologischer Vorstellungen am Beispiel des koranischen zamhar&amp;#x12B;r&amp;#x201C;. In: Der Islam 97 (2020),.</bibl>
+              <bibl type="literatur">Boyce, Mary: &amp;#x201E;Middle Persian Literature&amp;#x201C;. In: Berthold Spuler (Hrsg.), Handbuch der Orientalistik. Leiden 1968, S. 31&amp;#x2013;66.</bibl>
+              <bibl type="literatur">Gray, Louis H.: &amp;#x201E;Zoroastrian Elements in Muhammedan Eschatology&amp;#x201C;. In: Le Mus&amp;#xE9;on 21 (1902), S. 153&amp;#x2013;184.</bibl>
+              <bibl type="literatur">Horovitz, Josef: &amp;#x201E;Das koranische Paradies&amp;#x201C;. In: Immanuel Velikovsky &amp;amp; Henricus Loewe (Hrsg.), Scripta Universitatis atque Bibliothecae Hierosolymitanarum. Orientalia et Judaica. Jerusalem 1923,</bibl>
+              <bibl type="literatur">Lane, Edward William: An Arabic-English lexicon&amp;#x202F;: derived fom the best and the most copious Eastern sources&amp;#x202F;; comprising a very large collection of words and significations omitted in the K&amp;#x323;&amp;#xE1;moos, with supplements to its abridged and defective explanations ... and examples in prose and verse&amp;#x202F;; in two books. Williams &amp;amp; Norgate, London 1893 1863.</bibl>
+              <bibl type="literatur">MacKenzie, David N.: A Concise Pahlavi Dictionary. London [u.a] 1971.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran. Handkommentar mit &amp;#xDC;bersetzung. Berlin 2017.</bibl>
+              <bibl type="literatur">Shaked, Shaul &amp;amp; Safa, Zabihollah: &amp;#x201E;Andarz&amp;#x201C;. Encyclopaedia Iranica 2.1: 11&amp;#x2013;22.</bibl>
+              <bibl type="literatur">Stausberg, Michael: Die Religion Zarathustras. Geschichte-Gegenwart-Rituale. Stuttgart et al 2002.</bibl>
+              <bibl type="literatur">Tafa&amp;#x17C;&amp;#x17C;ol&amp;#x12B;, A&amp;#x1E25;mad: &amp;#x201E;D&amp;#x101;dest&amp;#x101;n &amp;#x12B; M&amp;#x113;n&amp;#x14D;g &amp;#x12B; Xrad&amp;#x201C;. Encyclopaedia Iranica 6.5: 554&amp;#x2013;555.</bibl>
+              <bibl type="literatur">Tottoli, Roberto: &amp;#x201E;The Qur&amp;#x2019;an, Qur&amp;#x2019;anic Exegesis and Muslim Traditions: The Case of zamhar&amp;#x12B;r (Q. 76:13) Among Hell&amp;#x2019;s Punishments&amp;#x201C;. In: Journal of Qur&amp;#x2019;anic Studies 10.1 (2008), S. 142&amp;#x2013;152.</bibl>
+              <bibl type="literatur">West, Edward W.: Pahlavi Texts. Oxford 1885.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2F1.jpg&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>There is a place where, as to cold, it is such as that of the coldest frozen snow.There is a place where, as to heat, it is such as that of the hottest and most blazing fire.There is a place where noxious creatures are gnawing them, just as a dog does the bones.There is a place where, as to stench, it is such that they stagger about and fall down.And the darkness is always such-like as though it is possible for them to seize upon it with the hand.(West 1885: 31–32)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

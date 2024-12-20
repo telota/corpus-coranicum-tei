@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_660">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 358 (f)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 358 (f)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Der Katalog der Pariser Koranhandschriften <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/5RF6W5GJ" sameAs="5RF6W5GJ" type="zotero">(Déroche 1983: p. 91)</ref> enthält folgende Angaben: "Arabe <hi rend="bold">358 f </hi>: ffo 34 et 35. Du même manuscrit que le fragment précédent. Fo 34 : XIX, 18-22 ; fo 35 : XXI, 43-45. Copie anonyme et non datée. Graphie proche de D I. Diacritiques : absents, sauf ajouts en couleur au fo 35 v ; vocalisation : points rouges ; <hi rend="italic">hamza </hi>: points verts. Des rosettes (3.1.3) séparent les versets ; un médaillon, de type 3.B.I avec le nom de la dizaine en toutes lettres, indique un groupe de dix versets. Parchemin. 2 feuillets. Page : 125 X 180. 5 lignes. Encre brun noir. Surface d’écriture : 55 x 135."</p>
+            </summary>
+            <msItem xml:id="mysql_id_679391" n="34r">
+              <title type="numeric" key="019:018:008-019:021:001">
+                                    019:018:008-019:021:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679392" n="34v">
+              <title type="numeric" key="019:021:002-019:022:003">
+                                    019:021:002-019:022:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679393" n="35r">
+              <title type="numeric" key="021:043:008-021:044:013">
+                                    021:043:008-021:044:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679394" n="35v">
+              <title type="numeric" key="021:044:013-021:045:011">
+                                    021:044:013-021:045:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>180</width><height>125</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-1000</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="34r" xml:id="mysql_id_32247">
+      <graphic decls="#imageRights-1" url="manuscript/660/659adc9e-212a-4035-8a31-e2e563f73e4f/manuscript-660-page-32247-image-16976.jpg"/>
+    </surface>
+    <surface n="34v" xml:id="mysql_id_32248">
+      <graphic decls="#imageRights-1" url="manuscript/660/9f10dcf9-6849-4dee-9202-8c8cd451caa5/manuscript-660-page-32248-image-16977.jpg"/>
+    </surface>
+    <surface n="35r" xml:id="mysql_id_32249">
+      <graphic decls="#imageRights-1" url="manuscript/660/7cefff8e-962a-4ebd-b962-88bd680d7b56/manuscript-660-page-32249-image-16978.jpg"/>
+    </surface>
+    <surface n="35v" xml:id="mysql_id_32250">
+      <graphic decls="#imageRights-1" url="manuscript/660/c80d3c25-cc11-4ed8-8369-a10890899f8e/manuscript-660-page-32250-image-16979.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

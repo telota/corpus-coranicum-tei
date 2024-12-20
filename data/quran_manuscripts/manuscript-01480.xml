@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1480">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Massachussets, Harvard Art Museums, 2012.3</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="70">Harvard Art Museums
+                            , Cambridge, Massachussets</repository>
+            <idno>2012.3</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 2012.3; Qurʾānic Text: Q 74:48-75:4; 7 lines per page; Dimensions: 165 x 121mm; Script style: new style; Estimated date  of production: 900-1000.  </p>
+              <p> </p>
+              <p>The catalogue entry on the <ref target="https://hvrd.art/o/336992">museum's website</ref> contains further information, as well as the following description: </p>
+              <p>"This is a detached folio from a small `Abbasid-era Qur’an. It is written  in the so-called new style Kufic script where the letter forms are  closer to modern forms and the letters are clustered for greater  legibility. It is written with seven lines to the page, in black ink on  parchment.  Vowel signs are marked in red. Verses are separated with  small gilded rosettes. Every fifth verse is marked with a pear shaped  rosette and the chapter heading is written in gold outlined with black  ink.  The recto side of the folio consists of the last two words of  chapter, sura 74 (Muddasir, One wrapped up): 48 and continues with  verses 49-56 on the same page. The verso side of the folio begins with  the last three words of the 56th verse of chapter 74, then continues  with chapter 75 (sura al-Qiyama, The Resurrection): 1-4. The recto is  the flesh side of the parchment and thus the ink is less well preserved,  although the red vocalization marks are much better preserved."</p>
+            </summary>
+            <msItem xml:id="mysql_id_687940" n="1r">
+              <title type="numeric" key="074:056:009-075:005:005">
+                                    074:056:009-075:005:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687941" n="1v">
+              <title type="numeric" key="074:048:003-074:056:008">
+                                    074:048:003-074:056:008
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>165</width><height>121</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>900-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47900">
+      <graphic decls="#imageRights-1" url="manuscript/1480/cc98ee8f-9d11-4cce-b465-df4aea7cc350/manuscript-1480-page-47900-image-34202.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47901">
+      <graphic decls="#imageRights-1" url="manuscript/1480/46577240-5c39-41e5-a548-9970461c038d/manuscript-1480-page-47901-image-34203.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

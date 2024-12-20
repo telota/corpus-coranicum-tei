@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_535" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>535</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Körper bzw. Glieder der zu Richtenden werden im Gedicht des Jakob von Sarug als "wie Buchrollen" beschrieben, auf denen die Taten des jeweiligen Individuums stehen. Ähnlich heißt es auch in Q 41:20-22, dass die Haut der Menschen, aber auch das Gehör und die Blicke von ihren Taten Zeugnis ablegen. Auch in Q 24:24 ist von Zungen, Händen und Füßen, in Q 36:65 lediglich von Händen und Füßen die Rede, die Zeugnis ablegen. Im zuletzt genannten Vers wird jedoch explizit hervorgehoben, dass die Münder dabei versiegelt sind. Im vorliegenden Text ist dies nicht der Fall, der Mensch sieht sich gezwungen, seine Missetaten zu rufen und aufzuzählen. Für weitere Motive bei Jakob von Sarug, die mit der koranischen Eschatologie übereinstimmen, siehe TUK_0531, TUK_0532, TUK_0533, TUK_0534, TUK_0537, TUK_0538.
+</summary>
+            <msItem>
+              <title>Gedicht über das Weltende und den Tag des Gerichtes</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan, Homiliae Selectae Mar-Jacobi Sarugensis, Band 1, Paris 1905, S. 713-720.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܕܚܝܠ ܗ̣̄ܘ ܝܘܡܐ ܕܗܘ̇ܐ ܕܝܢܐ ܕܦܣܝ̈ܩܬܐ:ܘܒܗ ܗ̣̄ܘ ܕܢܚ ܒܪ ܐܠܗܐ ܒܫܘܒܚܐ ܪܒܐ܀ ܡ̣ܢ ܝܡܝܢܗ ܘܡ̣ܢ ܣܡܠܗ ܒܪ̈ܩܐ ܕܢܘܪܐ: ܘܡܙܝܚܝܢ ܠܗ ܥܝܪ̈ܐ ܕܢܘܪܐ ܘܣܕܪ̈ܐ ܕܢܘܪܐ܀ 5 ܐܢ ܚܪ ܒܪܘܡܐ ܙܥ ܒܪ̈ܝܬܐ ܫܡܝܐ ܘܐܪܥܐ: ܘܐܢ ܚܪ ܒܐܪܥܐ ܪܥܠ ܫܬܐܣ̈ܐ ܬܗܘܡܐ ܘܐܪܥܐ܀ ܩܪܢܐ ܡܝܒܒܐ ܥܝܪ̈ܐ ܪܗܝܒܝܢ ܟܝܢ̈ܐ ܪܥܠܝܢ: ܥܢܢ̈ܐ ܦܪ̈ܝܣܢ ܘܠܥܠ ܡܢܗܝܢ ܢܝܫܗ ܕܚܝܠܐ܀ ܚܫܟ ܫܡܫܐ ܘܥܡܛ ܣܗܪܐ ܘܢܬܪܝܢ ܟܘ̈ܟܒܐ: 10 ܘܙܝܥܝܢ ܟܠܗܘܢ ܚܝ̈ܠܝ ܪܘܡܐ ܩܕܡ ܓܐܝܘܬܗ܀ ܡܫܬܩܠܝܢ ܠܗܘܢ ܟܠ ܢܗܝܪ̈ܝܢ ܡ̣ܢ ܛܟܣܝ̈ܗܘܢ: ܘܙܝܘܐ ܕܝܠܗ ܡܢܗܪ ܒܠܚܘܕ ܥܠ ܟܠ ܒܪ̈ܝܢ܀ܐܝܟ ܕܡܬܚܦܝܢ ܟܘ̈ܟܒܐ ܒܨܦܪܐ ܒܕܢܚܗ ܕܫܡܫܐ:ܡܚܦܐ ܙܝܘܐ ܕܢܘܗܪܗ ܕܚܝܠܐ ܠܟܠ ܢܗܝܖ̈ܝܢ܀15 ܒܖ̈ܩܐ ܕܢܘܗܪܐ ܥܡ ܢܘܖ̈ܢܐ ܒܩܢܛܐ ܪܕܝܢ:ܕܕܠܡܐ ܢܨܠܐ ܚܝܪܗ ܥܠܝܗܘܢ ܘܢܣܝܦ ܐܢܘܢ܀ܠܐ ܓܝܪ ܡܨܝܐ ܐܦ ܡܪܟܒܬܗ ܬܣܝܒܪ ܥܘܙܗ:ܘܬܛܥܢ ܫܘܒܚܗ ܐܠܐ ܣܡܟܗ̇ ܚܝܠ ܥܘܕܪܢܗ܀ܠܐܝܟܐ ܕܨܠܐ ܚܝܪܐ ܕܥܝܢܗ ܬܡܢ ܚܝܪܝܢ:20 ܟܠܗܘܢ ܛܟܣ̈ܐ ܒܙܘܥܐ ܪܒܐ ܩܕܡ ܓܐܝܘܬܗ܀ܙܝܥܝܢ ܫܡܝܐ ܘܪܥܠܐ ܐܪܥܐ ܘܪܬܝܢ ܛܘܖ̈ܐ:ܘܦܫܪܝܢ ܫܘܥ̈ܐ ܘܢܦܠܝܢ ܫܘܖ̈ܐ ܥܠ ܡܕܝܖ̈ܐ܀ܚܪܒܝܢ ܝܡܡ̈ܐ ܐܦ ܡܒܘ̈ܥܐ ܘܢܗܖ̈ܘܬܐ:ܘܝܒܫܝܢ ܥܒ̈ܐ ܥܡ ܫܬ̈ܠܬܐ ܕܟܠ ܒܘܣܡ̈ܝܢ܀25 ܥܒ̇ܪ ܬܘܩܦܐ ܘܒܛ̇ܠ ܚܝܠܐ ܘܕܥ̇ܟ ܫܘܦܪܐ:ܘܠܐ ܡܩܘܐ ܒܢ ܐܠܐ ܐ̄ܪܙܐ ܕܗܝܡܢܘܬܐ܀ܢܦ̇ܩ ܪܡܙܗ ܡܨܪܐ ܩܒܖ̈ܐ ܘܬܠܚ̇ ܫܘܥ̈ܐ:ܘܗܓ̇ܡ ܫܩܝ̈ܦܐ ܕܢܦܩܘܢ ܦܓܖ̈ܐ ܕܡܝ̈ܬܐ ܡܢܗܘܢ܀ܕܢܚ̇ ܡܢܗ ܛܠܐ ܕܖ̈ܚܡܐ ܘܢܚ̇ܬ ܠܫܝܘܠ:30 ܘܡܪܓܐ ܒܗ ܠܫܖ̈ܕܘܕܐ ܕܟܠ ܫܖ̈ܒܬܐ܀ܪܡ̇ܙ ܠܡܘܬܐ ܘܦܩ̇ܕ ܠܫܝܘܠ ܕܗܒ ܚܘܫܒܢܐ:ܘܐܦ ܡܢܝܢܐ ܕܡܝ̈ܬܐ ܟܠܗܘܢ ܕܡ̣ܢ ܕܪܕܖ̈ܝܢ܀ܡܢܗ ܕܐܕܡ ܗܘ̇ ܩܕܡܝܐ ܬܒܥ̇ ܐ̄ܢܐ ܠܟܘܢ:ܕܡܝܬܘ ܒܩܖ̈ܒܐ ܘܒܛܘ̈ܦܢܐ ܘܒܝܩ̈ܕܢܐ܀35 ܒܙܘܥܐ ܕܪܡܙܗ ܫܝܘܠ ܡܫܬܪܝܐ ܘܡܘܬܐ ܡܝܠܠ:ܫܩܝ̈ܦܐ ܓܣܝܢ ܢܩ̈ܥܐ ܡܦܩܝܢ ܝܡܐ ܝܗ̇ܒ܀ܝܒܫܐ ܡܦܢܐ ܕܐܟܝܠ ܠܛܝܪܐ ܘܒܠܝܥ ܠܐܪܥܐ:ܘܕܚܝ̈ܘܬܐ ܘܖ̈ܚܫܐ ܙܥܘܪܐ ܡܦܪܫܐ ܐܪܥܐ܀ܙܢܩܐ ܡܢܗ̇ ܥܦܪܐ ܕܦܓܪܐ ܘܓܖ̈ܡܐ ܟܠܗܘܢ:40 ܘܕܫܖ̈ܕܘܕܐ ܕܟܠ ܫܖ̈ܒܬܐ ܡܦܩܐ ܠܢܘܗܪܐ܀ܫܠܕ̈ܐ ܕܢܘܓܪܐ ܕܐܬܚܒܠ ܒܗ̇ ܘܗܘܝ̈ ܡܕܪܐ:ܡܢܦܨܐ ܘܡܪܩܐ ܘܡܦܩܐ ܠܐܘܪܥܗ ܕܡܢܚܡܢܐ܀ܡܚܝܢ ܚܒ̈ܠܐ ܐܝܟ ܝܠܕܬܐ ܒܪܡܙܐ ܪܗܝܒܐ:ܘܒܪܦܦ ܥܝܢܐ ܝܠܕܐ ܠܟܠܗܘܢ ܦܓܖ̈ܐ ܕܒܠܥܬ܀45 ܩܝܡܝܢ ܡܝ̈ܬܐ ܡ̣ܢ ܦܓܖ̈ܝܗܘܢ ܒܥܠܝܡܘܬܐ:ܟܕ ܠܝܬ ܡܘܡܐ ܘܠܐ ܢܟܝܢܐ ܒܗܕܡܝ̈ܗܘܢ܀ܗܦܟܝܢ ܣܒ̈ܐ ܠܥܠܝܡܘܬܐ ܡܐ ܕܐܬܢܚܡܘ:ܘܪܒܝܢ ܫܒܖ̈ܐ ܕܢܐܬܐ ܟܝܢܗܘܢ ܠܚܕܐ ܡܫܘܚܬܐ܀ܒܢܫܪܐ ܡܬܝܠܐ ܗܝ̇ ܣܝܒܘܬܐ ܒܗ̇ ܒܕܡܘܬܐ:50 ܕܗܟܢ ܢܫܪܐ ܥܖ̈ܩܘܗܝ ܫܕܐ ܐܦ ܡܬܛܠܐ܀ܝܚܛ̈ܐ ܕܠܐ ܢܦܩܘ ܘܠܐ ܚܙܘ ܢܘܗܪܐ ܒܗܘ̇ ܥܕܢܐ:ܠܗ ܠܫܘܡܠܝܐ ܕܥܠܝܡܘܬܐ ܟܝܢܗܘܢ ܪܗ̇ܛ܀ܡܐ ܕܩܡܘ ܗܟܝܠ ܝܠܕܘ̈ܗܝ ܕܐܕܡ ܡ̣ܢ ܩܒܖ̈ܝܗܘܢ:ܗܘܝܢ ܟܠܗܘܢ ܟܢܫ̈ܐ ܚܠܝ̈ܛܐ ܛܒ̈ܐ ܘܒܝ̈ܫܐ܀55 ܡܢܩܕܡ ܕܬܐܬܐ ܩܕܡܘܗܝ ܢܘܪܐ ܗܝ̇ ܕܥܬܝܕܐ:ܕܬܐܟܘܠ ܝܥܪܐ ܕܐܝܬܘܗܝ ܒܝܫܐ ܘܚܝ̈ܠܘܬܗ܀ܡܫܕܪ ܥܝܖ̈ܐ ܒܪܗܝܒܘܬܐ ܠܐܪܒܥ ܦܢ̈ܝܢ:ܕܐܝܟ ܚܨ̈ܘܕܐ ܢܦܪܫܘܢ ܚܛ̈ܐ ܡ̣ܢ ܙܝ̈ܙܢܐ܀ܕܒܪܝܢ ܠܐܒܐ ܐܝܢܐ ܕܫܘ̇ܐ ܘܫܒܩܝܢ ܠܒܪܐ:60 ܕܒܪܝܢ ܠܐܡܐ ܐܝܕܐ ܕܫܘܝܐ ܘܫܒܩܝܢ ܠܒܪܬܐ܀ܕܒܪܝܢ ܠܐܚܐ ܐܝܢܐ ܕܫܘ̇ܐ ܘܫܒܩܝܢ ܠܐܚܘܗܝ:ܕܒܪܝܢ ܪܚܡܐ ܡ̣ܢ ܨܝܕ ܪܚܡܗ ܒܗ̇ ܒܕܡܘܬܐ܀ܬܪܬܝܢ ܛܚ̈ܢܢ ܒܚܕܐ ܪܚܝܐ ܡܬܝܠ ܒܟܬܒܐ:ܚܕܐ ܡܬܩܪܝܐ ܚܕܐ ܡܫܬܒܩܐ ܡܪܝܪܐܝܬ܀65 ܘܬܪܝܢ ܕܡܟܝܢ ܒܚܕܐ ܥܪܣܐ ܟܬܝܒ ܒܣܒܪܬܐ:ܘܡܬܕܒܪ ܕܫܘ̇ܐ ܘܡܫܬܒܩ ܚܒܪܗ ܨܝܕ ܓܗܢܐ܀ܡܚܙܐ ܗ̄ܘ̣ ܒܠܚܘܕ ܚܙ̇ܐ ܠܗ ܐ̄ܢܫ ܠܐܝܢܐ ܕܡܚܒ:ܘܐܠܐ ܫܘ̇ܐ ܠܐ ܫܒܩܝܢ ܠܗ ܕܢܐܙܠ ܥܡܗ܀ܐܒܐ ܠܒܪܗ ܐܡܐ ܠܒܪܬܗ̇ ܪܚܡܐ ܠܪܚܡܗ:70 ܚܒܪܐ ܠܚܒܪܗ ܐܚܐ ܠܐܚܘܗܝ ܚܬܐ ܠܚܬܗ̇܀ܗܟܢ ܗܘ̇ܐ ܗܘ̇ ܦܘܪܫܢܐ ܒܝܘܡܐ ܐ̄ܚܪܝܐ:ܘܠܐ ܙܕܩ ܠܗ ܠܓܒܪܐ ܕܢܚܛܐ ܒܥܠܬ ܚܒܪܗ܀ܒܐܝ̈ܕܐ ܘܖ̈ܓܠܐ ܘܥܝ̈ܢܐ ܡܬܝܠܝܢ ܓܢܣ̈ܐ ܘܛܘܗ̈ܡܐ:ܘܐܝܟ ܗܕܡ̈ܐ ܠܘܝܢ ܠܚܕܕ̈ܐ ܒܚܝ̈ܐ ܕܙܒܢܐ܀75 ܘܟܬܝܒ ܕܢܦܣܘܩ ܘܕܢܫܕܐ ܐ̄ܢܫ ܠܕܡܚܛܐ ܠܗ:ܕܠܡܐ ܬܖ̈ܝܗܘܢ ܒܥܠܬ ܚܘܒܐ ܠܢܘܪܐ ܢܫܬܘܘܢ܀ܠܝܬ ܫܘܠܛܢܐ ܠܒܝ̈ܫܐ ܠܡܥܪܩ ܠܐܦܝ̈ ܛܒ̈ܐ:ܕܦܚܬܐ ܪܒܐ ܗܘ̇ܐ ܠܘܬܗܘܢ ܘܠܗܘܢ ܦܪܫ܀ܘܥܠ ܕܠܐ ܢܬܬܥܝܩ ܐܒܐ ܕܒܪܗ ܘܪܚܡܐ ܕܪܚܡܗ:80 ܡܫܬܩܠ ܚܘܒܐ ܘܣܓ̇ܐ ܛܢܢܐ ܒܓܘ ܬܪܥܝܬܐ:ܬܩ̇ܢ ܟܘܪܣܝܐ ܕܫܠܗܒܝܬܐ ܒܙܕܝܩܘܬܐ:ܘܝܬ̇ܒ ܒܘܟܪܐ ܒܫܘܒܚܐ ܪܒܐ ܕܢܕܘܢ ܥܡܡ̈ܐ܀ܘܣܚ̇ܦ ܒܪܘܓܙܐ ܘܕܚ̇ܩ ܒܚܡܬܐ ܠܥܡܐ ܠܝܛܐ:ܗܘ̇ ܕܩܥܐ ܠܗ ܒܓܘ ܒܝܬ ܕܝܢܐ ܨܠܘܒܝܗܝ ܨܠܘܒܝܗܝ܀85 ܦܐܝ̈ ܬܪܥܐ ܕܢܘܪܐ ܩܐܡ ܒܝܬ ܠܗ ܘܠܗܘܢ:ܕܠܐ ܢܚܘܪܘܢ ܒܗ ܕܕܠܡܐ ܢܗܘܘܢ ܖ̈ܚܡܐ ܥܠܝܗܘܢ܀ܘܠܐ ܫܒܩܝܢ ܠܗܘܢ ܐܦܠܐ ܠܡܚܪ ܠܐܦܝ̈ ܪܘܡܐ:ܥܠ ܕܠܐ ܢܚܙܘܢ ܙܝܘܗ ܘܢܣܒܘܢ ܣܒܪܐ ܡܢܗ܀ܟܠ ܒܪܢܫܐ ܐܝܢܐ ܕܚܐܒ ܕܝܢܐ ܕܡܘܬܐ:90 ܐܢܗܘ ܕܚܙ̇ܐ ܐܦܝ̈ ܡܠܟܐ ܠܐ ܓܝܪ ܡܐܬ܀ܥܡܡ̈ܐ ܕܪܚܡܘܗܝ ܘܐܘܕܝܘ ܒܫܡܗ ܠܕܝܠܗ ܥܐܠܝܢ:ܪܕܐ ܠܕܝܠܗ ܐܝܟ ܕܠܕܝܠܗ ܘܩܢܐ ܠܕܝܠܗ܀ܟܠ ܕܠܕܝܢܐ ܫܘ̇ܐ ܕܢܥܘܠ ܠܐ ܡܘܒܕ ܠܗ:ܕܐܝܟ ܣܟܠܘܬܗ ܡܩܒܠ ܢܓܕܐ ܘܫܩ̇ܠ ܖ̈ܚܡܐ܀95 ܡܛܠܗܕܐ ܠܐ ܚܙܝܢ ܠܗ ܟܠ ܝܗܘ̈ܕܝܐ:ܕܠܐ ܣܒܪܘ ܒܗ ܐܦܠܐ ܣܒܪܐ ܫܩܠܝܢ ܡܢܗ܀ܬܩܢܝܢ ܬܪܥܣܪ ܟܘܖ̈ܣܘܬܐ ܘܝܬܒܝܢ ܫܠܝ̈ܚܐ:ܕܢܕܘܢܘܢܝܗܝ ܠܥܡܐ ܠܝܛܐ ܕܠܐ ܗܝܡܢܘ ܒܗ܀ܘܚܙܘ ܕܟܡܐ ܫܦܠ̣ ܘܐܚܬܗ ܥܠ ܕܟ̣ܦܪ ܒܗ:100 ܕܐܦܠܐ ܠܕܝܢܐ ܐܫܘܝܗ ܕܢܥܘܠ ܐܝܟ ܕܠܥܡܡ̈ܐ܀ܩܫܐ ܗ̄ܘ̣ ܓܝܪ ܕܝܢܐ ܕܒܢܝ̈ܢܫܐ ܥܠ ܒܢܝ̈ܢܫܐ:ܘܠܒܢܝ̈ܢܫܐ ܝܗܒܗ ܠܕܝܢܗܘܢ ܕܗܟܢ ܫܘܝܢ܀ܒܕܝܢܐ ܕܝܠܗ ܐܝܬ ܒܗ ܖ̈ܚܡܐ ܘܣܒܪܐ ܘܚܝ̈ܐ:ܒܖ̈ܚܡܐ ܕܐܢ ܒܖ̈ܚܡܐ ܫܒ̇ܩ ܟܠܗܘܢ ܚܘ̈ܒܐ܀105 ܟܠ ܒܪܢܫܐ ܐܝܢܐ ܕܚܝܒ ܕܝܢܐ ܕܡܘܬܐ:ܐܢ ܦܣܝܩ ܣܒܪܗ ܐܦܠܐ ܠܕܝܢܗ ܡܬܒܥܐ ܕܢܥܘܠ܀ܩܝܡܝܢ ܩܘܕܡܘܗܝ ܟܢܫ̈ܐ ܪܘܖ̈ܒܐ ܟܕ ܠܐ ܫܓܝܫܝܢ:ܘܐܦ ܫܖ̈ܒܬܐ ܘܓܢܣ̈ܐ ܘܛܘܗ̈ܡܐ ܟܕ ܠܐ ܒܠܝܠܝܢ܀ܗܘ̇ܐ ܥܠܝܗܘܢ ܫܠܝܐ ܘܫܬܩܐ ܘܓ̣ܢܚ ܠܒܐ:110 ܘܠܝܬ ܗ̄ܘ̣ ܕܡܨܐ ܕܥܡ ܩܪܝܒܗ ܡܠܬܐ ܢܐܡܪ܀ܢܦܠܐ ܪܗܒܬܐ ܒܟܠ ܖ̈ܥܝܢܝܢ ܘܝܕܥ̇ ܟܠܢܫ:ܕܠܐܝܟܐ ܕܫܘܝܢ ܨܝܬܝܢ ܟܠܗܘܢ ܩܠ ܦܘܩܕܢܘ̈ܗܝ܀ܬܘܗܝܢ ܗܘ̈ܢܐ ܒܙܘܥܐ ܪܒܐ ܘܒܣܘܪܕܐ:ܘܠܝܬ ܕܡܥܕܪ ܐܦܠܐ ܥܨܒܐ ܕܗܝܡܢܘܬܐ܀115 ܕܝܠܦ ܘܐܗܡܝ ܘܫܡܥ̣ ܘܝܕܥ̣ ܘܫܬܩ̣ ܘܐܡܣܪ:ܢܓܕܐ ܡܩܒܠ ܡ̣ܢ ܟܐܢܘܬܐ ܕܠܐ ܐܬܚܦܛ܀ܠܐ ܐܝܬ ܥܠܬܐ ܐܦ ܠܐ ܡܠ̈ܐ ܘܠܐ ܨܢ̈ܥܬܐ:ܕܡܦܪܣܐ ܠܗ ܠܟܠܗ ܙܐܦܗ ܩܦܠܗ ܟܣܝܐ܀ܠܐ ܡܨܐ ܨܢܝܥܐ ܢܕܓܠ ܘܢܦܝܣ ܥܠ ܣܟܠܘܬܗ:120 ܕܡܦܪܣܐ ܠܗ ܠܡܕܡ ܕܥ̣ܒܕ ܩܕܡ ܟܐܢܘܬܐ܀ܠܝܬ ܥܬܝܪܐ ܕܡܨܐ ܕܗܒܗ ܕܢܩܘܡ ܒܐܦܘ̈ܗܝ:ܐܢ  ܡ̣ܢ ܚܝܘ̈ܗܝ ܠܐ ܡܫܕܪ ܠܗ ܠܕܗܒܗ ܩܘܕܡܘܗܝ܀ܠܝܬ ܡܣܟܢܐ ܕܡܣܟܢܘܬܗ ܬܗܘܐ ܒܥܕܪܗ:ܐܠܐ ܢܛܪܗ̇ ܠܡܣܟܢܘܬܗ ܡ̣ܢ ܬܘܩ̈ܠܬܐ܀125 ܥܒܕ̈ܐ ܕܟܠܢܫ ܗܢܘܢ ܩܝܡܝܢ ܒܐܦܝ̈ ܟܠܢܫ:ܕܫܠܐ ܩܠܗ ܘܗܢܘܢ ܩܥܝܢ ܥܠ ܣܘܥܖ̈ܢܘܗܝ܀ܠܐ ܡܨܐ ܐܒܐ ܦܪܩ ܠܒܪܗ ܘܐܡܐ ܠܒܪܬܗ̇:ܘܐܦܠܐ ܒܢܝ̈ܐ ܡܨܝܢ ܕܢܥܕܪܘܢ ܐܒܗܝ̈ܗܘܢ܀ܗܠܝܢ ܖ̈ܚܡܐ ܕܐܡܪ ܡܪܢ ܕܒܙܕ̈ܩܬܐ:130 ܡܬܩܢܝܢ ܒܐܪܥܐ ܡܨܝܢ ܕܢܥܕܪܘܢ ܬܡܢ ܒܠܚܘܕ܀ܠܝܬ ܦܟܢܐ ܕܡܨܐ ܙܟ̇ܐ ܒܠܥܕ ܡܠܘ̈ܗܝ:ܕܡܐ ܕܚܪ ܒܦܓܪܗ ܚ̣ܙܐ ܣܘܖ̈ܚܢܘܗܝ ܙܥ ܘܐܣܬܪܕ܀ܣܦܪܐ ܝܠܦ ܟܠܢܫ ܢܬܢܐ ܐܝܟ ܕܗܘ ܒܦܘܡܗ:ܢܩܥܐ ܘܢܣܕܘܪ ܡܕܡ ܕܛܥܐ ܡ̣ܢ ܟܐܢܘܬܐ܀135 ܠܐ ܫܒܩܝܢ ܠܗ ܕܡ̣ܢ ܢܘܟܖ̈ܝܐ ܥܒܕܘ̈ܗܝ ܢܫܡܥ:ܐܠܐ ܗܘ ܠܗ ܩܕܡܘܗܝ ܡܦܪܣܐ ܘܩܕܡ ܟܠܢܫ܀ܕܡܝܢ ܦܓܖ̈ܐ ܕܒܢܝ̈ܢܫܐ ܩܕܡ ܟܐܢܘܬܐ:ܠܡ̈ܓܠܬܐ ܕܒܗܝܢ ܟܬܝܒܝܢ ܟܠ ܣܘܥܖ̈ܢܝܢ܀ܠܒܪ ܡ̣ܢ ܣܓܖ̈ܐ ܥܒܕ̈ܐ ܩܝܡܝܢ ܒܟܬܝ̈ܒܬܐ:140 ܛܒ̈ܐ ܘܒܝ̈ܫܐ ܥܠ ܗܕܡ̈ܐ ܕܥܒܘܕܝ̈ܗܘܢ܀ܘܐܝܢܐ ܕܙܪܥ̣ ܡܫܟܚ ܕܝܠܗ ܘܚܕܐ ܠܩܘܒܠܗ:ܘܐܝܢܐ ܕܠܐ ܙܪܥ̣ ܣܢܝܩܐ ܗܘ̇ܐ ܘܠܐ ܝܗܒܝܢ ܠܗ܀ܘܐܝܢܐ ܕܦܠܚ̇ ܫܩ̇ܠ ܐܓܪܐ ܒܓܠܝܘܬ ܐܦ̈ܐ:ܘܐܝܢܐ ܕܠܐ ܥܡܠ̣ ܗܘܐ ܚܒܢܢܐ ܠܒܪ ܫܕܝܢ ܠܗ܀145 ܘܐܝܢܐ ܕܠܐܝ ܘܫܩܠ̣ ܝܘܩܪܗ ܕܝܘܡܐ ܘܚܘܡܗ:ܗܘ ܩܥ̇ܐ ܠܗ ܠܡܪܐ ܐܓܪܗ ܕܬܘܒ ܗܘ̇ܐ ܠܗ܀ܘܐܝܢܐ ܕܐܘܣܦ ܪܒܘ ܐܥ̈ܦܝܢ ܡܬܦܢܝܢ ܠܗ:ܘܐܝܢܐ ܕܠܐ ܝܗ̄ܒ ܣܢܝܩܐ ܗܘ̇ܐ ܘܠܐ ܦܪܥܝܢ ܠܗ܀ܕܐܢܝܚ ܒܕܝܠܗ ܘܐܦ ܗܘ ܡܬܬܢܝܚ ܡ̣ܢ ܛܝܒܘܬܐ:150 ܘܕܐܟܠ̣ ܕܝܠܗ ܗܘ ܒܠܚܘܕܘܗܝ ܠܐ ܚܢܝܢ ܠܗ܀ܕܐܘܒܕ ܢܟܣܘ̈ܗܝ ܥܠ ܡܣ̈ܟܢܐ ܒܠܒܐ ܦܨܝܚܐ:ܡ̣ܢ ܟܐܢܘܬܐ ܡܬܦܢܝܢ ܠܗ ܟܠ ܒܘ̈ܣܡܝܢ܀ܟܠ ܕܐܬܡܟܟ ܦܪܗ̄ܣܝܐ ܡܬܝܗܒܐ ܠܗ:ܘܕܗܘܐ ܚܬܝܪܐ ܓܠܝܘܬ ܐܦ̈ܐ ܠܐ ܡܫܟܚ ܠܗ܀155 ܕܟܒܫ̣ ܝܨܪܗ ܘܗܘܐ ܛܠܝܐ ܐܝܟ ܕܐܬܦܩܕ:ܡܬܬܪܝܡ ܪܫܗ ܘܠܡܪܫܘܬܐ ܠܐ ܡܩܪܒܝܢ ܠܗ܀ܘܠܝ ܚܛܝܐ ܕܫܘܝܬ ܠܡܙܡܪ ܫܘܒܚܟ ܪܒܐ:ܒܓܘ ܡܠܟܘܬܟ ܐܚܙܐ ܚܢܢܟ ܘܐܘܕܐ ܠܫܡܟ܀ܫܠܡ ܡܐܡܪܐ ܕܐܡܝܪ ܠܡܪܝ ܝܥܩܘܒ: ܕܥܠ ܚܪܬܐ ܘܕܝܢܐ.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Die Schrift lehrt, dass jeder Mensch [zum Jüngsten Gericht] kommen wird indem er mit seinem eigenen Mund Laut aufzählen wird, worin er vom rechten Handeln abgewichen ist. 135 Es wird nicht zugelassen, dass er seine Taten von Fremden hört; Er soll sie vielmehr vor sich selbst und vor allen Menschen offenkundig machen.Im Angesicht der Gerechtigkeit gleichen die Körper der Menschen Schriftrollen, Auf denen alle ihre Taten verzeichnet sind. Ohne Ausnahme stehen die Taten aufgeschrieben: 140 Gute wie schlechte auf den Gliedern derer, die sie getan haben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

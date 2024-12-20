@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apokalypse des heiligen Johannes des Theologen, Kap. 10-11</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_183" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>183</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die den Seligen im Koran verheißenen Gefährten/innen werden traditionell als "Altersgenossen/innen" (arab. ʾatrāb) aufgefasst. Im Hintergrund steht vielleicht die u.a. in der apokryphen griechischen Apokalypse des Johannes bezeugte Vorstellung, dass alle Paradiesbewohner das ideale Alter von 30 bzw. 33 Jahren aufweisen werden. In Kapitel 11 betont die Apokalypse das gleiche Aussehen und die Gleichaltrigkeit der Auferstehenden (πάντες ἀναστήσονται μιᾶς εἰδέας καὶ μιᾶς ἡλικίας). Allerdings lässt die Apokalypse Jesus die Auferstandenen als "Körperlose" (ἀσώματοι) beschreiben, die "weder heiraten noch verheiratet werden, sondern vielmehr sein werden wie Engel Gottes" (vgl. Matth 22:30 bzw. Mk 12:25). Auch az-Zamaḫšarī (gest. 1144) und andere Korankommentatoren bemerken, dass die Huris und ihre Partner 33 Jahre alt sind, vgl. auch TUK_0606.
+
+
+	Die Datierung dieser apokryphen Apokalypse, die Johannes dem Theologen oder Johannes von Patmos (1 Jh. n.Chr.) zugeschrieben wird, ist sehr umstritten. John Court geht von einer relativ frühen Entstehungszeit (Ende 4. Jh.) aus, Alice Whealey dagegen rechnet mit einer byzantinischen Komposition aus frühislamischer Zeit, bzw. aus der Periode des Ikonoklasmus (Court 2000: p. 23-65; Whealey 2002: p. 540). Einen sicheren terminus ante quem stellt eine Glosse aus dem 9. Jh. dar, in der die Apokalypse zitiert wird (Tischendorf 1866: p. xviii). Da jedoch keine explizite Bezüge auf die islamische Eroberung vorhanden sind, wie etwa in der Apokalypse des Pseudo-Methodios, ist eine Datierung vor dem 7. Jh. nicht auszuschließen. Eine genauere Eingrenzung der Entstehungszeit könnte erst durch die Untersuchung der griechischen und der arabischen Überlieferung geleistet werden. Trotz der problematischen Datierung ist jedoch anzunehmen, dass die Aussage über die Gleichaltrigkeit der Paradiesbewohner auf frühere Vorstellungen zurückgehen.
+</summary>
+            <msItem>
+              <title>Apokalypse des heiligen Johannes des Theologen, Kap. 10-11</title>
+              <author>Pseudo-Johannes der Theologe</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">400-750?</origDate>
+              <origPlace>Kleinasien/Byzanz</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Constantin Tischendorf, Apocalypses apocryphae, Leipzig 1866, S. 70-94.</bibl>
+              <bibl type="literatur">Court, John M.: The Book of Revelation and the Johannine Apocalyptic Tradition. Sheffield 2000.</bibl>
+              <bibl type="literatur">Tischendorf, Konstantin von (Hrsg.): Apocalypses apocryphae Mosis, Esdrae, Pauli, Iohannis, item Mariae dormitio, additis evangeliorum et actuum apocryphorum supplementis. Mendelssohn, Lipsiae 1866.</bibl>
+              <bibl type="literatur">Whealey. Alice: &amp;#x201E;The Apocryphal Apocalypse of John: A Byzantine Apocalypse from The Early Islamic Period&amp;#x201C;. In: Journal of Theologic Studies 53 (2002), S. 533&amp;#x2013;540.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Πᾶσα φύσις ἀνθρωπίνη τριακονταετὴς ἀναστήσεται.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Jede menschliche Natur wird dreißigjährig auferstehen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

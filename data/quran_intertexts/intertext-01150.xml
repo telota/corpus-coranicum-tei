@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 2:1-6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1150" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1150</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+Heinrich Speyer verweist für Q 57:28 (wa-yaǧʿal lakum nūran tamšūna bihī, "und [Gott] macht euch ein Licht, in dem ihr umhergehen könnt") auf Jes 2:5 (wə-neləḵa bə-ʾor YHWH, "wir wollen im Licht des Herrn gehen") (Speyer 1931: p. 445). Vgl. auch Joh 8:12, Eph. 5:8, 1 Joh 1:7. Interessant ist im Kontext der Koranstelle vor allem Joh 8:12 ("Als Jesus ein andermal zu ihnen redete, sagte er: Ich bin das Licht der Welt. Wer mir nachfolgt, wird nicht in der Finsternis umhergehen, sondern wird das Licht des Lebens haben."). Q 57:27 spricht von den Anhängern Jesu, die das Mönchtum eingeführt hatten, obwohl es ihnen von Gott nicht vorgeschrieben worden war, es daraufhin aber nicht richtig eingehalten hätten und stellt abschließend fest, dass viele von ihnen Frevler (fāsiqūna) seien. In diesem Zusammenhang könnte es von Bedeutung sein, dass, entgegen dem christlichen Verständnis von Jesus als dem Licht der Welt, in Q 57:28 Jesus überhaupt nicht erwähnt wird, sondern vielmehr Gott es ist, der den Gläubigen ein Licht schafft. Q 57:28 würde sich damit von christlichen Interpretationen des Lichtmotivs abgrenzen. Zur Verwendung einer Lichtmetapher im Koran vgl. auch TUK_0435 und TUK_1157.</summary>
+            <msItem>
+              <title>Jesaja 2:1-6</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>1 הַדָּבָר֙ אֲשֶׁ֣ר חָזָ֔ה יְשַֽׁעְיָ֖הוּ בֶּן־אָמ֑וֹץ עַל־יְהוּדָ֖ה וִירוּשָׁלָֽ״ִם׃ 2 וְהָיָ֣ה׀ בְּאַחֲרִ֣ית הַיָּמִ֗ים נָכ֙וֹן יִֽהְיֶ֜ה הַ֤ר בֵּית־יְהוָה֙ בְּרֹ֣אשׁ הֶהָרִ֔ים וְנִשָּׂ֖א מִגְּבָע֑וֹת וְנָהֲר֥וּ אֵלָ֖יו כָּל־הַגּוֹיִֽם׃ 3 וְֽהָלְכ֞וּ עַמִּ֣ים רַבִּ֗ים וְאָמְרוּ֙ לְכ֣וּ׀ וְנַעֲלֶ֣ה אֶל־הַר־יְהוָ֗ה אֶל־בֵּית֙ אֱלֹהֵ֣י יַעֲקֹ֔ב וְיֹרֵנ֙וּ֙ מִדְּרָכָ֔יו וְנֵלְכָ֖ה בְּאֹרְחֹתָ֑יו כִּ֤י מִצִּיּוֹן֙ תֵּצֵ֣א תוֹרָ֔ה וּדְבַר־יְהוָ֖ה מִירוּשָׁלָֽ״ִם׃ 4 וְשָׁפַט֙ בֵּ֣ין הַגּוֹיִ֔ם וְהוֹכִ֖יחַ לְעַמִּ֣ים רַבִּ֑ים וְכִתְּת֙וּ חַרְבוֹתָ֜ם לְאִתִּ֗ים וַחֲנִיתֽוֹתֵיהֶם֙ לְמַזְמֵר֔וֹת לֹא־יִשָּׂ֙א ג֤וֹי אֶל־גּוֹי֙ חֶ֔רֶב וְלֹא־יִלְמְד֥וּ ע֖וֹד מִלְחָמָֽה׃ פ 5 בֵּ֖ית יַעֲקֹ֑ב לְכ֥וּ וְנֵלְכָ֖ה בְּא֥וֹר יְהוָֽה׃ 6 כִּ֣י נָטַ֗שְׁתָּה עַמְּךָ֙ בֵּ֣ית יַעֲקֹ֔ב כִּ֤י מָלְאוּ֙ מִקֶּ֔דֶם וְעֹֽנְנִ֖ים כַּפְּלִשְׁתִּ֑ים וּבְיַלְדֵ֥י נָכְרִ֖ים יַשְׂפִּֽיקוּ׃</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Das Wort, das Jesaja, der Sohn des Amoz, in einer Vision über Juda und Jerusalem gehört hat.  2 Am Ende der Tage wird es geschehen: Der Berg mit dem Haus des Herrn steht fest gegründet als höchster der Berge; er überragt alle Hügel. Zu ihm strömen alle Völker.  3 Viele Nationen machen sich auf den Weg. Sie sagen: Kommt, wir ziehen hinauf zum Berg des Herrn und zum Haus des Gottes Jakobs. Er zeige uns seine Wege, auf seinen Pfaden wollen wir gehen. Denn von Zion kommt die Weisung des Herrn, aus Jerusalem sein Wort.  4 Er spricht Recht im Streit der Völker, er weist viele Nationen zurecht. Dann schmieden sie Pflugscharen aus ihren Schwertern und Winzermesser aus ihren Lanzen. Man zieht nicht mehr das Schwert, Volk gegen Volk, und übt nicht mehr für den Krieg.  5 Ihr vom Haus Jakob, kommt, wir wollen unsere Wege gehen im Licht des Herrn.  6 Ja, du hast dein Volk, das Haus Jakob, verstoßen; denn es ist voll von Zauberern und Wahrsagern wie das Volk der Philister und überflutet von Fremden.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

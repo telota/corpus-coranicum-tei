@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Vita Mosis 1:44</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1054" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1054</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sure 28 enthält eine ausführliche Schilderung der Mosesgeschichte. Die Grundzüge der Erzählung - Moses erschlägt einen Ägypter, flieht nach Midian und heiratet dort - entsprechen dabei weitgehend der Erzählung in Exodus (vgl. TUK_0100), wobei der Schwerpunkt in der Darstellung des Korans stärker auf der Interpretation des Geschehens liegt. So berichtet Exodus 2:11-15 von der Tötung des Ägypters, ohne dabei die Schuldfrage zu diskutieren; in der späteren Auslegung der Stelle scheint dagegen die Frage aufgekommen zu sein, ob Moses Tat richtig war, worauf im Koran und in der jüdischen Tradition jeweils unterschiedliche Antworten gegeben wurden. Im Koran wird die Tötung als eine von Moses begangene Sünde betrachtet, für die er den Satan verantwortlich macht und Gott um Verzeihung bittet, in der jüdischen Tradition dagegen als gerechtfertigt angesehen, so etwa im hier zitierten Text von Philo. Eine ähnliche Interpretation findet sich auch in Leviticus Rabba 32 und Exodus Rabba 4, der zufolge der Ägypter erst nach Absprache mit den Engeln oder nachdem er in einem Prozeß für schuldig befunden worden war, getötet worden sei (Speyer 1931: p. 247).
+</summary>
+            <msItem>
+              <title>De Vita Mosis 1:44</title>
+              <author>Philo von Alexandria (ca. 20/10 v. Chr. - 40/50 n.Chr.)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 50 n. Chr.</origDate>
+              <origPlace>Alexandria</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	τούτων ἕνα τὸν βιαιότατον, ἐπειδὴ πρὸς τῷ μηδὲν ἐνδιδόναι καὶ ταῖς παρακλήσεσιν ἔτι μᾶλλον ἐξετραχύνετο, τοὺς τὸ προσταχθὲν μὴ ἀπνευστὶ καὶ ὀξυχειρίᾳ δρῶντας τύπτων, προπηλακίζων ἄχρι θανάτου, πάσας αἰκιζόμενος αἰκίας, ἀναιρεῖ δικαιώσας εὐαγὲς εἶναι τὸ ἔργον· καὶ ἦν εὐαγὲς τὸν ἐπ᾽ὀλέθρῳ ζῶντα ἀνθρώπων ἀπόλλυσθαι.
+
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	One of these men, then, the most violent of them, when, in addition to yielding nothing of his purpose, he was even exasperated at the exhortations of Moses and rendered more savage by them, beating those who did not labor with energy and unremittingly at the work which was imposed upon them, and insulting them and subjecting them to every kind of ill-treatment, so as even to be the death of many, Moses slew, thinking the deed a pious action; and, indeed, it was a pious action to destroy one who only lived for the destruction of others.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

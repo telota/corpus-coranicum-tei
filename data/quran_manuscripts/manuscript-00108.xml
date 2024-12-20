@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_108">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vienna, Österreichische Nationalbibliothek, A Perg. 2</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Österreichische Nationalbibliothek Wien.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="26">Österreichische Nationalbibliothek
+                            , Vienna</repository>
+            <idno>A Perg. 2</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: A Perg. 2; Qurʾānic Text: Q 28:61 - 28:73, Q 28:75 - 28:80; 23 lines per page; Dimensions: 237 x 205mm; Script style: ḥiǧāzī; Date estimate: 640-680. </p>
+              <p> </p>
+              <p>The catalogue of Qurʾānic fragments in the Austrian National Library by Helene Loebenstein (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/XQE52G5Z" sameAs="XQE52G5Z" type="zotero">Loebenstein 1982</ref>) gives the following information: "Gelbliches, dünnes Pergament, besonders im oberen Teil nachgedunkelt, stark beschädigt, der Tintenfraß zerstörte Teile des Materials samt der Schrift; bräunliche Tinte. Der Falz und Reste eines zweiten Blattes, dessen Text nicht idenzifiziert werden konnte, sind vorhanden."</p>
+            </summary>
+            <msItem xml:id="mysql_id_663011" n="1r">
+              <title type="numeric" key="028:061:000-028:073:000">
+                                    028:061:000-028:073:000
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_663946" n="1v">
+              <title type="numeric" key="028:075:000-028:080:000">
+                                    028:075:000-028:080:000
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>237</width><height>205</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="23">23 - 23 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                ḥiǧāzī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>640-680</origDate>
+            </origin>
+            <provenance>
+                            Egypt
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Tobias J. Jocham</p>
+                <p>assistance: Jens Sauer</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_5902">
+      <graphic decls="#imageRights-1" url="manuscript/108/d1d62096-aa1c-4350-89a4-0fcc320f1df8/manuscript-108-page-5902-image-3759.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_15442">
+      <graphic decls="#imageRights-1" url="manuscript/108/4267193f-ef8b-41fa-a67a-b0c7fd02e9e5/manuscript-108-page-15442-image-6582.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

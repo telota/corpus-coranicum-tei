@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Protevangelium des Jakobus 1:1 - 8:1</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_422" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>422</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 3:35-37 berichtet, wie "die Frau des ʿImrān" gelobt, ihr Kind - nämlich Maria (vgl. V. 37) - Gott zu weihen, und wie Maria dann im Tempel wohnt und dort auf wunderbare Weise von Gott mit Nahrung versorgt wird. Die hier zitierte Passage aus dem Protevangelium des Jakobus bietet einen ausführlichen Einblick in die im Hintergrund stehende Marienüberlieferung. Diese liegt auch in einer syrischen Version vor (zur Textgeschichte der syrischen Version und dem Verhältnis von syrischer und griechischer Fassung vgl. TUK_0034). Zu weiteren Texten aus dem Protevangelium vgl. TUK_0498, TUK_0426, TUK_0497.Das Protevangelium des Jakobus erzählt von Marias Empfängnis, Geburt, Aufwachsen im Tempel und ihrer Schwangerschaft, sowie von Jesu Geburt und der Verfolgung durch Herodes und endet mit der Ermordung des Zacharias. Im Zentrum steht die Verehrung Marias als Jungfrau und Mutter Jesu. Weitere Themen sind Gerechtigkeit, Glaube und Reinheit. Die älteste Handschrift (Bodmer 5), die auch Émile de Strycker seiner Edition zugrunde legt, datiert in das 3.-4. Jahrhundert. Verfasst wurde das Protevangelium vermutlich Mitte bis Ende des 2. Jh. auf Griechisch. Als Entstehungsort kommt Syrien oder Ägypten in Frage. Zusammen mit Übersetzungen, Überarbeitungen und Parallelüberlieferungen in zahlreichen Sprachen (syrisch, georgisch, lateinisch, irisch, slawisch, armenisch, arabisch, koptisch, äthiopisch) übte das Protevangelium im Osten und Westen einen großen Einfluss auf die Entwicklung von Liturgie, Dogma und Kunst aus (vgl. dazu Pellegrini 2012: p. 906-914).
+</summary>
+            <msItem>
+              <title>Protevangelium des Jakobus 1:1 - 8:1</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">150-200 n. Chr., z. T. später</origDate>
+              <origPlace>Syrien oder Ägypten (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Émile de Strycker, La forme la plus ancienne du Protévangile de Jacques. Recherches sur le papyrus Bodmer 5 avec une édition critique du texte grec et une traduction annotée, Brüssel 1961, S. 64-100.
+</bibl>
+              <bibl type="literatur">Pellegrini, Silvia: &amp;#x201E;Das Protevangelium des Jakobus&amp;#x201C;. In: Christoph Markschies &amp;amp; Jens Schr&amp;#xF6;ter (Hrsg.), Antike christliche Apokryphen in deutscher &amp;#xDC;bersetzung. I. Band: Evangelien und Verwandtes. Mohr Siebeck, T&amp;#xFC;bingen 2012, S. 903&amp;#x2013;929.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1:1 Ἐν ταῖς ἱστορίαις τῶν ιβ’ φυλῶν, ἦν Ἰωακεὶμ πλούσιος σφόδρα, καὶ προσέφερε Κυρίῳ τὰ δῶρα αὐτοῦ διπλᾶ λέφων ἐν ἑαυτῷ· «Ἔσται τὸ τῆς περισσείας μου ἅπαντι τῷ λαῷ καὶ τὸ τὴς ἀφέσεως Κυρίῳ τῷ Θεῷ εἰς ἱλ[ι]ασμὸν ἐμοί.» 2 [εν] Ἤγγισεν δὲ ἡ ἡμέρα Κυρίου ἡ μεγάλη, καὶ προσέφερον οἱ υἱοὶ Ἰσραὴλ τὰ δῶρα αὐτῶν. Καὶ ἔστη[σαν] κατενώπιον αὐτοῦ [καὶ] Ῥουβὴλ λέγων· «Οὐκ ἔξεστί σοι πρώτῳ ἐνεγκεῖν τὰ δῶρά σου, καθότι σπέρμα οὐκ ἐποίησας ἐν τῷ Ἰσραήλ.» 3 Καὶ ἐλυπήθη Ἰωακεὶμ σφόδρα, καὶ ἀπῆλθεν εἰς τὴν δωδεκάφυλον τοῦ λαοῦ  εἰ ἐγὼ μόνος οὐκ ἐποίησα σπέρμα ἐν τῷ Ἰσραήλ.»  ἠραύνησε, καὶ εὗρεν πάντας τοὺς δικαίους ὅτι σπέρμα ἐν τῷ Ἰσραὴλ ἀνέστησαν. Καὶ ἐμνήσθη[ν] τοῦ πατριάρχου Ἀβραάμ, ὅτι ἐν τῇ ἐσχάτῃ αὐτοῦ ἡμέρᾳ ἔδωκεν αὐτῷ Κύριος ὁ Θεὸς υἱὸν τὸν Ἰσαάκ. 4 Καὶ ἐλυπεῖτο Ἰωακεὶμ σφόδρα, καὶ οὐκ ἐφάνη τῇ γυναικὶ αὐτοῦ, ἀλλὰ ἔδωκεν ἑαυτὸν εἰς τὴν ἔρημον.  ἔπηξεν τὴν σκηνὴν αὐτοῦ ἐκεῖ, καὶ ἐνήστευσεν μ’ ἡμέρας καὶ νύκτας μ’ λέγων ἐν ἑαυτῷ Ἰωκείμ [sic!]· «Οὐ καταβήσομαι οὔτε ἐπὶ βρωτὸν οὔτε ἐπὶ ποτόν, ἕως ἐπισκέψηταί με Κύριος ὁ Θεός μου· καὶ ἔσται μου ἡ εὐχὴ βρώματα καὶ πόματα.»
+	2:1 Ἡ δὲ γυνὴ αὐτοῦ Ἄννα δύο θρήνους ἐθρήνει καὶ δύο κοπετοὺς ἐκόπτετο λέγουσα· «Κόψομαι τὴν χηροσύνην μου καὶ κόψομαι τὴν ἀτεκνίαν μου.» 2 [εν] Ἤγγισεν δὲ ἡ ἡμέρα Κυρίου ἡ μεγάλη. Καὶ εἶπεν Ἰουθίνη ἡ παιδίσκη αὐτῆς πρὸς αὐτήν· «Ἕως πότε ταπεινοῖς τὴν ψυχήν σου; Ἰδοὺ ἤγγισ ἡ ἡμέρα Κυρίου ἡ μεγάλη, καὶ οὐκ ἔξεστί σοι πενθεῖν. Ἀλλὰ λάβε τοῦτο τὸ κεφαλοδέσμιον, ὃ ἔδωκέν μοι ἡ κυρία τοῦ ἔργου, καὶ οὐκ ἔξεστί μοι δήσασθαι αὐτό, καθότι παιδίσκη εἰμὶ σὴ καὶ [καὶ] χαρακτῆρα ἔχει βασιλικόν.» 3 Καὶ εἶπεν Ἄννα· «Ἀποστηθι ἀπ’ ἐμοῦ. Καὶ ταῦτα οὐκ ἐποίησα, καὶ Κύριος ὁ Θεὸς ἐταπείνωσέν με σφόδρα. Μήπως τοῦτο πανοῦργο ἔδωκέν σοι, καὶ ἦλθες κοινωνῆσαί με τῇ ἁμαρτίᾳ σου.» Καὶ εἶπεν Ἰουθίνη ἡ παιδίσκη· «Τί ἀρά[ε]σωμαί σε, καθότι οὐκ ἤκουσας τῆς φωνῆς μου; Ἀπέκλεισεν Κύριος ὁ Θεὸς τὴν μήτ[ε]ραν σου, τοῦ μὴ δοῦναί σοι καρπὸν ἐν Ἰσραήλ.» 4 Καὶ ἐλυπήθη Ἄννα σφόδρα, καὶ περιείλατο τὰ ἱμάτια αὐτῆς τὰ πενθικὰ καὶ ἀπεσμήξατο τὴν κεφαλὴν αὐτῆς καὶ ἐνεδύσατο τὰ ἱμάτια αὐτῆς τὰ νυμφικά. Καὶ περὶ ὥραν θ’ κατέβη εἰς τὸν παράδεισον αὐτῆς τοῦ περιπατῆσαι· καὶ εἶδεν δαφνιδέαν καὶ ἐκάθισεν ὑποκάτω αὐτῆς, καὶ μετὰ τὸ ἀναπαῆναι ἐλιτάνευσεν τὸν Δεσπότην λέγουσα· «Ὁ Θεὸς τῶν πατέρων , εὐλόγησόν με καὶ ἐπάκουσον [μου] τῆς δεήσεώς μου, καθὼς εὐλόγησας τὴν μητέραν Σάραν καὶ ἔδωκας αὐτῇ υἱὸν τὸν Ἰσαάκ.»
+	3:1 Καὶ ἠτένισεν Ἄννα εἰς οὐρανόν, καὶ εἶδεν καλιὰν στρουθῶν ἐν τῇ δαφνιδέᾳ. Καὶ εὐθέως ἐποίησεν θρῆνον Ἄννα ἐν αὑτῇ λέγουσα· «Οἴμοι, τίς μοι ἐγέννησεν; ποία δὲ μήτρα ἐξέφυσέν με; ὅτι ἐγὼ κατάρα ἐγεννήθην [ἐνώπιον αὐτῶν πάντων καὶ] ἐνώπιον τῶν υἱῶν Ἰσραήλ. Καὶ ὠνειδίσθην καὶ ἐμυκτήρισαν καὶ ἐξώρισάν με ἐκ ναοῦ Κυρίου τοῦ Θεοῦ μου. 2 Οἴμοι τίνι ὡμοιώθην ἐγώ; Οὐχ ὡμοιώθην  τοῖς πετεινοῖς  τοῦ οὐρανοῦ γόνιμά ἐστιν ἐνώπιόν σου, Κύριε. Οἴμε τίνι ὡμοιώθην ἐγώ; Οὐχ ὡμοιώθην  τοῖς ἀλόγοις ζῴοις, ὅτι καὶ τὰ ἄλογα ζῷα γόνιμά εἰσιν ἐνώπιόν σου, Κύριε. Οἴμοι τίνι ὡμοιώθην ἐγώ; Οὐχ ὡμοιώθην  τοῖς θηρίοις τῆς γῆς, ὅτι καὶ τὰ θηρία τῆς γῆς γόνιμά εἰσιν ἐνώπιόν σου, Κύριε. 3 Οἴμοι τίνι ὡμοιώθην ἐγώ; Οὐχ ὡμοιώθην  τοῖς ὕδασιν τούτοις, ὅτι καὶ τὰ ὕδατα ταῦτα γαληνιῶντα καὶ σκιρτῶντα, καὶ οἱ ἰχθύες αὐτῶν σε εὐλογοῦσιν, Κύριε. Οἴμοι τίνι ὡμοιώθην ἐγώ;  τῇ γῇ ταύτῃ, ὅτι καὶ ἡ γῆ προφέρει τοῦς καρποὺς αὐτῆς κατὰ καιρὸν καί σε εὐλογεῖ, Κύριε.»
+	4:1 Καὶ ἰδοὺ ἄγγελος Κυρίου ἔστη λέγων· «Ἄννα, Ἄννα, ἐπήκουσεν Κύριος ὁ Θεὸς τῆς δεήσεώς σου. Συνλήμψεις καὶ γεννήσεις, καὶ αληθή[θη]σεται τὸ σπέρμα σου ἐν ὅλῃ τῇ οἰκουμένῃ.» Καὶ εἶπεν Ἄννα· «Ζῇ Κύριος ὁ Θεὸς· ἐὰν γεννήσω εἴτε ἄρσενα εἴτε θήλειαν, προσάξω  δῶρον [αὐτὼ] [sic!] Κυρίῳ τῷ Θεῷ μου, καὶ ἔσται λειτρουργῶν αὐτῷ πάσας τὰς ἡμέρας τῆς ζωῆς αὐτοῦ.» 2 Καὶ ἰδοὺ ἤλθοσαν ἄγγελοι δύο λέγοντες αὐτῇ· «Ἰδοὺ Ἰωακεὶμ ὁ ἀνήρ σου  μετὰ τῶν ποιμνίων αὐτοῦ.» Ἄγγελος γὰρ Κυρίου κατέβη πρὸς Ἰωακεὶμ λέγων· «Ἰωακεὶμ Ἰωακείμ, ἐπήκουσεν [σε] Κύριος ὁ Θεὸς τῆς δήσεώς σου. Κατάβηθι ἐντεῦθεν. Ἰδοὺ ἡ γυνή σου Ἄννα ἐν γαστρὶ εἴληφεν.» 3 Καὶ εὐθέως κατέβη Ἰωακεὶμ καὶ ἐκάλεσεν τοὺς ποιμένας λέγων αὐτοῖς· «Φέρετέ μοι ὧδε δέκα ἀμνάδας ἀσπίλους καὶ ἀμώμους, καὶ ἔσονται αἱ δέκα ἀμνάδες Κυρίῳ τῷ Θεῷ· καὶ φέρετέ μοι δώδεκα μόσχους  τοῖς ἱερεῦσιν καὶ τῇ γερουσίᾳ· καὶ ρ’ χιμάρους, καὶ ἔσονται οἱ ρ’ χίμαροι παντὶ τῷ λαῷ.» 4 Καὶ ἰδοὺ ἥκει Ἰωακεὶμ μετὰ τῶν ποιμνίων αὐτοῦ. Καὶ ἔστη Ἄννα πρὸς τῇ πύλῃ καὶ εἶδεν Ἰωακεὶμ ἐρχόμενον μετὰ τῶν ποιμνίων αὐτοῦ. [Καὶ ἰδοῦσα Ἄννα αὐτὸν] Καὶ εὐθὺς ἔδραμεν καὶ ἐκρέμασεν ἁτὴν εἰς τὸν τράχηλον αὐτοῦ Ἄννα λέγουσα· «Νῦν οἶδα ὅτι Κύριος ὁ Θεὸς εὐλόγησέν με σφόδρα. Ἰδοὺ γὰρ ἡ χήρα οὐκέτι χήρα, καὶ ἡ ἄτεκνος ἰδοὺ ἐν γαστρὶ εἴληφα.» Καὶ ἀνεπαύσατο Ἰωακεὶμ τῇ πρώτῃ ἡμέρᾳ ἐν τῷ οἴκῳ αὐτοῦ.
+	5:1 Τῇ δὲ ἐφαύριον ἔφερεν τὰ δῶρα αὐτοῦ λέγων ἐν ἑαυτῷ· «Ἐὰν Κύριος ὁ Θεὸς ἱλασθῇ μοι τὸ πέταλον τοῦ ἱερέως φανερόν μοι ποιῆσαι.» Καὶ προσέφερεν τὰ δῶρα αὐτοῦ Ἰωακεὶμ καὶ πρεσεῖχε τῷ πετάλῳ τοῦ ἱερέως  ἐπέβη ἐπὶ τὸ θυσιαστήριον Κυρίου, καὶ οὐκ εἶδεν ἁμαρτίαν ἐν ἑαυτῷ. Καὶ εἶπεν Ἰωακείμ· «Νῦν οἶδα ὅτι Κύριος ὁ Θεὸς ἱλάσθη μοι καὶ ἀφῆκέν μοι πάντα τὰ ἁμαρτήματά .» Καὶ κατέβη ἐκ τοῦ ναοῦ Κυρίου δεδικαιωμένος, καὶ ἥκει ἐν τῷ οἴκῳ αὐτοῦ. 2 Καὶ ἐπληρώθησαν [οἱ] μῆνες αὐτῇ[ς] ὡσεὶ[πεν] ἕξ· τῷ δὲ ἑβδόμῳμηνὶ ἐγέννησεν Ἄννα καὶ εἶπεν τῇ μαίᾳ· «Τί ἐγέννησα;» Καὶ εἶπεν ἡ μαῖα· «Θήλειαν.»  «Ἐμεγαλύνθη ἡ ψυχή μου τὴν ἡμέραν ταύτην.» Καὶ ἀνέκλινεν αὐτήν. Πληρωθέντων δὲ τῶν ἡμερῶν ἀπεσμήξατο ἡ Ἄννα τῆς ἀφέδρου αὐτῆς καὶ ἔδωκε [τὸν] μασθὸν τῇ παιδὶ καὶ ὠνόμασεν τὸ ὄνομα αὐτῆς Μαρία.
+	6:1 Ἡμέρᾳ δὲ καὶ ἡμέρᾳ ἐκραταιοῦτο ἡ παῖς. Γεναμένης  αὐτῆς ἑξαμήνου ἔστησεν αὐτὴν ἡ μήτηρ αὐτῆς χαμαί, διαπειρᾶσαι εἰ ἵσταται. Καὶ ἑπτὰ [καὶ ἑπτὰ] βήματα περιπατήσασα ἦλθεν εἰς τὸν κόλπον τὴς μητρὸς αὐτῆς. Καὶ ἀνήρπασεν αὐτὴν ἡ μήτηρ αἠτῆς λέγουσα· «Ζῇ Κύριος ὁ Θεός μου· οὐ μὴ περιπατήσῃς ἐν τῇ γῇ ταύτῃ ἕως σε ἀπάξω ἐν τῷ ναῷ Κυρίου.» Καὶ ἐποίησεν ἁγίασμα ἐν τῷ κοιτῶνι αὐτῆς, καὶ κοινὸν καὶ ἀκάθαρτον οὐκ εἴα διέρχεσθαι δι’ αὐτῆς. Καὶ ἐκάλεσε τὰς θυγατέρας τῶν Ἑβραίων τὰς ἀμιάντους, καὶ διεπλάνων αὐτήν. 2 Ἐγένετο δὲ πρῶτος ἐνιαυτὸς τῇ παιδί, καὶ ἐποίησεν Ἰωακεὶμ δοχὴν μεγάλην καὶ ἐκάλεσε τοὺς ἀρχιερεῖς καὶ τοὺς ἱερεῖς καὶ τοὺς γραμματεῖς καὶ τὴν γερουσίαν καὶ ὅλον τὸν λαὸν τοῦ Ἰσραήλ. Καὶ προσήνεγκεν τὴν παῖδα Ἰωακεὶμ τοῖς ἱερεῦσιν, καὶ ηὐλόγησαν αὐτὴν λέγοντες· «Ὁ Θεὸς τῶν πατέρων ἡμῶν, εὐλόγησον τὴν παῖδα ταύτην καὶ δὸς αὐτῇ ὄνομα ὀνομαστὸν αἰώνιον ἐν πάσαις ταῖς γενεαῖς.» Καὶ εἶπεν  ὁ λαός· «Γένοιτο, ἀμήν.» Καὶ προσήνεγκαν αὐτὴν τοῖς ἀρχιερεῦσιν, καὶ εὐλόγησαν αὐτὴν λέγοντες· «Ὁ Θεὸς τῶν ὑψωμάτων, ἐπίβλεψον ἐπὶ τὴν παῖδα ταύτην καὶ εὐλόγησον αὐτὴν ἐσχάτην εὐλογίαν ἥτις διαδοχὴν οὐκ ἔχει.» 3 Καὶ ἀνύρπασεν  ἡ μήτηρ αὐτῆς ἐν τῷ ἁγιάσματι τοῦ κοιτῶνος καὶ ἔδωκε μασθὸν τῇ παιδί. Καὶ ἐποίησεν ᾆσμα Κυρίῳ τῷ Θεῷ Ἄννα λέγουσα· «Ἄισω ᾠδὴν ἁγίαν Κυρίῳ τῷ Θεῷ μου, ὅτι ἐπεσκέψατό με καὶ ἀφεῖλεν ἀπ’ ἐμοῦ ὀνειδισμὸν τῶν ἐχθρῶν μου, καὶ ἔδωκέν μοι Κύριος ὁ Θεός μου καρπὸν δικαιοσύνης αὐτοῦ μονοσιον πολυπλάσιον ἐνώπιον αὐτοῦ. Τίς ἀγγελεῖ τοῖς υἱοῖς Ῥουβὴλ  ὅτι Ἄννα θηλάζει.» Καὶ ἀνέπαυσεν αὐτὴν ἐν τῷ κοιτῶνι τοῦ ἁγιάσματος, καὶ ἐξῆλθεν καὶ διηκόνει αὐτοῖς. Τελεσθέντος δὲ τοῦ δείπνου κατέβησαν εὐφρανμενοι καὶ ἐδόξασαν τὸν Θεὸν Ἰσραήλ.
+	7:1 Τῇ δὲ παιδὶ προσετίθεντο οἱ μῆνες αὐτῆς. Ἐγένετο δὲ διετὴς ἡ παῖς, καὶ εἶπεν Ἰωακείμ· «Ἀνάξωμεν αὐτὴν ἐν ναῷ Κυρίου ὅπως ἀποδῶμεν τὴν ἐπαγγελίαν ἣν ἀπηγγειλάμεθα, μήπως ἀποστείλῃ ὁ Δεσπότης ἐφ’ ἡμᾶς καὶ ἀπρόσδεκτον ἔσται τὸ δὼρον ἡμῶν.» Καὶ εἶπεν Ἄννα· «Ἀναμείνωμεν τὸ τρίτον , ὅπως μὴ ζητήσῃ πατέρα ἢ μητέρα.» Καὶ εἶπεν Ἰωακείμ· «Ἀναμείνωμεν.» 2 Ἐγένετο δὲ τριετὴς ἡ παῖς, καὶ εἶπεν Ἰωακείμ· «Καλέσωμεν τὰς θυγατέρας τῶν Ἑβραίων τὰς ἀμιάντους, καὶ λαβέτωσαν ἀνὰ λαμπάδα, καὶ ἔστωσαν καιόμεναι, ἵνα μὴ στραφῇ εἰς τὰ ὀπίσω καὶ αἰχμαλωτισθήσεται ἡ καρδία αὐτῆς ἐκ ναοῦ Κυρίου.» Καὶ ἐποίησαν οὕτως ἕως ἀνέβησαν ἐν ναῷ . Καὶ ἐδέξατο αὐτὴν ὁ ἱερεὺς [Κυρίου] καὶ φιλήσας αὐτὴν εὐλόγησεν καὶ εἶπεν· «Ἐμεγάλυνεν Κύριος ὁ Θεὸς τὸ ὄνομά σου ἐν πάσαις ταῖς γενεαῖς. Ἐπὶ σοὶ ἐπ’ ἐσχάτων τῶν ἡμερῶν φανερώσει Κύριος τὸ λύτρον τοῖς υἱοῖς Ἰσραήλ.» 3 Καὶ ἐκάθισεν αὐτὴν ἐπὶ τρίτου βαθμοῦ τοῦ θυσιαστηρίου, καὶ ἔβαλλε Κύριος ὁ Θεὸς χάριν ἐπ’ αὐτήν, καὶ κατεχόρευε τοῖς ποσὶν αὐτῆς, καὶ ἠγάπησεν αὐτὴν πᾶς [ὁ] οἶκος Ἰσραήλ.
+	8:1 Καὶ κατέβησαν οἱ γονεῖς αὐτῆς θαυμάζοντες καὶ ἐπαινοῦντες καὶ δοξάζοντες τὸν Δεσπότην Θεὸν ὅτι οὐκ ἀπεστράφη ἐπ’ αὐτούς. Ἦν δὲ Μαρία ἐν ναῷ Κυρίου ὡσεὶ περιστερὰ νεμομένη  ἐλάμβανε τροφὴν ἐκ χειρὸς ἀγγέλου.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1:1 In den 'Geschichten der zwölf Stämme Israels' war Joachim ein sehr reicher (Mann), und er brachte alle seine Opfergaben für den Herrn doppelt; denn er sagte sich: "Was ich zuviel darbringe, soll für das ganze Volk sein, und was ich zur Vergebung darbringe, soll für den Herrn sein, mir zur Versöhnung." 2 Nun war der große Tag des Herrn herangekommen, und die Kinder Israels brachten ihre Opfergaben dar. Da traten sie vor ihn, auch Rubel (Ruben), der sagte: "Es ziemt sich dir nicht, deine Opfergaben als erster darzubringen, denn du hast in Israel keine Nachkommen erzeugt." 3 Da wurde Joachim sehr traurig, und er ging weg zu dem Zwölfstämmeregister des Volkes [und sagte]: "Ich werde nachsehen in dem Zwölfstämmeregister Israels, ob ich der einzige bin, der in Israel keine Nachkommen erzeugt hat." Und er untersuchte und fand von allen Gerechten, daß sie in Israel Nachkommen erweckt hatten. Und er dachte an den Erzvater Abraham, daß ihm Gott in seinen letzten Tagen (noch) einen Sohn, den Isaak, geschenkt hatte. 4 Und Joachim war sehr traurig, und er zeigte sich seiner Frau nicht, sondern begab sich in die Wüste; dort schlug er sein Zelt auf und fastete vierzig Tage und vierzig Nächte; und er sagte bei sich: "Ich werde nicht hinunter gehen, weder um Speise, noch um Trank, bis Gott, mein Herr, mich heimgesucht hat; das Gebet soll mir Speise und Trak sein."
+	2:1 Anna, seine Frau, stimmte indessen ein zwiefaches Klagelied an und erhob ein zwiefaches Jammern: "Meine Witwenschaft will ich bejammern, bejammern meine Kinderlosigkeit dazu." 2 Nun kam der große Tag des Herrn heran, und Euthine [Judith], ihre Magd, sprach zu ihr: "Wie lange beugst du deine Seele, da doch der große Tag des Herrn nahe ist, und da darfst du nicht trauern. Nimm statt dessen dieses Kopftuch, das mir die Arbeitsherrin gegeben hat; mir geziemt es nicht, es zu tragen, weil ich deine Sklavin bin und es (doch) königliches Gepräge hat." 2 Aber Anna sagte: "Weg von mir! Das tue ich nie! Der Herr hat mich tief gebeugt. Wer weiß, ob nicht ein Betrüger es dir gegeben hat, und du bist gekommen, um mich an deiner Sünde teilhaben zu lassen!" Euthine [Judith] antwortete: "Was brauche ich dir noch Böses zu wünschen dafür, daß du nicht auf mich gehört hast? Gott, der Herr, hat (ja schon) deinen Mutterleib verschlossen, um dir keine Leibesfrucht in Israel zu geben." 4 Und Anna wurde sehr traurig; aber sie legte ihre Trauerkleider ab, wusch sich das Haupt, zog ihre Brautkleider an und ging um die neunte Stunde in ihrem Garten spazieren. Da sah sie einen Lorbeebaum, setzte sich darunter und [nachdem sie sich ausgeruht hatte] flehte sie den Herrn an mit den Worten: "O Gott unserer Väter, segne mich und erhöre meine Bitte, wie du den Mutterleib Saras [die Mutter Sara] gesegnet und ihr einen Sohn, den Isaak, geschenkt hast."
+	3:1 Und Annna seufzte zum Himmel empor, und sie sah ein Sperlingsnest im Lorbeerbaum, und alsbald erhob sie für sich eine Klage: "Wehe mir, wer hat gezeugt mich, was für ein Mutterleib hat mich hervorgebracht? Denn zum Fluche bin ich geboren [vor ihnen allen und] vor Israels Söhnen, und ich wurde geschmäht, und sie verspotteten und vertrieben mich aus dem Tempel des Herrn. 2 Weh mir, wem ward ich gleich? Nicht ward ich gleich den Vögeln des Himmels: denn auch die Vögel des Himmels sind fruchtbar vor dir, Herr! Wehe mir, wem ward ich gleich? Nicht ward ich gleich den vernunftlosen Wesen: denn auch die vernunftlosen Wesen sind fruchtbar vor dir, Herr! Weh mir, wem ward ich gleich? Nicht ward ich gleich den Tieren der Erde: denn auch die Tiere der Erde sind fruchtbar vor dir, Herr! 3 Weh mir, wem ward ich gleich? Nicht ward ich gleich den Wassern: denn auch diese Wasser sprudeln freudig dahin, und ihre Fische preisen dich, Herr! Weh mir, wem ward ich gleich? Nicht ward ich gleich dieser Erde: denn auch diese Erde bringt ihre Frucht zu gegebener Zeit und preiset dich, Herr!"
+	4:1 Und siehe, ein Engel des Herrn trat zu ihr und spach: "Anna, Anna, der Herr hat deine Bitte erhört. Du wirst empfangen und gebären, und deine Nachkommenschaft wird in der ganzen Welt genannt werden." Da sprach Anna: "Sowahr der Herr , mein Gott lebt, wenn ich gebären werde, sei es ein Knabe oder Mädchen, so will ich es dem Herrn, meinem Gott, als Opfergabe darbringen, und es soll ihm Dienste verrichten alle Tage seines Lebens [vgl. Q 3:35.36]." 2 Und siehe, da kamen zwei Boten und sprachen zu ihr: "Siehe, Joachim, dein Mann, kommt mit seinen Herden; denn ein Engel des Herrn ist zu ihm herabgestiegen und hat ihm gesagt: Joachim, Joachim, Gott, der Herr, hat deine Bitte erhört. Ziehe hinab! Siehe, Anna, dein Weib, hat in ihrem Leib empfangen [wird in ihrem Leib empfangen]." 3 Und Joachim zog sogleich hinab und rief seine Hirten und sprach zu ihnen: "Bringet mir zehn Lämmer herbei, ohne Fehl und Makel, und die zehn Lämmer sollen dem Herrn, meinem Gott gehören. Und bringt mir zwölf [zarte] Kälber, und die zwölf Kälber sind für die Priester und Ältesten, und hundert Böcke, und die hundert Böcke sollen für das ganze Volk sein." 4 Und siehe, da kam Joachim mit seinen Herden, und Anna stand unter der Türe, und sie sah Joachim kommen, lief alsbald herbei, fiel ihm um den Hals und sprach: "Jetzt weiß ich, daß Gott, der Herr, mich [dich] reich gesegnet hat; denn siehe, die Witwe ist nicht mehr Witwe, und ich, die Kinderlose, habe in meinem Leib empfangen [werde in meinem Leib empfangen]." Und Joachim ruhte am ersten Tag in seinem Haus aus.-
+	5:1 Am nächsten Tage aber brachte er seine Gaben dar, indem er bei sich sprach: "Wenn Gott, der Herr, mir gnädig ist, wird mir das Stirnband des Priesters es offenbar machen." Und Joachim brachte seine Gaben dar und achtete auf das Stirnband des Priesters, als er zum Altar des Herrn hinaufstieg; und er sah keine Sünde an ihm. Da sprach Joachim: "Jetzt weiß ich, daß Gott, der Herr mir gnädig ist und mir alle meine Sünden vergeben hat." Und er stieg hinab vom Tempel des Herrn, gerechtfertigt, und ging in sein Haus. 2 Es erfüllten sich aber ihre sechs Monate (ihre Monate), wie (der Engel) gesagt hatte: im siebenten [neunten] Monat gebar Anna. Und sie sprach zu der Hebamme: "Was habe ich geboren?" Und die Hebamme sprach: "Ein Mädchen." Da sprach Anna: "Erhoben ist meine Seele an diesem Tag." Und sie legte es nieder. Als aber die Tage erfüllt waren, da reinigte sich Anna von ihrem Wochenbett und gab dem Kinde die Brust, und sie verlieh ihm den Namen Maria.
+	6:1 Das Kind wurde nun von Tag zu Tag kräftiger; als es sechsmonatig war, stellte es seine Mutter zu Boden, um in Erfahrung zu bringen, ob es (schon) stehen (könne). Und es machte sieben Schritte und gelangte an den Schoß seiner Mutter. Sie aber hob es in die Höhe und sprach: "(So wahr) der Herr, mein Gott, lebt, du sollst nicht mehr auf diesem Erdboden Schritte machen, bis ich dich in den Tempel des Herrn führen werde!" Und sie machte ein Heiligtum in seinem Schlafgemach und ließ nicht zu, daß es etwas Profanes oder Unreines zu sich nähme. Dann rief sie die unbefleckten Töchter der Hebräer, und diese sorgten für ihre Zerstreuung. 2 Am ersten Geburtstag des Kindes veranstaltete Joachim ein großes Festmahl und lud dazu die Hohenpriester, die Priester und Schriftgelehrten, die Ältesten und das ganze Volk Israel ein. Und Joachim brachte das Kind vor die Priester, und sie segneten es mit den Worten: "Gott unserer Väter, segne dieses Kind und verleihe ihm einen unter allen Geschlechtern ewig gerühmten Namen!" Und das ganze Volk sprach: "So sei es, [so sei es,] Amen!" Und sie brachten es vor die Hohenpriester, und sie segneten es mit den Worten: "Gott der Himmelshöhen, blicke auf dieses Kind (herab) und segne es mit dem höchsten, unüberbietbaren Segen!" 3 Und seine Mutter brachte es hinauf in das Heiligtum seines Schlafgemaches und gab ihm die Brust. Und Anna stimmte Gott, dem Herrn, folgendes Loblied an: "Ein [heiliges] Lied will ich singen dem Herrn, meinem Gott, denn heimgesucht hat er mich und von mir genommen die Schmähung durch meine Feinde. Und es gab mir der Herr die Frucht der Gerechtigkeit, die einzigartige und überreiche vor ihm. Wer meldet's den Söhnen Rubels [Rubims], daß Anna säugt? [Höret, höret, ihr zwölf Stämme Israels: Anna säugt!]" Und sie brachte es zur Ruhe in dem Schlafgemach mit seinem Heiligtum und ging hinaus und wartete ihnen auf. Nach Beendigung des Mahles zogen sie wieder hinab, in großer Freude und lobten den Gott Israels.
+	7:1 Die Monate verstrichen, und das Kind wurde älter. Als es nun zweijährig war, sprach Joachim zu Anna: "Wir wollen es hinaufbringen in den Tempel des Herrn, damit wir das Versprechen erfüllen, das wir gegeben haben, und der Herr nicht etwa zu uns sende und unsere Gabe unwillkommen werde!" Aber Anna entgegnete: "Warte (noch) das dritte Jahr ab, damit das Kind (dann) nicht mehr nach Vater und Mutter begehre." Und Joachim sagte: "Einverstanden." 2 Und als das Kind dreijährig geworden war, sagte Joachim: "Wir wollen die unbefleckten Töchter der Hebräer rufen, die mögen jede eine Fackel nehmen, und diese sollen brennend sein, auf daß sich das Kind nicht zurückwende und sein Herz nicht vom Tempel des Herrn weggelockt werde!" Und er verfuhr in dieser Weise, bis sie hinauskamen zum Tempel des Herrn. Und der Priester empfing es, küßte und segnete es mit den Worten: "Der Herr hat deinen Namen groß gemacht unter allen Geschlechtern; an dir wird der Herr am Ende der Tage seine Erlösung für die Söhne Israels offenbaren!" 3 Und er setzte es auf die dritte Stufe des Altars, und Gott, der Herr, legte Anmut auf das Kind, und es tanzte vor Freude mit seinen Füßchen, und das ganz Haus Israel gewann es lieb.
+	8:1 Und seine Eltern zogen hinab, verwundert und mit Lob und Preis für Gott, den Allmächtigen, darum daß sich das Kind nicht rückwärts gewandt hatte [zu ihnen]. Maria aber wurde im Tempel wie eine Taube gehegt und empfing Nahrung aus der Hand eines Engels [vgl. Q 3:37].
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

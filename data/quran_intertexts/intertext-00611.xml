@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Altnordarabische Inschrift (Safaitisch) bei en-Nemara (Syrien)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_611" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>611</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In dieser Inschrift findet sich einer der frühesten arabischen Belege für das Wort sifr, im angegebenen Text: "Inschrift", welches wohl den Singular zum koranisch belegten Plural ʾasfār (Q 34:19, Q 62:5) darstellt. In einer weiteren safaitischen Inschrift (KRS 818) aus Jordanien, findet sich die Schreibung h-ʾs¹fr , die offenbar den Plural zu h-s¹fr darstellt und möglicherweise ha-ʾasfār zu lesen ist: l wdmʾl bn grmʾl bn nẖr bn ġrb h- ṣmd w ḏbḥ gml ʿl- -h f s¹lm yṯʿ m- s²nʾ w ʿwr mʿwr h-ʾs¹fr. Ist diese Lesung richtig, wäre auch der koranische Plural bereits safaitisch belegt.
+	Die koranische Passage (Q 62:5), in der sich der Begriff ʾasfār findet, scheint tragbare "Schriften" zu unterstellen: ka-maṯali l-ḥimāri yaḥmilu ʾasfāran "[das Beispiel...] entspricht dem eines Esels, der Bücher trägt". Der Bezugspunkt in der koranischen Passage ist die Torah, es ist daher wohl am ehesten an Buchrollen zu denken. In anderen semitische Sprachen, bezeichnet das Wort (etwa hebr. sēper, aram. seprā) allgemein "Schreiben, Liste, Dokument"; auf Grund des Bezugs zur Torah und der anderweitig belegten Semantik des Wortes sifr bzw. im Plural ʾasfār ist wohl eher von einer Bedeutung "Schriftrollen" o.ä. als "Bücher" im eigentlichen Sinne auszugehen.
+	Zur Etymologie sei bemerkt, dass die in den semitischen Sprachen verbreiteten Wörter wohl letztlich alle auf akkadisch šipru zurückgehen, welches ursprünglich "Sendung", "Sendschreiben" (vom Verbum šapāru "senden, schicken") bedeutet und dann die allgemeine Bedeutung "Schriftstück" annimmt. Der Begriff findet sich, wohl aus dem Akkadischen entlehnt, in gut belegten semitischen Sprachen, so dem Ugaritischen, Hebräischen, Aramäischen und dann auch dem Arabischen. Im Judentum wird hebräisch sēper, Pl. spārīm auch speziell für Heilige Schriften verwandt (zu ʾasfār vgl. auch Jeffery 1938: p. 170f.)
+</summary>
+            <msItem>
+              <title>Altnordarabische Inschrift (Safaitisch) bei en-Nemara (Syrien)</title>
+              <author/>
+              <textLang mainLang="">Altnordarabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 4. Jh. n. Chr.</origDate>
+              <origPlace>En-Nemara (Syrien); 80 km süd-östlich von Damaskus</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">E. Littmann , Safaitic Inscriptions, Leiden 1943, S. 333. Übersetzung und Transkription nach Rainer M. Voigt, "Einige altnordarabische Inschriften", Zeitschrift des Deutschen Palästina-Vereins 97 (1981), S. 178-187, Tafel 13-14 (modifiziert).</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FVoigt+p+180+altnordarabische+Inschriften.JPG&amp;dw=1000"/>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FTafel+13+Photo+Heinz+Gaube+Voigt+altnordarabische+Inschriften+tafel+13.JPG&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>Die safaitische Originalschrift kann nicht digital dargestellt werden; siehe unten, Abbildung 1 mit einer Faksimilezeichnung. Der Text der Inschrift wird in lateinischer Transkription angegeben, s.u.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	"(Diese Inschrift) ist von Anʿam bin-Fulān (10 mal) - -
+	so, O Lāt, (gib) Friede vor dem, der auf der Lauer liegt,
+	und Blindheit desjenigen, der diese Inschrift auslöscht - -,
+	möge er vorbeiziehen!"
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

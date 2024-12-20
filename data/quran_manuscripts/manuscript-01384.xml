@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1384">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.73.5.25</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.73.5.25</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_686793" n="1r">
+              <title type="numeric" key="001:001:001-001:005:004">
+                                    001:001:001-001:005:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686794" n="1v">
+              <title type="numeric" key="001:006:001-001:007:009">
+                                    001:006:001-001:007:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_697956" n="2r">
+              <title type="numeric" key="028:024:008-028:028:008">
+                                    028:024:008-028:028:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686795" n="2v">
+              <title type="numeric" key="028:028:009-028:032:011">
+                                    028:028:009-028:032:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="11">11 - 11 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_46799">
+      <graphic decls="#imageRights-1" url="manuscript/1384/70f26db1-602c-44ed-a4b4-fd37f14391ce/manuscript-1384-page-46799-image-32592.tiff"/>
+      <graphic decls="#imageRights-1" url="manuscript/1384/f6a72066-d9ad-409f-a7f4-8277a99eb5ed/manuscript-1384-page-46799-image-32593.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_46800">
+      <graphic decls="#imageRights-1" url="manuscript/1384/e6821374-6222-4d47-b003-088c084545d4/manuscript-1384-page-46800-image-32594.tiff"/>
+      <graphic decls="#imageRights-1" url="manuscript/1384/50ebf768-60f5-46d5-9b31-c39df663b545/manuscript-1384-page-46800-image-32595.tiff"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_46798">
+      <graphic decls="#imageRights-1" url="manuscript/1384/ca984562-e81f-4f29-8641-48d726b49fd2/manuscript-1384-page-46798-image-32596.tiff"/>
+      <graphic decls="#imageRights-1" url="manuscript/1384/3cb3b9bb-065e-41a6-8772-80728eb00d45/manuscript-1384-page-46798-image-32597.tiff"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_46801">
+      <graphic decls="#imageRights-1" url="manuscript/1384/c7711c7d-5108-4c13-8673-e5a95ab2016f/manuscript-1384-page-46801-image-32598.tiff"/>
+      <graphic decls="#imageRights-1" url="manuscript/1384/ecd56f33-ebf0-4e42-85d3-a1c5f3199edd/manuscript-1384-page-46801-image-32599.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

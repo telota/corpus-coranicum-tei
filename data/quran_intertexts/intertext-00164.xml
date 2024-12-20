@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 40:27-31</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_164" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>164</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 2:255 greift eine auch in der Bibel verwendete Beschreibung Gottes auf, wobei die Formulierungen etwas divergieren; die Bibel hat zwei Verben, während der Koran "nehmen" mit zwei Nomina konstruiert ("es ergreift ihn weder Schlaf noch Schlummer"). Die beiden koranischen Begriffe sina und naum stehen dabei wiederum einer weiteren biblischen Passage besonders nahe, nämlich Psalm 121:4 (TUK_0258).
+</summary>
+            <msItem>
+              <title>Jesaja 40:27-31</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	לָמָּה תֹאמַר יַעֲקֹב וּתְדַבֵּר יִשְׂרָאֵל נִסְתְּרָה דַרְכִּי מֵיְהוָה וּמֵאֱלֹהַי מִשְׁפָּטִי יַעֲבוֹר : הֲלוֹא יָדַעְתָּ אִם־לֹא שָׁמַעְתָּ אֱלֹהֵי עוֹלָם יְהוָה בּוֹרֵא קְצוֹת הָאָרֶץ  לֹא יִיעַף וְלֹא יִיגָע  אֵין חֵקֶר לִתְבוּנָתוֹ : נֹתֵן לַיָּעֵף כֹּחַ וּלְאֵין אוֹנִים עָצְמָה יַרְבֶּה : וְיִעֲפוּ נְעָרִים וְיִגָעוּ וּבַחוּרִים כָּשׁוֹל יִכָּשֵׁלוּ : וְקוֹיֵ יְהוָה יַחֲלִיפוּ כֹחַ יַעֲלוּ אֵבֶר כַּנְּשָׁרִים יָרוּצוּ וְלֹא יִיגָעוּ יֵלְכוּ וְלֹא יִיעָפוּ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	27 Jakob, warum sagst du, / Israel, warum sprichst du: Mein Weg ist dem Herrn verborgen, / meinem Gott entgeht mein Recht? 28 Weißt du es nicht, hörst du es nicht? / Der Herr ist ein ewiger Gott, / der die weite Erde erschuf. Er wird nicht müde und matt, / unergründlich ist seine Einsicht. 29 Er gibt dem Müden Kraft, / dem Kraftlosen verleiht er große Stärke. 30 Die Jungen werden müde und matt, / junge Männer stolpern und stürzen. 31 Die aber, die dem Herrn vertrauen, / schöpfen neue Kraft, / sie bekommen Flügel wie Adler. Sie laufen und werden nicht müde, / sie gehen und werden nicht matt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

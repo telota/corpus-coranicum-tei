@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_531" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>531</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Sowohl der syrische als auch die koranischen Texte betonen die Unvorhersehbarkeit der 'Stunde', d.h. des plötzlich eintretenden Jüngsten Tages. Sie ermahnen deswegen, ihrer stets eingedenk zu sein. Zu vergleichen ist auch Matth 25:13: "Seid also wachsam! Denn ihr wisst weder den Tag noch die Stunde" (ὅτι οὐκ οἴδατε τὴν ἡμέραν οὐδὲ τὴν ὥραν). Der Begriff “Tag des Gerichts” geht schon auf jüdisch-hellenistischem Sprachgebrauch zurück (vgl. ἡμέρα κρίσεως, in Weis 3:18; Judit 16:17 usw.) und wird besonders im NT prominent (Matth 10:15; 11:22; 12:36, usw.). Die Behandlung des Motivs in der homiletischen Literatur der Syrer spricht für seine Popularität und Verbreitung auch im spätantiken Mesopotamien. So ist auch in diesem Text Jakobs von Sarug (451-521) die Wendung "Tag des Gerichts" (syr. yōm dīnā) schon ein feststehender Begriff, der dem koranischen yaum ad-dīn sprachlich und funktional vollkommen entspricht.	Dīn hat im Koran natürlich noch die weitere Bedeutungen, vor allem wird es auch für "Religion" gebraucht. Diese Bedeutung ist wohl auf mittelpersisch dēn "Religion" (aw. daēnā) zurückzuführen, was darauf hinweist, dass im Koran offenbar verschiedene Gebrauchsweisen zusammengeflossen sind. Zur früheren Diskussion dieses Terminus, siehe Jeffery 1938: p. 260f. Zur Frage, ob sāʿa "Stunde" formal entlehnt sein könnte, vgl. Jeffery 1938: p. 157f. </summary>
+            <msItem>
+              <title>Gedicht über das Weltende</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan, Homiliae Selectae Mar-Jacobi Sarugensis, Band 5, Paris 1910, S. 847-852.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>225 ܒܕ ܬܠܡܝ̈ܕܐ ܠܡܪܢ ܫܐܠܘ ܥܠ ܡܐܬܝܬܐ:ܒܝܕ ܐܬ̈ܘܬܐ ܚܟܡ̣ ܐܢܘܢ ܥܠ ܓܠܝܢܗ܀ܡ̣ܢ ܬܬܐ ܠܡ ܝܠܦܘ ܐ̄ܖ̈ܙܐ ܕܦܣܝ̈ܩܬܐ:ܕܡܐ ܕܪܟ ܣܘܟ̈ܝܗ̇ ܘܐܦܪܥܘ ܛܖ̈ܦܝܗ̇ ܩܝܛܐ ܗ̄ܘ ܡܟܝܠ܀ܫܦܝܪ ܨܪܗ ܠܥܠܡܐ ܚܕܬܐ ܒܩܝܛܐ ܦܨܝܚܐ:230 ܕܒܗ ܡܬܚܕܝܢ ܟܠ ܟܫܝܖ̈ܐ ܒܡܖ̈ܗܛܝܗܘܢ܀ܒܗ ܡܬܟܢܫܐ ܟܦܐ ܕܟܐܢ̈ܐ ܒܐܘܨܪ ܚܝ̈ܐ:ܘܦܪܫ ܢܦ̇ܩ ܬܒܢܐ ܠܢܘܪܐ ܕܠܚܝܡܐ ܠܗ܀ܡ̣ܢ ܐܬ̈ܘܬܐ ܕܝܗ̣̄ܒ ܗ̄ܘܐ ܡܪܢ ܟܕ ܐܫܬܐܠ:ܠܐ ܪܚܝܩܐ ܚܪܬܐ ܡܢܢ ܣܓܝ ܢܘܓܪܐ܀235 ܡ̣ܢ ܦܠܐ̈ܬܐ ܕܖ̈ܫܝܡܢ ܠܢ ܥܠ ܡܐܙܠܬܐ:ܡܛܬ ܠܗ̇ ܠܬܪܥܐ ܢܫܠܐ ܩܠܝܠ ܡ̣ܢ ܒܝ̈ܫܬܐ܀ܡ̣ܢ ܬܚܘܝܬܐ ܕܪܫܝܡܐ ܠܢ ܒܟܬܝ̈ܒܬܐ:ܩ̣ܪܒ ܠܗ ܘܡܛ̣ܐ ܙܒܢܐ ܐ̄ܚܪܝܐ ܘܗܐ ܥܡܢ ܗ̄ܘ܀ܐܠܐ ܢܦܝܠ ܥܡܐ ܒܥܡܐ ܐܝܟ ܕܟܬܝܒܐ:240 ܐܝܬ ܗ̄ܘ ܡܬܚܐ ܠܗܝ̇ ܡܐܬܝܬܐ ܘܟܢ ܡܬܓܠܝܐ܀ܐܢ ܡܠܟܘܬܐ ܬܘܒ ܠܐ ܩܡܬ ܥܠ ܡܠܟܘܬܐ:ܢܘܓܪܐ ܪܒܐ ܐܝܬ ܠܗ̇ ܠܚܪܬܐ ܢܚܛܐ ܟܠܢܫ܀ܐܠܐ ܚܙܝܬܘܢ ܒܪܬܐ ܕܩܡܬ ܠܘܩܒܠ ܐܡܗ̇:ܨܐܕܝ ܬܫܪܟ ܕܓܠܘܬܐ ܒܗܠܝܢ ܕܐܡܪܬ܀245 ܐܠܐ ܨܥܪܬ ܟܠܬܐ ܛܠܝܬܐ ܠܣܒܬܐ ܚܡܬܗ̇:ܠܐ ܢܬܩܒܠ ܕܫܢܐ ܕܡܠܝ̈ ܨܝܕ ܫܡ̈ܘܥܐ܀ܐܠܐ ܚܙܝܬܘܢ ܕܗܘܝ̈ ܗܠܝܢ ܟܠܗܝܢ ܕܐܡܪܬ:ܠܐ ܬܫܪܘܢܢܝ ܡܛܠ ܚܪܬܐ ܕܡܛܐ ܙܒܢܗ̇܀ܘܐܢ ܐܫܬܠܡ ܟܠ ܕܟܬܝ̈ܒܢ ܐܝܟ ܕܖ̈ܫܝܡܢ:250 ܙܒܢܐ ܗ̄ܘ ܡܟܝܠ ܢܩܪܘܒ ܥܠܡܐ ܨܝܕ ܫܘܠܡܐ܀ܠܡܢܐ ܦܬܝܚܝܢ ܬܖ̈ܥܐ ܠܚܘ̈ܒܐ ܡ̣ܢ ܟܠ ܓܒܝ̈ܢ:ܘܥܐܠ ܪܘܫܥܐ ܡ̣ܢ ܟܠ ܟܘ̈ܝܢ ܐܝܟ ܓܝܣܐ܀ܠܡܢܐ ܩܐܡ ܥܘܠܐ ܒܐܪܥܐ ܐܝܟ ܗܢܝܘܟܐ:ܘܡܕܒܪ ܠܗ̇ ܐܝܟ ܨܒܝܢܗ ܨܝܕ ܒܝ̈ܫܬܐ܀255 ܠܡܢ ܝܥܢܘܬܐ ܦܪܣܬ ܟܢ̈ܦܝܗ̇ ܥܠ ܟܠ ܬܓܡ̈ܝܢ:ܘܗܐ ܡܬܝܩܪܐ ܥܠܘܒܘܬܐ ܡ̣ܢ ܟܠ ܡܘ̈ܫܚܢ܀ܠܡܢܐ ܚܛܝܬܐ ܩܢܝܐ ܠܘܬܢ ܕܪܓܐ ܪܡܐ:ܘܓܠ̈ܝܢ ܐܦ̈ܝܗ̇ ܨܝܕ ܕܝܢ̈ܐ ܘܫܘܠܛܢܝ̈ܗܘܢ܀ܠܡܢ ܐܫܬܠܛ ܪܘܫܥܐ ܒܬܒܝܠ ܐܝܟ ܚܣܝܢܐ:260 ܘܝܬܒ ܟܒܫܗ̇ ܘܗܐ ܚܪܒ ܠܗ̇ ܥܠ ܥܡܘܖ̈ܝܗ̇܀ܠܡܢܐ ܚܛܗ̈ܐ ܪܟܒܘ ܒܐܖ̈ܥܬܢ ܚܕ ܒܬܪ ܚܕ:ܘܗܐ ܛܪܕܝܢ ܠܗ ܠܩܘܫܬܐ ܕܢܦܘܩ ܡ̣ܢ ܒܝܢܬܢ܀ܠܡܢ ܐܕܫܢܢ ܒܚܒܖ̈ܬܐ ܕܐܘܠܕ ܓܘܫܡܢ:ܘܗܐ ܪܒܝܐ ܒܢ ܚܠܕܝܬܐ ܡ̣ܢ ܨܒܝܢܢ܀265 ܠܡܢܐ ܪܚܡܢܢ ܐܖ̈ܥܢܝܬܐ ܡ̣ܢ ܕܫܡܝܐ:ܘܚܠܦ ܓܘܫܡܐ ܗܐ ܡܥܦܩܝܢܢ ܛܠܢܝܬܐ܀ܠܡܢ ܚܘ̈ܬܚܬܐ ܕܙܒܢܐ ܙܥܘܪܐ ܗܐ ܡܛܥܝܢ ܠܢ:ܕܐܝܟ ܕܒܚܠܡܐ ܢܒܘܙ ܥܘܬܪܐ ܕܠܐ ܡܬܩܕܐ܀ܠܡܢܐ ܒܨܦܬܐ ܕܥܠ ܝܬܝܪܐ ܡܬܩܠܝܢ ܚ̄ܢܢ:270 ܕܠܐ ܐܝܬ ܦܘܪܣܐ ܕܢܗܘܐ ܕܝܠܢ ܐܦ ܠܐ ܗܘ̇ ܕܐܝܬ܀ܠܡܢܐ ܟܠܗܝܢ ܗܐ ܡܣܬܥܖ̈ܢ ܡ̣ܢ ܨܝܕ ܟ̱ܠܢ:ܕܩܪܒܬ ܚܪܬܐ ܘܡܛ̣ܐ ܙܒܢܐ ܕܦܣܝ̈ܩܬܐ܀ܠܘ ܒܕ ܟܣܝܐ ܫܥܬܐ ܡܢܢ ܕܐܝܕܐ ܐܝܬܝܗ̇:ܢܬܦܠܓ ܠܢ ܥܠ ܡܐܬܝܬܐ ܕܠܐ ܩܪܝܒܐ܀275 ܐܝܟ ܓܢܒܐ ܒܠܠܝܐ ܐܬ̇ܐ ܝܘܡܗ ܕܒܪܐ:ܢܬܬܥܝܪ ܟܠ ܐ̄ܢܫ ܢܛܪ ܢܦܫܗ ܕܠܐ ܢܬܚܠܨ܀ܠܐ ܝܕܥܝܢ ܚ̄ܢܢ ܐܢ ܗܐ ܝܘܡܢ ܕܢܚ ܡܪܢ:ܐܘ ܐܢ ܠܡܚܪ ܙܐܚ ܢܐܬܐ ܒܫܘܒܚܗ ܪܒܐ܀ܠܐ ܡܣܒܪ ܠܗ̇ ܒܪܩܐ ܠܥܝܢܐ ܕܐܡܬܝ ܕܢܚ:280 ܕܡ̣ܢ ܓܘ ܫܠܝܐ ܢܦ̇ܩ ܛܐܣ ܘܡܣܪܕ ܠܗ̇܀ܠܘ ܐܝܙܓܕܐ ܡܫܕܪ ܩܘܕܡܘܗܝ ܒܪܩܐ ܠܐܪܥܐ:ܗܘܝܘ ܡܒܕܩ ܥܠ ܓܠܝܢܗ ܒܩܠܝܠܘܬܗ܀ܐܦ ܠܐ ܡܪܢ ܡܘܕܥ ܫܥܬܐ ܕܡܬܚܘܐ ܒܗ̇:ܕܠܡܐܬܝܬܗ ܠܐ ܐ̄ܢܫ ܢܚܘܪ ܒܢܛܘܖ̈ܬܐ܀285 ܐܢ ܠܡ ܐܡܪܝܢ ܕܗܪܟܐ ܗ̄ܘ ܡܫܝܚܐ ܠܐ ܐ̄ܢܫ ܢܫܪ:ܐܘ ܐܢ ܡܛܥܝܢ ܕܗܪ ܬܡܢ ܗ̄ܘ ܠܐ ܬܬܪܗܒܘܢ܀ܐܢ ܡܣܬܒܪ ܬܘܒ ܕܒܚܘܪܒܐ ܠܐ ܐ̄ܢܫ ܢܦܘܩ:ܘܐܢ ܡܫܬܡܥܐ ܕܒܓܘ ܫܝܢܐ ܠܐ ܬܫܬܓܫܘܢ܀ܠܐ ܡܫܬܥܒܕ ܢܐܚܕܝܘܗܝ ܩܠܐ ܕܗܪܟܐ ܘܠܗܠ:290 ܠܐ ܐ̄ܢܫ ܢܪܢܐ ܕܠܐܡܬܝ ܐܬ̇ܐ ܕܗܕܐ ܟܣܝܐ ܗ̣̄ܝ܀ܠܘ ܒܡܫܘܚܬܐ ܚܒܝܫ ܨܒܝܢܗ ܘܠܐ ܒܬܚܘܡܐ:ܘܠܐ ܬܚܝܬ ܣܟܐ ܣܝܡ ܫܘܠܛܢܗ ܝܕܝܥܐܝܬ܀ܠܘ ܐܠܗܐ ܐ̄ܚܪܢܐ ܐܝܬ ܠܗ ܕܚܣܝܢ ܡܢܗ:ܕܢܦܩܘܕ ܗ̄ܘܐ ܠܗ ܕܠܝܘܡܐ ܦܠܢ ܦܘܩ ܠܒܪܝܬܐ܀295 ܠܘ ܫܘܠܛܢܐ ܐܝܬ ܠܐ̄ܚܪܢܐ ܐܝܬܝܐ ܕܠܝܬܘܗܝ:ܕܢܚܪܘܩ ܙܒܢܐ ܘܢܣܝܡ ܘܥܕܐ ܠܗܝ̇ ܡܐܬܝܬܐ܀ܒܚܕ ܨܒܝܢܐ ܘܚܕ ܫܘܠܛܢܐ ܣܝܡ ܗܘ̇ ܝܘܡܐ:ܘܟܣܝܐ ܒܥܬܗ ܡ̣ܢ ܝܕ̈ܥܬܐ ܕܟܠ ܐܘܚ̈ܕܢܝܢ܀ܘܐܢ ܠܫܠܝܚ̈ܐ ܠܐ ܐܬܦܫܩ ܥܠ ܗܘ̇ ܝܘܡܐ:300 ܡܢܘ ܩܐܡ ܥܠ ܗܝ̇ ܫܥܬܐ ܕܕܢܚ ܡܪܢ܀ܪܡܙܢܐܝܬ ܐܬܒܕܩ ܗ̄ܘܐ ܥܠ ܡܐܬܝܬܐ:ܘܡ̣ܢ ܐܬ̈ܘܬܐ ܕܝܗ̄ܒ ܗ̄ܘܐ ܡܪܢ ܗܐ ܩܪܒܬ ܠܗ̇܀ܗܐ ܩܪܒܬ ܠܗ̇ ܚܪܬܐ ܕܩܝܛܐ ܢܗܘܐ ܡܟܝܠ: ܕܠܟܫܝܖ̈ܐ ܒܡܖ̈ܗܛܝܗܘܢ ܢܦܨܚ ܐܢܘܢ܀ 305 ܗܐ ܦܪܥܬ ܠܗ̇ ܬܬܐ ܕܙܒ̈ܢܐ ܡܬܝܕܥܝܢ ܒܗ̇: ܢܕܥ ܟܠ ܐ̄ܢܫ ܕܥܒܪ ܣܬܘܐ ܥܡ ܒܝ̈ܫܬܗ܀ܗܐ ܝܘܡ ܕܝܢܐ ܬܠܐ ܟܣܝܐܝܬ ܠܥܠ ܡ̣ܢ ܪܫܢ: ܘܠܐ ܐ̱ܢܫ ܝܕܥ̇ ܠܐܡܬܝ ܪܟܢ ܐܦ ܨܦܚ ܠܢ܀ ܗܐ ܫܘܠܡܐ ܒܬܪܥܐ ܩܐ̇ܡ ܘܡܣܟܐ ܠܢ: 310 ܘܠܐ ܝܕܥܝܢܢ ܒܐܝܕܐ ܫܥܬܐ ܠܘܬܢ ܥܐܠ܀ܗܐ ܡܫܬܝܬܐ ܒܩܠܝܠ ܩܠܝܠ ܩܦܣܬ ܙܥܪܬ: ܘܒܟܪܝܘܬܗ̇ ܓܕܕܗ ܕܥܠܡܐ ܡܬܒܕܩ ܒܗ̇܀ ܗܐ ܣܐܒܬ ܠܗ̇ ܐܪܥܐ ܒܢܘܓܪܐ ܘܒܨܪ ܚܝܠܗ̇: ܘܐܬܡܚܠܬ ܠܗ̇ ܘܡ̣ܢ ܥܘܢܕܢܐ ܠܐ ܪܚܝܩܐ܀315 ܠܐ ܐܝܬ ܡܬܚܐ ܡܢܢ ܘܠܗܠ ܨܝܕ ܫܘܠܡܐ:ܠܐ ܢܫܬܘܚܪ ܡ̣ܢ ܕܠܡܫܦܪ ܒܬܝܒܘܬܐ܀ܠܐ ܝܕܥܝܢ ܚ̄ܢܢ ܐܢ ܚܙܝܢ ܚ̄ܢܢ ܨܦܪܐ ܐ̄ܚܪܢܐ:ܘܠܐ ܡܦܣܝܢܢ ܐܢ ܗܐ ܝܘܡܢ ܫܘܠܡܐ ܗ̄ܘ̣ ܠܢ܀ܠܐ ܬܟܝܠܝܢܢ ܐܢ ܡ̣ܢ ܫܢܬܢ ܡܬܕܒܪܝܢ ܚ̄ܢܢ:320 ܘܠܐ ܐܢ ܙܘܥܐ ܒܥܓܠ ܐܬ̇ܐ ܥܠ ܥܝܪܘܬܢ܀ܢܣܒܪ ܐܚܝ̈ ܕܠܐ ܡܫܬܠܡ ܫܪܒܐ ܕܐܪܡܝܬ:ܥܕ ܡܕܪܟ ܠܢ ܗܘ̇ ܒܘܠܗܝܐ ܕܦܣܝ̈ܩܬܐ܀ܡܢ ܢܐܡܪ ܠܝ ܐܝܟ ܝܕܘܥܐ ܕܫܪܝܖ̈ܬܐ:ܕܡܫܠܡ ܐ̄ܢܐ ܡܐܡܪ ܚܫܐ ܕܡܩܦ ܠܝ ܒܗ܀325 ܡܢ̣ܘ ܝܕܥ ܐܢ ܐܡܘܪܐ ܡܫܠܡ ܫܪܒܗ:ܘܗܝܕܝܢ ܕܡܙܐ ܣܥܪ ܕܝܠܗ ܩܠܝܠܐܝܬ܀ܠܡܢ ܫܪܝܪܐ ܕܐܝܬ ܠܗ̇ ܡܬܚܐ ܬܘܒ ܠܒܪܝܬܐ:ܘܡܬܝܒܠܝܢ ܒܗ̇ ܕܖ̈ܐ ܐ̄ܚܖ̈ܢܐ ܗܐ ܡ̣ܢ ܗܫܐ܀ܡܢ ܐܫܬܠܛ ܥܠ ܟܣ̈ܝܬܐ ܕܢܒܕܩ ܠܢ:330 ܕܬܘܒ ܝܘ̈ܡܬܐ ܩܝܡܝܢ ܠܢ ܡܟܐ ܘܠܗܠ܀ܡܢܘ ܕܐܚܝܕ ܛܘ̈ܢܒܝ ܥܠܡܐ ܒܓܢ̄ܒܪܘܬܗ:ܢܐܬܐ ܢܚܘܐ ܕܠܐ ܩܦܠܝܢ ܠܗ ܠܡܫܟܢ ܛܘܗ̈ܡܐ܀ܠܡܢ ܐܬܝܗܒܬ ܡܘܫܚܬ ܙܒ̈ܢܐ ܘܕܘܒܖ̈ܝܗܘܢ:ܢܫܬܥܐ ܠܢ ܬܡܚܝܬ ܥܠܡܐ ܟܡܐ ܚܣܝܪܐ܀335 ܘܐܢ ܥܠ ܗܠܝܢ ܠܐ ܐ̄ܢܫ ܩܐܡ ܐܝܟܢ ܕܐܡܪܬ:ܩܢܛܐ ܗ̄ܘ̣ ܪܒܐ ܠܚܒܢܢ̈ܐ ܗܠܝܢ ܕܐܟܘܬܝ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Siehe! Der Tag des Gerichtes hängt verborgen über unseren Köpfen Und keiner weiß, wann er plötzlich über uns hineinstürzen wird. Siehe! Das Ende steht vor der Türe und wartet auf uns, 310 Doch wissen wir nicht die Stunde, da es eintreten wird.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Lo! The end has arrived, so that the summer will come after this,which will rejoice the diligents on their endeavors.305 Lo! The fig tree, with which the times are made known, sprouted,so that every man knows that the winter with its misfortunes passed away.Lo! The Day of (the Last) Judgment hangs hidden above our heads.And nobody knows, when it will descend and fall upon us.Lo! The end is waiting for us at the door.310 And we don't know, at what time it will enter onto us.Lo! The thread became less and was reduced little by little and with its brevity the thrum of the world is shown.Lo! The earth grew old for a long time and its power is diminished,it (i.e. the earth) became weak and is not far away from the death/departure.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

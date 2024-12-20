@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2259">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 29 [= Karatay 36]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 29 [= Karatay 36]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>147 fol.; Writing surface: parchment; Shelfmark: E. H. 29; Text: Q 1:1-Q 2:266; 7 lines per page; Dimensions: 183 x 123 mm; Script style: kūfī; Estimated date of production: 2nd (8th) to 3rd (9th) centuries [according to Karatay]. </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 14: "36 E. H. 29 Kur’an’dan bir parça Parşömen. 123mm boy ve 183mm eninde cönk biciminde 147 yaprak. Sahifede II-III. (VIII-IX) asır kûfîsiyle 140mm uzunl.[uğunda] 7 satır. Sonunda yaldızla yapılmış geçmeli iki levha. Kahve rengi deri cilt. Bu ciltte Kur’an’ın başından Baḳara (2) suresinin 266. ayetinin sonuna kadar olup لعلكم تتفكرون kelimesiyle bitiyor."</p>
+              <p>This can be translated as follows: "36 E. H. 29 A part of the Qurʾān Parchment. 147 junk shaped leaves of 123 mm height and 183 mm width. The text area written in Kufic script of 2nd-3rd(8th-9th) centuries [contains] 7 lines measuring 140 mm. There are two interlaced borders made with gilding at the end. Brown leather binding. This fragment is from the beginning of the Qurʾān until the end of Q 2:266 (Sūra al-Baqara), it ends with the words لعلكم تتفكرون."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706308" n="1">
+              <title type="numeric" key="001:001:001-002:266:035">
+                                    001:001:001-002:266:035
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 147
+                                    <dimensions unit="mm"><width>183</width><height>123</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Esra Gözeler</p>
+                <p>metadata: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_62015">
+                    </surface>
+  </facsimile>
+</TEI>

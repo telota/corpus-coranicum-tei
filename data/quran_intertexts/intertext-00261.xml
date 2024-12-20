@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 Chronik 29:10-20</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_261" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>261</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die koranische Wendung lah&amp;#363; (bzw. li-ll&amp;#257;hi) m&amp;#257; (30:26: man) f&amp;#299; s-samaw&amp;#257;ti wa-m&amp;#257; f&amp;#299; l-&amp;#702;ar&amp;#7693; hat eine genaue Entsprechung im biblischen k&amp;#333;l baš-š&amp;#257;mayim û-b&amp;#257;-&amp;#702;&amp;#257;re&amp;#7779; l&amp;#601;k&amp;#257;. aus 1. Chronik 29:11; allerdings ist die biblische Wendung in der zweiten Person formuliert, die koranische in der dritten. Die Satzkonstruktion im Targum steht aufgrund ihrer Verwendung des Relativpronomens m&amp;#257; der Koranstelle sogar noch näher: kol m&amp;#257; d&amp;#299; ba-šmayy&amp;#257; w-kol m&amp;#257; d&amp;#299; b-ar&amp;#703;&amp;#257; d&amp;#299;l&amp;#257;k.Die Wendung m&amp;#257; f&amp;#299; s-samaw&amp;#257;ti wa-m&amp;#257; f&amp;#299; l-&amp;#702;ar&amp;#7693; erscheint neben den obigen Stellen noch in zahlreichen weiteren Koranversen.In der Rezeptionsgeschichte der hebräischen Bibel ist hebr. š&amp;#257;mayim oft als Plural aufgefasst worden. Obgleich das hebräische Wort etymologisch genau arab. sam&amp;#257;&amp;#702; entspricht, mag der koranische Plural samaw&amp;#257;t trotzdem einer ähnlichen Tradition verpflichtet sein. Immerhin ist der Gebrauch des Plurals auch semantisch signifikant. Er findet sich, wenn von himmlischer Ordnung oder der Allmacht Gottes gesprochen wird. Geht es im Gegensatz dazu eher um natürliche Phänomene wie Regen o. Ä., findet sich der Singular sam&amp;#257;&amp;#702;.</summary>
+            <msItem>
+              <title>1 Chronik 29:10-20</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">4.-2. Jh. v. Chr. ?</origDate>
+              <origPlace>Jerusalem</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>&amp;#1493;&amp;#1463;&amp;#1497;&amp;#1456;&amp;#1489;&amp;#1464;&amp;#1512;&amp;#1462;&amp;#1498;&amp;#1456; &amp;#1491;&amp;#1468;&amp;#1464;&amp;#1493;&amp;#1460;&amp;#1497;&amp;#1491; &amp;#1488;&amp;#1462;&amp;#1514;&amp;#1470;&amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1500;&amp;#1456;&amp;#1506;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1461;&amp;#1497; &amp;#1499;&amp;#1468;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1463;&amp;#1511;&amp;#1468;&amp;#1464;&amp;#1492;&amp;#1464;&amp;#1500; &amp;#1493;&amp;#1463;&amp;#1497;&amp;#1468;&amp;#1465;&amp;#1488;&amp;#1502;&amp;#1462;&amp;#1512; &amp;#1491;&amp;#1468;&amp;#1464;&amp;#1493;&amp;#1460;&amp;#1497;&amp;#1491; &amp;#1489;&amp;#1468;&amp;#1464;&amp;#1512;&amp;#1493;&amp;#1468;&amp;#1498;&amp;#1456; &amp;#1488;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497; &amp;#1497;&amp;#1460;&amp;#1513;&amp;#1474;&amp;#1456;&amp;#1512;&amp;#1464;&amp;#1488;&amp;#1461;&amp;#1500; &amp;#1488;&amp;#1464;&amp;#1489;&amp;#1460;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1502;&amp;#1461;&amp;#1506;&amp;#1493;&amp;#1465;&amp;#1500;&amp;#1464;&amp;#1501; &amp;#1493;&amp;#1456;&amp;#1506;&amp;#1463;&amp;#1491;&amp;#1470;&amp;#1506;&amp;#1493;&amp;#1465;&amp;#1500;&amp;#1464;&amp;#1501; : &amp;#1500;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1492;&amp;#1463;&amp;#1490;&amp;#1468;&amp;#1456;&amp;#1491;&amp;#1467;&amp;#1500;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1490;&amp;#1468;&amp;#1456;&amp;#1489;&amp;#1493;&amp;#1468;&amp;#1512;&amp;#1464;&amp;#1492; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1460;&amp;#1508;&amp;#1456;&amp;#1488;&amp;#1462;&amp;#1512;&amp;#1462;&amp;#1514; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1504;&amp;#1468;&amp;#1461;&amp;#1510;&amp;#1463;&amp;#1495; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1492;&amp;#1493;&amp;#1465;&amp;#1491;  &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1470;&amp;#1499;&amp;#1465;&amp;#1500; &amp;#1489;&amp;#1468;&amp;#1463;&amp;#1513;&amp;#1468;&amp;#1473;&amp;#1464;&amp;#1502;&amp;#1463;&amp;#1497;&amp;#1460;&amp;#1501; &amp;#1493;&amp;#1468;&amp;#1489;&amp;#1464;&amp;#1488;&amp;#1464;&amp;#1512;&amp;#1462;&amp;#1509; &amp;#1500;&amp;#1456;&amp;#1498;&amp;#1464;  &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1492;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1463;&amp;#1502;&amp;#1456;&amp;#1500;&amp;#1464;&amp;#1499;&amp;#1464;&amp;#1492; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1514;&amp;#1456;&amp;#1504;&amp;#1463;&amp;#1513;&amp;#1468;&amp;#1474;&amp;#1461;&amp;#1488; &amp;#1500;&amp;#1456;&amp;#1499;&amp;#1465;&amp;#1500; &amp;#1500;&amp;#1456;&amp;#1512;&amp;#1465;&amp;#1488;&amp;#1513;&amp;#1473; : &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1464;&amp;#1506;&amp;#1465;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1512; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1464;&amp;#1489;&amp;#1493;&amp;#1465;&amp;#1491; &amp;#1502;&amp;#1460;&amp;#1500;&amp;#1468;&amp;#1456;&amp;#1508;&amp;#1464;&amp;#1504;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; &amp;#1493;&amp;#1456;&amp;#1488;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1502;&amp;#1493;&amp;#1465;&amp;#1513;&amp;#1473;&amp;#1461;&amp;#1500; &amp;#1489;&amp;#1468;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1465;&amp;#1500; &amp;#1493;&amp;#1468;&amp;#1489;&amp;#1456;&amp;#1497;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1499;&amp;#1468;&amp;#1465;&amp;#1495;&amp;#1463; &amp;#1493;&amp;#1468;&amp;#1490;&amp;#1456;&amp;#1489;&amp;#1493;&amp;#1468;&amp;#1512;&amp;#1464;&amp;#1492; &amp;#1493;&amp;#1468;&amp;#1489;&amp;#1456;&amp;#1497;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1500;&amp;#1456;&amp;#1490;&amp;#1463;&amp;#1491;&amp;#1468;&amp;#1461;&amp;#1500; &amp;#1493;&amp;#1468;&amp;#1500;&amp;#1456;&amp;#1495;&amp;#1463;&amp;#1494;&amp;#1468;&amp;#1461;&amp;#1511; &amp;#1500;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1465;&amp;#1500; : &amp;#1493;&amp;#1456;&amp;#1506;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1502;&amp;#1493;&amp;#1465;&amp;#1491;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1488;&amp;#1458;&amp;#1504;&amp;#1463;&amp;#1495;&amp;#1456;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1464;&amp;#1498;&amp;#1456; &amp;#1493;&amp;#1468;&amp;#1502;&amp;#1456;&amp;#1492;&amp;#1463;&amp;#1500;&amp;#1456;&amp;#1500;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1500;&amp;#1456;&amp;#1513;&amp;#1473;&amp;#1461;&amp;#1501; &amp;#1514;&amp;#1468;&amp;#1460;&amp;#1508;&amp;#1456;&amp;#1488;&amp;#1463;&amp;#1512;&amp;#1456;&amp;#1514;&amp;#1468;&amp;#1462;&amp;#1498;&amp;#1464; : &amp;#1493;&amp;#1456;&amp;#1499;&amp;#1460;&amp;#1497; &amp;#1502;&amp;#1460;&amp;#1497; &amp;#1488;&amp;#1458;&amp;#1504;&amp;#1460;&amp;#1497; &amp;#1493;&amp;#1468;&amp;#1502;&amp;#1460;&amp;#1497; &amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1470;&amp;#1504;&amp;#1463;&amp;#1506;&amp;#1456;&amp;#1510;&amp;#1465;&amp;#1512; &amp;#1499;&amp;#1468;&amp;#1465;&amp;#1495;&amp;#1463; &amp;#1500;&amp;#1456;&amp;#1492;&amp;#1460;&amp;#1514;&amp;#1456;&amp;#1504;&amp;#1463;&amp;#1491;&amp;#1468;&amp;#1461;&amp;#1489; &amp;#1499;&amp;#1468;&amp;#1464;&amp;#1494;&amp;#1465;&amp;#1488;&amp;#1514; &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1470;&amp;#1502;&amp;#1460;&amp;#1502;&amp;#1468;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1492;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1465;&amp;#1500; &amp;#1493;&amp;#1468;&amp;#1502;&amp;#1460;&amp;#1497;&amp;#1468;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1504;&amp;#1464;&amp;#1514;&amp;#1463;&amp;#1504;&amp;#1468;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1464;&amp;#1498;&amp;#1456; : &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1470;&amp;#1490;&amp;#1461;&amp;#1512;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1488;&amp;#1458;&amp;#1504;&amp;#1463;&amp;#1495;&amp;#1456;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1456;&amp;#1508;&amp;#1464;&amp;#1504;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; &amp;#1493;&amp;#1456;&amp;#1514;&amp;#1493;&amp;#1465;&amp;#1513;&amp;#1473;&amp;#1464;&amp;#1489;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1499;&amp;#1468;&amp;#1456;&amp;#1499;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1488;&amp;#1458;&amp;#1489;&amp;#1465;&amp;#1514;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1499;&amp;#1468;&amp;#1463;&amp;#1510;&amp;#1468;&amp;#1461;&amp;#1500; &amp;#1497;&amp;#1464;&amp;#1502;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1506;&amp;#1463;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1464;&amp;#1488;&amp;#1464;&amp;#1512;&amp;#1462;&amp;#1509; &amp;#1493;&amp;#1456;&amp;#1488;&amp;#1461;&amp;#1497;&amp;#1503; &amp;#1502;&amp;#1460;&amp;#1511;&amp;#1456;&amp;#1493;&amp;#1462;&amp;#1492; : &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1499;&amp;#1465;&amp;#1500; &amp;#1492;&amp;#1462;&amp;#1492;&amp;#1464;&amp;#1502;&amp;#1493;&amp;#1465;&amp;#1503; &amp;#1492;&amp;#1463;&amp;#1494;&amp;#1468;&amp;#1462;&amp;#1492; &amp;#1488;&amp;#1458;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1512; &amp;#1492;&amp;#1458;&amp;#1499;&amp;#1460;&amp;#1497;&amp;#1504;&amp;#1465;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1460;&amp;#1489;&amp;#1456;&amp;#1504;&amp;#1493;&amp;#1465;&amp;#1514;&amp;#1470;&amp;#1500;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1489;&amp;#1463;&amp;#1497;&amp;#1460;&amp;#1514; &amp;#1500;&amp;#1456;&amp;#1513;&amp;#1473;&amp;#1461;&amp;#1501; &amp;#1511;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1498;&amp;#1464; &amp;#1502;&amp;#1460;&amp;#1497;&amp;#1468;&amp;#1464;&amp;#1491;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1492;&amp;#1460;&amp;#1497;&amp;#1488; &amp;#1493;&amp;#1468;&amp;#1500;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1492;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1465;&amp;#1500; : &amp;#1493;&amp;#1456;&amp;#1497;&amp;#1464;&amp;#1491;&amp;#1463;&amp;#1506;&amp;#1456;&amp;#1514;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1463;&amp;#1497; &amp;#1499;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1488;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1489;&amp;#1468;&amp;#1465;&amp;#1495;&amp;#1461;&amp;#1503; &amp;#1500;&amp;#1461;&amp;#1489;&amp;#1464;&amp;#1489; &amp;#1493;&amp;#1468;&amp;#1502;&amp;#1461;&amp;#1497;&amp;#1513;&amp;#1473;&amp;#1464;&amp;#1512;&amp;#1460;&amp;#1497;&amp;#1501; &amp;#1514;&amp;#1468;&amp;#1460;&amp;#1512;&amp;#1456;&amp;#1510;&amp;#1462;&amp;#1492; &amp;#1488;&amp;#1458;&amp;#1504;&amp;#1460;&amp;#1497; &amp;#1489;&amp;#1468;&amp;#1456;&amp;#1497;&amp;#1465;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1512; &amp;#1500;&amp;#1456;&amp;#1489;&amp;#1464;&amp;#1489;&amp;#1460;&amp;#1497; &amp;#1492;&amp;#1460;&amp;#1514;&amp;#1456;&amp;#1504;&amp;#1463;&amp;#1491;&amp;#1468;&amp;#1463;&amp;#1489;&amp;#1456;&amp;#1514;&amp;#1468;&amp;#1460;&amp;#1497; &amp;#1499;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1488;&amp;#1461;&amp;#1500;&amp;#1468;&amp;#1462;&amp;#1492; &amp;#1493;&amp;#1456;&amp;#1506;&amp;#1463;&amp;#1514;&amp;#1468;&amp;#1464;&amp;#1492; &amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1456;&amp;#1498;&amp;#1464; &amp;#1492;&amp;#1463;&amp;#1504;&amp;#1468;&amp;#1460;&amp;#1502;&amp;#1456;&amp;#1510;&amp;#1456;&amp;#1488;&amp;#1493;&amp;#1468;&amp;#1470;&amp;#1508;&amp;#1465;&amp;#1492; &amp;#1512;&amp;#1464;&amp;#1488;&amp;#1460;&amp;#1497;&amp;#1514;&amp;#1460;&amp;#1497; &amp;#1489;&amp;#1456;&amp;#1513;&amp;#1474;&amp;#1460;&amp;#1502;&amp;#1456;&amp;#1495;&amp;#1464;&amp;#1492; &amp;#1500;&amp;#1456;&amp;#1492;&amp;#1460;&amp;#1514;&amp;#1456;&amp;#1504;&amp;#1463;&amp;#1491;&amp;#1468;&amp;#1462;&amp;#1489;&amp;#1470;&amp;#1500;&amp;#1464;&amp;#1498;&amp;#1456; : &amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497; &amp;#1488;&amp;#1463;&amp;#1489;&amp;#1456;&amp;#1512;&amp;#1464;&amp;#1492;&amp;#1464;&amp;#1501; &amp;#1497;&amp;#1460;&amp;#1510;&amp;#1456;&amp;#1495;&amp;#1464;&amp;#1511; &amp;#1493;&amp;#1456;&amp;#1497;&amp;#1460;&amp;#1513;&amp;#1474;&amp;#1456;&amp;#1512;&amp;#1464;&amp;#1488;&amp;#1461;&amp;#1500; &amp;#1488;&amp;#1458;&amp;#1489;&amp;#1465;&amp;#1514;&amp;#1461;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1468; &amp;#1513;&amp;#1473;&amp;#1459;&amp;#1502;&amp;#1456;&amp;#1512;&amp;#1464;&amp;#1492;&amp;#1470;&amp;#1494;&amp;#1468;&amp;#1465;&amp;#1488;&amp;#1514; &amp;#1500;&amp;#1456;&amp;#1506;&amp;#1493;&amp;#1465;&amp;#1500;&amp;#1464;&amp;#1501; &amp;#1500;&amp;#1456;&amp;#1497;&amp;#1461;&amp;#1510;&amp;#1462;&amp;#1512; &amp;#1502;&amp;#1463;&amp;#1495;&amp;#1456;&amp;#1513;&amp;#1473;&amp;#1456;&amp;#1489;&amp;#1493;&amp;#1465;&amp;#1514; &amp;#1500;&amp;#1456;&amp;#1489;&amp;#1463;&amp;#1489; &amp;#1506;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1462;&amp;#1498;&amp;#1464; &amp;#1493;&amp;#1456;&amp;#1492;&amp;#1464;&amp;#1499;&amp;#1461;&amp;#1503; &amp;#1500;&amp;#1456;&amp;#1489;&amp;#1464;&amp;#1489;&amp;#1464;&amp;#1501; &amp;#1488;&amp;#1461;&amp;#1500;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; : &amp;#1493;&amp;#1456;&amp;#1500;&amp;#1460;&amp;#1513;&amp;#1473;&amp;#1456;&amp;#1500;&amp;#1465;&amp;#1502;&amp;#1465;&amp;#1492; &amp;#1489;&amp;#1456;&amp;#1504;&amp;#1460;&amp;#1497; &amp;#1514;&amp;#1468;&amp;#1461;&amp;#1503; &amp;#1500;&amp;#1461;&amp;#1489;&amp;#1464;&amp;#1489; &amp;#1513;&amp;#1473;&amp;#1464;&amp;#1500;&amp;#1461;&amp;#1501; &amp;#1500;&amp;#1460;&amp;#1513;&amp;#1473;&amp;#1456;&amp;#1502;&amp;#1493;&amp;#1465;&amp;#1512; &amp;#1502;&amp;#1460;&amp;#1510;&amp;#1456;&amp;#1493;&amp;#1465;&amp;#1514;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; &amp;#1506;&amp;#1461;&amp;#1491;&amp;#1456;&amp;#1493;&amp;#1465;&amp;#1514;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; &amp;#1493;&amp;#1456;&amp;#1495;&amp;#1467;&amp;#1511;&amp;#1468;&amp;#1462;&amp;#1497;&amp;#1498;&amp;#1464; &amp;#1493;&amp;#1456;&amp;#1500;&amp;#1463;&amp;#1506;&amp;#1458;&amp;#1513;&amp;#1474;&amp;#1493;&amp;#1465;&amp;#1514; &amp;#1492;&amp;#1463;&amp;#1499;&amp;#1468;&amp;#1465;&amp;#1500; &amp;#1493;&amp;#1456;&amp;#1500;&amp;#1460;&amp;#1489;&amp;#1456;&amp;#1504;&amp;#1493;&amp;#1465;&amp;#1514; &amp;#1492;&amp;#1463;&amp;#1489;&amp;#1468;&amp;#1460;&amp;#1497;&amp;#1512;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1458;&amp;#1513;&amp;#1473;&amp;#1462;&amp;#1512;&amp;#1470;&amp;#1492;&amp;#1458;&amp;#1499;&amp;#1460;&amp;#1497;&amp;#1504;&amp;#1493;&amp;#1465;&amp;#1514;&amp;#1460;&amp;#1497; : &amp;#1493;&amp;#1463;&amp;#1497;&amp;#1468;&amp;#1465;&amp;#1488;&amp;#1502;&amp;#1462;&amp;#1512; &amp;#1491;&amp;#1468;&amp;#1464;&amp;#1493;&amp;#1460;&amp;#1497;&amp;#1491; &amp;#1500;&amp;#1456;&amp;#1499;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1463;&amp;#1511;&amp;#1468;&amp;#1464;&amp;#1492;&amp;#1464;&amp;#1500; &amp;#1489;&amp;#1468;&amp;#1464;&amp;#1512;&amp;#1456;&amp;#1499;&amp;#1493;&amp;#1468;&amp;#1470;&amp;#1504;&amp;#1464;&amp;#1488; &amp;#1488;&amp;#1462;&amp;#1514;&amp;#1470;&amp;#1497;&amp;#1456;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497;&amp;#1499;&amp;#1462;&amp;#1501; &amp;#1493;&amp;#1463;&amp;#1497;&amp;#1456;&amp;#1489;&amp;#1464;&amp;#1512;&amp;#1458;&amp;#1499;&amp;#1493;&amp;#1468; &amp;#1499;&amp;#1464;&amp;#1500;&amp;#1470;&amp;#1492;&amp;#1463;&amp;#1511;&amp;#1468;&amp;#1464;&amp;#1492;&amp;#1464;&amp;#1500; &amp;#1500;&amp;#1463;&amp;#1497;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1488;&amp;#1457;&amp;#1500;&amp;#1465;&amp;#1492;&amp;#1461;&amp;#1497; &amp;#1488;&amp;#1458;&amp;#1489;&amp;#1465;&amp;#1514;&amp;#1461;&amp;#1497;&amp;#1492;&amp;#1462;&amp;#1501; &amp;#1493;&amp;#1463;&amp;#1497;&amp;#1468;&amp;#1460;&amp;#1511;&amp;#1468;&amp;#1456;&amp;#1491;&amp;#1493;&amp;#1468; &amp;#1493;&amp;#1463;&amp;#1497;&amp;#1468;&amp;#1460;&amp;#1513;&amp;#1473;&amp;#1456;&amp;#1514;&amp;#1468;&amp;#1463;&amp;#1495;&amp;#1458;&amp;#1493;&amp;#1493;&amp;#1468; &amp;#1500;&amp;#1463;&amp;#1497;&amp;#1492;&amp;#1493;&amp;#1464;&amp;#1492; &amp;#1493;&amp;#1456;&amp;#1500;&amp;#1463;&amp;#1502;&amp;#1468;&amp;#1462;&amp;#1500;&amp;#1462;&amp;#1498;&amp;#1456; :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>10 Da pries David den Herrn vor der ganzen Versammlung und rief: Gepriesen bist du, Herr, Gott unseres Vaters Israel, von Ewigkeit zu Ewigkeit. 11 Dein, Herr, sind Größe und Kraft, Ruhm und Glanz und Hoheit; dein ist alles im Himmel und auf Erden. Herr, dein ist das Königtum. Du erhebst dich als Haupt über alles. 12 Reichtum und Ehre kommen von dir; du bist der Herrscher über das All. In deiner Hand liegen Kraft und Stärke; von deiner Hand kommt alle Größe und Macht. 13 Darum danken wir dir, unser Gott, und rühmen deinen herrlichen Namen. 14 Doch wer bin ich und was ist mein Volk, dass wir die Kraft besaßen, diese Gaben zu spenden? Von dir kommt ja alles; und was wir dir gegeben haben, stammt aus deiner Hand. 15 Denn wir sind nur Gäste bei dir, Fremdlinge, wie alle unsere Väter. Wie ein Schatten sind unsere Tage auf Erden und ohne Hoffnung. 16 Herr, unser Gott, diese ganze Fülle, die wir bereitgestellt haben, um dir, deinem heiligen Namen, ein Haus zu bauen, kam aus deiner Hand; dir gehört alles. 17 Ich weiß, mein Gott, dass du die Herzen prüfst und an Aufrichtigkeit Gefallen hast. Mit aufrichtigem Herzen habe ich dies alles gegeben und ich habe mit Freuden gesehen, wie auch dein Volk, das sich hier eingefunden hat, dir willig spendet. 18 Herr, Gott unserer Väter Abraham, Isaak und Israel, erhalte diese Gesinnung für immer im Herzen deines Volkes! Lenke sein Herz auf dich! 19 Gib auch meinem Sohn Salomo ein ungeteiltes Herz, damit er auf deine Gebote, Anordnungen und Gesetze achtet und alles tut, um den Bau zu errichten, den ich vorbereitet habe. 20 Dann befahl David der ganzen Versammlung: Preist den Herrn, euren Gott! Und die ganze Versammlung lobte den Herrn, den Gott ihrer Väter. Sie verneigten sich und warfen sich nieder vor dem Herrn und dem König.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

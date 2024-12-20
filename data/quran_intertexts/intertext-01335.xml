@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri Rabba, Naso, 13,16 (zu Numeri 7,19)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1335" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1335</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Annahme, dass Schriftverse mehr als eine Bedeutung haben, scheint scheint sich bereits früh in der exegetischen Literatur des Judentums durchgesetzt zu haben (vgl. A. Neuwirth, 2010: 531). Die Idee von der Vielstimmigkeit in Bezug auf das jüdische Recht ist bereits im babylonischen Talmud (vgl. bEruvin 13b) belegt: "Für drei Jahre stritten das Haus Shammai und das Haus Hillel. Bet Shammai pflegte zu sagen: 'Die Halakhah stimmt mit unserer Ansicht überein'. Beit Hillel sprach dagegen an: 'Die Halacha stimmt mit unserer Ansicht überein'. Da sprach die Bat Qol, eine himmlische Stimme: 'Diese und diese sind die Worte des lebendigen Gottes'". Die Vielfältigkeit des Schriftsinns und die Meinungspluralität im talmudischen Schriftum behandeln ausführlich  David Stern, 1988, Daniel Boyarin, 2002 sowie Steven Fraade, 2007.Die Vorstellung, dass die Schrift verschiedene "Erscheinungsformen" oder "Gesichter" (hebr. panim) hat und gemäß ihren unterschiedlichen Aspekten verstanden bzw. ausgelegt werden muss, ist im Midrasch Rabba zu Numeri belegt, wo es heißt, dass "die Tora 70 Gesichter besitzt" (hebr. šivʿim panim la-tora). Der früheste Beleg des Ausdrucks šivʿim panim la-tora ("70 Gesichter besitzt die Tora") findet sich im Midrasch Numeri Rabba (Paraschat Naso XIII,16), der eine Passage aus Numeri 7,19 erklärt: "Er brachte als seine Opfergabe dar: eine silberne Schüssel, 130 [Schekel] schwer; ein silbernes Sprengbecken, 70 Schekel schwer nach dem Schekel des Heiligtums, beide voll Feinmehl, mit Öl gemengt, als Speisopfer; [...]". Die Tora wird in diesem Abschnitt so wie in der rabbinischen Theologie im Allgemeinen üblich (vgl. z.B. Midrasch Hohelied Rabba I,II,5 bzw. I,II,8) mit Wein verglichen. Das hebräische Wort für "Wein" yayin – geschrieben mit den drei Buchstaben yod-yod-nun – bedeutet nach der Gematria (der Deutung hebräischer Wörter durch den Zahlenwert der vorkommenden Buchstaben), "siebzig" (y=10+y=10+n=50) und verweist auf das Geheimnis, hebr. sod (s=60+w=6+d=4), das in den Worten der Torah enthalten ist, d. h. hier auf eine große (nicht näher zu bestimmende) Anzahl von Verständnismöglichkeiten. Der babylonische Talmud betrachtet überdies die gesamte Tora – einschließlich der Buchstabenverzierungen (hebr. kǝtarim bzw. tagin, Sg. taga, "[Buchstaben-]kronen") – als Bedeutungsbestandteile, aus dem neue Verständnismöglichkeiten abgeleitet werden können. In der berühmten Stelle in bT Menaḥot 29b wird beschrieben, wie Gott die Krönchen und Kränze der Buchstaben Šin, ʿAyin, Ṭet, Nun, Zayin, Gimel und Ṣade, windet: "R. Jehuda sagte im Namen Rabba: Als Moses in die Höhe aufstieg, traf er den Heiligen, Gepriesen Sei Er, sitzend und Kränze für die Buchstaben windend. Da sprach er zu Ihm: Herr der Welt, wer hält Dich zurück? Er erwiderte: Es ist ein Mann, der am Ende von vielen Generationen sein wird, namens Aqiva ben Joseph, er wird dereinst über jedes Häkchen (der Buchstaben) eine Unzahl an Lehren vortragen. Da sprach er zu ihm: Herr der Welt, zeige ihn mir. Er erwiderte: Dreh dich um. Da kehrte er um und setzte sich hinter die achte Reihe; er verstand aber ihre Unterhaltung nicht und wurde darüber bestürzt. Alsdann gelangte er zu einer Sache, und seine Schüler fragten ihn, woher er dies wisse; der erwiederte er ihnen, dies sei eine dem Mose am Sinai überlieferte Lehre. Da wurde er beruhigt. Hierauf kehrte er um, trat vor den Heiligen, Gepriesen Sei Er, und sprach zu ihm: Herr der Welt, Du hast einen solchen Mann, und verleihst die Gesetzeslehre durch mich!? Er sprach: Schweig, so kam es mir in den Sinn." Aus dem Bericht lässt sich ableiten, dass die Lehre kontinuierlicher Fortentwicklung ausgesetzt ist, so dass selbst Mose, dem sie ursprünglich gegeben wurde, sie nicht wiedererkennen konnte. Damit entfaltet die Lehre (hebr. tora) durch die Deutung durch den Menschen ihr volles Potential und entwickelt eine schier unendliche Anzahl an Auslegungstradition (vgl. N. Levine, 2002). Weitere Belege für die Vorstellung der Mehrdeutigkeit der Schrift finden sich in bT Sanhedrin 34a, bT Shabbat 88b, bT Eruvin 21b und bT Menaḥot 29b. Der mehrdeutige Schriftsinn hat sich sowohl im rabbinischen als Judentum als auch im Christentum niedergeschlagen (vgl. dazu für die jüdische Tradition K.E. Grözinger, 2005: 206-209, 594f. und für die christliche Tradition H. de Lubac, 1999). Hatte Origines (185-254) noch im 3. Jahrhundert die Schrift nach dem dreifachen Schriftsinn erklärt, so spricht die Auslegung in der Folgezeit von weiteren Dimensionen. Johannes Cassianus (360-435) spricht von einem vierfacher Schriftsinn (vgl. Collationes patrium 14,8), der in einem lateinischen Merkvers aus dem 13. Jahrhundert folgendermaßen zusammengefasst ist: Littera gesta docet, quid credas allegoria, moralis quid agas, quo tendas anagogia, "Der Buchstabe lehrt die Ereignisse; was du zu glauben hast, die Allegorie; der moralische Sinn, was du zu tun hast; wohin du streben sollst, die Anagogie" (zitiert nach U. Kuther, 2000: 124; zum vierfachen Schriftsinn im Judentum vgl. auch D. Krochmalnik, 2009).Q 3:7 ist von den den Gelehrten sehr verschieden gedeutet worden, wie Leah Kinberg dargestellt hat (vgl. L. Kinberg, 1988). Die beiden Worte muḥkam (von der Wurzel &amp;lt;ḤKM&amp;gt; in IVten Verbalstamm mit der Bedeutung "etwas stark machen", "etwas klar erkennbar machen", vgl. A. Ambros, 2004: 76) und mutašābih (Partizip der Wurzel &amp;lt;Š-B-H&amp;gt; im VIten Verbalstamm, mit der Bedeutung "einander gleichen", vgl. A. Ambros, 2004: 145), die als Gegensatzpaar verstanden werden müssen (vgl. E.M. Badawi/M.A Haleem, 2008: 228f.), werden von den islamischen Exegeten als "eindeutig, feststehend" (muḥkam) und "mehrdeutig, allegorisch, symbolisch" (mutašābih) verstanden.  Einen anderen Zugang zu diesen Begriffen bieten die aristotelischen Kategorien der Rhetorik : muḥkam entspräche bei dieser Sichtweise dem griechischen Begriff pithanós oder peistikós ("überzeugend, überredend, überzeugungskräftig", vgl. H.G. Liddell/R. Scott, 1940/1996: 1403), während mutašābih der Kategorie amphiboléos ("mehrdeutig, strittig, zweifelhaft, ungewiss") entspräche (vgl. H.G. Liddell/R. Scott, 1940/1996: 90; siehe zur inhaltlichen Interpretation A. Neuwirth, 2010: 528-532. Vgl. zur Ambiguität als Prinzip der arabisch-islamischen Kultur auch Th. Bauer, 2011. Auch die frühe Koranexegese (tafsīr) kennt die Vieldeutigkeit von Wörtern bzw. Versen. Diese werden als Gesichter (wuğūh) bzw. als Aspekte (ašbāh) des Koran gekennzeichnet – manchmal auch naẓāʾir – dabei erscheinen sie austauschbar. Eines der ältesten Handbücher zu dieser an der Semantik orientierten Disziplin der klassischen Koranwissenschaften stammt von Muqātil b. Sulaymān (150/767) und trägt den Titel al-Wuğūh wa-l-naẓāʾir fī l-qurʾān, andere vergleichbare Werke heißen al-Ašbāh wa-l-naẓāʾir fī l-qurʾān usw. Die maßgebliche Edition von Muqātils Handbuch wurde von ʿAbd Allāh Maḥmūd Šaḥātā im Jahre 1975 (Kairo) herausgegeben (vgl. zu diesem Genre innerhalb der traditionellen Koranwissenschaften M.A. Sattar, 1978; siehe zu dieser Art von philologisch-lexikographischer Auslegung auch Cl. Gilliot, 1990: 118-120 und P. Nwiya, 1970: 109-116). Bereits Ignaz Goldziher hat zurecht darauf hingewiesen, dass islamische Theologen gerade in der foecunditas sensus, der "Fruchtbarkeit des (Text-)sinns", einen Vorzug des heiligen Buches erkannten: der Qurʾān ist der islamischen Theologie zufolge ḏū wuğūh, "vielgesichtig" bzw. "vieldeutig" (vgl. für Beispiele Ğalāl al-Dīn al-Suyūṭī oder Badr al-Dīn al-Zarkašī [al-Suyūṭī, al-Itqān fī ʿulūm al-qurʾān, vol II, ed. Muḥammad ʾAbū l-Faḍl ʾIbrāhīm, 173 sowie al-Zarkašī, al-Burhān fī ʿulūm al-qurʾān, ed. Muḥammad ʾAbū l-Faḍl ʾIbrāhīm, vol. II, S. 69]). Das bedeutet letztlich, dass aus dem Text viele, möglicherweise heute noch nicht abzusehende Bedeutungen hergeleitet werden können (vgl. I. Goldziher, 1920: 84f. und dazu M. Ayoub, 1984: 19ff.).Numeri Rabba (Bamidbar Rabba) ist ein später rabbinischer Homilien-Midrasch zu dem biblischen Buch Numeri – früheste vollständige Manuskripte datieren nicht früher als um das fünfzehnte Jahrhundert n. Chr. Der vermutlich in Palästina entstandene Midrasch besteht aus zwei verschiedenartigen Teilen, nämlich aus (a) haggadischen Bearbeitungen von Numeri 1-7 und (b) aus einem homiletischen Midrasch zu Numeri 8-36. Es wird angenommen, dass das Material erst im elften Jahrhundert n. Chr. durch Moše ha-Daršan oder Mitglieder seiner Schule zusammengetragen wurde, wobei Einzeltraditionen viel älteren Datums sein können.Textedition: Arieh Mirkin, Midraš Rabba, 11 Bde., Tel Aviv: Yavneh Press, 1966-1967 [BemR=Bde. IX-X]; Übersetzung: (Deutsch) August Wünsche, Bibliotheca Rabbinica. Eine Sammlung alter Midraschim. Zum ersten Male ins Deutsche übertragen, 5 Bde., Leipzig: Otto Schulze, 1880-1885 [Nachdruck Hildesheim 1967; BemR=Bd. IV]; (Englisch) Harry Freedman, Maurice Simon (eds.), Midrash Rabba: Translated into English, 10 Bde., London: Soncino Press, 1939, 31961 [BemR= Bd. IV, übersetzt von J.J. Slotki]; Literatur: Günter Stemberger, Einleitung in Talmud und Midrasch. Neunte, vollständig neubearbeitete Auflage, München: C.H. Beck, 2011, S. 343-344; vgl. auch Günter Stemberger, Midrasch: Vom Umgang der Rabbinen mit der Bibel: Einführung, Texte, Erläuterungen, München: C.H. Beck, 1989.</summary>
+            <msItem>
+              <title>Numeri Rabba, Naso, 13,16 (zu Numeri 7,19)</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">11. bzw. 12. Jahrhundert (finale Kompilation)</origDate>
+              <origPlace>Südfrankreich (finale Kompilation)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Mosheh Aryeh Mirqin, Ba-Midbar Rabba, Tel Aviv: Yavneh, 1973 [= Midrash Rabba, Bd. X-XI, Tel Aviv 1956-1957]</bibl>
+              <bibl type="literatur">Ambros, Arne A.: A Concise Dictionary of Koranic Arabic. Reichert, Wiesbaden 2004.</bibl>
+              <bibl type="literatur">Ayoub, Mahmoud: The Qur&amp;#x2019;an and Its Interpreters. State University of New York Press, Albany 1984.</bibl>
+              <bibl type="literatur">Badawi, Elsaid M.: Arabic-English Dictionary of Qur&amp;#x2019;anic Usage. Brill, Leiden 2008.</bibl>
+              <bibl type="literatur">Bauer, Thomas: Die Kultur der Ambiguit&amp;#xE4;t. Eine andere Geschichte des Islams. Berlin Verl. der Weltreligionen 2011, 2011.</bibl>
+              <bibl type="literatur">Boyarin, Daniel: &amp;#x201E;Shattering the Logos - or, The Talmuds and the Genealogy of Indeterminacy&amp;#x201C;. In: The Talmud Yerushalmi and Gaeco-Roman Culture. Mohr Siebeck, T&amp;#xFC;bingen 2002, S. 273&amp;#x2013;301. Text and Studies in Ancient Judaism.</bibl>
+              <bibl type="literatur">Fraade, Steven D.: &amp;#x201E;Rabbinic Polysemy and Pluralism Revisited: Between Praxis and Thematization&amp;#x201C;. In: AJS Review 31 (2007), S. 1&amp;#x2013;40.</bibl>
+              <bibl type="literatur">Gilliot, Claude: Ex&amp;#xE9;g&amp;#xE8;se, langue, et th&amp;#xE9;ologie en Islam. L&amp;#x2019;ex&amp;#xE9;g&amp;#xE8;se de &amp;#x1E6C;abar&amp;#x12B; (m. 310/923). Libr. J. Vrin, Paris 1990.</bibl>
+              <bibl type="literatur">Goldziher, Ignaz: Richtungen der islamischen Koranauslegung. An der Universit&amp;#xE4;t Upsala gehaltene Olaus-Petri-Vorlesungen. Brill, Leiden 1920.</bibl>
+              <bibl type="literatur">Gr&amp;#xF6;zinger, Karl E.: J&amp;#xFC;disches Denken. Theologie - Philosophie - Mystik, Bd. 2: Von der mittelalterlichen Kabbala zum Hasidismus. Campus Verlag, Darmstadt, New York 2005.</bibl>
+              <bibl type="literatur">Kinberg, Leah: &amp;#x201E;Muhkamat and Mutashabihat (Koran 3/7): Implications of a Koranic Pair of Terms in Medieval Exegesis&amp;#x201C;. In: Arabica 35 (1988), S. 143&amp;#x2013;172.</bibl>
+              <bibl type="literatur">Krochmalnik, Daniel: &amp;#x201E;PaRDeS: Die Lehre vom vierfachen Schriftsinn im Judentum und Christentum&amp;#x201C;. In: Sprache und Religion. Darmstadt 2009, S. 61&amp;#x2013;82.</bibl>
+              <bibl type="literatur">Kuther, Ulrich: Kirchliche Tradition als geistliche Schriftauslegung. Zum theologischen Schriftgebrauch in Henri de Lubacs Die Kirche. Eine Betrachtung. LIT Verlag, M&amp;#xFC;nster, Hamburg, London 2000.</bibl>
+              <bibl type="literatur">Levine, Nachman: &amp;#x201E;Reading Crowned Letters and Semiotic Silences in Menachot 29b&amp;#x201C;. In: JJS 53 (2002), S. 35&amp;#x2013;48.</bibl>
+              <bibl type="literatur">Liddell, Henry G. &amp;amp; Scott, Robert: A Greek-English Lexicon. Carendon Press, Oxford 1843.</bibl>
+              <bibl type="literatur">Lubac, Henri de: Typologie, Allegorie, geistiger Sinn - Studien zur Geschichte der christlichen Schriftauslegung. Johannes Verlag, Einsiedeln 1999.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Nwiya, Paul: Ex&amp;#xE9;g&amp;#xE8;se coranique et language mystique. Nowel essai sur le lexique technique des mystique musulmans. Dar el-Mashriq, Beirut 1970.</bibl>
+              <bibl type="literatur">Sattar, Muhammad A.: &amp;#x201E;Wujuh al-Qur&amp;#x2BE;&amp;#x101;n: A Branch of Tafsir Literature&amp;#x201C;. In: Islamic Studies 17 (1978), S. 137&amp;#x2013;152.</bibl>
+              <bibl type="literatur">Stern, David: &amp;#x201E;Midrash and Indeterminacy&amp;#x201C;. In: Critical Inquiry 15 (1988), S. 132&amp;#x2013;161.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Dirk Hartwig</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>[הקרב את-קרבנו קערת-כסף אחת שלשים ומאה משקלה] מזרק אחד כסף [שבעים שקל בשקל הקדש שניהם] (במדבר ז, יט) כנגד התורה המשולה ביין, שנאמר (משלי ט, ה): [לכו לחמו בלחמי] ושתו ביין מסכתי. ולפי שדרך היין לשתות במזרק, כמה דתימא (עמוס ו, ו): השתים במזרקי יין [ראשית שמנים ימשחו ולא נחלו על-שבר יוסף לכן עתה יגלו בראש גלים וסר מזרח סרוחים], לכך הביא מזרק (במדבר ז, יט): [הקרב את-קרבנו קערת-כסף אחת שלשים ומאה משקלה] מזרק אחד כסף] שבעים שקל בשקל הקדש [שניהם], למה, כשם שיין חשבונו שבעים, כך יש שבעים פנים בתורה.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Ein silbernes Sprengbecken, [70 Schekel nach dem Schekel des Heiligthums] (Num 7,19) gegen die Tora, die mit Wein verglichen wird, wie es heisst: Und trinket von dem Wein den ich gemischt. (Prov 9,5) Und weil man den Wein in Becken (Schalen) zu trinken pflegt, [wie es heisst]: Sie trinken den Wein aus Schalen, darum brachte er ein Sprengbecken dar. (Amos 6,6) Siebzig Schekel nach dem Schekel des Heiligtums. (Num 7,19) Warum? Weil das (hebräische) Wort yayin, "Wein", "siebzig" in der Zahl hat, und so gibt es auch siebzig verschiedene Auslegungsweisen der Tora." [Übersetzung: A. Wünsche, S. 326 (mit leichten Modifikationen)]</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>One silver basin, [of seventy shekels, after the shekel of the sanctuary] (Num 7,19) was brought as a symbol of the Torah which has been likened to wine, as it says And drink of the wine which I have mingled (Proverbia 9,5). Now because it is customary to drink wine in a basin, you may gather from the text, that drink wine in bowls (Amos 6,6) – he on that account, brought a basin. Of seventy shekels, after the shekel of the sanctuary (Numeri 7,19). Why? As the numerical value of (the Hebrew word) yayin, "wine", is seventy, so there are seventy modes of expounding the Torah." [translation: J.J. Slotki, S. 534 (with slight modifications)]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

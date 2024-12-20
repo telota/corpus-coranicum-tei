@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ester Rabba (Proömium 5)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1061" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1061</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Im Koran fungiert der aus der biblischen Ester-Erzählung (TUK_0427) bekannte Haman als Ratgeber Pharaos. Zu möglichen Erklärungen dieser Verbindung mit Pharao vgl. die Anmerkung in TUK_0427 und Silverstein 2008.
+
+	Texte aus der rabbinischen Tradition wie der hier zitierte Midrasch könnten ebenfalls im Hintergrund der koranischen Assoziation Hamans mit Pharao stehen. Zwar ist Haman, anders als im Koran, im hier vorgestellen Text nicht Teil der Erzählung um Pharao und Moses, allerdings werden Pharao und Haman innerhalb des gleichen Kontextes genannt. Dies soll nicht heißen, dass sich der Koran speziell auf die genannte Stelle in Ester Rabba bezieht; vielmehr wird dadurch die Existenz gewisser Vorstellungen belegt, in denen Pharao und Haman als exemplarische Böse und Feinde Israels miteinander assoziiert wurden. Vgl. auch Busse 1979: p. 58, 69, der Haman als den Typus dessen, der den Gläubigen nach dem Leben trachtet, interpretiert. Für einen ähnlichen Fall, bei dem Motive und Elemente in den Erzählungen über Nimrod, Nebukadnezzar und Titus gewissermaßen austauschbar sind, vgl. Lowin 2012.Ester Rabba (EstR) ist eine haggadische Auslegung zur Ester-Rolle 
+(megillat Ester), die traditionell am Purimfest in der Synagoge verlesen 
+wird. Der Midrasch besteht aus zwei Teilen: Kap. 1-6 sind im klassischen 
+Stil gehalten und ihre Sprache verweist nach Palästina. In den Proömien 
+werden unter anderen der Jerusalemer Talmud [pT], aber auch älteste 
+Auslegungsmidraschim, Genesis Rabba [GenR] und Levitikus Rabba [WaR], 
+zitiert. Als Datierung ist das 5. nachchristliche Jahrhundert 
+vorgeschlagen worden. Die Kap. 7-10 bilden den zweiten Teil des 
+Midrasches und haben eine längere Entwicklungsgeschichte, die bis in das 
+11. Jh. hineinreicht (zur Datierung s. Stemberger 2011: p. 353-354). Gerade auch bei den später entstandenen Teilen von Midrasch Ester ist nicht auszuschließen, dass bereits islamische Traditionen verarbeitet wurden.
+</summary>
+            <msItem>
+              <title>Ester Rabba (Proömium 5)</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca 6. - 11. Jh.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna</bibl>
+              <bibl type="literatur">Busse, Heribert: &amp;#x201E;Herrschertypen im Koran&amp;#x201C;. In: Die islamische Welt zwischen Mittelalter und Neuzeit. Festschrift f&amp;#xFC;r Hans Robert Roemer zum 65. Geburtstag. Orient-Institut der Dt. Morgenl&amp;#xE4;nd. Ges., Beirut 1979, Beiruter Texte und Studien (BTS).</bibl>
+              <bibl type="literatur">Lowin, Shari L.: &amp;#x201E;Narratives of Villainy: Titus, Nebuchadnezzar, and Nimrod in the &amp;#x1E25;ad&amp;#x12B;th and midrash aggadah&amp;#x201C;. In: Paul M. Cobb (Hrsg.), The lineaments of Islam: studies in honor of Fred McGraw Donner. Leiden&amp;#x202F;; Boston: Brill, Leiden&amp;#x202F;; Boston 2012,</bibl>
+              <bibl type="literatur">Silverstein, Adam: &amp;#x201E;H&amp;#x101;man&amp;#x2019;s transition from J&amp;#x101;hiliyya to Islam&amp;#x201C;. In: Jerusalem Studies in Arabic and Islam 34 (2008), S. 285&amp;#x2013;308.</bibl>
+              <bibl type="literatur">Stemberger, G&amp;#xFC;nter: Einleitung in Talmud und Midrasch. Neunte, vollst&amp;#xE4;ndig neubearbeitete Auflage. M&amp;#xFC;nchen 2011.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	ויהי בימי אחשורוש מה צרה היתה שם להשמיד להרוג ולאבד, למלך שנכנס בכרם ונזדווגו לו שלשה שונאים, הראשון התחיל מקטף בעוללות, השני התחיל מזנב באשכלות, והשלישי התחיל עוקר בגפנים, כך פרעה הרשע התחיל מקטף בעוללות, הדא ה"ד (שמות א') ויצו פרעה לכל עמו לאמר כל הבן הילוד וגו', נבוכדנצר שחיק עצמות התחיל מזנב באשכלות הה"ד (מלכים ב' כ"ד) החרש והמסגר אלף, [...] ר' יודא בר' סימון אמר אלו תלמידי חכמים, ור' שמואל בר ר' יצחק אמר אלו הבליוטין, המן הרשע שחיק מחיק התחיל עוקר בגפנים הה"ד להשמיד להרוג ולאבד בקש לקעקע ביצתן של ישראל בעא דיזבון בכל ביתא וכיון שראו הכל כן התחילו צווחין ווי
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Es heisst hier: " Und es war in den Tagen des Achaschverosch." Was gab es denn da für eine Noth? Die Vertilgung, Tödtung und Vernichtung der Israeliten. Gleich einem Könige, welcher in seinen Weinberg ging. Da machten sich drei Feinde über ihn her, der erste fing an die Beeren abzuschneiden, der zweite schnitt die Traubenkämme ab und der dritte entwurzelte sogar die Weinstöcke. Ebenso fing der ruchlose Pharao an die Beeren abzuschneiden, wie es Ex 1:22 heisst: "Und Pharao befahl seinem ganzen Volke, dass jeder neugeborene Sohn ins Wasser geworfen werde"; Nebucadnezar fing an die Traubenkämme abzuschneiden wie es heisst 2 Kön 24:16: "Und die Zimmerleute und die Schlösser Tausend." [...] Nach R. Juda im Namen des R. Simon sind darunter die Gelehrten, nach R. Samuel bar R. Jizchak aber die Ratsherren zu verstehen. Der ruchlose Haman endlich fing an die Weinstöcke zu entwurzeln, wie es heisst Est 3:13: "Um alle Juden zu vertilgen, zu tödten und zu vernichten." Er wollte das Ei Israels mit dem ganzen Neste zerfliessen machen. Als die Juden das sahen, singen sie an: Wehe! zu schreien.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	Now it came to pass in the days of Ahasuerus (Est 1:1). What trouble was there then? To destroy, to slay, and to cause to perish (Est 3:13). It was as if a king went into a vineyard and three of his enemies came to plunder it. The  first began plucking the loose grapes. The second began tearing off the clusters. The third began to uproot the vines. So the wicked Pharao began to pluck the loose grapes, as it says, And Pharao charged all his people saying: Every son that is born ye shall cast into the river (Ex 1:22). Nebuchadnezzar, may his bones be crushed, began to tear off the clusters, as it says, And the craftsmen and the smiths a thousand (1 Kön 24:16). [...] R. Judah b. R. Simon said. These are the scholars; R. Samuel b. R. Isaac however said: These are the counsellors. The wicked Haman, may he be crushed and wiped out, began to uproot the vines, as it is written, To destroy, to slay, and to cause to perish. He sought to destroy Israel from the foundation; he desired that they should despoil the whole house. When they all saw this, they began to cry, Woe!
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

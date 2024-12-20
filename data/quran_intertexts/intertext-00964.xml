@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über den 7. Tag der Schöpfung</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_964" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>964</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	An den genannten drei Textstellen spricht der Koran von einer Leuchte (arab. sirāǧ) am Himmel, die Teil der Schöpfung ist: In Q 71: 36 wird die Sonne als Leuchte und der Mond als Licht (arab. nūr) genannt; in Q 78: 13 ist lediglich von einer Leuchte die Rede, die von Gott geschaffen wurde (ohne dass explizit die Sonne genannt würde); in Q 25: 61 wird der Schöpfer gepriesen, der am Himmel Gestirnskonstellationen (arab. burūǧ), eine Leuchte (arab. sirāǧ) und einen leuchtenden Mond (arab. qamar munīr) geschaffen hat. Mit sirāǧ  wird an zumindest zwei Stellen also explizit die Sonne bezeichnet. An einer Stelle ist dieses Verständnis zumindest wahrscheinlich. Ähnlich wie die Koranstellen spricht das Lehrgedicht des Jakob von Sarug davon, dass Gott Sonne und Mond in das Firmament gestellt hat. Beide Himmelskörper, hier also nicht nur (wie wahrscheinlich im Koran) die Sonne, werden mit syr. šrāgē  ("Leuchten") bezeichnet. Ihr Zweck ist es, die Welt zu erhellen (im syrischen Wortlaut: w-nehrat menhōn kullāh brītā d-ḥešōkā (h)wāt "und von ihnen wurde hell die Ganze Welt (Schöpfung), welche dunkel (Dunkelheit) war"), dazu ist im Koran arab. munīr, wahhāǧ "erhellend, strahlend" zu vergleichen.
+
+	Interessant ist die semantische, morphologische und lautliche Übereinstimmung zwischen arab. sirāǧ und syr. šrāgā. Hier mag eine Lehnwortbeziehung vorliegen, bzw. eine Entlehnung aus einer dritten Sprache, wobei eine Vermittlung des Wortes über das Aramäische ins Arabische sehr wahrscheinlich ist, da aram. š in Lehnwörtern vor dem 8. Jh. durchgehend als arab. s erscheint (zur lautlichen Realisation vgl. Watson 2002: p. 15). Der aramäische Formtyp CCāC-ā entspricht in Lehnwörtern arabisch CiCāC-. Zudem entsprechen sich aram. g und arab. ǧ, während bei einer direkten Entlehnung aus dem Mittelpersischen ins Arabische ein Auslaut -q oder -ġ wahrscheinlicher wäre. Als Ursprung des Wortes ist daher wohl mittelpersisch čirāγ ("Lampe") anzusetzen, das zunächst ins Aramäische entlehnt wurde, von wo es dann ins Arabische gelangte. Vgl. etwa Jeffery 1938: p. 166f. und zuletzt noch Asatrian 2006: p. 90, 103f.. Für eine Entlehnung in die arabische Sprache spricht auch die Tatsache, dass die lexikalische Wurzel (arab. s-r-ǧ) im Arabischen sonst andere Bedeutungsbereiche bezeichnet (z.B. arab. saraǧa „flechten“ oder sarǧ „Sattel“). Für eine Entlehnung in vorislamischer Zeit sprechen einige (wenn auch nur wenige) Belegstellen von sirāǧ „Lampe, Leuchte“ in der altarabischen Dichtung (z.B. bei den Dichtern al-Kumail und an-Nābiġa). Zur Entlehnungsfrage allgemein, vgl. den Glossariumeintrag sirāǧ. Ein signifikanter Unterschied zwischen dem Koran und dem hier vorliegenden Text von Jakob von Sarug liegt möglicherweise, wie gesagt, darin, dass im Koran scheinbar nur die Sonne als sirāǧ bezeichnet wird, während der Mond zwar "Licht" nūr und "erhellend" munīr ist, aber selbst nicht als "Leuchte", d.h. sirāǧ bezeichnet wird; dabei ist jedoch zu bemerken, dass in der syrischen Literatur šrāgā ebenfalls üblicherweise mit "Sonne" (šemšā) parallelisiert wird, vgl. dazu Thesaurus Syriacus: s.v. šrāgā, z.B. šemšā šrāgāk "die Sonne, deine Leuchte". Mit dem Gebrauch des Wortes sirāǧ für die von Gott geschaffene Sonne steht der Koran also in einer weiteren Tradition, die vor allem in den monotheistischen Religionen betont wird; Sonne und Mond sind keine unabhängigen göttlichen Entitäten, sondern vielmehr vom Schöpfergott geschaffen und eingesetzt.
+
+	Die selbe Idee findet sich auch etwa in Q 67:5, wo allerdings ein anderes Wort für 'Lampen' verwendet wird: wa-laqad zayyannā s-samāʾa d-dunyā bi-maṣābīḥa... "und wir haben den untersten Himmel mit Lampen (maṣābīḥ) geschmückt". Im Koran findet sich also zum Einen ein (etymologisch) wörtlicher Anklang an frühere Traditionen, zum Anderen ein inhaltlicher Anklang mit nur semantisch übereinstimmendem Wortgebrauch.
+</summary>
+            <msItem>
+              <title>Gedicht über den 7. Tag der Schöpfung</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 523</origDate>
+              <origPlace>Nisibis/ Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Takamitsu Muraoka (Hg.), Jacob of Serugh’s Hexaemeron, Peeters, Leuven 2018 (Ancient Near Eastern Studies, Supplement 52), S. 218-220.</bibl>
+              <bibl type="literatur">Asatrian, Mushegh: &amp;#x201E;Iranian Elements in Arabic: The State of Research&amp;#x201C;. In: Iran &amp;amp; the Caucasus 10.1 (2006), S. 87&amp;#x2013;106.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Watson, Janet C. E.: The Phonology and Morphology of Arabic. Oxford 2002.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܐܦ ܡܢܝܢܐ ܕܐܪܒܥܐ ܬܗܪܐ ܗ̄ܘ ܐܦ ܕܘܡܪܐ:ܡܦܪܓ ܫܘܦܪܗ ܛܒ ܡܢ ܫܘܦܪܐ ܕܟ̈ܢܘܬܗ܀ܒܐܪܒܥܐ ܩܝ̈ܡܢ ܐܪܒܥ ܦܢ̈ܝܢ ܒܫܡܗܝ̈ܗܝܢ:300 ܘܗܘ̣ ܡܢܝܢܐ ܥܒܕ ܐܘܪܟܐ ܘܦܘܬܝܐ ܠܐܪܥܐ܀ܘܡܛܠܗܢܐ ܐܦ ܠܐܒܪܗܡ ܡܬܐܡܪܐ ܗ̄ܘܬ:ܕܠܐܘܪܟܗ̇ ܘܦܘܬܝܗ̇ ܢܗܠܟ ܗ̄ܘܐ ܒܗ̇ ܒܐܪܥܐ ܗܝܕܝܢ܀ܐܘܪܟܐ ܘܦܘܬܝܐ ܐܠܐ ܒܐܪܒܥܐ ܠܐ ܡܣܬܝܟ:ܘܡܐ ܕܗܠܟ ܐ̄ܢܫ ܐܘܪܟܐ ܘܦܘܬܝܐ ܨܠܝܒܐ ܨܐܪ܀305 ܘܡܢ ܡܢܝܢܐ ܕܐܪܒܥܐ ܢܦܩ ܗܢܐ ܐ̄ܪܙܐ:ܘܗܘ̣ ܪܫܡܗ̇ ܗ̄ܘܐ ܠܐܪܥܐ ܕܝܒܘܣ ܬܗܘܐ ܠܐܒܪܡ܀ܐܪܒܥܐ ܖ̈ܫܝܢ ܠܬܪܝܢ ܩܝ̈ܣܝܢ ܕܨܠܝܒܘܬܐ:ܘܡܛܠܗܢܐ ܫܒܝܚ ܡܢܝܢܐ ܘܡܠܐ ܫܘܦܖ̈ܐ܀ܘܡܛܠ ܗܢܐ ܝܘܡܐ ܕܐܪܒܥܐ ܣܓܝ ܫܦܝܪ:310 ܣܓܝ ܢܗܝܪ ܣܓܝ ܫܘܦܖ̈ܐ ܡܬܬܙܝܥܝܢ ܒܗ܀ܒܗ ܐܨܛܒܬ ܪܩܝܥܐ ܕܗܘܐ ܒܟܠ ܢܗܝܖ̈ܝܢ:ܘܫܩܠ ܣܟܗ ܟܠܗ ܪܗܛܐ ܕܚܝ̈ܠܘܬܐ܀ܒܝܘܡܐ ܕܐܪܒܥܐ ܫܡܫܐ ܘܣܗܪܐ ܫܩܠܘ ܫܘܠܛܢܐ:ܥܠ ܐܝܡܡ̈ܐ ܘܠܝ̈ܠܘܬܐ ܡܢ ܒܪܘܝܐ܀315 ܒܗܢܐ ܝܘܡܐ ܐܬܟܕܢܬ ܠܗ ܐܝܟ ܡܪܟܒܬܐ:ܕܢܘܗܪܐ ܠܫܡܫܐ ܘܢܦܩ ܢܣܥܘܪ [ܠܐܪܥܐ ܟܠܗ̇]܀ܒܪܒܝܥܝܐ ܫ̈ܪܓܝ ܥܠܡܐ ܕܠܩܘ ܒܪܩܝܥܐ:ܘܢܗܪܬ ܡܢܗܘܢ ܟܠܗ̇ ܒܪܝܬܐ ܕܚܫܘܟܐ ܗ̄ܘܬ܀ܒܝܘܡܐ ܕܐܪܒܥܐ ܚܫܠܬ ܐܢܘܢ ܥܒܘܕܘܬܐ:320 ܠܟܘ̈ܟܒܝ ܢܘܗܪܐ ܕܠܐܬ̈ܘܬܐ ܘܙܒܢ̈ܐ ܢܗܘܘܢ܀ܒܗܢܐ ܝܘܡܐ ܕܐܪܒܥܐ ܐܡܠܟ ܫܡܫܐ ܘܢܦܩ:ܢܐܚܘܕ ܥܠܡܐ ܘܢܗܘܐ ܫܠܝܛ ܥܠ ܐܝܡܡ̈ܐ܀ܗܢܐ ܝܘܡܐ ܢܬܠ ܫܘܒܚܐ ܛܒ ܡܢ ܚܒܪܘ̈ܗܝ:ܕܒܗ ܐܬܦܠܓ ܢܘܗܪܐ ܕܗܘܐ ܥܠ ܢܗܝܖ̈ܐ܀325 ܒܗ ܦܢ̈ܝܬܐ ܢܬܠܢ ܫܘܒܚܐ ܡܢ ܣܘܦܝ̈ܗܝܢ:ܘܢܗܠ̈ܠܢ ܒܗ ܕܐܩܝܡ ܐܢܝܢ ܒܬܚܘܡܝ̈ܗܝܢ܀ܫܡܫܐ ܘܣܗܪܐ ܢܬܠܘܢ ܫܘܒܚܐ ܒܪܒܝܥܝܐ:ܕܐܘܪܒ ܐܢܘܢ ܘܒܙܠܝ̈ܩܐ ܐܥܬܪ ܐܢܘܢ܀</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Am vierten Tag erhielten Sonne und Mond vom Schöpfer die Herrschaft über Tage und Nächte.315 An diesem Tag schirrte er die Sonne wie einen Wagen aus Licht an und es [das Licht] ging hinaus, um die ganze Erde zu besuchen. Am vierten [Tag] erstrahlten die Leuchten der Welt im Firmament und von ihnen wurde hell die ganze Welt (Schöpfung), welche dunkel (Dunkelheit) gewesen war.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Also the number four is a marvel, also amazement.Its beauty is far more resplendent than the beauty of its associates.On the fourth (day) arise four directions with their respective name,300 and this number assigns length and width to the earth,and therefore it was said also to Abrahamthat he should go round the land through its length and width then,Length and width, which is short of four (directions),and when one goes through the length and width, it is symbolizing a cross.305 And from the number four proceeds this mystery,and He foreshadowed that the land of Jebus should belong to Abram.Four ends to the two pieces of timber of the cross,and, therefore, the number is praiseworthy and full of beauties,and for this reason Day Four is very beautiful,310 very bright, many beauties active on that (day).On that (day) the firmament that emerged was decorated with all luminaries and the whole movement of the heavenly hosts reached its end.On Day Four the sun and the moon acceded to their seat of ruleover days and nights at the hands of the Creator.315 On this day (the earth) was harnessed to the sun as if to a carriage of lightand it [i.e. the sun] went out to visit the whole earth.On the fourth (day) the lamps of the universe were kindled in the firmamentand with these the entire creation, which was sunken in darkness, brightened up.On Day Four the Artisan forged them,320 the stars of light, to be for signs and seasons.On this Day Four the sun ascended the throne and went outin order to take the universe and rule over daytime.This day should offer praise better than its associates.On this day the light which was there was split among the luminaries.325 On this (day) the (four) regions should offer praise from their respective extremityand shall praise on this (day) because He assigned them to their respective domain.The sun and the moon shall offer praise on the fourth (day),for He added to their weight and enriched them with their rays.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

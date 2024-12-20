@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1. Clemensbrief 31:1-4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_669" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>669</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl Genesis 22 (vgl. TUK_0465) als auch Q 37 berichten, wie Gott den Gehorsam Abrahams auf die Probe stellt, indem er ihm befiehlt, seinen Sohn als Opfer darzubringen. Im Unterschied zur Erzählung im Buch Genesis betont der Koran, dass der Sohn in das Opfer eingewilligt habe. In diesem Punkt stimmt der Koran mit nachbiblischen Bearbeitungen dieses Themas überein, in denen die Bereitschaft des Sohnes zum Opfer fester Bestandteil der Interpretation von Genesis 22 ist (Kugel 1998: p. 304-306). Sie wird sowohl in jüdischen als auch in frühen christlichen Quellen erwähnt, so z.B. im hier zitierten Clemensbrief. Vgl. auch TUK_0795, TUK_0504, TUK_1239 und TUK_1245.Beim 1. Clemensbrief handelt es sich um einen ca. 100 n.Chr. 
+entstandenen Brief der römischen an die korinthische Gemeinde. Seit der 
+zweiten Hälfte des 2. Jh. wird er Clemens von Rom zugeschrieben, der der
+ römischen Bischofsliste zufolge der dritte Nachfolger des Petrus 
+gewesen sein soll. Anlaß für die Abfassung ist die Absetzung von 
+Amtsträgern in der korinthischen Gemeinde, wozu der Brief Stellung 
+bezieht. Zu den im Brief behandelten Themen gehören die kosmische 
+Ordnung, weltliche Gewalt, Gastfreundschaft, Buße und die Auferstehung. 
+Wie Eusebius bezeugt, wurde der 1. Clemensbrief auch im Gottesdienst 
+gelesen. (Zum Clemensbrief vgl. Powell 1981: p. 113-120; Schöllgen 1994: Spalte 1230-1231).
+</summary>
+            <msItem>
+              <title>1. Clemensbrief 31:1-4</title>
+              <author>Clemens von Rom (traditionelle Zuschreibung)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 100 n. Chr.</origDate>
+              <origPlace>Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Kirsopp Lake (Hg.), The apostolic fathers in Greek. I Clement, II Clement, Ignatius, Polycarp, Didache, Barnabas, The Shepherd of Hermas, The Martyrdom of Polycarp, The Epistle of Dio, Cambridge 1913.</bibl>
+              <bibl type="literatur">Kugel, James L.: Traditions of the Bible a guide to the bible as ist was at the start of the common era. Harvard Univ. Press, Cambridge, Mass [u.a] 1998.</bibl>
+              <bibl type="literatur">Powell, Douglas: &amp;#x201E;Clemens von Rom&amp;#x201C;. Theologische Realenzyklop&amp;#xE4;die 8: 113&amp;#x2013;120.</bibl>
+              <bibl type="literatur">Sch&amp;#xF6;llgen, Georg: &amp;#x201E;Clemensbriefe&amp;#x201C;. Lexikon f&amp;#xFC;r Theologie und Kirche 2: 1230&amp;#x2013;1231.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Κολληθῶμεν οὖν τῇ εὐλογίᾳ αὐτοῦ καὶ ἴδωμεν τίνες αἱ ὁδοὶ τῆς εὐλογίας ἀνατυλίξωμεν τὰ ἀπ᾽ ἀρχῆς γενόμενα 2 τίνος χάριν ηὐλογήθη ὁ πατὴρ ἡμῶν Ἀβραάμ οὐχὶ δικαιοσύνην καὶ ἀλήθειαν διὰ πίστεως ποιήσας 3  Ἰσαὰκ μετὰ πεποιθήσεως γινώσκων τὸ μέλλον ἡδέως προσήγετο θυσία  4 Ἰακὼβ μετὰ ταπεινοφροσύνης ἐξεχώρησεν τῆς γῆς αὐτοῦ δι᾽ ἀδελφὸν καὶ ἐπορεύθη πρὸς Λαβὰν καὶ ἐδούλευσεν καὶ ἐδόθη αὐτῷ τὸ δωδεκάσκηπτρον τοῦ Ἰσραήλ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1. Suchen wir uns also seinen Segen und schauen wir, welches die Wege seines Segens sind! Lasset uns die Geschichte von Anfang an betrachten! 2. Weswegen wurde unser Vater Abraham gesegnet? 1 Nicht deshalb, weil er Gerechtigkeit und Wahrheit übte durch Glauben? 3. Isaak ließ sich voll Vertrauen, da er die Zukunft kannte, freudig zum Opfer bringen 4. Jakob verließ demütigen Sinnes seine Heimat wegen des Bruders, ging zu Laban und diente ihm, und ihm wurden verliehen die zwölf Stämme Israels.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

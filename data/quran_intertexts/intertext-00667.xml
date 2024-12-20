@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis Rabba, Parascha 49:32</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_667" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>667</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Genesis 18:23-32 (vgl. TUK_0461) erzählt, wie Abraham nach der Verheißung eines Sohnes die Zerstörung Sodoms und Gomorrhas angekündigt wird. Abraham legt daraufhin bei Gott Fürbitte für die beiden Städte ein und beruft sich dabei auf möglicherweise in Sodom lebende Gerechte. Er erhält daraufhin von Gott die Zusicherung, dieser werde die Stadt nicht zerstören, wenn auch nur zehn Gerechte in ihr zu finden sind. Q 11:74 ist vielleicht als Anspielung auf eine ähnliche Fürbitte Abrahams zu verstehen. In Q 29:32 erhebt Abraham ebenfalls Einwand gegen die Zerstörung der Stadt, verweist dabei aber nicht allgemein auf mögliche Gerechte, sondern begründet seine Bitte damit, daß sich Lot in ihr befinde. Wie der hier zitierte Text zeigt, vertritt bereits Genesis Rabba als eine von mehreren möglichen Interpretationen von Gen 18:32, daß Abraham mit den "Zehn Gerechten" Lots Familie gemeint habe (Speyer 1931: p. 150). Anders als in Genesis Rabba, wo sie als Mitglied von Lots Familie als eine der zehn Gerechten genannt wird, wird in Q 29:32 Lots Frau jedoch explizit von der Rettung ausgeschlossen (vgl. TUK_0464, sowie Schmid 2015).
+
+	Zu Datierung und Textgeschichte von Genesis Rabba, s. Günter Stemberger, Einführung in Talmud und Midrasch, 9. Auflage, München 2011, S. 309-311.
+</summary>
+            <msItem>
+              <title>Genesis Rabba, Parascha 49:32</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. (?)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">J. Theodor und Chanoch Albeck, Midrash Bereshit Rabba. Critical Edition with Notes and Commentary, 3 Bände, Jerusalem 1965 (Nachdruck von Berlin 1912-36 mit Korrekturen).</bibl>
+              <bibl type="literatur">Schmid, Nora: &amp;#x201E;Lot&amp;#x2019;s Wife. Late Antique Paradigms of Sense and the Qur&amp;#x2019;an&amp;#x201C;. In: Angelika Neuwirth &amp;amp; Michael Sells (Hrsg.), Qur&amp;#x2019;anic Studies Today. voraussichtlich 2015,</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	ויאמר אל נא יחר לי"י וגו' אולי ימצאון שם עשרה למה עשרה כדי כניסה לכולם, ד"א למה עשרה שכבר נשתייר בדור המבול שמונה ולא נתלה לעולם בזכותן, ד"א למה עשרה שהיה סבור שיש שם עשרה לוט ואשתו וארבע בנותיו וד' חתניו. ר' יודן בר' סימון ר' חנן בשם ר' יוחנן נאמר כאן עשרה ובירושלם אפילו אחד הה"ד שוטטו בחוצות ירושלם וגו'.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	"Und er sprach: Mein Herr zürne nicht, wenn ich nur noch einmal das Wort ergreife. Vielleicht finden sich dort nur zehn." (Genesis 18:32) Warum gerade zehn? Weil zehn eine Gemeinde bilden, um für sie alle zu beten. Eine andere Sache: Warum gerade zehn? Denn von der Generation der Sintflut hatten acht Leute überlebt, und die Bestrafung der Welt wurde nicht um ihretwillen ausgesetzt. Eine andere Sache: Warum gerade zehn? Denn er [Abraham] glaubte, es würden zehn vorhanden sein, nämlich Lot, sein Weib, seine vier Töchter und ebensoviele Schwiegersöhne. R. Judan bar Simon und R. Chanan sagten im Namen des R. Jochanan: Hier waren zehn nötig, und im Falle Jerusalems hätte sogar einer genügt: "Zieht durch Jerusalems Straßen, schaut genau hin und forscht nach, sucht auf seinen Plätzen, ob ihr einen findet, ob einer da ist, der Recht übt und auf Treue bedacht ist: Dann will ich der Stadt verzeihen" (Jeremia 5:1)
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

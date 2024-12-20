@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_3069">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Copenhagen, Davids Samling (The David Collection), 17/1990</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="12">Davids Samling (The David Collection)
+                            , Copenhagen</repository>
+            <idno>17/1990</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>2 fol. on parchment; Shelfmark: 17/1990; Qurʾānic Text: Q 42:11-42:15, Q 42:53-43:10; 15 lines per page; Dimensions: 365 x 270mm; Script style: kūfī.</p><p> </p>For more information, please visit the <ref target="https://www.davidmus.dk/islamic-art/calligraphy/item/35?culture=en-us">collection's website</ref>.
+                    </summary>
+            <msItem xml:id="mysql_id_723565" n="1r">
+              <title type="numeric" key="042:011:016-042:015:014">
+                                    042:011:016-042:015:014
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_723564" n="2v">
+              <title type="numeric" key="042:052:020-043:010:003">
+                                    042:052:020-043:010:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>365</width><height>270</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_112902">
+      <graphic decls="#imageRights-1" url="manuscript/3069/b8ff7f2a-49fd-428d-bc96-3a6b13c9ff4c/manuscript-3069-page-112902-image-106197.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/3069/9c130c63-58cc-41c8-92f1-a5f4646cdba4/manuscript-3069-page-112902-image-106198.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_112901">
+      <graphic decls="#imageRights-1" url="manuscript/3069/5ede4f9a-b673-4bd4-92c3-a5777a68decd/manuscript-3069-page-112901-image-106195.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/3069/9dcb5a48-97bb-4fd5-8ee6-5ad7a7d15f9a/manuscript-3069-page-112901-image-106196.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

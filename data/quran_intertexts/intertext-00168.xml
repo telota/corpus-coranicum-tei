@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus Rabba, Parascha 5:14</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_168" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>168</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie Q 20:49-56 und Q 26:23-31 erzählt auch Exodus Rabba, wie Pharao Moses nach dem von ihm angebeteten Gott fragt, während eine solche Frage in der entsprechenden Bibelpassage Exodus 5:2 fehlt. Wenn sich Pharao am Schluss des Textes selbst zum Gott erklärt, so erinnert dies an Q 28:38. Pharaos Aussage in Q 43:51, dass er die Herrschaft über Ägypten innehabe, und die Flüsse unter ihm fließen würden, klingt vielleicht ebenfalls an den Schluss von Exodus Rabba, Parascha 5:14 an. Neben diesem bereits von Heinrich Speyer (Speyer 1931: p. 268-271) beobachteten Bezug zur koranischen Mosesgeschichte ist der vorliegende Midraschtext noch in einer anderen Hinsicht für die Koranforschung relevant: Sowohl in Sure 20 als auch in Exodus Rabba antwortet Moses auf Pharaos Frage mit einer Serie göttlicher Machterweise (ʾāyāt, vgl. dazu den Kommentar zu Q 88:17-20), von denen manche - die Herabsendung von Regen oder das Heranwachsen von Kindern im Mutterleib - auch losgelöst von der Mosesgeschichte im Koran erscheinen (vgl. Q 2:22, Q 2:164, Q 6:99, Q 7:57, Q 14:32, Q 15:22, Q 16:65.78, Q 22:5, Q 23:14.18, Q 27:60, Q 29:63, Q 31:10, Q 35:27, Q 40:67, Q 43:11, Q 50:9, Q 75:38, Q 80:25, Q 96:2). Zwei der wichtigsten koranischen ʾāyāt, der "Zeichen" von Gottes Wirken in der Natur, weisen damit enge Parallelen zum vorliegenden Midraschtext auf, z. T. auch eine sprachliche Übereinstimmung: So ist in beiden Fällen vom "Herabsenden" - arab. ʾanzala bzw. hebr. lə-horid - des Regens die Rede.
+
+	Die Datierung von Exodus Rabba ist umstritten. Obwohl Shinan zufolge die Endredaktion von Exodus Rabba erst im 10. Jh. stattgefunden hat, ist doch eine Verwendung früherer Traditionen wahrscheinlich. Aufgrund der relativ späten Endredaktion kann aber auch nicht ausgeschlossen werden, dass bereits islamische Elemente Eingang in Exodus Rabba gefunden haben. Allgemein zur Problematik der Datierung von Exodus Rabba siehe Günter Stemberger, Einführung in Talmud und Midrasch, 9. Auflage, München 2011, S. 342-343.
+</summary>
+            <msItem>
+              <title>Exodus Rabba, Parascha 5:14</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 10. Jh.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Avigdor Shinan, Midrash Shemot Rabbah, Chapters I-XIV. A Critical Edition Based on a Jerusalem Manuscript, with Variants, Commentary and Introduction, Tel Aviv 1984.
+</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	אמר להם: מי אתם? אמרו לו: שלוחיו של הקב"ה אנו. ומה אתם מבקשים? אמרו לו: כה אמר ה' [אלהי ישראל] שלח את עמי ויחגו לי במדבר. אותה שעה כעס ואמר: מי ה' אשר אשמע בקלו לשלח את ישראל, לא היה יודע לשלוח לי עטרה? אלא בדברים אתם באים? לא ידעתי את ה' [וגם את ישראל לא אשלח]. אמר להם: המתינו לי עד שאחפש בספרים שלי. מיד נכנס לבית ארכיון שלו והיה מביט בכל אומה ואומה ואלוהיה. התחיל לקרוא: אלהי מואב ואלהי עמון ואלהי צידון. אמר להם: ביקשתי בבית גנזי ולא מצאתי אותו. [...] אמר להם: בחור הוא או זקן? כמה שנותיו? כמה עיירות לכד? כמה מדינות כבש? כמה שנים יש לו מיום שעלה למלכות? אמרו לו: אלהינו כחו וגבורתו מלא עולם. הוא היה עד שלא נברא העולם והוא יהיה בסוף העולמים, והוא יצרך ונתן בך רוח חיים. אמר להם: ומה מעשיו? אמרו לו: נוטה שמים ויסד ארץ, קולו חצב להבות אש, מפרק הרים ומשבר סלעים, קשתו אש וחציו שלהבת, רומחו לפיד, מגנו עננים, חרבו ברק, יוצר הרים וגבעות, מכסה הרים בעשבים, מוריד טללים וגשמים , מפריח דשאים, מדשן פירות,  יצר העובר במעי אמו ומוציאו לאויר העולם , מהעדה מלכין ומהקים מלכין. אמר להם: מתחלה שקר אתם אומרים, שאני אדון העולם ואני בראתי את עצמו ואת נילוס
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Er fragte sie: Wer seid ihr? Wir sind, antworteten sie, die Abgesandten Gottes. Was wollt ihr? Sie erwiderten: "So spricht der Ewige: Lass mein Volk ziehen, damit sie mir in der Wüste ein Fest feiern können." [Exodus 8:1] Da geriet der König in Zorn und sprach: Wer ist der Ewige, dessen Stimme ich gehorchen soll, die Israeliten ziehen zu lassen? Er hat nicht daran gedacht, mir eine Krone zu senden, sondern ihr kommt zu mir nur mit Worten. Ich kenne den Ewigen nicht und lasse auch die Israeliten nicht ziehen. Er sprach nämlich zu ihnen: Wartet solange, bis ich in meinen Büchern nachgesucht habe. Er ging sofort in das Haus seinen Palastes und schaute sich unter jeder Nation und ihren Göttern um. Da fing er an zu lesen: Die Götter Moabs, die Götter Ammons, die Götter Sidons. Nun sprach er zu Mose und Aaron: Ich habe seinen Namen in meiner Schatzkammer gesucht und ihn nicht gefunden. [...] Ist er jung oder alt? fragte Pharao. Wie viele Jahre zählt er? Wie viele Städte hat er schon erobert? Wie viele Länder bezwungen? Wie lange regiert er schon? Unser Gott, erwiderten sie, hat eine Kraft und Stärke, welche die ganze Welt erfüllt, er war vor der Erschaffung der Welt und wird noch sein am Ende der selben, er hat dich gebildet und dir Lebensgeist eingehaucht. Und was sind denn seine Werke? fragte er weiter. Sie antworteten: "Er spannt aus den Himmel und gründet die Erde" [Sacharja 12:1], "seine Stimme schürt Feuerflammen" [Psalm 29:7], "er entwurzelt Berge und zerschmettert Felsen" [1 Könige 19:11], sein Bogen ist Feuer, seine Pfeile sind Flamme, seine Lanze ist Fackel, sein Schild sind die Wolken, sein Schwert ist der Blitz, er bildet Berge und Hügel, bedeckt sie mit Kräutern,  lässt Regen und Tau herabfallen  [vgl. Q 2:22, 2:164, 6:99, 7:57, 14:32, 15:22, 16:65, 20:53, 22:5, 23:18, 27:60, 29:63, 31:10, 35:27, 43:11, 50:9, 80:25], er macht das Grün blühen und steht den Wöchnerinnen bei,  er bildet den Fötus im Leib seiner Mutter und lässt ihn an die Luft der Welt heraustreten [vgl. Q 16:78, 22:5, 23:14, 40:67, 75:38, 96:2]. "Er setzt Könige ab und Könige ein." [Daniel 2:21] Pharao sagte zu ihnen: Da habt ihr mich anfangs belogen, denn ich bin der Herr der Welt, ich habe sie und den Nil erschaffen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>He said to them: "Who are you?" They replied: "We are the ambassadors of the Lord, blessed be He." "What do you want?" he asked. They replied: "Thus saith the Lord, let my people go", etc (Ex 8:1). Then Pharao became very angy and said: "Who is the Lord, that I should hearken unto his voice to let Israel go (Ex 8:2)? Has He not the sense to send me a crown, that you come with mere words? I know not the Lord, moreover I will not let Israel go." He said to them: "Tarry awhile, till I search in my records." So he went into his palace chamber and scrutinised every nation and its gods, beginning with the gods of Moab, Ammon and Zidon. He then said to them: "I have searched for His name throughout my archives, but have not found Him." [...] Whereupon Pharao said to them: "Is He young or old? How old is He? How many cities has He captured? How many provinces has He subdued? How long is it since He ascended the throne?" They replied: "Our God's strength and might fill the universe; before the world was created He existed and He will be when the whole world ends. Moreover, He formed thee and has given thee the breath of life." He then said to them: "What deeds did he perform?" They replied: "He stretched forth the heavens and laid the foundations of the earth (Sach 12:1); His voice heweth out flames of fire (Ps 29:7), rends the mountains and breaketh in pieces the rocks (1 Kings 19:11); His bow is of fire, His arms are flame, His spear is a torch, His shield is the clouds; His sword is lightning. He formeth mountains (Amos 4:13) and hills, covereth the mountains with grass, He bringeth down rain and dew and causeth the plants to grow; He doth answer those about to give birth, He fashioneth the child in the womb of its mother and bringeth it forth into the light of the world, He removeth kings, and setteth up kings (Dan 2:21)." His reply to them was: "From the very outset you have spoken falsehood, for I am the Lord of the Universe, and I have created myself and the Nile."</p>
+      </div>
+    </body>
+  </text>
+</TEI>

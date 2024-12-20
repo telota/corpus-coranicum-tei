@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1180">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 26.161.1</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>26.161.1</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 26.161.1; Qurʾānic Text: Q 5:117-6:3; 8 lines per page; Dimensions: 124 x 178mm; Script style: new style III.</p><p> </p>For more information, please visit the <ref target="https://www.metmuseum.org/art/collection/search/447937">website of the Metropolitan Museum of Art (New York)</ref>.<p/></summary>
+            <msItem xml:id="mysql_id_687648" n="1r">
+              <title type="numeric" key="005:117:007-005:118:008">
+                                    005:117:007-005:118:008
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687645" n="1v">
+              <title type="numeric" key="005:118:009-005:119:023">
+                                    005:118:009-005:119:023
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687646" n="2r">
+              <title type="numeric" key="005:119:023-006:001:009">
+                                    005:119:023-006:001:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687647" n="2v">
+              <title type="numeric" key="006:001:010-006:003:011">
+                                    006:001:010-006:003:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>124</width><height>178</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="8">8 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47608">
+      <graphic decls="#imageRights-1" url="manuscript/1180/218bd4b2-8126-4323-a231-502e9e9c1fbc/manuscript-1180-page-47608-image-33787.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/0d8b60df-d02a-469b-b265-b1a4ed9c5289/manuscript-1180-page-47608-image-33788.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/291343fd-409d-4417-bec4-32260b029892/manuscript-1180-page-47608-image-33789.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47605">
+      <graphic decls="#imageRights-1" url="manuscript/1180/d1b98e46-acf0-41e1-b755-febbea97ebc5/manuscript-1180-page-47605-image-33778.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/69edb6a2-87dd-4871-9f3e-20172f6644ae/manuscript-1180-page-47605-image-33779.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/ff12caf4-0303-432f-a379-d1e0a29f85a1/manuscript-1180-page-47605-image-33780.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47606">
+      <graphic decls="#imageRights-1" url="manuscript/1180/f0ff8c96-4e62-4344-ac7d-256f03a339a7/manuscript-1180-page-47606-image-33781.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/ba0b3db6-5bd5-4194-8b14-190e5a654584/manuscript-1180-page-47606-image-33782.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/52e32b0c-cb93-4164-b20d-3f078473c99a/manuscript-1180-page-47606-image-33783.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_47607">
+      <graphic decls="#imageRights-1" url="manuscript/1180/da0979ce-6529-4265-8a28-60e435996b91/manuscript-1180-page-47607-image-33784.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/edc29ac5-8e7f-4a96-9d37-ae3414704906/manuscript-1180-page-47607-image-33785.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1180/2dd24532-90c0-4f56-812c-d04b1c277e0c/manuscript-1180-page-47607-image-33786.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

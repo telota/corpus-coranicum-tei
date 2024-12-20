@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Offenbarung des Johannes 20:7-15</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_120" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>120</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 55:26-27 heißt es, dass "jeder, der auf ihr ist, vergehen wird (fānin), außer dem erhabenen und ehrwürdigen Angesicht deines Herrn"; wie in Q 16:61 steht "auf ihr" hier für "auf der Erde" (Paret 1977: zu 55:26-27). Q 55:26-27 enthält damit einen deutlichen Anklang an Offenbarung 20:11, wo sinngemäß ebenfalls vom Vergehen von Himmel und Erde die Rede ist und im selben Kontext auch das Angesicht Gottes erwähnt wird. Vgl. auch Q 28:88, wo es heißt: "Alles geht zu Grunde (hālik) außer seinem Angesicht". Die Tatsache, dass eine ähnliche Wendung an zwei verschiedenen Koranstellen erscheint, spricht dafür, dass es sich hier um einen Topos handelt, der wohl biblischen Ursprungs ist; er findet sich aber auch in späterer christlicher Literatur (vgl. TUK_0532).
+</summary>
+            <msItem>
+              <title>Offenbarung des Johannes 20:7-15</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 90-130 n. Chr.</origDate>
+              <origPlace>Patmos (laut Offb. 1:9)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+              <bibl type="literatur">Paret, Rudi: Der Koran: Kommentar und Konkordanz. Kohlhammer, Stuttgart [u.a] 1977.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	7 Καὶ ὅταν τελεσθῇ τὰ χίλια ἔτη, λυθήσεται ὁ σατανᾶς ἐκ τῆς φυλακῆς αὐτοῦ 8 καὶ ἐξελεύσεται πλανῆσαι τὰ ἔθνη τὰ ἐν ταῖς τέσσαρσιν γωνίαις τῆς γῆς, τὸν Γὼγ καὶ Μαγώγ, συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον, ὧν ὁ ἀριθμὸς αὐτῶν ὡς ἡ ἄμμος τῆς θαλάσσης. 9 καὶ ἀνέβησαν ἐπὶ τὸ πλάτος τῆς γῆς καὶ ἐκύκλευσαν τὴν παρεμβολὴν τῶν ἁγίων καὶ τὴν πόλιν τὴν ἠγαπημένην, καὶ κατέβη πῦρ ἐκ τοῦ οὐρανοῦ καὶ κατέφαγεν αὐτούς. 10 καὶ ὁ διάβολος ὁ πλανῶν αὐτοὺς ἐβλήθη εἰς τὴν λίμνην τοῦ πυρὸς καὶ θείου ὅπου καὶ τὸ θηρίον καὶ ὁ ψευδοπροφήτης, καὶ βασανισθήσονται ἡμέρας καὶ νυκτὸς εἰς τοὺς αἰῶνας τῶν αἰώνων.  11 Καὶ εἶδον θρόνον μέγαν λευκὸν καὶ τὸν καθήμενον ἐπ᾽αὐτόν, οὗ ἀπὸ τοῦ προσώπου ἔφυγεν ἡ γῆ καὶ ὁ οὐρανὸς καὶ τόπος οὐχ εὑρέθη αὐτοῖς.  12 καὶ εἶδον τοὺς νεκρούς, τοὺς μεγάλους καὶ τοὺς μικρούς, ἑστῶτας ἐνώπιον τοῦ θρόνου. καὶ βιβλία ἠνοίχθησαν, καὶ ἄλλο βιβλίον ἠνοίχθη, ὅ ἐστιν τῆς ζωῆς, καὶ ἐκρίθησαν οἱ νεκροὶ ἐκ τῶν γεγραμμένων ἐν τοῖς βιβλίοις κατὰ τὰ ἔργα αὐτῶν. 13 καὶ ἔδωκεν ἡ θάλασσα τοὺς νεκροὺς τοὺς ἐν αὐτῇ καὶ ὁ θάνατος καὶ ὁ ᾅδης ἔδωκαν τοὺς νεκροὺς τοὺς ἐν αὐτοῖς, καὶ ἐκρίθησαν ἕκαστος κατὰ τὰ ἔργα αὐτῶν. 14 καὶ ὁ θάνατος καὶ ὁ ᾅδης ἐβλήθησαν εἰς τὴν λίμνην τοῦ πυρός. οὗτος ὁ θάνατος ὁ δεύτερός ἐστιν, ἡ λίμνη τοῦ πυρός. 15 καὶ εἴ τις οὐχ εὑρέθη ἐν τῇ βίβλῳ τῆς ζωῆς γεγραμμένος, ἐβλήθη εἰς τὴν λίμνην τοῦ πυρός.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	7 Wenn die tausend Jahre vollendet sind, wird der Satan aus seinem Gefängnis freigelassen werden. 8 Er wird ausziehen, um die Völker an den vier Ecken der Erde, den Gog und den Magog, zu verführen und sie zusammenzuholen für den Kampf; sie sind so zahlreich wie die Sandkörner am Meer. 9 Sie schwärmten aus über die weite Erde und umzingelten das Lager der Heiligen und Gottes geliebte Stadt. Aber Feuer fiel vom Himmel und verzehrte sie. 10 Und der Teufel, ihr Verführer, wurde in den See von brennendem Schwefel geworfen, wo auch das Tier und der falsche Prophet sind. Tag und Nacht werden sie gequält, in alle Ewigkeit.  11 Dann sah ich einen großen weißen Thron und den, der auf ihm saß; vor seinem Angesicht flohen Erde und Himmel und es gab keinen Platz mehr für sie.  12 Ich sah die Toten vor dem Thron stehen, die Großen und die Kleinen. Und Bücher wurden aufgeschlagen; auch das Buch des Lebens wurde aufgeschlagen. Die Toten wurden nach ihren Werken gerichtet, nach dem, was in den Büchern aufgeschrieben war. 13 Und das Meer gab die Toten heraus, die in ihm waren; und der Tod und die Unterwelt gaben ihre Toten heraus, die in ihnen waren. Sie wurden gerichtet, jeder nach seinen Werken. 14 Der Tod und die Unterwelt aber wurden in den Feuersee geworfen. Das ist der zweite Tod: der Feuersee. 15 Wer nicht im Buch des Lebens verzeichnet war, wurde in den Feuersee geworfen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

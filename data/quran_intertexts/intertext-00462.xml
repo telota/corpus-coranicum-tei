@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 19:1-10</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_462" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>462</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Wie die hier zitierte Stelle aus Genesis erzählen auch Q 11:77-79 und Q 15:61-71 davon, wie Gottes Boten bei Lot einkehren, um ihn vor der Zerstörung Sodoms zu warnen (Gen 19:12-13). Die Männer Sodoms verlangen von Lot, die Boten auszuliefern, um mit ihnen sexuell zu verkehren. Lot möchte seine Gäste schützen und bietet stattdessen seine Töchter an. Q 26:165-166, 27:54-56 und 29:28-29 berichten dagegen nicht davon, dass Gottes Boten bei Lot zu Gast waren. Stattdessen schildern diese Koranverse Lot als Warner und geben eine Mahnrede an die Männer Sodoms wieder, in der Lot ihnen ihre Vergehen vorhält. Der in diesen Versen charakteristische Vorwurf, durch den sich die Loterzählung von den sie umgebenden anderen Straflegenden unterscheidet, nämlich "aus Begierde zu den Männern zu gehen anstatt zu den Frauen" (Q 27:55), wird ebenfalls vor dem Hintergrund der in Gen 19 erzählten Geschichte verständlich. Der weitere Verlauf der Ereignisse unterscheidet sich an diesen drei Koranstellen jedoch vom biblischen Bericht: Während die Vernichtung Sodoms in Genesis und in Q 11 und Q 15 eine bereits beschlossene Tatsache ist, von der Lot in Kenntnis gesetzt wird und daraufhin aufgefordert wird, die Stadt zu verlassen, erscheint sie in Q 26, Q 27 und Q 29 als Konsequenz der Ablehnung, auf die Lot mit seiner Botschaft bei seinen Landsleuten stößt.</summary>
+            <msItem>
+              <title>Genesis 19:1-10</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>%3Cp%3E%D7%95%D6%B7%D7%99%D6%BC%D6%B8%D7%91%D6%B9%D7%90%D7%95%D6%BC+%D7%A9%D7%81%D6%B0%D7%A0%D6%B5%D7%99+%D7%94%D6%B7%D7%9E%D6%BC%D6%B7%D7%9C%D6%B0%D7%90%D6%B8%D7%9B%D6%B4%D7%99%D7%9D+%D7%A1%D6%B0%D7%93%D6%B9%D7%9E%D6%B8%D7%94+%D7%91%D6%BC%D6%B8%D7%A2%D6%B6%D7%A8%D6%B6%D7%91+%D7%95%D6%B0%D7%9C%D7%95%D6%B9%D7%98+%D7%99%D6%B9%D7%A9%D7%81%D6%B5%D7%91+%D7%91%D6%BC%D6%B0%D7%A9%D7%81%D6%B7%D7%A2%D6%B7%D7%A8%D6%BE%D7%A1%D6%B0%D7%93%D6%B9%D7%9D+%D7%95%D6%B7%D7%99%D6%BC%D6%B7%D7%A8%D6%B0%D7%90%D6%BE%D7%9C%D7%95%D6%B9%D7%98+%D7%95%D6%B7%D7%99%D6%BC%D6%B8%D7%A7%D6%B8%D7%9D+%D7%9C%D6%B4%D7%A7%D6%B0%D7%A8%D6%B8%D7%90%D7%AA%D6%B8%D7%9D+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A9%D7%81%D6%B0%D7%AA%D6%BC%D6%B7%D7%97%D7%95%D6%BC+%D7%90%D6%B7%D7%A4%D6%BC%D6%B7%D7%99%D6%B4%D7%9D+%D7%90%D6%B8%D7%A8%D6%B0%D7%A6%D6%B8%D7%94+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B6%D7%A8+%D7%94%D6%B4%D7%A0%D6%BC%D6%B6%D7%94+%D7%A0%D6%BC%D6%B8%D7%90%D6%BE%D7%90%D6%B2%D7%93%D6%B9%D7%A0%D6%B7%D7%99+%D7%A1%D7%95%D6%BC%D7%A8%D7%95%D6%BC+%D7%A0%D6%B8%D7%90+%D7%90%D6%B6%D7%9C%D6%BE%D7%91%D6%BC%D6%B5%D7%99%D7%AA+%D7%A2%D6%B7%D7%91%D6%B0%D7%93%D6%BC%D6%B0%D7%9B%D6%B6%D7%9D+%D7%95%D6%B0%D7%9C%D6%B4%D7%99%D7%A0%D7%95%D6%BC+%D7%95%D6%B0%D7%A8%D6%B7%D7%97%D6%B2%D7%A6%D7%95%D6%BC+%D7%A8%D6%B7%D7%92%D6%B0%D7%9C%D6%B5%D7%99%D7%9B%D6%B6%D7%9D+%D7%95%D6%B0%D7%94%D6%B4%D7%A9%D7%81%D6%B0%D7%9B%D6%BC%D6%B7%D7%9E%D6%B0%D7%AA%D6%BC%D6%B6%D7%9D+%D7%95%D6%B7%D7%94%D6%B2%D7%9C%D6%B7%D7%9B%D6%B0%D7%AA%D6%BC%D6%B6%D7%9D+%D7%9C%D6%B0%D7%93%D6%B7%D7%A8%D6%B0%D7%9B%D6%BC%D6%B0%D7%9B%D6%B6%D7%9D+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B0%D7%A8%D7%95%D6%BC+%D7%9C%D6%BC%D6%B9%D7%90+%D7%9B%D6%BC%D6%B4%D7%99+%D7%91%D6%B8%D7%A8%D6%B0%D7%97%D7%95%D6%B9%D7%91+%D7%A0%D6%B8%D7%9C%D6%B4%D7%99%D7%9F+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A4%D6%B0%D7%A6%D6%B7%D7%A8%D6%BE%D7%91%D6%BC%D6%B8%D7%9D+%D7%9E%D6%B0%D7%90%D6%B9%D7%93+%D7%95%D6%B7%D7%99%D6%BC%D6%B8%D7%A1%D6%BB%D7%A8%D7%95%D6%BC+%D7%90%D6%B5%D7%9C%D6%B8%D7%99%D7%95+%D7%95%D6%B7%D7%99%D6%BC%D6%B8%D7%91%D6%B9%D7%90%D7%95%D6%BC+%D7%90%D6%B6%D7%9C%D6%BE%D7%91%D6%BC%D6%B5%D7%99%D7%AA%D7%95%D6%B9+%D7%95%D6%B7%D7%99%D6%BC%D6%B7%D7%A2%D6%B7%D7%A9%D7%82+%D7%9C%D6%B8%D7%94%D6%B6%D7%9D+%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%AA%D6%BC%D6%B6%D7%94+%D7%95%D6%BC%D7%9E%D6%B7%D7%A6%D6%BC%D7%95%D6%B9%D7%AA+%D7%90%D6%B8%D7%A4%D6%B8%D7%94+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9B%D6%B5%D7%9C%D7%95%D6%BC+%3A+%D7%98%D6%B6%D7%A8%D6%B6%D7%9D+%D7%99%D6%B4%D7%A9%D7%81%D6%B0%D7%9B%D6%BC%D6%B8%D7%91%D7%95%D6%BC+%D7%95%D6%B0%D7%90%D6%B7%D7%A0%D6%B0%D7%A9%D7%81%D6%B5%D7%99+%D7%94%D6%B8%D7%A2%D6%B4%D7%99%D7%A8+%D7%90%D6%B7%D7%A0%D6%B0%D7%A9%D7%81%D6%B5%D7%99+%D7%A1%D6%B0%D7%93%D6%B9%D7%9D+%D7%A0%D6%B8%D7%A1%D6%B7%D7%91%D6%BC%D7%95%D6%BC+%D7%A2%D6%B7%D7%9C%D6%BE%D7%94%D6%B7%D7%91%D6%BC%D6%B7%D7%99%D6%B4%D7%AA+%D7%9E%D6%B4%D7%A0%D6%BC%D6%B7%D7%A2%D6%B7%D7%A8+%D7%95%D6%B0%D7%A2%D6%B7%D7%93%D6%BE%D7%96%D6%B8%D7%A7%D6%B5%D7%9F+%D7%9B%D6%BC%D6%B8%D7%9C%D6%BE%D7%94%D6%B8%D7%A2%D6%B8%D7%9D+%D7%9E%D6%B4%D7%A7%D6%BC%D6%B8%D7%A6%D6%B6%D7%94+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A7%D6%B0%D7%A8%D6%B0%D7%90%D7%95%D6%BC+%D7%90%D6%B6%D7%9C%D6%BE%D7%9C%D7%95%D6%B9%D7%98+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B0%D7%A8%D7%95%D6%BC+%D7%9C%D7%95%D6%B9+%D7%90%D6%B7%D7%99%D6%BC%D6%B5%D7%94+%D7%94%D6%B8%D7%90%D6%B2%D7%A0%D6%B8%D7%A9%D7%81%D6%B4%D7%99%D7%9D+%D7%90%D6%B2%D7%A9%D7%81%D6%B6%D7%A8%D6%BE%D7%91%D6%BC%D6%B8%D7%90%D7%95%D6%BC+%D7%90%D6%B5%D7%9C%D6%B6%D7%99%D7%9A%D6%B8+%D7%94%D6%B7%D7%9C%D6%BC%D6%B8%D7%99%D6%B0%D7%9C%D6%B8%D7%94+%D7%94%D7%95%D6%B9%D7%A6%D6%B4%D7%99%D7%90%D6%B5%D7%9D+%D7%90%D6%B5%D7%9C%D6%B5%D7%99%D7%A0%D7%95%D6%BC+%D7%95%D6%B0%D7%A0%D6%B5%D7%93%D6%B0%D7%A2%D6%B8%D7%94+%D7%90%D6%B9%D7%AA%D6%B8%D7%9D+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B5%D7%A6%D6%B5%D7%90+%D7%90%D6%B2%D7%9C%D6%B5%D7%94%D6%B6%D7%9D+%D7%9C%D7%95%D6%B9%D7%98+%D7%94%D6%B7%D7%A4%D6%BC%D6%B6%D7%AA%D6%B0%D7%97%D6%B8%D7%94+%D7%95%D6%B0%D7%94%D6%B7%D7%93%D6%BC%D6%B6%D7%9C%D6%B6%D7%AA+%D7%A1%D6%B8%D7%92%D6%B7%D7%A8+%D7%90%D6%B7%D7%97%D6%B2%D7%A8%D6%B8%D7%99%D7%95+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B7%D7%A8+%D7%90%D6%B7%D7%9C%D6%BE%D7%A0%D6%B8%D7%90+%D7%90%D6%B7%D7%97%D6%B7%D7%99+%D7%AA%D6%BC%D6%B8%D7%A8%D6%B5%D7%A2%D7%95%D6%BC+%3A+%D7%94%D6%B4%D7%A0%D6%BC%D6%B5%D7%94%D6%BE%D7%A0%D6%B8%D7%90+%D7%9C%D6%B4%D7%99+%D7%A9%D7%81%D6%B0%D7%AA%D6%BC%D6%B5%D7%99+%D7%91%D6%B8%D7%A0%D7%95%D6%B9%D7%AA+%D7%90%D6%B2%D7%A9%D7%81%D6%B6%D7%A8+%D7%9C%D6%B9%D7%90%D6%BE%D7%99%D6%B8%D7%93%D6%B0%D7%A2%D7%95%D6%BC+%D7%90%D6%B4%D7%99%D7%A9%D7%81+%D7%90%D7%95%D6%B9%D7%A6%D6%B4%D7%99%D7%90%D6%B8%D7%94%D6%BE%D7%A0%D6%BC%D6%B8%D7%90+%D7%90%D6%B6%D7%AA%D6%B0%D7%94%D6%B6%D7%9F+%D7%90%D6%B2%D7%9C%D6%B5%D7%99%D7%9B%D6%B6%D7%9D+%D7%95%D6%B7%D7%A2%D6%B2%D7%A9%D7%82%D7%95%D6%BC+%D7%9C%D6%B8%D7%94%D6%B6%D7%9F+%D7%9B%D6%BC%D6%B7%D7%98%D6%BC%D7%95%D6%B9%D7%91+%D7%91%D6%BC%D6%B0%D7%A2%D6%B5%D7%99%D7%A0%D6%B5%D7%99%D7%9B%D6%B6%D7%9D+%D7%A8%D6%B7%D7%A7+%D7%9C%D6%B8%D7%90%D6%B2%D7%A0%D6%B8%D7%A9%D7%81%D6%B4%D7%99%D7%9D+%D7%94%D6%B8%D7%90%D6%B5%D7%9C+%D7%90%D6%B7%D7%9C%D6%BE%D7%AA%D6%BC%D6%B7%D7%A2%D6%B2%D7%A9%D7%82%D7%95%D6%BC+%D7%93%D6%B8%D7%91%D6%B8%D7%A8+%D7%9B%D6%BC%D6%B4%D7%99%D6%BE%D7%A2%D6%B7%D7%9C%D6%BE%D7%9B%D6%BC%D6%B5%D7%9F+%D7%91%D6%BC%D6%B8%D7%90%D7%95%D6%BC+%D7%91%D6%BC%D6%B0%D7%A6%D6%B5%D7%9C+%D7%A7%D6%B9%D7%A8%D6%B8%D7%AA%D6%B4%D7%99+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B0%D7%A8%D7%95%D6%BC+%D7%92%D6%BC%D6%B6%D7%A9%D7%81%D6%BE%D7%94%D6%B8%D7%9C%D6%B0%D7%90%D6%B8%D7%94+%D7%95%D6%B7%D7%99%D6%BC%D6%B9%D7%90%D7%9E%D6%B0%D7%A8%D7%95%D6%BC+%D7%94%D6%B8%D7%90%D6%B6%D7%97%D6%B8%D7%93+%D7%91%D6%BC%D6%B8%D7%90%D6%BE%D7%9C%D6%B8%D7%92%D7%95%D6%BC%D7%A8+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A9%D7%81%D6%B0%D7%A4%D6%BC%D6%B9%D7%98+%D7%A9%D7%81%D6%B8%D7%A4%D7%95%D6%B9%D7%98+%D7%A2%D6%B7%D7%AA%D6%BC%D6%B8%D7%94+%D7%A0%D6%B8%D7%A8%D6%B7%D7%A2+%D7%9C%D6%B0%D7%9A%D6%B8+%D7%9E%D6%B5%D7%94%D6%B6%D7%9D+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A4%D6%B0%D7%A6%D6%B0%D7%A8%D7%95%D6%BC+%D7%91%D6%B8%D7%90%D6%B4%D7%99%D7%A9%D7%81+%D7%91%D6%BC%D6%B0%D7%9C%D7%95%D6%B9%D7%98+%D7%9E%D6%B0%D7%90%D6%B9%D7%93+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%92%D6%BC%D6%B0%D7%A9%D7%81%D7%95%D6%BC+%D7%9C%D6%B4%D7%A9%D7%81%D6%B0%D7%91%D6%BC%D6%B9%D7%A8+%D7%94%D6%B7%D7%93%D6%BC%D6%B8%D7%9C%D6%B6%D7%AA+%3A+%D7%95%D6%B7%D7%99%D6%BC%D6%B4%D7%A9%D7%81%D6%B0%D7%9C%D6%B0%D7%97%D7%95%D6%BC+%D7%94%D6%B8%D7%90%D6%B2%D7%A0%D6%B8%D7%A9%D7%81%D6%B4%D7%99%D7%9D+%D7%90%D6%B6%D7%AA%D6%BE%D7%99%D6%B8%D7%93%D6%B8%D7%9D+%D7%95%D6%B7%D7%99%D6%BC%D6%B8%D7%91%D6%B4%D7%99%D7%90%D7%95%D6%BC+%D7%90%D6%B6%D7%AA%D6%BE%D7%9C%D7%95%D6%B9%D7%98+%D7%90%D6%B2%D7%9C%D6%B5%D7%99%D7%94%D6%B6%D7%9D+%D7%94%D6%B7%D7%91%D6%BC%D6%B8%D7%99%D6%B0%D7%AA%D6%B8%D7%94+%D7%95%D6%B0%D7%90%D6%B6%D7%AA%D6%BE%D7%94%D6%B7%D7%93%D6%BC%D6%B6%D7%9C%D6%B6%D7%AA+%D7%A1%D6%B8%D7%92%D6%B8%D7%A8%D7%95%D6%BC+%3A%3C%2Fp%3E</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Die beiden Engel kamen am Abend nach Sodom. Lot saß im Stadttor von Sodom. Als er sie sah, erhob er sich, trat auf sie zu, warf sich mit dem Gesicht zur Erde nieder 2 und sagte: Meine Herren, kehrt doch im Haus eures Knechtes ein, bleibt über Nacht und wascht euch die Füße! Am Morgen könnt ihr euren Weg fortsetzen. Nein, sagten sie, wir wollen im Freien übernachten. 3 Er redete ihnen aber so lange zu, bis sie mitgingen und bei ihm einkehrten. Er bereitete ihnen ein Mahl, ließ ungesäuerte Brote backen und sie aßen. 4 Sie waren noch nicht schlafen gegangen, da umstellten die Einwohner der Stadt das Haus, die Männer von Sodom, Jung und Alt, alles Volk von weit und breit. 5 Sie riefen nach Lot und fragten ihn: Wo sind die Männer, die heute Abend zu dir gekommen sind? Heraus mit ihnen, wir wollen mit ihnen verkehren. 6 Da ging Lot zu ihnen hinaus vor die Tür, schloss sie hinter sich zu 7 und sagte: Aber meine Brüder, begeht doch nicht ein solches Verbrechen! 8 Seht, ich habe zwei Töchter, die noch keinen Mann erkannt haben. Ich will sie euch herausbringen. Dann tut mit ihnen, was euch gefällt. Nur jenen Männern tut nichts an; denn deshalb sind sie ja unter den Schutz meines Daches getreten. 9 Sie aber schrien: Mach dich fort!, und sagten: Kommt da so ein einzelner Fremder daher und will sich als Richter aufspielen! Nun wollen wir es mit dir noch schlimmer treiben als mit ihnen. Sie setzten dem Mann, nämlich Lot, arg zu und waren schon dabei, die Tür aufzubrechen. 10 Da streckten jene Männer die Hand aus, zogen Lot zu sich ins Haus und sperrten die Tür zu.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2445">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cairo, Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية), Moritz 1905, table 46 (below)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Moritz, Arabic Palaeography, Kairo 1905.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="9">Khedivial Library, today: Egyptian National Library and Archives (دار الكتب والوثائق القومية)
+                            , Cairo</repository>
+            <idno>Moritz 1905, table 46 (below)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single folio of a Qur'ān codex; Total amount of leaves and the shelmark is unknown; Writing surface: parchment; 16 lines per page; Dimensions: unknown; Qur'ānic text: Q 28:48-Q 28:62; Script style: New Style III; Estimated date of production: 5th-6th/11th-12th centuries according to <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/ZZZEKDZ7" sameAs="ZZZEKDZ7" type="zotero">Moritz 1905</ref>. </p>
+              <p>
+                <hi rend="italic"> </hi>
+              </p>
+              <p><hi rend="italic">Arabic Palaeography</hi> of Bernhard Moritz, published in Cairo in 1905, contains one image of the Qur'an codex on parchment with the title : "Fragments of two Kurʾāns. b) V - VI cent.  Khedivial Library" (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/ZZZEKDZ7">Moritz 1905, pl. 46.</ref>). The dimensions and number of folios of this fragment remains unknown.</p>
+            </summary>
+            <msItem xml:id="mysql_id_707311" n="46">
+              <title type="numeric" key="028:048:026-028:062:004">
+                                    028:048:026-028:062:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="46" xml:id="mysql_id_76589">
+      <graphic decls="#imageRights-1" url="manuscript/2445/dcc280c4-cb32-4a0a-b098-206139c6046a/manuscript-2445-page-76589-image-68852.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/2445/f863edb0-cdd8-44af-a6af-308f85f97288/manuscript-2445-page-76589-image-68870.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

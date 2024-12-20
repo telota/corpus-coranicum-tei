@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1955">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Detroit, Michigan, Detroit Institute of Arts, 1993.70</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="96">Detroit Institute of Arts
+                            , Detroit, Michigan</repository>
+            <idno>1993.70</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 1993.70; Qurʾānic Text: Q 93:10-95:1; 7 lines per page; Dimensions: 264 x 273mm;  Script style: Large Maġribī <hi rend="italic">mabsūṭ</hi>, angular chrysography (<hi rend="italic">sūra </hi>title); Estimated date of production: First half of 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p>
+              <p> </p>
+              <p>  </p>
+              <p>A folio from a lavish, multi-volume copy. Yellow/orange dots mark the <hi rend="italic">hamza </hi>above or below <hi rend="italic">alif</hi>, and green dots signal <hi rend="italic">alif al-waṣl</hi>. The symbols of <hi rend="italic">sukūn </hi>and <hi rend="italic">tašdīd </hi>are traced in blue, in contrast with all the other vocalisation marks, which are in red. The same can be said of the angular chrysography used for <hi rend="italic">sūra </hi>titles, with its characteristically long and pointed terminations, is strongly reminiscent of the epigraphy used in Marinid and Nasrid architectural decoration from the first half of the 14th century. Folios from this very manuscript are in:</p>
+              <p/>
+              <p> </p>
+              <p> </p>
+              <p>This  is a collection of the fragments under the shelfmark 1993.70, consisting  of <ref target="https://dia.org/collection/qur-folio-49187">1993.70.A</ref> and <ref target="https://dia.org/collection/qur-folio-95416">B</ref>. For further information about the fragments in question, see the linked pages of the Detroit Institute of Arts.</p>
+              <p>   </p>
+            </summary>
+            <msItem xml:id="mysql_id_698601" n="1r">
+              <title type="numeric" key="093:010:001-094:003:003">
+                                    093:010:001-094:003:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708074" n="1v">
+              <title type="numeric" key="094:004:001-095:000:004">
+                                    094:004:001-095:000:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>264</width><height>273</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1300-1350</origDate>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb), al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_54334">
+      <graphic decls="#imageRights-1" url="manuscript/1955/d219c809-c3b6-4cde-91f0-4d3025d9d64e/manuscript-1955-page-54334-image-44360.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76897">
+      <graphic decls="#imageRights-1" url="manuscript/1955/3d2d6f27-ed50-4203-859e-7c001bcff1ec/manuscript-1955-page-76897-image-69135.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

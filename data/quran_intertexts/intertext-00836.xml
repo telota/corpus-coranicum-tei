@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hymnen auf das Paradies (De Paradiso) X, 12-13</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_836" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>836</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Ephrem vergleicht in seiner zehnten Hymne De Paradiso die Früchte der Bäume im Paradies, die fortwährend gedeihen und reifen, mit dem ununterbrochenen „Strom der Menschheit“ (syr. nahrā d-ʾenāšūtā), d.h. mit der von Jahreszeiten unabhängigen Fortpflanzung des Menschengeschlechts. Wie auch in anderen Schriften verknüpft Ephrem auch hier das Motiv der reifen Früchte mit sexueller Symbolik, vor allem im Kontext der Paradiesbeschreibung (siehe v.a. TUK_0603). Es ist daher bemerkenswert, wie konsequent auch der Koran das Motiv der paradiesischen Früchte mit den Jungfrauen verbindet. Es sei hier nur ein Beispiel aus der Sure al-Wāqiʿa (Q 56) angeführt (weitere Belege sind: Q 36:56-57; 38:51-52; 44:54-55; 52:20-22; 55:52-56, 68-70). Nachdem in Vers 29-31 die Bäume mit ihrem Schatten und das Wasser des Paradieses erwähnt werden (siehe dazu TUK_0835), spricht der Koran in Vers 32 über reichlich vorhandene Früchte (wa-fākihatin kaṯīratin), welche die “Gefährten der rechten Seite” (ʾaṣḥābu l-yamīn, Q 56:27, d.h. die Gerechten) “ununterbrochen und unbehindert” zur Verfügung haben (lā maqṭūʿatin wa-lā mamnūʿatin, Vers 33). Diese genießen die Gerechten auf “erhöhten Ruhebetten”, wo sie anscheinend auch die in Q 56:35-38 beschriebenen, “liebevollen und gleichaltrigen Jungfrauen” erwarten (fa-ǧaʿalnāhunna ʾabkāran / ʿuruban ʾatrāban) [Übs. Paret].</summary>
+            <msItem>
+              <title>Hymnen auf das Paradies (De Paradiso) X, 12-13</title>
+              <author>Ephrem der Syrer (306-373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">306-373</origDate>
+              <origPlace>Nisibis/Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Des heiligen Ephraem des Syrers Hymnen de Paradiso, Louvain 1957 (Corpus Scriptorum Christianorum Orientalium 174, Scriptores Syri 78), S. 42-46.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>1 ܐܝܢܘ ܟܝ ܦܘܡܐ ܕܬܪܓܡܗ ܠܦܪܕܝܣܐ ܘܐܝܢܘ ܠܫܢܐ ܕܦܫܩܗ̇ ܠܬܫܒܘܚܬܗ ܘܐܝܢܘ ܪܥܝܢܐ ܕܨܪܗ ܠܦܐܝܘܬܗ ܕܠܐ ܡܬܒܨܐ ܥܘܒܗ ܡܣܬܪܐ ܐܬܗܪ ܒ̈ܓܠܝܬܐ ܕܫܕܝܢ ܠܒܪ ܡܢܗ ܕܐܕܥ ܟܡܐ ܦܫܬ ܡܢܗܝܢ ܕܟܣ̈ܝܬܗ ܥܘܢܝܬܐ: ܗܒ ܠܢ ܕܒܦܪܕܝܣܟ ܢܚܙܐ ܠܙܕܝܩ̈ܝܟ 2 ܒܐܐܪ ܡܡܙܓܬܐ ܕܡܢ ܒܪ ܟܪܝܟܐ ܠܗ ܡܬܡܙܓܝܢ ܝܖ̈ܚܐ ܕܡܬܩܪܒܝܢ ܨܐܕܘܗܝ ܟܡܝܪܐ ܫܒܛ ܝܪܚܐ ܐܝܟ ܐܝܪ ܦܨܝܚ ܬܡܢ ܘܟܢܘܢ ܕܓܠܝܕ̈ܘܗܝ ܘܡܫ̈ܒܘܗܝ ܐܝܟ ܐܒ ܕܐܒ̈ܒܢܘܗܝ ܚܙܝܪܢ ܐܝܟ ܢܝܣܢ ܘܬܡܘܙ ܕܟܘܖ̈ܢܘܗܝ ܛ̈ܠܘܗܝ ܩܢܐ ܕܬܫܪܝ 3 ܝܖ̈ܚܐ ܕܬ̈ܚܘܒܝܢ ܡܬܥܕܢܝܢ ܒܐܐܪ ܕܫܒܒܬܐ ܗܝ ܕܥܕܢ ܗܘܬ ܠܗ ܡܥܕܢܬܐ ܝܖ̈ܚܐ ܓܣܘ ܦܩ̈ܚܐ ܒܚܘܕܪܗ ܕܦܪܕܝܣܐ ܕܒܟܠ ܙܒܢ ܢܗܘܘܢ ܓܕܠܝܢ ܟܠܝܠܐ ܕܗܒ̈ܒܐ ܕܢܟܠܠܘܢ ܥܩܒ̈ܘܗܝ ܕܐܬܪܐ ܕܠܐ ܫ̈ܘܝܢ ܕܢܟܠܠܘܢ ܪܫܗ4 ܠܐ ܓܝܪ ܡܨܝܢ ܝܖ̈ܚܐ ܫ̈ܓܝܫܝ ܒܢܫ̈ܒܝܗܘܢ ܠܡܥܠ ܠܦܪܕܝܣܐ ܡܫܝܢ ܒܫܠܝܘܬܗ ܐܢ ܓܝܪ ܒܗ̇ܝ ܐܐܪ ܕܫܪܝܐ ܠܒܪ ܡܢܗ ܐܙܕܟܝܘ ܕܘܘ̈ܕܐ ܕܟܠܗܘܢ ܐܝܟܢ ܡܨܝܢ ܡܛܝܢ ܠܐܐܪ ܡܫܒܚܬܐ ܕܣܘܩܗ̇ ܡܫܝܢܐ ܗܘ ܡܢܚܡ ܒ̈ܢܝ ܐܢܫܐ 5 ܐܐܪ ܕܗܢ ܐܬܪܐ ܕܡܘܬܐ ܗܝ ܕܙܢܝܬܐ ܕܬܪܥܣܖ̈ ܝܖ̈ܚܝܢ ܡܫܬܘܬܦܝܢ ܥܡܗ̇ ܘܚܕ ܚܕ ܒܫܘܠܛܢܗ ܡܫܚܠܦ ܘܥܨܐ ܠܗ̇ ܟܕ ܝܠܕܐ ܦܐܖ̈ܐ ܕܟܘܠܗܘܢ ܗ̣ܝ ܕܝܢ ܡܩܕܫܬܐ ܘܐܐܪ ܡܨܠܠܬܐ ܠܐ ܩܪܒܝܢ ܢܩ̈ܦܐ ܕܝܖ̈ܚܐ ܠܕܟܝܘܬܗ̇ 6 ܠܐ ܓܝܙܐ ܬܡܢ ܡܥܝܢܐ ܕܦܖ̈ܥܝܗܘܢ ܕܝܪܚܐ ܛܥܝܢ ܦܐܪܗ ܫܒܒܗ ܠܗܒ̈ܒܐ ܬܖ̈ܝܥܝܢ ܫܕܝܢ ܬܡܢ ܢܒ̈ܥܐ ܕܓܐ̈ܘܬܐ ܚܡܪܐ ܚܠܒܐ ܘܕܒܫܐ ܘܚܐܘܬܐ ܟܢܘܢ ܛܥܝܢ ܥܣ̈ܒܐ ܘܚܒܪܗ ܦܖ̈ܝܟܬܐ ܡܫܠܚ ܫܒܛ ܘܙܗܐ ܕܟܦܐ ܛ̇ܥܢ ܬܡܢ7 ܝܖ̈ܚܐ ܠܛܘ̈ܟܣܐ ܐܖ̈ܒܥܐ ܦ̈ܠܝܓܝܢ ܐܢܘܢ ܒܝܖ̈ܚܐ ܬܠܝ̈ܬܝܐ ܦܐܖ̈ܐ ܕܒܟܖ̈ܝܢ ܒܝܖ̈ܚܐ ܫ̈ܬܝܬܝܐ ܐܕܫ̈ܐ ܕܫܡ̈ܝܢܝܢ ܝܖ̈ܚܐ ܬܫ̈ܝܥܝܐ ܡܒܫܠܝܢ ܠܦܐܖ̈ܐ ܠܩܝ̈ܫܝܐ ܒܫܘܠܡ ܟܠܝܠ ܫܢܬܐ ܦܖ̈ܥܐ ܕܖ̈ܘܚܢܝܢ ܘܒ̈ܛܢܐ ܕܖ̈ܘܝܙܝܢ8 ܣܗܪܐ ܕܫܘ̈ܚܠܦܐ ܡܫܚܠܦ ܠܗ̈ܒܒܐ ܕܡܬܦܬܚܝܢ ܥܘܒ̈ܐ ܕܣܘ̈ܟܐ ܒܪܝܫ ܝܖ̈ܚܐ ܘܡܠܝܢ ܒܓܘ ܟܣ̈ܐܐ ܘܦܖ̈ܣܝܢ ܠܟܠ ܓܒ̈ܝܢ ܒܫܘܠܡ ܝܖ̈ܚܐ ܬܘܒ ܩܦܣܝܢ ܥܡܕܝܢ ܒܫܘܠܡܗ ܢܒܓܝܢ ܒܫܘܪܝܗ ܐܩܠܝܕܐ ܗܘ ܕܥܘܒ̈ܝܗܘܢ ܕܦܬ̇ܚ ܘܬܘܒ ܐܚܕ9 ܡܢܘ ܚ̣ܙܐ ܥܘ̈ܒܐ ܒ̈ܛܝܢܐ ܕܗ̈ܒܒܐ ܕܡܘܠܕ ܠܗܘܢ ܡܢ ܫܠܝ ܚܒܠܗ ܕܪܝܫ ܝܪܚܐ ܘܡܣܩ ܠܗܘܢ ܥܡܗ ܒܕܖ̈ܓܐ ܕܬܪܒܝܬܗ ܡܬܥܠܡܝܢ ܒܟܣܐܗ ܘܡܦܪܓܝܢ ܘܒܡܚܬܐ ܕܕܖ̈ܓܘܗܝ ܕܢܚ̇ܬ ܠܣܝܒܘܬܐ ܬܘܒ ܣܐܒܝܢ ܥܡܗ ܘܛܠܝܢ ܒܡܘܠܕܗ10 ܦܐܖ̈ܘܗܝ ܘܗܒ̈ܒܘܗܝ ܩܢܝܢ ܐܢܘܢ ܝܚܝܕܐܝܬ ܓ̈ܙܐ ܝܚܝ̈ܕܝܐ ܕܣܓܝܢ ܒܡܘܙܓܐ ܫܒ̈ܒܐ ܬܖ̈ܝܢ ܦܩ̈ܚܐ ܕܚܕ ܚܕ ܩ̇ܢܐ ܓܘܢܗ ܡܐ ܕܐܫܬܘܝܘ ܐܟܚܕ ܘܚܕ ܗܘܘ ܐܘܠܕܘ ܐܚܪܝܢ ܓܘܢܐ ܘܡܐ ܕܐܫܬܘܝܘ ܦܐܖ̈ܐ ܐܘܠܕܘ ܐܚܪܝܢ ܫܘܦܪܐ ܘܛܖ̈ܦܘܗܝ ܐܚܪܝܢ ܚܙܘܐ 11 ܕܘܡܝܐ ܗܘ ܕܫܫܠܬܐ ܪܕܝܐ ܕܐܝ̈ܠܢܘܗܝ ܕܡܐ ܕܐܬܩܛܦܘ ܘܐܘܦܝܘ ܦܐܖ̈ܐ ܩܕܝ̈ܡܝܐ ܥܠܘ ܬܘܒ ܬܢܝ̈ܢܐ ܘܐܕܫ̈ܐ ܬܠܝ̈ܬܝܐ ܡܢܘ ܚ̣ܙܐ ܡܡܬܘܡ ܟܕ ܐܚܝܕ ܦܐܪܐ ܠܩܝܫܝܐ ܒܥܩܒܗ ܕܒܟܪܐ ܐܝܟ ܡܐ ܕܐܚܕ ܥܘܠܐ ܒܥܩܒܗ ܕܩܫܝܫܐ12 ܕܡܐ ܒܝܘܒ̈ܠܘܗܝ ܗ̇ܘ ܡܪܒܥܐ ܕܦܐܖ̈ܐ ܠܢܒܥܐ ܕܙܘܘܓܐ ܕܡܪܕܐ ܒ̈ܢܝܢܫܐ ܕܐܝܬ ܒܗ ܕܩ̈ܫܝܫܝܢ ܥ̈ܠܝܡܝܢ ܘܡ̈ܨܥܝܝܢ ܥܘ̈ܠܐ ܕܢܦܩܘ ܒ̈ܛܢܐ ܕܢܦܩܝܢ ܦܐܖ̈ܘܗܝ ܒܝܘܒܠܐ ܥܖ̈ܝܢ ܚܕ ܠܚܕ ܘܐܬܝܢ ܒܕܡܘܬ ܝܘܒܠܐ ܐܡܝܢܐ ܕܐܢܫܘܬܐ 13 ܪܕܐ ܒܟܠ ܡܘ̈ܫܚܢ ܢܘܗܪܐ ܕܐܢܫܘܬܐ ܒܣ̈ܒܐ ܘܒܥ̈ܠܝܡܐ ܛ̈ܠܝܐ ܘܝ̈ܠܘܕܐ ܥܘ̈ܠܐ ܒܟܢ̈ܦܬܐ ܘܒ̈ܛܢܐ ܒܟܖ̈ܣܬܐ ܐܦ ܗ̣ܝ ܡܪܕܝܬܐ ܕܐܕ̈ܫܐ ܖ̈ܕܝܢ ܒܟܝܖ̈ܝܐ ܘܥܡܗܘܢ ܠܩܝ̈ܫܝܐ ܓ̈ܠܠܐ ܕܐܒܒ̈ܢܐ ܘܫ̈ܦܥܐ ܕܗܒ̈ܒܐ14 ܛܘܒܘܗܝ ܠܚܛܝܐ ܕܐܬܚܢܢ ܒܗ̇ܘ ܐܬܪܐ ܘܫܘܐ  ܕܢܪܦܘܢܝܗܝ ܚܕܖ̈ܘܗܝ ܕܦܪܕܝܣܐ ܕܐܦܢ ܠܒܪ ܡܢܗ ܢܪܥܐ ܒܛܝܒܘܬܐ ܘܕܪܢܝܬ ܘܬܘܒ ܕܚܠܬ ܕܐܡܪܚܬ ܕܣܒܪܬ ܕܕܠܡܐ ܟܝ ܒܝܬ ܓܢܬܐ ܠܢܘܪܐ ܡܬܪܕܝܢ ܘܡܫܬܒܩܝܢ ܐܝܠܝܢ ܕܡܬܚܢܢܝܢ 15 ܫܘܒܚܐ ܠܗ̇ܘ ܟܐܢܐ ܡܫܠܛ ܒܛܝܒܘܬܗ ܛܒܐ ܗܘ ܕܠܘ ܠܓܡܪ ܩܦܣ ܠܗܘܢ ܡ̈ܬܚܘܗܝ ܥܕܡܐ ܠܘܬ ܒܝ̈ܫܐ ܡܬܦܫܛ ܒܖ̈ܘܚܦܘܗܝ ܥܢܢܗ ܥܠ ܩ̈ܢܝܢܘܗܝ ܡܪܚܦܐ ܗܝ ܐܦ ܥܠܝܗ̇ ܕܗ̇ܝ ܢܘܪܐ ܪܣܡܐ ܗܝ ܕܡܢ ܖ̈ܚܡܘܗܝ ܬܛܥܡ ܠܡܖ̈ܝܪܐ ܒ̈ܛܠܐ ܕܦܘܝܓܐ
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Welcher Mund hätte wohl (je) das Paradies erklärt, und welche Zunge seine Herrlichkeit dargetan, und welcher Geist seine Schönheit sich vorgestellt! Weil unerforschlich ist sein Schoss, der verborgene, will ich über die Sichtbarkeiten staunen, die aus ihm verbannt sind, damit ich erkenne, wie sehr ich versagte vor seinen Geheimnissen. RESPONSORIUM: Gib uns, dass wir in deinem Paradiese deine Gerechten sehen!2 In der gemässigten Luft, die draussen (das Paradies) umgibt, sind (auch) die Monate gemässigt, die ihm nahen. Der düstere Monat Februar ist dort strahlend wie der Mai. Und der Dezember mit seinen Frösten und Stürmen ist wie der August mit seinen Früchten. Der Junie ist wie der April und der Juli mit seiner Hitze hat dort den Tau des Oktobers gewonnen. 3 (Unsere) armseligen Monate werden wonnig durch die Luft, die als Nachbarin Edens (selbst) wonnevoll geworden ist. Die Monate haben in Ueberfülle Blumen hervorgebracht in der Umfriedung des Paradieses, um zu jeder Zeit einen Kranz von Blüten zu flechten, die die Ferse (des Paradieses) bekränzen sollen, jenes Ortes, dessen Haupt zu bekränzen sie nicht würdig sind.4 Denn nicht können die Monate mit den Störungen ihrer Winde das Paradies betreten, das in seiner Ruhe befriedete. Denn wenn (schon) in jener Luft, die draussen wohnt, überwunden sind die Störungen aller (Winde), wie könnten sie dann vordringen bis zu jener preiswürdigen Luft, deren himmlischer Hauch die Menschen auferwecken wird.5 Die Luft dieses (unseres) Raumes gleicht einer Dirne; die zwölf Monate buhlen mit ihr, und jeder einzelne tut mit seiner Macht ihr auf verschiedene Weise Gewalt an, und sie gebiert Früchte von ihnen allen. Jene keusche und lautere Luft (aber), fern bleiben die Berührungen der Monate ihrer Reinheit.6 Nicht versiegt dort der Quell ihrer Blüten; denn ein Monat trägt die Frucht, sein Nachbar die Blüten. Geöffnet (und) ausgegossen sind die Quellen der Wonnen, Wein, Milch und Honig und Butter. Der Dezember bringt Kräuter und (der Januar), sein Genosse, Körner. Frei und strahlend ist der Februar, der dort die Garben trägt.7 Die Monate sind in vier Ordnungen eingeteilt. In den dritten Monaten die Erstlingsfrüchte, in den sechsten Monaten die (Haupt)früchte. Die neunten Monate reifen die Spätfrüchte. Am Ende des Jahreskranzes geistige Blüten und üppig spriessende Knospen.8 Der sich ändernde Mond ändert die Blüten: es öffnen sich die Schosse der Zweige zu Beginn der Monate; bei Vollmond gewinnen sie die Fülle und strecken sich nach allen Seiten, am Ende des Monats ziehen sie sich wieder zusammen. Sie gehen unter mit seinem Ende und kommen wieder hervor mit seinem Beginn. (Der Monat) ist der Schlüssel ihrer Schosse, der öffnet und wieder schliesst. 9 Wer sah (je) Schosse, schwanger mit Blüten: die Geburtswehen des Monatsanfangs bringen sie plötzlich ans Tageslicht; (der Monat) lässt sie mit sich aufsteigen die Stufen seines Wachstums; sie stehn auf der Höhe ihrer Entwicklung bei Vollmond und blühen, und beim Herabsteigen der Stufen hin zum Greisenalter werden (auch) sie mit ihm alt, um (wieder) jung zu werden bei seinem Anfang.10 Seine Früchte und Blüten haben einzeln ihre einzelnen Schätze, die sich (aber) durch Mischung vermehren. Wenn zwei benachbarte Blüten, von denen jede ihre Farbe hat, sich verbinden und vereinen, bringen sie eine andre Farbe hervor, und wenn sich Früchte verbinden, erzeugen sie eine andre Schönheit und die Blätter ein andres Aussehn. 11 Wie eine Kette ist die ununterbrochene (Fruchtbarkeit) seiner Bäume; denn wenn gepflückt sind alle Erstlingsfrüchte, dann treten die zweiten und die dritten Früchte auf. Wer sah je eine Spätlingsfrucht die Ferse der ersten Frucht haltend, wie die Ferse des älteren das (Zwillings)kind hielt.12 Jener Mutterschoss der Früchte gleicht mit seinen Geburten der Quelle der ehelichen Verbindung, die (den Strom) der Menschen fliessen lässt, in dem sich Alte finden, Junge und Mittlere, Neugeborne, die das Tageslicht (schon) erblickt haben oder (eben) erblicken. Seine Früchte fangen ständig in der Fortpflanzung sich gegenseitig, wie die Fortpflanzung der Menschen, die ununterbrochne.13 Der Strom der Menschheit führt alle Lebensalter mit sich, Greise und Jünglinge, Knaben und Kinder, Kinder an der Mutterbrust, Kinder im Mutterschoss. Auch jenes Strömen der Früchte führt Erstgeborne mit sich und zugleich mit ihnen Spätgeborne, Wogen von Früchten und Fluten von Blüten.14 Selig der Sünder, der Gnade fand an jenem Ort, und würdig war, dass man ihn beliess im Umkreis des Paradieses, um dort, wenn auch ausserhalb seiner, aus Güte zu weiden. Und ich überlegte und empfand wieder Furcht über meine verwegne Meinung, dass vielleicht zwischen Garten und Feuer gestraft und zurückgelassen werden diejenigen, die Gnade finden werden. 15 Lob sei jenem Gerechten, der (auch) über seine Güte frei verfügt! Er ist der Gütige, der niemals ihnen das Sichausstrecken seiner (Güte) vorenthält. Bis zu den Bösen breitet er sich aus in den Ueberschattungen seines (Erbarmens). Seine Wolke überschattet seinen Besitz; selbst über jenes Feuer träufelt sie, damit sie, weil er barmherzig ist, verkosten lasse die Bittren den Tau der Erquickung.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 What mouth has ever described Paradise, what tongue has told of its glory, what mind has depicted its beauty? Indeed its hidden recesses cannot be scrutinized; I can only marvel at what is visible, at those things which lie outside Paradise, and so I realize how far I remain from its hidden secrets.RESPONSE: Grant us to see Your righteous ones in Your Paradise.2 In the temperate atmosphere that surrounds its outer boundary the months that pass by there are also temperate: there dismal February resembles radiant May, January with its icy blasts is like August with its fruits; June is like April and torrid July has September’s dews.3 Our feeble months take on Eden’s delights in the atmosphere that surrounds Eden, for Eden makes them like itself. The months blossom with flowers all around Paradise in order to weave throughout every season a wreath of blossom to embellish the slopes of Paradise, being themselves not worthy to provide a crown for the summit.4 Because the months are stricken by storms they cannot enter Paradise, so still in its tranquility. If all the months’ tempests are overcome in that atmosphere outside Paradise, how can they pollute the glorious air whose heavenly breath restores humanity to life?5 The air of this earth is wanton as a prostitute with whom the twelve months consort: each one in turn makes her comply with its own whims while she produces fruits from them all; whereas the chaste and pure air of Paradise is unpolluted in its purity by the dalliance of the months.6 There the abundant flow of their produce is ceaseless, for each month bears its own fruit, its neighbor, flowers. There the springs of delights open up and flow with wine, milk, honey and cream. Grass flourishes in December, after it January produces wheat; February, divested of its cold and now radiant, bears sheaves in Paradise.7 The months are divided into four groups: the firstfruits show themselves in the first three months, in the next three come the luscious soft fruits, the seventh to ninth months ripen the late fruits, while at the end, the year’s crown, the pregnant buds are bursting forth with joy. 8 The phases of the moon produce variation in the flowers; at the beginning of the months the branches open up their buds; at full moon they blossom, ripening in every direction, to subside once again at each month’s completion. They sink down as one month ends to sprout forth when the next begins; the month furnishes the key for the opening and closing of their buds.9 Who has ever beheld flowers with pregnant wombs which each month brings to pangs of labor, then, suddenly, to give birth? As the month increases, so do the flowers mirror its progress; at full moon they reach maturity, blossoming out, while as the month advances toward old age the flowers too grow old, only to be rejuvenated as the next is born.10 Each month’s fruits and flowers possess individually their own particular treasures, but when these are cross fertilized, they multiply: when two neighboring flowers, each with its distinctive color are crossed to become one, they produce a new color. When fruits are thus crossed they create a new and beautiful offspring whose foliage is different.11 In Paradise the life cycle of the trees resembles a necklace: when the fruits of the first are finished and plucked, then the second ones are ready, with a third species following them. Who has ever beheld the autumnal fruits grasping the heels of the first fruits, just as Jacob grasped hold of his brother’s heel?12 That cornucopia full of fruits in all stages of development resembles the course of human marriage; it contains the old, young and middle-aged, children who have already been born, and babies still unborn; its fruits follow one another and appear like the continuous succession of humankind.13 The river of humanity consists of people of all ages, with old, young, children and babes, infants in their mothers’ arms and others still unborn, in the womb. Such is the sequence of Paradise’s fruit: firstfruits issued forth with the autumn harvest, wave upon wave, fecund with blossoms and fruit.14 Blessed the sinner who has received mercy there and is deemed worthy to be given access to the environs of Paradise; even though he remains outside, he may pasture there through grace. As I reflected I was fearful again because I had presumed to suppose that there might be between the Garden and the fire a place where those who have found mercy can receive chastisement and forgiveness. 15 Praise to the Just One who rules with His grace; He is the Good One who never draws in the limits of His goodness; even to the wicked He stretches forth in His compassion. His divine cloud hovers over all that is His; it drips dew even on that fire of punishment so that, of His mercy, it enables even the embittered to taste of the drops of its refreshment.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

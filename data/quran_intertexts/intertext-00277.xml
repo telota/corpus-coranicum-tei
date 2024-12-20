@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri 16:1-35</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_277" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>277</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der hier zitierte Text aus Numeri hat die Auslöschung Korachs und seiner Sippe zum Gegenstand, die sich gegen Moses und Aaron wenden und priesterliche Ehren fordern. Sie werden für ihre Ansprüche auf die gleiche Weise bestraft wie in Q 28:76-84 Qārūn (i.d.R. mit Korach identifiziert, vgl. MacDonald 2012; zur Bildung des Namens vgl. Horovitz 1926: p. 81-82, 131), der ebenfalls ein höheres Wissen für sich beansprucht. Sowohl Korach als auch Qārūn werden mit ihren Häusern von der Erde verschlungen (Num 16:30-33, Q 28:81). Im Gegensatz zu Numeri 16:1-35 wird in Q 28 auch der materielle Reichtum Qārūns betont (vgl. TUK_1074 und TUK_1075), wodurch der Akzent auch auf einer Bestrafung für diesseitig orientiertes Streben nach Macht und Besitztum liegt.
+</summary>
+            <msItem>
+              <title>Numeri 16:1-35</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Horovitz, Josef: Koranische Untersuchungen. de Gruyter, Berlin [u.a] 1926.</bibl>
+              <bibl type="literatur">MacDonald, D.B.: &amp;#x201E;&amp;#x1E32;&amp;#x101;r&amp;#x16B;n&amp;#x201C; (P. Bearman, T. Bianquis, C. E. Bosworth, E. van Donzel, &amp;amp; W. P. Heinrichs, Hrsg.). Encyclopaedia of Islam Online, Second Edition.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nora K. Schmid</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיִּקַּח קֹרַח בֶּן־יִצְהָר בֶּן־קְהָת בֶּן־לֵוִי וְדָתָן וַאֲבִירָם בְּנֵי אֱלִיאָב וְאוֹן בֶּן־פֶּלֶת בְּנֵי רְאוּבֵן וַיָּקֻמוּ לִפְנֵי מֹשֶׁה וַאֲנָשִׁים מִבְּנֵי־יִשְׂרָאֵל חֲמִשִּׁים וּמָאתָיִם נְשִׂיאֵי עֵדָה קְרִאֵי מוֹעֵד אַנְשֵׁי־שֵׁם וַיִּקָּהֲלוּ עַל־מֹשֶׁה וְעַל־אַהֲרֹן וַיֹּאמְרוּ אֲלֵהֶם רַב־לָכֶם כִּי כָל־הָעֵדָה כֻּלָּם קְדֹשִׁים וּבְתוֹכָם יְהוָה וּמַדּוּעַ תִּתְנַשְּׂאוּ עַל־קְהַל יְהוָה וַיִּשְׁמַע מֹשֶׁה וַיִּפֹּל עַל־פָּנָיו וַיְדַבֵּר אֶל־קֹרַח וְאֶל־כָּל־עֲדָתוֹ לֵאמֹר בֹּקֶר וְיֹדַע יְהוָה אֶת־אֲשֶׁר־לוֹ וְאֶת־הַקָּדוֹשׁ וְהִקְרִיב אֵלָיו וְאֵת אֲשֶׁר יִבְחַר־בּוֹ יַקְרִיב אֵלָיו זֹאת עֲשׂוּ קְחוּ־לָכֶם מַחְתּוֹת קֹרַח וְכָל־עֲדָתוֹ וּתְנוּ בָהֵן אֵשׁ וְשִׂימוּ עֲלֵיהֶן קְטֹרֶת לִפְנֵי יְהוָה מָחָר וְהָיָה הָאִישׁ אֲשֶׁר־יִבְחַר יְהוָה הוּא הַקָּדוֹשׁ רַב־לָכֶם בְּנֵי לֵוִי וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח שִׁמְעוּ־נָא בְּנֵי לֵוִי הַמְעַט מִכֶּם כִּי־הִבְדִּיל אֱלֹהֵי יִשְׂרָאֵל אֶתְכֶם מֵעֲדַת יִשְׂרָאֵל לְהַקְרִיב אֶתְכֶם אֵלָיו לַעֲבֹד אֶת־עֲבֹדַת מִשְׁכַּן יְהוָה וְלַעֲמֹד לִפְנֵי הָעֵדָה לְשָׁרְתָם וַיַּקְרֵב אֹתְךָ וְאֶת־כָּל־אַחֶיךָ בְנֵי־לֵוִי אִתָּךְ וּבִקַּשְׁתֶּם גַּם־כְּהֻנָּה לָכֵן אַתָּה וְכָל־עֲדָתְךָ הַנֹּעָדִים עַל־יְהוָה וְאַהֲרֹן מַה־הוּא כִּי תַלִּונוּ עָלָיו וַיִּשְׁלַח מֹשֶׁה לִקְרֹא לְדָתָן וְלַאֲבִירָם בְּנֵי אֱלִיאָב וַיֹּאמְרוּ לֹא נַעֲלֶה הַמְעַט כִּי הֶעֱלִיתָנוּ מֵאֶרֶץ זָבַת חָלָב וּדְבַשׁ לַהֲמִיתֵנוּ בַּמִּדְבָּר כִּי־תִשְׂתָּרֵר עָלֵינוּ גַּם־הִשְׂתָּרֵר אַף לֹא אֶל־אֶרֶץ זָבַת חָלָב וּדְבַשׁ הֲבִיאֹתָנוּ וַתִּתֶּן־לָנוּ נַחֲלַת שָׂדֶה וָכָרֶם הַעֵינֵי הָאֲנָשִׁים הָהֵם תְּנַקֵּר לֹא נַעֲלֶה וַיִּחַר לְמֹשֶׁה מְאֹד וַיֹּאמֶר אֶל־יְהוָה אַל־תֵּפֶן אֶל־מִנְחָתָם לֹא חֲמוֹר אֶחָד מֵהֶם נָשָׂאתִי וְלֹא הֲרֵעֹתִי אֶת־אַחַד מֵהֶם וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח אַתָּה וְכָל־עֲדָתְךָ הֱיוּ לִפְנֵי יְהוָה אַתָּה וָהֵם וְאַהֲרֹן מָחָר וּקְחוּ אִישׁ מַחְתָּתוֹ וּנְתַתֶּם עֲלֵיהֶם קְטֹרֶת וְהִקְרַבְתֶּם לִפְנֵי יְהוָה אִישׁ מַחְתָּתוֹ חֲמִשִּׁים וּמָאתַיִם מַחְתֹּת וְאַתָּה וְאַהֲרֹן אִישׁ מַחְתָּתוֹ וַיִּקְחוּ אִישׁ מַחְתָּתוֹ וַיִּתְּנוּ עֲלֵיהֶם אֵשׁ וַיָּשִׂימוּ עֲלֵיהֶם קְטֹרֶת וַיַּעַמְדוּ פֶּתַח אֹהֶל מוֹעֵד וּמֹשֶׁה וְאַהֲרֹן וַיַּקְהֵל עֲלֵיהֶם קֹרַח אֶת־כָּל־הָעֵדָה אֶל־פֶּתַח אֹהֶל מוֹעֵד וַיֵּרָא כְבוֹד־יְהוָה אֶל־כָּל־הָעֵדָה וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶל־אַהֲרֹן לֵאמֹר הִבָּדְלוּ מִתּוֹךְ הָעֵדָה הַזֹּאת וַאַכַלֶּה אֹתָם כְּרָגַע וַיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ אֵל אֱלֹהֵי הָרוּחֹת לְכָל־בָּשָׂר הָאִישׁ אֶחָד יֶחֱטָא וְעַל כָּל־הָעֵדָה תִּקְצֹף וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר דַּבֵּר אֶל־הָעֵדָה לֵאמֹר הֵעָלוּ מִסָּבִיב לְמִשְׁכַּן־קֹרַח דָּתָן וַאֲבִירָם וַיָּקָם מֹשֶׁה וַיֵּלֶךְ אֶל־דָּתָן וַאֲבִירָם וַיֵּלְכוּ אַחֲרָיו זִקְנֵי יִשְׂרָאֵל וַיְדַבֵּר אֶל־הָעֵדָה לֵאמֹר סוּרוּ נָא מֵעַל אָהֳלֵי הָאֲנָשִׁים הָרְשָׁעִים הָאֵלֶּה וְאַל־תִּגְּעוּ בְּכָל־אֲשֶׁר לָהֶם פֶּן־תִּסָּפוּ בְּכָל־חַטֹּאתָם וַיֵּעָלוּ מֵעַל מִשְׁכַּן־קֹרֶח דָּתָן וַאֲבִירָם מִסָּבִיב וְדָתָן וַאֲבִירָם יָצְאוּ נִצָּבִים פֶּתַח אָהֳלֵיהֶם וּנְשֵׁיהֶם וּבְנֵיהֶם וְטַפָּם וַיֹּאמֶר מֹשֶׁה בְּזֹאת תֵּדְעוּן כִּי־יְהוָה שְׁלָחַנִי לַעֲשׂוֹת אֵת כָּל־הַמַּעֲשִׂים הָאֵלֶּה כִּי־לֹא מִלִּבִּי אִם־כְּמוֹת כָּל־הָאָדָם יְמֻתוּן אֵלֶּה וּפְקֻדַּת כָּל־הָאָדָם יִפָּקֵד עֲלֵיהֶם לֹא יְהוָה שְׁלָחָנִי וְאִם־בְּרִיאָה יִבְרָא יְהוָה וּפָצְתָה הָאֲדָמָה אֶת־פִּיהָ וּבָלְעָה אֹתָם וְאֶת־כָּל־אֲשֶׁר לָהֶם וְיָרְדוּ חַיִּים שְׁאֹלָה וִידַעְתֶּם כִּי נִאֲצוּ הָאֲנָשִׁים הָאֵלֶּה אֶת־יְהוָה וַיְהִי כְּכַלֹּתוֹ לְדַבֵּר אֵת כָּל־הַדְּבָרִים הָאֵלֶּה וַתִּבָּקַע הָאֲדָמָה אֲשֶׁר תַּחְתֵּיהֶם וַתִּפְתַּח הָאָרֶץ אֶת־פִּיהָ וַתִּבְלַע אֹתָם וְאֶת־בָּתֵּיהֶם וְאֵת כָּל־הָאָדָם אֲשֶׁר לְקֹרַח וְאֵת כָּל־הָרֲכוּשׁ וַיֵּרְדוּ הֵם וְכָל־אֲשֶׁר לָהֶם חַיִּים שְׁאֹלָה וַתְּכַס עֲלֵיהֶם הָאָרֶץ וַיֹּאבְדוּ מִתּוֹךְ הַקָּהָל וְכָל־יִשְׂרָאֵל אֲשֶׁר סְבִיבֹתֵיהֶם נָסוּ לְקֹלָם כִּי אָמְרוּ פֶּן־תִּבְלָעֵנוּ הָאָרֶץ וְאֵשׁ יָצְאָה מֵאֵת יְהוָה וַתֹּאכַל אֵת הַחֲמִשִּׁים וּמָאתַיִם אִישׁ מַקְרִיבֵי הַקְּטֹרֶת
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Korach, der Sohn Jizhars, des Sohnes Kehats, des Sohnes Levis, ferner Datan und Abiram, die Söhne Eliabs, und On, der Sohn Pallus, der Rubeniter, 2 erhoben sich gegen Mose, zusammen mit zweihundertfünfzig führenden Männern aus der Gemeinde, angesehenen Abgeordneten der Versammlung. 3 Sie rotteten sich gegen Mose und Aaron zusammen und sagten zu ihnen: Ihr nehmt euch zu viel heraus. Alle sind heilig, die ganze Gemeinde, und der Herr ist mitten unter ihnen. Warum erhebt ihr euch über die Gemeinde des Herrn? 4 Als Mose das hörte, warf er sich auf sein Gesicht nieder 5 und er sagte zu Korach und seinem ganzen Anhang: Morgen früh wird der Herr zeigen, wer zu ihm gehört, wer der Heilige ist und wer sich ihm nähern darf. Wen der Herr erwählt, der darf sich ihm nähern. 6 Du, Korach, und dein ganzer Anhang, macht Folgendes: Nehmt euch Räucherpfannen, 7 tut Feuer hinein und legt Weihrauch für den Herrn darauf, und zwar morgen! Dann wird sich zeigen, wen der Herr erwählt und wer der Heilige ist. Ihr nehmt euch zu viel heraus, ihr Leviten! 8 Dann sagte Mose zu Korach: Hört, ihr Leviten! 9 Ist es euch noch zu wenig, dass euch der Gott Israels aus der Gemeinde Israels herausgehoben hat, um euch in seine Nähe zu holen, damit ihr an der Wohnstätte des Herrn Dienst tut, vor die Gemeinde tretet und für sie euren Dienst verrichtet? 10 Er hat dich und alle deine Brüder, die Leviten, die bei dir sind, in seine Nähe geholt, doch nun wollt ihr auch noch das Priesteramt. 11 Deshalb rottet ihr, du und dein ganzer Anhang, euch gegen den Herrn zusammen. Über ihn, nicht über Aaron, murrt ihr. 12 Dann ließ Mose Datan und Abiram, die Söhne Eliabs, rufen. Sie aber ließen ihm sagen: Wir kommen nicht. 13 Ist es nicht genug, dass du uns aus einem Land, in dem Milch und Honig fließen, hergeholt hast, um uns in der Wüste sterben zu lassen? Willst du dich auch noch als unser Herrscher aufspielen? 14 Du hast uns nicht in ein Land gebracht, in dem Milch und Honig fließen, und hast uns keine Felder und Weinberge zum Besitz gegeben. Hältst du diese Männer hier etwa für blind? Wir kommen nicht. 15 Da wurde Mose sehr zornig und sagte zum Herrn: Sieh ihre Opfer nicht an! Nicht einen einzigen Esel habe ich ihnen weggenommen, keinem von ihnen habe ich etwas zuleide getan. 16 Dann sagte Mose zu Korach: Du und dein ganzer Anhang, erscheint morgen vor dem Herrn, du, diese Männer und Aaron! 17 Nehmt eure Räucherpfannen mit, tut Weihrauch hinein und bringt eure Räucherpfannen vor den Herrn, jeder seine eigene Räucherpfanne, im Ganzen also zweihundertfünfzig Räucherpfannen, auch du und Aaron, bringt eure Räucherpfannen mit! 18 Jeder nahm also seine Räucherpfanne, sie taten Feuer hinein, legten Weihrauch darauf und traten an den Eingang des Offenbarungszeltes, zusammen mit Mose und Aaron. 19 Korach aber versammelte die ganze Gemeinde bei ihnen am Eingang des Offenbarungszeltes. Da erschien der ganzen Gemeinde die Herrlichkeit des Herrn. 20 Der Herr sprach zu Mose und Aaron: 21 Sondert euch von dieser Gemeinde ab! Ich will ihr auf einen Schlag ein Ende bereiten. 22 Da warfen sie sich auf ihr Gesicht nieder und sagten: Gott, du Gott der Geister, die alle Menschen beleben, ein einzelner Mensch sündigt und du willst der ganzen Gemeinde zürnen? 23 Der Herr antwortete Mose: 24 Sag der Gemeinde: Entfernt euch aus der Nähe der Zelte Korachs, Datans und Abirams! 25 Da stand Mose auf und ging zu Datan und Abiram und die Ältesten Israels folgten ihm. 26 Dann sagte er zur Gemeinde: Geht aus der Nähe der Zelte dieser niederträchtigen Leute weg und rührt nichts von dem an, was ihnen gehört, sonst werdet auch ihr wegen aller ihrer Sünden hingerafft. 27 Da entfernten sie sich aus der Nähe der Zelte Korachs, Datans und Abirams. Datan und Abiram waren herausgekommen und standen am Eingang ihrer Zelte, zusammen mit ihren Frauen, Söhnen und kleinen Kindern. 28 Dann sagte Mose: Daran sollt ihr erkennen, dass der Herr mich gesandt hat, damit ich alle diese Taten vollbringe, und dass ich nicht aus eigenem Antrieb gehandelt habe: 29 Wenn diese Leute sterben, wie jeder Mensch stirbt, und wenn sie nur so wie jeder andere Mensch Rechenschaft ablegen müssen, dann hat der Herr mich nicht gesandt. 30 Wenn aber der Herr etwas ganz Ungewöhnliches tut, wenn die Erde ihren Rachen aufreißt und sie verschlingt zusammen mit allem, was ihnen gehört, wenn sie also lebend in die Unterwelt hinabstürzen, dann werdet ihr erkennen, dass diese Leute den Herrn beleidigt haben. 31 Kaum hatte er das gesagt, da spaltete sich der Boden unter ihnen, 32 die Erde öffnete ihren Rachen und verschlang sie samt ihrem Haus, mit allen Menschen, die zu Korach gehörten, und mit ihrem ganzen Besitz. 33 Sie und alles, was zu ihnen gehörte, stürzten lebend in die Unterwelt hinab. Die Erde deckte sie zu und sie waren aus der Gemeinde verschwunden. 34 Alle Israeliten, die um sie herumstanden, liefen weg, als sie sie schreien hörten; sie sagten: Die Erde wird auch uns noch verschlingen. 35 Vom Herrn ging ein Feuer aus und fraß die zweihundertfünfzig Männer, die den Weihrauch dargebracht hatten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

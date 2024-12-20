@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2494">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Copenhagen, Nationalmuseet (National Museum of Denmark), Fa.1</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Niebuhr, Beschreibung von Arabien, 1772.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="111">Nationalmuseet (National Museum of Denmark)
+                            , Copenhagen</repository>
+            <idno>Fa.1</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Qurʾānic Text: Q 22:73-23:11; 15-16 lines per page; Dimensions: 320 x 240mm; Script style: kūfī B.II; Estimated date of production: 750-900 (?). </p>
+              <p> </p>
+              <p>This fragment was acquired in Cairo by Carsten Niebuhr (1733-1815), who travelled on an expedition in the service of the Danish king and described his experiences in detail in his travelogue  <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/VEBSYKC6" sameAs="VEBSYKC6" type="zotero">"Beschreibung von Arabien"</ref>, including facsimile images (pp. 146ff.), which are provided as image 2. Niebuhr described the manuscripts as follows (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/VEBSYKC6" sameAs="VEBSYKC6" type="zotero">Niebuhr 1772</ref>, p. 95): </p>
+              <p>"Auf der IV und V Tabelle siehet man eine Abschrift eines Blattes aus einem Koran der auf Pergament geschrieben ist, und als ein großer Schatz in der Büchersammlung bey der Academie Dsjámea el ashar in Káhira aufbehalten wird, weil man glaubet daß der Chalif Omar ihn mit eigener Hand geschrieben habe. Wenn aber auch Omar dieses Blatt nicht geschrieben hätte, so ist es wenigstens sehr alt, und bloß deswegen merkwürdig." </p>
+              <p>The fragment is also mentioned in an exhibition catalogue of the Royal Library in Copenhagen (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/XD3BUJGQ" sameAs="XD3BUJGQ" type="zotero">Rasmussen 1986</ref>, p. 96):</p>
+              <p>"Blatt aus einer Handschrift des Korans mit Sure 22, Vers 72-78. Ägypten, 9.-10. Jahrhundert. Durch von Haven in Kairo erworben." </p>
+              <p> </p>
+              <p>It is possible that fragment belongs to the same Qur’ān codex as 26 other fragments, spread across a number of institutions and collections worldwide. Some of these fragments were described in great detail, see for example the catalogue entry for <ref target="https://corpuscoranicum.de/handschriften/index/sure/11/vers/116?handschrift=1397">HC.MS.2017.0009</ref> by Marcus Fraser.  </p>
+            </summary>
+            <msItem xml:id="mysql_id_708173" n="1r">
+              <title type="numeric" key="022:073:004-022:078:026">
+                                    022:073:004-022:078:026
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708172" n="1v">
+              <title type="numeric" key="022:078:027-023:011:003">
+                                    022:078:027-023:011:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>320</width><height>240</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15 16">15 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_82411">
+      <graphic decls="#imageRights-1" url="manuscript/2494/90c7ef8a-e685-4074-a3a6-70eef2d9397f/manuscript-2494-page-82411-image-74746.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/2494/6ed934a8-e0de-41e9-b865-a40c4c4c4a26/manuscript-2494-page-82411-image-102025.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_82410">
+      <graphic decls="#imageRights-1" url="manuscript/2494/eff3de2e-ee9d-49a4-a6c0-1ab4cb8edc0e/manuscript-2494-page-82410-image-74745.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/2494/b8f4709c-3037-4542-a4e6-658e4c3e464b/manuscript-2494-page-82410-image-102026.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

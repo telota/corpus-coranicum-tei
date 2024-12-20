@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2273">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), Y. 4563 [= Karatay 49]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>Y. 4563 [= Karatay 49]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>52 fol.; Writing surface: parchment; Shelfmark: Y. 4563; Text: Q 79:1-Q 114:6; 5 lines per page; Dimensions: 190 x 125 mm; Script style: kūfī; Estimated date of production: 3rd (9th) century [according to Karatay]. </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 18: "49 Y. 4563 Kur’an’dan bir bölüm Parşömen. 125mm boy ve 190mm eninde cönk şeklinde 52 yaprak. Sahifede kûfî yaziyle 125mm uzunl.[uğunda] 5 satır. Tahminen III. (IX) asırda istinsah edilmiştir. Zahriyeler Arap üslûbunda tezhiplidir. İlk sahifedeki zahriyenin ortasında «Katabahu Alī Abū Ṭālib ?» kaydi varsa de sonradan uydurmadır. III. Osman vakıf kaydı ve mührünü havidir. Miklepli koyu kahve rengi deri cilt. Bu mushaf Nāziʿāt (79) suresinden Kur’an’ın sonuna kadardır."</p>
+              <p>This can be translated as follows: "49 Y. 4563 A part of the Qurʾān Parchment. 52 junk shaped leaves of 125 mm height and 190 mm width. The text area written in Kufic script [contains] 5 lines measuring 125 mm. Probably copied during the 3rd (9th) century. Frontispieces (zahriye) are illuminated in Arabic style. The record, at the center of the frontpiece at first leaf [of the manuscript], states «Katabahu Alī Abū Ṭālib ?» but this was made up later. Contains waqf registration and seal of Osman III. Dark brown leather binding with flap (miklep). The codex is from Q 79 (Sūra al-Nāziʿāt) until the end of the Qurʾān."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706327" n="1">
+              <title type="numeric" key="079:001:000-114:006:000">
+                                    079:001:000-114:006:000
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 52
+                                    <dimensions unit="mm"><width>190</width><height>125</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Esra Gözeler</p>
+                <p>metadata: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_62038">
+                    </surface>
+  </facsimile>
+</TEI>

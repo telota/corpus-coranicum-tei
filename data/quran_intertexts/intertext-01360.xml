@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 2:1-22</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1360" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1360</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 17:19 verwendet den Begriff al-ʾāḫira für das Jenseits (vgl. dazu ha-ʿolam ha-baʾ in der rabbinischen Literatur (TUK_0642)). Dies erinnert an den Ausdruck bə-aḥarit ha-yamim ("in späteren Tagen", "am Ende der Tage"), der sich in der Hebräischen Bibel im hier zitierten Text aus Jesaja findet, sowie an zahlreichen anderen Stellen, z.B. Jer 23:20, 30:24, 48:47, 49:39, Dan 2:28, 8:19, 10:14, Lev 24:14, Gen 49:1, Deut 4:30 (vgl. TUK_1361), 31:29, Hos 3:5, Ez 38:15. Im Unterschied zu al-ʾāḫira bezeichnet das biblische bə-aḥarit ha-yamim aber nicht das Jenseits, sondern die Endzeit, ähnlich wie das koranische al-yaum al-ʾāḫir ("der letzte Tag"; vgl. dazu TUK_0304). Daneben besitzt bə-aḥarit ha-yamim auch noch die wahrscheinlich ältere Bedeutung "in späteren Tagen". Anders als in der apokalyptischen Literatur und auch im Koran bezieht sich das "Ende der Tage" in der Hebräischen Bibel aber nicht auf das Ende der Welt, sondern auf eine endgültige innerweltliche Heilszeit (Koenen 2007). </summary>
+            <msItem>
+              <title>Jesaja 2:1-22</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Koenen, Klaus: &amp;#x201E;Eschatologie (AT)&amp;#x201C; (M. Bauks &amp;amp; K. Koenen, Hrsg.). Wissenschaftliches Bibellexikon.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>1הַדָּבָר֙ אֲשֶׁ֣ר חָזָ֔ה יְשַֽׁעְיָ֖הוּ בֶּן־אָמֹ֑וץ עַל־יְהוּדָ֖ה וִירוּשָׁלִָֽם׃2וְהָיָ֣ה׀ בְּאַחֲרִ֣ית הַיָּמִ֗ים נָכֹ֨ון יִֽהְיֶ֜ה הַ֤ר בֵּית־יְהוָה֙ בְּרֹ֣אשׁ הֶהָרִ֔ים וְנִשָּׂ֖א מִגְּבָעֹ֑ות וְנָהֲר֥וּ אֵלָ֖יו כָּל־הַגֹּויִֽם׃ 3וְֽהָלְכ֞וּ עַמִּ֣ים רַבִּ֗ים וְאָמְרוּ֙ לְכ֣וּ׀ וְנַעֲלֶ֣ה אֶל־הַר־יְהוָ֗ה אֶל־בֵּית֙ אֱלֹהֵ֣י יַעֲקֹ֔ב וְיֹרֵ֨נוּ֙ מִדְּרָכָ֔יו וְנֵלְכָ֖ה בְּאֹרְחֹתָ֑יו כִּ֤י מִצִּיֹּון֙ תֵּצֵ֣א תֹורָ֔ה וּדְבַר־יְהוָ֖ה מִירוּשָׁלִָֽם׃4וְשָׁפַט֙ בֵּ֣ין הַגֹּויִ֔ם וְהֹוכִ֖יחַ לְעַמִּ֣ים רַבִּ֑ים וְכִתְּת֨וּ חַרְבֹותָ֜ם לְאִתִּ֗ים וַחֲנִיתֹֽותֵיהֶם֙ לְמַזְמֵרֹ֔ות לֹא־יִשָּׂ֨א גֹ֤וי אֶל־גֹּוי֙ חֶ֔רֶב וְלֹא־יִלְמְד֥וּ עֹ֖וד מִלְחָמָֽה׃ פ5בֵּ֖ית יַעֲקֹ֑ב לְכ֥וּ וְנֵלְכָ֖ה בְּאֹ֥ור יְהוָֽה׃6כִּ֣י נָטַ֗שְׁתָּה עַמְּךָ֙ בֵּ֣ית יַעֲקֹ֔ב כִּ֤י מָלְאוּ֙ מִקֶּ֔דֶם וְעֹֽנְנִ֖ים כַּפְּלִשְׁתִּ֑ים וּבְיַלְדֵ֥י נָכְרִ֖ים יַשְׂפִּֽיקוּ׃7וַתִּמָּלֵ֤א אַרְצֹו֙ כֶּ֣סֶף וְזָהָ֔ב וְאֵ֥ין קֵ֖צֶה לְאֹצְרֹתָ֑יו וַתִּמָּלֵ֤א אַרְצֹו֙ סוּסִ֔ים וְאֵ֥ין קֵ֖צֶה לְמַרְכְּבֹתָֽיו׃8וַתִּמָּלֵ֥א אַרְצֹ֖ו אֱלִילִ֑ים לְמַעֲשֵׂ֤ה יָדָיו֙ יִֽשְׁתַּחֲו֔וּ לַאֲשֶׁ֥ר עָשׂ֖וּ אֶצְבְּעֹתָֽיו׃9וַיִּשַּׁ֥ח אָדָ֖ם וַיִּשְׁפַּל־אִ֑ישׁ וְאַל־תִּשָּׂ֖א לָהֶֽם׃10בֹּ֣וא בַצּ֔וּר וְהִטָּמֵ֖ן בֶּֽעָפָ֑ר מִפְּנֵי֙ פַּ֣חַד יְהוָ֔ה וּמֵהֲדַ֖ר גְּאֹנֹֽו׃11עֵינֵ֞י גַּבְה֤וּת אָדָם֙ שָׁפֵ֔ל וְשַׁ֖ח ר֣וּם אֲנָשִׁ֑ים וְנִשְׂגַּ֧ב יְהוָ֛ה לְבַדֹּ֖ו בַּיֹּ֥ום הַהֽוּא׃ ס12כִּ֣י יֹ֞ום לַיהוָ֧ה צְבָאֹ֛ות עַ֥ל כָּל־גֵּאֶ֖ה וָרָ֑ם וְעַ֖ל כָּל־נִשָּׂ֥א וְשָׁפֵֽל׃13וְעַל֙ כָּל־אַרְזֵ֣י הַלְּבָנֹ֔ון הָרָמִ֖ים וְהַנִּשָּׂאִ֑ים וְעַ֖ל כָּל־אַלֹּונֵ֥י הַבָּשָֽׁן׃14וְעַ֖ל כָּל־הֶהָרִ֣ים הָרָמִ֑ים וְעַ֖ל כָּל־הַגְּבָעֹ֥ות הַנִּשָּׂאֹֽות׃15וְעַ֖ל כָּל־מִגְדָּ֣ל גָּבֹ֑הַ וְעַ֖ל כָּל־חֹומָ֥ה בְצוּרָֽה׃16וְעַ֖ל כָּל־אֳנִיֹּ֣ות תַּרְשִׁ֑ישׁ וְעַ֖ל כָּל־שְׂכִיֹּ֥ות הַחֶמְדָּֽה׃17וְשַׁח֙ גַּבְה֣וּת הָאָדָ֔ם וְשָׁפֵ֖ל ר֣וּם אֲנָשִׁ֑ים וְנִשְׂגַּ֧ב יְהוָ֛ה לְבַדֹּ֖ו בַּיֹּ֥ום הַהֽוּא׃18וְהָאֱלִילִ֖ים כָּלִ֥יל יַחֲלֹֽף׃19וּבָ֨אוּ֙ בִּמְעָרֹ֣ות צֻרִ֔ים וּבִמְחִלֹּ֖ות עָפָ֑ר מִפְּנֵ֞י פַּ֤חַד יְהוָה֙ וּמֵהֲדַ֣ר גְּאֹונֹ֔ו בְּקוּמֹ֖ו לַעֲרֹ֥ץ הָאָֽרֶץ׃20בַּיֹּ֤ום הַהוּא֙ יַשְׁלִ֣יךְ הָאָדָ֔ם אֵ֚ת אֱלִילֵ֣י כַסְפֹּ֔ו וְאֵ֖ת אֱלִילֵ֣י זְהָבֹ֑ו אֲשֶׁ֤ר עָֽשׂוּ־לֹו֙ לְהִֽשְׁתַּחֲוֹ֔ת לַחְפֹּ֥ר פֵּרֹ֖ות וְלָעֲטַלֵּפִֽים׃21לָבֹוא֙ בְּנִקְרֹ֣ות הַצֻּרִ֔ים וּבִסְעִפֵ֖י הַסְּלָעִ֑ים מִפְּנֵ֞י פַּ֤חַד יְהוָה֙ וּמֵהֲדַ֣ר גְּאֹונֹ֔ו בְּקוּמֹ֖ו לַעֲרֹ֥ץ הָאָֽרֶץ׃22חִדְל֤וּ לָכֶם֙ מִן־הָ֣אָדָ֔ם אֲשֶׁ֥ר נְשָׁמָ֖ה בְּאַפֹּ֑ו כִּֽי־בַמֶּ֥ה נֶחְשָׁ֖ב הֽוּא׃ פ</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Das Wort, das Jesaja, der Sohn des Amoz, in einer Vision über Juda und Jerusalem gehört hat.2 Am Ende der Tage wird es geschehen: Der Berg mit dem Haus des Herrn /steht fest gegründet als höchster der Berge; er überragt alle Hügel. / Zu ihm strömen alle Völker. 3 Viele Nationen machen sich auf den Weg. /Sie sagen: Kommt, wir ziehen hinauf zum Berg des Herrn / und zum Haus des Gottes Jakobs. Er zeige uns seine Wege, / auf seinen Pfaden wollen wir gehen. Denn von Zion kommt die Weisung des Herrn, / aus Jerusalem sein Wort. 4 Er spricht Recht im Streit der Völker, /er weist viele Nationen zurecht. Dann schmieden sie Pflugscharen aus ihren Schwertern / und Winzermesser aus ihren Lanzen. Man zieht nicht mehr das Schwert, Volk gegen Volk, / und übt nicht mehr für den Krieg. 5 Ihr vom Haus Jakob, kommt, /wir wollen unsere Wege gehen im Licht des Herrn.6 Ja, du hast dein Volk, das Haus Jakob, verstoßen; /denn es ist voll von Zauberern und Wahrsagern wie das Volk der Philister / und überflutet von Fremden. 7 Sein Land ist voll Silber und Gold, /zahllos sind seine Schätze. Sein Land ist voll von Pferden, / zahllos sind seine Wagen. 8 Sein Land ist voll von Götzen. /Alle beten das Werk ihrer Hände an, / das ihre Finger gemacht haben.9 Doch die Menschen müssen sich ducken, /jeder Mann muss sich beugen. / Verzeih ihnen nicht! 10 Verkriech dich im Felsen, /verbirg dich im Staub vor dem Schrecken des Herrn / und seiner strahlenden Pracht! 11 Da senken sich die stolzen Augen der Menschen, /die hochmütigen Männer müssen sich ducken, / der Herr allein ist erhaben an jenem Tag. 12 Denn der Tag des Herrn der Heere kommt /über alles Stolze und Erhabene, / über alles Hohe - es wird erniedrigt -,13 über alle hoch ragenden Zedern des Libanon /und alle Eichen des Baschan, 14 über alle hohen Berge und alle stattlichen Hügel, 15 über jeden hohen Turm und jede steile Mauer,16 über alle Tarschisch-Schiffe /und die kostbaren Segler. 17 Die stolzen Menschen müssen sich ducken, /die hochmütigen Männer sich beugen, / der Herr allein ist erhaben an jenem Tag. 18 Die Götzen aber schwinden alle dahin. 19 Verkriecht euch in Felshöhlen und Erdlöchern /vor dem Schrecken des Herrn und vor seiner strahlenden Pracht, / wenn er sich erhebt, um die Erde zu erschrecken. 20 An jenem Tag nimmt jeder seine silbernen und goldenen Götzen, /die er gemacht hat, um sie anzubeten, / und wirft sie den Fledermäusen und Ratten hin; 21 und man wird sich in den Spalten und Höhlen der Felsen verkriechen /vor dem Schrecken des Herrn und vor seiner strahlenden Pracht, / wenn er sich erhebt, um die Erde zu erschrecken. 22 Lasst doch ab vom Menschen; / in seiner Nase ist nur ein Lufthauch. / Was bedeutet er schon?</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

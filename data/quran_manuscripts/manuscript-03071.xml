@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_3071">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Toronto, Aga Khan Museum, AKM 261</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="69">Aga Khan Museum
+                            , Toronto</repository>
+            <idno>AKM 261</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Unknown number of fol. on paper; Shelfmark: AKM 261; 3 lines per page; Dimensions: 198 x 259 mm.</p>
+              <p> </p>
+              <p>For more information, please visit the <ref target="https://collections.agakhanmuseum.org/collection/artifact/quran-section-akm261">museum's website</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_723582" n="1v">
+              <title type="numeric" key="078:000:001-078:002:003">
+                                    078:000:001-078:002:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_723583" n="2r">
+              <title type="numeric" key="078:003:001-078:005:003">
+                                    078:003:001-078:005:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 
+                                    <dimensions unit="mm"><width>198</width><height>259</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="3">3 - 3 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_112903">
+      <graphic decls="#imageRights-1" url="manuscript/3071/6d0b9eee-631c-4b77-908e-e491a54326fe/manuscript-3071-page-112903-image-106199.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/3071/e717553f-4c64-42a6-87df-0ec8f5943ab5/manuscript-3071-page-112903-image-106200.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_112904">
+      <graphic decls="#imageRights-1" url="manuscript/3071/a13ed255-9857-440e-b069-0eb357b8d43e/manuscript-3071-page-112904-image-106201.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/3071/57a09d37-9099-4e43-878a-80a2c957e88f/manuscript-3071-page-112904-image-106202.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

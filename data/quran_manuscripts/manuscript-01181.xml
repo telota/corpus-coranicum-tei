@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1181">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>New York City, New York, The Metropolitan Museum of Art, 40.164.1a, b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="54">The Metropolitan Museum of Art
+                            , New York City, New York</repository>
+            <idno>40.164.1a, b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p/><p>2 fol. on parchment; Shelfmark: 40.164.1; Qurʾānic Text: Q 9:88-9:100, Q 11:72-11:88; 16 lines per page; Dimensions: 222 x 165mm; Script style: kūfī.</p><p> </p>This entry combines two shelfmarks, for more information, please visit the manuscripts <ref target="https://www.metmuseum.org/art/collection/search/454034">40.164.1a</ref> and <ref target="https://www.metmuseum.org/art/collection/search/455067">40.164.1b</ref> on the website of the Metropolitan Museum of Art (New York).<p/><p/><p/>
+                    </summary>
+            <msItem xml:id="mysql_id_687779" n="1r">
+              <title type="numeric" key="009:088:013-009:094:015">
+                                    009:088:013-009:094:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687777" n="1v">
+              <title type="numeric" key="009:094:016-009:100:001">
+                                    009:094:016-009:100:001
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687778" n="2r">
+              <title type="numeric" key="011:072:009-011:081:013">
+                                    011:072:009-011:081:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687780" n="2v">
+              <title type="numeric" key="011:081:014-011:088:018">
+                                    011:081:014-011:088:018
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>222</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47739">
+      <graphic decls="#imageRights-1" url="manuscript/1181/4a0b7314-c058-4bd5-aaf9-fb69a869559c/manuscript-1181-page-47739-image-33977.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47737">
+      <graphic decls="#imageRights-1" url="manuscript/1181/96377b48-045b-4e5b-b87c-9cdd14608255/manuscript-1181-page-47737-image-33973.jpeg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1181/7d54e782-86d5-4e6a-a445-0064b691894d/manuscript-1181-page-47737-image-33974.jpeg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_47738">
+      <graphic decls="#imageRights-1" url="manuscript/1181/73173558-d5d1-4307-88fb-2e705ae299be/manuscript-1181-page-47738-image-33975.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1181/2967bc23-b8f0-4266-8b3e-27110c31387c/manuscript-1181-page-47738-image-33976.jpeg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_47740">
+      <graphic decls="#imageRights-1" url="manuscript/1181/800f3468-d677-4193-a330-4f71f9d5a228/manuscript-1181-page-47740-image-33978.jpeg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1181/2fd53aeb-61a2-468a-97bb-ce80c328c6b9/manuscript-1181-page-47740-image-33979.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Protevangelium des Jakobus 8:2 - 9:3</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_498" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>498</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 3:44 spielt der Koran im Kontext einer Nacherzählung der Lebensgeschichte Marias auf ein Werfen von Losstäbchen (ʾaqlām) an, womit ermittelt werden soll, wer die Verantwortung für die im Tempel aufgewachsene (vgl. Q 3:37) Maria zu übernehmen habe (yakfulu). Ähnlich berichtet auch das Protevangelium des Jakobus (wie auch die syrische "Lebensgeschichte Marias", vgl. TUK_0038) davon, dass Marias Ehemann ausgelost worden sei. Zu weiteren Texten aus dem Protevangelium vgl. TUK_0422, TUK_0426, TUK_0497. Das Protevangelium des Jakobus erzählt von Marias Empfängnis, Geburt, 
+Aufwachsen im Tempel und ihrer Schwangerschaft, sowie von Jesu Geburt 
+und der Verfolgung durch Herodes und endet mit der Ermordung des 
+Zacharias. Im Zentrum steht die Verehrung Marias als Jungfrau und Mutter
+ Jesu. Weitere Themen sind Gerechtigkeit, Glaube und Reinheit. Die 
+älteste Handschrift (Bodmer 5), die auch Émile de Strycker seiner Edition zugrunde legt, datiert in das 3.-4. Jahrhundert. Verfasst wurde
+ das Protevangelium vermutlich Mitte bis Ende des 2. Jh. auf Griechisch.
+ Als Entstehungsort kommt Syrien oder Ägypten in Frage. Zusammen mit 
+Übersetzungen, Überarbeitungen und Parallelüberlieferungen in 
+zahlreichen Sprachen (syrisch, georgisch, lateinisch, irisch, slawisch, 
+armenisch, arabisch, koptisch, äthiopisch) übte das Protevangelium im 
+Osten und Westen einen großen Einfluss auf die Entwicklung von Liturgie,
+ Dogma und Kunst aus (vgl. dazu Pellegrini 2012: p. 906-914).
+</summary>
+            <msItem>
+              <title>Protevangelium des Jakobus 8:2 - 9:3</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">150-200 n. Chr., z. T. später</origDate>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Émile de Strycker, La forme la plus ancienne du Protévangile de Jacques. Recherches sur le papyrus Bodmer 5 avec une édition critique du texte grec et une traduction annotée, Brüssel 1961, S. 102-108.
+</bibl>
+              <bibl type="literatur">Pellegrini, Silvia: &amp;#x201E;Das Protevangelium des Jakobus&amp;#x201C;. In: Christoph Markschies &amp;amp; Jens Schr&amp;#xF6;ter (Hrsg.), Antike christliche Apokryphen in deutscher &amp;#xDC;bersetzung. I. Band: Evangelien und Verwandtes. Mohr Siebeck, T&amp;#xFC;bingen 2012, S. 903&amp;#x2013;929.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	8:2 Γενομένης δὲ  ιβ’ετοῦς, συμβούλιον ἐγένετο τῶν ἱερέων λεγόντων･ «Ἰδοὺ Μαρία γέγονε ιβ’ετὴς ἐν τῷ ναῷ Κυρίου. Τί οὖν αὐτὴν ποιήσωμεν, μήπως μιάνῃ τὸ ἁγίασμα Κυρίου τοῦ Θεοῦ ἡμῶν;» Καὶ εἶπαν αὐτῷ οἱ ἱερεῖς･ «Σὺ ἕστης ἐπὶ τὸ θυσιαστήριον Κυρίου. [καὶ] Εἴσελθε καὶ πρόσευξαι περὶ αὐτῆς･ καὶ ὃν ἐὰν φανερώσῃ σοι Κύριος ὁ Θεός, τοῦτο ποιήσομεν.» 3 Καὶ εἰσῆλθεν ὁ ἱερεὺς λαβὼν τὸν ιβ’κώδωνα εἰς τὰ ἅγια τῶν ἁγίων καὶ ηὔξατο περὶ αὐτῆς. Καὶ ἰδοὺ ἄγγελος Κυρίου ἔστη λέγων･ «Ζαχαρία Ζαχαρία, ἔξελθε καὶ ἐκκλησίασον τοὺς χηρεύοντας τοῦ λαοῦ,  καὶ ᾧ ἐὰν ἐπιδείξῃ Κύριος ὁ Θεὸς σημεῖον, τούτῳ ἔσται γυνή.» Ἐξῆλθαν  οἱ κήρυκες καθ’ ὅλου τῆς περιχώρου τῆς Ἰουδαίας, καὶ ἤχησεν σάλπιγξ Κυρίου, καὶ ἰδοὺ ἔδραμον ἅπαντες.
+	9:1 Ἰωσὴφ δὲ ῥίψας τὸ σκέπαρνον ἐξῆλθεν  αὐτὸς εἰς συνάντησιν αὐτῶν. Καὶ συναχθέντες ὁμοῦ ἀπῆλθαν πρὸς τὸν ἱερέα λαβόντες τὰς ῥάβδους. Δεξάμενος δὲ ὁ ἱερεὑς [sic!] τὰς ῥάβδους ἀπ’ αὐτῶν εἰσῆλθεν εἰς τὸ ἱερὸν καὶ ηὔξατο. Τελέσας δὲ τὴν εὐχὴν ἔλαβε τὰς ῥάβδους καὶ ἐξῆλθεν καὶ ἔδωκεν αὐτοῖς･ καὶ σημεῖον οὐκ ἦν ἐν αὐταῖς. Τὴν δὲ ἐσχάτην ῥάβδον ἔλαβε ὁ Ἰωσήφ. Καὶ ἰδοὺ περιστερὰ ἐξῆλθεν ἀπὸ τῆς ῥάβδου καὶ ἐπεστάθη ἐπὶ τὴν κεφαλὴν τοῦ Ἰωσήφ. Καὶ εἶπεν ὁ ἱερεύς･ «Ἰωσὴφ Ἰωσήφ, σὺ κεκλήρωσαι τὴν παρθένον Κυρίου παραλάβαι εἰς τήρησιν αὑτῷ.» 2 Καὶ ἀντιεῖπεν ὁ Ἰωσὴφ λέγων･ «Υἱοὺς ἔχω καὶ πρεσβύτης εἰμί･ αὕτη  νεᾶνις. Μήπως ἔσομαι περίγελος τοῖς υἱοῖς Ἰσραήλ.» Καὶ εἶπεν ὁ ἱερεύς･ «Ἰωσήφ, φοβήθητι Κύριον τὸν Θεόν σου, καὶ μνήσθητι ὅσα ἐποίησεν ὁ Θεὸς Δαθὰν καὶ Ἀβριρὼν καὶ Κορέ, πῶς ἐδιχ[ι]άσθη ἡ γῆ καὶ κατεπόθησαν ἅπαντες διὰ τὴν ἀντιλογίαν αὐτῶν. Καὶ νῦν φοβήθητι, Ἰωσήφ, μήπως ἔσται ταῦτα ἐν τῷ οἴκῳ σου.» 3 Καὶ [ἐ]φοβηθεὶς Ἰωσὴφ παρέλαβεν αὐτὴν εἰς τήρησιν αὑτῷ, καὶ εἶπεν αὐτῇ･ «Μαρία, παρέλαβόν σε ἐκ ναοῦ Κυρίου. Καὶ νῦν καταλείπω σε ἐν τῷ οἴκῳ μου. Ἀπέρχομαι γὰρ οἰκοδομῆσαι τὰς οἰκοδομάς, καὶ ἥξω πρὸς σέ. Κύριός σε διαφυλάξει.»
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	8:2 Als sie zwölf Jahre alt war, fand eine Beratung der Priester statt, die sprachen: "Siehe, Maria ist im Tempel des Herrn zwölf Jahre alt geworden, was sollen wir nun mit ihr tun, damit sie nicht den Tempel des Herrn [unseres Gottes] beflecke?" Und sie [die Priester] sprachen zum Hohenpriester [zu ihm]: "Du stehst am Altar des Herrn, geh (ins Heiligtum) hinein und bete ihretwegen, und wir wollen dann das tun, was dir der Herr offenbaren wird." 3 Und der Hohepriester nahm das Amulett mit den zwölf Glöckchen und begab sich ins Allerheiligste und betete ihretwegen. Und siehe da, ein Engel des Herrn stand (plötzlich) vor ihm und sprach zu ihm: "Zacharias, Zacharias, gehe hinaus und versammle die Witwer des Volkes, [die sollen jeder einen Stab tragen] und welchem der Herr ein (Wunder-)Zeichen geben wird, dessen Weib soll sie sein!" Und die Boten gingen aus und verbreiteten sich über die ganze Umgegend Judäas; die Posaune des Herrn erscholl, und alle liefen herzu.
+	9:1 Joseph aber warf die Axt weg und ging auch seinerseits hinaus, um ihnen zu begegnen. Und als sie versammelt waren, nahmen sie die Stäbe und gingen zum Hohenpriester. Der Priester nun nahm die Stäbe von ihnen und ging in den Tempel und betete. Nach der Beendigung des Gebets nahm er die Stäbe, trat (wieder) hinaus und gab sie ihnen; ein (Wunder-)Zeichen war indessen nicht an ihnen. Den letzten Stab bekam Joseph, und siehe, eine Taube kam aus dem Stab hervor und flog auf das Haupt Josephs. Da sprach der Priester zu Joseph: "Joseph, du hast durchs Los die Jungfrau des Herrn zugeteilt bekommen; nimm sie in deine Obhut!" 2 Joseph (aber) entgegnete ihm: "Ich habe (schon) Söhne und bin alt, sie aber ist ein junges Mädchen. Ich fürchte, ich werde zum Gelächter für die Söhne Israels!" Da sprach der Priester zu Joseph: "Fürchte den Herrn, deinen Gott, und denke an alles, was Gott Dathan, Abiram und Korach getan hat, wie die Erde gespalten ward, und sie um ihrer Auflehnung willen alle verschlungen wurden. Fürchte dich nun, Joseph, daß dies nicht (auch) in deinem Haus geschehe!" 3 Und Joseph fürchtete sich und nahm sie in seine Obhut. Und Joseph sprach zu ihr: "Maria, ich habe dich aus dem Tempel des Herrn empfangen und lasse dich nun in meinem Hause und gehe fort, um [meine] Bauten zu errichten; (danach) werde ich (wieder) zu dir kommen; der Herr wird dich bewahren!"
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

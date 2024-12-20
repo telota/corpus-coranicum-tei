@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über das Weltende</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_532" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>532</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Obgleich die entsprechenden Passagen im Koran etwas kürzer als die hier zitierten Verse aus Jakob von Sarug sind, bleibt der Kern der beiden Aussagen gleich: Alles vergeht, Gott allein bleibt (vgl. auch TUK_0120). Der Text Jakobs reflektiert einerseits den biblischen Topos der Vergänglichkeit aller geschaffenen Dinge (wie etwa im Buch Ecclesiastes), andererseits betont er – wie an anderen Stellen in der Bibel – den Kontrast zwischen der Welt und der Unvergänglichkeit Gottes (z.B. Jes 40:6-8; Ps 102:25). Dabei ist zu bemerken, dass der Koran an beiden relevanten Stellen (Q 28:88, 55:26-27) das Antlitz Gottes (arab. waǧh) als das einzig Unvergängliche erwähnt, wo Jakobs Text von der Macht Gottes (šulṭānā) spricht. Beide Begriffe scheinen jedoch diesselbe Idee auszudrücken, dass nämlich die Welt für ihre Existenz von Gott abhängt, wie es auch schon der Psalm 104 nahelegt: “Verbirgst du dein Gesicht, sind sie [sc. die Geschöpfe] verstört; / nimmst du ihnen den Atem, so schwinden sie hin und kehren zurück zum Staub der Erde (Ps 104:29).	Interessant ist ferner, dass die Verfasser des Neuen Testamentes gerade solche Stellen aus der hebräischen Bibel auf Jesus beziehen. So verfährt z.B. der Autor des Hebräerbriefes in Heb 1:10-12, wo er Ps 102:25 als Aussage über den Sohn Gottes interpretiert: “Du, Herr, hast vorzeiten der Erde Grund gelegt, die Himmel sind das Werk deiner Hände. Sie werden vergehen, du aber bleibst; sie alle veralten wie ein Gewand; Du rollst sie zusammen wie einen Mantel, und wie ein Gewand werden sie gewechselt. Du aber bleibst, der du bist, und deine Jahre enden nie”.</summary>
+            <msItem>
+              <title>Gedicht über das Weltende</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan, Homiliae Selectae Mar-Jacobi Sarugensis, Band 5, Paris 1910, S. 894-899. </bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܐܦ ܚܕ̈ܘܬܐ ܠܥܠܡܐ ܕܡ̈ܝܢ ܡܐ ܕܡܬܚܙ̈ܝܢ:150 ܘܒܕܡܘܬ ܚܙܘ̈ܐ ܕܠܠܝܐ ܦܖ̈ܕܢ ܘܐܝܟ ܠܝܬ ܐܢܝܢ܀ܚܕܐ ܚܬܢܐ ܒܝܘܡ ܡܫܬܘܬܗ ܘܠܐ ܡܬܒܝܢ:ܕܐܦ ܗܘ ܚܠܘܠܗ ܒܨܪ ܡ̣ܢ ܚܝܘ̈ܗܝ ܕܐܪܝܟܝܢ ܗ̄ܘܘ܀ܐܦ ܗܘ̇ ܠܠܝܐ ܕܦܓܥܬ ܟܠܬܐ ܒܚܬܢܐ ܓܒܪܗ̇:ܕܘܡܣܐ ܥܩܪܬ ܡ̣ܢ ܒܢܝܢܗ ܕܙܒܢܐ ܢܘܦܐ܀155 ܩܕܡ ܝܘܡܐ ܓܝܪ ܚܝܝ̈ܗ̇ ܝܘܡܢ ܐܪܝܟܝܢ ܗ̄ܘܘ:ܘܟܕ ܥܠܬ ܠܗ̇ ܡܒܨܪ ܒܨܪܬ ܡ̣ܢ ܥܕܢ̈ܝܗ̇܀ܘܠܐ ܚܕ ܝܘܡܐ ܝܗ̄ܒ ܠܗ̇ ܙܒܢܐ ܕܠܐ ܚܘܫܒܢܐ:ܕܨܝܕ ܫܘܠܡܐ ܢܙܠܗ̇ ܠܠܝܐ ܠܡܬܩܪܒܘ܀ܐܦ ܒܓܢܘܢܗ̇ ܟܕ ܝܬܒܐ ܗ̄ܘܬ ܬܬܚܕܐ ܗ̄ܘܬ:160 ܒܢܘܠܐ ܕܙܒ̈ܢܐ ܙܩܘܪܐ ܣܡܬ ܬܓܘܕ ܐܢܘܢ܀ܘܠܐ ܒܚܠܘܠܗ̇ ܒܛܝܠܐ ܗ̄ܘܬ ܡ̣ܢ ܡܐܙܠܬܗ̇:ܕܡ̣ܢ ܝܘ̈ܡܬܗ̇ ܡܒܨܪ ܒܨܪܬ ܬܘܦܐ ܐܢܘܢ܀ܗܐ ܟܡܐ ܪܗܝܒܐ ܐܘܪܚܗ ܕܥܠܡܐ ܠܡܫܬܠܡܘ:ܕܐܦ ܟܠ̈ܠܬܐ ܪܗܛܐ ܠܒܝ̈ܟܢ ܒܚܠܘܠܝ̈ܗܝܢ܀165 ܘܠܐ ܫܒܝ̈ܐ ܪܗܝܒܝܢ ܗܟܢ ܐܝܟ ܥܕܢ̈ܐ:ܕܠܓܐܝ̈ܬܐ ܒܪܗܛܐ ܡܦܝܚܝܢ ܡ̣ܢ ܥܘܡܖ̈ܝܗܝܢ܀ܠܐ ܠܚܕ̈ܘܬܐ ܘܠܐ ܠܥܩ̈ܬܐ ܝܗܒܝܢ ܐܬܪܐ:ܕܟܕ ܡܬܬܥܝܩ ܐ̄ܢܫ ܐܦ ܟܕ ܚܕܐ ܒܐܘܪܚܗ ܪܕܐ ܗ̄ܘ܀ܡܚܫ ܡܝܬܐ ܠܟܠ ܚܒܝܒܘ̈ܗܝ ܡܐ ܕܡܬܥܦܐ:170 ܘܟܕ ܒܟܝܢ ܠܗ ܡܒܨܪ ܒܨܪܝܢ ܥܕܢܝ̈ܗܘܢ܀ܢܦܩܝܢ ܥܡܗ ܒܐܘܪܚܐ ܕܩܒܪܐ ܕܢܠܘܘܢܝܗܝ:ܘܒܨܪܝܢ ܫܥ̈ܐ ܡ̣ܢ ܚܝܝ̈ܗܘܢ ܟܕ ܠܐ ܪܢܝܢ܀ܐܙܠܝܢ ܥܡܗ ܘܐܙܠ ܥܡܗܘܢ ܢܠܘܐ ܐܢܘܢ:ܕܐܦ ܗܢܘܢ ܬܘܒ ܡܪܕܐ ܪܕܝܢ ܨܝܕ ܫܘܠܡܐ܀175 ܝܬܒܝܢ ܒܐܒܠܐ ܘܠܐ ܒܛܝܠܝܢ ܡ̣ܢ ܡܐܙܠܬܐ:ܐܠܝܢ ܡܝܬܐ ܘܓܡܖ̈ܢ ܫܥ̈ܐ ܡ̣ܢ ܝܘܡܝ̈ܗܘܢ܀ܠܐ ܓܝܪ ܡܓܪ ܙܒܢܐ ܪܘܚܗ ܢܒܝܐ ܐܢܘܢ:ܕܐܦ ܟܕ ܒܟܝܢ ܡܪܕܦ ܪܕܦ ܢܥܒܪ ܐܢܘܢ܀ܠܐ ܡܫܬܒܩܝܢ ܢܥܢܘܢ ܕܐܒܠܐ ܕܥܓܝܢܝܢ ܒܗ:180 ܕܐܦ ܒܗ ܒܚܫܐ ܪܗܛܐ ܠܒܝܟܝܢ ܠܡܫܢܝܘ܀ܐܘܪܚܐ ܪܗܝܒܬܐ ܗ̄ܝ ܕܡ̣ܢ ܒܐܢܘܬܐ ܪܕܝܦܐ ܟܠܝܘܡ:ܘܡܣܒ ܒܐܦ̈ܐ ܠܐ ܗܘܐ ܒܗ̇ ܒܚܕ ܡ̣ܢ ܐܣܟܝܡ܀ܠܐ ܠܕܡܬܬܥܝܩ ܘܠܐ ܠܕܚܕܐ ܐܝܬ ܒܗ̇ ܢܘܚܐ:ܕܟܕ ܒܟܐ ܐ̄ܢܫ ܐܦ ܟܕ ܓܚܟ ܐܙܠ ܗ̄ܘ ܒܗ̇܀185 ܗܐ ܪܗܝܒܝܢ ܒܗ̇ ܟܠܗܘܢ ܬܓܡ̈ܐ ܠܡܫܢܝܘ:ܘܚܕ ܚܕ ܝܗܒܝܢ ܐܬܪܐ ܒܪܗܛܐ ܠܕܒܬܪܗܘܢ܀ܗܐ ܪܕܝܢ ܒܗ̇ ܐܦ ܝܠܘ̈ܕܐ ܐܦ ܩܫܝ̈ܫܐ:ܘܥܠܝܡܘܬܐ ܥܡ ܣܝܒܘܬܐ ܟܕܝܢܐ ܬܥܒܪ܀ܐܦ ܠܐ ܥܘܠܐ ܒܟܪܣܐ ܕܐܡܗ ܫܠܐ ܡ̣ܢ ܪܗܛܐ:190 ܕܝܘ̈ܡܝ ܥܠܡܐ ܫܦܥܝܢ ܡܢܗ ܟܡܐ ܕܡܬܪܒܐ܀ܟܕ ܡܬܚܫܒܝܢ ܝܖ̈ܚܐ ܕܒܛܢܗ ܕܗܐ ܡ̣ܢ ܐܡܬܝ:ܪܫܐ ܠܐܘܪܚܗ ܡܫܪܐ ܢܥܒܕ ܕܐܦ ܗܘ ܢܥܒܪ܀ܥܡ ܫܘܪܝܗ ܨܝܕ ܫܘܠܡܗ ܡ̣ܢ ܨܝܕ ܐܡܗ:ܘܒܡܥܠܬܗ ܟܕܝܢܐ ܕܬܪܗܛ ܐܦ ܡܦܩܬܗ܀195 ܚܫܒܐ ܐܡܗ ܝܖ̈ܚܐ ܘܙܒ̈ܢܐ ܕܛܥܝܢܐ ܠܗ:ܘܒܡܢܝܢܘ̈ܗܝ ܦܣܥ ܒܐܘܪܚܐ ܕܟܠܗ̇ ܐܪܥܐ܀ܪܗܛ ܘܚܒܝܫ ܘܒܚܫܘܟܐ ܠܐ ܡܬܬܗܐ:ܘܥܡ ܓܢ̄ܒܖ̈ܐ ܫܘܪ ܒܐܘܪܚܐ ܕܦܣܝ̈ܩܬܐ܀ܠܐ ܩܕܡܐ ܠܗ ܐܡܗ ܡܝܠܐ ܒܪܗܛܐ ܕܐܘܪܚܗ:200 ܕܡ̣ܢ ܟܕ ܫܪܝ ܥܡܗ̇ ܪܕܐ ܠܡܫܢܝܘ܀ܟܕ ܠܐ ܐܕܝܩ ܡ̣ܢ ܚܫܘܟܐ ܕܢܚܙܐ ܢܘܗܪܐ:ܫܩܠܗ ܚܐܦܐ ܒܐܘܪܚܐ ܪܗܝܒܬܐ ܥܡ ܩܠܝ̈ܠܐ܀ܙܒ̈ܢܐ ܪܗܝܒܝܢ ܢܬܠܘܢ ܐܬܪܐ ܩܕܡ ܡܐܬܝܬܐ:ܕܐܦ ܠܐ ܠܥܘܠ̈ܐ ܒܓܘ ܟܖ̈ܣܬܐ ܒܫܠܝܐ ܡܪܦܝܢ܀205 ܥܡ ܫܘܪܝܗ ܕܥܘܠܐ ܪܕܐ ܕܪܐ ܢܦܪܥ:ܢܬܪ ܗܢܐ ܘܝܥܐ ܗܢܐ ܒܓܘ ܚܘܫܒܢܐ܀ܣܚܦ ܛܠܝܐ ܠܐܒܘܗܝ ܢܦܠ ܡ̣ܢ ܡܢܝܢܐ:ܘܥܐܠ ܩܐܡ ܕܐܦ ܗܘ ܢܫܪܐ ܒܕܪܐ ܚܕܬܐ܀ܬܫܥܡܐܐ ܫܢܝ̈ܐ ܘܬܠܬܝܢ ܬܘܒ ܚܝܐ ܗ̄ܘܐ ܐܕܡ:210 ܘܒܚܘܫܒܢܐ ܡܐܐ ܘܬܠܬܝܢ ܐܝܬ ܠܗ ܒܠܚܘܕ܀ܠܬܡܢܡܐܐ ܫܩܠ ܗ̄ܘܐ ܐܢܝܢ ܫܝܬ ܕܗܘܐ ܠܗ:ܘܒܓܘ ܕܝܠܗ ܚܒܫ ܗ̄ܘܐ ܐܢܝܢ ܘܐܪܦܝ ܠܐܕܡ܀ܟܕ ܛܒ ܚܝ ܗ̄ܘܐ ܐܒܘܗܝ ܥܡܗ ܒܡܬܚܐ ܕܫܢܘ̈ܗܝ:ܠܡܢܝܢܐ ܬܘܒ ܠܐ ܚܫܚ ܗ̄ܘܐ ܕܐܥܬܩ ܗ̄ܘܐ ܠܗ܀215 ܥܠ ܗ̄ܘܐ ܠܗ ܓܝܪ ܙܒܢܗ ܕܛܠܝܐ ܠܒܟ ܚܘܫܒܢܐ:ܘܣܚܦܗ ܐ̄ܚܪܝܐ ܠܗܘ ܩܕܡܝܐ ܕܢܬܠ ܐܬܪܐ܀ܗܟܢܐ ܓܝܪ ܕܚܝܢ ܕܪ̈ܐ ܠܕܩܕܡܝܗܘܢ:ܚܕ ܚܕ ܢܬܪܝܢ ܕܟܠܗܘܢ ܢܦܠܘܢ ܨܝܕ ܫܘܠܡܐ܀ܗܕܐ ܗ̄ܝ ܐܘܪܚܐ ܕܟܕܝܢܝܢ ܒܗ̇ ܙܒ̈ܢܐ ܒܪܗܛܐ:220 ܘܡܬܝܒܠܝܢ ܒܗ̇ ܕܖ̈ܐ ܠܡܥܒܪ ܚܕ ܒܬܪ ܚܕ܀ܗܐ ܪܕܝܢ ܒܗ̇ ܥܘܠ̈ܐ ܫܠܝ̈ܐ ܒܓܘ ܟܖ̈ܣܬܐ:ܘܠܐ ܫܠܝܢ ܒܗ̇ ܐܦ ܠܐ ܟܖ̈ܝܗܐ ܒܓܘ ܥܖ̈ܣܬܐ܀ܫܘܐ ܗ̄ܘ ܒܗ̇ ܪܗܛܐ ܘܕܩܠܝ̈ܠܐ ܘܕܡܬܝ̈ܢܐ:ܕܬܚܝܬܝܗܘܢ ܙܒܢܐ ܪܗܛ ܢܥܒܪ ܐܢܘܢ܀225 ܡܪܓܐ ܗ̄ܘ ܥܠܡܐ ܘܠܗܒܒ̈ܐ ܐ̄ܢܫܐ ܕܡܝܢ:ܕܥܕ ܗܐ ܫܘܚ ܢܦܪܥ ܗܢܐ ܚܡܐ ܠܗ ܗܢܐ܀ܐܙܠ ܕܪܐ ܘܐܬܐ ܕܪܐ ܠܓܘ ܡܢܝܢܐ:ܕܗܢܐ ܐ̄ܚܪܝܐ ܢܥܩܘܒ ܕܘܟܬܗ ܕܗܘ̇ ܩܕܡܝܐ܀ܗܢܐ ܪܗܛܐ ܢܘܚܐ ܒܥܐ ܠܡܫܬܠܡܘ:230 ܒܕܓܘܢ ܪܕܦܝܢ ܙܒ̈ܢܐ ܠܡܥܒܪ ܩܠܝܠܐܝܬ܀ܗܢܐ ܚܘܕܪܐ ܕܢܩܘܡ ܢܫܠܐ ܐܝܬ ܠܗ ܡܟܝܠ:ܕܠܝܘ̈ܡܬܐ ܗܐ ܣܒܠ ܐܢܘܢ ܨܝܕ ܫܘܠܡܐ܀ܗܕܐ ܓܝܓܠܐ ܣܓܝ ܪܗܛܐ ܥܠ ܕܘܒܖ̈ܐ:ܘܕܣܐܒܬ ܠܗ̇ ܡܫܬܪܝܐ ܠܗ̇ ܘܢܦܠ ܛܒܥܗ̇܀235 ܚܪܬܐ ܡܛܬܗ ܠܥܠܡܐ ܕܢܪܗܛ ܡ̣ܢ ܟܪ ܕܐܝܬܘܗܝ:ܘܗܫܐ ܕܡܛܬ ܢܫܠܐ ܐܝܬ ܠܗ ܕܓܡܪܗ̇ ܠܐܘܪܚܗ܀ܪܗܛܐ ܕܙܒ̈ܢܐ ܕܢܢܘܚ ܒܥܐ ܡ̣ܢ ܡܐܙܠܬܗ:ܕܫܒܬܐ ܕܥܡܠܐ ܡܬܕܢܚܐ ܠܗ̇ ܥܡ ܛܘܝܒ̈ܝܗ̇܀ܡܟܝܠ ܐܚܝ ܐܩܠܘ ܪܗܛܐ ܒܫܦܝܖ̈ܬܐ:240 ܕܐܘܪܚܐ ܪܗܝܒܐ ܘܙܒܢܐ ܡܙܠܗܙ ܥܠ ܕܒܓܘܗ܀ܐܦܢ ܢܗܘܐ ܕܠܐ ܟܪܐ ܙܒܢܐ ܕܥܠܡܐ ܟܠܗ:ܚܝ̈ܐ ܕܝܠܢ ܛܦܛܦܘ ܠܗܘܢ ܕܟܖ̈ܝܐ ܐܢܘܢ܀ܐܦ ܐܠܘ ܫܠܐ ܟܬܒܐ ܒܕܝܠܗ ܡ̣ܢ ܕܢܟܘܢ:ܟܝܢܐ ܡܠܦ ܥܠ ܬܩܢܘܬܐ ܕܗܝ ܫܦܝܪܐ܀245 ܙܒ̈ܢܐ ܕܥܒܪܝܢ ܐܝܟ ܛܠܠܐ ܗܕܐ ܩܥܝܢ:ܕܠܐ ܐ̄ܢܫ ܢܛܥܐ ܒܬܪ ܙܒܢܐ ܕܡܫܢܐ ܠܗ܀ܫܢܝ̈ܐ ܪ̈ܕܝܦܢ ܥܠ ܡܥܒܪܬܐ ܛܥܝܢܬ ܚܐܦܐ: ܒܓܠܝܐ ܡܒܕ̈ܩܢ ܕܥܒܪ ܠܗ ܟܠ ܥܡ ܟܠ ܡܕܡ܀ ܝܘ̈ܡܐ ܘܝܪ̈ܚܐ ܕܦܣܥܝܢ ܥܒܪܝܢ ܚܕ ܒܬܪ ܚܕ: 250 ܗܕܐ ܪܡܙܝܢ ܕܒܫܘܠܛܢ̈ܐ ܐܢܫ ܠܐ ܢܛܥܐ܀ ܥܒܪ ܥܠܡܐ ܘܟܠ ܕܐܝܬ ܠܗ ܫܪܝܪܐܝܬ: ܚܕ ܗ̄ܘ ܡܩܘܐ ܒܪܝܟ ܫܘܠܛܢܗ ܕܠܐ ܡܬܚܠܦ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>245 Die Zeiten, die wie Schatten vorüberwandern rufen: „Kein Mensch vergesse, dass er nach einer bestimmten Zeit dahinscheiden wird!"Die Jahre werden verfolgt vom Untergang, welcher eine Klinge trägt. Klar lassen sie erkennen, dass alles zusammen vergehen wird.Die verstreichenden Tage und Monate gehen nacheinander vorüber. 250 Auf dies weisen sie hin: dass der Mensch durch die Mächte [šulṭānē, die planetaren, regelmäßigen Zyklen] nicht irre geleitet werde:Fürwahr, die Welt und alles mit ihr wird vergehen; einer nur ist es, der bestehen bleiben wird, gesegnet sei Seine Macht [šulṭānā], die unveränderlich ist.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

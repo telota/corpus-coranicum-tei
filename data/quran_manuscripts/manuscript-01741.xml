@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1741">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dublin, Chester Beatty Library (Leabharlann Chester Beatty), Is 1405A</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: © The Trustees of the Chester Beatty Library, Dublin.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="6">Chester Beatty Library (Leabharlann Chester Beatty)
+                            , Dublin</repository>
+            <idno>Is 1405A</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: Is 1405A; Qurʾānic text: Q 2:60-2:65, Q 2:93-2:101; 15 lines per page; Dimensions: 376 x 286mm; Script style: kūfī D; Estimated date of production: 800-1000. </p>
+              <p> </p>
+              <p>This fragment is part of the Blue Qurʾān, which has been described in detail by Marcus Fraser (cf. <ref target="https://corpuscoranicum.de/de/manuscripts/1458">entry on the sister fragment HC.MS. 03223</ref> in the Qatar National Library). For more information on the fragment, also see the entry <ref target="https://viewer.cbl.ie/viewer/image/Is_1405A/1/">Is 1405A</ref> on the digital library of Chester Beatty.</p>
+              <p> </p>
+              <p>The catalogue of Qurʾān manuscripts of Chester Beatty Library contains the following information on the shelfmark Is. 1405, now presumably split into 2 fragments (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/JXE6ZPW5">Arberry 1967</ref>, p. 4): </p>
+              <p>"4. A small fragment containing Sura II. 57-95. Three folios of firm, deep blue vellum, measuring 27.6 x 36.7 cm., 15 lines to the page. The very beautiful script is executed in gold and is unvocalized. Verse-endings are marked with circular ornaments. <hi rend="italic">Alif </hi>is 1.2 cm. high. The binding is modern, dark-green leather. See Martin, pl. 141 ; Arnold-Grohmann, p. 20; Upham Pope III, p. 1944; Munajjed, 5 (2). See Plate 12. (MS. 1405)"</p>
+            </summary>
+            <msItem xml:id="mysql_id_692408" n="1r">
+              <title type="numeric" key="002:060:020-002:061:056">
+                                    002:060:020-002:061:056
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692407" n="1v">
+              <title type="numeric" key="002:061:057-002:065:006">
+                                    002:061:057-002:065:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692409" n="2r">
+              <title type="numeric" key="002:093:004-002:096:010">
+                                    002:093:004-002:096:010
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692406" n="2v">
+              <title type="numeric" key="002:096:011-002:101:003">
+                                    002:096:011-002:101:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>376</width><height>286</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52366">
+      <graphic decls="#imageRights-1" url="manuscript/1741/bca61d55-2acc-409f-9afb-3cc4f2002d10/manuscript-1741-page-52366-image-41061.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52365">
+      <graphic decls="#imageRights-1" url="manuscript/1741/6593e82b-8e21-4e67-aa21-74907237e9ae/manuscript-1741-page-52365-image-41060.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_52367">
+      <graphic decls="#imageRights-1" url="manuscript/1741/f1e92ae0-1f20-4464-8ebd-b7710f3049d8/manuscript-1741-page-52367-image-41062.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_52364">
+      <graphic decls="#imageRights-1" url="manuscript/1741/8398c3b4-defa-4260-9ea2-58fed7d91b29/manuscript-1741-page-52364-image-41059.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

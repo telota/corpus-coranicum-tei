@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 6:1-15</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_266" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>266</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In den beiden Koranstellen wird wie in Matthäus 6 davor gewarnt, das Gebet aus bloßem Formalismus oder gar mit der Absicht zur Selbstdarstellung zu verrichten; beide Texte betonen zudem die Wichtigkeit praktizierten Glaubens (bei Matthäus Vergebung, im Koran Sorge um Waise und Arme, d. h. tätige Barmherzigkeit). Auch sprachlich stehen Q 107:6 (allaḏīna hum yurāʾūn) und Q 4:142 (yurāʾūna n-nāsa) dem neutestamentlichen ὅπως φανῶσιν τοῖς ἀνθρώποις ("...damit sie von den Leuten gesehen werden") nahe. Vgl. auch TUK_0369 zu ähnlichen koranischen Aussagen über das Almosengeben.
+</summary>
+            <msItem>
+              <title>Matthäus 6:1-15</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Προσέχετε [δὲ] τὴν δικαιοσύνην ὑμῶν μὴ ποιεῖν ἔμπροσθεν τῶν ἀνθρώπων πρὸς τὸ θεαθῆναι αὐτοῖς• εἰ δὲ μή γε, μισθὸν οὐκ ἔχετε παρὰ τῷ πατρὶ ὑμῶν τῷ ἐν τοῖς οὐρανοῖς. 2 Ὅταν οὖν ποιῇς ἐλεημοσύνην, μὴ σαλπίσῃς ἔμπροσθέν σου, ὥσπερ οἱ ὑποκριταὶ ποιοῦσιν ἐν ταῖς συναγωγαῖς καὶ ἐν ταῖς ῥύμαις, ὅπως δοξασθῶσιν ὑπὸ τῶν ἀνθρώπων• ἀμὴν λέγω ὑμῖν, ἀπέχουσιν τὸν μισθὸν αὐτῶν. 3 σοῦ δὲ ποιοῦντος ἐλεημοσύνην μὴ γνώτω ἡ ἀριστερά σου τί ποιεῖ ἡ δεξιά σου, 4 ὅπως ᾖ σου ἡ ἐλεημοσύνη ἐν τῷ κρυπτῷ• καὶ ὁ πατήρ σου ὁ βλέπων ἐν τῷ κρυπτῷ ἀποδώσει σοι. 5 Καὶ ὅταν προσεύχησθε, οὐκ ἔσεσθε ὡς οἱ ὑποκριταί, ὅτι φιλοῦσιν ἐν ταῖς συναγωγαῖς καὶ ἐν ταῖς γωνίαις τῶν πλατειῶν ἑστῶτες προσεύχεσθαι, ὅπως φανῶσιν τοῖς ἀνθρώποις• ἀμὴν λέγω ὑμῖν, ἀπέχουσιν τὸν μισθὸν αὐτῶν. 6 σὺ δὲ ὅταν προσεύχῃ, εἴσελθε εἰς τὸ ταμεῖόν σου καὶ κλείσας τὴν θύραν σου πρόσευξαι τῷ πατρί σου τῷ ἐν τῷ κρυπτῷ• καὶ ὁ πατήρ σου ὁ βλέπων ἐν τῷ κρυπτῷ ἀποδώσει σοι. 7 Προσευχόμενοι δὲ μὴ βατταλογήσητε ὥσπερ οἱ ἐθνικοί, δοκοῦσιν γὰρ ὅτι ἐν τῇ πολυλογίᾳ αὐτῶν εἰσακουσθήσονται. 8 μὴ οὖν ὁμοιωθῆτε αὐτοῖς• οἶδεν γὰρ ὁ πατὴρ ὑμῶν ὧν χρείαν ἔχετε πρὸ τοῦ ὑμᾶς αἰτῆσαι αὐτόν. 9 οὕτως οὖν προσεύχεσθε ὑμεῖς• Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς• ἁγιασθήτω τὸ ὄνομά σου• 10 ἐλθέτω ἡ βασιλεία σου• γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς• 11 τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον• 12 καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφήκαμεν τοῖς ὀφειλέταις ἡμῶν• 13 καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ. 14 Ἐὰν γὰρ ἀφῆτε τοῖς ἀνθρώποις τὰ παραπτώματα αὐτῶν, ἀφήσει καὶ ὑμῖν ὁ πατὴρ ὑμῶν ὁ οὐράνιος• 15 ἐὰν δὲ μὴ ἀφῆτε τοῖς ἀνθρώποις, οὐδὲ ὁ πατὴρ ὑμῶν ἀφήσει τὰ παραπτώματα ὑμῶν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Hütet euch, eure Gerechtigkeit vor den Menschen zur Schau zu stellen; sonst habt ihr keinen Lohn von eurem Vater im Himmel zu erwarten. 2 Wenn du Almosen gibst, laß es also nicht vor dir herposaunen, wie es die Heuchler in den Synagogen und auf den Gassen tun, um von den Leuten gelobt zu werden. Amen, das sage ich euch: Sie haben ihren Lohn bereits erhalten. 3 Wenn du Almosen gibst, soll deine linke Hand nicht wissen, was deine rechte tut. 4 Dein Almosen soll verborgen bleiben, und dein Vater, der auch das Verborgene sieht, wird es dir vergelten. 5 Wenn ihr betet, macht es nicht wie die Heuchler. Sie stellen sich beim Gebet gern in die Synagogen und an die Straßenecken, damit sie von den Leuten gesehen werden. Amen, das sage ich euch: Sie haben ihren Lohn bereits erhalten. 6 Du aber geh in deine Kammer, wenn du betest, und schließ die Tür zu; dann bete zu deinem Vater, der im Verborgenen ist. Dein Vater, der auch das Verborgene sieht, wird es dir vergelten. 7 Wenn ihr betet, sollt ihr nicht plappern wie die Heiden, die meinen, sie werden nur erhört, wenn sie viele Worte machen. 8 Macht es nicht wie sie; denn euer Vater weiß, was ihr braucht, noch ehe ihr ihn bittet. 9 So sollt ihr beten: Unser Vater im Himmel, dein Name werde geheiligt, 10 dein Reich komme, dein Wille geschehe wie im Himmel, so auf der Erde. 11 Gib uns heute das Brot, das wir brauchen. 12 Und erlaß uns unsere Schulden, wie auch wir sie unseren Schuldnern erlassen haben. 13 Und führe uns nicht in Versuchung, sondern rette uns vor dem Bösen. 14 Denn wenn ihr den Menschen ihre Verfehlungen vergebt, dann wird euer himmlischer Vater auch euch vergeben. 15 Wenn ihr aber den Menschen nicht vergebt, dann wird euch euer Vater eure Verfehlungen auch nicht vergeben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

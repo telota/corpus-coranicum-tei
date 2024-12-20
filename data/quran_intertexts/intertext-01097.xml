@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Hagiga 14a</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1097" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1097</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 7:11-18 berichtet, wie ʾIblīs sich weigert, sich vor Adam niederzuwerfen, und daraufhin aus dem Himmel verstoßen wird. In Q 7:12 begründet ʾIblīs seine Weigerung damit, dass er besser sei (ʾana ḫairun minhu), da er aus Feuer geschaffen sei (ḫalaqtanī min narin), Adam dagegen nur aus Lehm (wa-ḫalaqtahū min ṭīnin). Wie der hier zitierte Text aus dem babylonischen Talmud zeigt, findet sich die Vorstellung, Engel seien aus Feuer erschaffen, auch in der jüdischen Tradition (weitere Belegstellen bei Schäfer 1975: p. 51). Während an anderen Stellen in der rabbinischen Literatur auch die Vorstellung bezeugt ist, dass die Engel - da aus Feuer geschaffen - ewig lebten, ist die im zitierten Text erwähnte tägliche Neuerschaffung der Engel Peter Schäfer zufolge Ausdruck einer Tendenz, die Bedeutung der Engel herabzusetzen. Sie scheint sich gegen zeitgenössische Vorstellungen zu richten, die den Engeln zuviel Macht und Einfluss zuschrieben, sowie gegen eine gottähnliche Verehrung der Engel (Schäfer 1975: p. 51-54).
+
+	Zur Verstoßungslegende vgl. TUK_0445, TUK_0995 und TUK_1018.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Hagiga 14a</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna 1880-1886</bibl>
+              <bibl type="literatur">Sch&amp;#xE4;fer, Peter: Rivalit&amp;#xE4;t zwischen Engeln und Menschen. Berlin [usw]: de Gruyter 1975.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	אמר ליה שמואל לחייא בר רב: בר אריא! תא, אימא לך מילתא מהני מילי מעליותא דהוה אמר אבוך: כל יומא ויומא נבראין מלאכי השרת מנהר דינור, ואמרי שירה ובטלי, שנאמר בחדשים לבקרים רבה אמונתך.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Šemuél sprach zu R. Ḥija b. Rabh: Gelehrtensohn, komm, ich will dir etwas von den schönen Dingen sagen, die dein Vater gesagt hat. An jedem Tage werden Dienstengel aus dem Feuerstrome erschaffen, singen das Loblied und verschwinden, denn es heißt: jeden Morgen neu, groß ist deine Treue (Klagelieder 3:23)
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Samuel  said  to  R.  Hiyya  b.  Rab:  O  son  of  a great  man, come,  I  will  tell  thee  something from  those  excellent  things  which  thy  father has  said.  Every  day  ministering  angels  are created from the fiery stream, and utter song, and  cease  to  be, for  it  is  said:  They  are  new every  morning:  great  is  Thy  faithfulness.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

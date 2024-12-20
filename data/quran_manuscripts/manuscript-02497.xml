@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2497">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Oxford, Bodleian Library (Oxford University), MS. Arab. c. 75</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="33">Bodleian Library (Oxford University)
+                            , Oxford</repository>
+            <idno>MS. Arab. c. 75</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Bodleian Library MS. Arab. c. 75; Qurʾānic Text: Q 27:27-27:42; 16 lines per page; Dimensions: 260 x 193mm; Script style: kūfī B.II; Estimated date of production: 800-900.</p>
+              <p>This manuscript probably belongs to the same Qur’an as 26 other  fragments, spread across a number of institutions and collections  worldwide. Some of these fragments were described in great detail, see  for example the catalogue entry for <ref target="https://corpuscoranicum.de/handschriften/index/sure/11/vers/116?handschrift=1397">HC.MS.2017.0009</ref> by Marcus Fraser. The metadata was carried over from that manuscript.</p>
+              <p> </p>
+              <p>According to its description, this shelfmark contains "2  works by anonymous authors on the subjects of Calligraphy and Koran";  only the qur'ānic folio has been included, for a more information and  the other parts of the work, please visit the <ref target="https://digital.bodleian.ox.ac.uk/objects/44f2f044-27ba-4fe4-b753-c7558595113b/">website of the Bodleian Library</ref>.</p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_708174" n="3r">
+              <title type="numeric" key="027:027:004-027:036:002">
+                                    027:027:004-027:036:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708175" n="3v">
+              <title type="numeric" key="027:036:003-027:042:003">
+                                    027:036:003-027:042:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="3r" xml:id="mysql_id_82412">
+      <graphic decls="#imageRights-1" url="manuscript/2497/6cb47be7-47b3-4aca-b201-c0f660d60e24/manuscript-2497-page-82412-image-74747.jpg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_82413">
+      <graphic decls="#imageRights-1" url="manuscript/2497/eadf3c13-791c-42a0-844b-b89ea673fdb7/manuscript-2497-page-82413-image-74748.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

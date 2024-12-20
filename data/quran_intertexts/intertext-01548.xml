@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Legende der Siebenschläfer von Ephesos (Hs. Sachau 321, Kap. 13, 16, ed. Allgeier, S. 24-25, 30-32)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1548" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1548</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+Die Erzählung der „Gefährten der Höhle“ (aṣḥāb al-kahf) in Q 18:9–26 ist eine koranische Neubearbeitung der in der Spätantike sehr verbreiteten christlichen Siebenschläferlegende. Der Kern der Legende ist folgender: Sieben oder acht Jünglinge, die sich während der Christenverfolgungen unter dem römischen Kaiser Decius (249–251) in einer Höhle in der Nähe von Ephesos versteckten und dort einschliefen, wurden nach ca. 200 Jahren während der Herrschaft von Kaiser Theodosius II. (408–450) auferweckt.Mehrere Elemente der christlichen Legende fungieren dabei als ‚objektive‘ Beweise für die Wirklichkeit des jahrhundertelangen Schlafes der Jünglinge, die vor allem in Kontrast mit ihrer ‚subjektiven‘ Zeitwahrnehmung von einer Nacht (vgl. Q 18:19: yauman ʾau baʿḍa yaumin, „ein Tag oder ein Teil eines Tages“) stehen. Der wichtigste Hinweis in der Legende ist die beschriebene Bleitafel, die der Bischof von Ephesos am Ende der Erzählung entdeckt (TUK_1546). Doch wird der Gegensatz zwischen der subjektiven und der objektiven Zeitebene bereits deutlich, als einer der Schläfer (Jamlichus) auf Erkundungsreise in die Stadt geschickt wird. Bei seinem Besuch in der Stadt wird ein weiteres objektive und greifbare Beweis für die Auferstehung der Jünglinge hervorgehoben: Die römischen Silbermünzen, die Jamlichus für den Kauf von Lebensmitteln bei sich trägt, erweisen sich als alte Münzen, die seit langer Zeit nicht mehr im Umlauf waren. Wahrscheinlich handelt es sich dabei um den im 3. Jh. verbreiteten Antoninianus (Doppeldenar) (dazu TUK_1550).
+
+Die Münzen, die in allen christlichen Ausprägungen der Legende erwähnt und in manchen Versionen ausführlich beschrieben werden, dienen innerhalb der Logik der Erzählung nicht nur als Beweis für die Wirklichkeit des langen Schlafes und für die Glaubwürdigkeit des beschriebenen Wunders, sondern ermöglichen auch die genaue Datierung der Ereignisse. Hauptsächlich auf Grund der Münzen kann der Prokonsul die Dauer des Schlafes einschätzen: „Siehe, Prägung und Münzart sind nach den Aufschriften mehr als 370 Jahre alt, d. i. etwas früher als Kaiser Decius, und (die Münze ist) nicht mit einer anderen Münze ersetzt. Ferner ist sie auch nicht der Münze von heute ähnlich, mit der sich Handel und Wandel für die Welt vollzieht“ (zu den verschiedenen Datierungen siehe TUK_1550).
+
+Als wichtiges Detail der Siebenschläferlegende werden die Silbermünzen auch in der koranischen Bearbeitung der Legende beibehalten. Allerdings beschränkt sich der Koran auf die bloße Erwähnung des „Geldes“ der Jünglinge (wariq[u]kum, „euer Geld“), ohne auf dessen zentrale Rolle in der Erzählung näher einzugehen: „Schickt nun einen von euch mit diesem eurem Geld (bi-wariqikum                      hāḏihī) in die Stadt!" (Q 18:19). Wie bei anderen im Koran nur angedeuteten Elementen der Siebenschläferlegende wird somit die Wichtigkeit der Silbermünzen für die Handlung bei den Adressaten als bekannt vorausgesetzt. Insgesamt greift der Koran nur einzelne Punkte der christlichen Siebenschläferlegende auf und geht auf diese ein, ohne jedoch einen ausführlichen Bericht des göttlichen Wunders (vgl. Q 18:9) zu geben.
+
+
+Zur Siebenschläferlegende im Koran siehe auch: TUK_0146, TUK_0415, TUK_1011, TUK_1543, TUK_1544, TUK_1545, TUK_1546, TUK_1549, TUK_1550.
+</summary>
+            <msItem>
+              <title>Legende der Siebenschläfer von Ephesos (Hs. Sachau 321, Kap. 13, 16, ed. Allgeier, S. 24-25, 30-32)</title>
+              <author>Anonym</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">450-500</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+Allgeier, Arthur. „Die Älteste Gestalt Der Siebenschläferlegende.“ Oriens Christianus 6 (1916): 1–43; 7–8 (1918): 33–87.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܘܩܡ ܝܡܠܝܟܐ ܒܨܦܪܐ ܐܝܟ ܥܝܕܐ ܕܟܠܝܘܡ ܘܡܢ ܟܝܣܐ ܕܟܣܦܐ ܢܣܒ ܡܢ ܡܘܢܝܛܐ ܕܢܦܩܐ ܠܫܬܝܢ ܘܬܖ̈ܬܝܢ ܘܡܢ ܗ̇ܝ ܕܐܖ̈ܒܥܝܢ ܘܐܪܒܥ ܒܕܪܐ ܗ̇ܘ ܕܫܢܒܘ ܒܗ ܗ̇ܝ ܕܒܝ̈ܘܡܝ ܡܠܟܐ ܕܡܢ ܩܕܡ ܩܠܝܠ ܙܒܢܐ ܕܝܘ̈ܡܬܗܘܢ ܕܡܘ̈ܕܝܢܐ ܐܬܛܒܥܬ ܗܘܬ ܕܐܝܬܝܗ ܩܕܡ ܬܠܬܡܐܐ ܘܫܒ̈ܥܝܢ ܘܬܖ̈ܬܝܢ ܫ̈ܢܝܢ ܥܕܡܐ ܠܝܘܡܐ ܕܐܬܢܚܡܘ ܒܗ ܡܘ̈ܕܝܢܐ܀ (...)܀ܐܢܛܘܦܛܘܣ ܕܝܢ ܘܡܪܝܣ ܐܦܝܣܩܘܦܐ ܫܩܠܘܗܝ ܡܢ ܐܝܕ̈ܘܗܝ ܠܟܣܦܐ ܘܐܬܕܡܪܘ ܒܗ. ܘܐܡܪ ܐܢܛܘܦܛܘܣ ܠܝܡܠܝܟܐ. ܐܝܟܐ ܗܝ ܣܝܡܬܐ ܕܐܫܟܚܬ ܕܗܐ ܟܣܦܐ ܡܢܗ̇ ܐܚܝܕ ܐܢܬ ܒܐܝܕ̈ܝܟ ܥܢܐ ܝܡܠܝܟܐ ܘܐܡܪ ܠܗܘܢ ܣܝܡܬܐ ܡܪܝ ܡܢ ܡܬܘܡ ܠܐ ܡܫܟܚܐ ܠܝ ܐܝܟ ܕܐܡܪܝܢ ܐܢܬܘܢ ܥܠܝ. ܐܢܐ ܕܝܢ ܝܕܥ ܐܢܐ ܕܡܢ ܟܝܣܐ ܕܐܒ̈ܗܗܝ ܘܡܢ ܥܘܪܦܢܐ ܕܟܪܟܐ ܗܢܐ ܐܝܬܘܗܝ ܟܣܦܐ ܗܢܐ ܕܐܝܬ ܒܐܝܕ̈ܝ. ܡܢܐ ܓܝܪ ܐܢ̈ܝܢ ܗܠܝܢ ܕܗܘܢܝ ܠܐ ܝܕܥ ܐܢܐ. ܐܡܪ ܠܗ ܐܢܛܘܦܛܘܣ. ܐܡܪ ܠܢ ܡܢ ܐܝܡܟܐ ܐܢܬ. ܝܡܠܝܟܐ ܐܡܪ ܐܝܟ ܕܣܒܪ ܐܢܐ ܡܪܝ ܡܢ ܡܕܝܢܬܐ ܗܕܐ ܐܝܬܝ. ܐܡܪ ܠܗ ܐܢܛܘܦܛܘܣ ܒܪ ܡ̇ܢ ܐܝܬܝܟ. ܘܡܢܘ ܝܕܥ ܠܟ ܢܐܬܐ ܢܣܗܕ ܥܠܝܟ. ܘܐܡܪ ܠܗ ܫܡ ܐܒ̈ܗܘܗܝ ܘܠܐ ܐܢܫ ܬܘܒ ܐܫܟܚ ܕܝܕܥ ܠܗ ܘܠܐ ܠܐܒܗ̈ܘܗܝ.ܐܢܛܘܦܛܘܣ ܕܝܢ ܐܡܪ ܠܗ ܕܓܠܐ ܐܢܬ ܘܠܐ ܒܥܐ ܐܢܬ ܕܬܐܡܪ ܫܪܪܐ. ܗ̣ܘ ܕܝܢ ܟܕ ܚܙܐ ܩܐܡ ܗܘܐ ܘܡܪܟܢ ܪܝܫܗ ܩܕܡܝܗܘܢ ܟܕ ܫܠܐ ܘܨܕܝܕ. ܘܐܡܪܝܢ ܗܘܘ ܟܒܪ ܫܢܝܐ ܗܘ ܐܚܖ̈ܝܢܐ ܕܝܢ ܐܡܪܝܢ ܠܐ ܐܠܐ ܗܘ ܡܫܢܐ ܢܦܫܗ ܕܐܝܟܢܐ ܢܬܦܠܛ ܡܢ ܗܕܐ ܐܢܢܩܝ. ܐܢܛܘܦܛܘܣ ܕܝܢ ܚܪ ܒܗ ܒܚܡܬܐ ܘܐܡܪ ܐܝܟܢܐ ܢܚܫܒܟ ܫܢܝܐ ܐܘ ܐܝܟܢܐ ܢܗܝܡܢܟ ܕܟܣܦܐ ܡܢ ܟܝܣܐ ܗ̇ܘ ܕܐܒܗ̈ܝܟ. ܕܗܐ ܛܒܥܐ ܘܡܘܢܝܛܐ ܡܢ ܟܬܝ̈ܒܬܐ ܕܒܗ. ܥܒܪܐ ܗܝ ܠܬܠܬܡܐܐ ܘܫܒ̈ܥܝܢ ܫ̈ܢܝܢ ܘܩܠܝܠ ܗܘ ܩܕܡܝܐ ܠܕܩܝܘܣ ܡܠܟܐ ܘܠܐ ܐܬܚܠܦܬ ܒܡܘܢܝܛܐ ܐܚܪܬܐ ܘܠܐ ܬܘܒ ܕܡܝܐ ܠܡܘܢܝܛܐ ܕܝܘܡܢܐ ܕܒܗ ܐܝܬ ܡܣܒܐ ܘܡܠܬܐ ܠܥܠܡܐ. ܕܠܡܐ ܩܕܝܡܝܢ ܐܢܘܢ ܐܒܗ̈ܗܝܟ ܠܕܖ̈ܐ ܘܠܫ̈ܢܝܐ ܣܓ̈ܝܐܬܐ ܘܗܐ ܐܢܬ ܥܠܝܡܐ ܐܝܬܝܟ ܘܨܒܐ ܐܢܬ ܕܢܛܥܐ ܒܣ̈ܒܐ ܘܚܟܝ̈ܡܐ ܕܐܦܣܘܣ ܡܕܝܢܬܐ. ܡܟܝܠ ܦܩܕ ܐܢܐ ܕܠܐܣܘܖ̈ܐ ܘܠܢ̈ܓܕܐ ܬܫܬܠܡ ܥܕܡܐ ܕܬܘܕܐ ܕܐܝܟܐ ܗܝ ܣܝܡܬܐ ܕܐܫܟܚܬ.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+§13. [...] In der Morgenfrühe erhob sich Jam[b]lichos nach seiner täglichen Gewohnheit. Er nahm aus dem Geldbeutel einen Zweiundsechziger und einen Vierundzwanziger von der Währung der Zeit, da sie eingeschlafen waren, also der Tage des Kaisers Decius, Münzen die kurz vor den Tagen der Bekenner d. h. 372 Jahre vor dem Tage, da die Bekenner erweckt wurden, geprägt worden waren [...].
+
+
+§16. Der Prokonsul und der Bischof Mares nahmen das Geld aus seinen Händen und verwunderten sich darüber. Der Prokonsul sprach zu Jamlichus: „Wo ist der Schatz, den du gefunden hast? Denn woher hast du das Geld in deinen Händen?“ Jamlichus antwortete und sprach zu ihnen: „Herr, ich habe (S. 33) nie einen Schatz gefunden, wie ihr zu mir sagt. Dagegen weiß ich, dass dieses Geld, das in meinen Händen ist, aus dem Beutel meiner Eltern und der Münze dieser Stadt stammt. Denn, was mich betroffen hat, ich weiß es nicht.“ Es sprach zu ihm der Prokonsul: „Wessen Sohn bist du? Und wer dich kennt, soll kommen und für dich Zeugnis geben!“ Da nannte er ihm den Namen seiner Eltern, aber er fand wiederum niemand, der ihn oder seine Eltern kannte.
+
+
+Nun sprach der Prokonsul zu ihm: „Ein Lügner bist du und willst die Wahrheit nicht sagen.“ Als er das sah, stand er da und ließ seinen Kopf vor ihnen sinken, indem er still war und hinstarrte. Und sie sagten: „Vielleicht ist er verrückt.“ Andere sagten: „Nein, sondern er verstellt sich, um aus dieser Klemme zu entrinnen." Der Prokonsul aber blickte zornig auf ihn und sprach: „Wie soll ich dich für verrückt halten oder wie sollen wir dir glauben, dass das Geld aus dem Beutel deiner Eltern stammt? Siehe, Prägung und Münzart sind nach den Aufschriften mehr als 370 Jahre
+ alt, d. i. etwas früher als Kaiser Decius, und (die Münze ist) nicht 
+mit einer anderen Münze ersetzt. Ferner ist sie auch nicht der Münze von
+ heute ähnlich, mit der sich Handel und Wandel für die Welt vollzieht. Sind etwa deine Eltern da gewesen vor Generationen und vielen Jahren, während du ein Jüngling bist? Und du willst die Alten und Weisen der Stadt Ephesus irre führen? Daher befehle ich, dass du den Fesseln und Foltern überliefert wirst, bis du bekennst, wo der Schatz ist, den du gefunden hast.“
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

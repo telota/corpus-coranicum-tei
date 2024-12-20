@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1162">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (6)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0011.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0012.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (6)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p/><p>1 fol. on parchment; Shelfmark: Vat. Ar. 1605 (VI); Qurʾānic  Text: Q 67:15-67:28; 13 lines per page; Dimensions: 249 x  155mm; Script style: kūfī C; Estimated date of production: 700-900.</p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 6): <p/><p>"6. Cm. 15,5 x 24,9; 13 linee. Sura 67,15 (ذلو)لا – 21 الذى;    verso: sura 67,23 اليم 8 - قل. Questo foglio appartiene allo stesso  esemplare dei ni. 2-5. La scrittura del verso è stata ripassata, come  nei ni. 2-4. Un divisore denario, constituito da un dischetto rosso col  centro giallo, inserito in una rozza stella nera a quattro punte, appare  nel recto dopo il v. 20. La parte superiore è danneggiata, colla  perdita di tre linee. Il resto, compresi i margini, è in buono stato di  conservazione."</p></summary>
+            <msItem xml:id="mysql_id_679589" n="6r">
+              <title type="numeric" key="067:015:006-067:021:003">
+                                    067:015:006-067:021:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679590" n="6v">
+              <title type="numeric" key="067:023:001-067:028:015">
+                                    067:023:001-067:028:015
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>249</width><height>155</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="13">13 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="6r" xml:id="mysql_id_40477">
+      <graphic decls="#imageRights-1" url="manuscript/1162/51b55984-44ad-4922-8c10-b34118eaf511/manuscript-1162-page-40477-image-25679.jpg"/>
+    </surface>
+    <surface n="6v" xml:id="mysql_id_40478">
+      <graphic decls="#imageRights-2" url="manuscript/1162/e06648f7-5fe5-49b6-a57f-f73ce79ff227/manuscript-1162-page-40478-image-25680.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 103:1-22</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_260" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>260</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Speyer 1931: p. 312 verweist nur kurz auf die Parallelität zwischen der Aussage über Gottes Thron in Q 2:255 und Psalm 103:19. Tatsächlich liegt auch eine enge sprachliche Berührung vor: Für hebräisch kissəʾô hat der Targum aramäisch korsyeh, welches genau dem koranischen kursiyyuhū entspricht. kursiyy wird auch in der ― laut Nöldeke früher zu datierenden ― Sure 38:34 als Wort für Thron verwendet. Vgl. auch Psalm 11:4. Vgl. dazu auch Jeffery 1938: p. 249.
+</summary>
+            <msItem>
+              <title>Psalm 103:1-22</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>%3Cp%3E%0D%0A%09%D7%9C%D6%B0%D7%93%D6%B8%D7%95%D6%B4%D7%93+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D6%B4%D7%99+%D7%A0%D6%B7%D7%A4%D6%B0%D7%A9%D7%81%D6%B4%D7%99+%D7%90%D6%B6%D7%AA%D6%BE%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%95%D6%B0%D7%9B%D6%B8%D7%9C%D6%BE%D7%A7%D6%B0%D7%A8%D6%B8%D7%91%D6%B7%D7%99+%D7%90%D6%B6%D7%AA%D6%BE%D7%A9%D7%81%D6%B5%D7%9D+%D7%A7%D6%B8%D7%93%D6%B0%D7%A9%D7%81%D7%95%D6%B9+%3A+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D6%B4%D7%99+%D7%A0%D6%B7%D7%A4%D6%B0%D7%A9%D7%81%D6%B4%D7%99+%D7%90%D6%B6%D7%AA%D6%BE%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%95%D6%B0%D7%90%D6%B7%D7%9C%D6%BE%D7%AA%D6%BC%D6%B4%D7%A9%D7%81%D6%B0%D7%9B%D6%BC%D6%B0%D7%97%D6%B4%D7%99+%D7%9B%D6%BC%D6%B8%D7%9C%D6%BE%D7%92%D6%BC%D6%B0%D7%9E%D7%95%D6%BC%D7%9C%D6%B8%D7%99%D7%95+%3A+%D7%94%D6%B7%D7%A1%D6%BC%D6%B9%D7%9C%D6%B5%D7%97%D6%B7+%D7%9C%D6%B0%D7%9B%D6%B8%D7%9C%D6%BE%D7%A2%D6%B2%D7%95%D6%B9%D7%A0%D6%B5%D7%9B%D6%B4%D7%99+%D7%94%D6%B8%D7%A8%D6%B9%D7%A4%D6%B5%D7%90+%D7%9C%D6%B0%D7%9B%D6%B8%D7%9C%D6%BE%D7%AA%D6%BC%D6%B7%D7%97%D6%B2%D7%9C%D6%BB%D7%90%D6%B8%D7%99%D6%B0%D7%9B%D6%B4%D7%99+%3A+%D7%94%D6%B7%D7%92%D6%BC%D7%95%D6%B9%D7%90%D6%B5%D7%9C+%D7%9E%D6%B4%D7%A9%D6%BC%D7%81%D6%B7%D7%97%D6%B7%D7%AA+%D7%97%D6%B7%D7%99%D6%BC%D6%B8%D7%99%D6%B0%D7%9B%D6%B4%D7%99+%D7%94%D6%B7%D7%9E%D6%B0%D7%A2%D6%B7%D7%98%D6%BC%D6%B0%D7%A8%D6%B5%D7%9B%D6%B4%D7%99+%D7%97%D6%B6%D7%A1%D6%B6%D7%93+%D7%95%D6%B0%D7%A8%D6%B7%D7%97%D6%B2%D7%9E%D6%B4%D7%99%D7%9D+%3A+%D7%94%D6%B7%D7%9E%D6%BC%D6%B7%D7%A9%D7%82%D6%B0%D7%91%D6%BC%D6%B4%D7%99%D6%B7%D7%A2+%D7%91%D6%BC%D6%B7%D7%98%D6%BC%D7%95%D6%B9%D7%91+%D7%A2%D6%B6%D7%93%D6%B0%D7%99%D6%B5%D7%9A%D6%B0+%D7%AA%D6%BC%D6%B4%D7%AA%D6%B0%D7%97%D6%B7%D7%93%D6%BC%D6%B5%D7%A9%D7%81+%D7%9B%D6%BC%D6%B7%D7%A0%D6%BC%D6%B6%D7%A9%D7%81%D6%B6%D7%A8+%D7%A0%D6%B0%D7%A2%D7%95%D6%BC%D7%A8%D6%B8%D7%99%D6%B0%D7%9B%D6%B4%D7%99+%3A+%D7%A2%D6%B9%D7%A9%D7%82%D6%B5%D7%94+%D7%A6%D6%B0%D7%93%D6%B8%D7%A7%D7%95%D6%B9%D7%AA+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%95%D6%BC%D7%9E%D6%B4%D7%A9%D7%81%D6%B0%D7%A4%D6%BC%D6%B8%D7%98%D6%B4%D7%99%D7%9D+%D7%9C%D6%B0%D7%9B%D6%B8%D7%9C%D6%BE%D7%A2%D6%B2%D7%A9%D7%81%D7%95%D6%BC%D7%A7%D6%B4%D7%99%D7%9D+%3A+%D7%99%D7%95%D6%B9%D7%93%D6%B4%D7%99%D7%A2%D6%B7+%D7%93%D6%BC%D6%B0%D7%A8%D6%B8%D7%9B%D6%B8%D7%99%D7%95+%D7%9C%D6%B0%D7%9E%D6%B9%D7%A9%D7%81%D6%B6%D7%94+%D7%9C%D6%B4%D7%91%D6%B0%D7%A0%D6%B5%D7%99+%D7%99%D6%B4%D7%A9%D7%82%D6%B0%D7%A8%D6%B8%D7%90%D6%B5%D7%9C+%D7%A2%D6%B2%D7%9C%D6%B4%D7%99%D7%9C%D7%95%D6%B9%D7%AA%D6%B8%D7%99%D7%95+%3A+%D7%A8%D6%B7%D7%97%D7%95%D6%BC%D7%9D+%D7%95%D6%B0%D7%97%D6%B7%D7%A0%D6%BC%D7%95%D6%BC%D7%9F+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%90%D6%B6%D7%A8%D6%B6%D7%9A%D6%B0+%D7%90%D6%B7%D7%A4%D6%BC%D6%B7%D7%99%D6%B4%D7%9D+%D7%95%D6%B0%D7%A8%D6%B7%D7%91%D6%BE%D7%97%D6%B8%D7%A1%D6%B6%D7%93+%3A+%D7%9C%D6%B9%D7%90%D6%BE%D7%9C%D6%B8%D7%A0%D6%B6%D7%A6%D6%B7%D7%97+%D7%99%D6%B8%D7%A8%D6%B4%D7%99%D7%91+%D7%95%D6%B0%D7%9C%D6%B9%D7%90+%D7%9C%D6%B0%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9D+%D7%99%D6%B4%D7%98%D6%BC%D7%95%D6%B9%D7%A8+%3A+%D7%9C%D6%B9%D7%90+%D7%9B%D6%B7%D7%97%D6%B2%D7%98%D6%B8%D7%90%D6%B5%D7%99%D7%A0%D7%95%D6%BC+%D7%A2%D6%B8%D7%A9%D7%82%D6%B8%D7%94+%D7%9C%D6%B8%D7%A0%D7%95%D6%BC+%D7%95%D6%B0%D7%9C%D6%B9%D7%90+%D7%9B%D6%B7%D7%A2%D6%B2%D7%95%D6%B9%D7%A0%D6%B9%D7%AA%D6%B5%D7%99%D7%A0%D7%95%D6%BC+%D7%92%D6%BC%D6%B8%D7%9E%D6%B7%D7%9C+%D7%A2%D6%B8%D7%9C%D6%B5%D7%99%D7%A0%D7%95%D6%BC+%3A+%D7%9B%D6%BC%D6%B4%D7%99+%D7%9B%D6%B4%D7%92%D6%B0%D7%91%D6%B9%D7%94%D6%BC%D6%B7+%D7%A9%D7%81%D6%B8%D7%9E%D6%B7%D7%99%D6%B4%D7%9D+%D7%A2%D6%B7%D7%9C%D6%BE%D7%94%D6%B8%D7%90%D6%B8%D7%A8%D6%B6%D7%A5+%D7%92%D6%BC%D6%B8%D7%91%D6%B7%D7%A8+%D7%97%D6%B7%D7%A1%D6%B0%D7%93%D6%BC%D7%95%D6%B9+%D7%A2%D6%B7%D7%9C%D6%BE%D7%99%D6%B0%D7%A8%D6%B5%D7%90%D6%B8%D7%99%D7%95+%3A+%D7%9B%D6%BC%D6%B4%D7%A8%D6%B0%D7%97%D6%B9%D7%A7+%D7%9E%D6%B4%D7%96%D6%B0%D7%A8%D6%B8%D7%97+%D7%9E%D6%B4%D7%9E%D6%BC%D6%B7%D7%A2%D6%B2%D7%A8%D6%B8%D7%91+%D7%94%D6%B4%D7%A8%D6%B0%D7%97%D6%B4%D7%99%D7%A7+%D7%9E%D6%B4%D7%9E%D6%BC%D6%B6%D7%A0%D6%BC%D7%95%D6%BC+%D7%90%D6%B6%D7%AA%D6%BE%D7%A4%D6%BC%D6%B0%D7%A9%D7%81%D6%B8%D7%A2%D6%B5%D7%99%D7%A0%D7%95%D6%BC+%3A+%D7%9B%D6%BC%D6%B0%D7%A8%D6%B7%D7%97%D6%B5%D7%9D+%D7%90%D6%B8%D7%91+%D7%A2%D6%B7%D7%9C%D6%BE%D7%91%D6%BC%D6%B8%D7%A0%D6%B4%D7%99%D7%9D+%D7%A8%D6%B4%D7%97%D6%B7%D7%9D+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%A2%D6%B7%D7%9C%D6%BE%D7%99%D6%B0%D7%A8%D6%B5%D7%90%D6%B8%D7%99%D7%95+%3A+%D7%9B%D6%BC%D6%B4%D7%99%D6%BE%D7%94%D7%95%D6%BC%D7%90+%D7%99%D6%B8%D7%93%D6%B7%D7%A2+%D7%99%D6%B4%D7%A6%D6%B0%D7%A8%D6%B5%D7%A0%D7%95%D6%BC+%D7%96%D6%B8%D7%9B%D7%95%D6%BC%D7%A8+%D7%9B%D6%BC%D6%B4%D7%99%D6%BE%D7%A2%D6%B8%D7%A4%D6%B8%D7%A8+%D7%90%D6%B2%D7%A0%D6%B8%D7%97%D6%B0%D7%A0%D7%95%D6%BC+%3A+%D7%90%D6%B1%D7%A0%D7%95%D6%B9%D7%A9%D7%81+%D7%9B%D6%BC%D6%B6%D7%97%D6%B8%D7%A6%D6%B4%D7%99%D7%A8+%D7%99%D6%B8%D7%9E%D6%B8%D7%99%D7%95+%D7%9B%D6%BC%D6%B0%D7%A6%D6%B4%D7%99%D7%A5+%D7%94%D6%B7%D7%A9%D6%BC%D7%82%D6%B8%D7%93%D6%B6%D7%94+%D7%9B%D6%BC%D6%B5%D7%9F+%D7%99%D6%B8%D7%A6%D6%B4%D7%99%D7%A5+%3A+%D7%9B%D6%BC%D6%B4%D7%99+%D7%A8%D7%95%D6%BC%D7%97%D6%B7+%D7%A2%D6%B8%D7%91%D6%B0%D7%A8%D6%B8%D7%94%D6%BE%D7%91%D6%BC%D7%95%D6%B9+%D7%95%D6%B0%D7%90%D6%B5%D7%99%D7%A0%D6%B6%D7%A0%D6%BC%D7%95%D6%BC+%D7%95%D6%B0%D7%9C%D6%B9%D7%90%D6%BE%D7%99%D6%B7%D7%9B%D6%BC%D6%B4%D7%99%D7%A8%D6%B6%D7%A0%D6%BC%D7%95%D6%BC+%D7%A2%D7%95%D6%B9%D7%93+%D7%9E%D6%B0%D7%A7%D7%95%D6%B9%D7%9E%D7%95%D6%B9+%3A+%D7%95%D6%B0%D7%97%D6%B6%D7%A1%D6%B6%D7%93+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%9E%D6%B5%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9D+%D7%95%D6%B0%D7%A2%D6%B7%D7%93%D6%BE%D7%A2%D7%95%D6%B9%D7%9C%D6%B8%D7%9D+%D7%A2%D6%B7%D7%9C%D6%BE%D7%99%D6%B0%D7%A8%D6%B5%D7%90%D6%B8%D7%99%D7%95+%D7%95%D6%B0%D7%A6%D6%B4%D7%93%D6%B0%D7%A7%D6%B8%D7%AA%D7%95%D6%B9+%D7%9C%D6%B4%D7%91%D6%B0%D7%A0%D6%B5%D7%99+%D7%91%D6%B8%D7%A0%D6%B4%D7%99%D7%9D+%3A+%D7%9C%D6%B0%D7%A9%D7%81%D6%B9%D7%9E%D6%B0%D7%A8%D6%B5%D7%99+%D7%91%D6%B0%D7%A8%D6%B4%D7%99%D7%AA%D7%95%D6%B9+%D7%95%D6%BC%D7%9C%D6%B0%D7%96%D6%B9%D7%9B%D6%B0%D7%A8%D6%B5%D7%99+%D7%A4%D6%B4%D7%A7%D6%BC%D6%BB%D7%93%D6%B8%D7%99%D7%95+%D7%9C%D6%B7%D7%A2%D6%B2%D7%A9%D7%82%D7%95%D6%B9%D7%AA%D6%B8%D7%9D+%3A+%3Cb%3E+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%91%D6%BC%D6%B7%D7%A9%D6%BC%D7%81%D6%B8%D7%9E%D6%B7%D7%99%D6%B4%D7%9D+%D7%94%D6%B5%D7%9B%D6%B4%D7%99%D7%9F+%D7%9B%D6%BC%D6%B4%D7%A1%D6%B0%D7%90%D7%95%D6%B9+%D7%95%D6%BC%D7%9E%D6%B7%D7%9C%D6%B0%D7%9B%D7%95%D6%BC%D7%AA%D7%95%D6%B9+%D7%91%D6%BC%D6%B7%D7%9B%D6%BC%D6%B9%D7%9C+%D7%9E%D6%B8%D7%A9%D7%81%D6%B8%D7%9C%D6%B8%D7%94+%3C%2Fb%3E+%3A+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D7%95%D6%BC+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%9E%D6%B7%D7%9C%D6%B0%D7%90%D6%B8%D7%9B%D6%B8%D7%99%D7%95+%D7%92%D6%BC%D6%B4%D7%91%D6%BC%D6%B9%D7%A8%D6%B5%D7%99+%D7%9B%D6%B9%D7%97%D6%B7+%D7%A2%D6%B9%D7%A9%D7%82%D6%B5%D7%99+%D7%93%D6%B0%D7%91%D6%B8%D7%A8%D7%95%D6%B9+%D7%9C%D6%B4%D7%A9%D7%81%D6%B0%D7%9E%D6%B9%D7%A2%D6%B7+%D7%91%D6%BC%D6%B0%D7%A7%D7%95%D6%B9%D7%9C+%D7%93%D6%BC%D6%B0%D7%91%D6%B8%D7%A8%D7%95%D6%B9+%3A+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D7%95%D6%BC+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%9B%D6%BC%D6%B8%D7%9C%D6%BE%D7%A6%D6%B0%D7%91%D6%B8%D7%90%D6%B8%D7%99%D7%95+%D7%9E%D6%B0%D7%A9%D7%81%D6%B8%D7%A8%D6%B0%D7%AA%D6%B8%D7%99%D7%95+%D7%A2%D6%B9%D7%A9%D7%82%D6%B5%D7%99+%D7%A8%D6%B0%D7%A6%D7%95%D6%B9%D7%A0%D7%95%D6%B9+%3A+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D7%95%D6%BC+%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%D7%9B%D6%BC%D6%B8%D7%9C%D6%BE%D7%9E%D6%B7%D7%A2%D6%B2%D7%A9%D7%82%D6%B8%D7%99%D7%95+%D7%91%D6%BC%D6%B0%D7%9B%D6%B8%D7%9C%D6%BE%D7%9E%D6%B0%D7%A7%D6%B9%D7%9E%D7%95%D6%B9%D7%AA+%D7%9E%D6%B6%D7%9E%D6%B0%D7%A9%D7%81%D6%B7%D7%9C%D6%B0%D7%AA%D6%BC%D7%95%D6%B9+%D7%91%D6%BC%D6%B8%D7%A8%D6%B2%D7%9B%D6%B4%D7%99+%D7%A0%D6%B7%D7%A4%D6%B0%D7%A9%D7%81%D6%B4%D7%99+%D7%90%D6%B6%D7%AA%D6%BE%D7%99%D6%B0%D7%94%D7%95%D6%B8%D7%94+%3A%3C%2Fp%3E%0D%0A</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 [Von David.] Lobe den Herrn, meine Seele, / und alles in mir seinen heiligen Namen! 2 Lobe den Herrn, meine Seele, / und vergiss nicht, was er dir Gutes getan hat: 3 der dir all deine Schuld vergibt / und all deine Gebrechen heilt, 4 der dein Leben vor dem Untergang rettet / und dich mit Huld und Erbarmen krönt, 5 der dich dein Leben lang mit seinen Gaben sättigt; / wie dem Adler wird dir die Jugend erneuert. 6 Der Herr vollbringt Taten des Heiles, / Recht verschafft er allen Bedrängten. 7 Er hat Mose seine Wege kundgetan, / den Kindern Israels seine Werke. 8 Der Herr ist barmherzig und gnädig, / langmütig und reich an Güte. 9 Er wird nicht immer zürnen, / nicht ewig im Groll verharren. 10 Er handelt an uns nicht nach unsern Sünden / und vergilt uns nicht nach unsrer Schuld. 11 Denn so hoch der Himmel über der Erde ist, / so hoch ist seine Huld über denen, die ihn fürchten. 12 So weit der Aufgang entfernt ist vom Untergang, / so weit entfernt er die Schuld von uns. 13 Wie ein Vater sich seiner Kinder erbarmt, / so erbarmt sich der Herr über alle, die ihn fürchten. 14 Denn er weiß, was wir für Gebilde sind; / er denkt daran: Wir sind nur Staub. 15 Des Menschen Tage sind wie Gras, / er blüht wie die Blume des Feldes. 16 Fährt der Wind darüber, ist sie dahin; / der Ort, wo sie stand, weiß von ihr nichts mehr. 17 Doch die Huld des Herrn währt immer und ewig / für alle, die ihn fürchten und ehren; sein Heil erfahren noch Kinder und Enkel; / 18 alle, die seinen Bund bewahren, / an seine Gebote denken und danach handeln. 19 Der Herr hat seinen Thron errichtet im Himmel, / seine königliche Macht beherrscht das All. 20 Lobt den Herrn, ihr seine Engel, / ihr starken Helden, die seine Befehle vollstrecken, / seinen Worten gehorsam! 21 Lobt den Herrn, all seine Scharen, / seine Diener, die seinen Willen vollziehen! 22 Lobt den Herrn, all seine Werke, / an jedem Ort seiner Herrschaft! / Lobe den Herrn, meine Seele!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

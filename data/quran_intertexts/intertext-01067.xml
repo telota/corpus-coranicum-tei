@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesus Sirach 7:23-30</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1067" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1067</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 46:15 und Sir 7:27-28 begründen die Pflicht, gut zu den Eltern zu sein, ähnlich. Sie ergibt sich daraus, dass der Mensch seinen Eltern das Leben verdankt. Insbesondere verweisen beide Texte auf die Schmerzen der Geburt, die die Mutter ertragen hat. Vgl. dazu auch Tob 4:3-4 (Er rief ihn also und sagte: Mein Sohn, wenn ich gestorben bin, begrab mich! Lass deine Mutter nicht im Stich, sondern halte sie in Ehren, solange sie lebt. Tu, was sie erfreut, und mach ihr keinen Kummer! Denk daran, mein Sohn, dass sie deinetwegen viel Beschwerden hatte, als sie dich in ihrem Schoß trug. Wenn sie gestorben ist, begrab sie an meiner Seite im selben Grab!).
+</summary>
+            <msItem>
+              <title>Jesus Sirach 7:23-30</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">2. Jh. v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Alfred Rahlfs und Robert Hanhart (Hg.), Septuaginta. Editio altera, Stuttgart 2006.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>23 τέκνα σοί ἐστιν; παίδευσον αὐτὰ καὶ κάμψον ἐκ νεότητος τὸν τράχηλον αὐτῶν. 24 θυγατέρες σοί εἰσιν; πρόσεχε τῷ σώματι αὐτῶν καὶ μὴ ἱλαρώσῃς πρὸς αὐτὰς τὸ πρόσωπόν σου. 25 ἔκδου θυγατέρα, καὶ ἔσῃ τετελεκὼς ἔργον μέγα, καὶ ἀνδρὶ συνετῷ δώρησαι αὐτήν. 26 γυνή σοί ἐστιν κατὰ ψυχήν; μὴ ἐκβάλῃς αὐτήν· καὶ μισουμένῃ μὴ ἐμπιστεύσῃς σεαυτόν. 27 ᾿Εν ὅλῃ καρδίᾳ σου δόξασον τὸν πατέρα σου καὶ μητρὸς ὠδῖνας μὴ ἐπιλάθῃ· 28 μνήσθητι ὅτι δι᾽ αὐτῶν ἐγεννήθης, καὶ τί ἀνταποδώσεις αὐτοῖς καθὼς αὐτοὶ σοί; 29 ἐν ὅλῃ ψυχῇ σου εὐλαβοῦ τὸν κύριον καὶ τοὺς ἱερεῖς αὐτοῦ θαύμαζε. 30 ἐν ὅλῃ δυνάμει ἀγάπησον τὸν ποιήσαντά σε καὶ τοὺς λειτουργοὺς αὐτοῦ μὴ ἐγκαταλίπῃς. </p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>23 Hast du Söhne, nimm sie in Zucht / und gib ihnen Frauen in jungen Jahren! 24 Hast du Töchter, so behüte ihren Leib; / zeig dich ihnen nicht allzu freundlich! 25 Bring die Tochter aus dem Haus, dann zieht die Sorge aus; / doch verheirate sie nur mit einem verständigen Mann! 26 Hast du eine Frau, so verstoße sie nicht / und schenk dein Vertrauen keiner Geschiedenen! 27 Ehre deinen Vater von ganzem Herzen, / vergiss niemals die Schmerzen deiner Mutter! 28 Denk daran, dass sie dir das Leben gaben. / Wie kannst du ihnen vergelten, was sie für dich taten? 29 Fürchte Gott von ganzem Herzen, / seine Priester halt in Ehren! 30 Liebe deinen Schöpfer mit aller Kraft / und lass seine Diener nie im Stich!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

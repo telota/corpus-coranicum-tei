@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Chronicon Paschale, für das Jahr 614-615 n. Chr. (ed. Dindorf 1832, S. 704.10- 706.11)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1508" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1508</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Unter dem Eintrag für das Jahr 614 n. Chr. berichtet das Chronicon Paschale über die Eroberung Jerusalems durch die Perser. Laut diesem Bericht haben die Sassaniden, die in diesen Jahren eine erfolgreiche Offensive gegen die Byzantiner in Palästina und Ägypten durchführten, Teile der christlichen Bevölkerung Jerusalems getötet und die Kirchen und Pilgerstätten in der Stadt und der Umgebung zerstört (für einen ausführlichen Augenzeugenbericht der Eroberung Jerusalems, siehe TUK_1388). Im Mittelpunkt des Berichtes des Chronicons steht der Raub der Kreuzesreliquie und anderer Schätze aus der Grabeskirche und ihre Überführung in die sassanidische Hauptstadt Ktesiphon. Dieses Ereignis wurde von der Bevölkerung des byzantinischen Reiches als eine göttliche Strafe angesehen und stärkte die bereits verbreiteten endzeitlichen Erwartungen im östlichen Mittelmeerraum (siehe Greisiger 2014, Greisiger 2017).Es ist aufschlussreich, dass das Chronicon für das darauffolgende Jahr 615 die Einführung eines Zusatzes bei der Liturgie der vorgeweihten Gaben während der Fastenzeit erwähnt. Dieser Zusatz begleitet den großen Einzug (gr. ἡ μεγάλη εἴσοδος, d.h. die Darbringung der vorgeweihten Gaben zum Altar) und enthält folgende Worte: "siehe der König der Herrlichkeit tritt ein" (Psa. 24,9). Michael und Mary Whitby (Whitby und Whitby 1989: 158, n. 440) interpretieren dieses Psalmenzitat als eine Anspielung auf den Eintritt Jesu in Jerusalem und damit als Ausdruck der kaiserlichen und kirchlichen Propaganda dieser Periode, die auf die Wiedereroberung Jerusalems abzielte. Dafür spricht auch die kurze Erwähnung der Prägung des silbernen Hexagramms am Ende des Eintrags im Chronicon. Diese Münze enthielt auf dem Revers den lateinischen Ausruf Deus adiuta Romanis ("Gott, hilf den Römern!") und ist Teil der Propaganda des Herakleios in der Auseinandersetzung mit den Sassaniden (siehe dazu TUK_1479 und TUK_1495).Die im Chronicon geschilderte Spannung zwischen der Niederlage von 614 und der Hoffnung auf einen Sieg ist auch in der Ankündigung eines Siegs von Byanz (Rom) in Q 30:2-6 zu erkennen. Während die Niederlage der Römer in Q 30:2 (ġulibati r-rūmu) sich wahrscheinlich auf die Einnahme Jerusalems im Jahre 614 bezieht, stellt das Versprechen des Sieges in Q 30:3 (sa-yaġlibūna) ein Echo derselben byzantinischen Kriegspropaganda dar, die Heraklios mit unterschiedlichen Mitteln (wie etwa der liturgische Zusatz, die Münzprägung, die Hofdichtung, usw.) förderte (vgl. den Kommentar zur Stelle; zum Problem der verschiedenen Lesarten der Verse Q 30:2-3 siehe El Cheikh 1999, Tesei 2018). Zum Eintrag im Chronicon für das Jahr 628 n. Chr., siehe TUK_1507.Das Chronicon Paschale (die "Osterchronik") ist eine anonyme frühbyzantinische Chronik, die aus biblischer Perspektive die Weltgeschichte von der Erschaffung der Welt (berechnet auf 5509 v. Chr.) bis zum Jahr 630 n. Chr. darstellt. Der Name der Chronik leitet sich von dem besonderen Interesse des Verfassers für die Berechnung des Osterfestes (und für Chronologie im Allgemeinen) ab. Die Darstellung der alt- und neutestamentlichen Geschichte wird dabei mit der "säkularen" griechischen, römischen und  byzantinischen Geschichte verknüpft, wobei das Chronicon für die ersten christlichen Jahrhunderte auch Material aus früheren Geschichtswerken integriert (insbesondere Eusebios von Cäsareas Kirchengeschichte und die Weltchronik des Johannes Malalas, 6. Jh.). Obwohl das Chronicon fast keine Auswirkung auf die spätere byzantinische Historiographie hatte (der Text ist in einer einzigen Handschrift aus byzantinischer Zeit und in späten Kopien aus dem 16.-18. Jh. erhalten), ist das Werk von zentraler Bedeutung für unser Verständnis der politischen Ereignisse des frühen 7. Jahrhunderts in Byzanz. Mit zahlreichen Auszügen aus Dokumenten erster Hand (z.B. der Augenzeugenbericht der Patriarchatskanzlei über den Awareneinfall, oder die Feldzugberichte und Sendschreiben des Heraklios), ist das Chronicon die Hauptquelle für den byzantinisch-sassanidischen Krieg und die einzige zeitgenössische Quelle für die Belagerung Konstantinopels durch die Awaren im Jahr 626. Zum Verständnis des Korans tragen vor allem die Einträge der Chronik zu den Jahren 614 und 628 bei, da diese in engem Bezug zu der in Q 30:2-6 erwähnten Niederlage und dem Sieg der Byzantiner gegen die Sassaniden stehen (siehe Howard-Johnston 2010: 37-58).Die bislang einzige Ausgabe des griechischen Textes wurde 1832 in Bonn veröffentlicht (Dindorf 1832) und ist aus philologischer Sicht problematisch. Michael und Mary Whitby gaben 1989 eine englische Übersetzung des letzten, für die Spätantike relevanten, Teils der Chronik (284-628 n. Chr.) heraus (Whitby und Whitby 1989, zweite Auflage 2007). Eine neue kritische Ausgabe wird zur Zeit von Christian Gastgeber (Wien) vorbereitet (siehe Projektbeschreibung hier). Vgl. auch die aus diesem Projekt hervorgegangenen Studien zum Chronicon: Juhász 2015, Juhász 2015a, Juhász 2019, Gastgeber 2015, Gastgeber 2019. </summary>
+            <msItem>
+              <title>Chronicon Paschale, für das Jahr 614-615 n. Chr. (ed. Dindorf 1832, S. 704.10- 706.11)</title>
+              <author>Anonym</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">630-635</origDate>
+              <origPlace>Konstantinopel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Ludwig Dindorf (Hg.), Chronicon Paschale, Bonn: Weber, 1832.</bibl>
+              <bibl type="literatur">Dindorf, Ludwig August: Chronicon Paschale. Weber, Bonn 1832.</bibl>
+              <bibl type="literatur">El-Cheikh, Nadia Maria: &amp;#x201E;Mu&amp;#x1E25;ammad and Heraclius: A Study in Legitimacy&amp;#x201C;. In: Studia Islamica 89 (1999), S. 5&amp;#x2013;21.</bibl>
+              <bibl type="literatur">Gastgeber, Christian: &amp;#x201E;Die Osterchronik und Johannes Malalas. Aspekte der Rezeption&amp;#x201C;. In: Mischa Meier, Christine Radtki, &amp;amp; Fabian Schulz (Hrsg.), Die Weltchronik des Johannes Malalas. Autor - Werk - &amp;#xDC;berlieferung. Franz Steiner, Heidelberg 2015, S. 187&amp;#x2013;224. Malalas Studien.</bibl>
+              <bibl type="literatur">Gastgeber, Christian: &amp;#x201E;Klassisch-paganes Erbe: Was bleibt in der memoria der Weltchronik? Memorialkultur des Chronicon Paschale&amp;#x201C;. In: Mischa Meier, Jonas Borsch, &amp;amp; Olivier Gengler (Hrsg.), Die Weltchronik des Johannes Malalas im Kontext sp&amp;#xE4;tantiker Memorialkultur. Franz Steiner, Heidelberg 2019, S. 287&amp;#x2013;314. Malalas Studien.</bibl>
+              <bibl type="literatur">Greisiger, Lutz: &amp;#x201E;The End is coming - To what End? Millenarian Expectations in the seventh-century eastern Mediterranean&amp;#x201C;. In: Hagit Amirav, Emmanouela Grypeou, Gedalyahu G&amp;#x2B9; S&amp;#x1E6D;rumzah, &amp;amp; Guy Stroumsa (Hrsg.), Apocalypticism and eschatology in late antiquity: encounters in the Abrahamic religions, 6th-8th centuries. Peeters, Leuven Paris Bristol,CT 2017, S. 87&amp;#x2013;106. Late Antique History and Religion.</bibl>
+              <bibl type="literatur">Greisiger, Lutz: Messias - Endkaiser - Antichrist&amp;#x202F;: politische Apokalyptik unter Juden und Christen des Nahen Ostens am Vorabend der arabischen Eroberung. Wiesbaden&amp;#x202F;: Harrassowitz, 2014.</bibl>
+              <bibl type="literatur">Howard-Johnston, James: Witnesses to a World Crisis: Historians and Histories of the Middle East in the Seventh Century. Oxford University Press, Oxford 2010.</bibl>
+              <bibl type="literatur">Juh&amp;#xE1;sz, Erika: &amp;#x201E;Die Indiktionsangaben bei Johannes Malalas und in der Osterchronik&amp;#x201C;. In: Mischa Meier, Christine Radtki, &amp;amp; Fabian Schulz (Hrsg.), Die Weltchronik des Johannes Malalas: Autor - Werk - &amp;#xDC;berlieferung. Steiner-Verlag, Heidelberg 2015, S. 225&amp;#x2013;238. Malalas Studien.</bibl>
+              <bibl type="literatur">Juh&amp;#xE1;sz, Erika: &amp;#x201E;Spuren der christlichen Erinnerungskultur in der Osterchronik&amp;#x201C;. In: Mischa Meier, Jonas Borsch, &amp;amp; Olivier Gengler (Hrsg.), Die Weltchronik des Johannes Malalas im Kontext sp&amp;#xE4;tantiker Memorialkultur. Franz Steiner, Heidelberg 2019, S. 315&amp;#x2013;330. Malalas Studien.</bibl>
+              <bibl type="literatur">Juh&amp;#xE1;sz, Erika: A H&amp;#xFA;sv&amp;#xE9;ti kr&amp;#xF3;nika. Prolegomena. Argumentum kiad&amp;#xF3;, Budapest 2015.</bibl>
+              <bibl type="literatur">Tesei, Tommaso: &amp;#x201E;&amp;#x201A;The Romans will win!&amp;#x2018; Q 30:2-7 in Light of 7th c. Political Eschatology&amp;#x201C;. In: Der Islam 95 (2018), S. 1&amp;#x2013;29.</bibl>
+              <bibl type="literatur">Whitby, Michael &amp;amp; Whitby, Mary: Chronicon Paschale 284-628 AD. Liverpool University Press, Liverpool 1989.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>Τούτῳ τῷ ἔτει περὶ μῆνα ἰούνιον θρήνων ἀπαύστων ἄξιον ἡμῖν συνέβη πάθος. μετὰ γὰρ πολλῶν τῆς ἀνατολῆς πόλεων ἥλω καὶ Ἱερουσαλὴμ ὑπὸ Περσῶν, καὶ σφάζονται πολλαὶ χιλιάδες ἐν αὐτῇ κληρικῶν, μοναχῶν, μοναστριῶν παρθένων. ἐμπίπραται τὸ δεσποτικὸν μνῆμα καὶ οἱ περιβόητοι τοῦ θεοῦ ναοί, καὶ ἁπλῶς πάντα τὰ τίμια καθαιρεῖται. τὰ σεβάσμια τοῦ σταυροῦ ξύλα σὺν τοῖς ἱεροῖς σκεύεσιν ἀναριθμήτοις οὖσιν λαμβάνεται παρὰ Περσῶν, καὶ Ζαχαρίας ὁ πατριάρχης καὶ αἰχμάλωτος γίνεται. καὶ ταῦτα οὐκ ἐν πολλῷ χρόνῳ οὐδὲ ἐν ὅλῳ μηνί, ἀλλ’ ἐν ἡμέραις ὀλίγαις συμβέβηκε. Καὶ τῇ ιδʹ γορπιαίου, κατὰ Ῥωμαίους σεπτεμβρίου μηνός, τῆς τρίτης ἰνδικτιῶνος, ἐν τῇ τρίτῃ ὑψώσει ἀποδεθεὶς τῷ ζωοποιῷ σταυρῷ ὁ τίμιος σπόγγος καὶ αὐτὸς συνυψοῦται αὐτῷ ἐν τῇ ἁγιωτάτῃ μεγάλῃ ἐκκλησίᾳ, πεμφθεὶς παρὰ Νικήτα πατρικίου. Καὶ τῇ κηʹ τοῦ ὑπερβερεταίου, κατὰ Ῥωμαίους ὀκτωβρίου μηνός, ἡμέρᾳ ζʹ, τῇ ἐπὶ κυριακὴν νυκτί, ἠνέχθη ἡ τιμία λόγχη ἀπὸ τῶν ἁγίων τόπων, ἑνὸς τῶν ἐγγιζόντων τῷ καταράτῳ Σαλβάρᾳ μετὰ τὸ ληφθῆναι αὐτὴν παρ’ αὐτῶν, δεδωκότος αὐτὴν τῷ μνημονευθέντι Νικήτᾳ. καὶ εὐθέως αὐτῇ τῇ κυριακῇ ἐκηρύχθη ἐν τῇ ἁγιωτάτῃ μεγάλῃ ἐκκλησίᾳ ὡς ἠνέχθη· καὶ τῇ τρίτῃ καὶ τετράδι προσεκυνήθη ὑπὸ ἀνδρῶν, πέμπτῃ δὲ καὶ παρασκευῇ ὑπὸ γυναικῶν. Ἰνδ. γʹ. εʹ. μετὰ ὑπ. Ἡρακλείου Αὐγούστου τὸ δ. Καὶ ἀπὸ κβʹ καὶ αὐτῆς τοῦ ἰανουαρίου μηνὸς γράφεται, τῆς βασιλείας Ἡρακλείου νέου Κωνσταντίνου ἔτος γʹ. Τούτῳ τῷ ἔτει ἐπὶ Σεργίου πατριάρχου Κωνσταντινουπόλεως ἀπὸ τῆς αʹ ἑβδομάδος τῶν νηστειῶν ἰνδικτιῶνος δʹ ἤρξατο ψάλλεσθαι μετὰ τὸ Κατευθυνθήτω ἐν τῷ καιρῷ τοῦ εἰσάγεσθαι τὰ προηγιασμένα δῶρα εἰς τὸ θυσιαστήριον ἀπὸ τοῦ σκευοφυλακίου μετὰ τὸ εἰπεῖν τὸν ἱερέα, Κατὰ τὴν δωρεὰν τοῦ Χριστοῦ σου, εὐθέως ἄρχεται ὁ λαός, Νῦν αἱ δυνάμεις τῶν οὐρανῶν σὺν ἡμῖν ἀοράτως λατρεύουσιν· ἰδοὺ γὰρ εἰσπορεύεται ὁ βασιλεὺς τῆς δόξης. ἰδοὺ θυσία μυστικὴ τετελειωμένη δορυφορεῖται. πίστει καὶ φόβῳ προσέλθωμεν, ἵνα μέτοχοι ζωῆς αἰωνίου γενώμεθα. ἀλληλούια. τοῦτο δὲ οὐ μόνον ἐν ταῖς νηστείαις προηγιασμένων εἰσαγομένων ψάλλεται, ἀλλὰ καὶ ἐν ἄλλαις ἡμέραις, ὁσάκις ἂν προηγιασμένα γίνηται. Τούτῳ τῷ ἔτει γέγονεν ἀπὸ νόμου νόμισμα ἑξάγραμμον ἀργυροῦν, καὶ βασιλικαὶ ῥόγαι δι’ αὐτοῦ γεγόνασι καὶ κατὰ τὸ ἥμισυ τῆς ἀρχαιότητος.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>(614 n. Chr.) Im Juni dieses Jahres widerfuhr uns ein Leiden, das unendlicher Klagelieder würdig ist. Denn zusammen mit vielen Städten des Ostens wurde auch Jerusalem von den Persern erobert und viele tausende Kleriker, Mönche und Nonnen wurden darin getötet. Das Grab des Herrn und die berühmten Tempel Gottes wurden verbrannt und alle kostbaren Stätten wurden einfach zerstört. Das ehrwürdige Holz des Kreuzes, zusammen mit zahllosen heiligen Gefäßen wurden von den Persern genommen, und der Patriarch Zacharias wurde zum Kriegsgefangenen. Dies alles geschah nicht innerhalb von langer Zeit, auch nicht während des ganzen Monats, sondern innerhalb von wenigen Tagen. Am 14. des Monats Gorpiaeus, bei den Römern der Monat September, im 3. Indiktion(sjahr), wurde bei der dritten Kreuzerhöhung der ehrwürdige Schwamm am lebensspendenden Kreuz befestigt und zusammen mit ihm in der allheiligen großen Kirche erhöht, da (der Schwamm) von Niketas dem Patrizier geschickt wurde. Und am 28. des Monats Hyperberetaeus, bei den Römern der Monat Oktober, am 7. (Wochen)tag, am Vorabend des Tages des Herrn, wurde der ehrwürdige Speer von den heiligen Orten gebracht, da einer, der dem verfluchten (General) Schahbaraz nah stand, den Speer dem bereits erwähnten Niketas mitgegeben hatte. Sofort am selben Tag wurde in der großen Kirche verkündet, dass (der Speer nach Konstantinopel) gebracht wurde und am dritten und vierten Wochentag wurde er von den Männern verehrt, am fünften Tag und am Freitag aber von den Frauen. (615 n. Chr.) Indiktion 3, Jahr 5, der 4. Jahr nach dem Konsulat des Herakleios, und ab einschließlich dem 22. Januar (ist es) das 3. Jahr der Herrschaft des Heraklios II Konstantin. In diesem Jahr, unter Sergios dem Patriarchen von Konstantinopel, fing man ab der ersten Woche der Fastenzeit an (einen liturgischen Zusatz) zu singen: Nach dem “Gerichtet sei (mein Gebet)”, wenn die vorgeweihten Gaben aus dem Skeuophylakion (Sakristei) ins Altar eingeführt werden und nach dem der Priester sagt “gemäß der Gabe deines Christus”, fängt das Volk sofort an: “Nun beten die Mächte des Himmels auf unsichtbarer Weise mit uns an, denn siehe, der König der Herrlichkeit tritt ein! Siehe, das mystische, vollkommene Opfer wird  überbracht. In Glauben und Furcht lass uns herannahen, damit wir Teilhaber des ewigen Lebens werden. Alleluja!”. Dies wird nicht nur während der Fastenzeit gesungen, wenn vorgeweihte Gaben eingeführt werden, sondern auch an anderen Tagen, wann immer (die Liturgie) der vorgeweihten (Gaben) stattfindet. In diesem Jahr wurde durch das Gesetz eine silberne Hexagramm Münze geprägt, und kaiserliche Zahlungen wurden damit gemacht, und zwar bei der Hälfte ihres ursprünglichen Wertes.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

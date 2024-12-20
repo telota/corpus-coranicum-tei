@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Sota, 12b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_98" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>98</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Allgemein zur Geschichte von Moses Geburt und Rettung vgl. TUK_0097. Laut Q 28:12 verbot Gott (ḥarramnā) Mose al-marāḍiʿa, bevor Moses Schwester anbietet, eine Familie zu suchen, die sich um Mose kümmern wird. marāḍiʿa kann entweder "Brüste" (Pl. von marḍaʿ) oder "stillende Frauen, Ammen" (Pl. von murḍiʿa) bedeuten (Ambros und Procházka 2004: p. 113). Gott verbot Mose also die Ammen oder die Brust [der Ammen]. Die Koranstelle bezieht sich, wie Abraham Geiger und Heinrich Speyer feststellen, vermutlich auf die in bT Sota 12b überlieferte Begebenheit, dass sich Mose geweigert habe, sich von ägyptischen Ammen stillen zu lassen (Geiger 1833: p. 157) (Speyer 1931: p. 244). Das "Er sagte" (ʾamar) des Talmudtextes kann sowohl Gott als auch Mose als Subjekt haben (in der von Geiger und Speyer zitierten Version steht eindeutig ʾamar ha-qadoš baruḵ huʾ; die Soncino-Übersetzung merkt an "some authorities explain 'He' as referring to God"). Trifft ersteres zu, so würde dies eine weitere Parallele zwischen Q 28:12 und der zitierten Talmudstelle ergeben, da sich Mose in beiden Fällen auf Veranlassung Gottes weigern würde, zu trinken. Die im Talmud gegebene Begründung für Moses Verhalten, dass der später mit der Šeḵina sprechende Mund nichts Unreines essen soll, findet sich nicht im Koran. Es fällt aber auf, dass in Q 28:12 das Verb ḥarrama gebraucht wird, das sonst auch für Speisevorschriften benutzt wird (z.B. Q 16:115 (Verbot von Aas, Blut, Schwein, Götzenopferfleisch), Q 16:118, Q 6:145-146), auch wenn Josef Rivlin hier keinen Zusammenhang vermutet (Rivlin 1934: p. 64, Fußnote 1).
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Sota, 12b</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Wilna 1880-1886.</bibl>
+              <bibl type="literatur">Ambros, Arne Amadeus &amp;amp; Proch&amp;#xE1;zka, Stephan: A concise dictionary of Koranic Arabic. Reichert, Wiesbaden 2004.</bibl>
+              <bibl type="literatur">Geiger, Abraham: Was hat Mohammed Aus Dem Judenthume aufgenommen?: Eine von der K&amp;#xF6;nigl. Preussischen Rheinuniversit&amp;#xE4;t gekr&amp;#xF6;nte Preisschrift. Selbstverl., Bonn 1833.</bibl>
+              <bibl type="literatur">Rivlin, Josef J.: Gesetz im Koran. Kultus und Ritus. Bamberger &amp;amp; Wahrmann, Jerusalem 1934.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	ותאמר אחותו אל בת פרעה האלך וקראתי לך אשה מינקת מן העבריות - ומאי שנא מעבריות? מלמד, שהחזירוהו למשה על כל המצריות כולן ולא ינק, אמר: פה שעתיד לדבר עם השכינה יינק דבר טמא ? והיינו דכתיב: את מי יורה דעה וגו', למי יורה דעה ולמי יבין שמועה? לגמולי מחלב ולעתיקי משדים.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Da sprach seine Schwester zu der Tochter des Pharao: Soll ich gehen und dir eine Amme von den Hebräerinnen rufen? Weshalb gerade von den Hebräerinnen? - Dies lehrt, daß man Moše allen ägyptischen Frauen herumreichte, er aber nicht saugen wollte. Er sagte: Soll etwa der Mund, der dereinst mit der Göttlichkeit reden wird, Unreines saugen!? Hierauf deutet der Schriftvers: wen will er Erkenntnis lehren, wen mit seiner Predigt unterrichten? Von der Milch Entwöhnte, von der Brust Genommenene.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Then said his sister to Pharaoh's daughter, Shall I go and call thee a nurse of the Hebrew women? [Exodus 2:7] Why just 'of the Hebrew women'? — It teaches that they handed Moses about to all Egyptian women but he would not suck. He said: Shall a mouth which will speak with the Shechinah suck what is unclean! That is what is written: Whom will He teach knowledge, etc.? — To whom will He teach knowledge and to whom will He make the message understandable? To them that are weaned from the milk, and drawn from the breasts. [Isaiah 28:9]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

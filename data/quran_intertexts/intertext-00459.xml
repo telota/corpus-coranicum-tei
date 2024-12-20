@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pseudo-Matthäus-Evangelium 20:1-2</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_459" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>459</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die Geburtsgeschichte Jesu aus Lukas 2 (vgl. TUK_0231) erscheint im Koran nicht. Stattdessen berichtet Q 19:22, dass Maria sich zur Geburt Jesu "an einen fernen Ort zurückzieht"; ab Q 19:23 folgt dann eine Szene, die einem Abschnitt aus dem Pseudo-Matthäus-Evangelium ähnelt, dort jedoch im Kontext der Flucht Marias und Josephs nach Ägypten und nicht in dem der Geburt Jesu steht. Es ist unwahrscheinlich, dass dies lediglich als eine zufällige Übertragung oder Verwechslung zu erklären ist; denn wenn der Koran Maria zum Zeitpunkt der Geburt als schutzlos, verstoßen und dem Verhungern und Verdursten nahe schildert, so passt dies gut zu einem auch in den übrigen Erzählperikopen der Sure durchkonjugierten Thema: Gott nimmt sich derer an, die um seinetwillen ihre zwischenmenschlichen Bindungen aufs Spiel setzen und dadurch in höchste Bedrängnis geraten.Suleiman Mourad vermutet, dass die Palmenepisode in beiden Texten letztlich auf die Geschichte von Apollos Geburt, die von frühen Christen adaptiert worden sei, zurückgeht. Er geht davon aus, dass möglicherweise zunächst verschiedene Versionen von Jesu Geburt im Umlauf waren, von denen auch eine im Koran reflektiert ist. Nachdem sich im Christentum schließlich die lukanische Geburtsgeschichte durchgesetzt habe, sei das Palmenmotiv im Pseudo-Matthäus-Evangelium im Kontext der Flucht nach Ägypten verarbeitet worden (Mourad 2002).Beim Pseudo-Matthäus-Evangelium handelt es sich um eine lateinische Neuerzählung des Protevangeliums des Jakobus (Vgl. TUK_0422, TUK_0426, TUK_0497, TUK_0498). Neben zusätzlichen Episoden, wie z.B. der Flucht nach Ägypten, finden sich auch Unterschiede in der Charakterisierung der handelnden Figuren, v.a. Marias. Die ältesten Handschriften stammen aus dem 9. Jh., wobei der Text selbst vermutlich im 7. Jh. entstand. Im Mittelalter wurde das Pseudo-Matthäusevangelium in zahlreichen lateinischen und volkssprachlichen Werken in Westeuropa rezipiert und fand auch Eingang in die Legenda aurea (12. Jh.). Ab dem 12. Jh. ist auch eine liturgische Verwendung bei Marienfesten bezeugt. (Vgl. dazu Ehlen 2012: p. 983-986.) Vor diesem Hintergrund ist ein direkter Zusammenhang mit dem Koran eher unwahrscheinlich, auch wenn beide Texte augenscheinlich gemeinsame Motive aufgreifen.
+</summary>
+            <msItem>
+              <title>Pseudo-Matthäus-Evangelium 20:1-2</title>
+              <author/>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">7. Jh.</origDate>
+              <origPlace>Merowingerreich</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Konstantin von Tischendorf (Hg.), Evangelia Apocrypha adhibitis plurimus codicibus graecis et latinis maximam partem nunc primum consultis atque ineditorum copia insignibus, Leipzig 1876, S. 87-88.</bibl>
+              <bibl type="literatur">Ehlen, Oliver: &amp;#x201E;Das Pseudo-Matth&amp;#xE4;usevangelium&amp;#x201C;. In: Christoph Markschies &amp;amp; Jens Schr&amp;#xF6;ter (Hrsg.), Antike christliche Apokryphen in deutscher &amp;#xDC;bersetzung. I. Band: Evangelien und Verwandtes. Mohr Siebeck, 2012, S. 983&amp;#x2013;1002.</bibl>
+              <bibl type="literatur">Mourad, Suleiman A.: &amp;#x201E;From Hellenism to Christianity and Islam: The Origin of the Palm tree Story concerning Mary and Jesus in the Gospel of Pseudo-Matthew and the Qur&amp;#x2019;an&amp;#x201C;. In: Oriens christianus 86 (2002), S. 206&amp;#x2013;216.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>
+	20:1 Factum est autem die tertia profectionis suae ut Maria nimio solis ardore fatigaretur in eremo, et videns arborem palmae dixit ad Ioseph: Quiescam paululum sub umbra eius. Ioseph autem festinans duxit eam ad palmam et descendere eam fecit de iumento. Cumque resedisset Maria, respiciens ad comam palmae vidit eam plenam pomis, et dixit ad Ioseph: Desidero, si fieri posset, ut ex istis fructius huius palmae perciperem. Et ait ad eam Ioseph: Miror te dicere hoc, cum videas quantae sit altitudinis palma ista, et quod tu de palmae fructibus cogitas edere. Ego magis de aquae penuria cogito, quae nobis iam defecit in utribus, et non habemus unde nos et iumenta refocillare valeamus.20:2 Tunc infantulus Iesus laeto vultu in sinu matris suae residens ait ad palmam: Flectere arbor et de fructibus tuis refice matrem meam. Et confestim ad hanc vocem inclinavit palma cacumen suum usque ad plantas Mariae, et collegerunt ex ea fructus quibus omnes refecti sunt. Postquam vero collecta sunt omnia poma eius, inclinata manebat, expectans ut eius ad imperium resurgeret ad cuius imperium fuerat inclinata. Tunc Iesus dixit ad eam: Erige te palma et confortare, et esto consors arborum mearum quae sunt in paradiso patris mei. Aperi autem ex radicibus tuis venam quae absconsa est in terra, et fluant ex ea aquae ad satietatem nostram. et statim erecta est palma, et coeperunt per radices eius egredi fontes aquarum limpidissimi et frigidi et dulcissimi nimis. Videntes autem fontes aquarum gavisi sunt gaudio magno, et satiati sunt cum omnibus iumentis et hominibus gratias agentes deo.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	20:1 Am dritten Tage ihrer Reise, während sie weiterzogen, traf es sich, daß die selige Maria von der allzugroßen Sonnenhitze in der Wüste müde wurde, und als sie einen Palmbaum sah, sagte sie zu Joseph: "Ich möchte im Schatten dieses Baumes ein wenig ausruhen." So führte Joseph sie denn eilends zur Palme und ließ sie vom Lasttier herabsteigen. Als die selige Maria sich niedergelassen hatte, schaute sie zur Palmkrone hinauf und sah, daß sie voller Früchte hing. Da sagte sie zu Joseph: "Ich wünschte, man könnte von diesen Früchten der Palme holen." Joseph aber sprach zu ihr: "Es wundert mich, daß du dies sagst; denn du siehst doch, wie hoch diese Palme ist, und (es wundert mich), daß du (auch nur) daran denkst, von den Palmfrüchten zu essen. Ich für meinen Teil denke eher an den Mangel an Wasser, das uns in den Schläuchen bereits ausgeht, und wir haben nichts, womit wir uns und die Lasttiere erfrischen können." 2 Da sprach das Jesuskind, das mit fröhlicher Miene in seiner Mutter Schoß saß, zur Palme: "Neige, Baum, deine Äste, und mit deiner Frucht erfrische meine Mutter." Und alsbald senkte die Palme auf diesen Anruf hin ihre Spitze bis zu den Füßen der seligen Maria, und sie sammelten von ihr Früchte, an denen sie sich alle labten. Nachdem sie alle ihre Früchte gesammelt hatten, verblieb sie aber in gesenkter Stellung und wartete darauf, sich auf den Befehl dessen wieder aufzurichten, auf dessen Befehl sie sich gesenkt hatte. Da sprach Jesus zu ihr: "Richte dich auf, Palme, werde stark und geselle dich zu meinen Bäumen, die im Paradies meines Vaters sind. Und erschließe unter deinen Wurzeln eine Wasserader, die in der Erde verborgen ist, und die Wasser mögen fließen, damit wir aus ihr unseren Durst stillen." Da richtete sie sich sofort auf, und eine ganz klare, frische und völlig helle Wasserquelle begann an ihrer Wurzel zu sprudeln. Als sie aber die Wasserquelle sahen, freuten sie sich gewaltig, und sie löschten ihren Durst, sie selber, alle Lasttiere und alles Vieh. Dafür dankten sie Gott.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

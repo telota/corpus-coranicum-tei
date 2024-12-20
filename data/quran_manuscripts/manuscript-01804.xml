@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1804">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, AL-18</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>AL-18</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p/><p>1 fol. on parchment; Shelfmark: AL-18; Qurʾānic Text: Q 5:67-5:69; 7 lines per page; Dimensions: 155 x 164mm;  Script style: Maġribī <hi rend="italic">mabsūṭ</hi>; Estimated date of production: 13th or early 14th century; Provenance: Northwest Africa (Maġrib) or Muslim Iberia (al-Andalus).</p><p>  </p><p>Folio from a Qurʾān originally in 12 volumes. The 9th volume is in Baltimore, Walters Art Museum, <ref target="https://corpuscoranicum.de/de/manuscripts/1249">Inv. W.556</ref>. Other loose folios are in the Detroit Institute of Art, <ref target="https://corpuscoranicum.de/de/manuscripts/1953">Inv. 25.77</ref>, and in the Harvard Art Museums, <ref target="https://corpuscoranicum.de/de/manuscripts/1612">Inv. 1927.162</ref>.</p><p> </p>Originally, this fragment belonged to the same manuscript as <ref target="https://corpuscoranicum.de/de/manuscripts/1803">AL-19</ref>. For further information, see the catalogue entry on the <ref target="https://www.loc.gov/item/2019714703">library's website</ref>.<p/><p> </p></summary>
+            <msItem xml:id="mysql_id_692676" n="1r">
+              <title type="numeric" key="005:067:009-005:068:013">
+                                    005:067:009-005:068:013
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692675" n="1v">
+              <title type="numeric" key="005:068:014-005:069:010">
+                                    005:068:014-005:069:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>155</width><height>164</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1200-1425</origDate>
+            </origin>
+            <provenance>
+                            North Africa (Maghreb), al-Andalus
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Umberto Bongianino</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52634">
+      <graphic decls="#imageRights-1" url="manuscript/1804/8ce3bbcf-0985-41dc-88a8-688a7de1df68/manuscript-1804-page-52634-image-41372.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52633">
+      <graphic decls="#imageRights-1" url="manuscript/1804/57541070-c013-4ae4-9717-797a38628e89/manuscript-1804-page-52633-image-41371.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

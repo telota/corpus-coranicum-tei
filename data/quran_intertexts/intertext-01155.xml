@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 23:1-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1155" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1155</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl Q 2:44 als auch Matthäus 23 werfen einer bestimmten Gruppe (im Koran sind es die medinensischen Juden, bei Matthäus die Pharisäer und Schriftgelehrten) vor, andere Menschen zu einem religiösen Lebenswandel zu ermahnen, sich selbst aber nicht an das von ihnen gepredigte zu halten (Speyer 1931: p. 450). Vorstellbar ist, dass das bei Matthäus geschilderte Verhalten der Pharisäer sprichwörtlich geworden war, und auch die Argumentation in Q 2:44 darauf zurückgreift. Allerdings ist es ebenso möglich, dass sich der Bibel- und der Korantext einfach der gleichen rhetorischen Strategie bedienen, ohne dass ein engerer textueller Bezug gegeben sein muss.
+</summary>
+            <msItem>
+              <title>Matthäus 23:1-8</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n. Chr.</origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.
+</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>1 Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ  2  λέγων· ἐπὶ τῆς Μωϋσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι.  3  πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν ποιήσατε καὶ τηρεῖτε, κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε· λέγουσιν γὰρ καὶ οὐ ποιοῦσιν.  4  δεσμεύουσιν δὲ φορτία βαρέα [καὶ δυσβάστακτα] καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, αὐτοὶ δὲ τῷ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά.  5  πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσιν γὰρ τὰ φυλακτήρια αὐτῶν καὶ μεγαλύνουσιν τὰ κράσπεδα,  6  φιλοῦσιν δὲ τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς  7  καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων ῥαββί.  8  ὑμεῖς δὲ μὴ κληθῆτε ῥαββί· εἷς γάρ ἐστιν ὑμῶν ὁ διδάσκαλος, πάντες δὲ ὑμεῖς ἀδελφοί ἐστε.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Darauf wandte sich Jesus an das Volk und an seine Jünger  2 und sagte: Die Schriftgelehrten und die Pharisäer haben sich auf den Stuhl des Mose gesetzt.  3 Tut und befolgt also alles, was sie euch sagen, aber richtet euch nicht nach dem, was sie tun; denn sie reden nur, tun selbst aber nicht, was sie sagen.  4 Sie schnüren schwere Lasten zusammen und legen sie den Menschen auf die Schultern, wollen selber aber keinen Finger rühren, um die Lasten zu tragen.  5 Alles, was sie tun, tun sie nur, damit die Menschen es sehen: Sie machen ihre Gebetsriemen breit und die Quasten an ihren Gewändern lang,  6 bei jedem Festmahl möchten sie den Ehrenplatz und in der Synagoge die vordersten Sitze haben,  7 und auf den Straßen und Plätzen lassen sie sich gern grüßen und von den Leuten Rabbi (Meister) nennen.  8 Ihr aber sollt euch nicht Rabbi nennen lassen; denn nur einer ist euer Meister, ihr alle aber seid Brüder.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

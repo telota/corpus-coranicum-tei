@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus 17:7-16</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_272" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>272</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sowohl im Koran als auch in der Bibel wird der Genuss von Blut verboten. Das Verbot findet sich auch noch an folgenden Stellen in der Bibel: Genesis 9:4, Leviticus 3:17, 7:26-27, 19:26, Deuteronomium 12:23-27, 15:23, 1 Samuel 14:32-34 sowie Apostelgeschichte 15:20. Siehe TUK_0271.
+</summary>
+            <msItem>
+              <title>Leviticus 17:7-16</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וְלֹא־יִזְבְּחוּ עוֹד אֶת־זִבְחֵיהֶם לַשְּׂעִירִם אֲשֶׁר הֵם זֹנִים אַחֲרֵיהֶם חֻקַּת עוֹלָם תִּהְיֶה־זֹּאת לָהֶם לְדֹרֹתָם : וַאֲלֵהֶם תֹּאמַר אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר אֲשֶׁר־יָגוּר בְּתוֹכָם אֲשֶׁר־יַעֲלֶה עֹלָה אוֹ־זָבַח : וְאֶל־פֶּתַח אֹהֶל מוֹעֵד לֹא יְבִיאֶנּוּ לַעֲשׂוֹת אֹתוֹ לַיהוָה וְנִכְרַת הָאִישׁ הַהוּא מֵעַמָּיו : וְאִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר הַגָּר בְּתוֹכָם אֲשֶׁר יֹאכַל כָּל־דָּם וְנָתַתִּי פָנַי בַּנֶּפֶשׁ הָאֹכֶלֶת אֶת־הַדָּם וְהִכְרַתִּי אֹתָהּ מִקֶּרֶב עַמָּהּ : כִּי נֶפֶשׁ הַבָּשָׂר בַּדָּם הִוא וַאֲנִי נְתַתִּיו לָכֶם עַל־הַמִּזְבֵּחַ לְכַפֵּר עַל־נַפְשֹׁתֵיכֶם כִּי־הַדָּם הוּא בַּנֶּפֶשׁ יְכַפֵּר : עַל־כֵּן אָמַרְתִּי לִבְנֵי יִשְׂרָאֵל כָּל־נֶפֶשׁ מִכֶּם לֹא־תֹאכַל דָּם וְהַגֵּר הַגָּר בְּתוֹכְכֶם לֹא־יֹאכַל דָּם : וְאִישׁ אִישׁ מִבְּנֵי יִשְׂרָאֵל וּמִן־הַגֵּר הַגָּר בְּתוֹכָם אֲשֶׁר יָצוּד צֵיד חַיָּה אוֹ־עוֹף אֲשֶׁר יֵאָכֵל וְשָׁפַךְ אֶת־דָּמוֹ וְכִסָּהוּ בֶּעָפָר : כִּי־נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ בְנַפְשׁוֹ הוּא וָאֹמַר לִבְנֵי יִשְׂרָאֵל דַּם כָּל־בָּשָׂר לֹא תֹאכֵלוּ כִּי נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ הִוא כָּל־אֹכְלָיו יִכָּרֵת : וְכָל־נֶפֶשׁ אֲשֶׁר תֹּאכַל נְבֵלָה וּטְרֵפָה בָּאֶזְרָח וּבַגֵּר וְכִבֶּס בְּגָדָיו וְרָחַץ בַּמַּיִם וְטָמֵא עַד־הָעֶרֶב וְטָהֵר : וְאִם לֹא יְכַבֵּס וּבְשָׂרוֹ לֹא יִרְחָץ וְנָשָׂא עֲוֹנוֹ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	7 Sie sollen nicht mehr ihre Schlachtopfer für Bocksdämonen schlachten, mit denen sie Unzucht treiben. Das gelte ihnen und ihren kommenden Generationen als feste Regel. 8 Du sollst ihnen weiter sagen: Jeder Mann aus dem Haus Israel oder jeder Fremde in eurer Mitte, der ein Brand- oder Schlachtopfer darbringt, 9 ohne es zum Eingang des Offenbarungszeltes zu bringen, um es für den Herrn zu vollziehen, soll aus seinen Stammesgenossen ausgemerzt werden. 10 Jeder Mann aus dem Haus Israel oder jeder Fremde in eurer Mitte, der irgendwie Blut genießt, gegen einen solchen werde ich mein Angesicht wenden und ihn aus der Mitte seines Volkes ausmerzen. 11 Die Lebenskraft des Fleisches sitzt nämlich im Blut. Dieses Blut habe ich euch gegeben, damit ihr auf dem Altar für euer Leben die Sühne vollzieht; denn das Blut ist es, das für ein Leben sühnt. 12 Deshalb habe ich zu den Israeliten gesagt: Niemand unter euch darf Blut genießen, auch der Fremde, der in eurer Mitte lebt, darf kein Blut genießen. 13 Jeder unter den Israeliten oder der Fremde in eurer Mitte, der Wild oder für den Genuss erlaubte Vögel erlegt, muss das Blut ausfließen lassen und es mit Erde bedecken. 14 Denn das Leben aller Wesen aus Fleisch ist das Blut, das darin ist. Ich habe zu den Israeliten gesagt: Das Blut irgendeines Wesens aus Fleisch dürft ihr nicht genießen; denn das Leben aller Wesen aus Fleisch ist ihr Blut. Jeder, der es genießt, soll ausgemerzt werden. 15 Jeder, sei er einheimisch oder fremd, der ein verendetes oder zerrissenes Tier isst, muss seine Kleider waschen, sich in Wasser baden und ist unrein bis zum Abend; dann ist er rein. 16 Wer seine Kleider nicht wäscht und seinen Körper nicht in Wasser badet, muss die Folgen seiner Schuld tragen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

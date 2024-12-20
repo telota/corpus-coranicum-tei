@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ardā Wīrāz Nāmag 6:1-6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1320" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1320</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Der Koran kennt die Vorstellung einer Trennwand zwischen dem Irdischen einerseits und dem Jenseitigen (Himmel und Hölle) andererseits, die in Q 23:100 mit dem Wort barzaḫ bezeichnet wird. In Q 22:55 und Q 55:20 wird dasselbe Wort aber auch zur Bezeichnung einer Trennwand zwischen zwei Meeren verwendet. Der Terminus barzaḫ wird in der Exegese unterschiedlich interpretiert: Neben der Zeitspanne, die vom ersten zum zweiten Trompetenstoß verstreicht, ist sie auch als Grab und als Trennwand zwischen Jenseits und Diesseits sowie als ein Ort der Strafe interpretiert worden (Zaki 2001; Rebstock 2002). Arthur Jeffrey nimmt mit Karl Vollers einen iranischen Ursprung des Wortes an und weist auf die Ähnlichkeit zum mittelpersischen frasang hin (Jeffery 1938: 77). Bereits im Altpersischen findet sich parāthanga für ein Längenmaß und auch im Parthischen lässt sich das Wort nachweisen (Hinz 1955: 62–63). Im Mittelpersischen meint frasang eine Längenbezeichnung bzw. Entfernung (MacKenzie 1971: 32), für einen intermediären Status zwischen Himmel bzw. Hölle und der Erde jedoch findet sich in Verbindung mit dem Wort frasang in der mittelpersischen Literatur kein Beleg. Dagegen ist mit dem mittelpersischen Wort hamēstagān genau diese Vorstellung verbunden (vgl. allgemein Gignoux 2003): Das Wort meint im Mittelpersischen den Limbus bzw. einen neutralen Ort zwischen Himmel und Hölle (MacKenzie 1971: 41).
+
+Bereits im Awesta erscheint der Begriff hə̄məmiiāsaitē, wobei damit in Yasna 33:1 die Vorstellung verknüpft ist, dass es neben den Anhängern der Wahrheit (Aša, Schlerath and Skjærvø 1987) und denen der Lüge (Druj, Kellens 2011) eine weitere Kategorie von Menschen gebe, deren gute und schlechte Taten am Tage des Gerichts einander die Waage hielten. Im Dādestān ī Mēnōg ī Xrad ist die Vorstellung artikuliert, dass es neben Hölle und Paradies einen dritten Ort gebe, in welchen die Menschen eingingen, deren gute und schlechte Taten äquivalent seien (Humbach 1991: II, 92). Nach Philippe Gignoux ist dieses Konzept erst in der späten Sasanidenzeit zu verorten (Gignoux 2003).
+
+
+Im Gegensatz zu der Passage im Dādestān ī Mēnōg ī Xrad (TUK_1319), in welcher das Hāmēstagān einen gänzlich neutralen Ort meint, an dem die Seelen weder die Belohnungen des Paradieses noch die Strafen der Hölle erfahren, ist im hier vorgestellten Text aus der spät-sasanidischen Apokalypse Ardā Wīrāz Nāmag die Vorstellung artikuliert, dass die Seelen dort eine gemäßigte Bestrafung durch klimatische Veränderungen erfahren.
+
+Das Ardā Wīrāz Nāmag („Das Buch des Ardā Wīrāz“) stellt auf Grund seiner einzigartigen Gestaltung wie auch seiner breiten Rezeption den bedeutendsten zoroastrischen Beitrag zur Gattung der apokalyptischen Literatur dar (vgl. zum Werk Gignoux 1986). Strukturell gliedert sich das Werk in vier Teile: Auf eine kontextualisierende Einleitung (Kapitel 1–3) folgen die ausführlichen Beschreibungen des Paradieses (Kapitel 4–15) und der Hölle (Kapitel 16–100) sowie eine kurze Schlusssequenz (Kapitel 101), die eine zweite Begegnung des Ardā Wīrāz mit Ohrmazd im Paradies schildert (vgl. die ausführliche Zusammenfassung bei Haug and West 1872: LVII–LXII). In der Einleitung wird geschildert, wie Ardā Wīrāz auf Grund seiner Tugendhaftigkeit von Priestern auserkoren wird, die zoroastrische Glaubenswahrheit durch eine Himmelsreise zu bestätigen. Nachdem die Priester ihm einen narkotisierenden Trank eingeflößt haben, fällt Ardā Wīrāz für sieben Tage und sieben Nächte in einen tiefen Schlaf, bevor er das Bewußtsein wiedererlangt. Die sich anschließende Schilderung der Jenseitsreise beschreibt detailliert die Freuden der Gerechten und Leiden der Sünder (vgl. TUK_1271). Den weitaus größten Teil nimmt die Beschreibung der Hölle ein: 84 der 101 Kapitel des Werkes beschäftigen sich mit den Sünden der Hölleninsassen und den korrespondierenden Strafen (Stausberg 2009: 238; Leurini 2002: 214–220).
+Alter und Entstehungszeit sind schwer einzugrenzen. In seiner heutigen Form wurde das Werk jedoch erst nach der arabischen Eroberung verschriftlicht, wie die angefügte Einleitung deutlich macht, in der von der Invasion Irans durch die Araber die Rede ist. Martin Haug und Edward W. West betonen die literarische Eigenständigkeit der Apokalypse, die weder jüdische noch christliche Einflüsse aufweise (Haug and West 1872: LVI–LVII), und verorten die Entstehung des Werkes in die Spätphase der Sasanidenherrschaft (Haug and West 1872: LXXIII). Mary Boyce und Philippe Gignoux datieren die Endredaktion auf das 9. bzw. 10. Jahrhundert (Boyce 1968: 48; Gignoux 1969). Dabei geht Boyce von einem sehr alten Kern des Werkes aus, worauf auch der bereits in den Gāthās vorkommende Name Wīrāz (Yašt 13:101) hinweise (Boyce 1968: 48–49), und auch Faridun Vahman (Vahman 1981: 11) betont, dass die zentralen Teile des Werkes aus der sasanidischen Zeit stammen.
+
+Das Genre der Jenseitsreise, während derer eine bedeutende Person Himmel und Hölle erblickt, und somit die zoroastrische Religion durch eine transzendente Erfahrung legitimiert, ist alt; schon Zarathustra soll nach Vizīdagīhā ī Zādspram 21 in den Himmel aufgefahren sein und auch über den legendären König Vištaspa wird Ähnliches berichtet (Dēnkard 7.4:83–86). Der Hohepriester Kartīr (vgl. zu Leben und Wirken Kartīrs Skjærvø 2011), der in der zweiten Hälfte des dritten Jahrhunderts zu höchster Machtfülle im Sasanidenreich aufstieg, rühmte sich, eine Jenseitsreise unternommen zu haben, wie aus seinen Inschriften in Naqš-e Raǧab (vgl. auch TUK_1323) deutlich wird (Skjaervø 1983). Im Gegensatz zu den Inschriften Kartīrs, die eine physische Jenseitsreise des Hohepriesters beschreiben, findet sich im Ardā Wirāz Nāmag eine Akzentverschiebung hin zu einer spirituellen Reise der Seele, während derer der Körper im Diesseits verharrt.</summary>
+            <msItem>
+              <title>Ardā Wīrāz Nāmag 6:1-6</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Späte Sāsānidenzeit</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Vahman, Fereydun, Ardā Wirāz Nāmag. The Iranian ‚Divina Commedia‘, London / Malmo 1986.</bibl>
+              <bibl type="literatur">Boyce, Mary: &amp;#x201E;Middle Persian Literature&amp;#x201C;. In: Berthold Spuler (Hrsg.), Handbuch der Orientalistik. Leiden 1968, S. 31&amp;#x2013;66.</bibl>
+              <bibl type="literatur">Gignoux, Philippe: &amp;#x201E;Ard&amp;#x101; W&amp;#x12B;r&amp;#x101;z N&amp;#x101;mag&amp;#x201C;. Encyclopaedia Iranica 2.4: 356&amp;#x2013;357.</bibl>
+              <bibl type="literatur">Gignoux, Philippe: &amp;#x201E;Ham&amp;#x113;stag&amp;#x101;n&amp;#x201C;. Encyclopaedia Iranica 11.6: 637&amp;#x2013;638.</bibl>
+              <bibl type="literatur">Gignoux, Philippe: &amp;#x201E;Notes sur la r&amp;#xE9;daction de l&amp;#x2019;Ard&amp;#x101;y Vir&amp;#x101;z N&amp;#x101;mag&amp;#x201C;. In: Zeitschrift der Deutschen Morgenl&amp;#xE4;ndischen Gesellschaft Suppl. I.3 (1969), S. 998&amp;#x2013;1004.</bibl>
+              <bibl type="literatur">Haug, Martin &amp;amp; West, Edward W.: The Book of Arda Viraf. Bombay/London 1872.</bibl>
+              <bibl type="literatur">Hinz, Walther: Islamische Ma&amp;#xDF;e und Gewichte. Leiden 1955.</bibl>
+              <bibl type="literatur">Humbach, Helmut: The G&amp;#x101;th&amp;#x101;s of Zarathushtra and other Old-Avesta Texts. Heidelberg 1991.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Kellens, Jean: &amp;#x201E;Druj&amp;#x201C;. Encyclopaedia Iranica 7.6: 562&amp;#x2013;563.</bibl>
+              <bibl type="literatur">Leurini, Claudia: &amp;#x201E;Hell or Hells in Zoroastrian Afterlife: The Case of Arda Wiraz Namag&amp;#x201C;. In: Philip Huyse (Hrsg.), Iran: Questions et connaissances. Actes du IVe Congr&amp;#xE8;s europ&amp;#xE9;en des &amp;#xC9;tudes iraniennes. Vol. I La p&amp;#xE9;riode ancienne (Studia Iranica 25). Paris 2002, S. 207&amp;#x2013;220.</bibl>
+              <bibl type="literatur">MacKenzie, David N.: A Concise Pahlavi Dictionary. London [u.a] 1971.</bibl>
+              <bibl type="literatur">Rebstock, Ulrich: &amp;#x201E;Das &amp;#x301;Grabesleben &amp;#x301;. Eine islamische Konstruktion zwischen Himmel und H&amp;#xF6;lle&amp;#x201C;. In: Rainer Brunner u.&amp;#xA0;a. (Hrsg.), slamstudien ohne Ende. Festschrift f&amp;#xFC;r Werner Ende&amp;#xA0; zum 6 5. Geburtstag. W&amp;#xFC;rzburg 2002, S. 371&amp;#x2013;382.</bibl>
+              <bibl type="literatur">Schlerath, Bernfried &amp;amp; Skj&amp;#xE6;rv&amp;#xF8;, Prods O.: &amp;#x201E;A&amp;#x161;a&amp;#x201C;. Encyclopaedia Iranica 694&amp;#x2013;696.</bibl>
+              <bibl type="literatur">Skj&amp;#xE6;rv&amp;#xF8;, Prods O.: &amp;#x201E;Kartir&amp;#x201C;. Encyclopaedia Iranica 15.6: 608&amp;#x2013;628.</bibl>
+              <bibl type="literatur">Skjaerv&amp;#xF8;, Prods O.: &amp;#x201E;Kirdirs Vision: Translation and Analysis&amp;#x201C;. In: Arch&amp;#xE4;ologische Mitteilungen aus Iran 16 (1983), S. 269&amp;#x2013;305.</bibl>
+              <bibl type="literatur">Stausberg, Michael: &amp;#x201E;Hell in Zoroastrian History&amp;#x201C;. In: Numen 56 (2009), S. 217&amp;#x2013;253.</bibl>
+              <bibl type="literatur">Vahman, Faridun: Ard&amp;#x101; W&amp;#x12B;r&amp;#x101;z N&amp;#x101;mag. The Iranian &amp;#xB4;Divina Commedia&amp;#xB4;. Kopenhagen 1981.</bibl>
+              <bibl type="literatur">Zaki, Mona M.: &amp;#x201E;Barzakh&amp;#x201C;. Encyclopaedia of the Qur&amp;#x2BE;&amp;#x101;n 1: 204&amp;#x2013;207.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p>In Bearbeitung.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 I came to a place where I saw the souls of some people who were standing together.
+2 I asked the victorious Srōš, the pious, and the god Ādur: “Who are they and why are they standing there?”
+3 Srōš, the pious, and the god Ādur said: “This is a place called Hammistagān and these souls stand there until the Final Body. (These are) the souls of those people whose good deeds and sins were equal.
+4 Tell the people of the world: Do not trough greed and vexation desist from the good deeds (that come) more easily.
+5 Because everyone whose good deeds are three Srōš-čarnām more than his sins (goes) to Heaven (and everyone) whose sins are greater (goes) to Hell, (and those) who (possess) both equally remain in this Hammistagān until the Final Body.
+6 Because of the change of air their punishment (is) cold and heat, and there is no other adversity for them.” (Vahman 1981: 196)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

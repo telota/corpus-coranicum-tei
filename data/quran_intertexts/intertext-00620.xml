@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exodus 14:8-31</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_620" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>620</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das hebr. yām bzw. aram. yammā entsprechende Wort yamm begegnet im Koran anstelle des sonst geläufigen baḥr nur in Moses-Erzählungen; obwohl der Ausdruck Jeffery 1938: p. 293 zufolge bereits in der altarabischen Dichtung bezeugt ist, dürfte sich darin doch die biblische Darstellung des Exodus spiegeln, wo häufig von "dem Meer" (hebr. hay-yām) die Rede ist. Interessanterweise steht yamm im Koran auch an Stellen, in denen im Hebräischen Bezeichnungen für andere Gewässertypen stehen, so etwa naḥal oder mayim (Hinweis von Joseph Witztum). Das Wort yamm mag hier also als Stilmittel dienen, welches die Exodusgeschichte in besonderer Weise markiert. Dazu auch der Glossariumeintrag s.v. yamm.
+</summary>
+            <msItem>
+              <title>Exodus 14:8-31</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיְחַזֵּק יְהֹוָה אֶת־לֵב פַּרְעֹה מֶלֶךְ מִצְרַיִם וַיִּרְדֹּף אַחֲרֵי בְּנֵי יִשְׂרָאֵל וּבְנֵי יִשְׂרָאֵל יֹצְאִים בְּיָד רָמָה׃ וַיִּרְדְּפוּ מִצְרַיִם אַחֲרֵיהֶם וַיַּשִּׂיגוּ אוֹתָם חֹנִים  עַל־הַיָּם  כָּל־סוּס רֶכֶב פַּרְעֹה וּפָרָשָׁיו וְחֵילוֹ עַל־פִּי הַחִירֹת לִפְנֵי בַּעַל צְפֹֽן׃ וּפַרְעֹה הִקְרִיב וַיִּשְׂאוּ בְנֵי־יִשְׂרָאֵל אֶת־עֵינֵיהֶם וְהִנֵּה מִצְרַיִם נֹסֵעַ אַחֲרֵיהֶם וַיִּירְאוּ מְאֹד וַיִּצְעֲקוּ בְנֵי־יִשְׂרָאֵל אֶל־יְהוָה׃ וַיֹּאמְרוּ אֶל־מֹשֶׁה הַמִבְּלִי אֵין־קְבָרִים בְּמִצְרַיִם לְקַחְתָּנוּ לָמוּת בַּמִּדְבָּר מַה־זֹּאת עָשִׂיתָ לָּנוּ לְהוֹצִיאָנוּ מִמִּצְרָיִם׃ הֲלֹא־זֶה הַדָּבָר אֲשֶׁר דִּבַּרְנוּ אֵלֶיךָ בְמִצְרַיִם לֵאמֹר חֲדַל מִמֶּנּוּ וְנַעַבְדָה אֶת־מִצְרָיִם כִּי טוֹב לָנוּ עֲבֹד אֶת־מִצְרַיִם מִמֻּתֵנוּ בַּמִּדְבָּר׃ וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַל־תִּירָאוּ הִתְיַצְבוּ וּרְאוּ אֶת־יְשׁוּעַת יְהוָה אֲשֶׁר־יַעֲשֶׂה לָכֶם הַיּוֹם כִּי אֲשֶׁר רְאִיתֶם אֶת־מִצְרַיִם הַיּוֹם לֹא תֹסִיפוּ לִרְאֹתָם עוֹד עַד־עוֹלָם׃ יְהוָה יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִישֽׁוּן׃ וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּעוּ׃ וְאַתָּה הָרֵם אֶת־מַטְּךָ וּנְטֵה אֶת־יָדְךָ  עַל־הַיָּם  וּבְקָעֵהוּ וְיָבֹאוּ בְנֵי־יִשְׂרָאֵל בְּתוֹךְ  הַיָּם  בַּיַּבָּשָׁה׃ וַאֲנִי הִנְנִי מְחַזֵּק אֶת־לֵב מִצְרַיִם וְיָבֹאוּ אַחֲרֵיהֶם וְאִכָּבְדָה בְּפַרְעֹה וּבְכָל־חֵילוֹ בְּרִכְבּוֹ וּבְפָרָשָׁיו׃ וְיָדְעוּ מִצְרַיִם כִּי־אֲנִי יְהוָה בְּהִכָּבְדִי בְּפַרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו׃ וַיִּסַּע מַלְאַךְ הָאֱלֹהִים הַהֹלֵךְ לִפְנֵי מַחֲנֵה יִשְׂרָאֵל וַיֵּלֶךְ מֵאַחֲרֵיהֶם וַיִּסַּע עַמּוּד הֶעָנָן מִפְּנֵיהֶם וַיַּעֲמֹד מֵאַחֲרֵיהֶם׃ וַיָּבֹא בֵּין מַחֲנֵה מִצְרַיִם וּבֵין מַחֲנֵה יִשְׂרָאֵל וַיְהִי הֶעָנָן וְהַחֹשֶׁךְ וַיָּאֶר אֶת־הַלָּיְלָה וְלֹא־קָרַב זֶה אֶל־זֶה כָּל־הַלָּיְלָה׃ וַיֵּט מֹשֶׁה אֶת־יָדוֹ  עַל־הַיָּם  וַיּוֹלֶךְ יְהוָה  אֶת־הַיָּם  בְּרוּחַ קָדִים עַזָּה כָּל־הַלַּיְלָה וַיָּשֶׂם  אֶת־הַיָּם  לֶחָרָבָה וַיִּבָּקְעוּ הַמָּיִם׃ וַיָּבֹאוּ בְנֵי־יִשְׂרָאֵל בְּתוֹךְ הַיָּם בַּיַּבָּשָׁה וְהַמַּיִם לָהֶם חֹמָה מִימִינָם וּמִשְּׂמֹאלָם׃ וַיִּרְדְּפוּ מִצְרַיִם וַיָּבֹאוּ אַחֲרֵיהֶם כֹּל סוּס פַּרְעֹה רִכְבּוֹ וּפָרָשָׁיו אֶל־תּוֹךְ  הַיָּם׃  וַיְהִי בְּאַשְׁמֹרֶת הַבֹּקֶר וַיַּשְׁקֵף יְהוָה אֶל־מַחֲנֵה מִצְרַיִם בְּעַמּוּד אֵשׁ וְעָנָן וַיָּהָם אֵת מַחֲנֵה מִצְרָיִם׃ וַיָּסַר אֵת אֹפַן מַרְכְּבֹתָיו וַיְנַהֲגֵהוּ בִּכְבֵדֻת וַיֹּאמֶר מִצְרַיִם אָנוּסָה מִפְּנֵי יִשְׂרָאֵל כִּי יְהוָה נִלְחָם לָהֶם בְּמִצְרָיִם׃ וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָדְךָ  עַל־הַיָּם  וְיָשֻׁבוּ הַמַּיִם עַל־מִצְרַיִם עַל־רִכְבּוֹ וְעַל־פָּרָשָׁיו׃ וַיֵּט מֹשֶׁה אֶת־יָדוֹ  עַל־הַיָּם  וַיָּשָׁב  הַיָּם  לִפְנוֹת בֹּקֶר לְאֵיתָנוֹ וּמִצְרַיִם נָסִים לִקְרָאתוֹ וַיְנַעֵר יְהוָה אֶת־מִצְרַיִם בְּתוֹךְ  הַיָּם׃  וַיָּשֻׁבוּ הַמַּיִם וַיְכַסּוּ אֶת־הָרֶכֶב וְאֶת־הַפָּרָשִׁים לְכֹל חֵיל פַּרְעֹה הַבָּאִים אַחֲרֵיהֶם  בַּיָּם  לֹֽא־נִשְׁאַר בָּהֶם עַד־אֶחָד׃ וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ  הַיָּם  וְהַמַּיִם לָהֶם חֹמָה מִימִינָם וּמִשְּׂמֹאלָם׃ וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא אֶת־יִשְׂרָאֵל מִיַּד מִצְרָיִם וַיַּרְא יִשְׂרָאֵל אֶת־מִצְרַיִם מֵת עַל־שְׂפַת  הַיָּם׃  וַיַּרְא יִשְׂרָאֵל אֶת־הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה יְהוָה בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת־יְהוָה וַיַּאֲמִינוּ בַּיהוָה וּבְמֹשֶׁה עַבְדּֽוֹ׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	8 Der Herr verhärtete das Herz des Pharao, des Königs von Ägypten, so daß er den Israeliten nachjagte, während sie voll Zuversicht weiterzogen. 9 Die Ägypter jagten mit allen Pferden und Streitwagen des Pharao, mit seiner Reiterei und seiner Streitmacht hinter ihnen her und holten sie ein, als sie gerade am Meer lagerten. Es war bei Pi-Hahirot vor Baal-Zefon. 10 Als der Pharao sich näherte, blickten die Israeliten auf und sahen plötzlich die Ägypter von hinten anrücken. Da erschraken die Israeliten sehr und schrien zum Herrn. 11 Zu Mose sagten sie: Gab es denn keine Gräber in Ägypten, daß du uns zum Sterben in die Wüste holst? Was hast du uns da angetan? Warum hast du uns aus Ägypten herausgeführt? 12 Haben wir dir in Ägypten nicht gleich gesagt: Laß uns in Ruhe! Wir wollen Sklaven der Ägypter bleiben; denn es ist für uns immer noch besser, Sklaven der Ägypter zu sein, als in der Wüste zu sterben. 13 Mose aber sagte zum Volk: Fürchtet euch nicht! Bleibt stehen, und schaut zu, wie der Herr euch heute rettet. Wie ihr die Ägypter heute seht, so seht ihr sie niemals wieder. 14 Der Herr kämpft für euch, ihr aber könnt ruhig abwarten. 15 Der Herr sprach zu Mose: Was schreist du zu mir? Sag den Israeliten, sie sollen aufbrechen. 16 Und du heb deinen Stab hoch, streck deine Hand über das Meer, und spalte es, damit die Israeliten auf trockenem Boden in das Meer hineinziehen können. 17 Ich aber will das Herz der Ägypter verhärten, damit sie hinter ihnen hineinziehen. So will ich am Pharao und an seiner ganzen Streitmacht, an seinen Streitwagen und Reitern meine Herrlichkeit erweisen. 18 Die Ägypter sollen erkennen, daß ich der Herr bin, wenn ich am Pharao, an seinen Streitwagen und Reitern meine Herrlichkeit erweise. 19 Der Engel Gottes, der den Zug der Israeliten anführte, erhob sich und ging an das Ende des Zuges, und die Wolkensäule vor ihnen erhob sich und trat an das Ende. 20 Sie kam zwischen das Lager der Ägypter und das Lager der Israeliten. Die Wolke war da und Finsternis, und Blitze erhellten die Nacht. So kamen sie die ganze Nacht einander nicht näher. 21 Mose streckte seine Hand über das Meer aus, und der Herr trieb die ganze Nacht das Meer durch einen starken Ostwind fort. Er ließ das Meer austrocknen, und das Wasser spaltete sich. 22 Die Israeliten zogen auf trockenem Boden ins Meer hinein, während rechts und links von ihnen das Wasser wie eine Mauer stand. 23 Die Ägypter setzten ihnen nach; alle Pferde des Pharao, seine Streitwagen und Reiter zogen hinter ihnen ins Meer hinein. 24 Um die Zeit der Morgenwache blickte der Herr aus der Feuer- und Wolkensäule auf das Lager der Ägypter und brachte es in Verwirrung. 25 Er hemmte die Räder an ihren Wagen und ließ sie nur schwer vorankommen. Da sagte der Ägypter: Ich muß vor Israel fliehen; denn der Herr kämpft auf ihrer Seite gegen Ägypten. 26 Darauf sprach der Herr zu Mose: Streck deine Hand über das Meer, damit das Wasser zurückflutet und den Ägypter, seine Wagen und Reiter zudeckt. 27 Mose streckte seine Hand über das Meer, und gegen Morgen flutete das Meer an seinen alten Platz zurück, während die Ägypter auf der Flucht ihm entgegenliefen. So trieb der Herr die Ägypter mitten ins Meer. 28 Das Wasser kehrte zurück und bedeckte Wagen und Reiter, die ganze Streitmacht des Pharao, die den Israeliten ins Meer nachgezogen war. Nicht ein einziger von ihnen blieb übrig. 29 Die Israeliten aber waren auf trockenem Boden mitten durch das Meer gezogen, während rechts und links von ihnen das Wasser wie eine Mauer stand. 30 So rettete der Herr an jenem Tag Israel aus der Hand der Ägypter. Israel sah die Ägypter tot am Strand liegen. 31 Als Israel sah, daß der Herr mit mächtiger Hand an den Ägyptern gehandelt hatte, fürchtete das Volk den Herrn. Sie glaubten an den Herrn und an Mose, seinen Knecht.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Periplus Maris Erythraei, §16 [Epholkion]</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1562" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1562</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>AbstractDas Wort fulk ("Schiff") gehört zu den Wörtern der Koransprache, die wahrscheinlich auf ein Lehnwort zurückgehen (Jeffery 1938, p. 229f.), da das Wort innerhalb des Arabischen kaum erklärt werden kann (s. dagegen Fraenkel 1886, p. 212). Eine Vermutung legt nahe, dass es auf das altgriechische ἐφόλκιον zurückgehen könnte. Wörter mit der Wurzel f-l-k in der Bedeutung "Schiff" sind des Weiteren in altsüdarabischen Inschriften belegt (vgl. Conti Rossini 1931, Glossarium 218; s. TUK 1593: flk, Maraqten). Da archäologische Belege zu den philologischen Befunden sowohl für das Griechische als auch für das Arabische bislang besonders im Bereich des Roten Meeres ausbleiben, lässt sich eine eindeutige Etymologie noch nicht zuweisen. Im Folgenden wird die Verwendung von ἐφόλκιον an verschiedenen Belegstellen untersucht. Diese Analyse wird begleitet von Vergleichen zu anderen Schiffstypen der Spätantike, sofern sie sprachlich oder archäologisch attestiert sind. PeriplusMöglicherweise geht fulk auf griech. ἐφόλκιον (epholkion) zurück, was im Altgriechischen ein "kleines Boot" bezeichnet (manchmal auch "Beiboot" [vgl. LSJ s.v.]]; es ist seinerseits als Diminutivform (s. zu Formen auf -ιον [-ion] Petersen 1910) zu griech. ἕλκω, helkō, "ziehen", mit der Vorsilbe ἐπί, epi-, "bei", gebildet (zur Etymologie v. ἕλκω s. Frisk s. v.; vgl. Plut. Pomp. 73, 5). Damit handelt es sich etymologisch also um ein zu einem größeren Schiff gehöriges Boot, das, diesem beigefügt, ‚dabei gezogen' wird.Im Periplus Maris Erythraei (kurz: Periplus; gr. Περίπλους τῆς Ἐρυθρᾶς Θαλάσσης) taucht ἐφόλκιον zweimal auf: § 33 berichtet über verschiedene Völker, Inseln und deren Häfen sowie über die Handelsrouten, die dazwischen verlaufen. Für eine solcher Fahrten seien Schiffe (pl.: ἐφόλκια, epholkia) im Hafen von Kané (engl. Qana; beim Berg Ḥiṣn al-G̲h̲urāb, in d. Nähe des heutigen Bi'r Ali, Jemen, vgl. Schleifer 2012) gefertigt worden, um mit den arabischsprachigen Bewohnern der Insel von Sarapis (heute: Maṣīra, Oman, vgl. Burrell 2012) zu handeln. ἐφόλκιον scheint in § 33 synonym zu σκάφη, skaphē (LSJ s.v.: "light boat") verwendet zu werden (Casson fasst es offenbar als Pleonasmus auf und übersetzt daher nur "small sailing vessels"; dagegen behält Huntingford die Distinktion bei: "[l]ight boats and towed vessels"). Wiewohl Casson in seinem Kommentar zum Periplus (§ 33) angibt, dass ἐφόλκιον zur nautischen Fachsprache gehöre und als terminus technicus ein Beiboot bezeichne ("technical term for a ship's boat", Casson 1989, S. 257), übersetzt er es an der zweiten Belegstelle (§ 16) als "merchant craft". Er rechtfertigt diese Entscheidung nicht, allerdings räumt er im Kommentar zu § 33 ein, dass diese ‚Beiboote' teils groß genug seien, um eigene Takelage zu besitzen (vgl. ebd.). Über die in § 16 genannten ἐφόλκια heißt es, sie würden mit arabischen Kapitänen (κυβερνῆται, kybernētai) sowie Mannschaften (χρειακοί, chreiakoi) ausgestattet. Neben Casson interpretieren auch weitere Übersetzer ἐφόλκιον an der genannten Stelle als größeres Handelsschiff: Um "Kauffahrteischiffe" müsse es sich handeln, argumentiert Dittrich, wenn er auch neben seinem kontextgebundenen Textgefühl keinen Grund nennt (Dittrich 1883, S. 136); die lateinische Übertragung aus dem Jahr 1855 spricht in § 33 von navis oneraria (wörtl. "beladenes Schiff") [Müller 1855, 283], was ein terminus technicus für ein Handelsschiff ist [Ericson 1984].Fazit: Aus den beiden Stellen des Periplus (§§ 16; 33) lässt sich 
+nicht sicher ableiten, um welchen Schiffstyp es sich beim ἐφόλκιον 
+gehandelt hat; die Etymologie legt nahe, dass es ein kleineres 
+Boot war, das ein anderes Schiff begleitete. Es mag allerdings durchaus verwendet 
+worden sein, um eigenständig kürzere Fahrten zu unternehmen.Weitere Belegstellen und AlternativenNeben ἐφόλκιον und σκάφη tritt als allgemeinere griechische Alternative u.a. noch πλοῖον, ploion (LSJ s.v.: "ship"), das im Periplus wesentlich öfter als die beiden anderen Begriffe vorkommt. Auch für den unbekannten Autor der Χριστιανικὴ Τοπογραφία ("Christliche Weltbeschreibung"), später Kosmas Indikopleustes genannt, scheint im 6. Jh. n. Chr. πλοῖον als Überbegriff für "Schiff" (vgl. III, 60; XI, 15; XI, 17) zu gelten.In Plutarchs Vitae parallelae (gr. οἱ βίοι παράλληλοι; dt. "Parallelbiographien") kommt ἐφόλκιον an zwei Stellen in der Lebensbeschreibung des Pompeius vor. Allerdings wird es in 40, 5 lediglich als Vergleichspunkt genutzt: Ein Anbau an das Haupthaus gleiche einem ἐφόλκιον. Tertium comparationis scheint dabei also das ‚Bei-läufige', das ‚Neben-sächliche' oder auch die ‚Anhänglichkeit' in Bezug auf das Größere. Die Übersetzung von Bernadotte Perrin rekurriert auf die Etymologie (s.o.): "he built close by [the theatre], like a small boat towed behind a ship, a more splendid house than the one he had before" (καὶ περιβόητον ἀνιστὰς θέατρον, ὥσπερ ἐφόλκιόν τι, παρετεκτήνατο λαμπροτέραν οἰκίαν ἐκείνης).Kleinere Schiffstypen in der (Spät-)AntikeAuch eine Parallele zwischen den ἐφόλκια und den aus dem Arabischen bekannten, zeitgenössischen Schiffstypen zu finden, ist dementsprechend nur schwerlich möglich. In seiner Untersuchung zum antiken Hafen Berenike (heute: Baranis, Ägypten) argumentiert Steven Sidebotham, man könne per Analogie mithilfe von im Mittelmeer entdeckten Schiffswracks, die auf die Jahrhunderte zwischen dem 4. Jh. v. Chr. -7. Jh. n. Chr. datiert wurden, auf die Größe von im spätantiken roten Meer segelnden Schiffen schließen (Sidebotham 2011, 195f.). Anschaulich wird der Schiffsverkehr von Berenike zumindest in einem dort gefundenen Graffito, das in etwa zur Zeit des Periplus entstanden sein könnte (vgl. Sidebotham 2011, 202), wobei die Dimensionen und das Einsatzgebiet des gezeigten Schiffes unklar bleiben.Als Oberbegriff für verschiedene Schiffstypen des westindischen Ozeans hat sich dhow durchgesetzt (Agius 2016). Es handelt sich dabei um aus Holz gefertigte Segelboote, die zu verschiedensten Zwecken wie Handel oder Krieg eingesetzt wurden und heute noch, meist motorisiert, der Fischerei dienen. Die Subtypen haben je nach Region eigene Namen und Ausfertigungsdetails.Etymologie: fulkDie Anmerkung von Dittrich im Periplus  (s.o.: ἐφόλκια, "Kauffahrteischiffe") scheint Karl Vollers als überzeugenden Hinweis für die Etymologie von fulk gedeutet zu haben, denn in seiner Veröffentlichung "Beiträge zur Kenntnis der lebendigen arabischen Sprache in Aegypten" (1897), in der er auf die etymologischen Zusammenhänge den (modernen) romanischen und arabischen Varianten des Wortes fulk/felucca usw. eingeht, stellt er einen Nachtrag mit dem Hinweis auf ebenjene Stelle des Periplus an (Vollers 1897, Teil I, S. 325).Ibrahim Al-Selwi allerdings verweist abratend auf die von LSJ zu ἐφόλκιον angegebene Bedeutung (s. v. "small boat towed after a ship"), die gegen eine Etymologie des Griechischen zum arabischen Wort spräche. Als Alternative gibt Al-Selwi eine Herkunft aus dem Südarabischen an (vgl. Selwi 1987, S. 172f.; s. dazu TUK 1593: flk, Maraqten).Kurzbeschreibung PeriplusDer Periplus Maris Erythraei (kurz: Periplus; gr. Περίπλους τῆς Ἐρυθρᾶς Θαλάσσης, dt. "Küstenbefahrung des Roten Meeres") wurde vermutlich im 1. Jh. n. Chr. geschrieben (Casson 1989, 6-7), wobei Schätzungen bis ins 3. Jh. n. Chr. reichen (Robin 1991). Thema und Genre sind dem Titel zu entnehmen: Periploi, wörtlich "Rundfahrten", waren in der Antike verbreitete Küstenbeschreibungen für See- und Handelsfahrten, die Auskunft über Sprache, Bevölkerung, Traditionen, Handelsgüter und Routen geben konnten (Burian 2006), wobei der Periplus letztere in den Fokus stellt. Neben dem Roten Meer enthält das Werk Informationen über einen guten Teil des weiteren nördlichen Indischen Ozeans. Der Autor des Textes ist unbekannt, könnte jedoch, so mutmaßt Casson anhand der im Text gezogenen Vergleiche, aus Ägypten stammen (Casson 1989, 7-10); das Werk ist in nachklassischem Altgriechisch (κοινή, koinē) verfasst. Eine einzige Abschrift aus dem frühen 10. Jh. ist auf uns gekommen (Cod. Pal. graec. 398, fols. 40v.-54v.), deren zahlreiche Fehler den durch Fremdwörter und Eigennamen ohnehin anspruchsvollen Text stellenweise (beinahe) unverständlich machen (Casson 1989, 5-6).</summary>
+            <msItem>
+              <title>Periplus Maris Erythraei, §16 [Epholkion]</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">1. Jh. A.D.</origDate>
+              <origPlace>Ägypten</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Lionel Casson, The Periplus Maris Erythraei, Text with Introduction, Translation, and Commentary, Princeton 1989</bibl>
+              <bibl type="literatur">Agius, Dionisius A.: &amp;#x201E;Dhow&amp;#x201C;. Encyclopaedia of Islam, THREE.</bibl>
+              <bibl type="literatur">Al-Selwi, Ibrahim: Jemenitische Wo&amp;#x308;rter in den Werken von al-Hamda&amp;#x304;ni&amp;#x304; und Nas&amp;#x30C;wa&amp;#x304;n und ihre Parallelen in den semitischen Sprachen. D. Reimer, Berlin 1987.</bibl>
+              <bibl type="literatur">Anonymus: Geographi Graeci minores. Anonymi Periplus maris Erythraei. (K. M&amp;#xFC;ller, Hrsg.). A. Firmin Didot, Paris 1855.</bibl>
+              <bibl type="literatur">Burian, Jan (Prag): &amp;#x201E;Periplus&amp;#x201C;. Der Neue Pauly.</bibl>
+              <bibl type="literatur">Burrell, R.M.: &amp;#x201E;Ma&amp;#x1E63;&amp;#x12B;ra&amp;#x201C;. Encyclopaedia of Islam, Second Edition.</bibl>
+              <bibl type="literatur">Casson. Lionel (Hrsg.): The Periplus Maris Erythraei, Text with introduction, translation, and commentary. Princeton .</bibl>
+              <bibl type="literatur">Conti Rossini Carlo: Chrestomathia Arabica Meridionalis Epigraphica edita et glossario instructa. Istituto per l&amp;#x2019;Oriente (Tipografia del Senato), Rom 1931.</bibl>
+              <bibl type="literatur">Dittrich, Heinrich Theodor &amp;amp; (Pseudonym) B. Fabricius: Der Periplus des Erythr&amp;#xE4;ischen Meeres von einem Unbekannten. Veit &amp;amp; Co., Leipzig 1883.</bibl>
+              <bibl type="literatur">Ericsson, Christoffer H.: Navis oneraria: The Cargo Carrier of Late Antiquity. Studies in Ancient Ship Carpentry. A&amp;#x30A;bo akademi, A&amp;#x30A;bo 1984.</bibl>
+              <bibl type="literatur">Fraenkel, Siegmund: Die aram&amp;#xE4;ischen Fremdw&amp;#xF6;rter im Arabischen. Brill, Leiden 1886.</bibl>
+              <bibl type="literatur">Frisk, Hjalmar: Griechisches etymologisches W&amp;#xF6;rterbuch. Winter, Heidelberg 2006.</bibl>
+              <bibl type="literatur">Jeffrey, Arthur: The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute Baroda, Baroda 1938.</bibl>
+              <bibl type="literatur">Liddell, Henry G. &amp;amp; Scott, Robert: A Greek-English Lexicon. Carendon Press, Oxford 1843.</bibl>
+              <bibl type="literatur">Petersen, Walter: Greek diminutives in -ion: A Study in Semantics. Wagner, Weimar 1910.</bibl>
+              <bibl type="literatur">Plutarch: Plutarch&amp;#x2019;s Lives (B. Perrin, Hrsg.). W. Heinemann., London 1959.</bibl>
+              <bibl type="literatur">Robin, Christian: &amp;#x201E;L&amp;#x2019;Arabie du sud et la date du P&amp;#xE9;riple de la mer &amp;#xC9;rythr&amp;#xE9;e&amp;#x201C;. In: Journal Asiatique 279 (1991), S. 1&amp;#x2013;30.</bibl>
+              <bibl type="literatur">Schleifer, J. &amp;amp; Schuman, L.O.: &amp;#x201E;&amp;#x1E24;i&amp;#x1E63;n al-G&amp;#x332;h&amp;#x332;ur&amp;#x101;b&amp;#x201C;. Encyclopaedia of Islam, Second Edition.</bibl>
+              <bibl type="literatur">Sidebotham, Steven E.: Berenike and the ancient maritime spice route. 2011.</bibl>
+              <bibl type="literatur">Universit&amp;#xE4;t Heidelberg (Hrsg.): Cod. Pal. graec. 398. Sammelhandschrift. Konstantinopel, 9. Jh.</bibl>
+              <bibl type="literatur">Vollers, Karl: &amp;#x201E;Beitr&amp;#xE4;ge zur Kenntnis der lebenden arabischen Sprache in Aegypten&amp;#x201C;. In: Zeitschrift der Deutschen Morgenl&amp;#xE4;ndischen Gesellschaft 51 (1897), S. 291&amp;#x2013;323.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>15. Ἀπὸ δὲ Ὀπώνης, τῆς ἀκτῆς εἰς τὸν νότον ὑποχωρούσης ἐπὶ πλεῖον, πρῶτα μέν ἐστιν τὰ λεγόμενα μικρὰ Ἀπόκοπα καὶ μεγάλα τῆς Ἀζανίας δὶα ἀγκυροβολίων ποταμοὶ ἐπὶ δρόμους ἓξ παρ ' αὐτὸν ἤδη τὸν λίβα · εἶτα Αἰγιαλὸς καὶ μικρὸς καὶ μέγας ἐπ' ἄλλους δρόμους ἓξ καὶ μετ' αὐτὸν κατὰ τὸ ἑξῆς οἱ τῆς Ἀζανίας δρόμοι, πρῶτον μὲν ὁ λεγόμενος Σαραπίωνος, εἶθ' ὁ Νίκωνος, μεθ' ὃν ποταμοὶ πλείονες καὶ ἄλλοι συνεχεῖς ὅρμοι, διῃρημένοι κατὰ σταθμοὺς καὶ δρόμους ἡμερησίους πλείους, τοὺς πάντας ἑπτά, μέχρι Πυραλάων νήσων καὶ τῆς λεγομένης Διώρυχος, ἀφ' ἧς μικρὸν ἐπάνω τοῦ λιβὸς μετὰ δύο δρόμους νυχθημέρους παρ ' αὐτὴν τὴν δύσιν εἰτενηδιων Μενουθ[εσ]ιὰς ἀπαντᾷ νῆσος ἀπὸ σταδίων τῆς γῆς ὡσεὶ τριακοσίων, ταπεινὴ καὶ κατάδενδρος, ἐν ᾗ καὶ ποταμοὶ καὶ ὀρνέων γένη πλεῖστα καὶ χελώνη ὀρεινή. Θηρίων δὲ οὐδὲν ὅλως ἔχει πλὴν κορκοδείλων · οὐδένα δὲ ἄνθρωπον ἀδικοῦσι. Ἔστιν δὲ ἐν αὐτῇ πλοιάρια ῥαπτά καὶ μονόξυλα, οἷς χρῶνται πρὸς ἁλείαν καὶ ἄγραν χελώνης. Ἐν δὲ ταύτῃ τῇ νήσῳ καὶ γυργάθοις αὐτὰς ἰδίως λινεύουσιν, ἀντὶ δικτύων καθιέντες αὐτοὺς περὶ τὰ στόματα τῶν προραχων .  16. Ἀφ' ἧς μετὰ δύο δρόμους τῆς ἠπείρου τὸ τελευταιότατον τῆς Ἀζανίας ἐμπορίον κεῖται, τὰ Ῥάπτα [τὰ] λεγόμενα, ταὺτην ἔχον τὴν προσωνυμίαν ἀπὸ τῶν προειρημένων ῥαπτῶν πλοιαρίων, ἐν ᾧ καὶ πλεῖστός ἐστιν ἐλέφας καὶ χελώνη. Μέγιστοι δὲ ἐν σώμασιν περὶ ταύτην τὴν χώραν ἄνθρωποι ὁρατοὶ κατοικοῦσιν καὶ κατὰ τὸν τόπον ἕκαστος ὁμοίως τιθέμενοι τυράννοις. Νέμεται δὲ αὐτήν, κατά τι δίκαιον ἀρχαῖον ὑποπίπτουσαν τῇ βασιλείᾳ τῆς πρώτης γενομένης Ἀραβίας, ὁ Μοφαρίτης τύραννος. Παρὰ δε τοῦ βασιλέως ὑπόφορον αὐτὴν ἔχουσιν οἱ ἀπὸ Μούζα καὶ πέμπουσιν εἰς αὐτὴν ἐφόλκια, τὰ πλείονα κυβερνήταις καὶ χρειακοῖς [καὶ] Ἄραψιν χρώμενοι τοῖς κατὰ συνήθειαν καὶ ἐπιγαμβρείαν ἔχουσιν ἐμπείροις τε οὖσιν τῶν τόπων καὶ τῆς φωνῆς αὐτῶν.(Lionel Casson, The Periplus Mari Erythraei: Text with introduction, Translation, and Commentary , Princeton University Press, 1989)</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>15. Beyond Opone, with the coast trending more to the south, first come what are called the Small and Great Bluffs of Azania . . . , six runs by now due southwest, then the Small and Great Beaches for another six, and beyond that, in a row, the runs of Azania: first the so-called Sarapion run; then the Nikon; after that numerous rivers and also harbors, one after the other, numbers of them separated by daily stops and runs, seven in all, up to the Pyralaoi Islands and what is called the Canal; from here a little more towards the west, after two night and day runs, lying due west . . . comes Menuthias Island, about 300 stades from the mainland. It is low and wooded and has rivers, a wide variety of birds, and mountain tortoise. There are no wild animals at all except crocodiles; these, however, are not harmful to humans. The island has sewn boats and dugout canoes that are used for fishing and for catching turtles. The inhabitants of this island also have their own way of going after these with baskets, which they lower instead of nets around the mouths of [? rocky inlets]. 16. Two runs beyond this island comes the very last port of trade on the coast of Azania, called Rhapta ["sewn"], a name derived from the aforementioned sewn boats, where there are great quantities of ivory and tortoise shell. Very big-bodied men, tillers of the soil, inhabit the region; these behave, each in his own place, just like chiefs. The region is under the rule of the governor of Mapharitis, since by some ancient right it is subject to the kingdom of Arabia as first constituted. The merchants of Muza hold it through a grant from the king and collect taxes from it. They send out to it merchant craft that they staff mostly with Arab skippers and agents who, through continual intercourse and intermarriage, are familiar with the area and its language.(Lionel Casson, The Periplus Mari Erythraei: Text with introduction, Translation, and Commentary, Princeton University Press, 1989).</p>
+      </div>
+    </body>
+  </text>
+</TEI>

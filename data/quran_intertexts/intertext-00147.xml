@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hymnen auf die Geburt (De Nativitate) 21:1-4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_147" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>147</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der Text zeigt, dass die Preisung der lailat al-qadr in Q 97 an christliche Weihnachtshymnen anklingt, indem sie etwa das Motiv der besonderen Sakralität der betreffenden Nacht gegenüber profanen Zeiträumen, sowie das aus der lukanischen Weihnachtsgeschichte entwickelte Herabsteigen der Engel (vgl. Luk 2, TUK_0622) aufnimmt. Derartige Überschneidungen sind wohl nicht so zu verstehen, dass die koranische lailat al-qadr mit dem christlichen Weihnachtsfest zu identifizieren ist, sondern eher in dem Sinne, dass die Beschreibung der lailat al-qadr bewusst christliche Motive aufnimmt und überbietet. So findet sich in Q 97:3 statt dem “hundertfachen Lohn” (syr. ʾagreh ḥad be-māʾā meyattar) die Aussage, dass die lailat al-qadr “besser als tausend Monate” sei (ḫayrun min ʾalfi šahrin).
+
+	Die Aussage in Luk 2:9, dass zunächst “der Engel des Herrn” (ἄγγελος κυρίου) und später die Engelscharen hinabsteigen, fasst Ephrem mit der knappen Erwähnung von “Engeln und Erzengeln” (malʾākē w-ʾāp rabbay d-malʾākē) zusammen, was dem koranischen Text (Q 97:4) näher entspricht als die ausführliche Beschreibung im Lukasevangelium. Ferner verwendet der Evangelist die Bezeichnung “Engel des Herrn” (ohne den bestimmten Artikel) auch in Luk 1:11, wo dieser Engel explizit mit dem Erzengel Gabriel identifiziert wird (vgl. Luk 1:19). Damit ließe sich die Frage stellen, ob die koranische Erwähnung der Engel und des Geistes (al-malāʾikatu wa ʾr-rūḥu, Vers 4) ebenfalls auf eine Unterscheidung zwischen den gewöhnlichen Engeln und dem Erzengel Gabriel (ǧibrīl) als primärer Vermittler der Offenbarung deutet (siehe Q 2:97). Vgl. auch TUK_0150.
+</summary>
+            <msItem>
+              <title>Hymnen auf die Geburt (De Nativitate) 21:1-4</title>
+              <author>Ephrem der Syrer (306–373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">305-373</origDate>
+              <origPlace>Nisibis / Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Des heiligen Ephrem des Syrers Hymnen de Nativitate, Louvain 1959 (Corpus Scriptorum Christianorum Orientalium 186, Scriptores Syri 82), S. 104-108.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܫܘܚܠܦ ܩܠܐ ܥܠ ܩܠܐ ܕܐܠܦ ܐ̈ܠܦܝܢ ܥܘܢܝܐ ܒܪܝܟ ܕܙܥܪ ܕܠܐ ܣܟ ܕܕܠܐ ܣܟܐ ܢܘܪܒܢ1 ܥܠ ܝܠܕܗ ܕܒܘܟܪܐ ܒܥܕܥܕܗ ܢܡܠܠ ܝܗ̇ܒ ܗܘ ܒܝܘܡܗ ܥܘܕܖ̈ܢܐ ܟܣ̈ܝܐ ܐܢ ܛܡܐܐ ܒܥܐܕܗ ܘܒܕܘܟܪܢܐ ܕܝܘܡܗ ܝܗ̣ܒ ܡܘܗܒܬܐ ܕܪܘܓܙܐ ܪܝܫܐ ܥܠ ܦܝܢܟܐ ܟܡܐ ܢܬܠ ܒܪܝܟܐ ܒܘܖ̈ܟܬܐ ܠܐܝܢܐ ܕܡܙܡܪ ܒܥܐܕܗ 2 ܠܐ ܢܡܢܝܘܗܝ ܠܫܗܪܢ ܐܝܟ ܫܗܖ̈ܐ ܕܟܠܝܘܡ ܥܕܥܐܕܐ ܗܘ ܕܐܓܪܗ ܚܕ ܒܡܐܐ ܡܝܬܪ ܥܐܕܐ ܗܘ ܓܝܪ ܕܡܩܪܒ ܥܡ ܫܢܬܐ ܒܫܗܪܗ ܡܠܠܐ ܗܘ ܕܡܩܪܒ ܥܡ ܫܬܩܐ ܒܩܠܗ ܟܠ ܛܘ̈ܒܝܢ ܡܥܛܦ ܪܒ ܚܝܠܐ ܗܘ ܕܥ̈ܐܕܐ ܘܕܚ̈ܕܘܬܐ ܟܠܗܝܢ3 ܝܘܡܢܐ ܡܠܐ̈ܟܐ ܘܐܦ ܖ̈ܒܝ ܡܠܐ̈ܟܐ ܬܫܒܘܚܬܐ ܚܕܬܐ ܢܚܬܘ ܫܒܚܘ ܒܐܪܥܐ ܒܗܘ̇ ܪܐܙܐ ܢܚܬܝܢ ܘܥܡ ܫܗܖ̈ܐ ܕܝܨܝܢ ܒܗ̇ܘ ܙܒܢܐ ܕܫܒܚܘ ܓܘܕܦܐ ܡ̣ܠܐ ܗܘܐ ܒܪܝܟ ܝܠܕܐ ܕܒܗ ܗܘ ܗܐ ܪܥ̇ܡ ܥܠܡܐ ܒܗܘ̈ܠܠܐ ܕܫܘܒܚܐ4 ܠܠܝܐ ܗܘ ܓܝܪ ܕܚ̇ܠܛ ܥܝܖ̈ܐ ܕܠܥܠ ܒܫܗܖ̈ܐ ܐܬ̣ܐ ܥܝܪܐ ܕܢܥܒܕ ܥܝܖ̈ܐ ܒܓܘ ܒܪܝܬܐ ܫܗܖ̈ܐ ܗܘ ܥܒܝܕܝܢ ܫܘ̈ܬܦܐ ܠܥܝܖ̈ܐ ܡ̈ܫܒܚܢܐ ܥܒܝܕܝܢ ܚܒܖ̈ܐ ܥܡ ܣܖ̈ܦܐ ܛܘܒܘܗܝ ܠܡ̇ܢ ܕܗ̣ܘܐ ܟܢܪܐ ܠܫܘܒܚܟ ܘܗ̣ܘܐ ܐܓܪܗ ܚܢܢܟ5 ܠܝܠܕܗ ܕܝܢ ܕܒܘܟܪܐ ܢܙܡܪ ܠܗ ܕܐܝܟܢ ܐܠܗܘܬܐ ܒܟܪܣܐ ܙܩܪܬ ܠܗ̇ ܠܒܘܫܐ ܠܒܫܬܗ ܘܢܦܩܬ ܒܝܠܕܐ ܒܡܘܬܐ ܬܘܒ ܫܠܚܬܗ ܚܕܐ ܙܒܢ ܫܠܚܬܗ ܬܪܬܝܢ ܙܒ̈ܢܝܢ ܠܒܫܬܗ ܕܣܡܠܐ ܥܛܦܬܗ ܘܡܢܗ̇ ܐܥܕܝܬܗ ܘܥܠ ܝܡܝܢܐ ܣܡܬܗ6 ܫ̣ܪܐ ܒܥܘܒܐ ܙܥܘܪܐ ܚܝܠܐ ܕܠܟܠ ܡܕܒܪ ܟܕ ܬܡܢ ܫ̣ܪܐ ܗܘܐ ܦܓ̈ܘܕܐ ܕܟܠܐ ܥ̣ܪܐ ܗܘܐ ܠܝܠܘܕܗ ܢܩܐ ܗܘܐ ܕܨܒܝܢܗ ܢܫܡܠܐ ܫܡܝܐ ܡܢܗ ܡܠܝܢ ܗܘܘ ܘܒܖ̈ܝܬܐ ܟܠܗܝܢ ܫܡܫܐ ܥܠ ܠܟܪܣܐ ܘܒܪܘܡܐ ܘܥܘܡܩܐ ܙܠܝܩ̈ܘܗܝ ܫܪܝܢ ܗܘܘ7 ܫ̣ܪܐ ܒܥܘ̈ܒܐ ܖ̈ܘܝܚܐ ܕܒܖ̈ܝܬܐ ܟܠܗܝܢ ܙܥ̈ܘܪܝܢ ܐܢܝܢ ܠܡܐܚܕ ܪܒܘܬܗ ܕܒܘܟܪܐ ܐܝܟܢ ܟܝ ܣܦ̣ܩ ܠܗ ܗ̇ܘ ܥܘܒܐ ܕܡܪܝܡ ܬܗܪܐ ܐܢ ܣܦ̣ܩ ܠܗ {ܕܗ̇ܘ ܪܒܐ ܕܝܠܕܗ} ܡܢ ܟܠ ܥܘ̈ܒܝܢ ܕܐܚܕܘܗܝ ܚܕ ܥܘܒܐ ܣܦ̣ܩ ܠܗ ܕܗ̇ܘ ܪܒܐ ܕܝܠܕܗ8 ܫ̣ܘܐ ܗܘ ܥܘܒܐ ܕܐܚܕܗ ܐܢ ܐܚܕܗ ܠܟܠܗ ܥܡ ܥܘܒܐ ܬܡܝܗܐ ܕܪܒ ܡܢ ܕܝܠܕܗ ܘܡ̇ܢ ܢܡܪܚ ܕܢܐܡܪ ܕܫܘܐ ܥܘܒܐ ܙܥܘܪܐ ܚܠܫܐ ܘܫܝܛܐ ܥܡ ܕܐܝܬܘܬܐ ܪܒܬܐ ܫܪܐ ܡܛܠ ܚܢܢܗ ܘܕܪܒ ܗܘ ܟܝܢܗ ܠܐ ܐܣܬܝܟ ܒܡܕܡ9 ܫܠܡܐ ܡܪܥܝܢܐ ܕܐܫܬܕܪ ܠܥܡ̈ܡܐ ܨܡܚܐ ܡܦܨܚܢܐ ܕܐܬ̣ܐ ܨܝܕ ܟܡ̈ܝܪܐ ܚܡܝܪܐ ܚܝܠܬܢܐ ܙܟ̇ܐ ܟܠ ܒܫܠܝܐ ܢܓܝܪ ܪܘܚܐ ܕܨܕܗ̇ ܠܒܪܝܬܐ ܒܚܕ ܚܕ ܛܘܒܘܗܝ ܠܡ̇ܢ ܕܐܫܪܝ ܚ̈ܕܘܬܟ ܒܠܒܗ ܘܠܥܩ̈ܬܗ ܒܟ ܛܥ̣ܐ10 ܝܒܒܘ ܗܘܘ ܫܠܡܐ ܦܘܡܐ ܕܥ̈ܝܪܐ ܠܫܗܖ̈ܐ ܦܓܥܬ ܒܫܗܖ̈ܐ ܣܒܪܬܐ ܡܢ ܥܝܖ̈ܐ ܕܐܝܬܝܘܗ̇ ܡܢ ܢܕܡܟ ܒܗܢܐ ܠܠܝܐ ܕܐܥܝܪ ܒܪܝܬܐ ܣܒܪܘ ܓܝܪ ܫܠܡܐ ܕܪܓܝܙܘܬܐ ܐܝܬ ܗܘܬ ܒܪܝܟ ܥܘܠܐ ܕܪܥܝ ܪܒܘܬܐ ܒܫܬܩܗ ܕܡ̈ܠܠܐ ܕܐܪܓܙܘܗܝ11 ܚܠ̣ܛܘ ܥܝܖ̈ܐ ܒܥܝܖ̈ܐ ܚܕܝܘ ܕܚܝܐ ܥܠܡܐ ܒܗ̣ܬ ܒܝܫܐ ܕܐܡܠܟ ܘܩ̣ܛܪ ܬܓܐ ܕܙܐܦܐ ܐܪܡܝ ܗܘܐ ܟܘܪܣܝܗ ܐܝܟ ܐܠܗܐ ܒܬܒܝܠ ܥܘܠܐ ܕܢܦ̣ܠ ܒܐܘܪܝܐ ܡܢ ܫܘܠܛܢܗ ܐܪܡܝܗ ܫܡܫܐ ܦܢܝ ܣܓܕܬܐ ܒܡ̈ܓܘܫܘܗܝ ܝܩܪܗ ܒ̈ܣܓܘܕܘܗܝ ܣܓܕܘ ܠܗ12 ܐܠܗܐ ܚ̣ܙܐ ܗܘܐ ܕܠܥܒ̈ܝܕܐ ܣܓܕܝܢ ܠܒ̣ܫ ܦܓܪܐ ܥܒܝܕܐ ܕܒܥܝܕܢ ܢܨܘܕܢ ܗܐ ܒܗܢܐ ܓܒܝܠܐ ܓܒܘܠܢ ܐܣܝܢ ܘܒܗܢܐ ܒܪܝܬܐ ܒܪܘܝܢ ܐܚܝܢ ܠܐ ܕܒܪܢ ܩܛܝܪܗ ܒܪܝܟ ܕܐܬ̣ܐ ܒܕܝܠܢ ܘܒܕܝܠܗ ܚܠܛܢ13 ܐ̇ܘ ܪܒ ܡܢ ܡܫܘܚܬܐ ܕܕܠܐ ܡܘܫܚܐ ܙܥܪ ܗܘܐ ܡܢ ܫܘܒܚܐ ܫܒܝܚܐ ܐܬܬܚܬܝܬ ܠܫܦܠܐ ܗܢܐ ܟܠܗ ܐܪܟܢܘܟ ܖ̈ܚܡܐ ܕܫܪܝܢ ܒܟ ܐܪܟܢ ܠܝ ܚܢܢܟ ܐܬܩܠܣ ܒܒܝܫܘܬܝ ܛܘܒܘܗܝ ܠܡ̇ܢ ܕܗܘܐ ܡܒܘܥܐ ܕܩ̈ܠܐ ܘܐܘܕܝ ܟܠܗ ܠܟܠܟ 14 ܗܘܐ ܥܒ̣ܕܐ ܒܐܪܥܐ ܗܘܐ ܡܪܐ ܒܪܘܡܐ ܝܪܬ ܪܘܡܐ ܘܥܘܡܩܐ ܕܗܘܐ ܐܟܣܢܝܐ ܘܕܕܢܘܗܝ ܒܥܘܠܐ ܗܘܐ ܕܐܢ ܒܩܘܫܬܐ ܘܕܪܩܘ ܠܗ ܒܐ̈ܦܘܗܝ ܢܦܚ ܪܘܚܐ ܒܐ̈ܦܐ ܕܐܚܝܕ ܩܢܝܐ ܡܚܝܠܐ ܗܘܐ ܚܘܛܪܐ ܠܥܠܡܐ ܕܣܐܒ ܘܥܠܘܗܝ ܐܣܬܡܟ15 ܕܩܡ ܫܡܫ ܠܥ̣ܒ̈ܕܐ ܟܕ ܝܬ̇ܒ ܡܣܬܓܕ ܕܒܙܚܘ ܒܗ ܣܦܖ̈ܐ ܣܖ̈ܦܐ ܩܕܫܘ ܩܕܡܘܗܝ ܗܢ ܫܘܒܚܐ ܨܒ̣ܐ ܗܘܐ ܕܢܓܢܘܒ ܐܕܡ ܒܛܘܫܝܐ ܚܪ ܚܘܝܐ ܕܣܚܦܗ ܠܐܝܥܐ ܪܘܡܐ ܐܬܬܪܝܡ ܪܨܗ ܥܠ ܕܢܟܠܗ ܕܫ̈ܝܗܝ ܖ̈ܓܠܐ ܕܚܘܐ ܕܫܕܐ ܡܪܬܐ ܒܐ̈ܕܢܝܗ̇16 ܡܙܕܘܓܐ ܗܘܬ ܥܩܪܬܐ ܘܥܠ ܦܐܖ̈ܐ ܟܝܡܐ ܥܘܒܗ̇ ܕܝܢ ܕܡܪܝܡ ܩܕܝܫܐܝܬ ܒ̣ܛܢ ܗܘܐ ܒܐܖ̈ܥܬܐ ܠܡܬܗܪ ܘܒܢܨ̈ܒܬܐ ܠܡܬܡܗ ܗ̇ܝ ܛܠܡܬ ܕܢܣܒܬ ܘܕܠܐ ܝܙܦܬ ܦܢܝܬ ܐܘܕܝ ܟܝܢܐ ܕܐܙܕܟܝ ܟܪܣܐ ܠܗ ܛܠܡܬܗ ܘܕܠܐ ܝܗ̣ܒ ܠܗ̇ ܦܪܥܬܗ17 ܡܪܝܡ ܒܐܠܝܫܒܥ ܐܙܕܟܝܬ ܒܕܝܢܐ ܥܩܪܘܬܐ ܐܦܝܣܬ ܕܨܒܝܢܐ ܕܐܫܟܚ ܘܐܚ̣ܕ ܬܪܥܐ ܦܬܝܚܐ ܠܐܚܝܕܐ ܗ̣ܘ ܦܬ̣ܚ ܓܙܝ ܥܘܒܐ ܒܥܝܠܐ ܐܦܪܝ ܥܘܒܐ ܒܬܘܠܐ ܕܥܡܐ ܗܘܐ ܟܦܝܪܐ ܥܒܕܗ̇ ܠܒܥܝܠܬܐ ܣܟܪܐ ܒܐ̈ܦܝ ܕܟܝܬܐ18 ܡ̇ܢ ܕܐܫܟܚ ܘܪܓܝ ܬܖ̈ܝܐ ܥܩܖ̈ܐ ܘܡ̈ܝܬܐ ܐܓܝܙ ܐܢܘܢ ܟܕ ܛܠܝܢ ܐܪܕܝ ܐܢܘܢ ܟܕ ܣܐܒܘ ܥܨܐ ܘܫܚܠܦ ܟܝܢܐ ܒܙܒܢܗ ܘܕܠܐ ܒܙܒܢܗ ܫܚܠܦ ܡܪܐ ܟ̈ܝܢܐ ܟܝܢܗ̇ ܕܒܬܘܠܬܐ ܕܥܡܐ ܗܘܐ ܥܩܪܐ ܥܒܕܗ̇ ܗܘܐ ܠܣܒܬܐ ܦܘܡܐ ܚܠܦ ܛܠܝܬܐ19 ܘܐܝܟ ܕܫܪܝ ܒܝܠܕܐ ܪܕܐ ܘܫܠܡ ܒܡܘܬܐ ܝܠܕܗ ܫܩ̣ܠ ܣܓܕܬܐ ܡܘܬܗ ܦܪܥ̣ ܚܘܒܬܐ ܐܝܟ ܕܐܬ̣ܐ ܠܝܠܕܐ ܘܡ̈ܓܘܫܐ ܣܓܕܘ ܠܗ ܬܘܒ ܐܬ̣ܐ ܠܚܫܐ ܘܓܝܣܐ ܛܦܣ̣ ܒܗ ܒܝܬ ܝܠܕܗ ܠܡܘܬܐ ܡܨܥ ܣܡܗ ܠܥܠܡܐ ܒܝܠܕܐ ܘܡܘܬܐ ܐܚܝܗHinweis: Mit geschweiften Klammern sind Textergänzungen markiert, die in der Edition des syrischen Texts fehlen und für die der Herausgeber E. Beck einen Text vorschlägt/emmendiert, der allerdings in keiner Handschrift nachweisbar ist.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Nach der Melodie: Tausendmal TausendeRESPONSORIUM: Gepriesen sei, der unendlich klein wurde, um uns unendlich zu erhöhen!1. Lasst uns von der Geburt des Erstgeborenen an seinem Feste sprechen! Er schenkt an seinem Tag unsichtbare Hilfen. Wenn schon der unreine (König) an seinem Fest und bei der Gedächtnis(feier) seines Tages ein (Gottes) Zorn (herausforderndes) Geschenk gab, das Haupt auf der Schüssel, wie wird dann der Gepriesene Segensgaben dem schenken, der an seinem Feste singt!2. Wollen wir nicht unser (heutiges) Wachen für ein alltägliches Wachen halten! Es ist ein Fest, dessen Lohn hundertmal größer ist, ein Fest fürwahr, das in seinem Wachen mit dem Schlaf kämpft, ein beredtes (Fest), das mit seiner Stimme mit dem Schweigen kämpft. Mit allen Gütern ist es angetan, es ist der Heerführer der Feste und aller Freuden.3 An diesem Tag haben die Engel und die Erzengel einen neuen Lobgesang bei ihrem Herabsteigen auf die Erde gesungen. Auf jene Weise steigen sie (auch heute) herab und jubeln mit den Wachenden. In jener Zeit, da sie (zum ersten Mal) lobpriesen, war (die Welt) voll von Lästerung. Gepriesen die Geburt [Übersetzung Beck: das Kind], durch die [Übersetzung Beck: das] (heute) die Welt widerhallt von Lobeshymnen!4 Fürwahr es ist die Nacht, die die Engel mit den Wachenden vereint! Es kam der Wachende (Engel), um Wachende im Erdenrund zu schaffen. Die Wachenden wurden zu Genossen der (wachenden) Engel. - Die Lobsingenden wurden zu Gefährten der Seraphim. - Selig, wer zu einer Harfe für dein Lob wurde, während sein Lohn dein Erbarmen wurde.5 Der Geburt des Erstgebornen laßt uns lobsingen, wie die Gottheit im Mutterleib sich ein Kleid wob, es anzog und in der Geburt hervorging. Im Tod hinwieder legte sie es ab. Einmal legte sie es ab, zweimal zog sie es an. (Das Kleid), das die Linke geraubt hatte, hat (die Gottheit) ihr entrissen und zur Rechten (des Vaters) gestellt.6  Es ließ sich nieder im kleinen Schoß die Macht, die das All lenkt. Während sie dort wohnte, behielt sie die Zügel des Alls. Ihrem Erzeuger war sie ergeben, seinen Willen zu erfüllen. Der Himmel war von ihr erfüllt und alle Geschöpfe. Die Sonne trat in den Mutterleib ein, während in der Höhe und Tiefe ihre Strahlen wohnten. 7 Er wohnt in den weiten Schoßen aller Geschöpfe. Sie sind zu klein, die Größe des Erstgebornen aufzunehmen. Wie hätte ihn fassen (können) jener Schoß Mariens! Verwunderung, wenn das geschah, Verwirrung, wenn nicht! Von allen Schoßen, die ihn aufnahmen umschloß nur einer ihn, (der Schoß) jenes Gewaltigen, der ihn gezeugt. 8 Gleichkäme der Schoß, der ihn aufnahm, wenn er ihn ganz aufnahm, dem wunderbaren Schoß (jenes Gewaltigen, der ihn gezeugt). Und wer wird zu behaupten wagen, daß sich der kleine Schoß (Mariens) vergleichen (könne), (jener) schwache, verächtliche, mit dem Schoß der gewaltigen (göttlichen) Wesenheit. Er nahm (darin) Wohnung wegen seines Erbarmens; doch da gewaltig groß seine Natur ist, ist er durch nichts begrenzt worden.9 Versöhnender Friede, der den Völkern gesandt wurde; erheiternder Strahl, der zu den Düstern kam; mächtiger Sauerteig, der in der Stille alles besiegt; Langmütiger, der einzeln die Schöpfung fing. Selig, wer deine Freuden in sein Herz aufnahm und seine Leiden in dir vergaß!10 Der Mund der Engel hat den Wachenden zugejubelt: Friede! Es traf die Wachenden die Frohbotschaft der Engel, die sie brachten. Wer sollte schlafen in dieser Nacht, die die Schöpfung erweckt hat! Denn (die Engel) verkündeten Frieden, da Zorn herrschte. Gepriesen das Kind, das versöhnt hat durch sein Schweigen die (göttliche) Maiestät, die die Beredten erzürnt hatten. 11 (Wachende) Engel mengten sich unter die Wachenden; sie freuten sich über die Errettung der Welt. Beschämt wurde der Böse, der den Rat gegeben, ein falsches Diadem geflochten hatte. Er hatte seinen Thron aufgerichtet im Erdenrund wie Gott. Das Kind, das man in die Krippe gelegt hatte, stürzte ihn von seiner Macht. Die Sonne gab ihre (göttliche) Verehrung zurück: durch ihre Magier ehrte sie (das Kind), durch ihre Anbeter betete sie es an. 12 Gott hatte gesehen, daß wir die Geschöpfe anbeteten. Er kleidete sich in einen geschöpflichen Körper, um uns durch unsre Gewohnheit zu fangen. Siehe durch dieses Geschöpf hat unser Schöpfer uns geheilt, und durch dieses Erschaffene hat unser Erschaffer uns gerettet. Nicht führte uns sein Zwang. Gepriesen sei, der mit dem, was unser ist, kam, und uns vereinte mit dem, was sein ist.13 O alles Maß Überragender, der ohne Maß klein wurde! Von preiswürdiger Herrlichkeit stiegst du herab zur Niedrigkeit. So sehr hat dich geneigt das Mitleid; das in dir wohnt. Neige mir dein Erbarmen zu, {damit ich gelobt werde in (trotz) meiner Bosheit}. Selig, wer eine Quelle von Liedern wurde und ganz dich in allem lobte!14 Er war Diener auf Erden, er war Herr in der Höhe. Er erbte die Höhe und die Tiefe, er, der Fremde. Den man ungerechterweise verurteilt hatte, der wird nach Wahrheit richten. Und dem man ins Antlitz spie, der hauchte den Geist ins Antlitz. Der ein schwaches Rohr (in Händen) hielt, wurde der Stab der Welt, die, alt geworden, darauf sich stützte. 15 Er, der aufstand, um den Sklaven zu dienen, wird (zur Rechten) thronend angebetet. Den die Schriftgelehrten verhöhnten, vor ihm riefen die Seraphim ihr „Heilig“. Diese Herrlichkeit wollte Adam heimlich stehlen. Es sah die Schlange, die ihn zu Fall gebracht, zu welcher Höhe er erhoben wurde. Er zerschmetterte sie, weil sie ihn überlistet hatte; die Füße Evas zertraten sie, weil sie das Gift in ihr Ohr gespritzt hatte.16 Vermählt war die Unfruchtbare, ohne Früchte zu tragen. Der Schoß Mariens empfing ohne Ehe. Über die Fluren muß man staunen, über die Pflanzen sich wundern: diejenige, die empfing, erstattete nicht, und die nicht borgte, gab zurück. Es bekannte die Natur, daß sie unterlag: der Mutterleib erstattete ihr nicht (das Geschuldete), und (der Leib), dem sie nichts gegeben hatte, gab ihr zurück!17 Maria ist durch Elisabeth vor Gericht gerechtfertigt worden. Die Unfruchtbarkeit (Elisabeths) bewies, daß der Wille, der die Macht hatte, das geöffnete Tor zu schließen, das geschlossene öffnete. Er machte kinderlos den Schoß der Vermählten und fruchtbar den Schoß der Jungfrau. Weil das (auserwählte) Volk verworfen war, hat er die Vermählte verschlossen vor der Reinen.18 Jener, der Milch geben konnte den erstorbnen, unfruchtbaren Brüsten, [er ließ sie versiegen, da sie jung waren, und ließ sie fließen, da sie alt waren] hat die Natur gezwungen und geändert, zu ihrer Zeit und gegen ihre Zeit. Der Herr der Naturen änderte die Natur der Jungfrau. Da das (auserwählte) Volk unfruchtbar war, hat er die Greisin gemacht zum Mund, (der) für die Magd (sprach).19 Und wie er in der Geburt begonnen, ging er den Weg zu Ende im Tod. Seine Geburt empfing die Anbetung, sein Tod beglich die Schuld. So wie er zur Geburt kam und die Magier ihn anbeteten, kam er auch zum Leiden und der Schächer nahm seine Zuflucht zu ihm. Zwischen seine Geburt und den Tod stellte er mittenhinein die Welt; durch Geburt und Tod rettete er sie.Hinweis: Mit geschweiften Klammern sind Textergänzungen markiert, die in der Edition des syrischen Texts fehlen und für die der Herausgeber E. Beck einen Text vorschlägt/emmendiert, der allerdings in keiner Handschrift nachweisbar ist.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>1 About the birth of the First-born on His feastday let us speak. On His day He gave hidden helps. If the unclean one on his feast and in commemoration of his day gave a gift of anger, a head upon a platter, how much [more] will the Blessed One give blessings to one who sings on His feast.Refrain: Blessed is He Who became small without limit to make us great without limit.2 Let us not count our vigil as everyday vigils; it is a feastday whose wage increases a hundredfold. For it is a feast that attacks sleep with its vigil, a speaker who attacks sleep with his voice. He snatches all good things; he is head of the hosts of the feasts. and of all joys. 3 Today the angels and even the archangels came down to sing a new song of praise on earth. by this mystery they come down and rejoice with vigils. At that time when they sang praise, blasphemy filled [the earth]. Blessed is the birth on which a generation thundered with hallelujahs of praise. 4 For [this] is the night that mingles heavenly Watchers with vigilants. The Watcher came to make watchers in creation. Behold vigilants have been made partakers with the Watchers. Praisegivers have been made companions with the Seraphim. Blessed is he who became a lyre for Your praise, and whose wage was Your mercy.5 But les us sing the birth of the First-born–how Divinity in the womb wove herself a garment. She put it on and emerged in birth; in death she stripped it off again. Once she stripped it off; twice she put it on. When the left hand snatched it, she wrested it from her, and she placed it on the right hand.6 The Power that governs all dwelt in a small womb. While dwelling there, He was holding the reins of the universe. His Parent was ready for His will to be fulfilled. The heavens and all the creation were filled by Him. The Sun entered the womb, and in the height and depth His rays were dwelling. 7 He dwelt in the vast wombs of all creation. They were too small to contain the greatness of the First-born. How indeed did that small womb of Mary suffice for Him? It is a wonder if … sufficed for Him. Of all the wombs that contained Him, one womb sufficed: [the womb] of the Great One Who begot Him. 8 The womb that contain Him, if it contained all of Him, is equal to the wonderful womb that is greater than [the womb] of His birth. But who will dare to say that a small womb, weak and despised, is equal to [the womb] of the Great Being? He dwelt [there] because of His compassion and since His nature is great, He was not limited in anything.9 Reconciling Peace, sent to the peoples, Gladdening Flash, Who came to the gloomy, Powerful Leaven, conquering all in silence Patient One, Who has captured the creation little by little. Blessed is he who makes Your joys dwell in His heart and forgets his griefs in You.10 The mouth[s] of the Watchers and vigilants shouted a joyful “peace”. The good news brought by the Watchers met the vigilants. Who will go to sleep on that night that awakened creation? For they brought a “peace” where enmity had been Blessed is the Babe who rules with His silence the Majesty That the speech-endowed had angered.11 The Watchers mingled with watchers; they rejoiced that the world revived. Put to shame was the Evil One who became king and plaited a diadem of deceit. Like God, he set his throne on the inhabited earth. The Babe in a manger cast him from his power. The sun returned worship; by his Magi he honored Him. In his worshippers he worshipped Him.12 God had seen that we worshipped creatures. He put on a created body to catch us by our habit. Behold by this fashioned one our Fashioner healed us, and by this creature our Creator revived us. His force did not govern us. Blessed is He Who came in what is ours and mingled us into what is His.13 O [You] Greater than measure Who became immeasurably small, from glorious splendor You humbled Yourself to ignominy. Your indwelling mercy inclined You to all this. Let Your compassion incline me to become praiseworthy in my evil. Blessed be the one who became a source of melodies and entirely gave thanks to all of you.14 He became a servant on earth; He was Lord on high. Inheritor of the height and depth, Who became a stranger. But the One Who was judged wrongly will judge in truth, and He in Whose face they spat, breathed the spirit into the face. He Who held a weak reed was the sceptre for the world that grows old and leans on Him.15 He Who stood [and] served His servants, sitting, will be worshipped. He Whom the Scribes scorned—the Seraphim sang “holy” before Him. This glory Adam wanted to steal secretly. The serpent who cast him down saw to what height [Adam] was raised. He crushed him because he harmed him; Eve’s feet trampled him who had poured gall in her ears.16 The wife became barren and failed to produce fruits, but Mary’s womb conceived chastely. To marvel at fields and to wonder at plantings! This one refused to take, and without a loan, she paid back! Nature confesses he was conquered, the womb deceived him! And without his giving to her, she repaid him. 17 By Elizabeth Mary was judged innocent. Barrenness petitioned so that the Will that was able would close the open gate [and] open the closed one. He deprived the married womb; He made fruitful the virgin womb. since the People was unfaithful, He obstructed the wife before the pure one.18 The One Who is able to moisten barren and dead breasts, deprived them when they were young, made them flow when old. He forced and changed nature in its time and not in its time. The Lord of natures changed the nature of the virgin. Since the people was barren he made the old woman a mouth on behalf of the young woman. 19 And as He began in birth, He continued and completed in death. His birth received worship; His death repaid the debt. As He came to birth, the magi worshipped Him. Again, He came to suffering and the thief took refuge in Him. Between His birth and death He placed the world in the middle; By [His] birth and death He revived it.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

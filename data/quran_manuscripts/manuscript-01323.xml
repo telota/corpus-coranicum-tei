@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1323">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Berlin, Kunstbibliothek (Staatliche Museen zu Berlin), 1913,557</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Kunstbibliothek (Staatliche Museen zu Berlin).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="58">Kunstbibliothek (Staatliche Museen zu Berlin)
+                            , Berlin</repository>
+            <idno>1913,557</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. (bifolium); Shelfmark: 1913,557; Writing surface: parchment; Qurʾānic Text: 9:109-118, 10:73-87; Script Style: kūfī (type B II); Lines per page: 16; Dimensions of the bifolium: 120 x 380 mm; Estimated date of production: 700-850.</p>
+            </summary>
+            <msItem xml:id="mysql_id_682522" n="1r">
+              <title type="numeric" key="009:109:017-009:113:004">
+                                    009:109:017-009:113:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682525" n="1v">
+              <title type="numeric" key="009:113:004-009:118:002">
+                                    009:113:004-009:118:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682524" n="2r">
+              <title type="numeric" key="010:073:001-010:078:012">
+                                    010:073:001-010:078:012
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682523" n="2v">
+              <title type="numeric" key="010:078:012-010:087:004">
+                                    010:078:012-010:087:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>380</width><height>120</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-850</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42527">
+      <graphic decls="#imageRights-1" url="manuscript/1323/402ddbb3-c0bd-49c1-80b2-56f99b7c647f/manuscript-1323-page-42527-image-28195.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1323/2c8c635e-b8ad-4baf-a528-bc202e507938/manuscript-1323-page-42527-image-28196.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42530">
+      <graphic decls="#imageRights-1" url="manuscript/1323/8493f1af-a2d7-487e-9a50-57bcd67f20e1/manuscript-1323-page-42530-image-28201.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1323/3c6e4393-6a6a-4429-bffe-b0a0242ced3d/manuscript-1323-page-42530-image-28202.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_42529">
+      <graphic decls="#imageRights-1" url="manuscript/1323/b732c7a9-7dc6-4ee9-8ffc-82cb5d26eca1/manuscript-1323-page-42529-image-28199.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1323/85729971-a448-4f12-bb44-a93b440200ad/manuscript-1323-page-42529-image-28200.tif"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_42528">
+      <graphic decls="#imageRights-1" url="manuscript/1323/57768cc1-57ab-4d7c-a47a-1f8413058322/manuscript-1323-page-42528-image-28197.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1323/36de3fb0-600d-4b0c-b143-956d97659b4e/manuscript-1323-page-42528-image-28198.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

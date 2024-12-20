@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gebet für den Freitagmorgen</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_363" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>363</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In der Hebräischen Bibel findet sich kein Hinweis darauf, dass der Pharao dem Moses sich entgegenstellte, zum Glauben an Gott findet (siehe Ex 14:22-28; Psa 136:15). Vielmehr “verstockt” (hebr. mǝḥazzēq) Gott das Herz des Pharaos (vgl. auch TUK_0203) und seines Heeres ein letztes Mal, so dass sie Moses und dem Volk Israel in Unkenntnis der Gefahren ins gespaltene Rote Meer folgen und dabei ertrinken (Ex 14:17). Der Koran lässt dagegen den Pharao unmittelbar vor seinem Ertrinken ausrufen: ʾāmantu ʾannahū lā ʾilāha ʾilla llaḏī ʾāmanat bihī banū ʾisrāʾīla wa-ʾana mina l-muslimīna, “Ich glaube, daß es keinen Gott gibt außer dem, an den die Kinder Israels glauben. Und ich bin (einer) von denen, die sich (ihm) ergeben haben” (Paret 1979). Dabei ist es bemerkenswert, dass auch im Buch Exodus die Soldaten des Pharaos zu der ähnlichen Erkenntnis kommen, dass “Gott an der Seite Israels gegen Ägypten kämpft” (hebr. kî YHWH nilḥām lāhem bǝ-miṣrāyim), was einer Form von Glaubensbekenntnis gleichkommt, v.a. wenn man die Aussage Gottes in Ex 14:18 bedenkt: “Die Ägypter sollen erkennen, dass ich der Herr bin, wenn ich am Pharao, an seinen Streitwagen und Reitern meine Herrlichkeit erweise”.	Trotzdem bleibt das persönliche Bekenntnis des Pharaos in Q 10:90 allein vor dem Hintergrund der biblischen Narration schwer zu erklären. Es wird im Exodus-Bericht keineswegs unterstellt, dass der Pharao oder seine Soldaten Reue gefühlt und Buße getan hätten. Die Koranstelle, in der die Reue behauptet wird, zeigt allerdings eine gewisse Ähnlichkeit mit der hier zitierten Stelle aus einem syrischen Wochengebet für den Freitag, in dem die Buße im Zentrum steht. Dabei wird der in den Fluten des Roten Meeres ertrinkende Pharao, der sich wie in Q 10:90 in den letzten Augenblicken seines Lebens zu Gott bekennt, als Beispiel für einen reuigen Sünder angeführt. Die Reue des Pharaos resultiert dabei aus der Einsicht, dass es “verrückt sei, gegen Gott zu kämpfen”, eine Aussage die den eben skizzierten Hintergrund aus Exodus 14 voraussetzt. Zu den Soldaten des Pharaos, siehe auch TUK_0859.	Da die Geschichte und Überlieferung der syrischen Liturgie- und Gebetsbücher bisher nicht umfassend erforscht ist, bleibt eine genaue Datierung dieses Gebetes vorerst nicht möglich. Siehe dazu jedoch die Anmerkung zu TUK_0068.</summary>
+            <msItem>
+              <title>Gebet für den Freitagmorgen</title>
+              <author/>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">400-600</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Julius Isa Çiçek (Hg.), Ktābā da-šḥīmā [Stundengebetbuch], Beirut 1982, S. 144.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>
+	ܕܥܪܘܒܬܐ ܕܨܦܪܐ (ܕܬܝܳܒܘܬܐ)
+	ܕܝܢܟ ܡܪܝ ܥܙܝܙ ܘܚܘ̈ܒܝ ܣܓܝ̈ܐܝܢ ܘܟܐܢܘܬܐ ܠܚܝܡܐ ܘܕܐܥܪܘܩ ܠܐ ܡܨܐ ܐܢܐ ܒܗܿܘ ܚܘܒܐ ܕܫܠܚܟ ܠܒܝܬ ܕܝܢܐ ܚܠܦܝܢ ܠܕܝܢܐ ܠܐ ܬܥܠܢ ܘܚܘ̈ܒܝܢ ܠܐ ܬܬܕܟܪ ܗ̄ ܕܰܝܢܐ ܟܐܢܐ ܚܘܣ ܘܐܬܪܚܡܥܠܝܢ܀
+	 ܥܠ ܕܐܡܪܚ ܦܪܥܘܢ ܘܪܕܦ ܠܐܝܣܪܐܝܠ ܟܪܟܘܗܝ ܡܚܫܘ̈ܠܐ ܘܒܝܡܐ ܛܒܥܘܗܝ ܘܡܐ ܕܚܳܪ ܗܘܐ ܘܚܙܐ ܘܠܝܬ ܕܡܥܕܪ ܠܶܗ ܐܡܪ ܕܘܝ ܠܐܝܢܐ ܕܥܡ ܡܪܝܐ ܡܩܪܒ ܗ̄ ܛܘܒ ܠܐܝܢܐ ܕܐܝܬܘܗܝ ܬܘܟܠܳܢܶܗ ܡܪܝܐ܀
+	ܡܐ ܕܚܝܠ ܗܘ ܨܦܪܐ ܕܐܬܐ ܒܗ ܡܪܝܐ. ܢܗܡ ܐܝܟ ܐܪܝܐ ܘܒܪ̈ܝܬܐ ܪ̈ܥܠܢ. ܝܬܒ ܕܝܢܐ ܘܣܦܪ̈ܐ ܡܬܦܬܚܝܢ. ܘܟܠܗܝܢ ܟܣܝ̈ܬܐ ܠܓܠܝܐ ܡܝܬܶܐ ܠܗܝܢ ܗ̄ ܝܕܥ ܟܣܝ̈ܬܐ ܚܘܣ ܘܐܬܪܚܡܥܠܝܢ܀
+	 
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Der Morgen des Freitags [Gebet der] (Buße):
+	Dein Urteil, o Gott, ist gewaltig und meine Sünden sind zahlreich. Rechenschaft [vor dir] ist bedrohlich, und dass ich [vor dir] fliehe ist mir unmöglich. Ich flehe dich an bei der Liebe, die dich zu uns gesandt hat: "Führe uns nicht zu diesem Gericht und gedenke nicht unserer Sünden, Halleluja, du wahrhaftiger Richter erbarme dich unser!" Weil Pharao hochmütig war und er die Israeliten verfolgte, haben ihn die Wellen umschlossen, und so ertrank er im Meer. Und als er um sich schaute, und es niemanden gab, der ihm half, da sagte er: "Verrückt ist derjenige, der gegen Gott kämpft! Halleluja! Selig ist derjenige, der auf Gott vertraut!"
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1029">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 25</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 25</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 25; Lines per page: 7; Dimensions: 102 x 157 mm; Qurʾānic Text: Q 48:13-17; Script style: kūfī D.Va; Estimated date of production: 800-1000. </p>
+              <p>Cf. entry by François Déroche about fragment KFQ 25 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 96): "43 / Single folio / 9th or 10th century AD / 10.2 x 15.7 cm, with 7 lines to the page / <hi rend="italic">Material </hi>Parchment; the verso is the hair side / <hi rend="italic">Text area</hi> 5x11.2cm / <hi rend="italic">Script</hi> Related to style D.Va / <hi rend="italic">Accession no</hi>. KFQ 25 / The script of this fragment clearly belongs to the D group. In line I of the recto, final <hi rend="italic">kāf</hi> has been written with its upper shaft bent to the right, and this enables us to define the hand as close to D.Va. On the other hand, the head of final <hi rend="italic">nūn</hi> has almost disappeared, and the shape of the letter sometimes verges towards that of D.Vb. In some instances <hi rend="italic">alif</hi> appears as a vertical stroke without a lower return (see verso, end of line 4). / This fragment’s main point of interest lies in the transcription of the text in cursive script which has been added in the margin, an indication of the difficulty people found in reading manuscripts in the Early Abbasid scripts. The original text – verses 13-17 of <hi rend="italic">Sūrat al-fatḥ</hi> (XLVIII) – is written in brown ink, without diacritical strokes. Red dots indicate the vocalization. The verses are not divided, but a gold Kufic <hi rend="italic">hāʾ</hi> marks the end of every fifth verse.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_686842" n="1r">
+              <title type="numeric" key="048:013:009-048:015:028">
+                                    048:013:009-048:015:028
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_686843" n="1v">
+              <title type="numeric" key="048:015:029-048:017:013">
+                                    048:015:029-048:017:013
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>157</width><height>102</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_46848">
+      <graphic decls="#imageRights-1" url="manuscript/1029/68f638b0-fb42-40f4-8b46-2c1162c22afb/manuscript-1029-page-46848-image-32669.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_46849">
+      <graphic decls="#imageRights-1" url="manuscript/1029/ea7cda2e-5404-4df6-865b-811988b78178/manuscript-1029-page-46849-image-32670.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

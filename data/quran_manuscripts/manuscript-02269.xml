@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2269">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), B. 4 [= Karatay 45]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>B. 4 [= Karatay 45]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>91 fol.; Writing surface: parchment; Shelfmark: B. 4; Text: Q 7:171-Q 10:60; 7 lines per page; Dimensions: 190 x 122 mm; Script style: kūfī; Estimated date of production: 3rd (9th) to 4th (10th) centuries [according to Karatay]. </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, pp. 16-17: "45 B. 4 Kur’an’dan bir bölüm Parşömen. 122mm boy ve 190mm eninde cönk şeklinde 91 yaprak. Sahifede kûfî ile 135mm uzunl.[uğunda] 7 satır. Tahminen III-IV. (IX-X) asırda yazılmıştır. Kırmızı noktalarla harekelidir. Koyu kahve rengi deri cilt. Sahifelerin kenarları yine parşömenle tamir edilmiştir. Bu ciltte Aʿrāf (7) Anfāl (8), Tavbe (9), Yūnus (10) sureleri var ise de tamir esnasında yapraklar karıştırılmıştır. Aʿrāf suresinin 171. ayeti olan وإذ نتقنا الجبل den başlayıp Yūnus (10) suresinin 60. ayeti olan وما ظن الذين يفترون ... ولكن أكثرهم لا يشكرون  a kadardır."</p>
+              <p>This can be translated as follows: "45 B. 4 A part of the Qurʾān Parchment. 91 junk shaped leaves of 122 mm height and 190 mm width. The text area written in Kufic script [contains] 7 lines measuring 135 mm. Probably copied during the 3rd-4th (9th-10th) centuries. Vowel marked with red dots. Dark brown leather binding. Leaf edges have been repaired also with parchment. The fragment contains Q 7 (Sūra al-ʾAʿrāf), Q 8 (Sūra al-ʾAnfāl), Q 9 (Sūra al-Tawba) and Q 10 (Sūra Yūnus) but the leaves were mixed during reparation. [The fragment] begins with وإذ نتقنا الجبل of Q 7:171 and continues until the words وما ظن الذين يفترون ... ولكن أكثرهم لا يشكرون of Q 10:60."</p>
+            </summary>
+            <msItem xml:id="mysql_id_706323" n="1">
+              <title type="numeric" key="007:171:001-010:060:019">
+                                    007:171:001-010:060:019
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 91
+                                    <dimensions unit="mm"><width>190</width><height>122</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Esra Gözeler</p>
+                <p>metadata: Tuba Karaşahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_62031">
+                    </surface>
+  </facsimile>
+</TEI>

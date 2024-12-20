@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1032">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, QUR 285</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>QUR 285</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>5 fol.; Writing surface: parchment; Shelfmark: QUR 285; Lines per page: 9; Dimensions: 103 x 170 mm; Qurʾānic Text: Q 51:59 - Q 52:48; Script style: kūfī D.Va; Estimated date of production: 800-1000.</p>
+              <p>Cf. entry by François Déroche about fragment QUR 285 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">The Abbasid Tradition, London 1992</ref>, p. 99): "46 / Five folios / End of the 9th century AD or first half of the 10th / 10.3x17cm, with 9 lines to the page / <hi rend="italic">Material</hi> Parchment / <hi rend="italic">Text area</hi> 6.6x13.2cm / <hi rend="italic">Script</hi> Style D.Va / <hi rend="italic">Binding</hi> Modern / <hi rend="italic">Accession no</hi>. QUR285 / The text, which runs from <hi rend="italic">Sūrat al-dhāriyāt </hi>(LI), verse 59, to <hi rend="italic">Sūrat al-ṭūr</hi> (LII), verse 48, is written in black ink. The vocalization is indicated by red dots. Individual verses are not punctuated, but every fifth verse ends with a gold Kufic <hi rend="italic">hāʾ</hi>, and there is a 2’.A.II device at the end of every tenth verse. The title and verse count of <hi rend="italic">Sūrat al-ṭūr</hi> are written in gold and outlined in ink, and beside them in the margin there is a spearhead-shaped vignette. / The script recalls that of <ref target="https://corpuscoranicum.de/de/manuscripts/1030/page/1r?sura=82&amp;verse=8">cat.44</ref>, and the format of the text area is a double square in both cases.”</p>
+              <p>Unfortunately this digital catalogue entry contains only images of fol. 1r and fol. 5r.  </p>
+            </summary>
+            <msItem xml:id="mysql_id_687400" n="1r">
+              <title type="numeric" key="051:059:001-052:003:003">
+                                    051:059:001-052:003:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687401" n="5r">
+              <title type="numeric" key="052:038:006-052:043:003">
+                                    052:038:006-052:043:003
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 5
+                                    <dimensions unit="mm"><width>170</width><height>103</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="9">9 - 9 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47397">
+      <graphic decls="#imageRights-1" url="manuscript/1032/d394638b-3079-4893-b0bb-beb40a8ed456/manuscript-1032-page-47397-image-33337.jpg"/>
+    </surface>
+    <surface n="5r" xml:id="mysql_id_47398">
+      <graphic decls="#imageRights-1" url="manuscript/1032/05da7834-63c4-4de4-9493-80e2a597ea2b/manuscript-1032-page-47398-image-33338.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

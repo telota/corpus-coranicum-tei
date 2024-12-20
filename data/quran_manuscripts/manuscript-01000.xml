@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1000">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 15</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 15</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>François Déroche schreibt zum Fragment KFQ 15 (Déroche,  <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 59): "12 / Single folio / Late 8th century AD or early 9th / Fragmentary (largest dimensions now 16x16.5cm), with 13 lines to the page / <hi rend="italic">Material</hi> Parchment; the recto is the hair side / <hi rend="italic">Text area </hi>Length 12.2cm; maximum width now 16.5cm /  <hi rend="italic">Script</hi> Related to style C.Ia / <hi rend="italic">Accession no.</hi> KFQ 15 / <hi rend="italic">Comparative items </hi>For style C.Ia, <ref target="https://corpuscoranicum.de/handschriften/index/sure/48/vers/29/handschrift/340">see Moritz 1905, pls 1-12</ref>; and <ref target="https://corpuscoranicum.de/handschriften/index/sure/3/vers/104?handschrift=786">Paris, Bibliothèque Nationale, MS. arab. 324a </ref>/ (Déroche 1983, no. 45)<hi rend="italic"> / </hi>The text – verses 13-23 of <hi rend="italic">Sūrat al-jāthiyah</hi> (XLV) – is written in brown ink. There are diacritical strokes, some of which were added later. In a few cases, rede dots indicate the vocalization. Clusters of three strokes (I.I.I) mark the end of every verse. Over this device, a red three-branched decoration has been added at the end of every fifth verse. A red circle (I.A.I) has also been placed at the end of a group of ten verses. / The script is intermediate between C.Ia and that of other manuscripts related to group C. These can be identified both by their letter forms and the size of the manuscripts, which can be huge ‘lectionaries’, although some volumes are of a more normal size."</p>
+              <p>Zur Datierung des Fragments setzt François Déroche den Zeitraum zwischen dem späten 8. und dem frühen 9. Jahrhundert an. Da der Schriftstil Ähnlichkeiten zu Handschriften aufweist, die sich in die Umayyadenzeit zwischen 700 und 750 ansetzen lassen, z.B. <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/23/verse/109/manuscripts/343/page/1r">Moritz 1905 Tafel 17</ref> und <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/55/verse/55/manuscripts/114/page/2">DAM 20-33.1</ref>, ist eine frühere Datierung des vorliegenden Fragments möglich. Aus diesem Grund ist als Datierung der Zeitraum 700-800 (?) angegeben.   </p>
+            </summary>
+            <msItem xml:id="mysql_id_678265" n="1r">
+              <title type="numeric" key="045:013:005-045:018:007">
+                                    045:013:005-045:018:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_678264" n="1v">
+              <title type="numeric" key="045:018:010-045:023:019">
+                                    045:018:010-045:023:019
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>160</width><height>165</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="13">13 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C.Ia
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-800</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_40364">
+      <graphic decls="#imageRights-1" url="manuscript/1000/41c1b4de-4967-46e7-b276-7bbb547fbaa8/manuscript-1000-page-40364-image-27774.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_40363">
+      <graphic decls="#imageRights-1" url="manuscript/1000/b0b2b760-d54f-4553-abcc-3b6859b06706/manuscript-1000-page-40363-image-27775.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

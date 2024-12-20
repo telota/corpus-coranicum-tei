@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Slawisches Henochbuch 65:3-5</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1134" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1134</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 9:36-37 kritisiert bestimmte Kalenderpraktiken, v.a. das Einfügen eines Schaltmonats, und setzt diesen die von Gott gegebene Zeiteinteilung entgegen (zu Kalendersystemen im vorislamischen Arabien vgl. de Blois 2012; Ioh 2014). Laut Q 9:36 war bereits am Tag der Schöpfung die Anzahl der Monate bei Gott (ʿinda llāh) zwölf. Die Vorstellung, dass der Kalender letztlich auf göttliche Bestimmungen zurückgeht, ist auch für das Slawische Henochbuch belegt. Diesem zufolge habe Gott bereits bei der Schöpfung die Zeit in Jahre, Monate, Tage und Stunden eingeteilt.
+
+	Eingebettet in die Erzählung von der Himmelsreise Henochs, seiner Rückkehr und seiner Mahnreden an seine Söhne, sowie der Begründung des Priestertums durch Methusalem, Nir und Melchisedek, behandelt das Slawische Henochbuch die Themen Kosmologie, Weisheit, Ethik und Kult. Obwohl nicht identisch mit dem Äthiopischen Henochbuch, setzt das Slawische Henochbuch die dort enthaltenen Henochtraditionen voraus und verrät an mehreren Stellen sogar eine direkte Abhängigkeit. Dennoch handelt es sich beim Slawischen Henochbuch um ein eigenständiges Werk, das dem hellenistischen Judentum in der Diaspora zuzuordnen ist, und in dem sich der Versuch einer Vermittlung von jüdischem Glauben mit den Vorstellungen einer religiös vielfältigen Umwelt erkennen lässt. Während der Großteil des Buches vor der Zerstörung des Tempels entstanden ist, lassen sich auch spätere Interpolationen identifizieren, so jüdisch-mystische, frühchristliche und byzantinisch-chronographische. Verschiedene Indizien sprechen dafür, daß das Slawische Henochbuch ursprünglich auf griechisch verfasst wurde. Ungelöst bleibt in diesem Fall aber das Problem der jüdisch-mystischen Interpolationen, die auch Eingang in die christliche Bearbeitung und Überlieferung des Buches fanden. Erhalten ist das Buch heute nur noch auf altkirchenslawisch. Es wurde ca. im 10./11. Jh. aus dem Griechischen ins Altkirchenslawische übersetzt und in Sammelbände aufgenommen, die Viten, Gebete, Väterzitate, Homilien etc. vereinten und damit auch günstige Überlieferungsbedingungen für verschiedene Apokryphen boten. (Vgl. dazu Böttrich 1996: p. 785-819).
+</summary>
+            <msItem>
+              <title>Slawisches Henochbuch 65:3-5</title>
+              <author/>
+              <textLang mainLang="chu">Altkirchenslawisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">1. Jh. n. Chr. (noch vor 70 n. Chr.)</origDate>
+              <origPlace>Alexandria</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">B&amp;#xF6;ttrich, Christfried (Hrsg.): Das slavische Henochbuch. G&amp;#xFC;tersloh 1996.</bibl>
+              <bibl type="literatur">Ioh, Hideyuki: &amp;#x201E;The Calendar in Pre-Islamic Mecca&amp;#x201C;. In: Arabica 61 (2014), S. 471&amp;#x2013;513, 758&amp;#x2013;759.</bibl>
+              <bibl type="literatur">de Blois, Fran&amp;#xE7;ois: &amp;#x201E;Ta&amp;#x2BE;r&amp;#x12B;&amp;#x1E35;&amp;#x1E96;&amp;#x201C; (P. Bearman, T. Bianquis, C. E. Bosworth, E. van Donzel, &amp;amp; W. P. Heinrichs, Hrsg.). Encyclopaedia of Islam (Second Edition).</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="chu">
+        <p>Dieser Teil wird zur Zeit bearbeitet.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	3 Der Herr setzte den Äon um des Menschen willen frei, und schuf die ganze Schöpfung um seinetwillen, und er teilte [sie] ein in Zeiten, und von den Zeiten setzte er Jahre fest, und von den Jahren bestimmte er Monate, und von den Monaten Tage, und der Tage bestimmte er sieben, 4 und in diesen setzte er Stunden, und die Stunden maß er einzeln aus, damit der Mensch die Zeiten bedenke, und damit er die Jahre zähle, und die Monate und die Tage und die Stunden, und die Veränderungen, und Anfänge und Enden, und damit er sein Leben zähle, vom Beginn bis zum Tod, und [damit] er seine Sünden bedenke, und damit er sein Werk schreibe, sowohl das böse als auch das gute. 5 Denn kein Werk ist vor dem Herrn verborgen, damit ein jeder Mensch seine Werke erkenne, und damit niemand alle seine Gebote übertrete, und damit er meine Handschrift festhalte von Geschlecht zu Geschlecht.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

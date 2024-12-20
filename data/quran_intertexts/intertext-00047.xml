@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nizäno-konstantinopolitanisches Glaubensbekenntnis</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_47" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>47</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Strukturell wie inhaltlich erinnert Sure 112 an das  auf dem Konzil von Konstantinopel verkündete Glaubensbekenntnis, das sog. Nizäno-Konstantinopolitanum (381 n. Chr.). Während das christliche Bekenntnis im Anschluss an Gott von Jesus als Gottes Sohn, der "eines Wesens mit dem Vater" ist, spricht, wird in Q 112:3.4 bestritten, dass Gott einen Sohn zeugen oder irgendein Wesen ihm gleich sein könne. Die zweite Hälfte von Sure 112 liest sich damit wie eine dogmatische Inversion des Nizäno-Konstantinopolitanums. Auch die erste, Gott selbst gewidmete Hälfte der Sure lässt sich in Bezug zum Nizäno-Konstantinopolitanum setzen: Denn der Ausdruck aṣ-ṣamad aus Vers 2, dessen Bedeutung unklar ist, ist zumindest funktional (wenn auch wohl nicht semantisch) äquivalent zu παντοκράτορα. Vgl. aber auch TUK_0379 zu einem möglichen Bezug zwischen aṣ-ṣamad und dem alttestamentlichen Gottesepitheton "Fels" (ṣûr), sowie TUK_0687 für die Bedeutung von ṣamad.
+</summary>
+            <msItem>
+              <title>Nizäno-konstantinopolitanisches Glaubensbekenntnis</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">381 n. Chr.</origDate>
+              <origPlace>Konstantinopel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Giuseppe Luigi Dossetti, Il simbolo di Nicea e di Costantinopoli (edizione critica), Rom u. a. 1967, S. 244-251.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Michael Marx</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	Πιστεύομεν εἰς ἕνα Θεὸν Πατέρα παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων και ἀοράτων. Καὶ εἰς ἕνα κύριον Ἰησοῦν Χριστόν, τὸν υἱὸν τοῦ θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων, φῶς ἐκ φωτός, θεὸν ἀληθινὸν ἐκ θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ πατρί· δι' οὗ τὰ πάντα ἐγένετο· τὸν δι' ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ πνεύματος ἁγίου καὶ Μαρίας τῆς παρθένου καὶ ἐνανθρωπήσαντα, σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου, καὶ παθόντα καὶ ταφέντα, καὶ ἀναστάντα τῇ τρίτῃ ἡμέρᾳ κατὰ τὰς γραφάς, καὶ ἀνελθόντα εἰς τοὺς οὐρανούς, καὶ καθεζόμενον ἐν δεξιᾷ τοῦ πατρὸς καὶ πάλιν ἐρχόμενον μετὰ δόξης κρῖναι ζῶντας καὶ νεκρούς· οὗ τῆς βασιλείας οὐκ ἔσται τέλος. Καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον, τὸ κύριον, καὶ ζωοποιόν, τὸ ἐκ τοῦ πατρὸς ἐκπορευόμενον, τὸ σὺν πατρὶ καὶ υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλήσαν διὰ τῶν προφητῶν. εἰς μίαν, ἁγίαν, καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν· ὁμολογοῦμεν ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν· προσδοκοῦμεν ἀνάστασιν νεκρῶν, καὶ ζωὴν τοῦ μέλλοντος αἰῶνος. Ἀμήν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Wir glauben an den einen Gott, den Vater, den Allmächtigen, der alles geschaffen hat, Himmel und Erde, die sichtbare und die unsichtbare Welt. Und an den einen Herrn Jesus Christus, Gottes eingeborenen Sohn, aus dem Vater gezeugt vor aller Zeit: Gott von Gott, Licht vom Licht, wahrer Gott vom wahren Gott, gezeugt, nicht geschaffen, eines Wesens mit dem Vater: durch ihn ist alles geschaffen. Für uns Menschen und zu unserem Heil ist er vom Himmel gekommen, hat Fleisch angenommen durch den Heiligen Geist von der Jungfrau Maria und ist Mensch geworden. Er wurde für uns gekreuzigt unter Pontius Pilatus, hat gelitten und ist begraben worden, ist am dritten Tage auferstanden nach der Schrift und aufgefahren in den Himmel. Er sitzt zur Rechten des Vaters und wird wiederkommen in Herrlichkeit, zu richten die Lebenden und die Toten; seiner Herrschaft wird kein Ende sein. Wir glauben an den Heiligen Geist, der Herr ist und lebendig macht, der aus dem Vater und dem Sohn hervorgeht, der mit dem Vater und dem Sohn angebetet und verherrlicht wird, der gesprochen hat durch die Propheten; und die eine, heilige, katholische und apostolische Kirche. Wir bekennen die eine Taufe zur Vergebung der Sünden. Wir erwarten die Auferstehung der Toten und das Leben der kommenden Welt. Amen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

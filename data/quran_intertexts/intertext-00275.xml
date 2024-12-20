@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri 13:1 - 14:45</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_275" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>275</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 5:21-26 enthält eine kondensierte Wiedergabe der Kundschaftererzählung aus Numeri 13-14. Das gewalttätige Volk (qaumun ǧabbārūna), das im Land wohnt und vor dem sich die Israeliten fürchten (Q 5:22) entspricht dem Volk, das stärker ist (ki-ḥazaq hu mimmenu) oder den Riesen (nəfilim) in Num 13:28.33. Beiden Texten zufolge finden sich nur zwei Männer, die Gott treu sind. Diese ermutigen das Volk, das Land zu betreten, und verheißen ihm den Sieg; in der Bibel sind es Joschua und Kaleb, im Koran ist von zwei nicht namentlich genannten gottesfürchtigen (allaḏīna yaḫāfūna) Männern die Rede (Q 7:23, Num 14:6-9). In beiden Texten weigern sich die Israeliten jedoch, das Land zu betreten (Q 5:27, Num 14:1-4), woraufhin es ihnen zur Strafe für 40 Jahre verwehrt wird (Q 5:26, Num 14:33-34). Im Folgenden unterscheiden sich die biblische und die koranische Version: So sollen die Israeliten Num 14 zufolge in der Wüste umherziehen, laut Q 5:26 dagegen im Land (yatīhūna fi l-ʾarḍi). Heinrich Speyer vermutet hier eine Interferenz mit Ex 14:3 ("Dann denkt der Pharao: Die Israeliten haben sich im Land verlaufen, die Wüste hat sie eingeschlossen.") (Speyer 1931: p. 340). Ein weiterer Unterschied ist, dass Moses in Q 5:25 Gott bittet, zwischen ihm und dem frevlerischen Volk zu unterscheiden (fa-fruq bainanā wa-baina l-qaumi l-fāsiqīna), er in Num 14:13-19 dagegen Fürbitte für die Israeliten einlegt.</summary>
+            <msItem>
+              <title>Numeri 13:1 - 14:45</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>13:1-33וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר : שְׁלַח־לְךָ אֲנָשִׁים וְיָתֻרוּ אֶת־אֶרֶץ כְּנַעַן אֲשֶׁר־אֲנִי נֹתֵן לִבְנֵי יִשְׂרָאֵל אִישׁ אֶחָד אִישׁ אֶחָד לְמַטֵּה אֲבֹתָיו תִּשְׁלָחוּ כֹּל נָשִׂיא בָהֶם : וַיִּשְׁלַח אֹתָם מֹשֶׁה מִמִּדְבַּר פָּארָן עַל־פִּי יְהוָה כֻּלָּם אֲנָשִׁים רָאשֵׁי בְנֵי־יִשְׂרָאֵל הֵמָּה : וְאֵלֶּה שְׁמוֹתָם לְמַטֵּה רְאוּבֵן שַׁמּוּעַ בֶּן־זַכּוּר : לְמַטֵּה שִׁמְעוֹן שָׁפָט בֶּן־חוֹרִי : לְמַטֵּה יְהוּדָה כָּלֵב בֶּן־יְפֻנֶּה : לְמַטֵּה יִשָּׂשכָר יִגְאָל בֶּן־יוֹסֵף : לְמַטֵּה אֶפְרָיִם הוֹשֵׁעַ בִּן־נוּן : לְמַטֵּה בִנְיָמִן פַּלְטִי בֶּן־רָפוּא : לְמַטֵּה זְבוּלֻן גַּדִּיאֵל בֶּן־סוֹדִי : לְמַטֵּה יוֹסֵף לְמַטֵּה מְנַשֶּׁה גַּדִּי בֶּן־סוּסִי : לְמַטֵּה דָן עַמִּיאֵל בֶּן־גְּמַלִּי : לְמַטֵּה אָשֵׁר סְתוּר בֶּן־מִיכָאֵל : לְמַטֵּה נַפְתָּלִי נַחְבִּי בֶּן־וָפְסִי : לְמַטֵּה גָד גְּאוּאֵל בֶּן־מָכִי : אֵלֶּה שְׁמוֹת הָאֲנָשִׁים אֲשֶׁר־שָׁלַח מֹשֶׁה לָתוּר אֶת־הָאָרֶץ וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן־נוּן יְהוֹשֻׁעַ : וַיִּשְׁלַח אֹתָם מֹשֶׁה לָתוּר אֶת־אֶרֶץ כְּנָעַן וַיֹּאמֶר אֲלֵהֶם עֲלוּ זֶה בַּנֶּגֶב וַעֲלִיתֶם אֶת־הָהָר : וּרְאִיתֶם אֶת־הָאָרֶץ מַה־הִוא וְאֶת־הָעָם הַיֹּשֵׁב עָלֶיהָ הֶחָזָק הוּא הֲרָפֶה הַמְעַט הוּא אִם־רָב : וּמָה הָאָרֶץ אֲשֶׁר־הוּא יֹשֵׁב בָּהּ הֲטוֹבָה הִוא אִם־רָעָה וּמָה הֶעָרִים אֲשֶׁר־הוּא יוֹשֵׁב בָּהֵנָּה הַבְּמַחֲנִים אִם בְּמִבְצָרִים : וּמָה הָאָרֶץ הַשְּׁמֵנָה הִוא אִם־רָזָה הֲיֵשׁ־בָּהּ עֵץ אִם־אַיִן וְהִתְחַזַּקְתֶּם וּלְקַחְתֶּם מִפְּרִי הָאָרֶץ וְהַיָּמִים יְמֵי בִּכּוּרֵי עֲנָבִים : וַיַּעֲלוּ וַיָּתֻרוּ אֶת־הָאָרֶץ מִמִּדְבַּר־צִן עַד־רְחֹב לְבֹא חֲמָת : וַיַּעֲלוּ בַנֶּגֶב וַיָּבֹא עַד־חֶבְרוֹן וְשָׁם אֲחִימַן שֵׁשַׁי וְתַלְמַי יְלִידֵי הָעֲנָק וְחֶבְרוֹן שֶׁבַע שָׁנִים נִבְנְתָה לִפְנֵי צֹעַן מִצְרָיִם : וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַיִּכְרְתוּ מִשָּׁם זְמוֹרָה וְאֶשְׁכּוֹל עֲנָבִים אֶחָד וַיִּשָּׂאֻהוּ בַמּוֹט בִּשְׁנָיִם וּמִן־הָרִמֹּנִים וּמִן־הַתְּאֵנִים : לַמָּקוֹם הַהוּא קָרָא נַחַל אֶשְׁכּוֹל עַל אֹדוֹת הָאֶשְׁכּוֹל אֲשֶׁר־כָּרְתוּ מִשָּׁם בְּנֵי יִשְׂרָאֵל : וַיָּשֻׁבוּ מִתּוּר הָאָרֶץ מִקֵּץ אַרְבָּעִים יוֹם : וַיֵּלְכוּ וַיָּבֹאוּ אֶל־מֹשֶׁה וְאֶל־אַהֲרֹן וְאֶל־כָּל־עֲדַת בְּנֵי־יִשְׂרָאֵל אֶל־מִדְבַּר פָּארָן קָדֵשָׁה וַיָּשִׁיבוּ אוֹתָם דָּבָר וְאֶת־כָּל־הָעֵדָה וַיַּרְאוּם אֶת־פְּרִי הָאָרֶץ : וַיְסַפְּרוּ־לוֹ וַיֹּאמְרוּ בָּאנוּ אֶל־הָאָרֶץ אֲשֶׁר שְׁלַחְתָּנוּ וְגַם זָבַת חָלָב וּדְבַשׁ הִוא וְזֶה־פִּרְיָהּ : אֶפֶס כִּי־עַז הָעָם הַיֹּשֵׁב בָּאָרֶץ וְהֶעָרִים בְּצֻרוֹת גְּדֹלֹת מְאֹד וְגַם־יְלִדֵי הָעֲנָק רָאִינוּ שָׁם : עֲמָלֵק יוֹשֵׁב בְּאֶרֶץ הַנֶּגֶב וְהַחִתִּי וְהַיְבוּסִי וְהָאֱמֹרִי יוֹשֵׁב בָּהָר וְהַכְּנַעֲנִי יֹשֵׁב עַל־הַיָּם וְעַל יַד הַיַּרְדֵּן : וַיַּהַס כָּלֵב אֶת־הָעָם אֶל־מֹשֶׁה וַיֹּאמֶר עָלֹה נַעֲלֶה וְיָרַשְׁנוּ אֹתָהּ כִּי־יָכוֹל נוּכַל לָהּ : וְהָאֲנָשִׁים אֲשֶׁר־עָלוּ עִמּוֹ אָמְרוּ לֹא נוּכַל לַעֲלוֹת אֶל־הָעָם כִּי־חָזָק הוּא מִמֶּנּוּ : וַיּוֹצִיאוּ דִּבַּת הָאָרֶץ אֲשֶׁר תָּרוּ אֹתָהּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר הָאָרֶץ אֲשֶׁר עָבַרְנוּ בָהּ לָתוּר אֹתָהּ אֶרֶץ אֹכֶלֶת יוֹשְׁבֶיהָ הִוא וְכָל־הָעָם אֲשֶׁר־רָאִינוּ בְתוֹכָהּ אַנְשֵׁי מִדּוֹת : וְשָׁם רָאִינוּ אֶת־הַנְּפִילִים בְּנֵי עֲנָק מִן־הַנְּפִלִים וַנְּהִי בְעֵינֵינוּ כַּחֲגָבִים וְכֵן הָיִינוּ בְּעֵינֵיהֶם :14:1-45וַתִּשָּׂא כָּל־הָעֵדָה וַיִּתְּנוּ אֶת־קוֹלָם וַיִּבְכּוּ הָעָם בַּלַּיְלָה הַהוּא : וַיִּלֹּנוּ עַל־מֹשֶׁה וְעַל־אַהֲרֹן כֹּל בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ אֲלֵהֶם כָּל־הָעֵדָה לוּ־מַתְנוּ בְּאֶרֶץ מִצְרַיִם אוֹ בַּמִּדְבָּר הַזֶּה לוּ־מָתְנוּ : וְלָמָה יְהוָה מֵבִיא אֹתָנוּ אֶל־הָאָרֶץ הַזֹּאת לִנְפֹּל בַּחֶרֶב נָשֵׁינוּ וְטַפֵּנוּ יִהְיוּ לָבַז הֲלוֹא טוֹב לָנוּ שׁוּב מִצְרָיְמָה : וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו נִתְּנָה רֹאשׁ וְנָשׁוּבָה מִצְרָיְמָה : וַיִּפֹּל מֹשֶׁה וְאַהֲרֹן עַל־פְּנֵיהֶם לִפְנֵי כָּל־קְהַל עֲדַת בְּנֵי יִשְׂרָאֵל : וִיהוֹשֻׁעַ בִּן־נוּן וְכָלֵב בֶּן־יְפֻנֶּה מִן־הַתָּרִים אֶת־הָאָרֶץ קָרְעוּ בִּגְדֵיהֶם : וַיֹּאמְרוּ אֶל־כָּל־עֲדַת בְּנֵי־יִשְׂרָאֵל לֵאמֹר הָאָרֶץ אֲשֶׁר עָבַרְנוּ בָהּ לָתוּר אֹתָהּ טוֹבָה הָאָרֶץ מְאֹד מְאֹד : אִם־חָפֵץ בָּנוּ יְהוָה וְהֵבִיא אֹתָנוּ אֶל־הָאָרֶץ הַזֹּאת וּנְתָנָהּ לָנוּ אֶרֶץ אֲשֶׁר־הִוא זָבַת חָלָב וּדְבָשׁ : אַךְ בַּיהוָה אַל־תִּמְרֹדוּ וְאַתֶּם אַל־תִּירְאוּ אֶת־עַם הָאָרֶץ כִּי לַחְמֵנוּ הֵם סָר צִלָּם מֵעֲלֵיהֶם וַיהוָה אִתָּנוּ אַל־תִּירָאֻם : וַיֹּאמְרוּ כָּל־הָעֵדָה לִרְגּוֹם אֹתָם בָּאֲבָנִים וּכְבוֹד יְהוָה נִרְאָה בְּאֹהֶל מוֹעֵד אֶל־כָּל־בְּנֵי יִשְׂרָאֵל : וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה וְעַד־אָנָה לֹא־יַאֲמִינוּ בִי בְּכֹל הָאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּוֹ : אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ וְאֶעֱשֶׂה אֹתְךָ לְגוֹי־גָּדוֹל וְעָצוּם מִמֶּנּוּ : וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה וְשָׁמְעוּ מִצְרַיִם כִּי־הֶעֱלִיתָ בְכֹחֲךָ אֶת־הָעָם הַזֶּה מִקִּרְבּוֹ : וְאָמְרוּ אֶל־יוֹשֵׁב הָאָרֶץ הַזֹּאת שָׁמְעוּ כִּי־אַתָּה יְהוָה בְּקֶרֶב הָעָם הַזֶּה אֲשֶׁר־עַיִן בְּעַיִן נִרְאָה אַתָּה יְהוָה וַעֲנָנְךָ עֹמֵד עֲלֵהֶם וּבְעַמֻּד עָנָן אַתָּה הֹלֵךְ לִפְנֵיהֶם יוֹמָם וּבְעַמּוּד אֵשׁ לָיְלָה : וְהֵמַתָּה אֶת־הָעָם הַזֶּה כְּאִישׁ אֶחָד וְאָמְרוּ הַגּוֹיִם אֲשֶׁר־שָׁמְעוּ אֶת־שִׁמְעֲךָ לֵאמֹר : מִבִּלְתִּי יְכֹלֶת יְהוָה לְהָבִיא אֶת־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נִשְׁבַּע לָהֶם וַיִּשְׁחָטֵם בַּמִּדְבָּר : וְעַתָּה יִגְדַּל־נָא כֹּחַ אֲדֹנָי כַּאֲשֶׁר דִּבַּרְתָּ לֵאמֹר : יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד נֹשֵׂא עָוֹן וָפָשַׁע וְנַקֵּה לֹא יְנַקֶּה פֹּקֵד עֲוֹן אָבוֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִים : סְלַח־נָא לַעֲוֹן הָעָם הַזֶּה כְּגֹדֶל חַסְדֶּךָ וְכַאֲשֶׁר נָשָׂאתָה לָעָם הַזֶּה מִמִּצְרַיִם וְעַד־הֵנָּה : וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶךָ : וְאוּלָם חַי־אָנִי וְיִמָּלֵא כְבוֹד־יְהוָה אֶת־כָּל־הָאָרֶץ : כִּי כָל־הָאֲנָשִׁים הָרֹאִים אֶת־כְּבֹדִי וְאֶת־אֹתֹתַי אֲשֶׁר־עָשִׂיתִי בְמִצְרַיִם וּבַמִּדְבָּר וַיְנַסּוּ אֹתִי זֶה עֶשֶׂר פְּעָמִים וְלֹא שָׁמְעוּ בְּקוֹלִי : אִם־יִרְאוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לַאֲבֹתָם וְכָל־מְנַאֲצַי לֹא יִרְאוּהָ : וְעַבְדִּי כָלֵב עֵקֶב הָיְתָה רוּחַ אַחֶרֶת עִמּוֹ וַיְמַלֵּא אַחֲרָי וַהֲבִיאֹתִיו אֶל־הָאָרֶץ אֲשֶׁר־בָּא שָׁמָּה וְזַרְעוֹ יוֹרִשֶׁנָּה : וְהָעֲמָלֵקִי וְהַכְּנַעֲנִי יוֹשֵׁב בָּעֵמֶק מָחָר פְּנוּ וּסְעוּ לָכֶם הַמִּדְבָּר דֶּרֶךְ יַם־סוּף : וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶל־אַהֲרֹן לֵאמֹר : עַד־מָתַי לָעֵדָה הָרָעָה הַזֹּאת אֲשֶׁר הֵמָּה מַלִּינִים עָלָי אֶת־תְּלֻנּוֹת בְּנֵי יִשְׂרָאֵל אֲשֶׁר הֵמָּה מַלִּינִים עָלַי שָׁמָעְתִּי : אֱמֹר אֲלֵהֶם חַי־אָנִי נְאֻם־יְהוָה אִם־לֹא כַּאֲשֶׁר דִּבַּרְתֶּם בְּאָזְנָי כֵּן אֶעֱשֶׂה לָכֶם : בַּמִּדְבָּר הַזֶּה יִפְּלוּ פִגְרֵיכֶם וְכָל־פְּקֻדֵיכֶם לְכָל־מִסְפַּרְכֶם מִבֶּן עֶשְׂרִים שָׁנָה וָמָעְלָה אֲשֶׁר הֲלִינֹתֶם עָלָי : אִם־אַתֶּם תָּבֹאוּ אֶל־הָאָרֶץ אֲשֶׁר נָשָׂאתִי אֶת־יָדִי לְשַׁכֵּן אֶתְכֶם בָּהּ כִּי אִם־כָּלֵב בֶּן־יְפֻנֶּה וִיהוֹשֻׁעַ בִּן־נוּן : וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וְהֵבֵיאתִי אֹתָם וְיָדְעוּ אֶת־הָאָרֶץ אֲשֶׁר מְאַסְתֶּם בָּהּ : וּפִגְרֵיכֶם אַתֶּם יִפְּלוּ בַּמִּדְבָּר הַזֶּה : וּבְנֵיכֶם יִהְיוּ רֹעִים בַּמִּדְבָּר אַרְבָּעִים שָׁנָה וְנָשְׂאוּ אֶת־זְנוּתֵיכֶם עַד־תֹּם פִּגְרֵיכֶם בַּמִּדְבָּר : בְּמִסְפַּר הַיָּמִים אֲשֶׁר־תַּרְתֶּם אֶת־הָאָרֶץ אַרְבָּעִים יוֹם יוֹם לַשָּׁנָה יוֹם לַשָּׁנָה תִּשְׂאוּ אֶת־עֲוֹנֹתֵיכֶם אַרְבָּעִים שָׁנָה וִידַעְתֶּם אֶת־תְּנוּאָתִי : אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא זֹאת אֶעֱשֶׂה לְכָל־הָעֵדָה הָרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻתוּ : וְהָאֲנָשִׁים אֲשֶׁר־שָׁלַח מֹשֶׁה לָתוּר אֶת־הָאָרֶץ וַיָּשֻׁבוּ וַיַּלִּונוּ עָלָיו אֶת־כָּל־הָעֵדָה לְהוֹצִיא דִבָּה עַל־הָאָרֶץ : וַיָּמֻתוּ הָאֲנָשִׁים מוֹצִאֵי דִבַּת־הָאָרֶץ רָעָה בַּמַּגֵּפָה לִפְנֵי יְהוָה : וִיהוֹשֻׁעַ בִּן־נוּן וְכָלֵב בֶּן־יְפֻנֶּה חָיוּ מִן־הָאֲנָשִׁים הָהֵם הַהֹלְכִים לָתוּר אֶת־הָאָרֶץ : וַיְדַבֵּר מֹשֶׁה אֶת־הַדְּבָרִים הָאֵלֶּה אֶל־כָּל־בְּנֵי יִשְׂרָאֵל וַיִּתְאַבְּלוּ הָעָם מְאֹד : וַיַּשְׁכִּמוּ בַבֹּקֶר וַיַּעֲלוּ אֶל־רֹאשׁ־הָהָר לֵאמֹר הִנֶּנּוּ וְעָלִינוּ אֶל־הַמָּקוֹם אֲשֶׁר־אָמַר יְהוָה כִּי חָטָאנוּ : וַיֹּאמֶר מֹשֶׁה לָמָּה זֶּה אַתֶּם עֹבְרִים אֶת־פִּי יְהוָה וְהִוא לֹא תִצְלָח : אַל־תַּעֲלוּ כִּי אֵין יְהוָה בְּקִרְבְּכֶם וְלֹא תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶם : כִּי הָעֲמָלֵקִי וְהַכְּנַעֲנִי שָׁם לִפְנֵיכֶם וּנְפַלְתֶּם בֶּחָרֶב כִּי־עַל־כֵּן שַׁבְתֶּם מֵאַחֲרֵי יְהוָה וְלֹא־יִהְיֶה יְהוָה עִמָּכֶם : וַיַּעְפִּלוּ לַעֲלוֹת אֶל־רֹאשׁ הָהָר וַאֲרוֹן בְּרִית־יְהוָה וּמֹשֶׁה לֹא־מָשׁוּ מִקֶּרֶב הַמַּחֲנֶה : וַיֵּרֶד הָעֲמָלֵקִי וְהַכְּנַעֲנִי הַיֹּשֵׁב בָּהָר הַהוּא וַיַּכּוּם וַיַּכְּתוּם עַד־הַחָרְמָה :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>13:1 Der Herr sprach zu Moses: 2 Schick einige Männer aus, die das Land Kanaan erkunden, das ich den Israeliten geben will. Aus jedem Väterstamm sollt ihr einen Mann aussenden, und zwar jeweils einen der führenden Männer. 3 Da schickte Moses von der Wüste Paran die Männer aus, wie es der Herr befohlen hatte. Sie alle waren führende Männer unter den Israeliten 4 und das sind ihre Namen: aus dem Stamm Ruben Schamua, der Sohn Sakkurs; 5 aus dem Stamm Simeon Schafat, der Sohn Horis; 6 aus dem Stamm Juda Kaleb, der Sohn Jefunnes; 7 aus dem Stamm Issachar Jigal, der Sohn Josefs; 8 aus dem Stamm Efraim Hoschea, der Sohn Nuns; 9 aus dem Stamm Benjamin Palti, der Sohn Rafus; 10 aus dem Stamm Sebulon Gadiël, der Sohn Sodis; 11 aus dem Josefstamm Manasse Gadi, der Sohn Susis; 12 aus dem Stamm Dan Ammiël, der Sohn Gemallis; 13 aus dem Stamm Ascher Setur, der Sohn Michaels; 14 aus dem Stamm Naftali Nachbi, der Sohn Wofsis; 15 aus dem Stamm Gad Gëuël, der Sohn Machis. 16 Das waren die Namen der Männer, die Moses zur Erkundigung des Landes aussandte. Hoschea aber, den Sohn Nuns, nannte Moses Josua. 17 Als Moses sie ausschickte, um Kanaan erkunden zu lassen, sagte er zu ihnen: Zieht von hier durch den Negeb und steigt hinauf ins Gebirge! 18 Seht, wie das Land beschaffen ist und ob das Volk, das darin wohnt, stark oder schwach ist, ob es klein oder groß ist; 19 seht, wie das Land beschaffen ist, in dem das Volk wohnt, ob es gut ist oder schlecht und wie die Städte angelegt sind, in denen es wohnt, ob sie offen oder befestigt sind 20 und ob das Land fett oder mager ist, ob es dort Bäume gibt oder nicht. Habt Mut und bringt Früchte des Landes mit! Es war gerade die Zeit der ersten Trauben. 21 Da zogen die Männer hinauf und erkundeten das Land von der Wüste Zin bis Rehob bei Lebo-Hamat. 22 Sie durchzogen zuerst den Negeb und kamen bis Hebron. Dort lebten Ahiman, Scheschai und Talmai, Söhne des Anak. Hebron war sieben Jahre vor der Stadt Zoan, die in Ägypten liegt, erbaut worden. 23 Von dort kamen sie in das Traubental. Dort schnitten sie eine Rebe mit einer Weintraube ab und trugen sie zu zweit auf einer Stange, dazu auch einige Granatäpfel und Feigen. 24 Den Ort nannte man später Traubental wegen der Traube, die die Israeliten dort abgeschnitten hatten. 25 Vierzig Tage, nachdem man sie zur Erkundung des Landes ausgeschickt hatte, machten sie sich auf den Rückweg. 26 Sie kamen zu Moses und Aaron und zu der ganzen Gemeinde der Israeliten in die Wüste Paran nach Kadesch. Sie berichteten ihnen und der ganzen Gemeinde und zeigten ihnen die Früchte des Landes. 27 Sie erzählten Moses: Wir kamen in das Land, in das du uns geschickt hast: Es ist wirklich ein Land, in dem Milch und Honig fließen; das hier sind seine Früchte. 28 Aber das Volk, das im Land wohnt, ist stark und die Städte sind befestigt und sehr groß. Auch haben wir die Söhne des Anak dort gesehen. 29 Amalek wohnt im Gebiet des Negeb, die Hetiter, die Jebusiter und Amoriter wohnen im Gebirge und die Kanaaniter wohnen am Meer und am Ufer des Jordan. 30 Kaleb beruhigte das Volk, das über Moses aufgebracht war, und sagte: Wir können trotzdem hinaufziehen und das Land in Besitz nehmen; wir werden es gewiss bezwingen. 31 Die Männer aber, die mit Kaleb zusammen nach Kanaan hinaufgezogen waren, sagten: Wir können nichts gegen dieses Volk ausrichten; es ist stärker als wir. 32 Und sie verbreiteten bei den Israeliten falsche Gerüchte über das Land, das sie erkundet hatten, und sagten: Das Land, das wir durchwandert und erkundet haben, ist ein Land, das seine Bewohner auffrisst; alle Leute, die wir dort gesehen haben, sind hochgewachsen. 33 Sogar die Riesen haben wir dort gesehen - die Anakiter gehören nämlich zu den Riesen. Wir kamen uns selbst klein wie Heuschrecken vor und auch ihnen erschienen wir so.14:1 Da erhob die ganze Gemeinde ein lautes Geschrei und das Volk weinte die ganze Nacht. 2 Alle Israeliten murrten über Moses und Aaron und die ganze Gemeinde sagte zu ihnen: Wären wir doch in Ägypten oder wenigstens hier in der Wüste gestorben! 3 Warum nur will uns der Herr in jenes Land bringen? Etwa damit wir durch das Schwert umkommen und unsere Frauen und Kinder eine Beute der Feinde werden? Wäre es für uns nicht besser, nach Ägypten zurückzukehren? 4 Und sie sagten zueinander: Wir wollen einen neuen Anführer wählen und nach Ägypten zurückkehren. 5 Da warfen sich Moses und Aaron vor der ganzen Gemeindeversammlung der Israeliten auf ihr Gesicht nieder. 6 Josua, der Sohn Nuns, und Kaleb, der Sohn Jefunnes, zwei von denen, die das Land erkundet hatten, zerrissen ihre Kleider 7 und sagten zu der ganzen Gemeinde der Israeliten: Das Land, das wir durchwandert und erkundet haben, dieses Land ist überaus schön. 8 Wenn der Herr uns wohlgesinnt ist und uns in dieses Land bringt, dann schenkt er uns ein Land, in dem Milch und Honig fließen. 9 Lehnt euch nur nicht gegen den Herrn auf! Habt keine Angst vor den Leuten in jenem Land; sie werden unsere Beute. Ihr schützender Schatten ist von ihnen gewichen, denn der Herr ist mit uns. Habt keine Angst vor ihnen! 10 Doch die ganze Gemeinde drohte Moses und Aaron zu steinigen. Da erschien die Herrlichkeit des Herrn am Offenbarungszelt allen Israeliten, 11 und der Herr sprach zu Moses: Wie lange verachtet mich dieses Volk noch, wie lange noch wollen sie nicht an mich glauben trotz all der Zeichen, die ich mitten unter ihnen vollbracht habe? 12 Ich will sie mit der Pest schlagen und vertreiben; aber dich will ich zu einem Volk machen, das größer und mächtiger ist als dieses. 13 Da antwortete Moses dem Herrn: Die Ägypter werden hören, dass du dieses Volk mit deiner Kraft aus ihrer Mitte hierher geführt hast, 14 und sie werden zu den Einwohnern dieses Landes sagen, sie hätten gehört, dass du, Herr, mitten in diesem Volk warst, dass du, Herr, sichtbar erschienen bist, dass deine Wolke über ihnen stand, dass du ihnen bei Tag in einer Wolkensäule und bei Nacht in einer Feuersäule vorangegangen bist, 15 dass du dann aber dieses Volk wie einen einzigen Mann umgebracht hast. Wenn sie das alles über dich hören, werden die Völker sagen: 16 Weil der Herr nicht imstande war, dieses Volk in das Land zu bringen, das er ihnen mit einem Eid zugesichert hatte, hat er sie in der Wüste abgeschlachtet. 17 Gerade jetzt sollte sich die Kraft meines Herrn in ihrer ganzen Größe zeigen, wie du gesagt hast: 18 Ich bin der Herr, langmütig und reich an Huld, der Schuld und Frevel wegnimmt, der aber (den Sünder) nicht ungestraft lässt, der die Schuld der Väter an den Söhnen verfolgt, an der dritten und vierten Generation: 19 Verzeih also diesem Volk seine Sünde nach deiner großen Huld, wie du diesem Volk auch schon bisher vergeben hast, von Ägypten bis hierher. 20 Da sprach der Herr: Ich verzeihe ihm, da du mich bittest. 21 Doch so wahr ich lebe und die Herrlichkeit des Herrn das ganze Land erfüllt: 22 Alle Männer, die meine Herrlichkeit und meine Zeichen gesehen haben, die ich in Ägypten und in der Wüste vollbracht habe und die mich jetzt schon zum zehnten Mal auf die Probe gestellt und doch nicht auf mich gehört haben, 23 sie alle werden das Land nicht zu sehen bekommen, das ich ihren Vätern mit einem Eid zugesichert habe. Keiner von denen, die mich verachtet haben, wird es zu sehen bekommen. 24 Meinen Knecht Kaleb aber, der anders denkt und treu zu mir hält, ihn werde ich in das Land bringen. Er darf es betreten und seine Nachkommen sollen es erben. 25 Die Amalekiter und die Kanaaniter sitzen in der Ebene. Brecht also morgen auf und schlagt eine andere Richtung ein, in die Wüste, zum Schilfmeer hin! 26 Der Herr sprach zu Moses und Aaron: 27 Wie lange soll das mit dieser bösen Gemeinde so weitergehen, die immer über mich murrt? Ich habe mir das Murren der Israeliten jetzt lange genug angehört. 28 Sag ihnen: So wahr ich lebe - Spruch des Herrn -, ich will euch das antun, womit ihr mir die Ohren vollgeschrien habt: 29 Hier in der Wüste sollen eure Leichen liegen bleiben, alle ohne Ausnahme; jeder von euch, der gemustert worden ist, wird sterben, alle Männer von zwanzig Jahren und darüber, die über mich gemurrt haben. 30 Keiner von euch wird in das Land kommen, auch wenn ich meine Hand erhoben und geschworen habe, euch darin wohnen zu lassen, außer Kaleb, der Sohn Jefunnes, und Josua, der Sohn Nuns. 31 Eure Kinder aber, von denen ihr gesagt habt, sie würden eine Beute der Feinde werden, sie werde ich in das Land bringen. Sie werden das Land kennen lernen, das ihr verschmäht habt. 32 Eure Leichen aber werden in dieser Wüste liegen bleiben. 33 Eure Söhne müssen vierzig Jahre lang ihr Vieh in der Wüste weiden lassen; sie haben so lange unter eurer Untreue zu leiden, bis ihr alle tot in der Wüste liegt. 34 So viele Tage, wie ihr gebraucht habt, um das Land zu erkunden, nämlich vierzig Tage, so viele Jahre lang - für jeden Tag ein Jahr - müsst ihr die Folgen eurer Schuld tragen, also vierzig Jahre lang; dann werdet ihr erkennen, was es heißt, mir Widerstand zu leisten. 35 Ich, der Herr, habe gesprochen. Unwiderruflich werde ich es mit dieser ganzen bösen Gemeinde so machen, die sich gegen mich zusammengerottet hat: In dieser Wüste finden sie ihr Ende, hier müssen sie sterben. 36 Die Männer, die Moses ausgeschickt hatte, um das Land erkunden zu lassen, die dann aber nach ihrer Rückkehr die ganze Gemeinde zum Murren verführt hatten, 37 fielen plötzlich tot zu Boden, vor den Augen des Herrn, alle, die über das Land falsche Gerüchte verbreitet hatten. 38 Nur Josua, der Sohn Nuns, und Kaleb, der Sohn Jefunnes, blieben am Leben, als einzige von allen, die ausgezogen waren, um das Land zu erkunden. 39 Moses sagte das alles den Israeliten. Da wurde das Volk sehr traurig. 40 Sie standen am nächsten Morgen auf, um auf die Höhe des Gebirges zu steigen; sie sagten: Wir ziehen jetzt zu dem Ort hinauf, den der Herr genannt hat. Ja, wir haben gesündigt. 41 Da sagte Moses: Warum übertretet ihr den Befehl des Herrn? Das wird euch nicht gelingen. 42 Zieht nicht hinauf, denn der Herr ist nicht bei euch; ihr werdet von euren Feinden nur geschlagen werden. 43 Denn ihr habt dort die Amalekiter und die Kanaaniter gegen euch, und ihr werdet durch das Schwert umkommen. Weil ihr euch vom Herrn abgewendet habt, wird der Herr nicht mit euch sein. 44 Doch in ihrem Starrsinn stiegen sie auf die Höhe des Gebirges hinauf. Aber die Bundeslade des Herrn und Moses wichen nicht von ihrer Stelle mitten im Lager. 45 Da kamen die Amalekiter und die Kanaaniter, die dort im Gebirge wohnten, herunter und schlugen die Israeliten und zersprengten sie bis nach Horma.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

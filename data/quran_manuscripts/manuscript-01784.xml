@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1784">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Philadelphia, Pennsylvania, Pennsylvania University Museum, 7729-30</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="18">Pennsylvania University Museum
+                            , Philadelphia, Pennsylvania</repository>
+            <idno>7729-30</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>2 fol. on parchment; Shelfmark: 7729-30; Qurʾānic Text: Q 72:24-73:13; 8 lines per page; Dimensions: 90 x 123mm; Script style: new style III.</p>
+              <p> </p>
+              <p>This fragment belongs to the same codex as <ref target="https://corpuscoranicum.de/de/manuscripts/1241">Yah. Ms. Ar. 966</ref> in The National Library of Israel; the metadata has been adopted from that entry. </p>
+            </summary>
+            <msItem xml:id="mysql_id_692634" n="1r">
+              <title type="numeric" key="072:024:008-072:027:011">
+                                    072:024:008-072:027:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692631" n="1v">
+              <title type="numeric" key="072:027:012-073:003:005">
+                                    072:027:012-073:003:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692632" n="2r">
+              <title type="numeric" key="073:004:001-073:009:003">
+                                    073:004:001-073:009:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692633" n="2v">
+              <title type="numeric" key="073:009:004-073:013:004">
+                                    073:009:004-073:013:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>90</width><height>123</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="8">8 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52592">
+      <graphic decls="#imageRights-1" url="manuscript/1784/166b161a-4480-4e17-8e2b-ceed87546cb5/manuscript-1784-page-52592-image-41317.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1784/fdd1d4b5-9ae1-4ecf-9b1b-3ebe86c44965/manuscript-1784-page-52592-image-41318.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52589">
+      <graphic decls="#imageRights-1" url="manuscript/1784/2bd56bee-ed03-4b7f-a2cf-d6319cc92660/manuscript-1784-page-52589-image-41311.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1784/aae30b73-2fd1-4a5b-9a2a-4f4c18992921/manuscript-1784-page-52589-image-41312.tif"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_52590">
+      <graphic decls="#imageRights-1" url="manuscript/1784/985648f4-c7f2-41f5-8b01-09b490c9e9e8/manuscript-1784-page-52590-image-41313.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1784/9e454bf8-18ce-4b3a-9369-f979375e2d5b/manuscript-1784-page-52590-image-41314.tif"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_52591">
+      <graphic decls="#imageRights-1" url="manuscript/1784/d02832e4-763a-4c6b-99ab-f8bc98b99096/manuscript-1784-page-52591-image-41315.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1784/b196f1cf-54cf-44d3-b15e-a75cbebe567a/manuscript-1784-page-52591-image-41316.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

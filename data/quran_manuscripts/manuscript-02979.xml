@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2979">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 227 [= Karatay 99]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 227 [= Karatay 99]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>  </p>
+              <p>50 fol.; Writing surface: paper; Shelfmark: E. H. 227; Qurʾānic Text: Q 2:142-2:252; 5 lines per page; Dimensions: 230 x 335mm; Script style: ṯuluṯ; Date of production: 1282-83 CE.</p>
+              <p> </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p> </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962)</ref> describes the manuscripts as follows, p. 32f: "99 E.H. 227. 2. Cüz. Aharlı krem rengi ve vassaleli kâğıt. 335mm boy ve 230 mm eninde 50 yaprak. Sahifede harekeli sülüsle 115mm uzunluğunda 5 satır. Yāḳūt al-Mustaʿṣimī eli ile 681 (1282-83) de) yazılmıştır. Serlevha, satır araları, tahminen X. asırda tezhip edilmiştir. Sahife kenarları halkâri, cetveller yaldız ve renkli. Miklep, şemse ve köşelikli vişne çürüğü İran cildi; kapakların içi oyma şemseli. Bu cüzde Baḳara (2) suresinin 142. ayetinden aynı surenin 252. ayetinin sonuna kadar vardır."</p>
+              <p> </p>
+              <p>This can be translated as follows: "99 E.H. 227. Second Juzʾ. Cream-colored paper with vaṣṣālī. 50 leaves of 335 mm height and 230 mm width. The text area written in thuluth with diacritics, [contains] 5 lines measuring 115 mm height. Copied by Yāḳūt al-Mustaʿṣimī in the year 681 (1282-83). Interlineary spaces and serlevha are probably copied during the 10th century. Margins are gilded(halkâri), rule-borders are coloured and gilded. Cherrybrown Iranian leather binding with flap (miklep), mandorla (şemse) and corner pieces, and mandorlas inside the covers. This juzʾ begins with begins with Q 2:142 (Sūra al-Baqara) and continues until the verse 252 of the same sūra.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_712362" n="1">
+              <title type="numeric" key="002:142:001-002:252:009">
+                                    002:142:001-002:252:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 50
+                                    <dimensions unit="mm"><width>230</width><height>335</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                ṯuluṯ
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1282-1283</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Ayşenur Elif Ünal Şahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_99822">
+                    </surface>
+  </facsimile>
+</TEI>

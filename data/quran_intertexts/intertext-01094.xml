@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesus Sirach 17:1-6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1094" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1094</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 32:7-9 und Jesus Sirach 17:1-6 ähneln sich in der Beschreibung der Erschaffung des Menschen. Beiden Texten zufolge erschuf Gott den Menschen aus Ton (arab. ṭīn), bzw. Erde (griech. γῆ) und gab ihm Ohren, Augen und ein Herz, womit die Menschen über die Fähigkeit verfügen, Gott zu erkennen und seine Gebote zu befolgen. Während dieser Gedanke in Jesus Sirach weiter ausgeführt wird, weist der Koran auf die Undankbarkeit und den Unglauben der Menschen hin. Dies steht im Kontrast zur vorher erwähnten Begabung mit Sinnesorganen und Verstand, da die Menschen dadurch über die notwendige Voraussetzung verfügten, um zum Glauben an Gott zu gelangen.
+</summary>
+            <msItem>
+              <title>Jesus Sirach 17:1-6</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian"/>
+              <origPlace/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Alfred Rahlfs und Robert Hanhart (Hg.), Septuaginta. Editio altera, Stuttgart 2006. 
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>1 κύριος ἔκτισεν ἐκ γῆς ἄνθρωπον καὶ πάλιν ἀπέστρεψεν αὐτὸν εἰς αὐτήν  2  ἡμέρας ἀριθμοῦ καὶ καιρὸν ἔδωκεν αὐτοῖς καὶ ἔδωκεν αὐτοῖς ἐξουσίαν τῶν ἐπ᾽ αὐτῆς  3  καθ᾽ ἑαυτὸν ἐνέδυσεν αὐτοὺς ἰσχὺν καὶ κατ᾽ εἰκόνα αὐτοῦ ἐποίησεν αὐτούς  4  ἔθηκεν τὸν φόβον αὐτοῦ ἐπὶ πάσης σαρκὸς καὶ κατακυριεύειν θηρίων καὶ πετεινῶν  5   6  διαβούλιον καὶ γλῶσσαν καὶ ὀφθαλμούς ὦτα καὶ καρδίαν ἔδωκεν διανοεῖσθαι αὐτοῖς. 7 ἐπιστήμην συνέσεως ἐνέπλησεν αὐτοὺς καὶ ἀγαθὰ καὶ κακὰ ὑπέδειξεν αὐτοῖς  8  ἔθηκεν τὸν ὀφθαλμὸν αὐτοῦ ἐπὶ τὰς καρδίας αὐτῶν δεῖξαι αὐτοῖς τὸ μεγαλεῖον τῶν ἔργων αὐτοῦ  9  10  καὶ ὄνομα ἁγιασμοῦ αἰνέσουσιν ἵνα διηγῶνται τὰ μεγαλεῖα τῶν ἔργων αὐτοῦ  11  προσέθηκεν αὐτοῖς ἐπιστήμην καὶ νόμον ζωῆς ἐκληροδότησεν αὐτοῖς  12  διαθήκην αἰῶνος ἔστησεν μετ᾽ αὐτῶν καὶ τὰ κρίματα αὐτοῦ ὑπέδειξεν αὐτοῖς  13  μεγαλεῖον δόξης εἶδον οἱ ὀφθαλμοὶ αὐτῶν καὶ δόξαν φωνῆς αὐτοῦ ἤκουσεν τὸ οὖς αὐτῶν  14  καὶ εἶπεν αὐτοῖς προσέχετε ἀπὸ παντὸς ἀδίκου καὶ ἐνετείλατο αὐτοῖς ἑκάστῳ περὶ τοῦ πλησίον  15  αἱ ὁδοὶ αὐτῶν ἐναντίον αὐτοῦ διὰ παντός οὐ κρυβήσονται ἀπὸ τῶν ὀφθαλμῶν αὐτοῦ.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Der Herr hat die Menschen aus Erde erschaffen und läßt sie wieder zu ihr zurückkehren.  2 Gezählte Tage und eine bestimmte Zeit wies er ihnen zu und gab ihnen Macht über alles auf der Erde.  3 Ihm selbst ähnlich hat er sie mit Kraft bekleidet und sie nach seinem Abbild erschaffen.  4 Auf alle Wesen legte er die Furcht vor ihnen, über Tiere und Vögel sollten sie herrschen.  5   6 Er bildete ihnen Mund und Zunge, Auge und Ohr, und ein Herz zum Denken gab er ihnen. 7 Mit kluger Einsicht erfüllte er sie und lehrte sie, Gutes und Böses zu erkennen.  8 Er zeigte ihnen die Größe seiner Werke, um die Furcht vor ihm in ihr Herz zu pflanzen.  9 Sie sollten für immer seine Wunder rühmen  10 und seinen heiligen Namen loben.  11 Er hat ihnen Weisheit geschenkt und ihnen das lebenspendende Gesetz gegeben.  12 Einen ewigen Bund hat er mit ihnen geschlossen und ihnen seine Gebote mitgeteilt.  13 Ihre Augen sahen seine machtvolle Herrlichkeit, ihr Ohr vernahm seine gewaltige Stimme.  14 Er sprach zu ihnen: Hütet euch vor allem Unrecht! Er schrieb ihnen ihr Verhalten gegenüber dem Nächsten vor.  15 Ihre Wege liegen allezeit offen vor ihm, sie sind nicht verborgen vor seinen Augen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

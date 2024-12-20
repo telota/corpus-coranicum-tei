@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Anacreontica 20 ("Über die Sehnsucht nach der heiligen Stadt")</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1395" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1395</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 30:2–7 enthält eine Voraussage über den Ausgang des Krieges zwischen den Persern und dem byzantinischen Reich (ar-Rūm). Nach der üblichen Vokalisierung der Verse 2–3 (die nicht unumstritten ist, vgl. die Lesarten Q 30:2), werden die Byzantiner nach einer vorläufigen Niederlage (ġulibati r-rūmu, Vers 2) letztendlich über ihre Feinde siegen (sa-yaġlibūna, Vers 3), worauf „die Gläubigen sich darüber freuen werden“ (wa-yaumaʾiḏin yafraḥu l-muʾminūna, Vers 4). Obwohl diese letzte Aussage auch eschatologisch gedeutet werden kann (siehe T. Tesei, 2018), so lässt sich „die Freude der Gläubigen“ auch auf den endgültigen Sieg der (immerhin monotheistischen) Byzantiner über die (heidnischen) Perser beziehen, ein welthistorisch signifikantes Ereignis das auch in der christlichen Literatur der Zeit, etwa bei Sophronius von Jerusalem (ca. 560–638) greifbar ist.In dem hier zitierten anakreontischen Gedicht Nr. 20 schildert Sophronius eine imaginäre Reise zu den heiligen Pilgerstätten in Jerusalem. Der beschriebene Weg beginnt vor den Toren Jerusalems und führt über die Grabeskirche nach Golgotha und zum Ölberg, um in einem zweiten Teil (heute Gedicht Nr. 19) mit dem Weg nach Bethlehem fortzufahren. Als Höhepunkt dieser Wegbeschreibung werden in den Strophen 7–8 die „hochheilige Mitte“ (ζάθεον μεσόμφαλόν), d. h. der Felsen der Kreuzigung (Golgotha), und das „göttliche Holz“ (ξύλον θεῖον) selbst evoziert. Da Sophronius zwischen 633 und 638 als Patriarch in Jerusalem residierte, scheint der Ton des Gedichtes vorauszusetzen, dass Sophronius zum Zeitpunkt der Abfassung fern von der heiligen Stadt weilte. Aufgrund einiger topographischer Einzelheiten im Text kommt Herbert Donner zu dem Schluss, dass die beschriebenen Verhältnisse (v. a. die Lage der Christusreliquien in einer Kapelle bei Golgotha) am Besten zu den Jahren 631–633 passen (H. Donner, 1981: 44). Dies impliziert wiederum, dass Sophronius sein Gedicht unmittelbar nach, und als direkte Reaktion auf die Befreiung Jerusalems und die Rückeroberung des Kreuzes durch Kaiser Heraklios (629) geschrieben hat. Damit wäre Sophronius’ Gedicht eins der wichtigsten zeitnahen Zeugnissen für den Stimmungswechsel der christlichen Gemeinden Palästinas nach dem langwierigen Krieg zwischen Byzanz und dem Sasanidenreich, der 614 zur katastrophalen Eroberung Jerusalems führte (vgl. dazu TUK_1388, TUK_1439). Vor diesem Hintergrund ließe sich daher Sophronius’ freudvolle Erwartung auf die Wiederkehr nach Jerusalem als die Erfüllung der Hoffnung auf einen byzantinischen Sieg lesen, die in den Jahren nach 614 nur mit Hilfe der Propaganda des Heraklios aufrechterhalten wurde, und die auch im Koran (allerdings zu anderen Zwecken) thematisiert wird.</summary>
+            <msItem>
+              <title>Anacreontica 20 ("Über die Sehnsucht nach der heiligen Stadt")</title>
+              <author>Sophronius von Jerusalem (ca. 560-638)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">614-630</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Marcello Gigante (Hg.), Sophronii Anacreontica, (Opuscula 10/12), Rom 1957.
+
+Herbert Donner, Die anakreontischen Gedichte Nr. 19 und Nr. 20 des Patriarchen Sophronius von Jerusalem, (SBHAW, Phil.-Hist. Kl.), Heidelberg 1981.</bibl>
+              <bibl type="literatur">Donner, Herbert: Die anakreontischen Gedichte Nr. 19 und Nr. 20 des Patriarchen Sophronius von Jerusalem. Carl Winter, Universit&amp;#xE4;tsverlag, Heidelberg 1981.</bibl>
+              <bibl type="literatur">Tesei, Tommaso: &amp;#x201E;&amp;#x201A;The Romans will win!&amp;#x2018; Q 30:2-7 in Light of 7th c. Political Eschatology&amp;#x201C;. In: Der Islam 95 (2018), S. 1&amp;#x2013;29.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>Ἅγιον πόλισμα θεῖον Ἱερουσαλήμ, τ' ἐς νῦνἐθέλων πύλας παρεῖναιἵν’ ἀγαλλιῶν ἐισέλθω.Εὐαγέων Σολύμων ἔνθεος οἴστροςαἰὲν ἡμῖν κραδίην σφόδρα δαμάζει.Βαδιῶν ἐπὶ πλακῶν σουἐς Ἀνάστασιν κατέλθω,ὅθι παντάναξ ἀνέστηθανάτου κράτος πατήσας.Γλυκερὸν πέδον φιλήσω,ἱερὸν κύβον κατΐδωμέγαν οὐρανοστερόν τετετρα *** {Lücke in der Hs.}Διὰ βήματος θεoῖομέσον ἐς τάφον θεοῖογεγονὼς πέτρην ἐκείνηνμάλα προσκυνῶν φιλήσω.Ἐπαναξίου δὲ τύμβουκίονας κύκλω τε κόγχαςἀκροκρινοχρυσομόρφονφιλέων ἄγαν χορεύσω.Ἐπὶ τριστῷον παρέλθωὁλομαργαραργυρόχρουνπερικαλλέως γε παῦλονΚρανίου τόπον προέρπειν.Ὠκεανὸς βιωτῆς αἰὲν βιούσηςἀτρεκέως τε λήθης, φωσφόρε τύμβε.Ζάθεον μεσόμφαλόν τεπέτραν ἐκταθεὶς φιλήσωὅθε τὸ ξύλον πεπήγειτὸ λύσαν ξύλου κατάραν.Ὡς μέγα σεῖο κλέος, φαίδιμε πέτρα,σταυρὸς ὅπη μερόπων λύτρον ἐπήχθη.Θαλέων χαρᾷ δ’ ἐπέλθωὅθι προσκυνοῦμεν, ὅσσοιπέλομεν λεὼς θεοῖο,ἀγλαὸν ξύλον τὸ θεῖον.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Heilige GottesstadtJerusalem, wie verlangt mich jetzt,bei deinen Toren zu sein,dass ich mit Freuden einziehe!Die göttliche Leidenschaft für das hehre Salemüberwältigt allezeit mein Herz.Über deine Pflaster schreitend,geh' ich hinab zur Anastasis,wo der Allherr auferstand,des Todes Macht mit Füßen trat.Den süßen Fussboden werde ich küssen,den heiligen Würfel anschauen,den großen, himmelsförmigen,vier ...{Lücke in der Hs.}Über das göttliche Bemamitten ins Gottesgrab gelangt,werde ich jenen Felsen,mich tief verneigend, küssen.Des königlichen GrabbausSäulen ringsum und Konchen,oben goldlilienförmig,küssend, werde ich festlich tanzen.Zum Triportikus geh' ich,ganz mit Perlen rundverziert,dem wunderbaren Hof,zur Schädelstätte zu gelangen.Der Ozean des Lebens, des immer lebendigen,bist du in Wahrheit, lichtspendender Grabbau!Die hochheilige Mitte,den Felsen werde ich hingestreckt küssen,wo das Holz errichtet war, das den Fluch des Holzes löste.Wie groß ist dein Ruhm, glanzvoller Felsen,wo das Kreuz als Lösegeld der Menschen stand!Entzückt vor Freude geh' ich dahin,wo wir verehren, die wir alleGottes Volk sind,das herrliche, göttliche Holz.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

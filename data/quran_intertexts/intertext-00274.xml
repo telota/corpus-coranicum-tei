@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Numeri 11:10-17</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_274" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>274</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Wie Numeri 11 berichtet Q 7:155 davon, dass Moses den Befehl erhält, siebzig Männer auszuwählen; laut Numeri sollen sie zusammen mit ihm das Offenbarungszelt aufsuchen. Die koranische Aussage, dass im Anschluss an die Auswahl der siebzig Begleiter ein "Beben über sie gekommen" sei, hat allerdings keine unmittelbare Entsprechung in der hier zitierten biblischen Erzählung; die von Speyer 1931: p. 336 erwogenen biblischen Parallelen erscheinen wenig überzeugend. Paret (Paret 1977: Kommentar zu 7:155) verweist in diesem Zusammenhang auf die in Numeri 16 geschilderte Bestrafung der Rotte Korachs, die vom Erdboden verschlungen wird.</summary>
+            <msItem>
+              <title>Numeri 11:10-17</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Paret, Rudi: Der Koran: Kommentar und Konkordanz. Kohlhammer, Stuttgart [u.a] 1977.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> וַיִּשְׁמַע מֹשֶׁה אֶת־הָעָם בֹּכֶה לְמִשְׁפְּחֹתָיו אִישׁ לְפֶתַח אָהֳלוֹ   וַיִּחַר־אַף יְהוָה מְאֹד וּבְעֵינֵי מֹשֶׁה רָע :   וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה לָמָה הֲרֵעֹתָ לְעַבְדֶּךָ וְלָמָּה לֹא־מָצָתִי חֵן בְּעֵינֶיךָ לָשׂוּם אֶת־מַשָּׂא כָּל־הָעָם הַזֶּה עָלָי :   הֶאָנֹכִי הָרִיתִי אֵת כָּל־הָעָם הַזֶּה אִם־אָנֹכִי יְלִדְתִּיהוּ כִּי־תֹאמַר אֵלַי שָׂאֵהוּ בְחֵיקֶךָ כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק עַל הָאֲדָמָה אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתָיו :   מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל־הָעָם הַזֶּה כִּי־יִבְכּוּ עָלַי לֵאמֹר תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵלָה  :  לֹא־אוּכַל אָנֹכִי לְבַדִּי לָשֵׂאת אֶת־כָּל־הָעָם הַזֶּה כִּי כָבֵד מִמֶּנִּי :   וְאִם־כָּכָה אַתְּ־עֹשֶׂה לִּי הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל־אֶרְאֶה בְּרָעָתִי  :   וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה   אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִתְיַצְּבוּ שָׁם עִמָּךְ :   וְיָרַדְתִּי וְדִבַּרְתִּי עִמְּךָ שָׁם וְאָצַלְתִּי מִן־הָרוּחַ אֲשֶׁר עָלֶיךָ וְשַׂמְתִּי עֲלֵיהֶם וְנָשְׂאוּ אִתְּךָ בְּמַשָּׂא הָעָם וְלֹא־תִשָּׂא אַתָּה לְבַדֶּךָ :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>10 Moses hörte die Leute weinen, eine Sippe wie die andere; jeder weinte am Eingang seines Zeltes. Da entbrannte der Zorn des Herrn; Moses aber war verstimmt 11 und sagte zum Herrn: Warum hast du deinen Knecht so schlecht behandelt und warum habe ich nicht deine Gnade gefunden, dass du mir die Last mit diesem ganzen Volk auferlegst? 12 Habe denn ich dieses ganze Volk in meinem Schoß getragen oder habe ich es geboren, dass du zu mir sagen kannst: Nimm es an deine Brust, wie der Wärter den Säugling, und trag es in das Land, das ich seinen Vätern mit einem Eid zugesichert habe? 13 Woher soll ich für dieses ganze Volk Fleisch nehmen? Sie weinen vor mir und sagen zu mir: Gib uns Fleisch zu essen! 14 Ich kann dieses ganze Volk nicht allein tragen, es ist mir zu schwer. 15 Wenn du mich so behandelst, dann bring mich lieber gleich um, wenn ich überhaupt deine Gnade gefunden habe. Ich will mein Elend nicht mehr ansehen. 16 Da sprach der Herr zu Moses:  Versammle siebzig von den Ältesten Israels vor mir, Männer, die du als Älteste des Volkes und Listenführer kennst; bring sie zum Offenbarungszelt! Dort sollen sie sich mit dir zusammen aufstellen. 17 Dann komme ich herab und rede dort mit dir. Ich nehme etwas von dem Geist, der auf dir ruht, und lege ihn auf sie. So können sie mit dir zusammen an der Last des Volkes tragen und du musst sie nicht mehr allein tragen. </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

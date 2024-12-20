@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1515">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cincinnati, Ohio, Cincinnati Art Museum, 2016.362</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: cincinnati, Cincinnati Art Museum, Fanny Bryce Lehmer Fund Accession No: 2016.362.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="91">Cincinnati Art Museum
+                            , Cincinnati, Ohio</repository>
+            <idno>2016.362</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>Single fol. on paper, Shelfmark: 2016.362; Qurʾānic Text: Q 9:126 - 10:5; 15  lines per page; Dimensions: 199 x 140; Script style: kūfī D.IV; Estimated date of production: 800-1000. </p><p> </p><p>The <ref target="https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=24980602">website of the Cincinnati Art Museum</ref> provides the following information about this fragment:  </p>"Name: Folio from the Qur’an Describing Repentance Surat at-Tawbah  (Chapter: The Repentance) 9: verses 126–9; Surat Yunus (Chapter: Jonah)  10: verses 1–5 Date: 9th Century-10th Century Place: Near East Medium: ink and gold on vellum Measurements: mount window 5 1/2 x 7 13/16 in. (14 x 19. 9cm); text panel 4 3/4 x 6 15/16 in. (12.1 x 17.7 cm) Classification: Calligraphy/Manuscript Department: South Asian Art, Islamic Art and Antiquities Credit Line: Gift of JoLynn M. and Byron W. Gustin Accession No: 2016.362"<p/>
+                    </summary>
+            <msItem xml:id="mysql_id_687835" n="1r">
+              <title type="numeric" key="009:126:016-010:002:018">
+                                    009:126:016-010:002:018
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706344" n="1v">
+              <title type="numeric" key="010:002:019-010:005:012">
+                                    010:002:019-010:005:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>199</width><height>140</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.IV
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47795">
+      <graphic decls="#imageRights-1" url="manuscript/1515/e0735ba0-bf86-4478-b865-8ef300fe93d0/manuscript-1515-page-47795-image-34042.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_62052">
+      <graphic decls="#imageRights-1" url="manuscript/1515/39230bd8-f3df-44d7-a99e-3131eb3d00fa/manuscript-1515-page-62052-image-53889.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

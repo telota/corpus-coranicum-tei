@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über die Erschaffung von Adam und Eva und die Auferstehung der Toten</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_726" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>726</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>In den ersten beiden genannten Suren (Q 7, Q 20) flüstert der Teufel (waswasa al-šayṭān) Adam und Eva bzw. nur Adam ein, beides natürlich im Kontext der Versuchung im Paradies. In Q 114 wird Satan allgemein als 'Einflüsterer' (waswās) bezeichnet. Das Motiv des Einflüsterns findet sich nicht explizit in der biblischen Geschichte (vgl. Gen 3:2), taucht aber z.B. im hier angeführten Text Jakobs von Sarug auf. Im zitierten Gedicht flüstert (syr. lḥaš) der Teufel (ṭarkānā, egtl. ‘Verleumder’, ‘Aufrührer’) ebenfalls Eva zu und betrügt sie.	Auch Heinrich Speyer bespricht bereits das Motiv des 'Flüsterns' und verweist dabei auf Jesaja 8:19, wo von 'Zauberkundigen' (hay-yidʿōnîm) die Rede ist, welche 'flüstern und murmeln' (Speyer 1931: p. 68, Anm. 1). Der Bezug Satan - Zauberkundige ist aber kaum stichhaltig, zudem die suggerierte Intention des Murmelns nicht wirklich deckunsgleich ist: Der Teufel flüstert zum Zwecke der Verderbnis ein, während die Zauberer geheimes Wissen o.ä. vorgeben. Bestenfalls bleibt noch das Motiv des Betrugs übrig, doch ist dies schon sehr allgemein und kann nicht als spezifische Parallele gewertet werden.</summary>
+            <msItem>
+              <title>Gedicht über die Erschaffung von Adam und Eva und die Auferstehung der Toten</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 521 n. Chr.</origDate>
+              <origPlace>Nisibis/ Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Paul Bedjan, Homiliae selectae Mar-Jacobi Sarugensis, Bd. 3, Paris u. Leipzig 1907, S. 154-161.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܡܢܘ ܗܢܐ ܕܗܟܢ ܨܪ ܠܗ ܨܠܡܐ ܡܡܬܘܡ:ܘܡܠܝܗܝ ܬܗܪܐ ܕܠܕܘܡܪܐ ܒܥܠܡܐ ܢܗܘܐ܀ܫܒܝܚ ܗܘ ܨܠܡܐ ܘܡܟܪܙ ܬܗܪܐ ܥܠ ܒܪܘܝܗ:ܕܟܡܐ ܚܟܝܡ ܘܟܡܐ ܡܫܟܚ ܘܟܡܐ ܫܠܝܛ܀55 ܚܟܡܬܐ ܨܪܬ݀ ܨܠܡܐ ܪܒܐ ܕܡܠܐ ܬܗܪܐ:ܘܐܥܠܬ݀ ܣܡܬܗ ܒܡܨܥܬ ܥܠܡ̈ܐ ܕܢܚܘܪܘܢ ܒܗ܀ܐܣܢܬܗ ܒܨܒ̈ܬܐ ܕܟܠ ܒܖ̈ܝܬܐ ܒܗ ܡܬܚܙ̈ܝܢ:ܘܛܥ̣ܐ ܟܝܢܗ ܘܝܗܒ̣ ܠܗ ܡܘܬܐ ܕܢܚܙܐ ܫܦܠܗ܀ܘܢܦܠ̣ ܫܘܦܪܐ ܥܠ ܕܚܝܚܐ ܘܗܘܐ ܒܙܚܐ܀60 ܒܪܝܬܐ ܟܠܗ̇ ܡܕܝܢܬܐ ܗܝ ܪܒܬܐ ܕܒܢܐ ܟܐܢܐ:ܘܐܩܝܡ ܠܗ ܒܗ̇ ܝܘܩܢܐ ܡܠܝܠܐ ܘܥܒܕܗ ܡܪܗ̇܀ܨܠܡܐ ܨܪ ܠܗ ܘܣܡ ܒܡܕܝܢܬܐ ܪܒܬܐ ܕܒܢ̣ܐ:ܘܚܣܡ̣ ܒܝܫܐ ܒܫܘܦܪܐ ܕܨܠܡܗ ܕܡܠܟܐ ܪܒܐ܀65 ܘܫܕܪ ܚܘܝܐ ܘܢܟܬܗ ܠܨܠܡܐ ܒܢܟܠܐ ܕܥܒܕ̣:ܡ̣ܢ ܗܝ̇ ܡܪܬܐ ܢܬܪ ܨܘܖ̈ܬܗ ܒܥܦܪܐ ܕܐܪܥܐ܀ܦܟܪܬܗ ܚܛܝܬܐ ܘܝܗܒܬܗ ܠܡܘܬܐ ܕܢܒܙܚ ܒܗ:ܘܫܪܝܗܝ ܘܫܕܝܗܝ ܘܚܒܠܗ ܘܕܫܗ ܘܗܘܐ ܥܦܪܐ܀ܥܠ ܥܘܢܕܢܐ ܫ̣ܪܐ ܠܐܣܛܘ̈ܟܣܐ ܕܐܣܝܪܝܢ ܗܘܘ:70 ܘܐܘܒܕ ܥܡܗܘܢ ܖ̈ܓܫܐ ܡܠܝ̈ܠܐ ܕܐܣܝܪܝܢ ܗܘܘ܀ܐܪܒܥܐ ܫܘܝ̈ܐ ܢܦܠܘ ܘܐܬܦܪܫ ܚܕ ܡ̣ܢ ܚܒܪܗ:ܘܐܘܒܕ ܥܡܗܘܢ ܚܡܫܐ ܘܒܛܠܘ ܡ̣ܢ ܪܘܟܒܐ܀ܒܐܪܒܥܐ ܟܕܝܢ ܗܘܐ ܦܓܪܐ ܘܪܗ̇ܛ ܐܝܟ ܡܪܟܒܬܐ:ܘܩܝܡܝܢ ܥܠܘܗܝ ܚܡܫܐ ܖ̈ܓܫܝܢ ܐܝܟ ܗܢܝܘ̈ܟܐ܀75 ܘܐܬܐ ܡܘܬܐ ܫ̣ܪܐ ܠܟܕܝ̈ܢܐ ܘܠܕܒܘܖ̈ܐ:ܘܢܦܠ̣ ܘܒ̣ܛܠ ܟܠܗ ܪܗܛܐ ܕܨܠܡܐ ܪܒܐ܀ܫ̣ܪܐ ܠܩܪܝܪܐ ܡ̣ܢ ܚܡܝܡܐ ܘܐܘܦܝܘ ܪܗܛܐ:ܘܠܪܛܝܒܐ ܡ̣ܢ ܝܒܝܫܐ ܘܢܚܘ ܕܘܒܖ̈ܐ܀ܘܡܚܕܐ ܕܦܣܩ̣ ܠܬܪܝܢ ܘܬܪܝܢ ܚܕ ܡ̣ܢ ܚܒܪܗ:80 ܐܒܕܘ ܚܡܫܐ ܘܒܛܠܘ ܬܫܥܐ ܘܐܝܟ ܠܝܬ ܐܢܘܢ܀ܚܙܝܐ ܘܫܡܥܐ ܘܛܥܡܐ ܘܓܫܬܐ ܘܣܘܩܐ ܐܒܕܘ:ܕܗܠܝܢ ܚܡܫܐ ܒܐܪܒܥܐ ܫܘܝ̈ܐ ܡܬܬܙܝܥܝܢ ܗܘܘ܀ܥܡ ܐܣܛܘ̈ܟܣܐ ܕܫܪܐ ܐܢܘܢ ܡܢ ܕܘܒܖ̈ܐ:ܒܛܠܘ ܐܦ ܖ̈ܓܫܐ ܕܠܐ ܢܬܬܙܝܥܘܢ ܥܠ ܣܘܥܖ̈ܢܐ܀85 ܠܐ ܓܝܪ ܚܙ̇ܐ ܐܦܠܐ ܫܡܥ̇ ܐܦܠܐ ܓܐܫ:ܐܦܠܐ ܛܥ̇ܡ ܐܦܠܐ ܣܐܩ ܕܐܬܒܕܪ ܠܗ܀ܕܙܪܩܗ ܡܘܬܐ ܘܒܙܘ̈ܝܬܐ ܕܩܒܪܐ ܣܡܗ:ܘܐܬܚܒܠܘ ܒܗ ܟܠܗܘܢ ܫܘܦܖ̈ܐ ܕܟܢܝܫܝܢ ܗܘܘ܀ܡ̣ܢ ܐܣܛܘ̈ܟܣܐ ܣܡܝܟ ܗܘܐ ܘܩܐܡ ܐܝܟ ܥܡܘܕܐ:90 ܒܚܝܠܐ ܟܣܝܐ ܗܘ̇ ܕܐܟܝܢܗ ܡ̣ܢ ܠܐ ܡܕܡ܀ܘܥܠ ܕܐܟܠ̣ ܗܘܐ ܡ̣ܢ ܐܝܠܢܐ ܘܫܛ ܦܘܩܕܢܐ:ܥܒܕ̣ ܠܗ ܫܪܝܐ ܒܡܘܬܐ ܘܒܛܠܬ݀ ܣܥܘܪܘܬܗ܀ܘܠܐܣܛܘ̈ܟܣܐ ܕܟܢܫ ܐܢܘܢ ܒܕܪ ܐܢܘܢ:ܘܖ̈ܓܫܐ ܕܣܕܪ ܚܒܠ ܘܕܪܐ ܘܒܛܠ ܐܢܘܢ܀95 ܘܫܘܦܖ̈ܐ ܦܐܝ̈ܐ ܕܪܓܝܓܝܢ ܗܘܘ ܦܫܘ ܘܐܬܚܒܠܘ:ܘܟܠ ܨܘܖ̈ܬܐ ܫܦܝܖ̈ܬܐ ܢܬ̣ܪ ܒܐܒܕܢܐ܀ܠܐ ܡܠܬܐ ܠܗ ܐܦܠܐ ܩܠܐ ܘܠܐ ܢܥ̈ܡܬܐ:ܕܣܟܪܗ ܠܦܘܡܐ ܡܘܬܐ ܒܫܬܩܐ ܘܦܫ ܡܠܠܐ܀ܢܦܠ̣ ܡ̣ܢ ܪܘܡܐ ܘܒܚܒܪܐ ܕܡܘܬܐ ܣܚܦܗ:100 ܘܒܦܘܪܣܝܐ ܢܚܬ̣ ܠܗ̇ ܠܫܝܘܠ ܐܝܟ ܚܠܫܐ܀ܒܚܘܛܐ ܕܢܦܫܐ ܒܕܡܘܬ ܥܩܐ ܕܡܖ̈ܓܢܝܬܐ:ܚܪܝܙ ܗܘܐ ܘܣܕܝܪ ܡ̣ܢ ܗܕܡ̈ܐ ܖ̈ܓܝܓܐ ܟܠܗ܀ܡܦܬܟܝܢ ܗܘܘ ܒܗ ܫܘܦܖ̈ܝܢ ܫܘܦܖ̈ܝܢ ܕܖ̈ܝܢ ܕܖ̈ܝܢ:ܘܥܒܝܕ ܗܘܐ ܚܕ ܫܘܦܪܐ ܪܒܐ ܕܠܐ ܡܣܬܝܟ܀105 ܘܥܠ̣ ܬܢܝܢܐ ܢܟܬܗ ܠܚܘܛܐ ܕܚܝ̈ܐ ܘܢܬܪ:ܘܗܐ ܦܪܝܛ ܘܕܪܐ ܥܩܐ ܪܚܝܡܐ ܒܥܘܒܗ̇ ܕܫܝܘܠ܀ܛܒ̈ܥܐ ܛܒ̈ܐ ܘܡܖ̈ܓܢܝܬܐ ܝܩܝܖ̈ܬܐ:ܐܬܦܬܟܘ ܒܗ ܘܗܘܐ ܟܠܝܠܐ ܕܢܘܗܪܐ ܪܒܐ܀ܘܢܫܡ̣ ܓܪܣܐ ܫܕܝܗܝ ܠܟܠܝܠܐ ܒܡܪܘܕܘܬܗ:110 ܘܗܐ ܒܓܘ ܩܒܪܐ ܙܪܝܩܝܢ ܛܒܥܘ̈ܗܝ ܘܕܪܐ ܫܘܦܪܗ܀ܫܒܝܚ ܗܘܐ ܐܕܡ ܐܦ ܡ̣ܢ ܬܓܐ ܒܫܘܦܪܗ ܪܒܐ:ܘܒܒܖ̈ܝܬܐ ܫܘܦܪܐ ܐܚܪܢܐ ܟܢܬܗ ܠܐ ܐܝܬ܀ܥܝ̈ܢܐ ܕܢܘܗܪܐ ܒܪܘܡܗ ܕܬܓܐ ܣܡ ܚܫܘܠܗ:ܕܐܝܟ ܡܢ ܪܘܡܐ ܢܕܘܩ ܒܖ̈ܝܬܐ ܕܟܖ̈ܝܟܢ ܠܗ܀115 ܠܬܚܬ ܐܬܩܢ ܠܗ ܖ̈ܓܠܐ ܠܪܗܛܐ ܐܝܟ ܡܪܟܒܬܐ:ܕܒܗܝܢ ܢܪܕܐ ܠܐܝܟܐ ܕܨܒ̇ܐ ܠܡܗܠܟܘ܀ܒܓܒܘ̈ܗܝ ܐܬܩܢ ܠܐܝ̈ܕܐ ܘܒܗܝܢ ܠܥܣܪ ܨܒ̈ܥܢ:ܕܒܗܝܢ ܢܐܚܘܕ ܝܡܐ ܘܝܒܫܐ ܘܥܠܡܐ ܟܠܗ܀ܐܬܩܢ ܡܘܚܐ ܒܝܬܐ ܠܗܘܢܐ ܕܢܗܘܐ ܬܡܢ:120 ܕܒܡܕܝܪܐ ܪܡܐ ܢܬܒ ܐܝܟ ܐܠܗܐ܀ܥ̣ܒܕ ܠܗ ܚܟܐ ܕܢܗܘܐ ܒܚܪ ܠܛ̈ܥܡܬܐ:ܘܣܡ ܒܗ ܛܥܡܐ ܕܢܦܪܘܫ ܚܠܝܐ ܡ̣ܢ ܡܪܝܪܐ܀ܦܬܚ ܠܗ ܣܘܩܐ ܕܠܖ̈ܝܚܢܐ ܫܒܝܠܐ ܢܗܘܐ:ܘܡܢܗ ܢܕܪܟ ܪܝܚܐ ܣܪܝܐ ܡ̣ܢ ܒܣܝܡܐ܀125 ܢܩܒ̣ ܡܫܡܥܬܐ ܘܟܪܟܗ̇ ܒܛܘܦܣܐ ܕܚܠܝܙܘܢܐ:ܕܢܬܟܪܟܘܢ ܒܗ̇ ܩ̈ܠܐ ܘܢܥܠܘܢ ܒܣܝܡܐܝܬ܀ܒܚܕܝܗ ܠܒܐ ܕܟܢܝܫܝܢ ܒܗ ܟܠ ܚܘ̈ܫܒܝܢ:ܕܐܝܟ ܡ̣ܢ ܓܙܐ ܪܒܐ ܢܣܪܚ ܟܠ ܣܝ̈ܡܬܐ܀ܒܦܘܡܗ ܡܠܬܐ ܘܒܣܦ̈ܘܬܗ ܦܘܪܫ ܩܠ̈ܐ:130 ܓܒܝ̈ܢܐ ܠܪܡܙܐ ܘܠܒܒ̈ܬܐ ܒܬܡܖ̈ܐ ܨܒܬ܀ܒܚܕ ܗܕܡܐ ܡܪܬܐ ܘܚܡܬܐ ܣܡ ܐܝܟ ܢܘܪܐ:ܕܢܬܓܘܙܠ ܒܗ̇ ܠܘܩܒܠ ܥܘܠܐ ܡܐ ܕܡܫܬܡܫ܀ܣܡ ܒܐܚܪܢܐ ܕܡܩܒܠܢܐ ܕܥܩܬܐ ܢܗܘܐ:ܕܗܘܐ ܡܬܬܘܐ ܥܠ ܒܝ̈ܫܬܐ ܡܐ ܕܡܣܬܥܖ̈ܢ܀135 ܝܗܒ ܠܐܚܪܢܐ ܕܢܗܘܐ ܡܫܡܫ ܠܦܨܝܚܘܬܐ:ܕܡܐ ܕܡܣܬܥܪܐ ܛܒܬܐ ܢܚܕܐ ܘܢܦܨܚ ܐܦܘ̈ܗܝ܀ܦܘܪܫܢ ܦܘܪܫܢ ܒܗܕܡ ܗܕܡ ܪܟܒ ܘܣܕܪ:ܚܟܝܡ ܥܠܡ̈ܐ ܒܨܠܡܐ ܕܫܘܦܖ̈ܐ ܟܕ ܡܬܩܢ ܠܗ܀ܡ̣ܢ ܠܐ ܡܕܡ ܡܕܡ ܪܒܐ ܥ̣ܒܕ ܒܪܘܝܐ:140 ܕܠܟܠܡܕܡ ܢܗܘܐ ܡܪܐ ܒܚܟܝܡܘܬܐ܀ܘܐܬܐ ܚܘܝܐ ܘܐܫܕ ܡܪܬܗ ܥܠ ܫܦܝܪܐ:ܘܐܡܣܝ ܥܒܕܗ ܣܝܢܐ ܣܪܝܐ ܒܓܘ ܚܫܘܟܐ܀ܘܗܝ̇ ܦܐܝܘܬܐ ܒܓܘܒܐ ܢܦܠܬ݀ ܕܬܬܢܘܠ ܒܗ:ܘܣܕܖ̈ܐ ܕܫܘܦܖ̈ܐ ܟܠܗܘܢ ܐܬܬܕܝܫܘ ܘܐܬܚܒܠܘ ܒܗ̇܀145 ܘܥܠ ܕܐܬܬܪܝܡ ܗܘܐ ܐܬܡܟܟ ܗܘܐ ܘܗܘܐ ܓܘܚܟܐ:ܢܦܠ̣ ܡ̣ܢ ܕܪܓܗ ܘܥܦܩ̣ ܡܕܪܗ ܘܩܕܝ ܫܦܠܗ܀ܪܡ ܗܘܐ ܕܪܓܗ ܐܠܘ ܩܘܝ ܒܕܪܓܗ ܪܡܐ:ܘܕܠܐ ܩܘܝ ܥܡܝܩ ܦܚܬܗ ܘܡܠܐ ܙܘ̈ܥܐ܀ܒܪܝܬܗ ܪܒܐ ܘܪܡܐ ܘܦܐܝܐ ܘܡܠܝܐ ܫܘܦܖ̈ܐ:150 ܕܡ̣ܢ ܠܐ ܡܕܡ ܐܬܬܟܝܢ ܘܗܘܐ ܬܡܝܗܐ ܡܕܡ܀ܪܡܙܗ̇ ܟܣܝܐ ܕܥܒܘܕܘܬܐ ܟܢܫ̣ ܡܕܪܐ:ܘܐܪܡܝ ܘܓܒܠ̣ ܛܝܢܐ ܘܚܠܛܗ ܘܚܝܕܗ ܒܐܐܪ܀ܘܦܠܚܗ ܒܢܘܪܐ ܘܝܗܒ ܠܗ ܪܘܚܐ ܡܚܝܢܝܬܐ:ܘܗܘܐ ܨܠܡܐ ܕܝܒܝܫ ܪܛܝܒ ܩܪܝܪ ܚܡܝܡ܀155 ܚܠܛ̣ ܠܐܣܛܘ̈ܟܣܐ ܐܝܟ ܕܠܓܘ̈ܢܐ ܘܡܙܓ ܐܢܘܢ:ܘܥܒܕ̣ ܡܢܗܘܢ ܨܘܪܬܐ ܦܐܝܬܐ ܕܡܠܝܐ ܫܘܦܖ̈ܐ܀ܡ̣ܢ ܣܡܡܢ̈ܐ ܓܒܝ̈ܐ ܕܦܚܡ̣ ܨܪ ܠܗ ܨܠܡܐ:ܘܥܒܕܗ ܚܬܢܐ ܒܗܢܐ ܓܢܘܢܐ ܪܒܐ ܕܩܛܪ܀ܨܒܬܗ̇ ܠܚܘܐ ܟܠܬܐ ܒܬܘܠܬܐ ܘܝܗܒܗ̇ ܠܐܕܡ:160 ܘܒܦܪܢܝܬܗ̇ ܐܪܡܝ ܝܡܐ ܘܝܒܫܐ ܘܐܐܪ܀ܟܠܗܘܢ ܥܠܡ̈ܐ ܟܢܫܘ ܠܚܠܘܠܐ ܪܒܐ ܕܥܒܕ̣:ܘܐܦܪܓܘ ܚܬܢ̈ܐ ܒܟܠܝܠܝ̈ܗܘܢ ܘܠܒܘܫܝ̈ܗܘܢ܀ܟܣܝ ܐܢܘܢ ܢܘܗܪܐ ܓܐܝܐ ܘܙܝܘܐ ܦܐܝܐ:ܘܫܒܩ̣ ܐܢܘܢ ܒܝܬ ܐܝܠܢ̈ܐ ܠܡܬܓܐܝܘ܀165 ܝܗܒܘ ܪܘܡܝܢܐ ܟܠ ܐܝܠܢܐ ܘܐܒܒܢܝ̈ܗܘܢ:ܘܪܘܙܬ݀ ܓܢܬܐ ܒܟܠܬܐ ܘܚܬܢܐ ܕܪܚܝܡܝܢ ܗܘܘ܀ܐܝܠܢ ܚܝ̈ܐ ܒܓܘ ܩܝܛܘܢܐ ܪܒܐ ܕܥܕܢ:ܟܣܐ ܗܘܐ ܕܢܗܘܐ ܠܚܬܢ̈ܐ ܕܢܘܗܪܐ ܡܐ ܕܐܫܬܡܠܝܘ܀ܐܝܠܢܐ ܕܝܢ ܗܘ̇ ܕܝܕܥܬܐ ܕܡܠܐ ܡܘܬܐ:170 ܠܒܪ ܡ̣ܢ ܗܢܐ ܓܠܐ ܗܘܐ ܘܩܐܡ ܐܝܟ ܫܦܝܪܐ܀ܘܕܢܕܥܘܢ ܗܘܘ ܡܢܘ ܡܪܐ ܕܐܘܪܒ ܐܢܘܢ:ܣܡ ܢܡܘܣܐ ܕܠܐ ܢܐܟܠܘܢ ܗܘܘ ܡ̣ܢ ܐܝܠܢܐ܀ܟܠܗ̇ ܓܢܬܐ ܝܗܒ ܠܒ̈ܢܝܐ ܚܕ̈ܬܐ ܕܩܢܐ:ܘܚܕ ܐܝܠܢܐ ܒܠܚܘܕ ܝܗܒ ܠܗ ܕܢܒܚܘܪ ܐܢܘܢ܀175 ܘܥܠ̣ ܛܪܟܢܐ ܘܐܪܡܝ ܣܕܩ̈ܐ ܒܗܝ̇ ܡܫܬܘܬܐ:ܘܓܢܒܗ̇ ܠܟܠܬܐ ܘܠܚܫ̣ ܕܓܠ̣ ܘܐܛܥܝ ܢܟܠܗ̇܀ܢܨܐ ܒܝܢܬ ܝܘ̈ܢܐ ܒܪܝܖ̈ܐ ܫܒܝ̈ܚܐ ܥܠ ܩܡ:ܘܐܦܪ ܐܢܘܢ ܡ̣ܢ ܗܘ̇ ܩܢܐ ܪܒܐ ܕܥܕܢ܀ܥܠ̣ ܗܘܐ ܚܣܡܐ ܥܠ ܫܦܝܖ̈ܐ ܘܕܘܕ ܐܢܘܢ:180 ܘܢܟܠܗ ܕܚܘܝܐ ܐܫܛܝ ܘܚܒܠ̣ ܘܥܪܩܠ ܐܢܘܢ܀ܘܐܡܪܚܘ ܘܐܟܠܘ ܡ̣ܢ ܐܝܠܢܐ ܕܡܠܐ ܡܘܬܐ:ܘܨܦܚܬ݀ ܐܢܘܢ ܒܗܬܬ ܐܦ̈ܐ ܘܫܡܐ ܣܪܝܐ܀ܫܪܟܘ ܠܚܒܠܐ ܬܨܒܝܬܝ̈ܗܘܢ ܘܟܠܝܠܝ̈ܗܘܢ:ܕܥܟܘ ܫܘܦܖ̈ܝܗܘܢ ܘܒܛܠܘ ܩܠ̈ܐ ܕܝܘܒܒܝ̈ܗܘܢ܀185 ܠܐܣܛܠ ܢܘܗܪܐ ܕܠܒܝܫܝܢ ܗܘܘ ܚܛܦܗ̇ ܚܘܝܐ:ܘܫܠܝܚܐܝܬ ܩܡܘ ܓܢܒ̈ܐ ܒܙܘܥܐ ܪܒܐ܀ܦܐܪܐ ܕܪܓܬܐ ܦܪܣܝ ܐܢܘܢ ܘܐܒܗܬ ܐܢܘܢ:ܘܫ̣ܪܐ ܘܚܒܠ̣ ܟܠܗܘܢ ܫܘܦܖ̈ܐ ܕܥܛܝܦܝܢ ܗܘܘ܀ܢܚܬ̣ ܠܚܒܠܐ ܨܠܡܐ ܕܨܪܬ݀ ܐܠܗܘܬܐ:190 ܘܗܐ ܡܕܝܫ ܠܗ ܡܘܬܐ ܒܫܝܘܠ ܘܡܣܚܦ ܠܗ܀ܥܒܪ ܐܝܩܪܐ ܡ̣ܢ ܝܩܝܪܐ ܘܟܪܟܗ ܨܥܪܐ:ܘܢܦܠ̣ ܪܒܐ ܡ̣ܢ ܪܒܘܬܗ ܘܩܕܝ ܫܦܠܐ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>175 Es trat ein der Verleumder und brachte Spaltung (Uneinigkeit) in diese Hochzeit: und er stahl ihm (Adam) die Braut, flüsterte, führte Irre und betrog sie (Eva).Wie ein Habicht trat er ein und stellte sich unter unschuldige und gepriesene Tauben. Und er scheuchte sie aus dem großen Nest, Eden.Es trat ein die Eifersucht bei den Schönen und verdarb sie: 180 Der Betrug der Schlange entehrte und ruinierte sie und ließ sie straucheln.Sie wurden hochmütig und aßen vom Baum der voll des Todes ist: Schande stürzte über sie hinein und ein verdorbener Name.In Verderbnis blieben zurück ihre Pracht und Kronen: Es verblasste ihre Schönheit und es verstummte die Stimme ihrer Gesänge (der Gesänge auf sie und ihre eigenen Lobgesänge).
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Who has ever painted for himself such an image,and filled it with wonder for it to be a marvel in the world?The image is glorious and it proclaims marvelous things about its Creator:How wise, how omnipotent, and how powerful He is!55 Wisdom painted a great image full of wonder,brought it in and set it between the worlds so that they could gaze upon it.She loaded it up with adornments that all creatures might be seen in it,but it forgot its nature and handed itself over to death that it may see its own fall.Beauty fell down to the dust and became an object of shame;60 because it transgressed the command of its Lord, it was handed over to death.All creation is a great city which the Just One built,He established for Himself therein a rational icon and made him its lord.He painted an image for Himself and set it in the great city that He built,but the evil one was envious of the beauty of the image of the Great King.65 He sent a serpent and it bit that image by the deceit that it wrought,from that bile its adornments fell off into the dust of the earth.Sin ensnared it and handed it over to death in order to plunder it,it broke it, cast it down, perverted it, trampled on it and it became dust.At the demise [of that image] those elements that had been bound were dissolved,70 and with them those rational senses that had been bound were destroyed.The four equal things fell apart and each was separated from its companion,and destroyed the five along with them, and their composition came to an end.The body was yoked to the four and it ran along like a chariot,and the five senses stood upon it like charioteers.75 Then death came and unhitched the yokes and the guides,and every course of that great image fell and it came to its end.It separated the cold from the hot and put an end to their operations,as well as the moist from the dry and their functions came to an end.And as soon as it cut off these two, one from the other,80 the five perished and the nine came to an end as if they had never been.Sight, hearing, taste, touch, and smell all perished,for these five had moved together equally with the four.Along with the elements that it loosed from [their] ways,those senses also ceased, no longer to move according to their functions.85 For no longer would it see, hear, or touch,nor would it taste or smell, for each had been dispersed.For death scattered it and put it into the corners of a grave,and all the beauties that had been assembled were destroyed by it.Out of the elements it had been constituted and stood like a pillar,90 by that hidden power that had given it its nature from nothing.Because it had eaten from the tree and despised the commandment,it caused its own dissolution in death and its activity came to an end.And the elements that He had gathered up, it scattered,and the senses that He had ordered, it destroyed, trampled and brought to an end.95 And those comely, desirable beauties came to an end and were destroyed,and all the beautiful adornments fell into destruction.It had no speech, no sound, not even a whisperfor death had closed its mouth in silence and its speech ceased.It fell from the height and was thrust down as a companion of death,100 in its nakedness it went down to Sheol like a feeble one.On the thread of the soul like a necklace of pearls,it had been entirely strung and arrayed with pleasing limbs;all the various types of beauty were intermingled in it,and it had become one great beauty with no bounds.105 The dragon came, stung the thread of life and it fell off,and behold that lovely necklace burst and rolled into the bowels of Sheol.Precious gems and costly pearlshad been embroidered on it and it had been a great crown of light.The viper hissed and in its rebellion cast away the crown;110 its gems were scattered and its beauty dispersed into the grave.In his great beauty Adam was even more glorious than a crown,and among creatures there was no other beauty comparable to his.His Jeweler set springs of light atop his crown,so as if from on high he might gaze upon the creatures that surrounded him.115 Beneath him He fashioned feet for racing like a chariot,so that with them he might travel wherever he wished to go.On his flanks He fashioned hands and on them ten fingers,that with them he might lay hold of the sea, the dry land and the whole world.He fashioned a brain to be a home for his mind,120 so that it might reside in a lofty dwelling like a god.He made for him a palate that he might be able to discriminate tastes,and He set taste therein that he might distinguish sweet from bitter.He opened nostrils for him so that they might be a path for odorsby which he might discern a putrid smell from a sweet one.125 He bore out a passage for hearing and surrounded it with the form of a seashell,that sounds might circulate and enter in gently through it.In his breast is the heart wherein all his thoughts are gathered,so that as if from a great storehouse it may put forth all its treasures.Speech is through his mouth and with his lips the distinction of sounds,130 eyebrows for expressions, and He adorned the pupils with eyelashes.In one member He placed bitterness and anger like a fire,by which he might be inflamed against wickedness whenever it occurred.In another He placed them to be the receptacle for sadness,that he might feel remorse for evils when they were committed.135 To yet another He granted that it should serve for cheerfulness,so that when good is done his countenance might be glad and joyful.Various things for each limb did the Wise One of the ages form and arrange on that beautiful image when He fashioned it.Out of nothing the Creator made a very great thing,140 that by its own wisdom it might be lord of everything.But the serpent came and spewed its bile upon that beautiful thing,and turned it into putrid and fetid filth in the darkness.This comeliness fell into the pit that it might be tormented therein,and every quality of its beauty was trampled and destroyed in it.145 Because he had been exalted he was brought low and became a mockery;he fell from his station, embraced his clay and took hold of his lowliness.His station had been high! Would that he had held fast to his high station!But he did not remain [there]; his chasm was deep and full of terrors.His creation was great, exalted, comely and full of beauties,150 for he was constituted from nothing and had been made something wondrous.The hidden signal of the Maker had gathered up some clay,took it and formed mud, then He mixed it and united it with air.He tempered it with fire and gave it a life-giving spirit,and it became an image that is dry and moist, hot and cold.155 He mixed in the elements as if they were colors and blended them in,and He made from them a comely form full of beauty.From choice pigments that He had selected He painted for Himself an image,and made it a bridegroom in this great bridal chamber that He had framed.He adorned Eve as a virgin bride and gave her to Adam,160 and into her dowry He put the sea, the dry land, and the air.All the worlds gathered for the great marriage feast that He had prepared,the bridal couple were radiant in their crowns and their raiment.He covered them in magnificent light and in elegant radiance,and He left them among the trees to enjoy their delights.165 He gave them every tree and their fruits as a wedding present,and the garden exulted in the bride and bridegroom for they were beloved.The tree of life was in the great bridal chamber of Eden;it was concealed, to be for that luminous couple when they were perfected.But that tree of knowledge which was full of death,170 stood out in the open beside it like something beautiful. And so that they would know who was the Lord who had exalted them,He set down a law that they should not eat from that tree.The entire garden He gave to these new children He had established, only one single tree did He give in order to test them.175 The malicious one entered and cast divisions into that wedding feast,he stole away the bride, whispered, lied, beguiled and deceived her.A[s a] hawk among innocent and glorious doves he entered and stood,and made them fly off from that great nest of Eden.Envy came upon those beautiful ones and it troubled them,180 the deceit of the serpent infatuated, corrupted and tripped them up.They went ahead rashly and ate from the tree that was full of death,disgrace and dishonor sprang immediately upon them.Their adornments and their crowns were reduced to naught,their beauty was extinguished and their joyful sounds came to an end.185 The serpent snatched away the garment of light in which they were clothed,and in great terror, those thieves stood there naked.The fruit of desire stripped them and brought shame upon them,it destroyed and ruined all the beauty in which they had been arrayed. The image that the Divinity had painted went down to destruction,190 then death trampled it down and thrust it into Sheol.Honor passed away from the honored one and disgrace enveloped him,that great one fell from his greatness and took hold of lowliness.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

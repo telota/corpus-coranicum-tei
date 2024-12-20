@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tetradrachme des Lysimachos (3. Jh. v. Chr.)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1478" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1478</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Bezeichnung und Darstellung Alexanders des Großen als "Zweigehörnten" geht auf die enge Verbindung zwischen dem makedonischen König und dem synkretistischen Gott Zeus-Ammon zurück. Nach Alexanders Reise zum Ammon-Tempel in der ägyptischen Oase Sīwa soll Alexander zum Sohn Ammons erklärt worden sein (vgl. Kallisthenes, FGrH 124, F14a, Jacoby = Strabon, XVII 1, 43 und Pseudo-Kallisthenes, vgl. TUK_1469). Obwohl diese Beziehung zwischen Alexander und Ammon erst in der Spätantike durch den einflussreichen Alexanderroman weit rezipiert wurde (siehe TUK_1470, TUK_1471), finden sich Darstellungen Alexanders mit den Widderhörnern des Ammon bereits auf einigen frühhellenistischen Münztypen. Neben einem frühen ptolemäischen Münztypus, der Alexander mit Ammon-Hörnern und Elephantenhelm repräsentiert (siehe Dahmen 2007: 112-116, Lorber 2012: 211-212), ist die hier abgebildete Tetradrachme des Lysimachos (360-281 v. Chr.) wohl die bekannteste Münzdarstellung Alexanders mit Hörnern. Dieser Münztypus war in Thrakien und Kleinasien bis ins 2.-1. Jh. v. Chr. in Umlauf und wurde bis in Zentraleuropa (in keltischen Münzprägungen) oft nachgeahmt. Im östlichen Mittelmeerraum war dieser Typus jedoch wahrscheinlich wenig verbreitet und er wurde relativ schnell durch andere Typen ersetzt. In diesem Kontext ist es bemerkenswert, dass einige Städte in den römischen Provinzen Palästina und Arabien (z.B. Kapitolias, Gerasa), welche Alexander als ihren "Stammvater" (Gr. γενάρχης) oder "Gründer" (Gr. κτίστης) ansahen, bis ins 3. Jh. n. Chr. Münzen mit einer Darstellung Alexanders prägten (dazu Dahmen 2007: 28-30, 130-133).Die hier abgebildete Münze aus dem Berliner Münzkabinett wurde unmittelbar nach der Regierungszeit des Lysimachos in Ainos (Thrakien) geprägt. Auf der Vorderseite (Obvers) wird Alexander der Große (Profil, rechts) mit Ammon-Hörnern und Diadem dargestellt. Auf der Rückseite (Revers) ist neben dem Namen des Lysimachos eine sitzende Athena Nikephoros (die "Siegestragende") in Rüstung mit Schild und Speer zu sehen.Zum Verhältnis zwischen der griechischen und syrischen Alexanderliteratur und dem Koran, siehe TUK_1401, TUK_1402, TUK_1403, TUK_1415, TUK_1416, TUK_1417, TUK_1475.</summary>
+            <msItem>
+              <title>Tetradrachme des Lysimachos (3. Jh. v. Chr.)</title>
+              <author>Lysimachos, König von Thrakien (c. 360 - 281 v. Chr.)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 281-250 v. Chr.</origDate>
+              <origPlace>Thrakien / Kleinasien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Dahmen, Karsten: The Legend of Alexander the Great on Greek and Roman Coins. Routledge, New York / London 2007.</bibl>
+              <bibl type="literatur">Lorber, Catharine: &amp;#x201E;The Coinage of the Ptolemies&amp;#x201C;. In: The Oxford Handbook of Greek and Roman Coinage. Oxford University Press, Oxford 2012, S. 211&amp;#x2013;234.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FDE-MUS-814819-18249704-av.jpg&amp;dw=1000"/>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FDE-MUS-814819-18249704-rv.jpg&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>Rückseite: BAΣIΛΕΩΣ / ΛYΣIMAXOY</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Rückseite: "Des Königs / Lysimachos."</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

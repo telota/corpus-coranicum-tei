@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Das Leben Adams und Evas 32:1-33:3</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_452" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>452</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die genannten Koranverse erzählen, wie Adam vom verbotenen Baum isst und aus dem Paradies vertrieben wird. Anders als im Buch Genesis (vgl. TUK_0451) erscheint dabei nicht die Schlange, sondern der Teufel als Verführer. Der Koran stimmt in diesem Punkt mit dem hier zitierten Abschnitt aus dem "Leben Adams und Evas" überein. Die Identifikation des Teufels mit einer Schlange geht auf eine ältere Tradition zurück: So ist sie bereits in der Offenbarung des Johannes bezeugt (vgl. TUK_1104), allerdings nicht im Kontext des Sündenfalls. Vgl. ähnlich Augustinus, De Civitate Dei 14:11, wo sich der Teufel der Schlange bedient (vgl. TUK_1105). Für weitere Beispiele s. Speyer 1931: p. 68-69.
+
+	Anhand des Schicksals der ersten Menschen behandelt  "Das Leben Adams und Evas" die allgemeine Situation des Menschen, zu dessen Leben die Erfahrung von Tod, Leid und Krankheit gehört. In diesem Zusammenhang liegt der Schwerpunkt vor allem auf der Kraft der Buße, durch die der Mensch wieder Gottes Zuwendung erfahren kann. Daneben wird auch die Rolle des Satans behandelt, sowohl in seinem Verhältnis zu Gott als auch zur menschlichen Willensfreiheit. Verschiedene Indizien sprechen dafür, dass es sich um einen jüdisch-hellenistischen Text handelt, trotz der ausschließlichen Überlieferung in christlichen Handschriften. Spezifisch christliche Elemente finden sich jedoch nur im sekundären Teil 29:1-10, sowie in dem aus dem Nikodemusevangelium eingeschobenen Teil 41:1-42:2. Ursprünglich wurde "Das Leben Adams und Evas" wahrscheinlich auf griechisch verfasst, ist heute aber nur noch in Übersetzungen erhalten (neben der vorliegenden lateinischen gibt es auch armenische, georgische und altkirchenslavische Rezensionen). Auch besteht eine gewisse Beziehung zur griechischen Apokalypse des Mose; neben einander entsprechenden Passagen enthalten beide Texte jeweils auch Sondergut; die genaue Abhängigkeit zwischen den beiden Texten ist aber nicht geklärt. (Vgl. dazu Merk and Meiser 1998: p. 740-776).
+</summary>
+            <msItem>
+              <title>Das Leben Adams und Evas 32:1-33:3</title>
+              <author/>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 1. Jh. n.Chr.</origDate>
+              <origPlace>Palästina oder Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Wilhelm Meyer (Hg.), Vita Adae et Evae, München 1878.
+</bibl>
+              <bibl type="literatur">Merk, Otto &amp;amp; Meiser, Martin (Hrsg.): Das Leben Adams und Evas. G&amp;#xFC;tersloh 1998.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>
+	32:1 Et respondit Adam et dixit: audite me, filii mei. quando fecit nos deus, me et matrem vestram, et posuit nos in paradisum et dedit nobis omnem arborem fructiferam ad edendum et interdixit nobis: de arbore scientiae boni et mali, quae est in medio paradisi, ne comedatis ex ea. 2 Deus autem partem dedit paradisi mihi et matri vestrae: arborem orientalis partis et boreae quae est (et erubie que est?, et bone que est?, boree quod est?) contra aquilonem dedit mihi, et matri vestrae dedit partem austri et partem occidentalem. 33:1 Dedit nobis dominus deus angelos duos ad custodiendos nos. 2 Venit hora ut ascenderunt angeli in conspectu dei adorare. statim invenit locum adversarius diabolus dum absentes essent angeli. et seduxit diabolus matrem vestram, ut manducaret de arbore inlicita et contradicta. 3 et manducavit et dedit mihi.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	32:1 Und Adam antwortete und sprach: "Höret mich, meine Söhne, als Gott uns geschaffen hat, mich und eure Mutter, hat er uns in das Paradies gesetzt und hat uns allen fruchttragenden Baum zum Essen gegeben und hat uns verboten: Von dem Baum der Erkenntnis des Guten und Bösen, der in der Mitte des Paradieses ist, sollt ihr nicht essen. 2 Gott aber gab (jedem von) uns einen Teil des Paradieses, mir und eurer Mutter: den Baum des östlichen Teils und desjenigen, der gegen Norden liegt, gab er mir, und eurer Mutter gab er den südlichen und den westlichen Teil. 33:1 Es gab uns Gott der Herr zwei Engel uns zu bewachen. 2 Es kam eine Stunde, da die Engel hinaufstiegen vor das Angesicht Gottes, um anzubeten. Sofort fand der Feind, der Teufel, die Gelegenheit, als die Engel abwesend waren. Und es verführte der Teufel eure Mutter, so daß sie von dem verbotenen und uns verwehrten Baum aß. 3 Und sie aß und gab mir.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

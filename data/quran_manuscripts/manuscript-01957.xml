@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1957">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Detroit, Michigan, Detroit Institute of Arts, 28.148.5</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="96">Detroit Institute of Arts
+                            , Detroit, Michigan</repository>
+            <idno>28.148.5</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on paper; Shelfmark: 28.148.5; Qurʾānic Text: Q 29:55-30:15; 20 lines per page; Dimensions: 102 x 152mm. </p>
+              <p> </p>
+              <p>This  is a collection of the fragments under the shelfmark 28.148.5, consisting  of <ref target="https://dia.org/collection/qur-folio-36">28.148.5A</ref> and <ref target="https://dia.org/collection/qur-folio-37#">5B</ref>. For further information about the fragments in question, see the linked pages of the Detroit Institute of Arts.</p>
+            </summary>
+            <msItem xml:id="mysql_id_698603" n="1r">
+              <title type="numeric" key="029:055:012-029:069:009">
+                                    029:055:012-029:069:009
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_708076" n="1v">
+              <title type="numeric" key="030:000:000-030:015:004">
+                                    030:000:000-030:015:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>102</width><height>152</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="20">20 - 20 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_54336">
+      <graphic decls="#imageRights-1" url="manuscript/1957/ae329730-78a6-4efd-b103-0bdb16ea6b4d/manuscript-1957-page-54336-image-44362.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76899">
+      <graphic decls="#imageRights-1" url="manuscript/1957/3f6a60a8-a270-49a6-81f7-0d69b9bee45f/manuscript-1957-page-76899-image-69137.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

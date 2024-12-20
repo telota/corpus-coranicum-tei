@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Genesis 11:1-9</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_224" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>224</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Den angegebenen Koranstellen zufolge läßt sich Pharao ein hoch aufragendes Schloss (ṣarḥ; zur Etymologie vgl. Jeffery 1938: p. 196-197) errichten, um auf ihm zu Gott emporzusteigen. Von einem entsprechenden Vorhaben Pharaos ist in der biblischen Moseserzählung nicht die Rede. Der Koran erinnert in diesem Motiv mehr an die Geschichte vom Turmbau zu Babel aus dem Buch Genesis (Speyer 1931: p. 116). In beiden Fällen soll die Turmbauerzählung die Überheblichkeit der Menschen bzw. Pharaos sowie das Streben nach Macht und bleibender Geltung veranschaulichen. Eine vielleicht engere Parallele zur koranischen Version findet sich in der Turmbauerzählung des Jubiläenbuches (TUK_0926), die den Grund für den Turmbau ähnlich wie der Koran schildert. Zur möglichen Rezeption der Turmabauerzählung im Koran vgl. EBR, Art. Babel, Tower of, IV. Islam. Dass der Koran hier ein biblisches Motiv aufgreift ist aber nicht die einzige Erklärungsmöglichkeit. Bei einer Assoziation Pharaos mit imposanten Bauwerken liegt auch eine Anspielung auf die Pyramiden durchaus nahe. Interessant ist, dass die koranische Erzählung den aus der biblischen Estergeschichte (vgl. TUK_0427) bekannten Haman mit Pharao und dem Turmbau verknüpft (vgl. Silverstein 2008). Für eine mögliche Assoziation Hamans mit Pharao in der rabbinischen Literatur vgl. TUK_1061.
+</summary>
+            <msItem>
+              <title>Genesis 11:1-9</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Silverstein, Adam: &amp;#x201E;H&amp;#x101;man&amp;#x2019;s transition from J&amp;#x101;hiliyya to Islam&amp;#x201C;. In: Jerusalem Studies in Arabic and Islam 34 (2008), S. 285&amp;#x2013;308.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיְהִי כָל־הָאָרֶץ שָׂפָה אֶחָת וּדְבָרִים אֲחָדִים : וַיְהִי בְּנָסְעָם מִקֶּדֶם וַיִּמְצְאוּ בִקְעָה בְּאֶרֶץ שִׁנְעָר וַיֵּשְׁבוּ שָׁם : וַיֹּאמְרוּ אִישׁ אֶל־רֵעֵהוּ הָבָה נִלְבְּנָה לְבֵנִים וְנִשְׂרְפָה לִשְׂרֵפָה וַתְּהִי לָהֶם הַלְּבֵנָה לְאָבֶן וְהַחֵמָר הָיָה לָהֶם לַחֹמֶר : וַיֹּאמְרוּ הָבָה נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כָל־הָאָרֶץ : וַיֵּרֶד יְהוָה לִרְאֹת אֶת־הָעִיר וְאֶת־הַמִּגְדָּל אֲשֶׁר בָּנוּ בְּנֵי הָאָדָם : וַיֹּאמֶר יְהוָה הֵן עַם אֶחָד וְשָׂפָה אַחַת לְכֻלָּם וְזֶה הַחִלָּם לַעֲשׂוֹת וְעַתָּה לֹא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַעֲשׂוֹת : הָבָה נֵרְדָה וְנָבְלָה שָׁם שְׂפָתָם אֲשֶׁר לֹא יִשְׁמְעוּ אִישׁ שְׂפַת רֵעֵהוּ : וַיָּפֶץ יְהוָה אֹתָם מִשָּׁם עַל־פְּנֵי כָל־הָאָרֶץ וַיַּחְדְּלוּ לִבְנֹת הָעִיר : עַל־כֵּן קָרָא שְׁמָהּ בָּבֶל כִּי־שָׁם בָּלַל יְהוָה שְׂפַת כָּל־הָאָרֶץ וּמִשָּׁם הֱפִיצָם יְהוָה עַל־פְּנֵי כָּל־הָאָרֶץ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Alle Menschen hatten die gleiche Sprache und gebrauchten die gleichen Worte. 2 Als sie von Osten aufbrachen, fanden sie eine Ebene im Land Schinar und siedelten sich dort an. 3 Sie sagten zueinander: Auf, formen wir Lehmziegel und brennen wir sie zu Backsteinen. So dienten ihnen gebrannte Ziegel als Steine und Erdpech als Mörtel. 4 Dann sagten sie: Auf, bauen wir uns eine Stadt und einen Turm mit einer Spitze bis zum Himmel und machen wir uns damit einen Namen, dann werden wir uns nicht über die ganze Erde zerstreuen. 5 Da stieg der Herr herab, um sich Stadt und Turm anzusehen, die die Menschenkinder bauten. 6 Er sprach: Seht nur, ein Volk sind sie und eine Sprache haben sie alle. Und das ist erst der Anfang ihres Tuns. Jetzt wird ihnen nichts mehr unerreichbar sein, was sie sich auch vornehmen. 7 Auf, steigen wir hinab und verwirren wir dort ihre Sprache, sodass keiner mehr die Sprache des anderen versteht. 8 Der Herr zerstreute sie von dort aus über die ganze Erde und sie hörten auf, an der Stadt zu bauen. 9 Darum nannte man die Stadt Babel [Wirrsal], denn dort hat der Herr die Sprache aller Welt verwirrt, und von dort aus hat er die Menschen über die ganze Erde zerstreut.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

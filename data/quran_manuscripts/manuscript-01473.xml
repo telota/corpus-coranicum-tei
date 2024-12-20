@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1473">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>San Francisco, California, Asian Art Museum, 2004.60.a-.b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="75">Asian Art Museum
+                            , San Francisco, California</repository>
+            <idno>2004.60.a-.b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>1 fol. on parchment; Shelfmark: 2004.60.a-.b; Qurʾānic Text:  Q 64:9-64:15; 11 lines per page; Dimensions: 197 x 121mm; Script style: kūfī. </p><p> </p>For more information see the <ref target="https://searchcollection.asianart.org/objects/15978">website of the museum</ref>.<p/><p> </p></summary>
+            <msItem xml:id="mysql_id_687636" n="1r">
+              <title type="numeric" key="064:009:009-064:012:005">
+                                    064:009:009-064:012:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687637" n="1v">
+              <title type="numeric" key="064:012:006-064:015:008">
+                                    064:012:006-064:015:008
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>197</width><height>121</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="11">11 - 11 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47596">
+      <graphic decls="#imageRights-1" url="manuscript/1473/d101c072-a07a-4c08-92b5-4bf4715a0a95/manuscript-1473-page-47596-image-33763.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47597">
+      <graphic decls="#imageRights-1" url="manuscript/1473/94dea76a-f4f2-4b14-9e3f-aa20b2b30351/manuscript-1473-page-47597-image-33764.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

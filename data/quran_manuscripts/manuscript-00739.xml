@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_739">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 381 (f)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 381 (f)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Der Katalog der Pariser Koranhandschriften (Déroche 1983: p. 134) enthält folgende Angaben: "Arabe<hi rend="bold"> 381 f </hi>: ffo 81 et 82. Fo 81 : I, 3-II, 2; fo 82 : II, 10-14. Copie anonyme et non datée. Graphie E I. Diacritiques : quelques traits obliques; vocalisation : points rouges. Les versets ne sont pas séparés ; des <hi rend="italic">hāʾ </hi>couﬁques dorés signalent les groupes de cinq versets, des médaillons de type 2.C.I ceux de dix. La sourate II est précédée de son titre et du nombre de ses versets en caractères dorés sur un fond blanc et vert à l’intérieur d’un cadre doré constitué d’une bande où court une tige ondulée dorée ; une vignette composite accompagne le décor (cf. fo 81 vo). Parchemin. 2 feuillets. Page : 93 x 140. 6 lignes. Encre brune. Surface d'écriture : 48 X 102."</p>
+            </summary>
+            <msItem xml:id="mysql_id_695891" n="81r">
+              <title type="numeric" key="001:003:002-001:007:005">
+                                    001:003:002-001:007:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_695892" n="81v">
+              <title type="numeric" key="001:007:006-002:002:002">
+                                    001:007:006-002:002:002
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_695893" n="82r">
+              <title type="numeric" key="002:010:006-002:012:005">
+                                    002:010:006-002:012:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_695894" n="82v">
+              <title type="numeric" key="002:012:006-002:014:005">
+                                    002:012:006-002:014:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>140</width><height>93</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="6">6 - 6 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī E.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="81r" xml:id="mysql_id_35049">
+      <graphic decls="#imageRights-1" url="manuscript/739/f687296a-90b8-44a0-b9af-8ca3fa1330e7/manuscript-739-page-35049-image-19778.jpg"/>
+    </surface>
+    <surface n="81v" xml:id="mysql_id_35050">
+      <graphic decls="#imageRights-1" url="manuscript/739/2a0bdd9d-14e1-4f28-a986-7fb8848f1858/manuscript-739-page-35050-image-19779.jpg"/>
+    </surface>
+    <surface n="82r" xml:id="mysql_id_35051">
+      <graphic decls="#imageRights-1" url="manuscript/739/292cfc31-ffe9-41bd-a3e7-ece440f0f257/manuscript-739-page-35051-image-19780.jpg"/>
+    </surface>
+    <surface n="82v" xml:id="mysql_id_35052">
+      <graphic decls="#imageRights-1" url="manuscript/739/51788d1c-0894-48f4-a0d3-8b2354f84adb/manuscript-739-page-35052-image-19781.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1509">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cincinnati, Ohio, Cincinnati Art Museum, 1977.38a-b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Cincinnati, Cincinnati Art Museum, Fanny Bryce Lehmer Fund Accession No: 1977.38a-b.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="91">Cincinnati Art Museum
+                            , Cincinnati, Ohio</repository>
+            <idno>1977.38a-b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>Single paper folio, Shelfmark: 1977.38a-b; Qurʾānic Text: Q 21:49 - 21:51; 4  lines per page; Dimensions: 241 x 152 mm; Script style: kūfī D.I;  Estimated date of production: 800-1000. </p><p> </p><p>The <ref target="https://www.cincinnatiartmuseum.org/art/explore-the-collection?id=24980089">website of the Cincinnati Art Museum</ref> provides the following information about this fragment:  </p>"Name: Folio from the Qur’an Describing Faith Surat al-Anbiya (Chapter: The Prophets) 21: verses 49–51 Date: 9th Century-10th Century Place: Near East Medium: ink and color on paper Measurements: 6 x 9 1/2 in. (15.2 x 24.1 cm) Classification: Calligraphy/Manuscript Department: South Asian Art, Islamic Art and Antiquities Credit Line: Fanny Bryce Lehmer Fund Accession No: 1977.38a-b"<p/>
+                    </summary>
+            <msItem xml:id="mysql_id_687827" n="1r">
+              <title type="numeric" key="021:049:004-021:050:005">
+                                    021:049:004-021:050:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706336" n="1v">
+              <title type="numeric" key="021:050:005-021:051:007">
+                                    021:050:005-021:051:007
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>241</width><height>152</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4">4 - 4 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47787">
+      <graphic decls="#imageRights-1" url="manuscript/1509/20e8aabd-1985-4c4c-a86e-57226a656ce4/manuscript-1509-page-47787-image-34030.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_62044">
+      <graphic decls="#imageRights-1" url="manuscript/1509/c0da4b12-1678-47b4-afbb-8b4b54bb4460/manuscript-1509-page-62044-image-53874.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

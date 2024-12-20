@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über den sechsten Tag der Schöpfung</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_191" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>191</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die koranische Wendung ka-ʾl-faḫḫār entspricht genau dem syrischen ayk paḥḥārā. Das Wort paḥḥārā kann sowohl "Töpfer" als auch "Ton" bezeichnen (Brockelmann 1928: p. 563), doch ist im Kontext die Deutung "wie ein Töpfer" wahrscheinlicher: Denn Gott schafft den Menschen ja tatsächlich aus Lehm, das vergleichende "wie" ergäbe hier keinen Sinn. Hinzu kommt, dass die Bibel an mehreren Stellen Gott mit einem Töpfer (hebr. yôṣēr, gr. κεραμεύς) vergleicht (z.B. Sir 33:13; Jes 29,16; 45,9; 64,7; Jer 18:6; Röm 9,20-21). Im Falle des koranischen ka-ʾl-faḫḫār bemerkt Lidzbarski dagegen, dass die Bedeutung "Gefäß, Gegenstand aus Ton" die einzig sonst bezeugte im Arabischen sei (vgl. Lidzbarski 1918; Horovitz 1925: p. 215f.). Verstünde man die Koranstelle so, dann ergäbe sich letztlich ein fast gleicher Sinn wie bei Jakob: Gott erschafft den Menschen aus Ton "wie ein Töpfer" (faḫḫār wäre hier also Bestimmung des Subjekts), oder aber "wie ein Tongefäß", dann wäre es eine nähere Bestimmung des Objekts.
+
+	Obgleich die Parallele zwischen der Koranstelle und dem Text Jakobs sprachlich und motivisch sehr nahe ist, kann man wegen der fehlenden Lautübereinstimmung - syr. ḥ sollte im Falle einer Entlehnung im Arabischen als ḥ, nicht als ḫ erscheinen - kaum von einer direkten Entlehnung des Begriffes faḫḫār aus dem Syrischen oder allgemein dem Aramäischen auszugehen. (Eine solche hätte vor aram. *ḫ &gt; ḥ stattfinden müssen. Eine Angleichung an eine arabische Wurzel F-Ḫ-R ist aus semantischen Gründen auszuschließen). Letztlich gehen beide Wörter wohl auf akkadisch paḫāru (und ferner auf sumerisch báḫar) "Töpfer" zurück, mit einer Anpassung an die Form faʿʿāl (nomen actoris), wie etwa auch in akk. malāḫu &gt; arab. mallāḥ "Schiffer", usw.).
+
+	Vor dem Hintergrund der erwähnten biblischen und der syrisch-christlichen Tradition mag eine Interpretation des Begriffes faḫḫār im Koran als "Töpfer" als naheliegender, oder zumindest als möglich angesehen werden. Wenn Gott die Menschen "wie ein Tongefäß töpfert", dann ist, nach anderer Meinung, die Folgerung, dass der Mensch tatsächlich aus Ton geschaffen wird, nicht ausgeschlossen. Wie die Stelle von den Hörern verstanden wurde, ob wie in der syrischen Parallele oder als "Tongefäß" muss offen bleiben. Die Aussage bliebe aber, nach dieser Meinung, gleich: Gott erschafft aus Ton, er töpfert.
+</summary>
+            <msItem>
+              <title>Gedicht über den sechsten Tag der Schöpfung</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Takamitsu Muraoka (Hg.), Jacob of Serugh’s Hexaemeron, Peeters, Leuven 2018 (Ancient Near Eastern Studies, Supplement 52), S. 152-158.</bibl>
+              <bibl type="literatur">Brockelmann, Carl. Lexicon Syriacum. Halle, 1928.</bibl>
+              <bibl type="literatur">Horovitz, Josef. “Jewish Proper Names and Derivatives in the Koran.” Hebrew Union College Annual 2 (1925): 144–227.</bibl>
+              <bibl type="literatur">Lidzbarski, Marc. “Zu Arabisch Faḫḫār.” Zeitschrift Der Deutschen Morgenländischen Gesellschaft 72 (1918): 189–92.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܟܕ ܡܬܓܐܐ ܐܬܩܢ ܐܝܬܝܐ ܟܠ ܒܖ̈ܝܬܐ:ܒܐܫܬܐ ܝܘܡ̈ܝܢ ܐܝܟ ܕܟܬܒܗ ܕܡܘܫܐ ܣܗܕ܀ܠܒܪܘܝܐ ܓܝܪ ܒܪܝܬܐ ܣܗܕܐ ܕܟܡܐ ܓܢ̄ܒܪ:ܘܡܢ ܬܘܩܢܘ̈ܗܝ ܐ̄ܢܫ ܝܠܦ ܠܗ ܕܟܡܐ ܚܟܝܡ܀5 ܡܛܠ ܕܟܣܐ ܗ̄ܘ ܡܢ ܡܠܠ̈ܐ ܘܡܢ ܚܟܝܡ̈ܐ:ܒܪܝܬܐ ܕܒܪܐ ܦܘܡܐ ܗ̄ܘ ܪܒܐ ܕܬܢܐ ܫܘܒܚܗ܀ܢܘܗܪܐ ܒܕܢܚܗ ܪܩܝܥܐ ܒܪܘܡܗ ܝܡܐ ܒܓܠܠܘ̈ܗܝ:ܘܐܪܥܐ ܒܛܘܖ̈ܐ ܘܒܪܡܬܐ ܕܣܕܝ̈ܪܢ ܒܗ̇܀ܫܡܫܐ ܘܣܗܪܐ ܒܙܠܝܩܝ̈ܗܘܢ ܘܒܙܝܘܝ̈ܗܘܢ:10 ܘܟܘܟܒ̈ܐ ܒܪܗܛܐ ܘܒܫܘܚܠܦܐ ܕܢܗܝܪܝ̈ܗܘܢ܀ܢܘ̈ܢܐ ܒܝܡܡ̈ܐ ܐܦ ܦܪܚܬܐ ܒܪܘܡܐ ܕܐܐܪ:ܟܠ ܕܐܝܬ ܒܐܬܪܗ ܡܙܝܥ ܬܫܒܘܚܬܐ ܨܝܕ ܒܪܘܝܐ܀ܕܐܡܪ ܘܗܘܐ ܘܦܩܕ ܘܐܩܝܡ ܘܩܪܐ ܘܐܝܬܝ:ܘܥܒܕܗ ܠܥܠܡܐ ܘܩܐܡ ܘܐܝܬܘܗܝ ܡܢ ܠܐ ܡܕܡ܀15 ܘܩܥܐ ܟܝܢܐ ܕܡܟܝܢܢܐ ܐܝܬ ܠܗ ܕܟܣܐ:ܘܣܗܕܐ ܒܪܝܬܐ ܕܡܪܐ ܐܝܬ ܠܗ̇ ܕܡܕܒܪ ܠܗ̇܀ܘܗܘ̣ ܫܘܚܠܦܐ ܕܙܒ̈ܢܐ ܡܟܪܙ ܥܠ ܒܪܘܝܐ:ܕܡܢܗ ܙܝܥܝܢ ܐܙܠܢ̄ܢ ܘܐܬܝܢ ܠܬܚܘܡܝ̈ܗܘܢ܀ܟܬܒܗ ܕܡܘܫܐ ܐܝܟ ܒܝܬ ܓܙܐ ܗ̄ܘ ܕܡܠܐ ܥܘܬܪܐ:20 ܘܗܘ̣ ܡܠܦ ܠܢ ܥܠ ܒܖ̈ܝܬܐ ܘܥܠ ܒܪܘܝܐ܀ܗܘ̣ ܚܪ ܘܚܙܐ ܒܥܝܢܐ ܪܡܬܐ ܕܢܒܝܘܬܐ:ܟܕ ܡܬܒܪܝܐ [ܒܪܝܬܐ ܘܩܝܡܐ] ܡܢ ܠܐ ܡܕܡ܀ܘܠܗ ܠܠܐ ܡܕܡ ܬܒܥܗ ܚܝܠܐ ܕܐܠܗܘܬܐ:ܘܗܘܐ ܡܕܡ ܪܒܐ ܕܡܟܪܙ ܥܠ ܒܪܘܝܗ܀25 ܘܗܘܐ ܥܠܡܐ ܘܐܝܟܢܐ ܗܘܐ ܠܐ ܝܕܥ ܗ̄ܘܐ:ܥܕܡܐ ܕܡܘܫܐ ܓܠܐ ܠܗ ܐ̄ܪܙܐ ܕܐܝܟܢܐ ܗܘܐ܀ܘܗܟܢ ܐܠܦܗ ܠܥܠܡܐ ܕܗܘܐ ܒܐܫܬܐ ܝܘܡܝܢ:ܕܢܗܘܐ ܝܕܥ ܐܝܟܢܐ ܗܘܐ ܘܒܡܘܢ ܘܐܡܬܝ܀ܐܡܪ ܡܪܝܐ ܒܝܘܡܐ ܕܐܫܬܐ ܕܬܦܩ ܐܪܥܐ:30 ܒܥܝܪܐ ܠܓܢܣܗ̇ ܘܪܚ̈ܫܐ ܕܪܚܫ ܐܦ ܚܝ̈ܘܬܐ܀ܘܩܠ ܦܘܩܕܢܐ ܕܢܚ ܥܠ ܐܪܥܐ ܘܫܪܝ ܥܦܪܐ:ܡܪܚܫ ܡܦܩ ܡܦܪܐ ܝܗܒ ܟܠ ܚܝ̈ܘܬܐ܀ܒܝܘܡܐ ܕܚܡܫܐ ܠܝܡܐ ܡܛܬ ܗ̄ܘܬ ܦܨܬܐ ܢܘܠܕ:ܘܒܗܘ ܕܫܬܐ ܥܦܪܐ ܐܬܬܒܥ ܢܦܪܐ ܘܐܦܪܝ܀35 ܟܕ ܝܠܕܝܢ ܗ̄ܘܘ ܡܝ̈ܐ ܢܘ̈ܢܐ ܫܠܐ ܗ̄ܘܐ ܥܦܪܐ:ܘܡܝ̈ܐ ܒܠܚܘܕ ܚܒܠܘ ܘܝܠܕܘ ܒܚܡܝܫܢܐ܀ܘܟܕ ܦܘܩܕܢܐ ܒܝܘܡܐ ܕܫܬܐ ܫܟܢ ܥܠ ܥܦܪܐ:ܗܘ̣ ܡܚܒܠ ܗ̄ܘܐ ܘܝܠܕ ܓܢ̈ܣܐ ܒܝܘܡܐ ܕܡܛܝܗܝ܀ܬܦܩ ܐܪܥܐ ܪܚ̈ܫܐ ܒܥܝܪܐ ܡܬܬܒܥܐ ܗ̄ܘܬ:40 ܘܐܝܟ ܕܐܬܬܒܥܬ ܒܪܟܬ ܝܠܕܬ ܚܡܝܡܐܝܬ܀ܘܗܘܐ ܥܦܪܐ ܡܪܒܥܐ ܚܕܬܐ ܘܡܘܠܕ ܐܦ ܗܘ̣:ܥܘ̈ܠܐ ܚܕ̈ܬܐ ܒܝܘܡܐ ܕܫܬܐ ܠܫܝܢܗ̇ ܕܐܪܥܐ܀ܘܗܘܬ ܐܪܥܐ ܐܡܐ ܕܐܝܬ ܒܗ̇ ܟܠܗܘܢ ܦܘܖ̈ܣܐ:ܘܐܝܟ ܕܐܬܬܒܥܬ ܒܪܟܬ ܝܠܕܬ ܟܠܗܘܢ ܓܢ̈ܣܐ܀45 ܡܚܕܐ ܕܫܡܥܬ ܩܠ ܦܘܩܕܢܐ ܕܥܒܘܕܘܬܐ:ܝܠܕܬ ܪܡ̈ܟܐ ܓܙܖ̈ܐ ܘܒܩܖ̈ܐ ܘܟܠ ܚܝ̈ܘܬܐ܀ܡܬܗܦܟ ܗ̄ܘܐ ܥܦܪܗ̇ ܕܐܪܥܐ ܘܡܬܬܩܢ ܗ̄ܘܐ:ܘܡܬܢܦܫ ܗ̄ܘܐ ܘܡܬܬܙܝܥ ܩܐܡ ܢܗܘܐ ܡܕܡ܀ܡܕܪܗ̇ ܕܐܪܥܐ ܙܐܥ ܪܦܬ ܡܬܗܕܡ ܗ̄ܘܐ:50 ܘܩܝܡܢ ܡܢܗ ܚܝ̈ܘܢ ܚܝ̈ܘܢ ܒܐܣܟܡܝ̈ܗܝܢ܀ܐܝܟ ܦܚܪܐ ܟܬܝ̈ ܛܝܢܐ ܓܒܠ ܗ̄ܘܐ ܪܡܙܐ:ܘܚܫܠ ܡܢܗܝܢ ܒܥܝܪܐ ܘܪܚ̈ܫܐ ܐܦ ܚܝ̈ܘܬܐ܀ܚܪ ܥܒܘܕܐ ܒܥܦܪܐ ܘܪܚܫ ܘܩܢܐ ܓܘܫ̈ܡܐ:ܢܦܫܐ ܚܝܬܐ ܘܓܢ̈ܣܐ ܦܖ̈ܝܫܐ ܕܟܠ ܚܝ̈ܘܬܐ܀55 ܘܡܠܬ ܐܪܥܐ ܓܙܖ̈ܐ ܘܒܩܖ̈ܐ ܕܡܬܟܪܟܝܢ ܒܗ̇:ܥܢ̈ܐ ܚܕܬܐ ܒܡܖ̈ܓܐ ܚܕܬܐ ܕܣܓܝܐܝܢ ܗ̄ܘܘ܀ܡܪܐ ܥܢ̈ܐ ܩܕܡ ܝܘ̈ܡܬܐ ܛܝܒ ܪܥܝܐ:ܘܒܬܪ ܝܘܡܐ ܥܒܕ ܠܗ ܥܢ̈ܐ ܐܝܟܢ ܕܨܒܐ܀ܘܫܪܝܬ ܪܥܝܐ ܥܢ̈ܐ ܕܝܠܗ ܒܡܖ̈ܓܐ ܕܝܠܗ:60 ܘܠܝܬ ܗ̄ܘܐ ܟܢܬܐ ܘܠܐ ܩܢܝܐ ܐ̄ܚܪܢܐ ܥܡܗ܀ܒܛܘ̈ܪܘܗܝ ܥܢ̈ܗ ܒܡܖ̈ܓܘܗܝ ܪܡ̈ܟܘܗܝ ܟܗܝ̈ܢܢ ܗ̄ܘܝ:ܘܒܦܩ̈ܥܬܗ ܒܩ̈ܪܘܗܝ ܟܠܗܝܢ ܟܕ ܣܓܝ̈ܐܢ܀ܕܡܪܝܐ ܗ̄ܝ ܐܪܥܐ ܘܠܐ ܐܝܬ ܡܪܐ ܐ̄ܚܪܢܐ ܥܡܗ:ܚܝܘܬܐ ܕܕܒܪܐ ܒܥܝܪܐ ܘܬܘܖ̈ܐ ܕܝܠܗ ܐܢܘܢ܀65 ܒܥܝܪܗ ܒܐܪܥܗ ܘܒܩ̈ܪܘܗܝ ܪܥܝܢ ܒܢܘ̈ܝܬܗ:ܕܕܝܠܗ ܗ̄ܘ ܟܠ ܐܝܢܐ ܕܪܚܫ ܘܕܠܐ ܪܚܫ܀ܘܐܝܟܢ ܕܨܒܐ ܘܟܡܐ ܕܨܒܐ ܩܢܐ ܠܗ ܛܘܖ̈ܐ:ܘܥܒܕ ܪܥܝܐ ܘܐܝܬܝ ܥܢ̈ܐ ܟܡܐ ܕܫܦܪ ܠܗ܀ܘܪܥܐ ܘܣܒܥ ܘܩܠ ܩܢܝܢܐ ܒܡܖ̈ܓܝ ܡܪܗ:70 ܘܠܐ ܢܟܝܢܐ ܘܠܐ ܣܩܘܒܠܐ ܒܚܕ ܡܢ ܓܒܝ̈ܢ܀ܘܡܠܬ ܐܪܥܐ ܒܥܝܪܐ ܚܕܬܐ ܪܐܦܪܝ ܥܦܪܐ:ܘܪܥܬ ܣܒܥܬ ܡܢ ܗܘ ܪܥܝܐ ܢܩܕܐ ܕܗܘܐ܀ܘܣܓܝ ܪܘܒܐ ܒܝܢܬ ܛܘܖ̈ܐ ܘܥܠ ܪܡ̈ܬܐ:ܡܢ ܟܠ ܓܒܝ̈ܢ ܩܠ̈ܐ ܫܓܝ̈ܫܐ ܡܫܬܡܥܝܢ ܗ̄ܘܘ܀75 ܬܘܖ̈ܐ ܕܓܥܝܢ ܘܐܡܖ̈ܐ ܕܦܥܝܢ ܘܣܘܣܝܐ ܕܢܦܪ:ܥܪܕܐ ܕܣܐܩ ܟܠܒܐ ܕܢܒܚ ܛܒܝܐ ܕܫܘܪ܀ܐܝܠܐ ܕܪܗܛ ܐܪܝܐ ܕܓܣܪ ܕܒܐ ܕܢܗܡ:ܩܠ̈ܐ ܡܦܬܟ̈ܐ ܘܓܢܣ̈ܐ ܚܠܝ̈ܛܐ ܒܟܠ ܐܬ̈ܪܘܢ܀ܗܘ̣ ܠܒܥܝܪܐ ܝܗ̄ܒ ܡܐܟܘܠܬܐ ܟܕ ܐܬܒܪܝܬ:80 ܕܩܕܡ ܝܘܡܐ ܛܝܒ ܗ̄ܘܐ ܠܗ̇ ܡܐ ܕܚܫܚ ܠܗ̇܀ܐܬܩܢ ܡܖ̈ܓܐ ܘܬܪܥ ܡܝ̈ܐ ܡܢ ܡܒܘܥ̈ܐ:ܘܒܓܘ ܢܚ̈ܠܐ ܘܒܝܢܬ ܛܘܖ̈ܐ ܫܕܪ ܐܢܘܢ܀ܕܢܫܩܘܢ ܟܠܗ̇ ܚܝ̄ܘܬܐ ܕܕܒܪܐ ܐܝܟܢ ܕܟܬܝܒ:ܘܬܗܘܐ ܫܟܢܐ ܘܫܬܝܐ ܡܢܗܘܢ ܐܦ ܦܪܚܬܐ܀85 ܘܡܚܕܐ ܕܗܘܬ ܚܝ̄ܘܬܐ ܕܕܒܪܐ ܦܓܥ ܒܗ̇ ܐܘܟܠܐ:ܘܦܓܥ ܫܩܝܐ ܕܡܪܗ̇ ܣܡ ܠܗ̇ ܒܐܬܪܘܬܐ܀ܠܒܥܝܪܐ ܓܝܪ ܐܘܥܝ ܥܡܝܪܐ ܘܟܢ ܥܒܕܗ̇ ܗ̄ܘܐ:ܘܡܚܕܐ ܕܗܘܬ ܪܥܝܐ ܚܕܬܐ ܦܓܥ ܒܗ̇ ܬܒܣܡ܀ܒܛܘܖ̈ܐ ܪܥܝܗ̇ ܒܡܪܓܐ ܐܘܟܠܗ̇ ܒܢܚ̈ܠܐ ܫܩܝܗ̇:90 ܘܒܦܩ̈ܥܬܐ ܢܝܣܢ ܪܒܐ ܕܡܫܡܢ ܠܗ̇܀ܪܥܬ ܥܠ ܛܘܖ̈ܐ ܘܒܝܢܬ ܢܚ̈ܠܐ ܫܩܝܐ ܣܒܥܬ:ܘܒܓܘ ܡܖ̈ܓܐ ܚܡܠܬ ܪܒܥܬ ܟܕ ܣܒܝܥܐ܀ܝܗ̄ܒܘ ܗ̄ܘܘ ܩܠܐ ܒܝܢܬ ܛܘܖ̈ܐ ܟܠܗܘܢ ܓܢܣ̈ܐ:ܕܐܫܟܚܘ ܣܒܥܐ ܡܢ ܡܕܝܖ̈ܝܗ̇ ܕܐܠܗܘܬܐ܀95 ܘܗܐ ܡܢ ܗܝܕܝܢ ܒܝܢܬ ܛܘܖ̈ܐ ܝܗܒܝܢ ܩܠܐ:ܕܢܣܩܘܢ ܫܘܒܚܐ ܡܐ ܕܡܣܬܡܟܝܢ ܥܠ ܡܒܘܥ̈ܐ܀ܠܡܒܘܥ̈ܐ ܓܝܪ ܡܛܠ ܗܟܢ ܫܕܪ ܐܢܘܢ:ܒܝܢܬ ܢܚ̈ܠܐ ܕܢܗܘܘܢ ܡܫܩܝܢ ܠܟܠ ܚܝ̈ܘܬܐ܀ܘܟܕ ܐܬܒܪܝܬ ܚܝܘܬ ܒܪܐ ܒܝܘܡܐ ܕܫܬܐ:100 ܥܠܝܗܘܢ ܫܟܢܬ ܕܡܛܠܬܗ̇ ܐܬܪܟܒܘ ܗ̄ܘܘ܀ܒܝܢܬ ܛܘܖ̈ܐ ܡܗܠܟܝܢ ܡܝ̈ܐ ܡܛܠ ܗܠܝܢ:ܪܡ̈ܟܐ ܘܒܩܖ̈ܐ ܕܥܒܕ ܡܪܝܐ ܒܝܘܡܐ ܕܫܬܐ܀ܠܡܢ ܐܠܨܬ ܗ̄ܘܬ ܢܘܥܐ ܥܡܝܪܐ ܒܡܖ̈ܓܝܗ̇ ܕܐܪܥܐ:ܐܠܐ ܡܛܠ ܒܥܝܪܐ ܕܬܣܒܥ ܡܢ ܡܘܗܒܬܗ܀105 ܘܐܝܟܢ ܕܟܬܝܒ ܗܘ̣ ܠܒܥܝܪܐ ܝܗ̄ܒ ܡܐܟܘܠܬܐ:ܒܖ̈ܝܬܗ ܓܝܪ ܡܢܗ ܫܩܠܢ ܣܒܥܐ ܟܠܝܘܡ܀ܐܫܬܟܠܠ ܗ̄ܘܐ ܒܝܬܐ ܪܒܐ ܒܝܘܡܐ ܕܫܬܐ:ܘܐܫܬܡܠܝ ܗ̄ܘܐ ܟܠܗ ܫܘܦܪܗ ܘܥܒܝ̈ܕܬܗ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Wie ein Töpfer (paḥḥārā) gestaltete Gott (remzā) Lehmklumpen und gestaltete aus ihnen große und kleine Tiere und so alle Lebewesen.Dann schaute der Schöpfer auf den Erdboden und dort fing es an, sich zu bewegen und Körper anzunehmen. [Es ward] lebendiger Atem und die verschiedensten Arten von Lebewesen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>The divine presence proudly formed everything createdin six days, as the book of Moses testifies,for the creation testifies to the Creator: how powerful He is,and from the ways He created one learns how wise He is.5 Because He is hidden from speakers and sages,The creation He brought about is a great mouth that recounts His praise:the light at the sunrise, the firmament in its height, the sea with its billowsand the earth with mountains and hills which are arranged in it,the sun and the moon with their rays and in their splendour,10 and the stars on their course and the luminaries with their diversity,fish in the seas, also birds high up in the air.All that there is raises praise, wherever it is, to the Creator,who said it and it happened, and commanded and He established, and called and brought along,and He made the universe and it stands there, and it is out of nothing.15 And nature cries out that it has a creator who is hidden, and the creation testifies that it has a master who conducts it,and the alternation of times itself points to the Creator:through Him they move, come and go to their domains.The book of Moses is like a treasury full of riches,20 and it teaches us about the creatures and the Creator.He saw and observed with an excellent eye of prophecyas things were created and came into being out of nothing,and the divine power summoned that nothing,and there emerged something great that points to its Creator,25 and the universe came into being, though it did not know how it had come into beinguntil Moses revealed the mystery to it about how it had come into being,and thus he taught the universe that had come into being in six days so that it could know how it had come into being, through what, and when.The Lord said on day six: “Let the earth bring out30 beasts according to their kinds and creeping creatures, also living animals.”And the voice of the command rose over the earth and the dust beganto produce in abundance, to bring out and make all kinds of animals.On Day Five it was the turn of the sea to give birth,and on (Day) Six the dust was demanded to produce and it produced.35 When the waters were giving birth to fish, the dust had respiteand the waters alone were in labour and gave birth on the fifth (day),and when the command settled on the dust on Day Sixit began to go into labour and give birth to all kinds on the day that arrived at its door:“Let the earth give forth creeping creatures.” It was being demanded to produce animals,40 and as it was demanded, it knelt and gave birth enthusiastically,and the dust became a new womb, which also gave birth tonew babes on Day Six to settle the earth,and the earth became a mother which has all resources at her disposal,and as demanded it knelt, giving birth to all kinds.45 The moment it heard the voice of the working order,it gave birth to herds and flocks and cattle and all animals.There was the soil of the earth transforming and moulding itselfand being infused with life and moving about so that something would come into being.The soil of the earth was moving, spreading and being furnished with limbs,50 and from it there were emerging all sorts of animals in their respective shape.As a potter the signal moulded fine pieces of clayand forged out of them beasts and creeping creatures, also (other) animals.The Maker looked at the soil, and it moved and had bodies:a living being and various kinds of all animals,55 and the earth filled with flocks and herds roaming about in it,new sheep in new meadows which were numerous.The shepherd had prepared the pasture days before,and a day later he made sheep as he pleased,and his sheep began to graze in his meadows,60 and there was no colleague or another owner beside him.In his mountains his sheep were, in his meadows his flocks were fortunate,his herds were all in his valleys, in large numbers.The earth is of the Lord, there being no owner beside Him;animals in the field, cattle and oxen are His.65 His animals on His land and His cattle are grazing in His pastures,for all that roams about and that does not roam about is His,and as He pleased and how much He pleased, He acquired fieldsand made a pasture, bringing sheep as many as appeared best to Him,and they grazed and were sated, and the sound of livestock was in their master’s meadows.70 No harm and no danger was there even in one directionand the earth filled with new animals which the soil multiplied.They grazed and were sated from that clean pasture that emerged.Clamour increased amongst the mountains and on the high grounds,on every side mingled voices were being heard:75 oxen which were lowing, lambs which were bleating, horses which were neighing,a wild ass which was braying, a dog which was barking, a gazelle which was leapinga deer which was running, a lion which was roaring, a bear which was howling, diverse sounds and mixed species all over.He gave food to animals when they were created;80 He had prepared for them one day in advance what they needed.He prepared meadows and caused water to gush out from fountainsand made it flow in streams and among mountainsso that it could provide drink for all animals of the field, as it is written:and also birds would settle (there) and drink of it,85 and as soon as the animals of the field emerged, food came their wayand drink came their way, that which their Lord had put for them everywhere.For He had made grass sprout for the animals; so He had made them.And as soon as they came into being, a new pasture came their way for their enjoyment.In mountains (was) their pasture, in meadows their food, in streams their drink,90 and in valleys the great month of Nisan that fattens them.They grazed on mountains and drank their fill in streams,and assembled in meadows, lying down sated.All sorts (of animals) lifted their voice among the fields;they found satisfaction in the habitations provided by the Divine.95 And behold, from then onwards they are lifting their voice amidst the fieldsto offer praise when they recline at the springs;for He sent them to the springs in orderfor them to provide drink for all animals amongst the streams,and when the animals of the field were created on Day Six,100 they settled beside them, for they had been constructed for their sake.In the midst of the fields the water moves for the sake of theseherds and flocks which the Lord had made on Day Six.For what purpose was it necessary for Him to cause grass to sprout in the meadows of the earthbut because of the beasts so that they may become sated with His gift?105 And as it is written: “To the beasts He gave food,”for His creatures receive their fill from Him every day.The great house was finished on Day Six and all its beauty and His works were completed.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

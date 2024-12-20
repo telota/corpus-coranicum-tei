@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an den Erzdiakon Mar Julian</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_955" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>955</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran werden die Schritte der Entwicklung des Kindes im Mutterleib genannt. Daraufhin wird betont, dass Gott eine neue Schöpfung hervorbringt, er ist der "beste der Schöpfer". Darauf folgt noch ein Verweis auf Sterblichkeit und Wiederauferstehung. Auch diese Passage aus einem Brief des Jakob von Sarug erwähnt kurz die Formung des Kindes im Mutterleib, betont dann das erschaffende Eingreifen Gottes und erwähnt die Tatsache, dass der Mensch nicht ewig in der Welt verweilt, sondern über sie hinausgeht. Es bestehen aber Unterschiede zwischen der Schilderung in Q 23:14 und dieser Passage. Die im Koran skizzierte Entwicklung des Menschen im Mutterleib scheint in ihren vier Etappen der von Galen für die (spät-)antike Medizin zusammengefassten communis opinio zu entsprechen; vgl. dazu TUK_0986. Diese Vorstellung mag auch beim Text von Jakob von Sarug im Hintergrund stehen. Das wird zumindest durch die Tatsache wahrscheinlich gemacht, dass Jakob nur von der Vollendung der Entwicklung spricht (mšallem "(wenn er dann) vollendet", gāmar mšallem "(wenn er dann) ganz vollendet"), welche in ihrer Beschreibung der vierten Phase, der Endphase Galens, entspräche. Die Absicht Jakobs im hier vorliegenden Brief ist nicht die detaillierte Beschreibung der Entwicklung des Kindes im Mutterleib, sondern vielmehr der Schöpfungsakt Gottes, der damit verbunden ist. Die entscheidende Formulierung ist w-bārē sāʾem b-gawweh napšā... "und erschaffend setzt er in es eine Seele...". D.h. Gott hat entscheidenden Anteil indem er erschaffend eingreift. Dieses mit "erschaffener Seele" und "'reagiblen' Sinnen" (bregšē hpuktānē) versehende Neugeborene ist es dann, welches aus der Dunkelheit (des Mutterleibes) ans Licht der Welt drängt. Während nun im Koran knapp alle vier Phasen genannt werden, stimmt der Koran mit dem hier vorliegenden Text doch insofern überein, als dass beide den letztlichen Schöpfungsakt Gottes betonen: ...ṯumma ʾanšaʾnāhu ḫalqan ʾāḫara.... "dann lassen wir es als eine weitere/andere Schöpfung hervorkommen/entstehen". Die Welt ist also nicht nur creatio prima "Ersterschaffung" Gottes, sondern auch creatio continua "Weitererschaffung". Beide Beschreibungen stehen also auch gegen verschiedene demiurgische Vorstellungen. Vergleiche hierzu auch Philoxenus' Kommentar zum Prolog des Johannesevangeliums (CSCO 380: p. 49), wo Philoxenus das schöpferische Eingreifen Gottes bei der Entwicklung der Kinder im Mutterleib betont (allāhā bārē b-gaww karsātā "Gott erschafft im Mutterleib"). Eine entsprechende Vorstellung findet sich auch im Midrasch (Leviticus Rabbah 14, Margulies 1953: p. 295-305).	Hierzu gehört wohl auch Q 53:45-46 im Rahmen göttlicher Allmächtigkeitsbeschreibung: wa-ʾannahū ḫalaqa z-zawǧayni ḏ-ḏakara wa l-ʾunṯā / min nuṭfatin ʾiḏā tumnā ("und dass er erschafft die beiden Geschlechter, das männliche und das weibliche, 46 aus einem Samentropfen wenn er ausgeworfen wird"). Das 'Perfekt' ḫalaqa ist hier, wie die übrigen Perfekta im Kontext (etwa ʾamāta, ʾaḥyā) als Präsens zu übersetzen, da hier nicht vom ersten Schöpfungsakt (creatio prima), welche ja nicht aus 'Samen' war, sondern von der fortlaufenden 'Schöpfung' im Mutterleib aus einem Samentropfen die Rede ist. Diese Vorstellung wird durch den Text Jakob von Sarugs kontextualisiert. Zur Unterscheidung zwischen Urschöpfung aus Erde/Staub und späterer (ṯumma) aus dem Samentropfen (nuṭfatun) vgl. Q 18:37, 22:5 und 40:67. Zur Wurzel ṣ-w-r vgl. TUK_0969.</summary>
+            <msItem>
+              <title>Brief an den Erzdiakon Mar Julian</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">G. Olinder (Hg.), Jacobi Sarugensis Epistolae quotquot supersunt, Paris 1937, Repr. Louvain 1965 (Corpus Scriptorum Christianorum Orientalium 45, Scriptores Syri), S. 39-41.</bibl>
+              <bibl type="literatur">Margulies, Mordecai: Midrash Wayyikra Rabbah. A Critical Edition based on Manuscripts and Genizah Fragments with Variants and Notes. Jerusalem 60 1953.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>[Seite 39, Zeilen 1-25]ܬܘܒ ܐܓܪܬܐ ܕܠܘܬ ܡܪܝ ܝܘܠܝܢܐ ܐܪܟܝܕܝܩܘܢ܀ ܠܡܝܬܪܐ ܘܪܚܡ ܐܠܗܐ: ܡܪܝ ܝܘܠܝܢܐ ܐܪܟܝܕܝܩܘܢ. ܝܥܩܘܒ ܒܨܝܪܐ ܣܓܘܕܟ ܒܡܪܢ ܫܠܡ܀ ܡܘܕܥ ܐܢܐ ܠܚܘܒܟ ܡܪܝ. ܕܐܠܘ ܢܣܝܪܐ ܢܦܫܢ ܒܪܚܡܬܐ ܕܐܠܗܐ. ܓܠܝܐܝܬ ܡܬܚܙܐ ܗܘܐ ܠܢ ܫܘܚ̈ܠܦܐ ܕܙܒ̈ܢܐ. ܗܠܝܢ ܕܖ̈ܟܝܒܝܢ ܓܝ̈ܓܠܐ. ܘܒܚܐܦܐ ܪܒܐ ܕܩܠܝܠ ܐܝܟ ܗܘܢܐ ܒܬܪ ܚܕ̈ܕܐ ܪܗܛܝܢ. ܐܠܐ ܡܛܠ ܕܬܢܢܐ ܥܒܝܐ ܕܪܚܡܬ ܥܠܡܐ: ܟܕ ܒܢܦܫܢ ܐܝܟ ܥܢܢܐ ܚܫܘܟܬܐ. ܐܬܟܡܗܬ ܐܬܕܘܕܬ. ܚܫܟܬ ܘܬܡܗܬ. ܩܡ̣ܬ ܡܢ ܚܙܬܐ ܢܗܝܪܬܐ. ܕܗܠܝܢ ܕܓܠܝܐܝܬ ܩܕܡܝܗ̇ ܡܬܬ̈ܙܝܥܢ: ܘܠܘ ܒܠܚܘܕ ܒܟܣܝܬ̈ܐ ܠܐ ܚܝܪܐ. ܐܠܐ ܐܦ ܠܗܠܝܢ ܓܠܝ̈ܬܐ ܥܡܘܛܐ ܠܡܚܙܐ. ܓܠܐ ܗܘ ܓܝܪ ܠܥܝܢܐ ܢܗܝܪܬܐ ܟܪܟܐ ܕܙܒ̈ܢܐ. ܕܟܡܐ ܛܪܝܕ ܘܣ̇ܒܠ ܘܡܥܒܪ: ܘܡܣܚܦ ܘܡ̇ܦܩ ܠܟܠܗܘܢ ܥܐ̈ܠܝ ܥܠܡܐ. ܡܚܕܐ ܓܝܪ ܕܡܕܝܩ ܐܢܫܐ ܡܢ ܬܪܥܐ ܕܐ̈ܝܠܝܕܐ ܕܢܥܘܠ ܠܒܪܝܬܐ. ܚܛܦܘܗܝ ܙܒ̈ܢܐ. ܣܡܘܗܝ ܥܠ ܓܝܓܠܐ ܪܒܬܐ܆ ܩܠܝܠܬ ܪܗܛܐ. ܫܪܝܬ ܡܪܗܛܐ ܠܗ. ܕܢܥܒܪ ܠܗ. ܢܐܙܠ ܠܗ. ܢܫܢܐ ܠܗ. ܢܦܘܩ ܠܗ ܡܢ ܥܠܡܐ. ܡܛܠ ܕܠܐ ܡܩܒܠ ܕܕܠܐ ܪܗܛܐ ܢܥܡܪܘܢ ܒܗ ܥܠܘ̈ܠܘܗܝ. [Seite 39, Zeile 25 - Seite 40, Zeile 6]ܐܦܠܐ ܓܝܪ ܚܕ ܝܘܡܐ ܐܘ ܚܕ ܨܦܪܐ ܐܘ ܚܕ ܪܡܫܐ. ܐܘ ܥܕܢܐ ܙܥܘܪܐ. ܡܫܟܚ ܕܢܟܬܪ ܒܥܠܡܐ ܗ̇ܘ ܕܥܐܠ ܠܗ܇ ܕܠܐ ܪܗܛܐ ܕܚܐܪ ܠܡܦܩܬܐ. ܨ̇ܝܪܐ ܓܝܪ ܕܥܘ̈ܠܐ. ܡܚܕܐ ܕܡܫܠܡ ܨܘܪ̈ܬܗ ܕܥܘܠܐ ܒܓܘ ܟܪܣܐ: ܘܡܥܫܢ ܠܗ ܒܓܖ̈ܡܐ: ܘܡܩܛܪ ܠܗ ܒܓܝ̈ܕܐ: ܘܓܡ̇ܪ ܡܫܠܡ ܠܗ ܒܗܕܡ̈ܐ: ܘܒ̇ܪܐ ܣܐܡ ܒܓܘܗ ܢܦܫܐ ܩܠܝܠܬ ܒܙܘ̈ܥܐ: ܕܒܗ̇ ܡܫܬܡܠܐ ܡܐܢܐ ܡܠܝܠܐ ܒܖ̈ܓܫܐ ܗܦܘܟܬܢܐ. ܫ̇ܪܝ ܙܪܒ̇ ܠܡܦܩ ܥܘܠܐ. ܡܢ ܐܬܪܐ ܚܫܘܟܐ ܠܥܠܡܐ ܢܗܝܪܐ. ܠܘ ܕܢܥܡܪ ܒܗ܇ ܐܠܐ ܕܢܥܒܪ ܒܗ.[Seite 40, Zeile 6 - Seite 41, Zeile 7]ܘܢܐܙܠ ܠܗ ܠܥܠܡܐ ܫܦܝܪܐ. ܕܠܝܬ ܒܗ ܓܫܪܐ. ܘܡܥܒܪܬܐ ܐܘ ܐܘܪܚܐ ܕܢܦܩܐ. ܕܠܗܠ ܡܢܗ ܥܠܘ̈ܠܘܗܝ ܢܦܩܘܢ. ܘܡܚܕܐ ܕܡܫܬܡܠܐ ܥܘܠܐ ܒܨܘܖ̈ܢ ܗܕܡ̈ܝܢ ܖ̈ܓܫܝܢ. ܘܢܦܫܐ ܡܠܝܠܬܐ. ܐܫܬܕܪܘ ܟܐܒ̈ܐ ܥܠ ܗ̇ܝ ܕܛܥܝܢܐ ܠܗ̇. ܕܬܫܕܐ ܡܢܗ̇ ܡܠܝܠܐ. ܕܢܦܘܩ ܢܫܪܐ ܒܐܘܪܚܐ ܕܪܗܛܐ. ܘܢܐܙܠ ܢܡܛܐ ܠܠܡܐܢܐ ܫܦܝܪܐ. ܕܒܗ ܡܬܬܢܝܚܝܢ ܟܠܗܘܢ ܫܚܝ̈ܩܝ ܒܥܠܡܐ ܕܒܝܫ̈ܬܐ. ܘܗܟܢ ܐܝܬܘܗܝ ܠܢ ܗܢ ܥܠܡܐ. ܐܘܪܚܐ. ܓܫܪܐ. ܡܥܒܪܬܐ. ܡܛܠܬܐ. ܡܫܟܢ ܙܒܢܐ. ܛܠܠܐ ܪܗܝܒܐ. ܓܢܘܢܐ ܕܡ̣ܠܐ ܝܘܡܐ. ܗܒܒܐ ܕܩܛܦܢܝܗܝ ܘܫܦܝܪ. ܘܟܕ ܠܒܟܢܝܗܝ ܚܡ̣ܐ ܠܗ. ܘܗܐ ܗܢܝ ܠܢ. ܚܒܝܒ ܠܢ ܫܦܝܪ ܠܢ. ܫܪܝܪ ܠܢ. ܟܕ ܡܕܓܠ ܒܢ. ܗܐ ܡܓܪܓ ܡܣܚܦ ܠܢ ܕܢܦܩܢ ܡܢܗ. ܘܐܣܝܪܝܢ ܚܢܢ ܒܚܘܒܗ. ܐܝܟ ܗ̇ܘ ܕܠܒܝܟ ܠܢ ܢܩ̇ܘܐ ܒܗ. ܥܘܠܐ ܥ̇ܠܬ ܠܗ. ܘܐܝܨܦ ܘܥܒܕܢܝ ܝܠܘܕܐ. ܘܒܬܪܒܝܬܐ ܐܩܝܡܢܝ ܥܠ ܕܪܓܐ ܕ̈ܛܠܝܐ. ܘܟܕ ܡܫܬܪܓܪܓ. ܐܢܐ ܗ̇ܘܝܬ ܒܗ ܥܠܝܡܐ ܘܚܕܐ ܗܘ̇ܝܬ ܕܗ̇ܘܝܬ ܠܝ ܓܒܪܐ. ܘܠܐ ܐܬܒܝܢܬ ܟܕ ܕܒܝܪ ܠܝ ܚܐܦܐ. ܕܠܐܝܟܐ ܒ̇ܥܐ ܕܢܘܒܠܢܝ. ܝܒ̇ܠ ܓܝܪ ܥܒܕܢܝ ܣܒܐ ܡܢ ܟܕܘ. ܘܐܝܟ ܗ̇ܘ ܕܐܝܩܪܐ ܥ̇ܒܕ ܠܝ. ܡܘܬܒ ܠܝ ܒܪܫܐ. ܘܡܛܢܐ ܠܝ ܒܣܓܕ̈ܬܐ ܕܥ̈ܠܝܡܐ. ܟܕ ܢܟܝܠ ܥܠܝ ܕܢܛܪܕܢܝ ܡܢ ܒܪܝܬܐ. ܢܓܕܘܢܝ ܓܝܪ ܙܒ̈ܢܐ ܫܠܝܐܝܬ. ܘܕܒܪܘܢܝ ܒܗܝܠܐܝܬ. ܘܟܕ ܠܐ ܪܓܝܫ ܐܢܐ ܒܪܗܛܐ ܐܪܗܛܘܢܝ. ܟܕ ܣܬܪܝܢ ܠܗ ܠܙܒܢܐ ܕܚ̈ܝܝ ܕܢܬܩܦܠ. ܐܝܟ ܡܫܟܢܐ ܕܖ̈ܥܘܬܐ. ܚ̇ܕܐ ܐܢܐ ܕܝܢ ܒܡܪܢ ܒܟܠ ܙܒܢ. ܕܗܘ ܚܠܝܛ ܒܚ̈ܝܝ. ܒܗܠܝܢ ܕܥܒܪܘ ܘܒܗܠܝܢ ܕܩܝܡܝܢ. ܝܫܘܥ ܓܝܪ ܡܫܝܚܐ. ܐܬܡܠܝ ܘܝܘܡܢ ܗܘܝܘ ܘܠܥܠܡ. ܘܐܢ ܒܗ ܢܗܘܐ. ܥܡܗ ܕܠܐ ܚܒܠ ܢܬܒܣܡ. ܕܠܗ ܬܫܒ̈ܚܢ ܡܢܢ: ܘܥܠܝܢ ܖ̈ܚܡܐ ܡܢܗ ܒܟܠ ܙܒܢ: ܐܦ ܗܫܐ ܘܠܥܠܡ ܥܠܡܝܢ ܐܡܝܢ܀ ܫܠܡܬ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>[Seite 39, Zeilen 1-25] Es folgt der Brief an Mar Julian, Archidiakon. Dem ausgezeichneten und gottliebenden Mar Julian, Archidiakon, sendet Jakob der Kleine, sein Verehrer, einen Gruß im Herrn. Ich gebe, Herr, deiner Liebe zu wissen: Wenn unsere Seele durch die Gotteslieb licht wäre, würde uns klar der Wechsel der Zeiten auffallen: sie sind rollende Räder und mit Gedankenschnelligkeit laufen sie nacheinander ab. Weil aber dichter Rauch der Weltliebe auf unserer Seele liegt, wie von einer düsteren Wolke in Blindheit und Verwirrung versetzt, verfinstert und verblüfft steht sie vor einer klaren Schau dessen, was klar vor ihr geschieht. Sie erblickt nicht bloß das Verborgene nicht, sondern in Finsternis versetzt auch nicht das Offenkundige. Doch offen ist dem lichten Auge der Kreislauf der Zeiten, der gleichsam vorwärts gestoßen, (eine Last) auf sich nimmt, hinüberträgt, abwirft und hinausgehen läßt alle, die eintreten in die Welt. Sofort nämlich, da der Mensch durchstoßt die Pforte der Gebärerin, um einzutreten in die Schöpfung, raffen ihn weg die Zeiten und setzen ihn auf das große Rad. Schnell ist der Lauf. Er beginnt zu laufen, um hinüber- und weiterzugehen, sich zu ändern und hinauszugehen aus der Welt. Er wurde ja nicht auf sich genommen, daß ohne Lauf bleiben könnten die (in die Welt) eingetreten sind, [Seite 39, Zeile 25 - Seite 40, Zeile 6] auch nicht einen Tag oder einen Morgen oder Abend oder eine kurze Zeit. (Keiner) kann bleiben, der in die Welt eintritt, daß er nicht sähe den Ausgang des Laufes. Sofort, nachdem der Schöpfer der Fötusse vollendet hat die Bildung des Fötus im Mutterleib, erstarkt er diesen zum Gebein, verbindet ihn durch die Nerven und vollendet ihn durch die Glieder. Der Schöpfer setzt die leichtbeschwingte Seele hinein, in der vollendet wird das vernünftige Werkzeug der sich wandelnden Regungen. Der Fötus beginnt hinauszudrängen vom finsteren Ort in die lichte Welt, aber nicht um in ihr zu verbleiben, sondern um durch sie hindurchzugehen [Übersetzung D. Kiltz und Y. Kouriyhe [S. 39, Z. 25 - S. 40, Z. 6]: und nicht nur etwa einen Tag oder einen Morgen oder einen Abend oder kurze Zeit kann [ein Mensch] in dieser Welt, in die er eintritt, verweilen. Noch bevor er läuft, schaut er auf den Ausgang (das "Austreten, Verlassen" dieser Welt). Wenn der Gestalter des Embryos im Mutterleib die Gestaltung vollendet, stärkt er es mit Knochen, und verbindet es mit Sehnen und vollendet es dann ganz mit Gliedern. Und erschaffend setzt er in es eine Seele mit flinken Bewegungen, so dass durch sie das Gefäß des Verstandes (lógos) mit Sinnen und Regungen erfüllt wird: Dann beginnt das Kind zu drücken und zu schieben, um aus dem dunklen Orte in die lichte Welt zu kommen. Nicht, um in ihr [ewig] zu wohnen, sondern um über sie hinauszugehen.] [Seite 40, Zeile 6 - Seite 41, Zeile 7] und zu gelangen in eine schöne Welt, in der es keine Brücke, keine Furt und keinen Weg gibt, der sich zurückwendete, so daß die dort Eingetretenen herausgehen könnten. Sofort, da der Fötus vollendet ist in der Bildung der Glieder und der vernünftigen Seele, werden Krankheiten geschickt über sie, die sie zu ertragen hat, indem sie das Vernünftige von sich wirft, da wir hinausgehen und uns niederlassen auf dem Wege des Laufes und wir gelangen in den schönen Hafen, in dem zur Ruhe gelangen alle Gequälten in der Welt des Bösen. Das ist uns diese Welt: ein Weg, eine Brücke, eine Furt, eine Behausung, ein zeitliches Zelt, ein flüchtiger Schatten, ein Gastmahl ausfüllend einen Tag, eine Blüte, die wir pflücken und die schön ist, die aber, nachdem wir sie abgenommen haben, verwelkt. Siehe, sie erquickt uns. Sie ist uns lieb und sie gefällt uns. Sie (erscheint) uns als wahr, während sie uns belügt. Sie erregt und bestürzt uns, daß wir hinausgehen von ihr, denn wir sind gefesselt von ihrer Liebe wie einer, der von uns genommen ist und auf den wir warten. Als Neugeborener trat ich ein in sie (=in die Welt) und es betreute und bediente mich der Erzeuger. Im Wachstum stellte er mich auf den Grad der Kinder. Zur Vernunft gelangt wurde ich zum Jüngling und ich freute mich der Kraft. Wohin immer er mich wollte führen, dahin geleitete er mich mir dienend, zum Greis geworden, und wie einer, der mir Ehre erwies. Er machte mich zum Vorstand und machte mich zum Gegenstand der Verehrung der Jünglinge. Als mich ein Listiger niedertreten wollte, führten mich die Zeiten ruhig und geleiteten mich ruhig. Da ich auf den Lauf nicht merkte, ließen sie mich laufen, indem sie verheimlichten die Zeit, die dem Leben ein Ende bereiten sollte, wie ein Hirtenzelt (abgebrochen wird). Ich freute mich im Herrn allezeit. Er war verbunden mit meinem Leben, dem vergangenen und dem gegenwärtigen. Jesus Christus heute, gestern und in alle Ewigkeit. Wenn wir mit ihm sind, werden wir uns unvergänglich freuen. Ihm sei unser Lobpreis und über uns seine Barmherzigkeit zu allen Zeiten und in alle Ewigkeit. Amen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

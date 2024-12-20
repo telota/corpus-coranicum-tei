@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jesaja 13:9-22</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_668" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>668</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 9:70, Q 53:53 und Q 69:9 enthalten kurze Reminiszenzen an vergangene Strafgerichte, darunter auch die Zerstörung Sodoms und Gomorrhas (vgl. dazu TUK_0464). Dabei werden die beiden Städte nicht namentlich erwähnt, sondern tauchen unter der Bezeichnung al-muʾtafika, bzw. al-muʾtafikāt auf. Diese Bezeichnung wird von Hartwig Hischfeld, Josef Horovitz und Heinrich Speyer auf das hebräische Wort mahpeḵa ("Umstürzung") zurückgeführt, das z.B. bei Jesaja für die Zerstörung (mahpeḵa) der beiden Städte durch Gott verwendet wird (Hirschfeld 1886: p. 36), (Horovitz 1925: p. 43f), (Speyer 1931: p. 156). Josef Horovitz vermutet, dass das Wort aus dem Hebräischen übernommen worden und dann an das Partizip des VIII. Stamms von ʾafaka angeglichen worden sei (Horovitz 1926: p. 13-14). Arthur Jeffery erwähnt, dass das Wort von den muslimischen Gelehrten auf das Verb ʾafaka ("drehen, ändern") zurückgeführt wird, und dass es sich dabei der Form nach um ein arabisches Wort handle. Die Ableitung von hebräisch mahpeḵa hält er für schwierig (Jeffery 1938: p. 274).
+
+</summary>
+            <msItem>
+              <title>Jesaja 13:9-22</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Anfertigung der Jesajarolle aus Qumran)</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Hirschfeld, Hartwig. Beitr&amp;#xE4;ge zur Erkl&amp;#xE4;rung des Kor&amp;#xE2;n,. Morgenl&amp;#xE4;ndische Forschungen 9. Leipzig: O. Schulze, 1886.</bibl>
+              <bibl type="literatur">Horovitz, Josef. Jewish Proper Names and Derivatives in the Koran. Ohio, 1925.</bibl>
+              <bibl type="literatur">Horovitz, Josef. Koranische Untersuchungen. Studien Zur Geschichte Und Kultur Des Islamischen Orients 4. Berlin [u.a.]: Gruyter, 1926.</bibl>
+              <bibl type="literatur">Jeffery, Arthur. The Foreign Vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Gaekwad&amp;#x2019;s Oriental Series 79. Baroda: Oriental Institute, 1938.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	הִנֵּה יוֹם יְקֹוָק בָּא אַכְזָרִי וְעֶבְרָה וַחֲרוֹן אָף לָשׂוּם הָאָרֶץ לְשַׁמָּה וְחַטָּאֶיהָ יַשְׁמִיד מִמֶּנָּה: כִּי כוֹכְבֵי הַשָּׁמַיִם וּכְסִילֵיהֶם לֹא יָהֵלּוּ אוֹרָם חָשַׁךְ הַשֶּׁמֶשׁ בְּצֵאתוֹ וְיָרֵחַ לֹא יַגִּיהַּ אוֹרוֹ: וּפָקַדְתִּי עַל תֵּבֵל רָעָה וְעַל רְשָׁעִים עֲוֹנָם וְהִשְׁבַּתִּי גְּאוֹן זֵדִים וְגַאֲוַת עָרִיצִים אַשְׁפִּיל: אוֹקִיר אֱנוֹשׁ מִפָּז וְאָדָם מִכֶּתֶם אוֹפִיר: עַל כֵּן שָׁמַיִם אַרְגִּיז וְתִרְעַשׁ הָאָרֶץ מִמְּקוֹמָהּ בְּעֶבְרַת יְקֹוָק צְבָאוֹת וּבְיוֹם חֲרוֹן אַפּוֹ: וְהָיָה כִּצְבִי מֻדָּח וּכְצֹאן וְאֵין מְקַבֵּץ אִישׁ אֶל עַמּוֹ יִפְנוּ וְאִישׁ אֶל אַרְצוֹ יָנוּסוּ: כָּל הַנִּמְצָא יִדָּקֵר וְכָל הַנִּסְפֶּה יִפּוֹל בֶּחָרֶב: וְעֹלְלֵיהֶם יְרֻטְּשׁוּ לְעֵינֵיהֶם יִשַּׁסּוּ בָּתֵּיהֶם וּנְשֵׁיהֶם תשגלנה תִּשָּׁכַבְנָה: הִנְנִי מֵעִיר עֲלֵיהֶם אֶת מָדָי אֲשֶׁר כֶּסֶף לֹא יַחְשֹׁבוּ וְזָהָב לֹא יַחְפְּצוּ בוֹ: וּקְשָׁתוֹת נְעָרִים תְּרַטַּשְׁנָה וּפְרִי בֶטֶן לֹא יְרַחֵמוּ עַל בָּנִים לֹא תָחוּס עֵינָם: וְהָיְתָה בָבֶל צְבִי מַמְלָכוֹת תִּפְאֶרֶת גְּאוֹן כַּשְׂדִּים כְּמַהְפֵּכַת  אֱלֹהִים אֶת סְדֹם וְאֶת עֲמֹרָה: לֹא תֵשֵׁב לָנֶצַח וְלֹא תִשְׁכֹּן עַד דּוֹר וָדוֹר וְלֹא יַהֵל שָׁם עֲרָבִי וְרֹעִים לֹא יַרְבִּצוּ שָׁם: וְרָבְצוּ שָׁם צִיִּים וּמָלְאוּ בָתֵּיהֶם אֹחִים וְשָׁכְנוּ שָׁם בְּנוֹת יַעֲנָה וּשְׂעִירִים יְרַקְּדוּ שָׁם: וְעָנָה אִיִּים בְּאַלְמְנוֹתָיו וְתַנִּים בְּהֵיכְלֵי עֹנֶג וְקָרוֹב לָבוֹא עִתָּהּ וְיָמֶיהָ לֹא יִמָּשֵׁכוּ:
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	9 Seht, der Tag des Herrn kommt, / voll Grausamkeit, Grimm und glühendem Zorn; dann macht er die Erde zur Wüste / und die Sünder vertilgt er. 10 Die Sterne und Sternbilder am Himmel / lassen ihr Licht nicht mehr leuchten. Die Sonne ist dunkel, schon wenn sie aufgeht, / der Mond lässt sein Licht nicht mehr scheinen. 11 Dann bestrafe ich den Erdkreis für seine Verbrechen / und die Bösen für ihre Vergehen. Dem Hochmut der Stolzen mache ich ein Ende / und werfe die hochmütigen Tyrannen zu Boden. 12 Die Menschen mache ich seltener als Feingold, / die Menschenkinder rarer als Golderz aus Ofir. 13 Dann wird der Himmel erzittern / und die Erde beginnt an ihrem Ort zu wanken wegen des Grimms des Herrn der Heere / am Tag seines glühenden Zorns. 14 Wie aufgescheuchte Gazellen, / wie eine Schafherde, die niemand zusammenhält, so eilt dann jeder zu seinem Volk, / so flieht jeder in sein Land. 15 Man sticht jeden nieder, dem man begegnet; / wen man zu fassen bekommt, der fällt unter dem Schwert. 16 Vor ihren Augen werden ihre Kinder zerschmettert, / ihre Häuser geplündert, ihre Frauen geschändet. 17 Seht, ich stachle die Meder gegen sie auf, / denen das Silber nichts gilt / und das Gold nichts bedeutet. 18 Ihre Bogen strecken die jungen Männer nieder; / mit der Leibesfrucht haben sie kein Erbarmen, / mit den Kindern kein Mitleid. 19 Wie es Sodom und Gomorra erging, / als Gott sie zerstörte, so wird es Babel ergehen, / dem Kleinod unter den Königreichen, / dem Schmuckstück der stolzen Chaldäer. 20 Für immer wird es unbewohnt sein, / bis zu den fernsten Generationen / wird es nicht mehr besiedelt. Nicht einmal ein Beduine / schlägt dort sein Zelt auf, / kein Hirt lässt seine Herde dort lagern. 21 Dort haben nur Wüstenhunde ihr Lager, / die Häuser sind voller Eulen, Strauße lassen sich dort nieder / und Böcke springen umher. 22 Hyänen heulen in Babels Palästen, / in den Lustschlössern heulen Schakale. Die Zeit (seines Endes) steht nahe bevor, / Babels (letzte) Tage verzögern sich nicht.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

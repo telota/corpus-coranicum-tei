@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Taxonomy der Kategorien der Umwelttexte/Belegstellen</title>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the various categories for texts predating the Qur'an. Derived from CCdbSQL data
+                    dump</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="tuk.cat">
+          <category xml:id="tuk.cat.A">
+            <catDesc>Altarabische Dichtung</catDesc>
+            <category xml:id="tuk.cat.A1">
+              <catDesc>ʿAbīd b. al-ʾAbraṣ (6. Jh.)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.A2">
+              <catDesc>al-ʾAʿšā Maimūn b. Qias (vor 570 - nach 625)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.A3">
+              <catDesc>Imruʾ al-Qais (6. Jh.)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.A4">
+              <catDesc>Umayya b. Abī ṣ-Ṣalt (gest. ca. 630)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.A5">
+              <catDesc>ʿUrwa b. al-Ward</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.B">
+            <catDesc>Hebräische Bibel</catDesc>
+            <category xml:id="tuk.cat.B1">
+              <catDesc>Genesis</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B2">
+              <catDesc>Exodus</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B3">
+              <catDesc>Deuteronomium</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B4">
+              <catDesc>Leviticus</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B5">
+              <catDesc>Numeri</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B6">
+              <catDesc>Richter</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B7">
+              <catDesc>Samuel</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B8">
+              <catDesc>Könige</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B9">
+              <catDesc>Jesaja</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B10">
+              <catDesc>Jeremia</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B11">
+              <catDesc>Ezechiel</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B12">
+              <catDesc>Jona</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B13">
+              <catDesc>Sacharja</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B14">
+              <catDesc>Zefanja</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B15">
+              <catDesc>Psalmen</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B16">
+              <catDesc>Hiob</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B17">
+              <catDesc>Sprichwörter</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B18">
+              <catDesc>Esther</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B19">
+              <catDesc>Daniel</catDesc>
+            </category>
+            <category xml:id="tuk.cat.B20">
+              <catDesc>Chronik</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.C">
+            <catDesc>Pseudepigraphen und Apokrypha der Hebräischen Bibel</catDesc>
+            <category xml:id="tuk.cat.C1">
+              <catDesc>Apokalypse des Mose</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C2">
+              <catDesc>Äthiopisches Henochbuch</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C3">
+              <catDesc>Äthiopisches Jubiläenbuch</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C4">
+              <catDesc>Jesus Sirach (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C5">
+              <catDesc>Leben Adams und Evas (lateinisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C6">
+              <catDesc>Griechische Baruch-Apokalypse</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C7">
+              <catDesc>Lateinisches Buch Esra (4 Esra)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C8">
+              <catDesc>Slawisches Henochbuch</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C9">
+              <catDesc>Syrische Baruchapokalypse (2 Baruch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C10">
+              <catDesc>Die Testamente der zwölf Patriarchen (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.C11">
+              <catDesc>Weisheit Salomos (griechisch)</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.D">
+            <catDesc>Neues Testament</catDesc>
+            <category xml:id="tuk.cat.D1">
+              <catDesc>Matthäusevangelium</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D2">
+              <catDesc>Markusevangelium</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D3">
+              <catDesc>Lukasevangelium</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D4">
+              <catDesc>Johannesevangelium</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D5">
+              <catDesc>Apostelgeschichte</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D6">
+              <catDesc>Brief an die Römer</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D7">
+              <catDesc>Brief an die Korinther</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D8">
+              <catDesc>Brief an die Galater</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D9">
+              <catDesc>Brief an die Epheser</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D10">
+              <catDesc>Brief an die Philipper</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D11">
+              <catDesc>Brief an die Thessalonicher</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D12">
+              <catDesc>Brief an Timotheus</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D13">
+              <catDesc>2. Brief des Petrus</catDesc>
+            </category>
+            <category xml:id="tuk.cat.D14">
+              <catDesc>Offenbarung des Johannes</catDesc>
+            </category>
+            <category xml:id="tuk.cat.">
+              <catDesc>1. Petrusbrief</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.E">
+            <catDesc>Pseudepigrapha und Apokrypha des Neuen Testaments</catDesc>
+            <category xml:id="tuk.cat.E1">
+              <catDesc>Apokalypse Abrahams (altkirchenslawisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E2">
+              <catDesc>Apokalypse des heiligen Johannes (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E3">
+              <catDesc>Himmelfahrt Jesajas (äthiopisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E4">
+              <catDesc>Protevangelium des Jakobus (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E5">
+              <catDesc>Kindheitsvengelium des Thomas (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E6">
+              <catDesc>Lebensgeschichte der Gottesmutter Maria (syrisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E7">
+              <catDesc>Psalmen Salomos</catDesc>
+            </category>
+            <category xml:id="tuk.cat.E8">
+              <catDesc>Visio Pauli (lateinisch)</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.F">
+            <catDesc>Talmud, Midrasch und Targum</catDesc>
+            <category xml:id="tuk.cat.F1">
+              <catDesc>Babylonischer Talmud</catDesc>
+            </category>
+            <category xml:id="tuk.cat.F2">
+              <catDesc>Midrasch</catDesc>
+            </category>
+            <category xml:id="tuk.cat.F3">
+              <catDesc>Targum</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.G">
+            <catDesc>Klassische Autoren, griechisch-römische und byzantinische Historiker</catDesc>
+            <category xml:id="tuk.cat.G1">
+              <catDesc>Flavius Josephus (ca. 37-100)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.G2">
+              <catDesc>Galen von Pergamon (129/131-205 oder 215)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.G3">
+              <catDesc>Johannes Malalas (490-570)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.G4">
+              <catDesc>Philo von Alexandrien (ca. 20 v.Chr.- ca. 50 n.Chr.)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.G5">
+              <catDesc>Platon (428-348 v.Chr.)</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.H">
+            <catDesc>Griechische, Lateinische und Syrische Patristik</catDesc>
+            <category xml:id="tuk.cat.H1">
+              <catDesc>Augustinus von Hippo (Annaba) (354-430)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H2">
+              <catDesc>Ephrem der Syrer (306-373)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H3">
+              <catDesc>(Pseudo-)Ephrem (6. Jh.)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H4">
+              <catDesc>Gregor von Tours (538-594)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H5">
+              <catDesc>Irenäus von Lyon (ca. 135-200)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H6">
+              <catDesc>Jakob von Sarug (450-521)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H7">
+              <catDesc>Justin der Märtyrer (ca. 100-165)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H8">
+              <catDesc>Melito von Sardes (165-175)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H9">
+              <catDesc>Origenes (ca. 185 - nach 251)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H10">
+              <catDesc>Philastrius von Brescia (330-397)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H11">
+              <catDesc>Philoxenos von Mabbūg (450-523)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H12">
+              <catDesc>Sophronius Eusebius Hieronymus (347-420)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H13">
+              <catDesc>Tertullian von Karthago (ca. 160 - ca. 230)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H14">
+              <catDesc>Theodoret von Kyrrhos (393-460)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.H15">
+              <catDesc>Theodosius Archidiakon (6. Jh.)</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.I">
+            <catDesc>Christliche monastische und asketische Literatur</catDesc>
+            <category xml:id="tuk.cat.I1">
+              <catDesc>Apophthegmata Patrum (Weisungen der Väter)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.I2">
+              <catDesc>Barnabasbrief (griechisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.I3">
+              <catDesc>1. Clemensbrief</catDesc>
+            </category>
+            <category xml:id="tuk.cat.I4">
+              <catDesc>2. Clemensbrief</catDesc>
+            </category>
+            <category xml:id="tuk.cat.I5">
+              <catDesc>Leben des Heiligen Clemens (syrisch)</catDesc>
+            </category>
+            <category xml:id="tuk.cat.I6">
+              <catDesc>Märtyerlegenden</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.J">
+            <catDesc>Kirchenrecht und Synodenbeschlüsse</catDesc>
+          </category>
+          <category xml:id="tuk.cat.K">
+            <catDesc>Gebete, liturgische Texte und religiöse Formeln</catDesc>
+            <category xml:id="tuk.cat.K1">
+              <catDesc>jüdische Gebete</catDesc>
+            </category>
+            <category xml:id="tuk.cat.K2">
+              <catDesc>christliche Gebete</catDesc>
+            </category>
+            <category xml:id="tuk.cat.K3">
+              <catDesc>zoroastrische Gebete</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.L">
+            <catDesc>Inschriften, Münzen, Papyri, Amulette, Siegel und Gemmen</catDesc>
+            <category xml:id="tuk.cat.L1">
+              <catDesc>Altäthiopische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L2">
+              <catDesc>Altsüdarabische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L3">
+              <catDesc>Altnordarabische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L4">
+              <catDesc>Altarabische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L5">
+              <catDesc>Aramäische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L6">
+              <catDesc>Lateinische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L7">
+              <catDesc>Mittelpersische Inschriften</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L8">
+              <catDesc>Münzen</catDesc>
+            </category>
+            <category xml:id="tuk.cat.L9">
+              <catDesc>Papyri</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.L10">
+            <catDesc>Gemmen,Siegel und Amulette</catDesc>
+          </category>
+          <category xml:id="tuk.cat.M">
+            <catDesc>Altorientalische Texte</catDesc>
+            <category xml:id="tuk.cat.M1">
+              <catDesc>Akkadische Texte</catDesc>
+            </category>
+            <category xml:id="tuk.cat.M2">
+              <catDesc>Assyrische Texte</catDesc>
+            </category>
+            <category xml:id="tuk.cat.M3">
+              <catDesc>Sumerische Texte</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.N">
+            <catDesc>Zoroastrische Texte</catDesc>
+            <category xml:id="tuk.cat.N1">
+              <catDesc>Ardā Wīrāz Nāmag</catDesc>
+            </category>
+            <category xml:id="tuk.cat.N2">
+              <catDesc>Dādestān ī Mēnōg ī Xrad</catDesc>
+            </category>
+            <category xml:id="tuk.cat.N3">
+              <catDesc>Yasna (zoroastrische Liturgie)</catDesc>
+            </category>
+          </category>
+          <category xml:id="tuk.cat.O">
+            <catDesc>Manichäische Texte</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div/>
+    </body>
+  </text>
+</TEI>

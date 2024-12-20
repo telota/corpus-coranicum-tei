@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2390">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Millon Auction House, June 16th 2022 Lot 128: "Monumental feuillet du coran sur parchemin"</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="102">Millon Auction House
+                            , Paris</repository>
+            <idno>June 16th 2022 Lot 128: "Monumental feuillet du coran sur parchemin"</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio on parchment; Qurʾānic Text: Q 87:19-90:20; 18 lines per  page; Dimensions: 585 x 425mm; Script style: kūfī B.I; Estimated date of production: 680-750 (?).</p>
+              <p> </p>
+              <p>Another folio from the same manuscript was sold to <ref target="https://corpuscoranicum.de/en/manuscripts/1980?sura=84&amp;verse=11">Sotheby's on 20. April</ref>, 2016. The C-14 dating of the fragment resulted in 649-778 AD with 95% confidence.</p>
+            </summary>
+            <msItem xml:id="mysql_id_706955" n="1r">
+              <title type="numeric" key="087:019:002-089:015:004">
+                                    087:019:002-089:015:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_706956" n="1v">
+              <title type="numeric" key="089:015:005-090:020:001">
+                                    089:015:005-090:020:001
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>585</width><height>425</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="18">18 - 18 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>The script of the fragment is close to the kūfī style B.I with influences from ḥiǧāzī and C.Ia. The letter <hi rend="italic">ʾalif </hi>is slightly inclined to the right, as in the ḥiǧāzī and B.Ia scripts. The letters ǧīm/ḥāʾ/ḫāʾ in initial position resemble the letter found in the C.Ia group. Within a word, the letter rests on the base line as in C.Ia. In one case on fol. 1r. the letter in the medial position has the form of an oblique bar crossing the base line, as in the B.I group. The final form of the letter is also identical to group C.Ia, where the tail of the letter is horizontal. In the initial form, the letter ʿayn is close to that of ḥiǧāzī IV, with the upper hook being angular rather than round. In the medial form, the letter is identical to those of the B.II group, the two antennas are difficult to distinguish, but the right one is vertical. In the final position, the letter has two different shapes: when isolated, the tail lies horizontally on the base line. When connected to the previous letter, the shape is similar to that of B.Ia. The letter qāf in final position is identical to B.II. On fol. 1r. the isolated qāf bears a resemblance to the B.I group. The letter hāʾ in the initial or medial position rests on the baseline, the bar is vertical, resembling the form seen in the ḥiǧāzī IV manuscripts. As for lām-ʾalif ligature, the two arms of the ligature curve away from each other, unlike in B.I. where they lean towards each other.  Vocalisation is done with red dots. Diacritical marks are occasionally made by oblique strokes.  Typical letter forms are shown in the palaeographic table, accessible as fig. 2 under fol. 1r. </p>
+              </summary>
+              <scriptNote>
+                                                                kūfī B.Ib
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>680-750</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+                <p>metadata: Salome Beridze</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76518">
+      <graphic decls="#imageRights-1" url="manuscript/2390/40e9b50b-ba1a-4291-a6c1-bdcc0f0d75ec/manuscript-2390-page-76518-image-106169.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_76519">
+                    </surface>
+  </facsimile>
+</TEI>

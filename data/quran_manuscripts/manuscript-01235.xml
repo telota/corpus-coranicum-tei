@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1235">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (72)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0175.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0176.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (72)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Vat. Ar. 1605 (LXXII); Qurʾānic Text:  Q 32:6-32:11; 8 lines per page; Dimensions: 170 x 108mm; Script style: kūfī D.I; Estimated date  of production: 700–900.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 50): </p>
+              <p>"72. Cm. 10,8 x 17; 8 linee. Sura 32,6 (5) [الشـ]ـهٰدة – 9 (8) والا(بصار); verso: sura 32,9 (8) (والا)بصار – 11 ربكم. Questo  foglio appartiene allo stesso esemplare del numero precedente. Alla  fine del v. 6, che è 5 in tutte le numerazioni tradizionali in <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/PWGCAS53">SPITALER</ref>, p. 52, appare un divisore quinario in oro nella forma usuale di <hi rend="italic">hāʾ </hi>stilizzata;  alla fine del v. 10 un divisore denario in oro in forma di rosetta. Il  foglio è alquanto danneggiato, specialmente nella parte inferiore, e la  scrittura del verso è evanida."  </p>
+            </summary>
+            <msItem xml:id="mysql_id_679837" n="72r">
+              <title type="numeric" key="032:006:004-032:009:011">
+                                    032:006:004-032:009:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679838" n="72v">
+              <title type="numeric" key="032:009:011-032:011:011">
+                                    032:009:011-032:011:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>170</width><height>108</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="8">8 - 8 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>700-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="72r" xml:id="mysql_id_40678">
+      <graphic decls="#imageRights-1" url="manuscript/1235/bdc9ee9d-a76e-41c5-9d20-57e204faa7b2/manuscript-1235-page-40678-image-25909.jpg"/>
+    </surface>
+    <surface n="72v" xml:id="mysql_id_40679">
+      <graphic decls="#imageRights-2" url="manuscript/1235/b469b90f-9e32-4f1e-8a8d-15afd4fc517c/manuscript-1235-page-40679-image-25910.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

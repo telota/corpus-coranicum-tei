@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1601">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dublin, Chester Beatty Library (Leabharlann Chester Beatty), Is 1425</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: © The Trustees of the Chester Beatty Library, Dublin.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="6">Chester Beatty Library (Leabharlann Chester Beatty)
+                            , Dublin</repository>
+            <idno>Is 1425</idno>
+          </msIdentifier>
+          <msContents>
+            <summary><p>12 fol. on parchment; Shelfmark: Is 1425; Qurʾānic text: Q 23:1-25:20 (incomplete); 7 lines per page; Dimensions: 195 x 257mm; Script style: kūfī.</p><p> </p><p>The catalogue of Qurʾān manuscripts of Chester Beatty Library contains the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/JXE6ZPW5">Arberry 1967</ref>, p. 11): </p>"29. Juz’ XVIII (incomplete). Twelve folios of firm vellum, measuring 25.7 x 19.5 cm., 7 lines to the page. The script is upright and very regular, fully pointed and vocalized in red, blue, green, and yellow. Verse-endings are indicated by a circular ornament. <hi rend="italic">Alif </hi>is 2.5 cm. high. The first three pages are illuminated in gold. A comparable script is Munajjed 8. See Plate 22. (MS. 1425)" <p/>
+                    </summary>
+            <msItem xml:id="mysql_id_691823" n="2v">
+              <title type="numeric" key="023:000:000-023:003:005">
+                                    023:000:000-023:003:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_691824" n="3r">
+              <title type="numeric" key="023:004:001-023:007:005">
+                                    023:004:001-023:007:005
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 12
+                                    <dimensions unit="mm"><width>195</width><height>257</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="2v" xml:id="mysql_id_51781">
+      <graphic decls="#imageRights-1" url="manuscript/1601/c84d3db3-cdb0-4444-9c05-0bc9114fe5a9/manuscript-1601-page-51781-image-40448.JPG"/>
+      <graphic decls="#imageRights-1" url="manuscript/1601/9fd67569-16b6-4b07-8a98-6e77dd6e640d/manuscript-1601-page-51781-image-40451.JPG"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_51782">
+      <graphic decls="#imageRights-1" url="manuscript/1601/d1b576ed-c13c-4db6-b8c6-26a3a078bbe9/manuscript-1601-page-51782-image-40449.JPG"/>
+      <graphic decls="#imageRights-1" url="manuscript/1601/cd63061d-6f52-4d2b-981e-d09e556675e8/manuscript-1601-page-51782-image-40450.JPG"/>
+    </surface>
+  </facsimile>
+</TEI>

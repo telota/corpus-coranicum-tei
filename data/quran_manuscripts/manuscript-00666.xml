@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_666">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 361 (a)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 361 (a)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Der Katalog der Pariser Koranhandschriften <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/5RF6W5GJ" sameAs="5RF6W5GJ" type="zotero">(Déroche 1983: p. 92)</ref> enthält folgende Angaben: "Arabe<hi rend="bold"> 361 a</hi> : ffo 1 à 3. Fo 1 v : XLI, 46-47 ; fo 2 à 3 : XLII, 13-16. Copie anonyme et non datée. Au fo 1 r, une note rappelle que ce volume, le vingt-cinquième d’une série de trente, a été déposé dans la grande mosquée de <hi rend="italic">Miṣr</hi> (Fusṭāṭ) par <hi rend="italic">Kulṯum bint Yaḥyā b. ʿĪsā b. Tamīm</hi>. Graphie proche de D I. Diacritiques : rares traits obliques ; vocalisation : points rouges. Des groupes de trois points dorés disposés en triangle (2.2.3) séparent les versets. Au fo 1 V, une vignette médiane lancéolée marque le début du ǧuzʾ XXV. Parchemin. 3 feuillets. Page : 132 x 184. 7 lignes. Encre brune. Surface d’écriture : 70 x 132."</p>
+            </summary>
+            <msItem xml:id="mysql_id_679909" n="1r">
+              <title type="numeric" key="001:000:000-001:000:000">
+                                    001:000:000-001:000:000
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679910" n="1v">
+              <title type="numeric" key="041:046:001-041:047:011">
+                                    041:046:001-041:047:011
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679911" n="2r">
+              <title type="numeric" key="042:013:029-042:014:017">
+                                    042:013:029-042:014:017
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679912" n="2v">
+              <title type="numeric" key="042:014:018-042:015:005">
+                                    042:014:018-042:015:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679913" n="3r">
+              <title type="numeric" key="042:015:005-042:015:024">
+                                    042:015:005-042:015:024
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679914" n="3v">
+              <title type="numeric" key="042:015:025-042:016:011">
+                                    042:015:025-042:016:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 3
+                                    <dimensions unit="mm"><width>184</width><height>132</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_32433">
+      <graphic decls="#imageRights-1" url="manuscript/666/24adcbaf-2199-4f2d-bf92-cec3d216568d/manuscript-666-page-32433-image-17162.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_32434">
+      <graphic decls="#imageRights-1" url="manuscript/666/6d0ae526-d38f-4957-a66f-29144fd18964/manuscript-666-page-32434-image-17163.jpg"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_32435">
+      <graphic decls="#imageRights-1" url="manuscript/666/ffb3b195-4e4f-4797-a5b0-f38d6705a2eb/manuscript-666-page-32435-image-17164.jpg"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_32436">
+      <graphic decls="#imageRights-1" url="manuscript/666/523fcde8-3385-4b9a-98d6-c3727aa41d84/manuscript-666-page-32436-image-17165.jpg"/>
+    </surface>
+    <surface n="3r" xml:id="mysql_id_32437">
+      <graphic decls="#imageRights-1" url="manuscript/666/e4efc41b-1966-4ae0-bf6c-caad46a87869/manuscript-666-page-32437-image-17166.jpg"/>
+    </surface>
+    <surface n="3v" xml:id="mysql_id_32438">
+      <graphic decls="#imageRights-1" url="manuscript/666/6041fceb-634f-4fb5-b922-e261aac7ae7e/manuscript-666-page-32438-image-17167.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

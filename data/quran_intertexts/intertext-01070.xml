@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De specialibus legibus 2:73-78</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1070" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1070</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Koranverse Q 2:275-276, 2:278-281, 3:130 und 30:39 kritisieren, bzw. verbieten das Zinsnehmen. Auch in der Hebräischen Bibel finden sich ähnliche Vorschriften, wobei Deuteronomium 23:20-21 das Zinsnehmen von Ausländern (TUK_0493) erlaubt, während Ezechiel 18 (TUK_1069) keine Einschränkung enthält und daher als allgemeines Verbot verstanden werden kann. Wie der hier zitierte Text zeigt, kritisiert auch Philo das Zinsnehmen allgemein. Auch verschiedene Talmudstellen scheinen das Zinsverbot allgemein aufzufassen, z.B. im Babylonischen Talmud, Baba Meṣiʿa 60b und 75a und im Palästinischen Talmud, Baba Meṣiʿa V, 8, 20a (Speyer 1931: p. 321). Die Koranverse Q 4:160-161, die den Juden vorwerfen, trotz des Verbotes 
+Zinsen genommen zu haben, gehen vielleicht von einer solchen allgemeinen
+ Interpretation aus. Zum Zinsverbot vgl. auch TUK_0245.
+</summary>
+            <msItem>
+              <title>De specialibus legibus 2:73-78</title>
+              <author>Philo von Alexandria (ca. 20/10 v. Chr. - 40/50 n.Chr.)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 50 n.Chr.</origDate>
+              <origPlace>Alexandria</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	73  παρὰ γὰρ τῶν ὁμοεθνῶν εἰσπράττειν οὐκ ἐάσας ἐφῆκε παρὰ τῶν ἄλλων κομίζεσθαι, τοὺς μὲν καλέσας εὐθυβόλως ¹ἀδελφούσ¹, ἵνα μηδεὶς φθονῇ τῶν ἰδίων ὡς ἂν ἐκ φύσεως συγκληρονόμοις ἀδελφοῖς, τοὺς δὲ μὴ ὁμοεθνεῖς, ὅπερ εἰκός, ¹ἀλλοτρίουσ¹ ὠνόμασεν. ἡ δ᾽ ἀλλοτριότης ἀκοινώνητον, εἰ μὴ καὶ ταύτην τις ὑπερβολαῖς ἀρετῶν μεθαρμόσαιτο πρὸς συγγενικὴν οἰκειότητα· συνόλως γὰρ ἐν ἀρεταῖς ἡ πολιτεία καὶ νόμοις, οἳ μόνον τὸ καλὸν ἀγαθὸν εἰσηγοῦνται.  74  ὑπαίτιον δὲ τὸ δανείζειν ἐπὶ τόκῳ· δανείζεται γάρ τις οὐ περιουσίᾳ ζῶν, ἀλλὰ δηλονότι χρεῖος ὤν, ὃς ἐπαναγκαζόμενος τόκους τοῖς ἀρχαίοις προσαποτίνειν ἀπορώτατος ἐξ ἀνάγκης ἂν γένοιτογίνομαι καὶ νομίσας ὠφελεῖσθαι ἔτι βλάπτεται καθάπερκαθά τὰ ὀλιγόφρονα τῶν ζῷων τῷ παρόντι δελέατι.  75  σοὶ δ᾽ εἴποιμ᾽λέγω ἄν, ὦ δανειστά· τί κοινωνίᾳ τρόπον ἀκοινώνητον συσκιάζεις; τί δὲ τῷ μὲν δοκεῖν εἶναι χρηστὸς καὶ φιλάνθρωπος προσποιῇ, ἐν δὲ τοῖς ἔργοις ἀπανθρωπίαν ἐπιδείκνυσαι καὶ δεινὴν σκαιότητα, πλείω ὧν ἔδωκας ἀναπράττων καὶ ἔστιν ὅπου διπλάσιον, πενιχρότερον ἀπεργαζόμενος τὸν πένητα;  76  τοιγάρτοι συναλγεῖ μὲν οὐδείς, ὅταν ὀρεχθεὶς πλειόνων προσσυναποβάλῃς καὶ τὰ ὄντα, πάντες δ᾽ ἐφήδονται τοκογλύφον καὶ ὀβολοστάτην καὶ τὰ τοιαῦτα ὀνομάζοντες, ὡς ἔφεδρον ἀλλοτρίων κακῶν καὶ τὴν ἑτέρων ἀτυχίαν ἰδίαν κρίνοντα εὐτυχίαν.  77  ἀλλὰ πηρόν, ὡς ἔφηλέγω τις, ἡ κακία, καὶ ὁ δανείζων τυφλός, τὸν χρόνον τῆς ἀποδόσεως οὐ βλέπων, ἐν ᾧ μόλις ἢ οὐδ᾽ ὅλως ὧν ἐκ πλεονεξίας τεύξεσθαι προσεδόκησεν ἐφίξεται.  78  οὗτος μὲν οὖν διδότω δίκας τῆς φιλαργυρίας, ἃ προήκατο μόνα κομιζόμενος, ἵνα μὴ ἀτυχίας ἀνθρώπων ἐργάζηται προσοδευόμενος ἐξ ὧν οὐ προσῆκεν· οἱ δὲ χρεῶσται τῆς ἀπὸ τῶν νόμων φιλανθρωπίας ἀξιούσθωσαν, τόκους καὶ ἐπιτοκίας μὴ τελοῦντες, αὐτὸ δὲ μόνον τὸ ἀρχαῖον ἀποτινύντες· πάλιν γὰρ ἐν καιροῖς τὸν αὐτὸν ἔρανον ἀνταποτίσουσι τοῖς συμβάλλουσιν ἀμειβόμενοι ταῖς ἴσαις ὠφελείαις τοὺς χάριτος ἄρξαντας.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>
+	73 For while it does not permit them to lend on usury to their fellow countrymen, it has allowed them to receive interest from foreigners; calling the former, with great felicity of expression, their brothers, in order to prevent any one's grudging to give of his possessions to those who are as if by nature joint inheritors with themselves; but those who are not their fellow countrymen are called strangers, as is very natural. For the being a stranger shows that a person has no right to a participation in any thing, unless, indeed, any one out of an excess of virtue should treat even those in the conditions of strangers as kindred and related, from having been bred up under a virtuous state of things, and under virtuous laws which look upon what is virtuous alone as good.  74 But the action of lending on usury is blameable; for a man who lends on usury has not abundant means of living, but is clearly in some want; and he does so as being compelled to add the interest to his principal in order to subsist, and so he at last becomes of necessity very poor; and while he thinks that he is deriving advantage he is in reality injured, just as foolish animals are when they are deceived by a present bait.  75 But I should say to such persons, "O you who lend on usury, why do you seek to disguise your unsociable disposition by an apparent pretense of good fellowship? And why do you in words, indeed, pretend to be a humane and considerate person, while in your actions you exhibit a want of humanity and a terrible hardness of heart, exacting more than you gave, and sometimes even doubling your original loan, so as to make the poor man an absolute beggar?  76 Therefore no one sympathizes with you in your distress, when, having endeavored to obtain more, you fail to do so, and besides lose even what you had before. But, on the contrary, all men are glad of your misfortunes, calling you a usurer, and a skinflint, and all kinds of names like those, looking on you as one who lies in wait for human misfortunes, and who esteems the misfortunes of others his own prosperity."  77 But, as some have said, wickedness is a most laborious thing; and he who lends on usury is blind, not seeing the time of repayment, in which he will scarcely, or perhaps not at all, receive the things which in his covetousness he had hoped to gain.  78 Let such a man pay the penalty of his avaricious disposition, not recovering back what he has expended, so as to make a gain of the misfortunes of men, deriving a revenue from unbecoming sources. But let the debtors be thought worthy of a humanity enjoined by the law, not paying back their loans and usurious interest upon them, but paying back merely the original sum lent. For again, at a proper season, they will give the same assistance to those who have aided them, requiting those who set the example of kindness with equal services.
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

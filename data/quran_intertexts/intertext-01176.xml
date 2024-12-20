@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Babylonischer Talmud, Berakot 9b</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1176" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1176</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 2:187 legt den Zeitpunkt, an dem morgens das Fasten im Ramadan beginnt, auf den Moment, an dem man in der Morgendämmerung einen schwarzen und einen weißen Faden voneinander unterscheiden kann. Das Kriterium der Unterscheidbarkeit von Farben (eines Wollbündels) wird auch an der hier zitierten Stelle aus dem babylonischen Talmud zur Bestimmung des Zeitpunktes, ab dem das Schema Yisrael am Morgen gebetet wird, herangezogen. Anders als der Koran nennt der Talmud nicht nur die Unterscheidbarkeit von Farben, sondern auch von ähnlich aussehenden Tieren als Möglichkeit, die richtige Zeit zu bestimmen.
+</summary>
+            <msItem>
+              <title>Babylonischer Talmud, Berakot 9b</title>
+              <author/>
+              <textLang mainLang="arc">Aramäisch/Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 7. Jh. n. Chr. (Endredaktion)</origDate>
+              <origPlace>Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"> Wilna 1880-1886</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="arc">
+        <p>
+	מאימתי קורין את שמע בשחרית? משיכיר בין תכלת ללבן. רבי אליעזר אומר: בין תכלת לכרתי. (וגומרה) עד הנץ החמה. רבי יהושע אומר: עד שלש שעות שכן דרך מלכים לעמוד בשלש שעות. הקורא מכאן ואילך לא הפסיד, כאדם הקורא בתורה. גמרא. מאי בין תכלת ללבן? אילימא בין גבבא דעמרא חיורא לגבבא דעמרא דתכלתא - הא בליליא נמי מידע ידעי! אלא: בין תכלת שבה ללבן שבה. תניא, רבי מאיר אומר: משיכיר בין זאב לכלב; רבי עקיבא אומר: בין חמור לערוד; ואחרים אומרים: משיראה את חברו רחוק ארבע אמות
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	Von wann an liest man das Schema am Morgen? - Sobald man zwischen purpurblau und weiß unterscheiden kann; R. Eliʿezer sagt, zwischen purpurblau und lauchgrün. Man beende es bis Sonnenaufgang; R. Jehošuaʿ sagt bis drei Stunden, denn Könige pflegen in der dritten Stunde aufzustehen. Wer von da ab liest, hat nichts verloren, als wenn jemand in der Tora liest. GEMARA Was heißt: zwischen purpurblau und weiß; wollte man sagen, zwischen einem weißen (Wollbündel) und einem purpurblauen Wollbündel, so ist dies ja auch nachts zu unterscheiden!? - Vielmehr, zwischen blau und weiß, das daran. Es wird gelehrt: R. Meir sagt, sobald man zwischen einem Wolfe und einem Hunde unterscheiden kann; R. ʿAqiba sagt, zwischen einem Esel und einem Waldesel; Andere sagen, sobald man seinen Nächsten in einer Entfernung von vier Ellen sehen und erkennen kann. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>From what time may one recite the Shema in the morning? From the time that one can distinguish between blue and white. R. Eliezer says: between blue and green. And he has time to finish until sunrise. R. Joshua says: until the third hour of the day, for such is the custom of kings, to rise at the third hour. If one recites the Shema' later he loses nothing, being like one who reads in the Torah. GEMARA. What is the meaning of BETWEEN BLUE AND WHITE? Shall I say: between a lump of white wool and a lump of blue wool? This one may also distinguish in the night! It means rather: between the blue in it and the white in it. It has been taught: R. Meir says: [The morning Shema' is read] from the time that one can distinguish between a wolf and a dog; R. Akiba says: Between an ass and a wild ass. Others say: From the time that one can distinguish his friend at a distance of four cubits.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

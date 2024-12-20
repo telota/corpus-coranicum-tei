@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_2972">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Istanbul, Topkapı Palace Museum (Topkapı Sarayı Müzesi), E. H. 216 [= Karatay 92]</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="7">Topkapı Palace Museum (Topkapı Sarayı Müzesi)
+                            , Istanbul</repository>
+            <idno>E. H. 216 [= Karatay 92]</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>  </p>
+              <p>173 fol.; Writing surface: paper; Shelfmark: E. H. 216; Qurʾānic Text: Q 2:2-5:120; 5 lines per page; Dimensions: 225 x 325mm; Script style: nasḫ; Date of production: 1262-63 CE.</p>
+              <p> </p>
+              <p>This entry is based on the catalogue of Fehmi E. Karatay (1888-1968). Currently we do not have access to the images. With exceptions, the catalogue does not contain precise information on the distribution of the text throughout the pages. For this reason, only fol. 1 is given. </p>
+              <p> </p>
+              <p><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/UEN2FUP7" sameAs="UEN2FUP7" type="zotero">Karatay (1962) </ref>describes the manuscripts as follows, p. 30: "92 E. H. 216. Kur’andan bir bölüm. Aharlı ve vassaleli kâğıt. 325mm boy 225mm eninde 173 yaprak. Sahifede güzel iri reyhani ile 105mm uzunl.[uğunda] 5 satır. Yāḳūt al-Mustaʿṣimī tarafından 661 (1262-63) de istinsah edilmiştir. Güller, duraklar ve son ketebe sahifesi müzehheptir. Cetveller yaldız ve renklidir. Miklep ve şemseli unnabi deri cilt çok tamir görmüştir. Bu mücelletle Baḳara (2) suresinden Māʾida (5) suresinin sonuna kadar vardır. Başta Fātiḥa suresi yoktur."</p>
+              <p> </p>
+              <p>This can be translated as follows: "92 E. H. 216. A part of the Qurʾān. Sized paper with the technique of vaṣṣālī. 173 leaves of 325 mm height and 225 mm width. The text area written in fine large naskh with diacritics, [contains] 5 lines measuring 105 mm height. Copied by Yāḳūt al-Mustaʿṣimī in the year 661 (1262-63). Roses, verse seperators and kataba leaf are illuminated. The part contains the Q 2:2 (Sūra al-Baqara) until the end of of Q 5 (Sūra al-Māʾida). It does not have Sūra al-Fātiḥa.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_712355" n="1">
+              <title type="numeric" key="002:002:001-005:120:011">
+                                    002:002:001-005:120:011
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 173
+                                    <dimensions unit="mm"><width>225</width><height>325</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                nasḫ
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1262-1263</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Esra Gözeler</p>
+                <p>assistance: Karina Söhl</p>
+                <p>metadata: Ayşenur Elif Ünal Şahin</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1" xml:id="mysql_id_99815">
+                    </surface>
+  </facsimile>
+</TEI>

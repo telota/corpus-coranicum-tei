@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 136:1-26</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_585" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>585</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 55 erinnert in der Beschreibung von Gottes Wirken in der Natur und in der Verwendung eines Refrains an Psalm 136, der auch Teil der jüdischen Liturgie ist (Speyer 1931: p. 449).Ausführlich dazu vgl. Neuwirth 2010: p. 746-775.</summary>
+            <msItem>
+              <title>Psalm 136:1-26</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>הוֹדוּ לַיהוָה כִּי־טוֹב כִּי לְעוֹלָם חַסְדּֽוֹ׃ הוֹדוּ לֵאלֹהֵי הָאֱלֹהִים כִּי לְעוֹלָם חַסְדּֽוֹ׃ הוֹדוּ לַאֲדֹנֵי הָאֲדֹנִים כִּי לְעֹלָם חַסְדּֽוֹ׃ לְעֹשֵׂה נִפְלָאוֹת גְּדֹלוֹת לְבַדּוֹ כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְעֹשֵׂה הַשָּׁמַיִם בִּתְבוּנָה כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְרֹקַע הָאָרֶץ עַל־הַמָּיִם כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְעֹשֵׂה אוֹרִים גְּדֹלִים כִּי לְעוֹלָם חַסְדּֽוֹ׃ אֶת־הַשֶּׁמֶשׁ לְמֶמְשֶׁלֶת בַּיּוֹם כִּי לְעוֹלָם חַסְדּֽוֹ׃ אֶת־הַיָּרֵחַ וְכוֹכָבִים לְמֶמְשְׁלוֹת בַּלָּיְלָה כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְמַכֵּה מִצְרַיִם בִּבְכוֹרֵיהֶם כִּי לְעוֹלָם חַסְדּֽוֹ׃ וַיּוֹצֵא יִשְׂרָאֵל מִתּוֹכָם כִּי לְעוֹלָם חַסְדּֽוֹ׃ בְּיָד חֲזָקָה וּבִזְרוֹעַ נְטוּיָה כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְגֹזֵר יַם־סוּף לִגְזָרִים כִּי לְעוֹלָם חַסְדּֽוֹ׃ וְהֶעֱבִיר יִשְׂרָאֵל בְּתוֹכוֹ כִּי לְעוֹלָם חַסְדּֽוֹ׃ וְנִעֵר פַּרְעֹה וְחֵילוֹ בְיַם־סוּף כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְמוֹלִיךְ עַמּוֹ בַּמִּדְבָּר כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְמַכֵּה מְלָכִים גְּדֹלִים כִּי לְעוֹלָם חַסְדּֽוֹ׃ וַיַּהֲרֹג מְלָכִים אַדִּירִים כִּי לְעוֹלָם חַסְדּֽוֹ׃ לְסִיחוֹן מֶלֶךְ הָאֱמֹרִי כִּי לְעוֹלָם חַסְדּֽוֹ׃ וּלְעוֹג מֶלֶךְ הַבָּשָׁן כִּי לְעוֹלָם חַסְדּֽוֹ׃ וְנָתַן אַרְצָם לְנַחֲלָה כִּי לְעוֹלָם חַסְדּֽוֹ׃ נַחֲלָה לְיִשְׂרָאֵל עַבְדּוֹ כִּי לְעוֹלָם חַסְדּֽוֹ׃ שֶׁבְּשִׁפְלֵנוּ זָכַר לָנוּ כִּי לְעוֹלָם חַסְדּֽוֹ׃ וַיִּפְרְקֵנוּ מִצָּרֵינוּ כִּי לְעוֹלָם חַסְדּֽוֹ׃ נֹתֵן לֶחֶם לְכָל־בָּשָׂר כִּי לְעוֹלָם חַסְדּֽוֹ׃ הוֹדוּ לְאֵל הַשָּׁמָיִם כִּי לְעוֹלָם חַסְדּֽוֹ׃</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Dankt dem Herrn, denn er ist gütig, / denn seine Huld währt ewig! 2 Dankt dem Gott aller Götter, / denn seine Huld währt ewig! 3 Dankt dem Herrn aller Herren, / denn seine Huld währt ewig! 4 Der allein große Wunder tut, / denn seine Huld währt ewig, 5 der den Himmel geschaffen hat in Weisheit, / denn seine Huld währt ewig, 6 der die Erde über den Wassern gegründet hat, / denn seine Huld währt ewig, 7 der die großen Leuchten gemacht hat, / denn seine Huld währt ewig, 8 die Sonne zur Herrschaft über den Tag, / denn seine Huld währt ewig, 9 Mond und Sterne zur Herrschaft über die Nacht, / denn seine Huld währt ewig. 10 Der die Erstgeburt der Ägypter schlug, / denn seine Huld währt ewig, 11 und Israel herausführte aus ihrer Mitte, / denn seine Huld währt ewig, 12 mit starker Hand und erhobenem Arm, / denn seine Huld währt ewig, 13 der das Schilfmeer zerschnitt in zwei Teile, / denn seine Huld währt ewig, 14 und Israel hindurchführte zwischen den Wassern, / denn seine Huld währt ewig, 15 und den Pharao ins Meer stürzte samt seinem Heer, / denn seine Huld währt ewig. 16 Der sein Volk durch die Wüste führte, / denn seine Huld währt ewig, 17 der große Könige schlug, / denn seine Huld währt ewig, 18 und mächtige Könige tötete, / denn seine Huld währt ewig, 19 Sihon, den König der Amoriter, / denn seine Huld währt ewig, 20 und Og, den König von Baschan, / denn seine Huld währt ewig, 21 und der ihr Land zum Erbe gab, / denn seine Huld währt ewig, 22 der es Israel gab, seinem Knecht, / denn seine Huld währt ewig. 23 Der an uns dachte in unsrer Erniedrigung, / denn seine Huld währt ewig, 24 und uns den Feinden entriss, / denn seine Huld währt ewig, 25 der allen Geschöpfen Nahrung gibt, / denn seine Huld währt ewig. 26 Dankt dem Gott des Himmels, / denn seine Huld währt ewig.</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 145:1-21</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_553" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>553</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Laut Q 40:7-9 bitten die Engel, die Gottes Thron umgeben, für die Gläubigen und appellieren dabei an Gottes allumfassende Barmherzigkeit. Die dafür gebrauchte Formulierung (wasiʿta kulla šaiʾin raḥmatan wa-ʿilman, "Du umfasst alles in Barmherzigkeit und Wissen") erinnert an Psalm 145:9 (wə-raḥamaw ʿal kol maʿaśaw, "Sein Erbarmen ist über all seinen Werken"). Psalm 145 ist auch Bestandteil der jüdischen Liturgie und übte Einfluss auf die weitere Entwicklung von Gebeten und Liturgie aus. Im Talmud (bT Berakot 4b) wird außerdem seine tägliche Rezitation empfohlen (Hossfeld und Zenger 2008: p. 806; vgl. auch Speyer 1931: p. 447). Außerdem zitiert Psalm 145:8 die Gnadenformel aus Exodus 34:6 (YHWH ʾel raḥum wə-ḥanun ʾereḵ ʾappayim wə-raḇ ḥesed we-ʾemet; "YHWH ist ein barmherziger und gnädiger Gott, langmütig, reich an Huld und Treue") (Hossfeld und Zenger 2008: p. 805) und ruft damit auch die Ereignisse der Wüstenwanderung in Erinnerung. Vor diesem Hintergrund weist Q 7:156 eine über die Ähnlichkeit der Formulierung hinausgehende Parallele mit Psalm 145:9 auf. In Q 7:156 ist die Wendung raḥmatī wasiʿat kulla šaiʾin ("Meine Barmherzigkeit umfasst alles") Teil einer Rede Gottes an Mose, ähnlich wie auch die Gnadenformel in Ex 34:6. Sowohl in Q 7:156 als auch in Ex 34 folgt die Formel auf die Erzählung vom goldenen Kalb (vgl. TUK_0263). Während aber Gott in Ex 34 diese Worte zu Mose auf dem Sinai spricht, als dieser die Tafeln ein zweites Mal entgegennimmt, wird im Koran zwischen dem Empfang der Tafeln und der Gnadenformel noch von der Wahl der siebzig Männer (vgl. TUK_0274) berichtet.
+</summary>
+            <msItem>
+              <title>Psalm 145:1-21</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Hossfeld, Frank-Lothar &amp;amp; Zenger, Erich: Psalmen 101 - 150: Herder, Freiburg im Breisgau [u.a] 2008.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	תְּהִלָּה לְדָוִד אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ וַאֲבָרֲכָה שִׁמְךָ לְעוֹלָם וָעֶד׃ בְּכָל־יוֹם אֲבָרֲכֶךָּ וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד׃ גָּדוֹל יְהוָה וּמְהֻלָּל מְאֹד וְלִגְדֻלָּתוֹ אֵין חֵקֶר׃ דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ וּגְבוּרֹתֶיךָ יַגִּידוּ׃ הֲדַר כְּבוֹד הוֹדֶךָ וְדִבְרֵי נִפְלְאוֹתֶיךָ אָשִׂיחָה׃ וֶעֱזוּז נוֹרְאֹתֶיךָ יֹאמֵרוּ וּגְדוּלָּתְיךָ אֲסַפְּרֶנָּה׃ זֵכֶר רַב־טוּבְךָ יַבִּיעוּ וְצִדְקָתְךָ יְרַנֵּנוּ׃ חַנּוּן וְרַחוּם יְהוָה אֶרֶךְ אַפַּיִם וּגְדָל־חָסֶד׃ טוֹב־יְהוָה לַכֹּל  וְרַחֲמָיו עַל־כָּל־מַעֲשָׂיו׃  יוֹדוּךָ יְהוָה כָּל־מַעֲשֶׂיךָ וַחֲסִידֶיךָ יְבָרֲכֽוּכָה׃ כְּבוֹד מַלְכוּתְךָ יֹאמֵרוּ וּגְבוּרָתְךָ יְדַבֵּרוּ׃ לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו וּכְבוֹד הֲדַר מַלְכוּתֽוֹ׃ מַלְכוּתְךָ מַלְכוּת כָּל־עֹֽלָמִים וּמֶמְשֶׁלְתְּךָ בְּכָל־דּוֹר וָדֽוֹר׃ סוֹמֵךְ יְהוָה לְכָל־הַנֹּפְלִים וְזוֹקֵף לְכָל־הַכְּפוּפִים׃ עֵינֵי־כֹל אֵלֶיךָ יְשַׂבֵּרוּ וְאַתָּה נֽוֹתֵן־לָהֶם אֶת־אָכְלָם בְּעִתּֽוֹ׃ פּוֹתֵחַ אֶת־יָדֶךָ וּמַשְׂבִּיעַ לְכָל־חַי רָצֽוֹן׃ צַדִּיק יְהוָה בְּכָל־דְּרָכָיו וְחָסִיד בְּכָל־מַעֲשָׂיו׃ קָרוֹב יְהוָה לְכָל־קֹרְאָיו לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת׃ רְצוֹן־יְרֵאָיו יַעֲשֶׂה וְאֶת־שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם׃ שׁוֹמֵר יְהוָה אֶת־כָּל־אֹהֲבָיו וְאֵת כָּל־הָרְשָׁעִים יַשְׁמִיד׃ תְּהִלַּת יְהוָה יְדַבֶּר־פִּי וִיבָרֵךְ כָּל־בָּשָׂר שֵׁם קָדְשׁוֹ לְעוֹלָם וָעֶד׃
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 [Ein Loblied Davids.] Ich will dich rühmen, mein Gott und König, / und deinen Namen preisen immer und ewig; 2 ich will dich preisen Tag für Tag / und deinen Namen loben immer und ewig. 3 Groß ist der Herr und hoch zu loben, / seine Größe ist unerforschlich. 4 Ein Geschlecht verkünde dem andern den Ruhm deiner Werke / und erzähle von deinen gewaltigen Taten. 5 Sie sollen vom herrlichen Glanz deiner Hoheit reden; / ich will deine Wunder besingen. 6 Sie sollen sprechen von der Gewalt deiner erschreckenden Taten; / ich will von deinen großen Taten berichten. 7 Sie sollen die Erinnerung an deine große Güte wecken / und über deine Gerechtigkeit jubeln. 8 Der Herr ist gnädig und barmherzig, / langmütig und reich an Gnade. 9 Der Herr ist gütig zu allen, / sein Erbarmen waltet über all seinen Werken. 10 Danken sollen dir, Herr, all deine Werke / und deine Frommen dich preisen. 11 Sie sollen von der Herrlichkeit deines Königtums reden, / sollen sprechen von deiner Macht, 12 den Menschen deine machtvollen Taten verkünden / und den herrlichen Glanz deines Königtums. 13 Dein Königtum ist ein Königtum für ewige Zeiten, / deine Herrschaft währt von Geschlecht zu Geschlecht. [Der Herr ist treu in all seinen Worten, / voll Huld in all seinen Taten] 14 Der Herr stützt alle, die fallen, / und richtet alle Gebeugten auf. 15 Aller Augen warten auf dich / und du gibst ihnen Speise zur rechten Zeit. 16 Du öffnest deine Hand / und sättigst alles, was lebt, nach deinem Gefallen. 17 Gerecht ist der Herr in allem, was er tut, / voll Huld in all seinen Werken. 18 Der Herr ist allen, die ihn anrufen, nahe, / allen, die zu ihm aufrichtig rufen. 19 Die Wünsche derer, die ihn fürchten, erfüllt er, / er hört ihr Schreien und rettet sie. 20 Alle, die ihn lieben, behütet der Herr, / doch alle Frevler vernichtet er. 21 Mein Mund verkünde das Lob des Herrn. / Alles, was lebt, preise seinen heiligen Namen immer und ewig!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

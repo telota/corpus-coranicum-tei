@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Altarabisches Gedicht "Wer ist der Räuber-Dichter?" (Man huwa ṣ-ṣuʿlūk?)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_617" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>617</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der vorliegende Gedichtausschnitt gebraucht das auch im Koran erscheinende Verb istaġnā, wobei dieses in den vier angegebenen Koranversen eine deutlich verschiedene Bedeutung hat. Im Koran hat istaġnā die Bedeutung "sich unabhängig fühlen", "meinen, nicht auf Gott angewiesen zu sein" und weist damit eine deutliche Konnotation der Selbstherrlichkeit auf (vgl. den Kommentar zu 96:7), während es im vorliegenden Gedicht schlicht "reich werden" meint. Der TUK dokumentiert damit, wie ein bereits altarabisch geläufiger Ausdruck in seinem koranischen Gebrauch ethisch aufgeladen wird und damit eine merkliche semantische Verschiebung erfährt.
+</summary>
+            <msItem>
+              <title>Altarabisches Gedicht "Wer ist der Räuber-Dichter?" (Man huwa ṣ-ṣuʿlūk?)</title>
+              <author>ʿUrwa b. al-Ward (6. Jh.)</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">7. Jh.</origDate>
+              <origPlace>Arabische Halbinsel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Alan Jones, Early Arabic Poetry, Bd. 1: Marāṯī and Ṣuʿlūk Poems, Oxford 1992, S. 136.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nora K. Schmid</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>
+	١٣ لَحَى الله صُعلُوكاً إِذَا جَنَّ لَيلُهُ     مُصَافِي المُشَاشِ آلِفاً كُلَّ مَجْزِرِ
+	١٤ يَعُدُّ الغِنَى مِنْ دَهْرِهِ كُلَّ لَيْلَةٍ     أَصَابَ قِرَاهَا مِنْ صَدِيقٍ مُيَسِّرِ
+	١٥ يَنَامُ عِشَاءً ثُمَّ يُصْبِحُ نَاعِساً     يَحُتُّ الحَصَى مِنْجَنْبِهِ المُتَعَفِّرِ
+	١٦ قَلِيلُ التِمَاسِ الزَّاِ إِلا لِنَفْسِهِ     إِذَا هُوَ أَضْحَى كَالعَرِيشِ المجَوَّرِ
+	١٧ يُعِينُ نِسَاءَ الحَيِّ مَا يَسْتَعِنُّهُ     فَيُمْسِي طَلِيحاً كَالبَعِيرِ المُحَسَّرِ
+	١٨ وَلَكِنَّ صُعْلُوكاً صَفِيحَةُ وَجْهِهِ     كَضَوْءِ شِهَابِ القَابِسِ المُتَنَوِّرِ
+	١٩ مُطَلاً عَلَى أَعْدَائِهِ يَزْجُرُونَهُ     بِسَاحَتِهِمْ زَجْرَ المَنِيحِ المُشَهَّرِ
+	٢٠ وَإِنْ بَعُدُوا يَأْمَنُونَ اقْتِرَابَهُ     تَشَوَّفَ أَهْلِ الغَائِبِ المُتَنَظَّرِ
+	٢١ فَذَلِكَ إِنْ يَلْقَ المَنِيَّةَ يَلْقَهَا     حَمِيداً وَإِنْ  يَسْتَغْنِ  يَوْماً فَأَجْدِرِ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	13. Möge Gott einen ṣuʿlūk mit Schande bedecken, der, wenn seine Nacht fällt, nach übrig gebliebenen Knochen stöbert und jeden Schlachtplatz für Kamele aufsucht.
+	14. Er hält jede Nacht, in der ihm ein wohlhabender Freund seine Gastfreundschaft gewährt, für eine gute Fügung des Schicksals.
+	15. Er schläft am Abend, erwacht dann schlaftrunken und streift den Staub von seiner staubbedeckten Seite ab.
+	16. Er kümmert sich wenig darum, für Verpflegung zu sorgen, außer für sich selbst, da er am Nachmittag wie eine heruntergekommene Hütte ist.
+	17. Er hilft den Frauen seines Stammes, wenn sie ihn bitten, ihnen zu helfen, aber am Abend ist er [davon] erschöpft wie ein müde gerittenes Kamel.
+	18. Das Gesicht eines ṣuʿlūk jedoch ist wie das Leuchten einer Flamme von jemandem, der Feuer macht, um sich Licht zu spenden.
+	19. Er blickt auf seine Feinde hinab, die ihn in ihrem Lager ausrufen: "Verrufener, verlierender Pfeil!"
+	20. Selbst wenn sie weit entfernt sind, sind sie vor seinem Kommen nicht sicher, und sehen hinaus wie die Angehörigen eines sehnlichst erwarteten Abwesenden.
+	21. Wenn dieser Mann dem Tod begegnet, so begegnet er ihm ruhmvoll, und wenn er reich wird, so hat er es verdient.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

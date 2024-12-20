@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1169">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rome, Biblioteca  Apostolica Vaticana, Vat. Ar. 1605 (10)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0019.</p>
+        </availability>
+        <availability xml:id="imageRights-2" status="restricted" default="false">
+          <p>Image credits: Biblioteca Apostolica Vaticana, abrufbar unter https://digi.vatlib.it/view/MSS_Vat.ar.1605/0020.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="21">Biblioteca  Apostolica Vaticana
+                            , Rome</repository>
+            <idno>Vat. Ar. 1605 (10)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Vat. Ar. 1605 (X); Qurʾānic Text: Q  19:69-20:5; 16 lines per page; Dimensions: 257 x 201mm;  Script style: kūfī B.Ib; Estimated date of production: 660-750.</p>
+              <p> </p>
+              <p>The catalogue of Arabic manuscripts written by Giorgio Levi Della Vida gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/RUJN3JRQ">Levi Della Vida 1947</ref>, p. 9):</p>
+              <p>"10. Cm. 20,1 x 25, 7; 16 linee. Sura 19,69 (71) على – 82 (85) عليهم [ضدا]; verso: sura 19,83 (86) الم – 20,5 (4) استوى. Questo foglio appartiene allo stesso esemplare dei ni. 9 e  11, ed è la continuazione immediata del primo di essi. La fine della  sura 19 è indicata nel verso, in rosso, in scrittura semicufica, coi  punti diacritici segnati nello stesso inchiostro. مريم وهى ثمٰنية وتسعون اية وفيها سجدة | هذه خٰتمة. Il titolo della sura 20 non è dato. Un divisore denario, della forma descritta nel no. precedente, appare nel verso dopo v. 90. Il  foglio è molto guasto dall’umidità e presenta nume rose lacerazioni;  tuttavia tutti quattro i margini sono, almeno parzialmente, conservati." </p>
+            </summary>
+            <msItem xml:id="mysql_id_679597" n="10r">
+              <title type="numeric" key="019:069:008-019:082:005">
+                                    019:069:008-019:082:005
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_679598" n="10v">
+              <title type="numeric" key="019:083:001-020:005:004">
+                                    019:083:001-020:005:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>257</width><height>201</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.Ib
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>660-750</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>assistance: Salome Beridze</p>
+                <p>assistance: Charlotte Bohm</p>
+                <p>metadata: Michael Marx</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="10r" xml:id="mysql_id_40485">
+      <graphic decls="#imageRights-1" url="manuscript/1169/4436c532-48cb-4f90-a3e4-005fddb56595/manuscript-1169-page-40485-image-25687.jpg"/>
+    </surface>
+    <surface n="10v" xml:id="mysql_id_40486">
+      <graphic decls="#imageRights-2" url="manuscript/1169/0d8e6327-95ae-4690-a2c9-7b5db6fd262e/manuscript-1169-page-40486-image-25688.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

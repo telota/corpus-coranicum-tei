@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1. Clemensbrief 7:1-7</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_108" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>108</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Auch in diesem Text erscheint Noah wie im Koran als eine Predigergestalt (vgl. die übrigen Datenbankeinträge zu den obigen Koranstellen). Eine weitere spezifische Übereinstimmung ist, wie auch in anderen nachbiblischen Traditionen (rabbinisch, ostkirchlich; verschiedene Beispiele bei Speyer 1931: p. 94-95), die Betonung der Möglichkeit zur Umkehr für die Zeitgenossen Noahs. Seine Warnerfunktion ist damit verknüpft.Beim 1. Clemensbrief handelt es sich um einen ca. 100 n.Chr. 
+entstandenen Brief der römischen an die korinthische Gemeinde. Seit der 
+zweiten Hälfte des 2. Jh. wird er Clemens von Rom zugeschrieben, der der
+ römischen Bischofsliste zufolge der dritte Nachfolger des Petrus 
+gewesen sein soll. Anlaß für die Abfassung ist die Absetzung von 
+Amtsträgern in der korinthischen Gemeinde, wozu der Brief Stellung 
+bezieht. Zu den im Brief behandelten Themen gehören die kosmische 
+Ordnung, weltliche Gewalt, Gastfreundschaft, Buße und die Auferstehung. 
+Wie Eusebius bezeugt, wurde der 1. Clemensbrief auch im Gottesdienst 
+gelesen. (Zum Clemensbrief vgl. Powell 1981: p. 113-120; Schöllgen 1994: Spalte 1230-1231).
+</summary>
+            <msItem>
+              <title>1. Clemensbrief 7:1-7</title>
+              <author>Clemens von Rom (traditionelle Zuschreibung)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 100 n. Chr.</origDate>
+              <origPlace>Rom</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">J. B. Lightfoot und J. R. Harmer (Hgg.), The Apostolic Fathers: Revised Texts with Short Introductions and English Translations, London 1898.</bibl>
+              <bibl type="literatur">Powell, Douglas. &amp;#x201C;Clemens von Rom.&amp;#x201D; Theologische Realenzyklop&amp;#xE4;die. Berlin [usw.]: de Gruyter: de Gruyter, 1981.</bibl>
+              <bibl type="literatur">Sch&amp;#xF6;llgen, Georg. &amp;#x201C;Clemensbriefe.&amp;#x201D; Lexikon F&amp;#xFC;r Theologie Und Kirche. Freiburg im Breisgau: Herder, 1994.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>%3Cp%3E%0D%0A%091+%CE%A4%CE%B1%E1%BF%A6%CF%84%CE%B1+%E1%BC%80%CE%B3%CE%B1%CF%80%CE%B7%CF%84%CE%BF%E1%BD%B7+%CE%BF%E1%BD%90+%CE%BC%E1%BD%B9%CE%BD%CE%BF%CE%BD+%E1%BD%91%CE%BC%E1%BE%B6%CF%82+%CE%BD%CE%BF%CF%85%CE%B8%CE%B5%CF%84%CE%BF%E1%BF%A6%CE%BD%CF%84%CE%B5%CF%82+%E1%BC%90%CF%80%CE%B9%CF%83%CF%84%E1%BD%B3%CE%BB%CE%BB%CE%BF%CE%BC%CE%B5%CE%BD+%E1%BC%80%CE%BB%CE%BB%E1%BD%B0+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%91%CE%B1%CF%85%CF%84%CE%BF%E1%BD%BA%CF%82+%E1%BD%91%CF%80%CE%BF%CE%BC%CE%B9%CE%BC%CE%BD%E1%BD%B5%CF%83%CE%BA%CE%BF%CE%BD%CF%84%CE%B5%CF%82+%E1%BC%90%CE%BD+%CE%B3%E1%BD%B0%CF%81+%CF%84%E1%BF%B7+%CE%B1%E1%BD%90%CF%84%E1%BF%B7+%E1%BC%90%CF%83%CE%BC%E1%BD%B2%CE%BD+%CF%83%CE%BA%E1%BD%B1%CE%BC%CE%BC%CE%B1%CF%84%CE%B9+%CE%BA%CE%B1%E1%BD%B6+%E1%BD%81+%CE%B1%E1%BD%90%CF%84%E1%BD%B8%CF%82+%E1%BC%A1%CE%BC%E1%BF%96%CE%BD+%E1%BC%80%CE%B3%E1%BD%BC%CE%BD+%E1%BC%90%CF%80%E1%BD%B7%CE%BA%CE%B5%CE%B9%CF%84%CE%B1%CE%B9+2+%CE%B4%CE%B9%E1%BD%B8+%E1%BC%80%CF%80%CE%BF%CE%BB%E1%BD%B7%CF%80%CF%89%CE%BC%CE%B5%CE%BD+%CF%84%E1%BD%B0%CF%82+%CE%BA%CE%B5%CE%BD%E1%BD%B0%CF%82+%CE%BA%CE%B1%E1%BD%B6+%CE%BC%CE%B1%CF%84%CE%B1%E1%BD%B7%CE%B1%CF%82+%CF%86%CF%81%CE%BF%CE%BD%CF%84%E1%BD%B7%CE%B4%CE%B1%CF%82+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%94%CE%BB%CE%B8%CF%89%CE%BC%CE%B5%CE%BD+%E1%BC%90%CF%80%E1%BD%B6+%CF%84%E1%BD%B8%CE%BD+%CE%B5%E1%BD%90%CE%BA%CE%BB%CE%B5%E1%BF%86+%CE%BA%CE%B1%E1%BD%B6+%CF%83%CE%B5%CE%BC%CE%BD%E1%BD%B8%CE%BD+%CF%84%E1%BF%86%CF%82+%CF%80%CE%B1%CF%81%CE%B1%CE%B4%E1%BD%B9%CF%83%CE%B5%CF%89%CF%82+%E1%BC%A1%CE%BC%E1%BF%B6%CE%BD+%CE%BA%CE%B1%CE%BD%E1%BD%B9%CE%BD%CE%B1+3+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%B4%CE%B4%CF%89%CE%BC%CE%B5%CE%BD+%CF%84%E1%BD%B7+%CE%BA%CE%B1%CE%BB%E1%BD%B8%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%84%E1%BD%B7+%CF%84%CE%B5%CF%81%CF%80%CE%BD%E1%BD%B8%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%84%E1%BD%B7+%CF%80%CF%81%CE%BF%CF%83%CE%B4%CE%B5%CE%BA%CF%84%E1%BD%B9%CE%BD+%E1%BC%90%CE%BD%E1%BD%BD%CF%80%CE%B9%CE%BF%CE%BD+%CF%84%CE%BF%E1%BF%A6+%CF%80%CE%BF%CE%B9%E1%BD%B5%CF%83%CE%B1%CE%BD%CF%84%CE%BF%CF%82+%E1%BC%A1%CE%BC%E1%BE%B6%CF%82+4+%E1%BC%80%CF%84%CE%B5%CE%BD%E1%BD%B7%CF%83%CF%89%CE%BC%CE%B5%CE%BD+%CE%B5%E1%BC%B0%CF%82+%CF%84%E1%BD%B8+%CE%B1%E1%BC%B7%CE%BC%CE%B1+%CF%84%CE%BF%E1%BF%A6+%CE%A7%CF%81%CE%B9%CF%83%CF%84%CE%BF%E1%BF%A6+%CE%BA%CE%B1%E1%BD%B6+%CE%B3%CE%BD%E1%BF%B6%CE%BC%CE%B5%CE%BD+%E1%BD%A1%CF%82+%E1%BC%94%CF%83%CF%84%CE%B9%CE%BD+%CF%84%E1%BD%B7%CE%BC%CE%B9%CE%BF%CE%BD+%CF%84%E1%BF%B7+%CF%80%CE%B1%CF%84%CF%81%E1%BD%B6+%CE%B1%E1%BD%90%CF%84%CE%BF%E1%BF%A6+%E1%BD%85%CF%84%CE%B9+%CE%B4%CE%B9%E1%BD%B0+%CF%84%E1%BD%B4%CE%BD+%E1%BC%A1%CE%BC%CE%B5%CF%84%E1%BD%B3%CF%81%CE%B1%CE%BD+%CF%83%CF%89%CF%84%CE%B7%CF%81%E1%BD%B7%CE%B1%CE%BD+%E1%BC%90%CE%BA%CF%87%CF%85%CE%B8%E1%BD%B2%CE%BD+%CF%80%CE%B1%CE%BD%CF%84%E1%BD%B6+%CF%84%E1%BF%B7+%CE%BA%E1%BD%B9%CF%83%CE%BC%E1%BF%B3+%CE%BC%CE%B5%CF%84%CE%B1%CE%BD%CE%BF%E1%BD%B7%CE%B1%CF%82+%CF%87%E1%BD%B1%CF%81%CE%B9%CE%BD+%E1%BD%91%CF%80%E1%BD%B5%CE%BD%CE%B5%CE%B3%CE%BA%CE%B5%CE%BD+5+%CE%B4%CE%B9%E1%BD%B3%CE%BB%CE%B8%CF%89%CE%BC%CE%B5%CE%BD+%CE%B5%E1%BC%B0%CF%82+%CF%84%E1%BD%B0%CF%82+%CE%B3%CE%B5%CE%BD%CE%B5%E1%BD%B0%CF%82+%CF%80%E1%BD%B1%CF%83%CE%B1%CF%82+%CE%BA%CE%B1%E1%BD%B6+%CE%BA%CE%B1%CF%84%CE%B1%CE%BC%E1%BD%B1%CE%B8%CF%89%CE%BC%CE%B5%CE%BD+%E1%BD%85%CF%84%CE%B9+%E1%BC%90%CE%BD+%CE%B3%CE%B5%CE%BD%CE%B5%E1%BE%B7+%CE%BA%CE%B1%E1%BD%B6+%CE%B3%CE%B5%CE%BD%CE%B5%E1%BE%B7+%CE%BC%CE%B5%CF%84%CE%B1%CE%BD%CE%BF%E1%BD%B7%CE%B1%CF%82+%CF%84%E1%BD%B9%CF%80%CE%BF%CE%BD+%E1%BC%94%CE%B4%CF%89%CE%BA%CE%B5%CE%BD+%E1%BD%81+%CE%B4%CE%B5%CF%83%CF%80%E1%BD%B9%CF%84%CE%B7%CF%82+%CF%84%CE%BF%E1%BF%96%CF%82+%CE%B2%CE%BF%CF%85%CE%BB%CE%BF%CE%BC%E1%BD%B3%CE%BD%CE%BF%CE%B9%CF%82+%E1%BC%90%CF%80%CE%B9%CF%83%CF%84%CF%81%CE%B1%CF%86%E1%BF%86%CE%BD%CE%B1%CE%B9+%E1%BC%90%CF%80%E1%BE%BD+%CE%B1%E1%BD%90%CF%84%E1%BD%B9%CE%BD+6+%3Cb%3E+%CE%9D%E1%BF%B6%CE%B5+%E1%BC%90%CE%BA%E1%BD%B5%CF%81%CF%85%CE%BE%CE%B5%CE%BD+%CE%BC%CE%B5%CF%84%E1%BD%B1%CE%BD%CE%BF%CE%B9%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CE%BF%E1%BC%B1+%E1%BD%91%CF%80%CE%B1%CE%BA%CE%BF%E1%BD%BB%CF%83%CE%B1%CE%BD%CF%84%CE%B5%CF%82+%E1%BC%90%CF%83%E1%BD%BD%CE%B8%CE%B7%CF%83%CE%B1%CE%BD%3C%2Fb%3E+7+%E1%BC%B8%CF%89%CE%BD%E1%BE%B6%CF%82+%CE%9D%CE%B9%CE%BD%CE%B5%CF%85%E1%BF%93%CF%84%CE%B1%CE%B9%CF%82+%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CF%81%CE%BF%CF%86%E1%BD%B4%CE%BD+%E1%BC%90%CE%BA%E1%BD%B5%CF%81%CF%85%CE%BE%CE%B5%CE%BD+%CE%BF%E1%BC%B1+%CE%B4%E1%BD%B2+%CE%BC%CE%B5%CF%84%CE%B1%CE%BD%CE%BF%E1%BD%B5%CF%83%CE%B1%CE%BD%CF%84%CE%B5%CF%82+%E1%BC%90%CF%80%E1%BD%B6+%CF%84%CE%BF%E1%BF%96%CF%82+%E1%BC%81%CE%BC%CE%B1%CF%81%CF%84%E1%BD%B5%CE%BC%CE%B1%CF%83%CE%B9%CE%BD+%CE%B1%E1%BD%90%CF%84%E1%BF%B6%CE%BD+%E1%BC%90%CE%BE%CE%B9%CE%BB%E1%BD%B1%CF%83%CE%B1%CE%BD%CF%84%CE%BF+%CF%84%E1%BD%B8%CE%BD+%CE%B8%CE%B5%E1%BD%B8%CE%BD+%E1%BC%B1%CE%BA%CE%B5%CF%84%CE%B5%E1%BD%BB%CF%83%CE%B1%CE%BD%CF%84%CE%B5%CF%82+%CE%BA%CE%B1%E1%BD%B6+%E1%BC%94%CE%BB%CE%B1%CE%B2%CE%BF%CE%BD+%CF%83%CF%89%CF%84%CE%B7%CF%81%E1%BD%B7%CE%B1%CE%BD+%CE%BA%CE%B1%E1%BD%B6+%CF%80%CE%B5%CF%81+%E1%BC%80%CE%BB%CE%BB%E1%BD%B9%CF%84%CF%81%CE%B9%CE%BF%CE%B9+%CF%84%CE%BF%E1%BF%A6+%CE%B8%CE%B5%CE%BF%E1%BF%A6+%E1%BD%84%CE%BD%CF%84%CE%B5%CF%82%3C%2Fp%3E%0D%0A</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1. Dies, meine Geliebten, schreiben wir nicht nur zu eurer Ermahnung, sondern auch zu unserer eigenen Beherzigung; wir befinden uns ja auf demselben Kampfplatz, und der gleiche Kampf ist uns auferlegt. 2. Deshalb wollen wir die leeren und eitlen Sorgen aufgeben und wollen uns zuwenden der ruhmvollen und heiligen Regel der uns übergebenen Lehre, 3. und wollen sehen, was schön, erfreulich und angenehm ist in den Augen unseres Schöpfers. 4. Wir wollen hinblicken auf das Blut Christi und erkennen, wie kostbar es auch Gott seinem Vater ist, weil es, wegen unseres Heiles vergossen, der ganzen Welt die Gnade der Reue gebracht hat. 5. Lasset uns alle Geschlechter durchwandeln und erkennen, daß der Herr einem jeden Geschlechte Gelegenheit zur Buße gab, allen, die sich zu ihm bekehren wollten. 6. Noah predigte Buße, und die auf ihn hörten, wurden gerettet. 7. Jonas kündigte den Niniviten ihren Untergang an; sie taten Buße für ihre Sünden, versöhnten durch Gebet ihren Gott und erlangten Rettung, obwohl sie nicht zum Volke Gottes gehörten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

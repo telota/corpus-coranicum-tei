@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2. Petrusbrief 2:4-11</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_91" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>91</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie in den koranischen Straflisten wird auch im Neuen Testament das Schicksal der Zeitgenossen Noahs und Lots hintereinander genannt. Die koranischen Straflisten fügen noch weitere abschreckende Exempel wie etwa die ʿĀd (vgl. Q 7:65) hinzu. Vgl. TUK_0090.
+</summary>
+            <msItem>
+              <title>2. Petrusbrief 2:4-11</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 110-130 n. Chr.</origDate>
+              <origPlace>Ägypten oder Rom (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	4 Εἰ γὰρ ὁ θεὸς ἀγγέλων ἁμαρτησάντων οὐκ ἐφείσατο ἀλλὰ σειραῖς ζόφου ταρταρώσας παρέδωκεν εἰς κρίσιν τηρουμένους,  5 καὶ ἀρχαίου κόσμου οὐκ ἐφείσατο ἀλλὰ ὄγδοον Νῶε δικαιοσύνης κήρυκα ἐφύλαξεν κατακλυσμὸν κόσμῳ ἀσεβῶν ἐπάξας, 6 καὶ πόλεις Σοδόμων καὶ Γομόρρας τεφρώσας [καταστροφῇ] κατέκρινεν ὑπόδειγμα μελλόντων ἀσεβέ[σ]ιν τεθεικώς, 7 καὶ δίκαιον Λὼτ καταπονούμενον ὑπὸ τῆς τῶν ἀθέσμων ἐν ἀσελγείᾳ ἀναστροφῆς ἐρρύσατο• 8 βλέμματι γὰρ καὶ ἀκοῇ ὁ δίκαιος ἐγκατοικῶν ἐν αὐτοῖς ἡμέραν ἐξ ἡμέρας ψυχὴν δικαίαν ἀνόμοις ἔργοις ἐβασάνιζεν•  9 οἶδεν κύριος εὐσεβεῖς ἐκ πειρασμοῦ ῥύεσθαι, ἀδίκους δὲ εἰς ἡμέραν κρίσεως κολαζομένους τηρεῖν, 10 μάλιστα δὲ τοὺς ὀπίσω σαρκὸς ἐν ἐπιθυμίᾳ μιασμοῦ πορευομένους καὶ κυριότητος καταφρονοῦντας. τολμηταὶ αὐθάδεις, δόξας οὐ τρέμουσιν βλασφημοῦντες, 11 ὅπου ἄγγελοι ἰσχύϊ καὶ δυνάμει μείζονες ὄντες οὐ φέρουσιν κατ᾽αὐτῶν παρὰ κυρίου βλάσφημον κρίσιν.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	4 Gott hat auch die Engel, die gesündigt haben, nicht verschont, sondern sie in die finsteren Höhlen der Unterwelt verstoßen und hält sie dort eingeschlossen bis zum Gericht.  5 Er hat auch die frühere Welt nicht verschont, nur Noah, den Verkünder der Gerechtigkeit, hat er zusammen mit sieben anderen als achten bewahrt, als er die Flut über die Welt der Gottlosen brachte. 6 Auch die Städte Sodom und Gomorra hat er eingeäschert und zum Untergang verurteilt, als ein Beispiel für alle Gottlosen in späteren Zeiten. 7 Den gerechten Lot aber, der unter dem ausschweifenden Leben der Gottesverächter litt, hat er gerettet; 8 denn dieser Gerechte, der mitten unter ihnen wohnte, musste Tag für Tag ihr gesetzwidriges Tun sehen und hören, und das quälte den gerechten Mann Tag für Tag.  9 Der Herr kann die Frommen aus der Prüfung retten; bei den Ungerechten aber kann er warten, um sie am Tag des Gerichts zu bestrafen, 10 besonders die, die sich von der schmutzigen Begierde ihres Körpers beherrschen lassen und die Macht des Herrn verachten. Diese frechen und anmaßenden Menschen schrecken nicht davor zurück, die überirdischen Mächte zu lästern, 11 während die Engel, die ihnen an Stärke und Macht überlegen sind, beim Herrn nicht über sie urteilen und lästern.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

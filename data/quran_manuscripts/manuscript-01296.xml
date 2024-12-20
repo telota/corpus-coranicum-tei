@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1296">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleveland, Ohio, The Cleveland Museum of Art, 1933.482</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: CC0 1.0 Cleveland Museum of Art.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="79">The Cleveland Museum of Art
+                            , Cleveland, Ohio</repository>
+            <idno>1933.482</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single folio parchment with 14 lines per page. The pages are damaged, especially <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/12/manuscripts/1296/page/1v">fol. 1v</ref>. Qurʾanic text: Q 9:12-21. The main text is written in dark brown ink. Traces of gold ink can be seen. </p>
+              <p>One sister folio has been identified from the same collection with the shelfmark <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/30/manuscripts/1295">1933.483</ref>.  </p>
+              <p>Cf. the website of the institution: <ref target="https://www.clevelandart.org/art/1933.482">https://www.clevelandart.org/art/1933.482</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_682082" n="1r">
+              <title type="numeric" key="009:012:006-009:017:006">
+                                    009:012:006-009:017:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_682083" n="1v">
+              <title type="numeric" key="009:017:007-009:021:010">
+                                    009:017:007-009:021:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                  <p>Fol. <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/17/manuscripts/1296/page/1r">1r </ref>is hair side, fol. <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/17/manuscripts/1296/page/1v">1v </ref>is flesh side.  </p>
+                  <p>Text division: Simple verse separators are missing or difficult to identify due to the parchment condition. Pear shaped ornament of the letter <hi rend="italic">hāʾ </hi>in brown and gold is used to mark the fifth verse, in this case the 14. verse of the Sūrah <hi rend="italic">at-taubah</hi> on the <ref target="https://corpuscoranicum.de/en/verse-navigator/sura/9/verse/12/manuscripts/1296/page/1r">fol. 1r</ref>.  </p>
+                </support>
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>164</width><height>128</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="14">14 - 14 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>Script style is kūfī B.II. The hook of the letter <hi rend="italic">ʿayn </hi>in the initial form is extended. The horizontal tail of the letter <hi rend="italic">mīm </hi>in the final or isolated position is also extended. The tail of the letter <hi rend="italic">qāf </hi>in the final position is vertical  compared to the typical shape of the style B.II, where the ending of the  letter goes to the right.</p>
+                <p>Diacritical marks are missing. The vocalisation is done by red dots.  </p>
+              </summary>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42116">
+      <graphic decls="#imageRights-1" url="manuscript/1296/a581997e-28e8-4274-a3fa-0584f7d71098/manuscript-1296-page-42116-image-27700.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_42117">
+      <graphic decls="#imageRights-1" url="manuscript/1296/8e650329-7dc7-4ae5-9cd3-01574b747f26/manuscript-1296-page-42117-image-27701.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

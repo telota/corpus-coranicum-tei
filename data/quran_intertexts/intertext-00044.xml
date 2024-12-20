@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lehrgedicht über die Gottesmutter (Sermo de Genitrice Dei I)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_44" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>44</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie Q 3:37 berichtet auch (Pseudo-)Ephrem, dass Maria während ihres Aufenthaltes im Tempel auf wundersame Weise mit Speisen versorgt worden sei. Im Unterschied zum Bericht (Pseudo-)Ephrems, wo Maria demnach durch Engel versorgt wurde, sagt Maria im Koran nur: "Dies ist von Gott" (huwa min ʿinda llāhi), wobei offen bleibt, ob damit Engel als Boten bzw. Vermittler eine Rolle spielen.
+Anmerkung zur Datierung:
+
+	Obwohl die zwei erhaltenen Lehrgedichte über die Gottesmutter (Sermones de Genetrice Dei) im ephremischen Metrum geschrieben sind, wurde die Verfasserschaft Ephrems von Edmund Beck stark in Zweifel gezogen. Becks Argumente für eine Datierung dieser Gedichte ins 6. Jh. sind theologisch (Unterschiede in der Mariologie), literarisch (es lässt sich eine gewisse Abhängigkeit von Jakob von Sarug, gest. 521, feststellen), sowie überlieferungsgeschichtlich (Bezeugung nur in späteren Hss.). Allerdings können solche zweifelhafte oder unechte Sammlungen auch genuin ephremisches Material beinhalten (vgl. Gharib 1991: p. 204).
+
+	Obwohl diese Texte also vorerst einem (Pseudo-)Ephrem zugewiesen werden müssen, zeugen die zwei Lehrgedichte von der außerordentlichen Bedeutung des Marienkultes für die syrische Kirche sowie von der weiten Verbreitung marianischer Themen und Motive in der vorislamischen Zeit.
+
+	Für weitere Literatur zur Authentizität, siehe Ortíz de Urbina 1958: p. 68; Beck 1956: p. 22-40; Beck 1975: p. vii-xi.</summary>
+            <msItem>
+              <title>Lehrgedicht über die Gottesmutter (Sermo de Genitrice Dei I)</title>
+              <author>(Pseudo-)Ephrem (6. Jh.)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">521-599</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck, Nachträge zu Ephrem Syrus, Louvain 1975 (Corpus Scriptorum Christianorum Orientalium 363, Scriptores Syri 159), S. 31-33; Sebastian Brock, Luqoṭe d-mimre d-ʻal ktobay qudsho, Bar Hebraeus Verlag, Glane Holland 1993, S. 62-64.</bibl>
+              <bibl type="literatur">Beck, Edmund (Hrsg.): Nachtr&amp;#xE4;ge zu Ephrem Syrus. Louvain 1975.</bibl>
+              <bibl type="literatur">Beck, Edmund: &amp;#x201E;Die Mariologie der echten Schriften Ephrems&amp;#x201C;. In: Oriens Christianus 40 (1956), S. 22&amp;#x2013;40.</bibl>
+              <bibl type="literatur">Gharib, Georges (Hrsg.): Testi mariani del primo milennio. Rom 1991.</bibl>
+              <bibl type="literatur">Ort&amp;#xED;z de Urbina, Ignacio: Patrologia Syriaca. Rom 1958.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Adrian Pirtea</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>Im vorliegenden Eintrag werden zwei Editionen des syrischen „Lehrgedichtes über die Gottesmutter” angezeigt: Zunächst (1) die Edition von Edmund Beck und (2) die Edition von Sebastian Brock. Die angezeigte deutsche Übersetzung stammt von Beck und legt den originalsprachlichen Text seiner Edition zugrunde, während die englische Übersetzung auf dem Text der Brock’schen Edition beruht. Die Versnummerierung der jeweiligen Übersetzung folgt der ihr zugehörigen Edition des Originaltextes, so dass die Verse 547-654 von Becks Edition den Versen 115-161 bei Brock entsprechen.(Edition von Beck)547 ܘܡܢ ܫܠܝܐ ܡܛܐ ܐܝܙܓܕܐ ܘܥܡ ܝܘܣܦ ܟܐܢܐ ܡܠܠ 549 ܐܝܬܐ ܡܪܝܡ ܠܟܢܘܫܬܐ ܘܚܙܝ ܟܗ̈ܢܐ ܒ̇ܥܝܢ ܠܗ̇ ܘܩܡ ܝܘܣܦ ܘܕܒܪܗ ܠܡܪܝܡ ܘܚܒܨܘ ܟ̈ܢܫܐ ܠܚܙܬܗ̇553 ܒ̈ܢܬ ܐܝܣܪܐܝܠ ܚܒܖ̈ܬܗ̇ ܖ̈ܩܝ ܠܗ̇ ܒܐ̈ܦܝܗ̇ ܒܝܬ ܫ̈ܘܩܐ ܚܐܖ̈ܬܐ ܡܢ ܒ̈ܢܬ ܓܢܣܗ̇ ܒܩ̈ܠܝ ܒܟܝܐ ܡܚܣܕܢ ܠܗ̇ 557 ܘܝ ܠܗ ܠܫܘܦܪܟܝ ܫܦܝܪܐ ܐܝܟܢ ܐܒܕ ܡܢ ܥܡܢ ܘܝ ܠܟܝ ܕܒܟܝ ܐܬܓܚܟ ܓܢܣܢ ܒܝܢܬ ܫ̈ܒܛܐ ܕܐܝܣܪܐܝܠ561 ܘܝ ܠܢܟܦܘܬܟܝ ܡܢ ܣܝܒܗ̇ ܘܒܬܘܠܘܬܟܝ ܡܢ ܚܒܠܗ̇ ܘܝ ܕܟܡܐ ܚ̈ܕܝܢ ܗ̈ܘܝ ܒܟܝ ܘܗܐ ܪܟܢ ܖ̈ܝܫܝܢ ܒܡܦܘܠܬܟܝ 565 ܡܗܠܟܐ ܛܠܝܬܐ ܒܝܬ ܫܘ̈ܩܐ ܘܡܬܓܚܟܐ ܡܢ ܣ̈ܓܝܐܐ ܘܪܥܡ ܩܠܐ ܕܚܒܖ̈ܬܗ̇ ܟܕ ܩܖ̈ܝܢ ܠܗ̇ ܓܝܪܬܐ569 ܘܟܕ ܫܡܥܬ ܡܪܝܡ ܗܠܝܢ ܘܚܙܬ ܕܟܠܢܫ ܡܒܙܚ ܒܗ̇ ܗܝܕܝܢ ܒܬܘܠܬܐ ܬܠܬ ܥܝ̈ܢܝܗ̇ ܠܡܪܘܡܐ ܠܘܩܒܠ ܥܘܒܗ̇573 ܘܫܪܝܬ ܠܚܫܐ ܠܓܘ ܟܪܣܗ̇ ܨܠܘܬܐ ܠܥܘܠܐ ܕܫ̇ܪܐ ܒܗ̇ ܡܪܝ ܕܨܒܝܬ ܘܗ̇ܘܝܬ ܐܡܟ ܦܩܘܕ ܡܪܝ ܘܢܫܠܐ ܪܘܒܐ ܡܢܝ577 ܕܚܕܪܘܢܝ ܛܠܠܝ ܡܘܬܐ ܡܢ ܩܠܐ ܕܡܒ̈ܙܚܢܐ ܡܪܝ ܠܐ ܬܫܒܘܩܝܗ̇ ܠܐܡܬܟ ܕܡ̇ܗܠܝܢ ܒܗ̇ ܟܠ ܚ̈ܙܝܗ̇ 581 ܚܙܝ ܡܪܝ ܕܐܢܐ ܛܠܝܡܐ ܐܢܐ ܘܛܥܝܢܐ ܐܢܐ ܠܪܒܘܬܟ ܒܗܠܝܢ ܖ̈ܚܡܐ ܕܓܒܠܬܢܝ ܚܘܐ ܚܐܪܘܬܝ ܘܐܬܦܨܐ 585 ܘܟܕ ܕܡ̈ܥܝܗ̇ ܡ̈ܛܝ ܨܝܕ ܥܘܒܗ̇ ܦܩܕ ܘܗܘܐ ܠܒܘܫܗ̇ ܢܘܪܐ ܘܡܚܘ ܒܖ̈ܩܐ ܒܫ̈ܦܘܠܝܗ̇ ܘܢܦܠ ܙܘܥܐ ܥܠ ܟܠ ܐܢܫ589 ܨܡܚ ܦܪܨܘܦܗ̇ ܐܝܟ ܫܡܫܐ ܡܐ ܕܣ̇ܠܩ ܒܥܕܢ ܨܦܪܐ ܚܙܘܘܗ̇ ܟܗ̈ܢܐ ܕܐܝܣܪܐܝܠ ܘܬܗܪܘ ܒܗ̇ ܘܒܟܢܦܘܬܗ̇593 ܓܒܪܐ ܠܚܒܪܗ ܐܡ̇ܪ ܗܘܐ ܐܘ ܠܗܢ ܫܘܦܪܗ̇ ܕܛܠܝܬܐ ܠܐ ܒܗܝܬܐ ܠܗ̇ ܢܦܫܗ̇ ܘܥܠܗ̇ܝ ܢܗܝܪ ܦܪܨܘܦܗ̇597 ܩ̣ܪܒ ܝܘܣܦ ܘܡܪܝܡ ܥܡܗ ܨܝܕ ܟܗ̈ܢܐ ܘܙܥܘ ܡܢ ܩܘܕܡܝܗ̇ ܒܥܘ ܕܢܡܠܠܘܢ ܩܫܝܐܝܬ ܘܥܓܕܘ ܗܘܘ ܠܫ̈ܢܝܗܘܢ 601 ܘܐܘܦܝܘ ܩ̈ܠܐ ܕܡ̈ܠܝܗܘܢ ܡܢ ܙܘܥܐ ܕܐܕܪܟ ܐܢܘܢ ܘܢܝܚܐܝܬ ܐܦ ܫܠܝܐܝܬ ܡܠܠܘ ܥܡܗ̇ ܘܐܡܪܘ ܠܗ̇ 605 ܝ̇ܕܥܬܝ ܡܪܝܡ ܕܒܢܕܖ̈ܐ ܝܗܒܟܝ ܐܠܗܐ ܠܐܡܟܝ ܘܒܒܝܬ ܩܘܕܫܐ ܐܬܪܒܝܬܝ ܐܝܟ ܩܘܪܒܢܐ ܕܠܐ ܡܘܡܐ 609 ܘܦܩܕܬ ܐܡܟܝ ܒܥܘܢܕܢܗ̇ ܠܘܒܟܘܗ̇ ܠܡܪܝܡ ܕܟܝܐܝܬ ܘܫܡܥ ܐܠܗܐ ܨܠܘܬܗ̇ ܘܪܚܡ ܥܠ ܩܠ ܒܥܘܬܗ̇613 ܒܢ̈ܝ ܠܘܝ ܝܗܒ[ܘ] ܠܗ̇ ܛܘܒܐ ܠܛܠܝܘܬܟܝ ܘܟܢܝܟܘܬܟܝ ܘܥܝܖ̈ܐ ܕܫܡܝܐ ܪܓܘܟܝ ܘܠܚܡܐ ܡܢ ܪܘܡܐ ܝܗܒܘ ܠܟܝ617 ܘܗܫܐ ܡܪܝܡ ܐܡܪ ܠܢ ܡܢ ܐܛܥܝ ܒܟܝ ܘܒܙܚ ܒܟܝ ܡܢ ܥܠ ܘܫܩܠ ܚܐܪܘܬܟܝ ܘܟܣܝ ܡܢܢ ܘܡܢ ܟܠܢܫ 621 ܚܘܝ ܠܢ ܡܢܘ ܓܒܪܟܝ ܕܢܬܠܝܘܗܝ ܠܟܝ ܘܙܠܝ ܒܫܠܡܐ ܒܟܬ ܡܪܝܡ ܕܫܡܥܬ ܗܠܝܢ ܘܥܡ ܟܗ̈ܢܐ ܒܚܫܐ ܡܠܠܬ 625 ܒܒܥܘ ܡܢܟܘܢ ܩ̇ܒܠܘ ܡܢܝ ܘܠܐ ܬܩܪܘܢܢܝ ܓܝܪܬܐ ܒܬܘܠܬܐ ܐܢܐ ܘܠܐ ܚܟܝܡܐ ܐܢܐ ܘܢܛܝܪܐ ܐܢܐ ܘܚܬܝܡܢ 629 ܘܫܪܝܪ ܙܒܢܐ ܕܥܠܝܡܘܬܝ ܘܓܒܪܐ ܥܠܝ ܠܐ ܓܚܟ ܡܡܬܘܡ ܒܨܘ ܘܚܙܘ ܕܠܐ ܐܬܚܟܡܬ ܘܚܘܣ ܥܠܝ ܘܩ̇ܒܠܘ ܡ̈ܠܝ633 ܫܠܡܐ ܡܢ ܪܘܡܐ ܢܚܬ ܠܝ ܒܐܝ̈ܕܝ ܐܝܙܓܕܐ ܕܢܘܗܪܐ ܘܟܕ ܒܨܠܘܬܐ ܩܝܡܐ ܗܘܝܬ ܘܝܗܒ ܠܝ ܫܠܡܐ ܒܚܕܘܬܐ 637 ܘܐܡܪ ܠܝ ܫܠܡ ܠܟܝ ܡܪܝܡ ܘܒܩܠܗ ܐܬܪܗܒܬ ܗܘܝܬ ܘܒܡܡܠܗ ܢܝܚܐ ܚܝܠܝܢܝ ܘܠܒܒܢܝ ܘܗܟܢ ܐܡܪ ܠܝ641 ܚܝܠ ܥܠܝܐ ܡ̇ܓܢ ܒܟܝ ܘܪܘܚܐ ܕܩܘܕܫܐ ܫ̇ܪܐ ܒܟܝ ܘܒܪܐ ܕܡܢܟܝ ܡܬܝܠܕ ܡܠܟܘܬܗ ܠܥܠܡ ܩ̇ܝܡܐ645 ܫܡܥܘ ܟ̈ܗܢܐ ܘܖ̈ܝܫܝ ܥܡܐ ܘܐܚܕ ܐܢܘܢ ܕܘܡܪܐ ܘܒܫܘܦܪܗ̇ ܛܒ ܬܡ̇ܗܝܢ ܗܘܘ ܘܦܬܓ̈ܡܝܗ̇ ܛܒ ܝܩܝܖ̈ܝܢ649 ܘܫܪܒܗ̇ ܡܦܗܐ ܠܚܟܝ̈ܡܐ ܘܠܬܗܪܗ̇ ܡܢ ܒ̇ܨܐ ܠܗ ܫܒܝܚ ܡܪܢ ܒܝܬ ܠܓܝ̈ܘܢܘܗܝ ܘܟܣܐ ܒܥܘܒܗ̇ ܕܝܠܕܬܗ653 ܠܥܠ ܥܝܖ̈ܐ ܠܐ ܡܛܝܢ ܠܗ ܘܥܦܖ̈ܢܐ ܒܨܝܢ ܫܪܒܗ(Edition von Brock)115 ܗܝܕܝܢ ܡܢ ܒܬܪ ܗܠܝܢ ܡܛܐ ܐܝܙܓܕܐ ܡܢ ܟܗ̈ܢܐܕܐܝܬܝ ܠܡܪܝܡ ܠܟܢܘܫܬܐ ܘܬܐ ܚܙܝ ܠܟܗ̈ܢܐ ܕܩܪܝܢ ܠܟܘܩܡ ܝܘܣܦ ܘܕܒܪܗ̇ ܠܡܪܝܡ ܘܚܒܨܝܢ ܟܢ̈ܫܐ ܠܚܙܬܗ̇ܒܢ̈ܬ ܐܝܣܪܐܝܠ ܘܚܒܖ̈ܬܗ̇ ܖ̈ܩܝ ܠܗ̇ ܒܐܦ̈ܝܗ̇ ܒܝܬ ܫܘܩ̈ܐܐܦ ܚܐܖ̈ܬܐ ܒܢ̈ܬ ܓܢܣܗ̇ ܒܩܠܝ̈ ܒܟܝܐ ܚܣܕܘܗ̇ ܗܘ̈ܝ120 ܘܝ ܠܗ ܠܫܡܢ ܫܦܝܪܐ ܕܐܝܟܢ ܐܒܕ ܝܘܡܢܐܘܝ ܕܒܟܝ ܐܬܟܚܕ ܓܢܣܢ ܒܝܢܬ ܫܒ̈ܛܐ ܕܐܝܣܪܐܝܠܘܝ ܠܢܟܦܘܬܟܝ ܡܢ ܣܝܒܗ̇ ܘܒܬܘܠܘܬܟܝ ܡܢ ܚܒܠܗ̇ܘܝ ܕܟܡܐ ܚܬܝܪܝܢ ܗܘܝܢ ܒܟܝ ܘܗܐ ܪܟܢ ܪܝܫܢ ܒܡܦܘܠܬܟܝ ܘܝ ܠܢ ܡܟܝܠ ܘܠܥܠܡ ܕܐܒܕ ܠܗ ܫܡܢ ܫܦܝܪܐ125 ܘܟܕ ܗܠܝܢ ܫܡܥܬ ܡܪܝܡ ܘܚܙܬ ܕܟܠܢܫ ܡܒܙܚ ܒܗ̇ܫܒܩܬ ܕܬܚܘܪܝ ܠܫܡܝܐ ܘܚܪܬ ܠܗ̇ ܠܘܩܒܠ ܥܘܒܗ̇ܡܪܝ ܕܨܒܝܬ ܘܗܘܝܬ ܐܡܟ ܦܩܘܕ ܕܢܫܠܐ ܪܘܒܐ ܕܥܠܝܕܚܕܪܘܢܝ ܛܠܠܝ̈ ܡܘܬܐ ܡܢ ܩܠܐ ܕܡܒܙܚܢ̈ܐ ܘܟܕ ܕܡܥ̈ܝܗ̇ ܡܛܘ ܨܝܕ ܥܘܒܗ̇ ܟܕ ܒܟܝܐ ܡܪܝܪܐܝܬ130 ܐܬܬܥܝܪ ܚܝܠܐ ܕܫܪܐ ܒܗ̇ ܦܩܕ ܘܗܘܐ ܠܒܘܫܗ̇ ܢܘܪܐܘܡܚܘ ܒܖ̈ܩܐ ܒܫܦܘܠܝ̈ܗ̇ ܨܡܚ ܦܪܨܘܦܗ̇ ܐܝܟ ܫܡܫܐܡܐ ܕܕܢܚ ܒܥܕܢ ܨܦܪܐ ܚܙܐܘܘܗ̇ ܟܗ̈ܢܐ ܘܬܗܪܘ ܒܗ̇ܩܪܒ ܝܘܣܦ ܘܡܪܝܡ ܥܡܗ ܠܘܬ ܟܗ̈ܢܐ ܘܙܥܘ ܡܢ ܩܘܕܡܝܗ̇ܒܥܘ ܕܢܡܠܠܘܢ ܩܫܝܐܝܬ ܘܥܓܕܘ ܗܘܘ ܠܫܢܝ̈ܗܘܢ135 ܘܐܘܦܝ ܠܗ ܩܠ ܡܠܝ̈ܗܘܢ ܡܢ ܬܗܪܐ ܕܐܕܪܟ ܐܢܘܢܢܝܚܐܝܬ ܐܦ ܫܠܝܐܝܬ ܡܠܠܘ ܥܡܗ̇ ܟܕ ܐܡܪܝܢܝܕܥܬܝ ܡܪܝܡ ܕܒܢܕܖ̈ܐ ܝܗܒܟܝ ܐܠܗܐ ܠܐܡܟܝ ܘܒܒܝܬ ܩܘܕܫܐ ܐܬܪܒܝܬܝ ܐܝܟ ܩܘܪܒܢܐ ܕܠܐ ܡܘܡܐܘܦܩܕܬ ܐܡܟܝ ܒܝܘܡ ܡܘܬܗ̇ ܕܠܒܘܟܘ ܡܪܝܡ ܙܗܝܐܝܬ140 ܘܚܙܐ ܐܠܗܐ ܨܠܘܬܗ̇ ܘܫܡܥ ܠܩܠܐ ܕܒܥܘܬܗ̇ܘܒܢ̈ܝ ܠܘܝ ܝܗܒܘ ܛܘܒܐ ܠܢܟܦܘܬܟܝ ܘܒܬܘܠܘܬܟܝܘܥܝܖ̈ܐ ܕܫܡܝܐ ܪܓܘܟܝ ܘܫܠܡܐ ܕܫܝܢܐ ܢܚܬ ܠܟܝ ܘܠܚܡܐ ܕܫܡܝܐ ܐܟܠܬܝ ܘܥܢܝܢܐ ܕܥܝܪܐ ܩܒܠܬܝܘܗܫܐ ܡܪܝܡ ܐܡܪܝ ܠܢ ܡܢ ܒܙܚ ܫܩܠ ܚܐܪܘܬܟܝ145 ܒܟܬ ܡܪܝܡ ܕܫܡܥܬ ܗܠܝܢ ܘܥܡ ܟܗ̈ܢܐ ܒܚܫܐ ܡܠܠܬܒܒܥܘ ܡܢܟܘܢ ܩܒܠܘ ܡܢܝ ܘܠܐ ܬܡܢܘܢܢܝ ܓܝܪܬܐܒܬܘܠܬܐ ܐܢܐ ܘܠܐ ܚܟܝܡܐ ܐܢܐ ܘܐܠܗܝ ܣܗܕ ܥܠ ܗܕܐܢܛܝܪܐ ܐܢܐ ܘܚܬܝܡܐ ܐܢܐ ܘܫܪܝܪ ܛܒܥܐ ܕܥܠܝܡܘܬܝܒܨܘ ܘܚܙܘ ܕܠܐ ܐܬܓܚܟܬ ܚܘܣܘ ܥܠܝ ܘܩܒܠܘ ܡܠܝ̈150 ܫܠܡܐ ܡܢ ܪܘܡܐ ܩܒܠܬ ܡܢ ܐܒܐ ܒܝܕ ܐܝܙܓܕܐܟܕ ܒܨܠܘܬܐ ܩܝܡܐ ܗܘܝܬ ܝܗܒ ܠܝ ܫܠܡܐ ܘܐܡܪܝ ܠܝܕܡܪܝ ܥܡܟܝ ܘܡܢܟܝ ܕܢܚ ܘܡܢ ܒܪܬ ܩܠܗ ܐܬܕܠܚܬܘܒܫܠܡܐ ܡܫܝܢܐ ܫܝܢܢܝ ܘܠܒܒܢܝ ܘܗܟܢ ܐܡܪܝ ܠܝ ܕܚܝܠ ܥܠܝܐ ܢܐܓܢ ܒܟܝ ܘܪܘܚܐ ܕܩܘܕܫܐ ܢܫܪܐ ܒܟܝ155 ܘܒܪܐ ܕܡܢܟܝ ܡܬܝܠܕ ܠܥܠܡ ܬܗܘܐ ܡܠܟܘܬܗ ܫܡܥܘ ܟܗ̈ܢܐ ܘܖ̈ܝܫܝ ܟܗ̈ܢܐ ܘܫܪܐ ܗܘܐ ܬܗܪܗ̇ ܥܠܝܗܘܢܘܒܫܘܦܪܗ̇ ܬܡܝܗܝܢ ܗܘܘ ܘܦܬܓܡ̈ܝܗ̇ ܝܩܝܪܝܢ ܗܘܘܘܫܪܒܗ̇ ܡܦܗܐ ܠܚܟܝ̈ܡܐ ܘܠܬܗܪܐ ܡܢܘ ܣܦܩܫܒܝܚ ܡܪܢ ܒܝܬ ܠܓܝܘ̈ܢܘܗܝ ܘܟܣܐ ܒܥܘܒܐ ܕܝܠܕܬܗ160 ܠܥܠ ܥܝܖ̈ܐ ܠܐ ܡܛܝܢ ܠܗ ܘܥܦܖ̈ܢܐ ܒܨܝܢ ܫܪܒܗܒܕܚܠܐ ܡܠܠܘ ܥܡ ܡܪܝܡ ܕܫܪܒܗ̇ ܕܐܠܗܐ ܗܘ ܟܠܗ</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>547 Und plötzlich kam ein Bote und sprach mit Joseph, dem Gerechten.549 „Bring Maria zur Synagoge! Sieh, die Priester suchen sie“. Und Joseph erhob sich und führte Maria weg, während die Menge sie zu sehen eilte.553 Die Töchter Israels, ihre Gefährtinnen, spien ihr auf den Plätzen ins Gesicht. Die edlen Frauen von den Töchtern ihres Geschlechts schmähten sie mit tränen (erstickter) Stimme:557 „Wehe deiner herrlichen Schönheit, wie ist sie aus unserem Volk entschwunden! Wehe dir! Denn in dir wurde unser Geschlecht verlacht unter den Stämmen Israels.561 Wehe deiner Reinheit, wer hat sie entstellt, und deine Jungfrauschaft, wer hat sie zerstört! Wehe! Wie haben sich (die Frauen) über dich gefreut, und siehe nun senken sie das Haupt wegen deines Falles“.565 Es schreitet das Mädchen über die Plätze und wird von der Menge verlacht. Und es erschallt die Stimme ihrer Gefährtinnen, die ihr zurufen: Dirne! 569 Uns als Maria dies hörte und sah, wie alle sie verspotteten, da erhob die Jungfrau ihre Augen zum Himmel, gegen ihren Schoß, 573 und sie begann in ihrem Schoß hinein zu flüstern ein Gebet zu dem Kind, das darin wohnte: „Mein Herr! Du hast gewollt und ich bin deine Mutter geworden; gebiete, mein Herr, daß das Toben von mir lasse.577 Denn die Schatten des Todes haben mich umringt wegen der Stimme der Spötter. Mein Herr, verlaß nicht deine Magd, über die alle, die sie sehn, höhnen.581 Siehe, mein Herr, man verleumdet mich, und ich trage doch deine Maiestät (in mir). In dem Erbarmen, mit dem du mich geformt hast, zeige meine bräutliche Würde zu meiner Rettung“!585 Und wie ihre Tränen ihren Schoß erreichten, befahl (das Kind) und ihr Kleid wurde zu Feuer, und Blitze trafen den Saum ihres Mantels, und ein Zittern befiel alle.589 Ihr Antlitz erstrahlte wie die Sonne, wenn sie sich des Morgens erhebt. Die Priester Israels sahen sie und staunten über sie und über ihre Reinheit.593 Einer sprach zum andern: „O über diese Schönheit des Mädchens! Ihre Seele ist frei von Beschämung und deswegen strahlt ihr Antlitz“.597 Es näherten sich Joseph und Maria mit ihm den Priestern und sie zitterten vor ihr. Sie suchten hart (mit ihr) zu sprechen, aber ihre Zungen erstarrten, 601 und es erstarb der Laut ihrer Worte vor Schrecken, der sie erfaßte. Und milde und ruhig sprachen sie mit ihr und sagten: 605 „Du weißt, Maria, daß auf Gelübde hin Gott dich deiner Mutter gegeben hat, und daß du im Tempel aufgezogen wurdest als unbefleckte Opfergabe. 609 Und deine Mutter gab bei ihrem Hinscheiden die Weisung: „Nehmet Maria in Reinheit“! Und Gott erhörte ihr Gebet, und erbarmte sich ihrer flehentlichen Stimme. 613 Die Söhne Levis priesen selig deine Jugend und deine Tugend [Übersetzung Beck: Zucht], und die Wächter [Übersetzung Beck: Die Engel] des Himmels verlangten nach dir und gaben dir Brot aus den himmlischen Höhen [Übersetzung Beck: Brot vom Himmel].617 Und nun, Maria, sag uns: wer hat dich verführt und deiner gespottet? Wer ist zu dir gekommen und hat deine bräutliche Würde geraubt und hat es vor uns und vor allen verborgen (gehalten)? 621 Zeige uns, wer ist dein Mann, damit wir ihn dir geben, und geh in Frieden“! Es weinte Maria, wie sie das hörte, und sie sprach zu den Priestern voll Leid:625 „Ach, ihr Priester, nehmt es von mir an, und nennt mich nicht eine Hure! Jungfrau bin ich und nicht (von einem Mann) erkannt, bewahrt und versiegelt bin ich.629 und wahr ist die Zeit meiner (jungfräulichen) Jugend, und kein Mann lachte (und spottete) je meiner. Forscht und seht, daß ich nicht erkannt wurde! Habt Erbarmen mit mir und nehmt mein Wort an!633 Ein Friedensgruß kam herab zu mir aus der Höhe durch einen Boten des Lichts. Und während ich im Gebet stand, grüßte er mich freudig637 und sprach zu mir: Gegrüßest seist du, Maria. Und ich erschrak über seine Stimme. Doch er stärkte mich mit seiner ruhigen Rede und gab mir Mut und sprach also zu mir:641 Die Kraft des Allerhöchsten wird dich überschatten und der Heilige Geist wird in dir wohnen, und der Sohn, der aus dir geboren wird, seine Herrschaft wird ewig bestehen“.645 Die Priester und die Häupter des Volkes hörten es und Verwunderung ergriff sie, und sie staunten über ihre Schönheit. Ihre Worte sind schwer(wiegend) 649 und ihre Erzählung verwirrt die Weisen, und ihr Wunder, wer könnte es erforschen! Verborgen ist unser Herr vor seinen Legionen und verborgen im Schoß seiner Mutter.653 Droben bleibt er den Engeln unzugänglich, doch die Staub (geborenen) untersuchen ihn. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>Weil sich die Versnummerierung in der Edition des Originaltextes von Brock von der Nummerierung unterscheidet, die er in seiner Übersetzung verwendet, stehen in der englischen Übersetzung eckige Klammern, die auf den entsprechenden Vers der Ausgangssprache hinweisen. Die Übersetzung von Vers 160 in der englischen Übersetzung fehlt, da er vermutlich versehentlich ausgelassen wurde.230 [115] Then, following all this, the messenger from the priests arrives, saying, “Bring Mary along to the assembly, come to see the priests who are summoning you.” Joseph arose and took with him Mary. 235 The crowds thronged to catch sight of her;the daughters of Israel and her companions spat on her face in the streets; the noble-born of her family, too, reviled her amidst cries of lament,240 [120] “Alas for our fair name, how it has perished this day! Alas, for in you our family is put to shame amidst the tribes of Israel.Alas for your chastity—who has soiled it? 245 Alas for your virginity—who has destroyed it? Alas, for how proud we were of you, but now our heads bow at your fall.Alas for us henceforth and for ever, for our fair name has perished.” 250 [125] When Mary heard these words and saw that everyone was reviling her, she ceased gazing up to heaven, and gazed instead towards her womb,“My Lord, You wished it, I have become Your mother; 255 bid that this uproar concerning me be stilled, for the shadows of death have encircled me at the sound of those who revile me.”When her tears reached her womb as she wept so bitterly, 260 [130] the Power who resided within her stirred and commanded that her raiment become fire: lightning struck out beneath her,her face blazed out just as the sun when it shines forth in the morning. 265 The priests beheld her in amazement.Joseph approached, with Mary beside him, towards the priests who quaked before her. They had wanted to speak harshly, but their tongues were tied;270 [135] the sound of their words left them at the amazement that had overtaken them.Gently and quietlydid they speak with her, saying,“You know, Mary, that it was as the result of vows275 that God gave you to your motherand you were brought up in the Templelike an offering without blemish.Your mother gave instructions the day she died, saying, “Take Mary carefully”.280 [140] God saw her prayerand he hearkened to the voice of her request.And the Levites held blessedyour chastity and virginity;the angels of heaven cherished you285 and a salutation of peace descended upon you.You have eaten the bread of heaven, you have received the company of an angel;but now, Mary, tell us,who has mockingly taken off your freedom?”290 [145] Mary wept as she heard this, and she spoke to the priests with suffering,“I beg of you, accept what I have to say,and do not reckon me an adulteress.I am a virgin, and have known no one:295 God bears witness to this.I am preserved and still sealed,the seal of my youth is intact.Examine and see that I have not been laughed at;spare me, and accept my words:300 [150] I received a salutation from on highfrom the Father at the hands of a messenger.While I was standing in prayerhe greeted me and addressed me thus,“My Lord is with your, from you shall He shine forth”.305 At his utterance I was terrified,but by his peaceful salutation he calmed me,giving me courage as he spoke as follows,“The Power of the Most High will overshadow youand the Holy Spirit will reside in you;310 [155] and as for the Son who shall be born from you,His Kingdom shall last for ever”.”The priests and chief priests heard, and astonishment settled upon them;they were amazed at her beauty,315 and her words were weighty too.The narrative concerning her baffles the wise:what degree of wonder can suffice for it?Our Lord is glorious among the heavenly legions,yet lies hidden in the womb of her who bore Him!320 [161] In fear they spoke with Mary,whose entire story belongs to God.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

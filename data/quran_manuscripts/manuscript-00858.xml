@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_858">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Berlin, Staatsbibliothek zu Berlin, Ms. or. quart. 1208 (II)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Staatsbibliothek zu Berlin.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="2">Staatsbibliothek zu Berlin
+                            , Berlin</repository>
+            <idno>Ms. or. quart. 1208 (II)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: Ms. orient. Quart. 1208 (II); Qurʾānic Text: Q 6:71-6:72; Dimensions: 182 x 124; 3 lines per page; Script style: kūfī D.I/III. </p>
+            </summary>
+            <msItem xml:id="mysql_id_672795" n="1r">
+              <title type="numeric" key="006:071:034-006:071:039">
+                                    006:071:034-006:071:039
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_672796" n="1v">
+              <title type="numeric" key="006:072:001-006:072:004">
+                                    006:072:001-006:072:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>182</width><height>124</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="3">3 - 3 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.I / D.III
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Salome Beridze</p>
+                <p>transliteration: Salome Beridze</p>
+                <p>assistance: Karina Söhl</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_37362">
+      <graphic decls="#imageRights-1" url="manuscript/858/320de6e0-0953-4d08-b2b8-1bdd8f49a5a9/manuscript-858-page-37362-image-22091.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_37363">
+      <graphic decls="#imageRights-1" url="manuscript/858/eb29f679-32f6-464e-b59f-898c2592dcfe/manuscript-858-page-37363-image-22092.jpg"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body source="858.docx">
+      <pb xml:id="f.1r"/>
+      <!-- Page ID: 858,f. 1r,006:071:034-006:071:039 -->
+      <!-- Lines: 3; Valid Lines: 3 -->
+      <l n="1">
+        <note>ٱلۡهُدَىٰۖ </note>
+        <w n="006-071-034">هو</w>
+        <pc> </pc>
+        <w n="006-071-035">الهد
+            <add type="rasm">ي</add>
+        </w>
+        <pc> </pc>
+        <w n="006-071-036">و</w>
+      </l>
+      <l n="2">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="006-071-036">امرٮا</w>
+        <pc> </pc>
+        <w n="006-071-037">لٮسلم</w>
+        <pc> </pc>
+        <w n="006-071-038">لر</w>
+      </l>
+      <l n="3">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="006-071-038">ٮ</w>
+        <pc> </pc>
+        <w n="006-071-039">العلمٮن</w>
+        <pc> </pc>
+        <!-- Vers Break: '71'-->
+        <w n="000-000-000">۝٧١</w>
+        <pc> </pc>
+      </l>
+      <pb xml:id="f.1v"/>
+      <!-- Page ID: 858,f. 1v,006:072:001-006:072:004 -->
+      <!-- Lines: 3; Valid Lines: 3 -->
+      <l n="1">
+        <note/>
+        <w n="006-072-001">وان</w>
+        <pc> </pc>
+        <w n="006-072-002">اٯٮمو</w>
+      </l>
+      <l n="2">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="006-072-002">ا</w>
+        <pc> </pc>
+        <w n="006-072-003">الصلوه</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="006-072-004">واتٯوه</w>
+        <pc> </pc>
+      </l>
+    </body>
+  </text>
+</TEI>

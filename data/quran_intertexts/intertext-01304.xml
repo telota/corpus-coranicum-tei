@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dādestān ī Mēnōg ī Xrad 7:1-11</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1304" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1304</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran findet sich die Vorstellung von vier Paradiesgärten, die den Gläubigen verheißen werden. In Sure 55:46 und 55:62 wird jeweils der Dual ǧannatān bei der Nennung der Paradiesgärten gebraucht. Entgegen der Deutung Theodor Nöldekes, der die Duale auf eine Reimkonvention zurückführt (Nöldeke 1909: 30; so auch Schimmel 1976: 17–18), argumentiert Angelika Neuwirth, dass es eine stilistische Besonderheit der arabischen Dichtung in vorislamischer Zeit gewesen sei, Duale für Ortsbezeichnungen zu verwenden (Neuwirth 1984: 458). Außerdem lasse der symmetrische Aufbau der Sure das Bild zweier Gartenpaare sinnvoll erscheinen (Neuwirth 1984: 465), so dass sich die Stelle übereinstimmend mit der altarabischen Tradition als „Garten über Garten“ (Neuwirth 1984: 473), oder „unendliche Gärten“ bestimmen lasse (Neuwirth 2010: 219).
+Daneben könnte aber auch die zoroastrische Idee von vier Paradiesen Eingang in den eschatologischen Diskurs im Koran gefunden haben: Bereits im Awesta (Vīdēvdād 7:52) ist in Andeutungen von vier Paradies-Sektionen die Rede, während in der Pahlavī-Literatur (Ardā Wīrāz Nāmag 7:10) diesen vier Paradiesen antithetisch vier Höllen (vgl. TUK_1333) und ein intermediärer Bereich (vgl. TUK_1319 u. TUK_1320) für diejenigen, deren gute und schlechte Taten einander ausgleichen, gegenübergestellt sind. Die parallele Gestaltung der eschatologischen Szenerie ist außerdem in einem awestischen Fragment, dem Hādōxt Nask 2:15 und 2:33 (vgl. TUK 1330; siehe dazu auch Kellens 2012), belegt. Im hier vorgestellten Dādestān ī Mēnōg ī Xrad findet sich eine Einteilung des Paradieses in vier Sphären, wobei diesem, ähnlich dem ausgeprägten Parallelismus eschatologischer Passagen im Koran, vier Höllen gegenübergestellt sind.
+
+
+Das Dādestān i Mēnōg ī Xrad („Urteile des Geistes der Weisheit“) ist ein mittelpersischer zoroastrischer Text, welcher der Gattung der Weisheitsliteratur (Andarz) zugerechnet wird (vgl. Shaked and Safa 1985). Der Text selbst stellt die spätere Verschriftlichung einer zunächst mündlichen Tradition dar. Die älteste erhaltene Handschrift stammt aus dem Jahr 1589. Autor und Entstehungszeit sind unbekannt, jedoch gehen Edward W. West, Mary Boyce und Aḥmad Tafażżolī aufgrund stilistischer Besonderheiten und der Bezugnahme auf historische Ereignisse der späten Sasanidenzeit von einer schriftlichen Abfassung während der Regierungszeit des Ḫusraw I. Anūšīrwān (reg. 531–579 n. Chr.) aus (vgl. West 1885: X–XI; Boyce 1968: 54; Tafażżolī 1993). Für das Genre der Andarz-Literatur generell wird von einer schriftlichen Fixierung in der spät-sasanidischen Zeit ausgegangen (vgl. Stausberg 2002: 291–292).
+Formal gliedert sich der Text in 63 Abschnitte, wobei auf eine den Rahmen bildende erzählerische Einleitung 62 Dialogsequenzen folgen. Die Einleitung unterrichtet über die Bemühungen eines gewissen Dānāg (der sprechende Name kann wörtl. übersetzt werden mit „der Wissende, der Weise“), der während seiner Suche nach Wissen und Erkenntnis viele Länder bereist und dabei Sitten, Bräuche und religiöse Überzeugungen kennenlernt (DMX 1:33–38). Am Ende seiner Reise wird ihm schließlich – nach Erkennen der für den Zoroastrismus zentralen Tugend der Weisheit (xrad) – die Ehre zuteil, Fragen an den göttlichen Geist der Weisheit (Mēnōg ī Xrad) stellen zu dürfen (DMX 1:57–60). Die darauf folgenden 62 Sektionen behandeln eine Fülle von Themen: Neben lebenspraktischen Fragen etwa über das maßvolle Weintrinken (DMX 16) werden Fragen der religiös korrekten Lebensführung, wie die nach der Einhaltung der drei Gebetszeiten (DMX 53), erörtet; des Weiteren werden Begräbnis-Vorschriften (DMX 6), das Tragen des heiligen Gürtels und Essenvorschriften (DMX 6) sowie dogmatische Themen wie der Antagonismus zwischen Ohrmazd und Ahriman (DMX 45; 45; 54), Fragen des Rituals (DMX 52) sowie Sünden- und Tugendkataloge (DMX 35; 36) besprochen. Vereinzelt wird auch auf eschatologische Themen, etwa die Anzahl der Paradiese und Höllen (DMX 7), eingegangen. Daneben finden sich auch kurze kosmogonische (DMX 44) und geographische (DMX 56) Passagen, Darlegungen über die Klassenstruktur der Gesellschaft (DMX 31; 32) und weitere Themengebiete. Wie der Titel des Werkes bereits andeutet, betont der Text die sittliche Überlegenheit des Strebens nach Weisheit und spiritueller Vervollkommnung vor materiellem Wohlstand und weltlicher Macht.</summary>
+            <msItem>
+              <title>Dādestān ī Mēnōg ī Xrad 7:1-11</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Regierungszeit des Ḫosrow I. Anoširwān (reg. 531–597 n. Chr.)</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Anklesaria 1913</bibl>
+              <bibl type="literatur">Anklesaria, Tehmuras Dinshaw: D&amp;#xE2;n&amp;#xE2;k-u Mainy&amp;#xF4;-i Khrad. Bombay 1913.</bibl>
+              <bibl type="literatur">Boyce, Mary: &amp;#x201E;Middle Persian Literature&amp;#x201C;. In: Berthold Spuler (Hrsg.), Handbuch der Orientalistik. Leiden 1968, S. 31&amp;#x2013;66.</bibl>
+              <bibl type="literatur">Kellens, Jean: &amp;#x201E;H&amp;#x101;d&amp;#x14D;xt Nask&amp;#x201C;. Encyclopaedia Iranica 11.5: 457&amp;#x2013;458.</bibl>
+              <bibl type="literatur">N&amp;#xF6;ldeke, Theodor: Geschichte des Qor&amp;#x101;ns: Teil 1 &amp;#xDC;ber den Ursprung des Qor&amp;#x101;ns. Dieterich&amp;#x2BC;sche Verlagsbuchhandlung, Leipzig 1909.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: &amp;#x201E;Symmetrie und Paarbildung in der koranischen Eschatologie. Philologisch-Stilistisches zu S&amp;#x16B;rat ar-Ra&amp;#x1E25;m&amp;#x101;n&amp;#x201C;. In: Universit&amp;#xE9; Saint-Joseph, Beirut 1984, S. 445&amp;#x2013;480. M&amp;#xE9;langes de l&amp;#x2019;Universit&amp;#xE9; Saint-Joseph.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran als Text der Sp&amp;#xE4;tantike: ein europ&amp;#xE4;ischer Zugang. Verl. der Weltreligionen, Berlin 2010.</bibl>
+              <bibl type="literatur">Schimmel, Annemarie: &amp;#x201E;The Celestial Garden in Islam&amp;#x201C;. In: Elisabeh B. MacDougall &amp;amp; Richard Ettinghausen (Hrsg.), The Islamic Garden. Washington 1976, S. 11&amp;#x2013;39.</bibl>
+              <bibl type="literatur">Stausberg, Michael: Die Religion Zarathustras. Geschichte-Gegenwart-Rituale. Stuttgart et al 2002.</bibl>
+              <bibl type="literatur">Tafa&amp;#x17C;&amp;#x17C;ol&amp;#x12B;, A&amp;#x1E25;mad: &amp;#x201E;D&amp;#x101;dest&amp;#x101;n &amp;#x12B; M&amp;#x113;n&amp;#x14D;g &amp;#x12B; Xrad&amp;#x201C;. Encyclopaedia Iranica 6.5: 554&amp;#x2013;555.</bibl>
+              <bibl type="literatur">West, Edward W.: Pahlavi Texts. Oxford 1885.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FDMX+7-1-11-1_xvMmkE.png&amp;dw=1000"/>
+      <graphic url="https://corpuscoranicum.de/digitallibrary/servlet/Scaler?fn=/projects/corpus-coranicum/Umwelttexte%2FDMX+7_1-11-2.png&amp;dw=1000"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>The sage asked the spirit of wisdom thus:‘How is heaven, and how many?How are the ever-stationary (hamistagan), and how many?And how is hell, and how many?What is the decision about the righteous in heaven, and from what is their happiness?What are the misery and affliction of the wicked in hell?And what and how is the decision about those who are among the ever-stationary?’The spirit of wisdom answeredthus: ‘Heaven is, first, from the star station unto the moon station;second, from the moon station unto the sun;and, third, from the sun station unto the supreme heaven (garothman), whereon the creator Ohrmazd is seated.’</p>
+      </div>
+    </body>
+  </text>
+</TEI>

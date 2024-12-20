@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äthiopisches Henochbuch: das Buch der Wächter 14:1-4</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_911" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>911</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>	Bei der hier zitierten Stelle aus dem Buch der Wächter handelt es sich um die Einleitung der Vision Henochs. Diese folgt 
+auf die Geschichte vom Fall der Engel (Hen 6:1-9:11, TUK_0769). Nachdem diese Henoch bitten, für 
+sie Fürbitte einzulegen (Hen 13:4-6), wird Henoch eine Vision zuteil, und
+ er erhält den Auftrag, diese den "Wächtern" (den gefallenen Engeln) zu verkünden 
+(Hen 13:8-10).Die Einleitung der Vision erinnert an die Schriftreferenzen im Koran, die seit der mittelmekkanischen Zeit als Einleitung mehrerer Suren auftreten. Diese beziehen sich auf den Prozess der Offenbarung, markieren mantische Rede und garantieren Authentizität (Wild 2006: p. 10). Die Verse Q 7:2, 12:2, 13:1, 14:1, 24:1, etc. (z.B. Q 7:2 kitābun ʾunzila ʾilaika, "eine Schrift, die zu dir herabgesandt worden ist") betonen die transzendente Herkunft des folgenden und legitimieren dadurch seinen Inhalt. Um eine ähnliche Autorisierung der Botschaft scheint es sich auch bei Henoch 14:1 (ba-kama ʾazzaza qəddus wa-ʿabbiy ba-yəʾəti rāʾəy, "wie (es) der Heilige und Große befohlen hat in jener Vision") zu handeln. Auch das Neue Testament enthält eine Reihe selbstreferentieller Passagen (z.B. Gal 1:11-12, Joh 20:30-31, Offb 22:18-19). Dort, ebenso wie in der Hebräischen Bibel (z.B. Deut 1:1), dem Jubiläenbuch (Jub 1:1) und im Henochbuch, kommen solche Passagen zwar vor, prägen, anders als im Koran, aber nicht den ganzen Text (Wild 2006: p. 17-18).Die von Nicolai Sinai für den Koran identifizierten Arten der Selbstreferentialität, nämlich funktionale Selbstreferentialität (bezieht sich auf die Funktion des Textes, z.B. Warnung) und genetische Selbstreferentialität (bezieht sich auf die göttliche Herkunft des Textes) (Sinai 2006: p. 110-112), lassen sich auch in den hier zitierten Versen des Henochbuchs finden: funktional ("Dieses Buch (ist) das Wort der Wahrheit und des Tadels der Wächter") und genetisch ("wie (es) der Heilige und Große befohlen hat in jener Vision").Das Äthiopische Henochbuch besteht aus mehreren zu unterschiedlichen Zeiten (3.-1. Jh. v. Chr.) entstandenen Traktaten: 1) Das Buch der Wächter; 2) Die Bilderreden; 3) Das Astronomische Buch; 4) Das Buch der Traumvisionen; 5) Die Epistel Henochs. Die Zusammenfassung zu einem Buch wurde wahrscheinlich nach der Zeitenwende von einem jüdischen Redaktor vorgenommen. Anhand von Henochs Himmelsreisen, Visionen und Mahnreden (bzw. -schriften) werden vor allem die Themen Eschatologie, Kosmologie und Weisheit behandelt. Entstanden sind die Traktate des Äthiopischen Henochbuchs vermutlich in antihellenistischen apokalyptischen Kreisen, die der Qumrangemeinschaft nahestanden. Mit anderen in Qumran gefundenen Schriften teilt das Äthiopische Henochbuch verschiedene Elemente: die Gestalt des Urweisen, deren Prototyp Henoch ist, dem die himmlischen Geheimnisse offenbart werden; die Deutung der Geschichte von Adam bis zum Ende; die Schilderung der Endzeit mit Krieg und Vernichtung, auf die das Gericht Gottes folgt, in dem der Satan und die gefallenen Engel sowie die Sünder vernichtet werden, während für die Frommen eine ewige Heilszeit anbricht. Die Frage nach der ursprünglichen Sprache (aramäisch oder hebräisch) des Äthiopischen Henochbuches ist nicht übereinstimmend geklärt; so wurden neben mehreren aramäischen Fragmenten in Qumran auch zwei hebräische gefunden. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (griechisch, koptisch, syrisch, lateinisch) zeugen. Vollständig erhalten ist das Henochbuch dagegen nur in der äthiopischen Übersetzung (vermutlich im 5.-7. Jh. aus dem Griechischen übersetzt); wahrscheinlich dadurch bedingt, daß es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen christlichen Konfessionen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Uhlig 1984: p. 466-497).</summary>
+            <msItem>
+              <title>Äthiopisches Henochbuch: das Buch der Wächter 14:1-4</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 3. - 1. Jh. v. Chr. (Redaktion der einzelnen Traktate erst n. Chr.)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Michael A. Knibb, The Ethiopic Book of Enoch. A New Edition in the Light of the Aramaic Dead Sea Fragments, Bd. 1 Text and Apparatus, Oxford 1978.</bibl>
+              <bibl type="literatur">Uhlig, Siegbert (Hrsg.): Das &amp;#xE4;thiopische Henochbuch. G&amp;#xFC;tersloh 1984.</bibl>
+              <bibl type="literatur">Wild, Stefan: &amp;#x201E;Why self-referentiality?&amp;#x201C; In: Stefan Wild (Hrsg.), Self-Referentiality in the Qur&amp;#x2019;&amp;#x101;n. Harrassowitz Verlag, Wiesbaden 2006, S. 1&amp;#x2013;23. Diskurse der Arabistik.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Tolou Khademalsharieh</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>
+	ዝመጽሐፍ፡ ቃለ፡ ጽድቅ፡ ወዘለፋ፡ ትጉሃን፡ እለ፡ እምዓለም፡ በከመ፡ አዘዘ፡ ቅዱስ፡ ወዓቢይ፡ በይእቲ፡ ራእይ። አነ፡ ርኢኩ፡ በንዋምየ፡ ዘአነ፡ ይእዜ፡ እነግር፡ በልሳን፡ ዘሥጋ፡ ወበመንፈስየ፡ ዘወሀበ፡ ዓቢይ፡ አፈ፡ ለሰብአ፡ ይትናገሩ፡ ቦቱ፡ ወይለብዉ፡ በልብ፡ ከመ፡ ፈጠረ፡ ወወሀበ፡ ለሰብእ፡ ይለብዉ፡ ቃለ፡ አእምሮ። ወሊተኒ፡ ፈጠረ፡ ወወሀበኒ፡ እዛለፎሙ፡ ለትጉሃን፡ ውሉደ፡ ሰማይ። ወአነ፡ ስዕለተክሙ፡ ጸሐፍኩ፡ ወበራዕይየ፡ ካመዝ፡ ያስተርኢ። እስመ፡ ስዕለትክሙ፡ ኢትከውነክሙ፡ ውስተ፡ ኵሉ፡ መዋዕለ፡ ዓለም፡ ወኵነኔ፡ ፍጽምት፡ ላዕሌክሙ፡ ወኢይከውነክሙ።
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Dieses Buch (ist) das Wort der Wahrheit und des Tadels der Wächter, die von Ewigkeit sind, wie (es) der Heilige und Große befohlen hat in jener Vision. 2. Ich sah in meinem Schlaf, was ich jetzt mit meiner Fleischeszunge verkündige und mit meinem Odem, den der Große den Menschen in den Mund gegeben hat, daß sie damit reden und (es) mit dem Herzen verstehen. 3 Wie er die Menschen geschaffen hat und ihnen verliehen hat, das Wort der Erkenntnis zu verstehen, so hat er auch mich geschaffen und (mir) verliehen, daß ich die Wächter, die Söhne des Himmels tadle. 4 Ich habe eure Bitte aufgeschrieben, aber in meiner Vision erschien mir dies: Eure Bitte wird nicht erfüllt in alle Ewigkeit, und das Gericht über euch wird vollendet und euch nichts gewährt. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

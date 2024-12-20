@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1906">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dallas, Texas, Dallas Museum of Art, K.1.2014.734</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="73">Dallas Museum of Art
+                            , Dallas, Texas</repository>
+            <idno>K.1.2014.734</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: K.1.2014.734; Qurʾānic Text: Q 16:49 - 16:54; 7 lines per page; Dimensions: 252 x 201mm; Script style: maġribī; Estimated date of production: 1200-1300.</p>
+              <p> </p>
+              <p>For more information see the <ref target="https://dma.org/art/collection/object/5342868">website of the museum</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_708052" n="1r">
+              <title type="numeric" key="016:049:013-016:052:006">
+                                    016:049:013-016:052:006
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_693495" n="1v">
+              <title type="numeric" key="016:052:007-016:054:009">
+                                    016:052:007-016:054:009
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>201</width><height>252</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="7">7 - 7 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                maġribī
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1200-1300</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_76875">
+      <graphic decls="#imageRights-1" url="manuscript/1906/d36b11e4-f654-46e8-adf9-ecf2731ee647/manuscript-1906-page-76875-image-69111.jpg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_53453">
+      <graphic decls="#imageRights-1" url="manuscript/1906/e04def72-207e-42d0-86d4-8950e79a67d9/manuscript-1906-page-53453-image-43385.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1906/5cca0003-e80a-4d10-b580-014b646de701/manuscript-1906-page-53453-image-43386.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

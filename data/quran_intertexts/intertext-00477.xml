@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus 18:6-18</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_477" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>477</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie Q 4:22-23 verbietet auch Leviticus 18:6-18 bestimmte Blutsverwandte, Stiefmütter und -töchter, Schwiegertöchter, zwei Schwestern gleichzeitig oder neben einer Frau auch noch deren Mutter oder Tochter zu heiraten. Vgl. auch Lev 20:11-21. Über Leviticus hinaus ist laut Q 4:23 auch die Eheschließung mit der Amme oder Milchschwester verboten.
+</summary>
+            <msItem>
+              <title>Leviticus 18:6-18</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Manolis Ulbricht</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	אִישׁ אִישׁ אֶל־כָּל־שְׁאֵר בְּשָׂרוֹ לֹא תִקְרְבוּ לְגַלּוֹת עֶרְוָה אֲנִי יְהוָה : עֶרְוַת אָבִיךָ וְעֶרְוַת אִמְּךָ לֹא תְגַלֵּה אִמְּךָ הִוא לֹא תְגַלֶּה עֶרְוָתָהּ : עֶרְוַת אֵשֶׁת־אָבִיךָ לֹא תְגַלֵּה עֶרְוַת אָבִיךָ הִוא : עֶרְוַת אֲחוֹתְךָ בַת־אָבִיךָ אוֹ בַת־אִמֶּךָ מוֹלֶדֶת בַּיִת אוֹ מוֹלֶדֶת חוּץ לֹא תְגַלֶּה עֶרְוָתָן : עֶרְוַת בַּת־בִּנְךָ אוֹ בַת־בִּתְּךָ לֹא תְגַלֶּה עֶרְוָתָן כִּי עֶרְוָתְךָ הֵנָּה : עֶרְוַת בַּת־אֵשֶׁת אָבִיךָ מוֹלֶדֶת אָבִיךָ אֲחוֹתְךָ הִוא לֹא תְגַלֶּה עֶרְוָתָהּ : עֶרְוַת אֲחוֹת־אָבִיךָ לֹא תְגַלֵּה שְׁאֵר אָבִיךָ הִוא : עֶרְוַת אֲחוֹת־אִמְּךָ לֹא תְגַלֵּה כִּי־שְׁאֵר אִמְּךָ הִוא : עֶרְוַת אֲחִי־אָבִיךָ לֹא תְגַלֵּה אֶל־אִשְׁתּוֹ לֹא תִקְרָב דֹּדָתְךָ הִוא : עֶרְוַת כַּלָּתְךָ לֹא תְגַלֵּה אֵשֶׁת בִּנְךָ הִוא לֹא תְגַלֶּה עֶרְוָתָהּ : עֶרְוַת אֵשֶׁת־אָחִיךָ לֹא תְגַלֵּה עֶרְוַת אָחִיךָ הִוא : עֶרְוַת אִשָּׁה וּבִתָּהּ לֹא תְגַלֵּה אֶת־בַּת־בְּנָהּ וְאֶת־בַּת־בִּתָּהּ לֹא תִקַּח לְגַלּוֹת עֶרְוָתָהּ שַׁאֲרָה הֵנָּה זִמָּה הִוא : וְאִשָּׁה אֶל־אֲחֹתָהּ לֹא תִקָּח לִצְרֹר לְגַלּוֹת עֶרְוָתָהּ עָלֶיהָ בְּחַיֶּיהָ :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	6 Niemand von euch darf sich einer Blutsverwandten nähern, um ihre Scham zu entblößen. Ich bin der Herr. 7 Die Scham deines Vaters, nämlich die Scham deiner Mutter, darfst du nicht entblößen. Sie ist deine Mutter, du darfst ihre Scham nicht entblößen. 8 Die Scham der Frau deines Vaters darfst du nicht entblößen; sie ist die Scham deines Vaters. 9 Die Scham deiner Schwester, einer Tochter deines Vaters oder einer Tochter deiner Mutter, darfst du nicht entblößen, sei sie im Haus oder außerhalb geboren. 10 Die Scham einer Tochter deines Sohnes oder einer Tochter deiner Tochter darfst du nicht entblößen; denn ihre Scham ist deine eigene Scham. 11 Die Scham der Tochter einer Frau deines Vaters darfst du nicht entblößen. Sie ist deinem Vater geboren, also deine Schwester; du darfst ihre Scham nicht entblößen. 12 Die Scham einer Schwester deines Vaters darfst du nicht entblößen; denn sie ist mit deinem Vater leiblich verwandt. 13 Die Scham der Schwester deiner Mutter darfst du nicht entblößen; denn sie ist mit deiner Mutter leiblich verwandt. 14 Die Scham des Bruders deines Vaters darfst du nicht entblößen; du darfst dich seiner Frau nicht nähern; denn sie ist deine Tante. 15 Die Scham deiner Schwiegertochter darfst du nicht entblößen. Sie ist die Frau deines Sohnes; du darfst ihre Scham nicht entblößen. 16 Die Scham der Frau deines Bruders darfst du nicht entblößen; denn sie ist die Scham deines Bruders. 17 Die Scham einer Frau und gleichzeitig die ihrer Tochter darfst du nicht entblößen; weder die Tochter ihres Sohnes noch die Tochter ihrer Tochter darfst du nehmen, um ihre Scham zu entblößen. Sie sind leiblich verwandt, es wäre Blutschande. 18 Du darfst neben einer Frau nicht auch noch deren Schwester heiraten; du würdest sie zur Nebenbuhlerin machen, wenn du zu Lebzeiten der Frau die Scham ihrer Schwester entblößt.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

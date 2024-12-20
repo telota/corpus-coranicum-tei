@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1786">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Washington DC, Library of Congress, AL-15</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Library of Congress, African and Middle East Division, Near East Section Persian Manuscript Collection.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="94">Library of Congress
+                            , Washington DC</repository>
+            <idno>AL-15</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single folio; Shelfmark: Al-15; Writing surface: parchment; Qurʾānic text: Q 6:19-31; Lines per page: 13; Script style: kūfī, variation of the D.Va type; Dimensions: 330 x 238 mm; Estimated date of production: 750-850. </p>
+              <p/>
+              <p>Originally Al-15<ref target="https://corpuscoranicum.de/handschriften/index/sure/2/vers/221?handschrift=1364"> </ref>is probably from the same codex as <ref target="https://corpuscoranicum.de/en/manuscripts/1364?sura=2&amp;amp;verse=221">HC.MS.03168</ref> and <ref target="https://corpuscoranicum.de/handschriften/index/sure/6/vers/150?handschrift=1447">HC.MS.03113</ref> from the Qatar National Library (Doha) and <ref target="https://corpuscoranicum.de/en/manuscripts/1308">sxm/ag. 2529</ref> from the Georgian National Museum. A single folio fragment from the same manuscript is also held in <ref target="https://corpuscoranicum.de/en/manuscripts/2981">Lausanne, Switzerland</ref>.</p>
+              <p> </p>
+              <p>The Library of Congress has classified the flesh side (fol. 1 v in this catalogue) as the recto, possibly because it is the hair side with the better preserved text. According to the text, fol. 1r precedes the text of fol. 1v, which led us to classify the two pages in reverse, contrary to the Library of Congress. The folio containing the text from Q 6:19-25 is labelled as recto, while the folio containing Q 6:25-31 is labelled as verso.</p>
+              <p>Link to the document in Library of Congress: <ref target="https://www.loc.gov/item/2019714725/">https://www.loc.gov/item/2019714725/</ref>.</p>
+            </summary>
+            <msItem xml:id="mysql_id_692638" n="1r">
+              <title type="numeric" key="006:019:025-006:025:024">
+                                    006:019:025-006:025:024
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_692637" n="1v">
+              <title type="numeric" key="006:025:025-006:031:012">
+                                    006:025:025-006:031:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                  <p>The text on fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1v?sura=6&amp;verse=25">1v</ref> is better preserved as it is on the hair side of the parchment. Fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1r?sura=6&amp;verse=25#manuscript_page">1r</ref> is the flesh side. Quire structure: not known. </p>
+                  <p>Text Division: There are single, fifth and tenth verse separators. Single verse separators consist of small gold rosettes. The fifth verse separator (preserved on fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1v?sura=6&amp;verse=25">1v</ref> line 2) is a gold painted letter <hi rend="italic">hāʾ</hi>, a numeral verse separator representing the number 5 in the <hi rend="italic">Abjad</hi> counting system. The tenth verse separator on fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1r?sura=6&amp;verse=25#manuscript_page">1r</ref> is a larger gold painted medallion with the word <hi rend="italic">ʿišrūn </hi>written within the circle, standing for the 20th verse of the Surah <hi rend="italic">al-ʾAnʿām</hi>. Red, green, yellow and blue colours are used to paint in the medallion. Gold ink is also used for the ornaments. On fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1r?sura=6&amp;verse=25#manuscript_page">1r</ref> the word <hi rend="italic">niṣf</hi> for 'half' is written in gold on the left margin to mark the <hi rend="italic">ǧuzʾ</hi> (part) of the text. On fol. <ref target="https://corpuscoranicum.de/en/manuscripts/1786/page/1v?sura=6&amp;verse=25">1v</ref>  the second <hi rend="italic">taʿšīr</hi> marker is attested, a medallion with a different design to fol. 1r. with the word <hi rend="italic">ṯalāṯūn</hi> for the number thirty. (Salome Beridze)</p>
+                </support>
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>330</width><height>238</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="13">13 - 13 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>The script of this Qurʾān fragment represents the <hi rend="italic">kūfī</hi> script style D being close to the D.Va group with elements of D.I/D.II as these subgroups are very similar <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/5RF6W5GJ" sameAs="5RF6W5GJ" type="zotero">(Déroche 1983: PN 112-116)</ref>, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">(Déroche 1992: PN 44-45)</ref>. The letter <hi rend="italic">ʾalif</hi> in the independent form has a long lower return with an upward curve. The letter <hi rend="italic">ǧīm</hi> in the medial form lies on the base line so that the letter before it is placed a little bit higher. In the final or independent position <hi rend="italic">ǧīm </hi>has a tail that curves back to the head of the letter close to the line, similar to the D.I/D.II group. The letter <hi rend="italic">ṭāʾ</hi> in the final or independent position is similar to those in the D.Va group. <hi rend="italic">ʿAyn</hi> initially resembles the D.Va group. In middle position, the letter shows a vertical right hand antenna which remains vertical in final position as well. <hi rend="italic">Qāf</hi> in its final or independent form shows a U-shaped tail that goes backwards as in D.II group. The letter <hi rend="italic">mīm </hi>in middle and final position is closer to D.II and D.III group. In both positions the letter lies rather flat on the line, in final position it has a short flat tail. <hi rend="italic">Nūn</hi> in final and independent position has a long body and the head is shorter than in D.I, being closer to D.III. <hi rend="italic">Hāʾ</hi> in the medial position is placed on the base line, the two eyes are mostly defined. The shape of the letter, which resembles a drop is close to the D.Va group. The <hi rend="italic">lām</hi>-<hi rend="italic">ʾalif </hi>ligature also resembles D.Va and D.I group, but the <hi rend="italic">lām</hi> is much thinner than <hi rend="italic">ʾalif </hi>and curves towards it.</p>
+                <p>Unlike Déroche, we use the term <hi rend="italic">kūfī</hi> for pragmatic reasons - a term which is attested only after the 10th century. </p>
+                <p> </p>
+                <p>Diacritics: Diacritica of the script are marked by oblique dashes in the same dark brown ink as the main text, mostly, the letters <hi rend="italic">bā</hi><hi rend="italic">ʾ </hi>and <hi rend="italic">nūn</hi> in final or independent position are marked. Vocalisation is indicated by red and green dots. Some lines show <hi rend="italic">mašq</hi>, horizontal stretching of the letters, a technique used to achieve a regular arrangement of letters within a line. (Salome Beridze)</p>
+              </summary>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-850</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_52596">
+      <graphic decls="#imageRights-1" url="manuscript/1786/b27f12b3-2df7-412a-83ef-94c66eb0a515/manuscript-1786-page-52596-image-41322.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_52595">
+      <graphic decls="#imageRights-1" url="manuscript/1786/5e22d5b3-afda-493e-9199-935aba9fa361/manuscript-1786-page-52595-image-41321.tif"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Berliner Pahlavi Dokument Nr. 26</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1460" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1460</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im Koran tauchen an zahlreichen Stellen das Wort rizq (pl. ʾarzāq) bzw. Derivate der Wurzel r-z-q auf (das maṣdar 55 Mal, andere Verbformen 68 Mal, vgl. Bosworth and McAuliffe 1995: 567). Der Terminus rizq kann dabei in zahlreichen Konnotation vorkommen. Besonders häufig erscheint rizq als der Lebensunterhalt, der den Menschen von Gott gewährt wird (Q 13:26, Q 29:62, Q 30:37, Q 34:36 passim), wobei an anderer Stelle hervorgehoben wird, dass Gott selbst eines solchen nicht bedürfe (Q 51:27, Q 20:132). Im Diesseits wie im Jenseits ist Gott den Menschen der beste Bescherer (ḫairu r-rāziqīna; Q 5:114, Q 22:58 passim). rizq ist mithin eines von Gottes Zeichen (ʾayāt) für die verständigen Menschen (Q 45:5, Q 40:13; siehe hierzu wie zum Vorhergehenden die Belege bei Bosworth and McAuliffe 1995 u. Waines 2006). Diese Bedeutungsvielfalt führte dazu, dass man in späteren Zeiten darunter alles zu verstehen bereit war, was Gott gewährte; sogar die Macht der Herrschenden (vgl. al-Qāḍī 1994: 260–261; für die späteren theologischen Implikationen siehe van Ess 1997: 497–500). Daneben wurde das Wort auch für den Sold der Truppen gebraucht, wie ein Papyrus aus der Zeit der Statthalterschaft des ʿAbd al-ʿAzīz b. Marwān (reg. 65/685–86/705) in Ägypten belegt (vgl. Kennedy 2001: 66–67). Das Wort selbst jedoch ist iranischen Ursprungs.
+
+Die iranische Etymologie ist bereits früh erkannt worden (vgl. de Lagarde 1866: 81, Ṣiddīqī 1919: 56, Jeffery 1938: 142–143). Arthur Jeffery weist in diesem Zusammenhang auf das awestische raočah hin (Jeffery 1938: 143, siehe ausführlich Bartholomae 1904: 1489–1491), das neben „Tag“ (Bartholomae 1904: 1490) auch die himmlischen Lichter (Yašt 6:1; 10:95,90 Bartholomae 1904: 1489–1490) bzw. den Lichtraum (Yasna 30:1; 58:6 Bartholomae 1904: 1490) bezeichnen kann. Das mittelpersische rōzīg (lwcyk') hat als roziqā Eingang ins Syrische gefunden und bezeichnet dort das „tägliche Brot“ bzw. die „Militärration“ (Ciancaglini 2008: 255), so dass auch die Möglichkeit einer Entlehnung aus dem Syrischen (vgl. de Lagarde 1866: 81, nach ihm Ṣiddīqī 1919: 56 u. Jeffery 1938: 143) oder Aramäischen (vgl. Cheung 2017: 326) ins Arabische in Betracht zu ziehen ist.
+
+In den Berliner Pahlavi-Dokumenten, die hauptsächlich Quittungen über zugeteilte Nahrungsmittel und Genussgüter enthalten, lässt sich der Begriff rōzīg an zahlreichen Stellen belegen. Nach Dieter Weber ist der zumeist als „Tagesration“ übersetze Ausdruck (MacKenzie 1971: 72) jedoch in der allgemeineren Bedeutung von „Ration“ bzw. „Zuteilung“ zu verstehen (Weber 2008: XXIX). In dieser Bedeutung erscheint der Begriff in den Berliner Pahlavi-Dokumenten in Bezug auf Wein (8, 2–3; 33, 4–8), Fleisch (35, 2–4; 40,2–4), Weizen (6, 2–4; 9, 3–9; 14, 3–6), Gerste (16, 4–5) und Luzerne (16, 5–6, siehe Weber 2008: XXIX–XXXI). Die Datierung der Dokumente erweist sich als schwierig, da zumeist keine genauen Datumsangaben gemacht sind. Selbst wenn diese vorhanden sind, so ist nicht die königliche Ära genannt, auf welche sich die Datumsangabe bezieht. Weber zufolge ist jedoch von der Regierungszeit des letzten Sasaniden-Herrschers Yazdegerd III. (632–651 n. Chr.) als Bezugspunkt der Datierungen auszugehen, womit diese in eine Zeit zwischen 660 und 680 fallen würden (vgl. Weber 2008: XIV–XV). Das kleine Dokument aus Pergament (10,7cm H x 12,1cm B.) enthält die Zuweisung einer Ration (rōzīg) eines unbekannten Gutes an ein Kind aus einer bāyāspān-Ehe. Das Wort bāyāspān meint zunächst „Bote“ bzw. „Gesandter“ (MacKenzie 1971: 17–18), scheint sich jedoch im familiären Kontext auf eine das erste Mal verheiratete Frau zu beziehen, die das Haus ihres Vaters bzw. Bruders verlassen hat und in die Familie ihres Ehemanns übergewechselt ist (vgl. Carlsen 1984: 121, so auch Macuch 1993: 182–183).</summary>
+            <msItem>
+              <title>Berliner Pahlavi Dokument Nr. 26</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">671/672 n. Chr.</origDate>
+              <origPlace>Iran</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Weber 2008: 108–111</bibl>
+              <bibl type="literatur">&amp;#x1E62;idd&amp;#x12B;q&amp;#x12B;, &amp;#x2BF;Abd as-Sattar: Studien &amp;#xFC;ber die persischen Fremdw&amp;#xF6;rter im klassischen Arabisch. G&amp;#xF6;ttingen 1919.</bibl>
+              <bibl type="literatur">Bartholomae, Christian: Altiranisches W&amp;#xF6;rterbuch. Strassburg 1904.</bibl>
+              <bibl type="literatur">Bosworth, Clifford Edmund &amp;amp; McAuliffe, Jane Dammen: &amp;#x201E;Riz&amp;#x1E33;&amp;#x201C;. Encyclopaedia of Islam (Second Edition) 8: 567&amp;#x2013;568.</bibl>
+              <bibl type="literatur">Carlsen, Bodil H.: &amp;#x201E;Middle Iranian Studies. Proceedings of the International Smyposium organized by the Katholieke Universiteit Leuven from the 17th to the 20th of May 1982&amp;#x201C;. In: Wojciech Skalmowski &amp;amp; Alois van Tongerloo (Hrsg.), Leuven 1984, S. 115&amp;#x2013;121.</bibl>
+              <bibl type="literatur">Cheung, Johnny: &amp;#x201E;On the Middle Iranian Borrowings in Qur&amp;#x2BE;&amp;#x101;nic (and Pre-Islamic) Arabic&amp;#x201C;. In: A.D. Rubin &amp;amp; A. al-Jallad (Hrsg.), Arabic in Context. Celebrating 400 Years of Arabic at Leiden University. Leiden/Boston 2017, S. 317&amp;#x2013;333. Studies in Semitic Languages and Linguistics.</bibl>
+              <bibl type="literatur">Ciancaglini, Claudia A.: Iranian Loanwords in Syriac. Wiesbaden 2008.</bibl>
+              <bibl type="literatur">Ess, Josef van: &amp;#x201E;Theologie und Gesellschaft im 2. und 3. Jahrhundert Hidschra&amp;#x202F;: eine Geschichte des religi&amp;#xF6;sen Denkens im fr&amp;#xFC;hen Islam. 4. Mit Gesamtregister der B&amp;#xE4;nde I - VI&amp;#x201C;.</bibl>
+              <bibl type="literatur">Jeffery, Arthur: The foreign vocabulary of the Qur&amp;#x2019;&amp;#x101;n. Oriental Institute, Baroda 1938.</bibl>
+              <bibl type="literatur">Kennedy, Hugh: The Armies of the Caliphs. Military and Society in the Early Islamic State. London 2001.</bibl>
+              <bibl type="literatur">MacKenzie, David N.: A Concise Pahlavi Dictionary. London [u.a] 1971.</bibl>
+              <bibl type="literatur">Macuch, Maria: Rechtskauistik und Gerichtspraxis zu Beginn des siebenten Jahrhunderts in Iran. Die Rechtssammlung des Farro&amp;#x1E2B;mard i Wahr&amp;#x101;m&amp;#x101;n. Wiesbaden 1993.</bibl>
+              <bibl type="literatur">Waines, David: &amp;#x201E;Sustenance&amp;#x201C;. Encyclopaedia of Islam (Second Edition) 5:.</bibl>
+              <bibl type="literatur">Weber, Dieter: Berliner Pahlavi-Dokumente. Zeugnisse sp&amp;#xE4;tsassanidischer Brief-und Rechtskultur aus fr&amp;#xFC;hislamischer Zeit. Mit Beitr&amp;#xE4;gen von Myriam Krutzsch und Maria Macuch. Wiesbaden 2008.</bibl>
+              <bibl type="literatur">al-Q&amp;#x101;&amp;#x1E0D;&amp;#x12B;, Wad&amp;#x101;d: &amp;#x201E;The Religious Foundation of Late Umayyad Ideology and Practice&amp;#x201C;. In: Saber religioso y poder politico en el Islam. Actas del simposio international, Granada, 15-18 octubre 1991. Madrid 1994, S. 231&amp;#x2013;273.</bibl>
+              <bibl type="literatur">de Lagarde, Paul: Gesammelte Abhandlungen. Leipzig 1866.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p>Siehe Abbildung.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>01 Āštwēh(?), der Verwalter für die Angelegenheiten des Dorfes:
+02 Wegen Ration(en) für das Kind aus der bāyānspān-Ehe, die vom Herren
+03 gestiftet (lit. gemacht), Āzād-...-pād(?) vom Monat
+04 Ardwahišt (2. Monat) des Jahres 40 (671/672 n. Chr.) und Tag
+05 Day pad Ādur (8. Tag) bis hin zum nächsten Monat
+06 Amurdād (5. Monat) und Tag Ohrmazd (1. Tag)
+07 (also) für zwei Monate und 22 Tage
+08 Weizen grīw (und) 2 kabīz der(?)
+09 Dēn-Nēw-Rōdagbaxt(?)
+10 gegeben
+Über Zeile 1 senkrecht:
+01 Zādānfarrox
+02 (hat’s) gesiegelt
+(Weber 2008: 109)</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

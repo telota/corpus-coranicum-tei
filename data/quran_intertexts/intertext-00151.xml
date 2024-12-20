@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ezechiel 32:1-8</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_151" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>151</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Wie im biblischen Text stehen in Q 75:7-9 Mond und Sonne nebeneinander, wobei allerdings in Sure 75 ausdrücklich nur von einer Verfinsterung des Mondes die Rede ist; wenn es in Vers 9 heißt, dass Sonne und Mond miteinander "vereinigt" werden, so wird damit aber wohl auch auf ein Verlöschen der Sonne angespielt. Q 81:1 erwähnt dagegen nur die Verdunkelung der Sonne, Vers 2 ist wohl auf ein Herabstürzen (und nicht Erlöschen) der Sterne zu beziehen (s. Kommentar). - Ähnliche Vorstellungen begegnen auch anderswo in den prophetischen Büchern der Hebräischen Bibel, vgl. noch Jesaja 13:10 („Die Sterne und Sternbilder am Himmel lassen ihr Licht nicht mehr leuchten. Die Sonne ist dunkel, schon wenn sie aufgeht, der Mond lässt sein Licht nicht mehr scheinen“) und Joel 3:4 („Die Sonne wird sich in Finsternis verwandeln und der Mond in Blut“). S. auch TUK_0124 (Offenbarung des Johannes 6:12-17).
+</summary>
+            <msItem>
+              <title>Ezechiel 32:1-8</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. v. Chr. oder früher</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיְהִי בִּשְׁתֵּי עֶשְׂרֵה שָׁנָה בִּשְׁנֵי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ הָיָה דְבַר־יְהוָה אֵלַי לֵאמֹר : בֶּן־אָדָם שָׂא קִינָה עַל־פַּרְעֹה מֶלֶךְ־מִצְרַיִם וְאָמַרְתָּ אֵלָיו כְּפִיר גּוֹיִם נִדְמֵיתָ וְאַתָּה כַּתַּנִּים בַּיַּמִּים וַתָּגַח בְּנַהֲרוֹתֶיךָ וַתִּדְלַח־מַיִם בְּרַגְלֶיךָ וַתִּרְפֹּס נַהֲרוֹתָם : כֹּה אָמַר אֲדֹנָי יְהוִה וּפָרַשְׂתִּי עָלֶיךָ אֶת־רִשְׁתִּי בִּקְהַל עַמִּים רַבִּים וְהֶעֱלוּךָ בְּחֶרְמִי : וּנְטַשְׁתִּיךָ בָאָרֶץ עַל־פְּנֵי הַשָּׂדֶה אֲטִילֶךָ וְהִשְׁכַּנְתִּי עָלֶיךָ כָּל־עוֹף הַשָּׁמַיִם וְהִשְׂבַּעְתִּי מִמְּךָ חַיַּת כָּל־הָאָרֶץ : וְנָתַתִּי אֶת־בְּשָׂרְךָ עַל־הֶהָרִים וּמִלֵּאתִי הַגֵּאָיוֹת רָמוּתֶךָ : וְהִשְׁקֵיתִי אֶרֶץ צָפָתְךָ מִדָּמְךָ אֶל־הֶהָרִים וַאֲפִקִים יִמָּלְאוּן מִמֶּךָּ : וְכִסֵּיתִי בְכַבּוֹתְךָ שָׁמַיִם וְהִקְדַּרְתִּי אֶת־כֹּכְבֵיהֶם  שֶׁמֶשׁ בֶּעָנָן אֲכַסֶּנּוּ וְיָרֵחַ לֹא־יָאִיר אוֹרוֹ : כָּל־מְאוֹרֵי אוֹר בַּשָּׁמַיִם אַקְדִּירֵם עָלֶיךָ וְנָתַתִּי חֹשֶׁךְ עַל־אַרְצְךָ נְאֻם אֲדֹנָי יְהוִה :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Am ersten Tag des zwölften Monats im zwölften Jahr erging das Wort des Herrn an mich: 2 Menschensohn, stimm die Totenklage an über den Pharao, den König von Ägypten, und sag zu ihm: Löwe der Völker, jetzt bist du verstummt. / Und doch warst du wie ein Krokodil in den Seen, hast die Flüsse aufgepeitscht, / das Wasser mit deinen Füßen verschmutzt / und die Fluten aufgewühlt. 3 So spricht Gott, der Herr: / Ich werfe über dich mein Netz, ein Heer von vielen Völkern, / die ziehen dich herauf in meinem Schleppnetz. 4 Dann werfe ich dich aufs Land, / schleudere dich aufs freie Feld. Alle Vögel des Himmels sollen sich auf dich setzen / und ich sättige mit dir alle Tiere der Erde. 5 Ich lege dein Fleisch auf den Bergen aus / und fülle die Täler mit deinem Aas. 6 Ich tränke das Land bis hin zu den Bergen / mit der Flut deines Blutes; / die Schluchten sollen sich damit füllen. 7 Wenn dein Leben erlischt, / will ich den Himmel bedecken / und die Sterne verdüstern.  Die Sonne decke ich zu mit Wolken, / der Mond lässt sein Licht nicht mehr leuchten.  8 Deinetwegen verdunkle ich / alle die strahlenden Lichter am Himmel und lege Finsternis über dein Land - / Spruch Gottes, des Herrn.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

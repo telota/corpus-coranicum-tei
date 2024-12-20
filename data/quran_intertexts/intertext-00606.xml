@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Sermo de timore Dei et fine (= ed. Beck, Sermones III, I, [555-570], §108 den Biesen)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_606" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>606</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Sollte tirb, Pl. ʾatrāb sich tatsächlich auf 'Ebenmaß', speziell bezüglich des Lebensalters, d.h. eines durchgehenden 'idealen' Alters beziehen, so passt wohl die obige Stelle von Ephrem (De Diversis Sermones).
+</summary>
+            <msItem>
+              <title>Sermo de timore Dei et fine (= ed. Beck, Sermones III, I, [555-570], §108 den Biesen)</title>
+              <author>Ephrem der Syrer (306–373)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">4. Jh. n. Chr.</origDate>
+              <origPlace>Nordmesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Edmund Beck (Hg.), Des heiligen Ephraem des Syrers Sermones. III, Louvain 1972 (Corpus Scriptorum Christianorum Orientalium 320, Scriptores Syri 138), S. 10.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>555 ܒܫܘܝܘܬܐ ܡܩܝܡ ܒܪܘܝܐ ܠܝ̈ܠܕܘܗܝ ܕܐܕܡ ܫܘܝܐܝܬ 557 ܕܒܫܘܝܘܬܐ ܒܪܐ ܐܢܘܢ ܒܫܘܝܘܬܐ ܡܩܝܡ ܠܗܘܢ ܠܐ ܐܝܬ ܪܒܐ ܒܩܝܡܬܐ ܐܦܠܐ ܕܒܨܝܪ ܡܢ ܚܒܪܗ561 ܕܝܚܛܐ ܬܘܒ ܐܝܟ ܓܢܒܪܐ ܒܚܕܐ ܫܘܝܘܬܐ ܩܝܡܝܢ ܒܥܒ̈ܕܐ ܘܒܕܘܒܖ̈ܐ ܐܝܬ ܗܘ ܕܪܡܝܢ ܘܡܥܠܝܢ 565 ܕܗܠܝܢ ܕܡܝܢ ܠܢܗܝܖ̈ܐ ܘܗܠܝܢ ܕܡܝܢ ܠܚܫܘܟܐ ܒܥܒ̈ܕܐ ܕܙܕܝܩܘܬܐ ܪܡܝܢ ܟܐ̈ܢܐ ܘܡܥܠܝܢ 569 ܘܒܕܘܒܖ̈ܐ ܕܒܝܫܘܬܐ ܡܬܚܬܝܢ ܒ̈ܝܫܐ ܘܒܨܝܪܝܢܦܪܝܫܝܢ ܛܒ̈ܐ ܡܢ ܒܝ̈ܫܐ ܐܝܟ ܦܘܩܕܢܐ ܕܕܝܢܐ573 ܕܗܠܝܢ ܢܣܩܘܢ ܠܫܡܝܐ ܘܗܠܝܢ ܢܚܬܘܢ ܠܬܗܘܡܐܗܠܝܢ ܢܐܙܠܘܢ ܠܡܠܟܘܬܐ ܘܗܠܝܢ ܢܦܢܘܢ ܠܓܝܗܢܐ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>555 "In Gleichheit wird der Schöpfer gleichmäßig die Kinder Adams auferwecken.557 Wie er in Gleichheit sie erschuf, wird er (auch) in Gleichheit sie erwecken.Es wird keinen geben, der körperlich größer oder kleiner wäre als der andre.561 Auch eine Fehlgeburt wird wie ein (kräftiger) Mann sein (und beide) werden in voller Gleichheit auferstehen.Nach den Werken und der Lebensführung (aber) wird es Hohe und Höchste geben.565 Die einen werden den Sternen gleichen, die andern der Finsternis.Wegen der Werke der Gerechtigkeit werden die Gerechten hohe und höchste sein;569 und wegen ihrer bösen Lebensführung werden die Bösen niedrigste und niedrige sein."Die Guten werden von den Bösen getrennt sein, entsprechend dem Befehl des Richters. 573 Jene werden zum Himmel emporsteigen, diese in die Tiefe hinabfahren.Jene werden ins Reich eingehen, diese zur Gehenna sich wenden.[Übersetzung von Tor Andrae [Verse 555-567]: Zu gleichem Alter (šawyūṯā) erweckt sie der Schöpfer, zu dem Alter Adams. Zu dem Alter, in dem der Mensch geschaffen wurde, wird er auch aufgeweckt. Keiner wird bei der Auferstehung kleiner oder größer sein als der andere. Nur durch gute Werke und Taten werden sie dort erhöht sein. Einige werden gleich dem Lichte sein, andere gleich der Finsternis. Das machen die Werke der Gerechtigkeit.]
+
+	Anm.: "Hohe und höchste", sowie "niedrigste und niedrige" ist recht frei übersetzt. rāmēn wa-mʿallīn ist idiomatisch wohl am besten mit 'die sich aufraffen und aufsteigen' zu übersetzen. Die beiden Verben bilden éinen Verbalausdruck. Keineswegs sind hier verschiedene Stufen der Erhöhung gemeint. Ähnlich bei den Bösen, die mettaḥtīn ... wa-bṣīrīn, also sich durch ihren Lebenswandel selbst nach unten bringen und folglich zu kurz kommen. Mit bṣīr wird nochmal das Bild des Großen und Kleine aufgenommen. Während es im Paradies keine körperlichen Unterschiede gibt, sind die Bösen die, im übertragenen Sinne, wirklich Kleinen bzw. Verstümmelten. [D.K.]
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

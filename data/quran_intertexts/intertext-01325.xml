@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Äthiopisches Henochbuch: Das Buch der Wächter 26:1-27:1</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1325" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1325</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Interpretation von Q 17:1 ist in der Forschung umstritten; der Vers wird sowohl als Anspielung auf eine Himmelsreise Muḥammads (Schrieke 1916, Horovitz 1919) als auch auf eine visionäre Entrückung nach Jerusalem (Paret 1967, Neuwirth 2003, Rubin 2008) gedeutet (Vgl. dazu auch Bell 1934, van Ess 1999). Falls sich Q 17:1 tatsächlich auf Jerusalem beziehen sollte, ließe sich dazu eine Parallele im hier zitierten Ausschnitt aus dem Henochbuch finden. Dort wird erzählt, wie Henoch im Rahmen seiner kosmischen Reisen von den Engeln auch nach Jerusalem geführt wird. Q 17:1 und Hen 26:1-27:1 besitzen einige Gemeinsamkeiten: So fällt auf, dass in keinem der beiden Texte Jerusalem namentlich genannt wird und nur durch die Beschreibung identifizierbar ist (In der hier angegebenen Übersetzung des Henochbuches sind die Identifikationen der beschriebenen Orte nach den Anmerkungen von Uhlig 1984: p. 562-563), in eckigen Klammern ergänzt). Anscheinend gehen beide Texte davon aus, dass Jerusalem in der Vorstellung der jeweiligen Adressaten eine so zentrale Rolle spielt, dass bestimmte Elemente der Beschreibung genügen, damit der Ort des Geschehens eindeutig als Jerusalem erkennbar ist: Im Henochbuch werden geographische Details gegeben und der Ort als Mitte der Erde bezeichnet; im Koran könnten sich al-masǧid al-ʾaqṣā und allaḏī bāraknā ḥawlahu auf Jerusalem beziehen. Zu Jerusalem als geographische und sakrale Mitte der Erde vgl. Alexander 1999, sowie TUK_1329.Gemeinsam ist beiden Texten weiterhin die Bezeichnung Jerusalems, bzw. Palästinas als gesegneter Ort (Q 17:1 allaḏī bāraknā ḥawlahu, Hen 26:1 makān buruk, Hen 27:1 mədr bərəkt). Schließlich gibt die Vision in beiden Texten Anlass, Gott zu preisen: Q 17:1 beginnt mit subḥāna und endet mit ʾinnahu huwa as-samīʿu l-baṣīru. Im Henochbuch preist Henoch am Ende der verschiedenen Stationen seiner Reise Gott, z.B. Hen 27:5 (wəʾətu gize ʾananni bārakkəwwo la-ʾəgziʾa səbḥat wa-lottu nagarku wa-zakarku za-kama yədallu la-ʿəbayu. Da pries ich den Herrn der Herrlichkeit und redete zu ihm [i.d.R. nach dem Griechischen zu "und verkündete seine Herrlichkeit" emendiert] und erinnerte mich [oft nach dem Gr. zu zamarku "lobsang ich" emendiert] wie es seiner Majestät gebührt).  Damit soll aber nicht gesagt werden, daß Q 17:1 auf dem Henochbuch beruht oder auf die dort geschilderten Ereignisse anspielt. Vielmehr geben beide Texte ähnliche visionäre Erlebnisse wieder und bezeugen die spirituelle Bedeutung Jerusalems in diesem Kontext. Wie Rubin 2008: p. 153 feststellt, reist also Muḥammad nicht nur an die Wirkungsstätte der vorhergehenden Propheten, sondern reiht sich auch durch ähnliche visionäre Erfahrungen in deren Gemeinschaft ein. Vgl auch Ezechiel 8:3 (TUK_1334).Das Äthiopische Henochbuch besteht aus mehreren zu unterschiedlichen Zeiten (3.-1. Jh. v. Chr.) entstandenen Traktaten: 1) Das Buch der Wächter; 2) Die Bilderreden; 3) Das Astronomische Buch; 4) Das Buch der Traumvisionen; 5) Die Epistel Henochs. Die Zusammenfassung zu einem Buch wurde wahrscheinlich nach der Zeitenwende von einem jüdischen Redaktor vorgenommen. Anhand von Henochs Himmelsreisen, Visionen und Mahnreden (bzw. -schriften) werden vor allem die Themen Eschatologie, Kosmologie und Weisheit behandelt. Entstanden sind die Traktate des Äthiopischen Henochbuchs vermutlich in antihellenistischen apokalyptischen Kreisen, die der Qumrangemeinschaft nahestanden. Mit anderen in Qumran gefundenen Schriften teilt das Äthiopische Henochbuch verschiedene Elemente: die Gestalt des Urweisen, deren Prototyp Henoch ist, dem die himmlischen Geheimnisse offenbart werden; die Deutung der Geschichte von Adam bis zum Ende der Welt; die Schilderung der Endzeit mit Krieg und Vernichtung, auf die das Gericht Gottes folgt, in dem der Satan und die gefallenen Engel sowie die Sünder vernichtet werden, während für die Frommen eine ewige Heilszeit anbricht.  Die Frage nach der ursprünglichen Sprache (aramäisch oder hebräisch) des Äthiopischen Henochbuches ist nicht übereinstimmend geklärt; so wurden neben mehreren aramäischen Fragmenten in Qumran auch zwei hebräische gefunden. Später wurde das Buch auch im Christentum rezipiert, wovon Fragmente in verschiedenen Sprachen (griechisch, koptisch, syrisch, lateinisch) zeugen. Vollständig erhalten ist das Henochbuch dagegen nur in der äthiopischen Übersetzung (vermutlich im 5.-7. Jh. aus dem Griechischen übersetzt); wahrscheinlich dadurch bedingt, daß es bis heute Teil des Kanons der äthiopischen Kirche ist, während es in anderen Kirchen und im Judentum heute kaum mehr eine Rolle spielt. (Vgl. dazu Uhlig 1984: p. 466-497).</summary>
+            <msItem>
+              <title>Äthiopisches Henochbuch: Das Buch der Wächter 26:1-27:1</title>
+              <author/>
+              <textLang mainLang="">Altäthiopisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 3. - 1. Jh. v. Chr. (Redaktion der einzelnen Traktate erst n. Chr.)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Michael A. Knibb, The Ethiopic Book of Enoch. A New Edition in the Light of the Aramaic Dead Sea Fragments, Bd. 1 Text and Apparatus, Oxford 1978.</bibl>
+              <bibl type="literatur">Alexander, Philip S.: &amp;#x201E;Jerusalem as the Omphalos of the World: On the History of a Geographical Concept&amp;#x201C;. In: Lee I. Levine (Hrsg.), Jerusalem. Its Sancticity and Centrality to Judaism, Christianity and Islam. New York 1999, S. 104&amp;#x2013;119.</bibl>
+              <bibl type="literatur">Bell, Richard: &amp;#x201E;Muhammad&amp;#x2BC;s visions&amp;#x201C;. In: The Muslim World 24 (1934), S. 145&amp;#x2013;154.</bibl>
+              <bibl type="literatur">Horovitz, Josef: &amp;#x201E;Muhammads Himmelfahrt&amp;#x201C;. In: Der Islam 9 (1919), S. 159&amp;#x2013;183.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: &amp;#x201E;From the Sacred Mosque to the Remote Temple: S&amp;#x16B;rat al-Isr&amp;#x101;&amp;#x2BC; between Text and Commentary&amp;#x201C;. In: With Reverence for the Word: Medieval Scriptural Exegesis in Judaism, Christianity and Islam. Oxford Univ. Press, Oxford [u.a] 2003, S. 376&amp;#x2013;407.</bibl>
+              <bibl type="literatur">Paret, Rudi: &amp;#x201E;Die Bedeutung von an-Na&amp;#x1E7;m in Sure 55,6&amp;#x201C;. In: Der Orient in der Forschung: Festschrift f&amp;#xFC;r Otto Spies. Harrassowitz, Wiesbaden 1967, S. 512&amp;#x2013;513.</bibl>
+              <bibl type="literatur">Rubin, Uri: &amp;#x201E;Mu&amp;#x1E25;ammad&amp;#x2019;s Night Journey (isr&amp;#x101;&amp;#x2BE;) to al-Masjid al-Aq&amp;#x1E63;&amp;#x101;. Aspects of the Earliest Origins of the Islamic Sanctity of Jerusalem&amp;#x201C;. In: al-Qan&amp;#x1E6D;ara 29,1 (2008),.</bibl>
+              <bibl type="literatur">Schrieke, Bertram: &amp;#x201E;Die Himmelsreise Mohammeds&amp;#x201C;. In: Der Islam 6 (1916), S. 1&amp;#x2013;30.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="">
+        <p>ወእምህየ፡ ሐርኩ፡ ማእከለ፡ ምድር፡ ወርኢኩ፡ መካነ፡ ቡሩከ፡ ጥሉለ፡ ዘበቱ፡ አዕፁቅ፡ ዘይነብር፡ ወይሠርፅ፡ እምዕፅ፡ ዘተመትረ፠ ወበህየ፡ ርኢኩ፡ ደብረ፡ ቅዱሰ፡ ወመትሕተ፡ ደብር፡ ማይ፡ ዘመንገለ፡ ጽባሑ፡ ወውህዘቱ፡ መንገለ፡ ስሜን፠ ወርኢኩ፡ መንገለ፡ ጽባሕ፡ ካልአ፡ ደብረ፡ ዘይነውኅ፡ ከመዝ፡ ወማዕከሎሙ፡ ቈላ፡ ዕሙቅ፡ ወአልቦ፡ ራኅብ፡ ወላቲኒ፡ የሐውር፡ ማይ፡ መንገለ፡ ደብር፠ ወመንገለ፡ ዓረቡ፡ ለዝ፡ ካልእ፡ ደብር፡ ወይቴሐቶ፡ ሎቱ፡ ወአልቦ፡ ኑኀ፡ ወቈላ፡ ታሕቱ፡ ማእከሎሙ፡ ወካልአት፡ ቈላት፡ ዕሙቃት፡ ወይቡሳት፡ ማንገለ፡ ጽንፈ፡ ሠለስቲሆሙ፡ ወኵሉ፡ ቈላቱ፡ ዕሙቃት፡ ወአልበን፡ ራኅብ፡ እምኰኵሕ፡ ፅኑዕ፡ ወዕፅ፡ ይተከል፡ በላዕሌሆሙ፠ ወአንከርኩ፡ በእንተ፡ ኰኵሕ፡ ወአንከርኩ፡ በእንተ፡ ቈላ፡ ወጥቀ፡ አንከርኩ፠ ውእተ፡ ጊዜ፡ እቤ፡ በእንተ፡ ምንተ፡ ዛቲ፡ ምድር፡ ቡርክት፡ ወኵለንታሃ፡ ዕፀው፡ ምልእት፡ ወዛቈላ፡ ርግምት፡ ማእከሎሙ፠</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>26:1 Von dort ging ich zu der Mitte der Erde [d.h. Jerusalem], und ich sah einen gesegneten, fruchtbaren Ort, mit treibenden Zweigen, und sie sproßten aus einem abgehauenen Baum. 2 Und dort sah ich einen heiligen Berg [d.h. der Zion], und unterhalb des Berges ein Wasser [d.h. die Giḥonquelle], östlich davon, und sein Lauf (zog sich) nach Süden hin. 3 Und ich sah in Richtung Osten einen anderen Berg [d.h. der Ölberg], höher als jener und zwischen ihnen eine Schlucht [d.h. das Tal Josaphat], tief, aber ohne Breite, und auch in ihr floß Wasser [d.h. der Kidron] längs des Berges hin. 4 Und westlich von ihm (war) ein anderer Berg, niedriger als er, ja ohne Höhe, und eine Schlucht war unterhalb von ihm zwischen ihnen, und eine andere tiefe und trockene Schlucht [d.h. das Hinnomtal] (lag) zum Ende dieser drei (Berge) hin. 5 Und alle Schluchten waren tief, aber ohne Breite, von hartem Felsen, und Bäume waren auf ihnen gepflanzt. 6 Und ich wunderte mich über das Felsgestein und wunderte mich über die Schlucht, ja ich wunderte mich sehr. 27:1 Da sprach ich: "Wofür ist dieses gesegnete Land, das ganz mit Bäumen gefüllt ist, und (wofür) diese verfluchte Schlucht dazwischen?"</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

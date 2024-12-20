@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Deuteronomium 14:22-29</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_637" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>637</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Die drei Elemente Speisung – Waise – Armer tauchen in früh- und mittelmekkanischer Zeit nicht nur in Q 107:2-3 auf ("... der die Waise wegstößt / und nicht zur Speisung des Armen anhält"), sondern auch in Q 76:8 und Q 90:14–16 (vgl. auch Q 69:34 und Q 74:44). Es handelt sich also um einen schon früh im Koran in Erscheinung tretenden Topos, der die Unterstützung von Waisen und Armen gebietet und ähnlich bereits in der Hebräischen Bibel belegt ist: Auf vergleichbar stereotype Weise werden dort etwa "Witwe und Waise" (s. Ex 22:21-22, Deut 14:29, Mal 3:5) und "arm und elend" (z. B. Jer 22:16, Ez 18:12, 22:29) kombiniert.
+</summary>
+            <msItem>
+              <title>Deuteronomium 14:22-29</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 4. Jh. v. Chr. (Endredaktion des Pentateuchs)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	עַשֵּׂר תְּעַשֵּׂר אֵת כָּל־תְּבוּאַת זַרְעֶךָ הַיֹּצֵא הַשָּׂדֶה שָׁנָה שָׁנָה : וְאָכַלְתָּ לִפְנֵי יְהוָה אֱלֹהֶיךָ בַּמָּקוֹם אֲשֶׁר־יִבְחַר לְשַׁכֵּן שְׁמוֹ שָׁם מַעְשַׂר דְּגָנְךָ תִּירֹשְׁךָ וְיִצְהָרֶךָ וּבְכֹרֹת בְּקָרְךָ וְצֹאנֶךָ לְמַעַן תִּלְמַד לְיִרְאָה אֶת־יְהוָה אֱלֹהֶיךָ כָּל־הַיָּמִים : וְכִי־יִרְבֶּה מִמְּךָ הַדֶּרֶךְ כִּי לֹא תוּכַל שְׂאֵתוֹ כִּי־יִרְחַק מִמְּךָ הַמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה אֱלֹהֶיךָ לָשׂוּם שְׁמוֹ שָׁם כִּי יְבָרֶכְךָ יְהוָה אֱלֹהֶיךָ : וְנָתַתָּה בַּכָּסֶף וְצַרְתָּ הַכֶּסֶף בְּיָדְךָ וְהָלַכְתָּ אֶל־הַמָּקוֹם אֲשֶׁר יִבְחַר יְהוָה אֱלֹהֶיךָ בּוֹ : וְנָתַתָּה הַכֶּסֶף בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשְׁךָ בַּבָּקָר וּבַצֹּאן וּבַיַּיִן וּבַשֵּׁכָר וּבְכֹל אֲשֶׁר תִּשְׁאָלְךָ נַפְשֶׁךָ וְאָכַלְתָּ שָּׁם לִפְנֵי יְהוָה אֱלֹהֶיךָ וְשָׂמַחְתָּ אַתָּה וּבֵיתֶךָ : וְהַלֵּוִי אֲשֶׁר־בִּשְׁעָרֶיךָ לֹא תַעַזְבֶנּוּ כִּי אֵין לוֹ חֵלֶק וְנַחֲלָה עִמָּךְ : מִקְצֵה שָׁלֹשׁ שָׁנִים תּוֹצִיא אֶת־כָּל־מַעְשַׂר תְּבוּאָתְךָ בַּשָּׁנָה הַהִוא וְהִנַּחְתָּ בִּשְׁעָרֶיךָ : וּבָא הַלֵּוִי כִּי אֵין־לוֹ חֵלֶק וְנַחֲלָה עִמָּךְ וְהַגֵּר  וְהַיָּתוֹם וְהָאַלְמָנָה אֲשֶׁר בִּשְׁעָרֶיךָ וְאָכְלוּ וְשָׂבֵעוּ  לְמַעַן יְבָרֶכְךָ יְהוָה אֱלֹהֶיךָ בְּכָל־מַעֲשֵׂה יָדְךָ אֲשֶׁר תַּעֲשֶׂה :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	22 Du sollst jedes Jahr den Zehnten von der gesamten Ernte geben, die dein Acker erbringt aus dem, was du angebaut hast. 23 Vor dem Herrn, deinem Gott, sollst du an der Stätte, die er auswählt, indem er dort seinen Namen wohnen lässt, deinen Zehnten an Korn, Wein und Öl und die Erstlinge deiner Rinder, Schafe und Ziegen verzehren, damit du lernst, den Herrn, deinen Gott, zu fürchten, solange du lebst. 24 Wenn aber der Weg dorthin deine Kräfte übersteigt, weil die Stätte, die der Herr auswählt, indem er dort seinen Namen anbringt, so weit entfernt liegt und der Herr, dein Gott, dich so gesegnet hat, dass du den Zehnten nicht dorthin tragen kannst, 25 dann sollst du alles für Silber verkaufen, das Silber als deinen Besitz zusammenbinden, zu der Stätte ziehen, die der Herr, dein Gott, auswählt, 26 dort für das Silber alles kaufen, worauf du Appetit hast - Rinder, Schafe, Ziegen, Wein und Bier, alles, wonach es deinen Gaumen verlangt -, und dann sollst du vor dem Herrn, deinem Gott, Mahl halten und fröhlich sein, du und deine Familie. 27 Auch sollst du die Leviten, die in deinen Stadtbereichen Wohnrecht haben, nicht im Stich lassen, denn sie haben nicht wie du Landanteil und Erbbesitz. 28 In jedem dritten Jahr sollst du den ganzen Zehnten deiner Jahresernte in deinen Stadtbereichen abliefern und einlagern 29 und die Leviten, die ja nicht wie du Landanteil und Erbbesitz haben, die Fremden, die Waisen und die Witwen, die in deinen Stadtbereichen wohnen, können kommen, essen und satt werden, damit der Herr, dein Gott, dich stets segnet bei der Arbeit, die deine Hände tun.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

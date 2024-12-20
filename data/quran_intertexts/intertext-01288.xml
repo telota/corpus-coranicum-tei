@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paikuli-Inschrift</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1288" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1288</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Im zoroastrischen Schrifttum und in den Inskriptionen der Sasaniden ist die Invokationsformel „Im Namen der Götter“ (pad nām ī yazdān) vielfach belegt. Philippe Gignoux weist darauf hin, dass die Basmala hier ihren Ursprung haben könnte (vgl. Gignoux 1979; Gignoux and Algar 1989, so auch Blochet 1898: 40). Bereits William St. Clair Tisdall hatte diese Möglichkeit am Beispiel des Groß-Bundahišn diskutiert, dessen Abfassung jedoch in die Zeit nach der arabischen Eroberung fällt (vgl. St.Clair Tisdall 1905: 255). Shaul Shaked dagegen rekurriert auf Ignaz Goldziher und sieht die Basmala in der jüdisch-christlichen Tradition verwurzelt, wobei er konzediert, dass die Invokationsformel zur gleichen Zeit auch im iranischen Kulturraum anzutreffen sei (Shaked 1993: 152–154).Zweimal findet sich die Invokationsformel in der Paikuli-Inskription, die aus der Regierungszeit des Narsē stammt (reg. 293–302 n. Chr.). Daneben steht die gleiche Formel auch in der Mašgīn-Šahr-Inschrift (TUK_1289) geschrieben.
+Vorangestellt findet sie sich auch den awestischen Yašts, wo die Abfassung der Formel in Pazand jedoch auf eine spätere Adjunktion schließen lässt. In der Funktion einer Doxologie kommt die Formel, zum Teil in leicht abgewandelter Form, im mittelpersischen Schrifttum vor; so zu Beginn des Ardā Wīrāz Nāmag, dessen Einleitung jedoch nach den islamischen Eroberungen verfasst worden ist. In struktureller Ähnlichkeit zur Basmala ist die Formel weiteren mittelpersischen Texten als Proömium vorangestellt (vgl. TUK_0418); eine solche Invokationsformel findet sich, um eine Lobpreisung des Gottes Ohrmazd erweitert, auch im mittelpersischen Dādestān ī Mēnōg ī Xrad.</summary>
+            <msItem>
+              <title>Paikuli-Inschrift</title>
+              <author/>
+              <textLang mainLang="pal">Mittelpersisch (Pahlavī)</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Regierungszeit des Narsē (293-302 C.E.)</origDate>
+              <origPlace>Paikuli</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Skjaervø 1983</bibl>
+              <bibl type="literatur">Skjaerv&amp;#xF8;, Prods Oktor: The Sassanian Inscription of Paikuli (H. Humbach, Hrsg.). Reichert, Wiesbaden 1983.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="pal">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p/>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>(But) because-(ever) since(?) the gods gave glory and rulership to the family of Sāsān [and (ever since) His Majesty Ardaxšer?] King [of Kings], who was your grandfather, in the name of the gods had made the whole realm... (Skjaervø 1983: 47)</p>
+      </div>
+    </body>
+  </text>
+</TEI>

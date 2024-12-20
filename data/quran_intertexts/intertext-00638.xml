@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Matthäus 7:15-23</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_638" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>638</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der Ausdruck yauma&amp;#702;i&amp;#7695;in entspricht dem neutestamentlichen &amp;#7952;&amp;nu; &amp;#7952;&amp;kappa;&amp;epsilon;&amp;#943;&amp;nu;&amp;#8131; &amp;tau;&amp;#8135; &amp;#7969;&amp;mu;&amp;#941;&amp;rho;&amp;#8115; / syr. b-haw yawm&amp;#257; (vgl. Matth&amp;auml;us 7:22 u. a.), welches allerdings &amp;ndash; anders als im Koran &amp;ndash; nicht immer eine eschatologische Referenz haben muss.
+	Lautlich am n&amp;auml;chsten steht j&amp;uuml;disch und christlich pal&amp;auml;stinisch aram&amp;auml;isch y&amp;#333;m&amp;#257; d&amp;#275;n &amp;quot;dieser Tag, heute&amp;quot;. Die deiktische Referenz ist eine andere. Die Verschiebung vom psalmischen und tanakhitischen &amp;quot;heute hat Gott errettet&amp;quot; und &amp;auml;hnlichem zum eschatologischen Errettungsmotiv des Korans ist aber paradigmatisch, obgleich sich auch im AT fernweisende Referenzen finden. Einem &amp;quot;hier und jetzt&amp;quot; steht ein &amp;quot;dort und dann&amp;quot; gegen&amp;uuml;ber. Insofern kann m&amp;ouml;glicherweise auch die lautliche &amp;Auml;hnlichkeit mit typischem semantischen Unterschied in diesem Licht gesehen werden.
+</summary>
+            <msItem>
+              <title>Matthäus 7:15-23</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 80-90 n.Chr. </origDate>
+              <origPlace>Syrien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, M&amp;uuml;nster 1993.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	15 &amp;Pi;&amp;rho;&amp;omicron;&amp;sigma;&amp;#941;&amp;chi;&amp;epsilon;&amp;tau;&amp;epsilon; &amp;#7936;&amp;pi;&amp;#8056; &amp;tau;&amp;#8182;&amp;nu; &amp;psi;&amp;epsilon;&amp;upsilon;&amp;delta;&amp;omicron;&amp;pi;&amp;rho;&amp;omicron;&amp;phi;&amp;eta;&amp;tau;&amp;#8182;&amp;nu;, &amp;omicron;&amp;#7989;&amp;tau;&amp;iota;&amp;nu;&amp;epsilon;&amp;sigmaf; &amp;#7956;&amp;rho;&amp;chi;&amp;omicron;&amp;nu;&amp;tau;&amp;alpha;&amp;iota; &amp;pi;&amp;rho;&amp;#8056;&amp;sigmaf; &amp;#8017;&amp;mu;&amp;#8118;&amp;sigmaf; &amp;#7952;&amp;nu; &amp;#7952;&amp;nu;&amp;delta;&amp;#973;&amp;mu;&amp;alpha;&amp;sigma;&amp;iota;&amp;nu; &amp;pi;&amp;rho;&amp;omicron;&amp;beta;&amp;#940;&amp;tau;&amp;omega;&amp;nu;, &amp;#7956;&amp;sigma;&amp;omega;&amp;theta;&amp;epsilon;&amp;nu; &amp;delta;&amp;#941; &amp;epsilon;&amp;#7984;&amp;sigma;&amp;iota;&amp;nu; &amp;lambda;&amp;#973;&amp;kappa;&amp;omicron;&amp;iota; &amp;#7941;&amp;rho;&amp;pi;&amp;alpha;&amp;gamma;&amp;epsilon;&amp;sigmaf;. 16 &amp;#7936;&amp;pi;&amp;#8056; &amp;tau;&amp;#8182;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;#8182;&amp;nu; &amp;alpha;&amp;#8016;&amp;tau;&amp;#8182;&amp;nu; &amp;#7952;&amp;pi;&amp;iota;&amp;gamma;&amp;nu;&amp;#974;&amp;sigma;&amp;epsilon;&amp;sigma;&amp;theta;&amp;epsilon; &amp;alpha;&amp;#8016;&amp;tau;&amp;omicron;&amp;#973;&amp;sigmaf;. &amp;mu;&amp;#942;&amp;tau;&amp;iota; &amp;sigma;&amp;upsilon;&amp;lambda;&amp;lambda;&amp;#941;&amp;gamma;&amp;omicron;&amp;upsilon;&amp;sigma;&amp;iota;&amp;nu; &amp;#7936;&amp;pi;&amp;#8056; &amp;#7936;&amp;kappa;&amp;alpha;&amp;nu;&amp;theta;&amp;#8182;&amp;nu; &amp;sigma;&amp;tau;&amp;alpha;&amp;phi;&amp;upsilon;&amp;lambda;&amp;#8048;&amp;sigmaf; &amp;#7970; &amp;#7936;&amp;pi;&amp;#8056; &amp;tau;&amp;rho;&amp;iota;&amp;beta;&amp;#972;&amp;lambda;&amp;omega;&amp;nu; &amp;sigma;&amp;#8166;&amp;kappa;&amp;alpha;; 17 &amp;omicron;&amp;#8021;&amp;tau;&amp;omega;&amp;sigmaf; &amp;pi;&amp;#8118;&amp;nu; &amp;delta;&amp;#941;&amp;nu;&amp;delta;&amp;rho;&amp;omicron;&amp;nu; &amp;#7936;&amp;gamma;&amp;alpha;&amp;theta;&amp;#8056;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;kappa;&amp;alpha;&amp;lambda;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;iota;&amp;epsilon;&amp;#8150;, &amp;tau;&amp;#8056; &amp;delta;&amp;#8050; &amp;sigma;&amp;alpha;&amp;pi;&amp;rho;&amp;#8056;&amp;nu; &amp;delta;&amp;#941;&amp;nu;&amp;delta;&amp;rho;&amp;omicron;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;nu;&amp;eta;&amp;rho;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;iota;&amp;epsilon;&amp;#8150;. 18 &amp;omicron;&amp;#8016; &amp;delta;&amp;#973;&amp;nu;&amp;alpha;&amp;tau;&amp;alpha;&amp;iota; &amp;delta;&amp;#941;&amp;nu;&amp;delta;&amp;rho;&amp;omicron;&amp;nu; &amp;#7936;&amp;gamma;&amp;alpha;&amp;theta;&amp;#8056;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;nu;&amp;eta;&amp;rho;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;iota;&amp;epsilon;&amp;#8150;&amp;nu; &amp;omicron;&amp;#8016;&amp;delta;&amp;#8050; &amp;delta;&amp;#941;&amp;nu;&amp;delta;&amp;rho;&amp;omicron;&amp;nu; &amp;sigma;&amp;alpha;&amp;pi;&amp;rho;&amp;#8056;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;kappa;&amp;alpha;&amp;lambda;&amp;omicron;&amp;#8058;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;iota;&amp;epsilon;&amp;#8150;&amp;nu;. 19 &amp;pi;&amp;#8118;&amp;nu; &amp;delta;&amp;#941;&amp;nu;&amp;delta;&amp;rho;&amp;omicron;&amp;nu; &amp;mu;&amp;#8052; &amp;pi;&amp;omicron;&amp;iota;&amp;omicron;&amp;#8166;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;#8056;&amp;nu; &amp;kappa;&amp;alpha;&amp;lambda;&amp;#8056;&amp;nu; &amp;#7952;&amp;kappa;&amp;kappa;&amp;#972;&amp;pi;&amp;tau;&amp;epsilon;&amp;tau;&amp;alpha;&amp;iota; &amp;kappa;&amp;alpha;&amp;#8054; &amp;epsilon;&amp;#7984;&amp;sigmaf; &amp;pi;&amp;#8166;&amp;rho; &amp;beta;&amp;#940;&amp;lambda;&amp;lambda;&amp;epsilon;&amp;tau;&amp;alpha;&amp;iota;. 20 &amp;#7940;&amp;rho;&amp;alpha; &amp;gamma;&amp;epsilon; &amp;#7936;&amp;pi;&amp;#8056; &amp;tau;&amp;#8182;&amp;nu; &amp;kappa;&amp;alpha;&amp;rho;&amp;pi;&amp;#8182;&amp;nu; &amp;alpha;&amp;#8016;&amp;tau;&amp;#8182;&amp;nu; &amp;#7952;&amp;pi;&amp;iota;&amp;gamma;&amp;nu;&amp;#974;&amp;sigma;&amp;epsilon;&amp;sigma;&amp;theta;&amp;epsilon; &amp;alpha;&amp;#8016;&amp;tau;&amp;omicron;&amp;#973;&amp;sigmaf;. 21 &amp;Omicron;&amp;#8016; &amp;pi;&amp;#8118;&amp;sigmaf; &amp;#8001; &amp;lambda;&amp;#941;&amp;gamma;&amp;omega;&amp;nu; &amp;mu;&amp;omicron;&amp;iota;&amp;bull; &amp;kappa;&amp;#973;&amp;rho;&amp;iota;&amp;epsilon; &amp;kappa;&amp;#973;&amp;rho;&amp;iota;&amp;epsilon;, &amp;epsilon;&amp;#7984;&amp;sigma;&amp;epsilon;&amp;lambda;&amp;epsilon;&amp;#973;&amp;sigma;&amp;epsilon;&amp;tau;&amp;alpha;&amp;iota; &amp;epsilon;&amp;#7984;&amp;sigmaf; &amp;tau;&amp;#8052;&amp;nu; &amp;beta;&amp;alpha;&amp;sigma;&amp;iota;&amp;lambda;&amp;epsilon;&amp;#943;&amp;alpha;&amp;nu; &amp;tau;&amp;#8182;&amp;nu; &amp;omicron;&amp;#8016;&amp;rho;&amp;alpha;&amp;nu;&amp;#8182;&amp;nu;, &amp;#7936;&amp;lambda;&amp;lambda;&amp;#8125; &amp;#8001; &amp;pi;&amp;omicron;&amp;iota;&amp;#8182;&amp;nu; &amp;tau;&amp;#8056; &amp;theta;&amp;#941;&amp;lambda;&amp;eta;&amp;mu;&amp;alpha; &amp;tau;&amp;omicron;&amp;#8166; &amp;pi;&amp;alpha;&amp;tau;&amp;rho;&amp;#972;&amp;sigmaf; &amp;mu;&amp;omicron;&amp;upsilon; &amp;tau;&amp;omicron;&amp;#8166; &amp;#7952;&amp;nu; &amp;tau;&amp;omicron;&amp;#8150;&amp;sigmaf; &amp;omicron;&amp;#8016;&amp;rho;&amp;alpha;&amp;nu;&amp;omicron;&amp;#8150;&amp;sigmaf;. 22 &amp;pi;&amp;omicron;&amp;lambda;&amp;lambda;&amp;omicron;&amp;#8054; &amp;#7952;&amp;rho;&amp;omicron;&amp;#8166;&amp;sigma;&amp;#943;&amp;nu; &amp;mu;&amp;omicron;&amp;iota; &amp;#7952;&amp;nu; &amp;#7952;&amp;kappa;&amp;epsilon;&amp;#943;&amp;nu;&amp;#8131; &amp;tau;&amp;#8135; &amp;#7969;&amp;mu;&amp;#941;&amp;rho;&amp;#8115;&amp;bull; &amp;kappa;&amp;#973;&amp;rho;&amp;iota;&amp;epsilon; &amp;kappa;&amp;#973;&amp;rho;&amp;iota;&amp;epsilon;, &amp;omicron;&amp;#8016; &amp;tau;&amp;#8183; &amp;sigma;&amp;#8183; &amp;#8000;&amp;nu;&amp;#972;&amp;mu;&amp;alpha;&amp;tau;&amp;iota; &amp;#7952;&amp;pi;&amp;rho;&amp;omicron;&amp;phi;&amp;eta;&amp;tau;&amp;epsilon;&amp;#973;&amp;sigma;&amp;alpha;&amp;mu;&amp;epsilon;&amp;nu;, &amp;kappa;&amp;alpha;&amp;#8054; &amp;tau;&amp;#8183; &amp;sigma;&amp;#8183; &amp;#8000;&amp;nu;&amp;#972;&amp;mu;&amp;alpha;&amp;tau;&amp;iota; &amp;delta;&amp;alpha;&amp;iota;&amp;mu;&amp;#972;&amp;nu;&amp;iota;&amp;alpha; &amp;#7952;&amp;xi;&amp;epsilon;&amp;beta;&amp;#940;&amp;lambda;&amp;omicron;&amp;mu;&amp;epsilon;&amp;nu;, &amp;kappa;&amp;alpha;&amp;#8054; &amp;tau;&amp;#8183; &amp;sigma;&amp;#8183; &amp;#8000;&amp;nu;&amp;#972;&amp;mu;&amp;alpha;&amp;tau;&amp;iota; &amp;delta;&amp;upsilon;&amp;nu;&amp;#940;&amp;mu;&amp;epsilon;&amp;iota;&amp;sigmaf; &amp;pi;&amp;omicron;&amp;lambda;&amp;lambda;&amp;#8048;&amp;sigmaf; &amp;#7952;&amp;pi;&amp;omicron;&amp;iota;&amp;#942;&amp;sigma;&amp;alpha;&amp;mu;&amp;epsilon;&amp;nu;; 23 &amp;kappa;&amp;alpha;&amp;#8054; &amp;tau;&amp;#972;&amp;tau;&amp;epsilon; &amp;#8001;&amp;mu;&amp;omicron;&amp;lambda;&amp;omicron;&amp;gamma;&amp;#942;&amp;sigma;&amp;omega; &amp;alpha;&amp;#8016;&amp;tau;&amp;omicron;&amp;#8150;&amp;sigmaf; &amp;#8005;&amp;tau;&amp;iota; &amp;omicron;&amp;#8016;&amp;delta;&amp;#941;&amp;pi;&amp;omicron;&amp;tau;&amp;epsilon; &amp;#7956;&amp;gamma;&amp;nu;&amp;omega;&amp;nu; &amp;#8017;&amp;mu;&amp;#8118;&amp;sigmaf;&amp;bull; &amp;#7936;&amp;pi;&amp;omicron;&amp;chi;&amp;omega;&amp;rho;&amp;epsilon;&amp;#8150;&amp;tau;&amp;epsilon; &amp;#7936;&amp;pi;&amp;#8125; &amp;#7952;&amp;mu;&amp;omicron;&amp;#8166; &amp;omicron;&amp;#7985; &amp;#7952;&amp;rho;&amp;gamma;&amp;alpha;&amp;zeta;&amp;#972;&amp;mu;&amp;epsilon;&amp;nu;&amp;omicron;&amp;iota; &amp;tau;&amp;#8052;&amp;nu; &amp;#7936;&amp;nu;&amp;omicron;&amp;mu;&amp;#943;&amp;alpha;&amp;nu;.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	15 H&amp;uuml;tet euch vor den falschen Propheten; sie kommen zu euch wie (harmlose) Schafe, in Wirklichkeit aber sind sie rei&amp;szlig;ende W&amp;ouml;lfe. 16 An ihren Fr&amp;uuml;chten werdet ihr sie erkennen. Erntet man etwa von Dornen Trauben oder von Disteln Feigen? 17 Jeder gute Baum bringt gute Fr&amp;uuml;chte hervor, ein schlechter Baum aber schlechte. 18 Ein guter Baum kann keine schlechten Fr&amp;uuml;chte hervorbringen und ein schlechter Baum keine guten. 19 Jeder Baum, der keine guten Fr&amp;uuml;chte hervorbringt, wird umgehauen und ins Feuer geworfen. 20 An ihren Fr&amp;uuml;chten also werdet ihr sie erkennen. 21 Nicht jeder, der zu mir sagt: Herr! Herr!, wird in das Himmelreich kommen, sondern nur, wer den Willen meines Vaters im Himmel erf&amp;uuml;llt. 22 Viele werden an jenem Tag zu mir sagen: Herr, Herr, sind wir nicht in deinem Namen als Propheten aufgetreten und haben wir nicht mit deinem Namen D&amp;auml;monen ausgetrieben und mit deinem Namen viele Wunder vollbracht? 23 Dann werde ich ihnen antworten: Ich kenne euch nicht. Weg von mir, ihr &amp;Uuml;bertreter des Gesetzes!
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2 Samuel  12:1-13</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_313" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>313</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Der hier zitierte Text aus 2 Samuel enthält ein vom Propheten Natan erzähltes Gleichnis, in dem dieser David den Ehebruch mit der Frau seines Feldherrn vorhält. In Q 38:21-24 wird der Inhalt dieses Gleichnisses als reale Begebenheit geschildert, bei der sich zwei Männer in einem ihre Schafe betreffenden Streitfall an David als Richter wenden. Laut Q 38:24 erkennt David den Rechtsfall als göttliche Prüfung, wirft sich betend nieder und bittet Gott um Verzeihung. Diese Reaktion Davids setzt wahrscheinlich seine Reue über den Ehebruch mit Batseba und den Tod Urijas voraus und könnte so verstanden werden, dass David "das Ereignis als inszeniertes Gleichnis versteht" (Neuwirth 2017: p. 551). Auch wenn Davids Ehebruch selbst im Koran nicht erwähnt wird, ist nicht auszuschließen, dass die Geschichte zumindest einem Teil der Hörer bekannt war. Heinrich Speyer erklärt die koranische Rede von "99 Schafen" (Q 38:23) durch eine Interferenz mit Matthäus 18:12 ("Wenn jemand hundert Schafe hat und eines von ihnen sich verirrt, lässt er dann nicht die neunundneunzig auf den Bergen zurück und sucht das verirrte?") (Speyer 1931: p. 378-379).
+</summary>
+            <msItem>
+              <title>2 Samuel  12:1-13</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 5.-6. Jh. (Redaktion des deuteronomistischen Geschichtswerks)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.
+</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: Der Koran. Band 2/1: Fr&amp;#xFC;hmittelmekkanische Suren: das neue Gottesvolk: &amp;#x201E;Biblisierung&amp;#x201C; des altarabischen Weltbildes. Verlag der Weltreligionen, Berlin 2017.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>
+	וַיִּשְׁלַח יְהוָה אֶת־נָתָן אֶל־דָּוִד וַיָּבֹא אֵלָיו וַיֹּאמֶר לוֹ שְׁנֵי אֲנָשִׁים הָיוּ בְּעִיר אֶחָת אֶחָד עָשִׁיר וְאֶחָד רָאשׁ : לְעָשִׁיר הָיָה צֹאן וּבָקָר הַרְבֵּה מְאֹד : וְלָרָשׁ אֵין־כֹּל כִּי אִם־כִּבְשָׂה אַחַת קְטַנָּה אֲשֶׁר קָנָה וַיְחַיֶּהָ וַתִּגְדַּל עִמּוֹ וְעִם־בָּנָיו יַחְדָּו מִפִּתּוֹ תֹאכַל וּמִכֹּסוֹ תִשְׁתֶּה וּבְחֵיקוֹ תִשְׁכָּב וַתְּהִי־לוֹ כְּבַת : וַיָּבֹא הֵלֶךְ לְאִישׁ הֶעָשִׁיר וַיַּחְמֹל לָקַחַת מִצֹּאנוֹ וּמִבְּקָרוֹ לַעֲשׂוֹת לָאֹרֵחַ הַבָּא־לוֹ וַיִּקַּח אֶת־כִּבְשַׂת הָאִישׁ הָרָאשׁ וַיַּעֲשֶׂהָ לָאִישׁ הַבָּא אֵלָיו : וַיִּחַר־אַף דָּוִד בָּאִישׁ מְאֹד וַיֹּאמֶר אֶל־נָתָן חַי־יְהוָה כִּי בֶן־מָוֶת הָאִישׁ הָעֹשֶׂה זֹאת : וְאֶת־הַכִּבְשָׂה יְשַׁלֵּם אַרְבַּעְתָּיִם עֵקֶב אֲשֶׁר עָשָׂה אֶת־הַדָּבָר הַזֶּה וְעַל אֲשֶׁר לֹא־חָמָל : וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאוּל : וָאֶתְּנָה לְךָ אֶת־בֵּית אֲדֹנֶיךָ וְאֶת־נְשֵׁי אֲדֹנֶיךָ בְּחֵיקֶךָ וָאֶתְּנָה לְךָ אֶת־בֵּית יִשְׂרָאֵל וִיהוּדָה וְאִם־מְעָט וְאֹסִפָה לְּךָ כָּהֵנָּה וְכָהֵנָּה : מַדּוּעַ בָּזִיתָ אֶת־דְּבַר יְהוָה לַעֲשׂוֹת הָרַע בְּעֵינַו אֵת אוּרִיָּה הַחִתִּי הִכִּיתָ בַחֶרֶב וְאֶת־אִשְׁתּוֹ לָקַחְתָּ לְּךָ לְאִשָּׁה וְאֹתוֹ הָרַגְתָּ בְּחֶרֶב בְּנֵי עַמּוֹן : וְעַתָּה לֹא־תָסוּר חֶרֶב מִבֵּיתְךָ עַד־עוֹלָם עֵקֶב כִּי בְזִתָנִי וַתִּקַּח אֶת־אֵשֶׁת אוּרִיָּה הַחִתִּי לִהְיוֹת לְךָ לְאִשָּׁה : כֹּה אָמַר יְהוָה הִנְנִי מֵקִים עָלֶיךָ רָעָה מִבֵּיתֶךָ וְלָקַחְתִּי אֶת־נָשֶׁיךָ לְעֵינֶיךָ וְנָתַתִּי לְרֵעֶיךָ וְשָׁכַב עִם־נָשֶׁיךָ לְעֵינֵי הַשֶּׁמֶשׁ הַזֹּאת : כִּי אַתָּה עָשִׂיתָ בַסָּתֶר וַאֲנִי אֶעֱשֶׂה אֶת־הַדָּבָר הַזֶּה נֶגֶד כָּל־יִשְׂרָאֵל וְנֶגֶד הַשָּׁמֶשׁ : וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמוּת :
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Darum schickte der Herr den Natan zu David; dieser ging zu David und sagte zu ihm: In einer Stadt lebten einst zwei Männer; der eine war reich, der andere arm. 2 Der Reiche besaß sehr viele Schafe und Rinder, 3 der Arme aber besaß nichts außer einem einzigen kleinen Lamm, das er gekauft hatte. Er zog es auf und es wurde bei ihm zusammen mit seinen Kindern groß. Es aß von seinem Stück Brot und es trank aus seinem Becher, in seinem Schoß lag es und war für ihn wie eine Tochter. 4 Da kam ein Besucher zu dem reichen Mann und er brachte es nicht über sich, eines von seinen Schafen oder Rindern zu nehmen, um es für den zuzubereiten, der zu ihm gekommen war. Darum nahm er dem Armen das Lamm weg und bereitete es für den Mann zu, der zu ihm gekommen war. 5 Da geriet David in heftigen Zorn über den Mann und sagte zu Natan: So wahr der Herr lebt: Der Mann, der das getan hat, verdient den Tod. 6 Das Lamm soll er vierfach ersetzen, weil er das getan und kein Mitleid gehabt hat. 7 Da sagte Natan zu David: Du selbst bist der Mann. So spricht der Herr, der Gott Israels: Ich habe dich zum König von Israel gesalbt und ich habe dich aus der Hand Sauls gerettet. 8 Ich habe dir das Haus deines Herrn und die Frauen deines Herrn in den Schoß gegeben und ich habe dir das Haus Israel und Juda gegeben, und wenn das zu wenig ist, gebe ich dir noch manches andere dazu. 9 Aber warum hast du das Wort des Herrn verachtet und etwas getan, was ihm missfällt? Du hast den Hetiter Urija mit dem Schwert erschlagen und hast dir seine Frau zur Frau genommen; durch das Schwert der Ammoniter hast du ihn umgebracht. 10 Darum soll jetzt das Schwert auf ewig nicht mehr von deinem Haus weichen; denn du hast mich verachtet und dir die Frau des Hetiters genommen, damit sie deine Frau werde. 11 So spricht der Herr: Ich werde dafür sorgen, dass sich aus deinem eigenen Haus das Unheil gegen dich erhebt, und ich werde dir vor deinen Augen deine Frauen wegnehmen und sie einem andern geben; er wird am hellen Tag bei deinen Frauen liegen. 12 Ja, du hast es heimlich getan, ich aber werde es vor ganz Israel und am hellen Tag tun. 13 Darauf sagte David zu Natan: Ich habe gegen den Herrn gesündigt. Natan antwortete David: Der Herr hat dir deine Sünde vergeben; du wirst nicht sterben.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

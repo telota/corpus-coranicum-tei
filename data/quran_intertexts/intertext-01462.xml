@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Iside et Osiride 47</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1462" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1462</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Der Koran evoziert an zahlreichen Stellen der früh- und mittelmekkansichen Suren das Bild zerberstender und aus ihrer Verankerung gerissener Berge. Die Einebnung der Erde erscheint dabei emblematisch für das Ende der Welt und den Beginn des göttlichen Gerichts (siehe dazu Leemhuis 2001).
+
+Neben jüdischen und christlichen Belegen (Jes 2:14, 40:4; Ez 38:20; Hiob 9:5; Hab 3:6; Offb 16:20 [TUK_0125, dazu Brady 1978], Hen 1:3–9 [TUK_0784] u. Jakob von Sarug [TUK_0533]) ist eine ganz ähnliche Vorstellung auch in der zoroastrischen Tradition, im Groß-Bundahišn (34:33), nachweisbar: Der Groß-Bundahišn ist ein recht junges Werk, das in die Zeit 
+nach der islamischen Eroberung Irans datiert wird, wenn der Text auch 
+eine Fülle deutlich älteren Materials enthält (siehe zum Groß-Bundahišn MacKenzie 1989; Lincoln 1983). Allerdings bietet die griechische und lateinische Literatur zahlreiche Berichte über zoroastrische Glaubensvorstellungen und Praktiken, die Spuren religiöser Ideen enthalten, welche in der zoroastrischen Literatur in dieser Form nicht überliefert sind bzw. auf eine spätere Zeit datieren (siehe dazu de Jong 1997). Ein solcher Fall ist das 47. Kapitel von Plutarchs Schrift De Iside et Osiride, das nach Albert de Jong „the most important of all Greek passages on the religion of the Persians as far as Zoroastrian theology and mythology is concerned“ darstellt (de Jong 1997: 204). De Jong betont, dass sich die zugrundeliegenden Quellen nicht identifizieren lassen, der Detailreichtum jedoch darauf hindeute, dass der Text „highly specialised priestly traditions“ (ibid.) reflektiere. Insbesondere die Rede von der Einebnung der Erde erinnere an die Tradition im Groß-Bundahišn (de Jong 1997: 199).
+
+Im Unterschied zum Koran, der die Einebnung der Welt in die eschatologische Erzählung von herausgerissenen und zerschmetterten Bergen einbettet, erscheint die Planierung der Welt in der zoroastrischen Tradition letztlich positiv konnotiert. In der hier zitierten Stelle berichtet Plutarch davon, dass die Erde am Ende der Zeiten eingeebnet werde, wobei die Menschen sodann in einem Zustand der Glückseligkeit lebten. Verbunden ist diese Vorstellung mit der endgültigen Niederlage Ahrimans, der die ideale adynamische Ur-Welt, wie sie von Ohrmazd in rein geistiger (mēnōg) Form einst geschaffen wurde, angegriffen und beendet hatte. Es folgt gemäß dem ‚kanonischen‘ Mythos, wie er im Groß-Bundahišn Ausdruck findet, nun das erste Zeitalter, das durch eine materielle (gētīg) Schöpfung (Bundahišn) der Dinge und durch den Wandel zu einer sich vergrößernden dynamischen Welt charakterisiert ist. Im zweiten Weltzeitalter der Vermischung (Gumēzišn) stehen sich die guten und schlechten Schöpfungen antagonistisch gegenüber. Am Ende des dritten Weltzeitalters (Wizārišn) erscheint Zarathustras dritter, einer Jungfrau geborener Sohn, Šōšāns. Der Text verheißt, dass die Sonne 30 Tage im Zenit steht, die Pflanzen grünen, niemand mehr stirbt und Glückseligkeit herrscht. In der 
+Beschreibung folgt die Ausführung über die Auferstehung der Toten (Ristāxēz) sowie über die Aushebung einer Armee durch Šōšāns, die die Dämonen besiegen wird. Ohrmazd und die anderen himmlischen Wesenheiten erscheinen, so der Text, auf der Erde, und die letzte Schlacht zwischen Gut und Böse beginnt. Im Kampf steht dabei jedem guten Prinzip ein böses Prinzip gegenüber. Nach der Niederlage des Bösen überkommt ein reinigender Strom flüssigen Metalls die Welt: Dieser sei für die Tugendhaften wie ein warmes Bad, für die Sündhaften eine schmerzhafte Prüfung. Danach wird die Welt als gereinigt beschrieben; die Berge sind eingestürzt und der ideale Ur-Zustand ist wiedererreicht. Ahriman wird in dieser Darstellung nicht getötet, doch für immer in einem unterirdischen Gelass gefesselt. Die Welt kehrt in die adynamische Zeit 
+zurück (West 1880: 125–126; siehe dazu Kreyenbroek 1993 u. Kreyenbroek 2002). Die hier zitierte Stelle scheint die Vorstellung einer Restitution des idealen Ur-Zustandes der Welt am Ende der Zeiten zu reflektieren.</summary>
+            <msItem>
+              <title>De Iside et Osiride 47</title>
+              <author>Plutarch (um 45 n. Chr. – um 120 n. Chr.)</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">Vor 120 n. Chr.</origDate>
+              <origPlace>Griechenland (möglicherweise Delphi)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Plutarch 1889: 520–521</bibl>
+              <bibl type="literatur">Brady, David: &amp;#x201E;The Book of Revelation and the Qur&amp;#x2019;&amp;#x101;n: is there a possible relationship?&amp;#x201C; In: Journal of Semitic Studies 23,2 (1978), S. 216&amp;#x2013;225.</bibl>
+              <bibl type="literatur">Gray, Louis H.: &amp;#x201E;Zoroastrian Elements in Muhammedan Eschatology&amp;#x201C;. In: Le Mus&amp;#xE9;on 21 (1902), S. 153&amp;#x2013;184.</bibl>
+              <bibl type="literatur">Leemhuis, Frederik: &amp;#x201E;Apocalypse&amp;#x201C;. Encyclopaedia of the Qur&amp;#x2BE;&amp;#x101;n 1: 111&amp;#x2013;114.</bibl>
+              <bibl type="literatur">Lincoln, Bruce: &amp;#x201E;&amp;#x201A;The Earth Becomes Flat&amp;#x2018; -- A Study of Apocalyptic Imagery&amp;#x201C;. In: Comparative Studies in Society and History 25.1 (1983), S. 136&amp;#x2013;153.</bibl>
+              <bibl type="literatur">Plutarch: Drei religionsphilosophische Schriften (H. G&amp;#xF6;rgemanns, &amp;#xDC;bers.). D&amp;#xFC;sseldorf et al 2003.</bibl>
+              <bibl type="literatur">Plutarch: Plutarchi Chaeronensis Moralia (G. N. Bernardakis, Hrsg.). Leipzig 1889.</bibl>
+              <bibl type="literatur">de Jong, Albert F.: Traditions of the Magi. Zoroastrianism in Greek and Latin Literature. Leiden/Boston 1997.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Sebastian Bitsch</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>οὐ μὴν ἀλλὰ κἀκεῖνοι πολλὰ μυθώδη περὶ τῶν θεῶν λέγουσιν, οἷα καὶ ταῦτ᾽ ἐστίν. ὁ μὲν Ὡρομάζης ἐκ τοῦ καθαρωτάτου φάους, ὁ δ᾽ Ἀρειμάνιος ἐκ τοῦ ζόφου γεγονώς, πολεμοῦσιν ἀλλήλοις: καὶ ὁ μὲν ἓξ θεοὺς ἐποίησε τὸν μὲν πρῶτον εὐνοίας, τὸν δὲ δεύτερον ἀληθείας, τὸν δὲ τρίτον εὐνομίας: τῶν δὲ λοιπῶν τὸν μὲν σοφίας, τὸν δὲ πλούτου, τὸν δὲ τῶν ἐπὶ τοῖς καλοῖς: ἡδέων δημιουργόν: ὁ δὲ τούτοις ὥσπερ ἀντιτέχνους ἴσους τὸν ἀριθμόν. εἶθ᾽ ὁ μὲν Ὡρομάζης τρὶς: ἑαυτὸν αὐξήσας ἀπέστησε τοῦ ἡλίου τοσοῦτον, ὅσον ὁ ἥλιος τῆς γῆς ἀφέστηκε, καὶ τὸν οὐρανὸν ἄστροις ἐκόσμησεν: ἕνα δ᾽ ἀστέρα πρὸ πάντων οἷον φύλακα καὶ προόπτην ἐγκατέστησε, τὸν σείριον. ἄλλους δὲ ποιήσας τέσσαρας καὶ εἴκοσι θεοὺς εἰς ᾠὸν ἔθηκεν. οἱ δ᾽ ἀπὸ τοῦ Ἀρειμανίου, γενόμενοι καὶ αὐτοὶ τοσοῦτοι, διατρήσαντες τὸ ᾠὸν γαν ... ὅθεν ἀναμέμικται τὰ κακὰ τοῖς ἀγαθοῖς. ἔπεισι δὲ χρόνος εἱμαρμένος; ἐν ᾧ τὸν Ἀρειμάνιον λοιμὸν ἐπάγοντα καὶ λιμὸν ὑπὸ τούτων ἀνάγκη φθαρῆναι παντάπασι καὶ ἀφανισθῆναι, τῆς δὲ γῆς ἐπιπέδου καὶ ὁμαλῆς γενομένης, ἕνα βίον καὶ μίαν πολιτείαν ἀνθρώπων μακαρίων καὶ ὁμογλώσσων ἁπάντων γενέσθαι. Θεόπομπος δέ φησι κατὰ: τοὺς μάγους ἀνὰ [S. 521] μέρος τρισχίλια ἔτη τὸν μὲν κρατεῖν τὸν δὲ κρατεῖσθαι τῶν θεῶν, ἄλλα δὲ τρισχίλια μάχεσθαι καὶ πολεμεῖν καὶ ἀναλύειν τὰ τοῦ ἑτέρου τὸν ἕτερον: τέλος; δ᾽ ἀπολείπεσθαι τὸν Ἅιδην, καὶ τοὺς μὲν ἀνθρώπους; εὐδαίμονας ἔσεσθαι, μήτε τροφῆς δεομένους μήτε σκιὰν ποιοῦντας: τὸν δὲ ταῦτα μηχανησάμενον θεὸν ἠρεμεῖν καὶ ἀναπαύεσθαι χρόνον, ἄλλως μὲν οὐ πολὺν ὡς θεῷ, ὥσπερ δ᾽ ἀνθρώπῳ κοιμωμένῳ μέτριον. ἡ μὲν οὖν μάγων μυθολογία τοιοῦτον ἔχει τρόπον. (Plutarch 1889: 520-521)</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Indessen haben auch bei den Persern viele Erzählungen über die Götter mythischen Charakter. Dazu auch folgende: Horomazes und Areimanos, der eine dem reinsten Licht entstanden, der andere aus der Finsternis, kämpfen miteinander. Der eine schuf sechs Götter, davon war der erste ein Bewirker von Wohlwollen, der zweite von Wahrheit, der dritte von gesetzlicher Ordnung, die anderen von Weisheit, Reichtum und den Freuden, die auf edle Taten folgen. Der andere schuf ebenso viele Götter, gewissermaßen Konkurrenten, die den ersteren entgegenarbeiten. Dann vergrößerte Horomazes sich dreifach und entfernte sich so weit von der Sonne, die die Sonne von der Erde entfernt ist, und schmückte den Himmel mit Sternen. Einen Stern vor allen anderen setzte er gleichsam als Wächter und Späher unter sie, den Sirius. Weitere Götter schuf er und setzte sie in ein Ei. Die von Areimanos geschaffenen Götter, ebenso viele an der Zahl, durchlöcherten das Ei von allen Seiten und schlüpften hinein; daher ist das Übel dem Guten beigemischt. Es wird einen vorbestimmte Zeit kommen, da Areimanos, während er Pest und Hunger über die Welt bringt, von diesen zwangsläufig völlig vernichtet und beseitigt wird, die Erde aber gleichmäßig eben wird und alle Menschen ein und dieselbe Lebensweise haben, eine einzige staatlichen Gemeinschaft bilden, voller Glück und mit einer einzigen Sprache. Theopomp sagt, nach der Lehre der Magier herrsche abwechselnd 3000 Jahre einer dieser Götter und der andere sei ihm untertan, weitere 3000 Jahre stritten und kämpften sie, und jeder mach das Werk des anderen zunichte; am Ende aber sei Hades der Unterlegene. Die Menschen würden im Glück leben, ohne Nahrung zu brauchen und Schatten zu werfen; der Gott aber, der dies zuwege gebraucht habe, bleibe eine Zeit untätig und ruhe sich aus - eine Zeit, die an sich war lang sei, wenn man sie auf einen schlafenden Menschen beziehe, für den Gott aber angemessen. Von dieser Art ist also die mythische Lehre der Magier. (Plutarch 2003: 216–217)</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

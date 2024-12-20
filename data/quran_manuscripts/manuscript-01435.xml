@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1435">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 77</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 77</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: paper; Shelfmark: KFQ 77; Lines per page: 15; Dimensions: 345 x 275 mm; Script style: New Style I; Estimated date of production: 1100-1200 .</p>
+              <p> </p>
+              <p>The catalogue written by François Déroche gives the following information (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">Déroche, The Abbasid Tradition, London 1992</ref><ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero"/>, p. 174): "92 / Single folio / 12th century AD / 34.5 x 27.5cm, with 15 lines to the page / <hi rend="italic">Material</hi> A thin, soft, buff paper, laid with 5-6 lines to the centimetre; the lines run perpendicular to the spine / <hi rend="italic">Text area </hi>26.6 x 24cm / <hi rend="italic">Script </hi>Style NS.I / <hi rend="italic">Accession no. </hi>KFQ 77 / Like cat. 93 and 95, this folio exemplifies the tendency towards mannerism seen in later NS.I hands, expressed here by subtle concessions to the cursive: the way that the tails of final <hi rend="italic">nūn </hi>and <hi rend="italic">qāf</hi> are rendered shows scant regard for the New Style tradition, for example. The text - <hi rend="italic">Sūrat al-nūr </hi>(XXIV), verses 11-26 -  is written in black ink, with diacritical dots. The modern vowel signs are written in ink. <hi rend="italic">Shaddah </hi>and <hi rend="italic">sukūn </hi>are in red, while <hi rend="italic">hamzah</hi> is written in ink. A small red circle indicates the end of every verse, and a 3.A.II medallion marks the end of each group of ten verses."</p>
+              <p> </p>
+              <p>Unfortunately only a small selection of images from this manuscripts (as in the catalogue <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">Abbasid Tradition</ref>, p. 175) are on display in this catalogue.</p>
+            </summary>
+            <msItem xml:id="mysql_id_687376" n="1v">
+              <title type="numeric" key="024:019:017-024:026:010">
+                                    024:019:017-024:026:010
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="paper">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>275</width><height>345</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                new style I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>1100-1200</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_47373">
+      <graphic decls="#imageRights-1" url="manuscript/1435/326bb2ec-c648-4227-8037-2fb6b7bbba22/manuscript-1435-page-47373-image-33316.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

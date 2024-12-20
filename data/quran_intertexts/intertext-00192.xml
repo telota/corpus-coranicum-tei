@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Gedicht über den zweitenTag der Schöpfung</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_192" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>192</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 21:32 zufolge hat Gott den Himmel "als ein wohlbewahrtes Dach" geschaffen (arab. wa-ǧaʿalnā  s-samāʾa  saqfan  maḥfūẓan); ähnlich spricht auch Jakob von Sarug vom Firmament, das wohleingerichtet ist, als ein Schutzdach (syr. taṭlītā) für die "Welt der Menschen". Das koranische saqf maḥfūẓ, das "wohlbewahrte Dach", scheint Gottes Fürsorge um die Wohlgestaltung und den Erhalt der Schöpfung zu betonen, da maḥfūẓ ein passives Partizip ist, welches sich auf "Dach" bezieht, d.h. es ist das Dach, welches "geschützt, bewahrt" usw. wird. Immerhin könnte aber auch die Idee eines "schützenden Daches" mitschwingen. Im Text des Jakob von Sarug wird die Idee der idealtypischen Erschaffung des Firmaments gemeinsam mit der Idee der Schutzes, bzw. der Überdachung für die Menschen genannt. Wie auch im Koran dient die Erzählung auch zur Darstellung des vortrefflichen Schöpfertums Gottes, bzw. umgekehrt, der Argumentation, dass die Perfektion der Natur bzw. der Schöpfung auf Gott weise (vgl. den Begriff ʾāya 'Hinweis, (Wunder-)Zeichen in Q 32:32). Q 52:5 erwähnt nur das hohe (wörtlich: "erhobene") "Gewölbe, Dach" (as-saqfi l-marfūʿ). Die Formulierung weist jedoch ebenfalls auf den Schöpfungsakt hin, da "Dach" einen Erbauer suggeriert und "erhoben" (als passives Partizip) ein Agens impliziert.
+</summary>
+            <msItem>
+              <title>Gedicht über den zweitenTag der Schöpfung</title>
+              <author>Jakob von Sarug (451-521)</author>
+              <textLang mainLang="syc">Syrisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">451-521</origDate>
+              <origPlace>Edessa</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">
+	Takamitsu Muraoka (Hg.), Jacob of Serugh’s Hexaemeron, Peeters, Leuven 2018 (Ancient Near Eastern Studies, Supplement 52), S. 64-70.
+</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Yousef Kouriyhe</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="syc">
+        <p>ܘܦܩܕ ܘܗܘܐ ܪܩܝܥܐ ܗܢܐ ܒܝܘܡܐ ܕܬܪܝܢ:210 ܕܒܛܠܠܗ ܢܗܘܐ ܠܠܝܐ ܐܝܟ ܕܫܡܥܬܘܢ܀ܘܢܗܘܐ ܩܐܡ ܒܝܢܬ ܡܝ̈ܐ ܠܡܝ̈ܐ ܕܠܥܠ:ܘܡܣܬܝܟܐ ܒܗ ܚܙܬܐ ܕܐ̄ܢܫܐ ܕܠܐ ܬܦܗܐ ܠܗ̇܀ܦܪܝܣ ܐܝܟ ܢܚܬܐ ܬܚܝܬ ܡܕܝܖ̈ܐ ܕܐܠܗܘܬܐ:ܘܐܝܟ ܬܛܠܝܠܐ ܠܥܠ ܡܢ ܝܬܒܐ ܕܒܢܝ̈ܢܫܐ܀215 ܪܩܝܥܐ ܐܝܬܘܗܝ ܒܫ̈ܡܝ ܫܡܝܐ ܐܠܐ ܪܩܝܥܐ ܗ̄ܘ:ܠܫܡܝܐ ܓܝܪ ܗܠܝܢ ܕܠܥܠ ܡܢܘ ܣܦܩ܀ܐܠܐ [ܦܘܠܘܣ ܘܡܘܫܐ] ܪܒܐ ܕܡܠܠܘ ܐܢܘܢ:ܡܢܘ ܡܫܟܚ ܢܐܡܪ ܐܢܘܢ ܐܝܟ ܕܐܝܬܝܗܘܢ܀ܐܡܪ ܡܘܫܐ ܕܒܪܐ ܡܪܝܐ ܫܡܝܐ ܘܐܪܥܐ:220 ܘܒܬܪ ܝܘܡܐ ܕܢܗܘܐ ܪܩܝܥܐ ܡܬܐܡܪܐ ܗ̄ܘܬ܀ܘܗܘܐ ܪܩܝܥܐ ܘܐܬܚܦܝܘ ܒܗ ܫܡܝܐ ܕܠܥܠ:ܕܠܐ ܡܨܝܐ ܗ̄ܘܬ ܥܝܢܐ ܕܐ̄ܢܫܐ ܬܣܝܒܪ ܐܢܘܢ܀ܡܢ ܙܝܘܝ̈ܗܘܢ ܡܢ ܗܕܪܝ̈ܗܘܢ ܡܢ ܫܘܦܪܝ̈ܗܘܢ:ܡܢ ܗܘ ܝܡܐ ܪܒܐ ܕܢܘܗܪܐ ܕܠܐ ܡܣܬܝܟ:225 ܫܡܝܐ ܕܠܥܠ ܠܝܬ ܒܗ̇ ܫܡܫܐ ܕܟܠܗ̇ ܫܡܫܐ ܗ̄ܝ:ܘܗܐ ܚܡܝܠ ܢܘܗܪܗ̇ ܒܐܦܝ ܬܪܥܐ ܗܢ ܕܪܩܝܥܐ܀ܘܐܝܟܐ ܕܢܦܩ ܡܢ ܗܘ ܢܘܗܪܐ ܠܐܬܪܐ ܕܝܠܢ:ܐܙܝܥ ܘܐܪܗܒ ܘܥܒܕܗ ܒܬܗܪܐ ܠܐܝܢܐ ܕܚܙܝܗܝ܀ܒܙܒܢ ܦܘܠܘܣ ܘܩܕܡ ܙܒܢܐ ܬܘܒ ܚܙܩܝܐܝܠ:230 ܗܘܘ ܚܙܝ̈ܐ ܠܢܘܗܪܐ ܕܩܢܝܐ ܫܡܝܐ ܕܠܥܠ܀ܘܒܩܕܡܝܐ ܪܡܙܐ ܩܡܬ ܒܐܬܪܐ ܪܡܐ:ܘܗܘܐ ܪܩܝܥܐ ܒܝܘܡܐ ܕܬܪܝܢ ܕܬܬܚܦܐ ܒܗ܀ܕܢܗܘܐ ܪܩܝܥܐ ܐܦ ܗܘ ܫܡܝܐ ܠܒܢܝ̈ܢܫܐ:ܘܫ̈ܡܝ ܒܝܬܐ ܕܗܢܐ ܒܝܬܐ ܕܡܠܐ ܛܘܗܡ̈ܐ܀235 ܟܕ ܡܬܝܩܪܐ ܫܡܝܐ ܕܠܥܠ ܒܓܢܝܙܘܬܗ̇:ܘܠܐ ܚܙܝܢ ܠܗ̇ ܐܠܐ ܓܡܝܖ̈ܐ ܘܐܠܗܝ̈ܐ܀ܪܩܝܥܐ ܓܘܫܡܐ ܗ̄ܘ ܘܥܠܗܝ ܐܝܬ ܒܗ ܐܦ ܛܠܠܐ:ܠܫܡܝܐ ܓܝܪ ܗܠܝܢ ܕܠܥܠ ܓܘܫܡܐ ܠܐ ܐܝܬ܀ܐܠܐ ܥܒܕܐ ܪܒܐ ܕܩܐܡ ܪܘܚܢܐܝܬ:240 ܕܡܠܐ ܢܘܗܖ̈ܐ ܘܠܐ ܡܬܗܦܟ ܠܠܝܐ ܬܡܢ܀ܠܘ ܛܠܠܐ ܐܝܬ ܠܫܡܝܐ ܗܠܝܢ ܕܠܥܠ:ܕܡܢ ܛܠܠܐ ܢܗܘܐ ܠܠܝܐ ܒܗܘ ܐܝܡܡܐ܀ܚܠܦ ܛܠܠܐ ܢܘܗܪܐ ܢܒܥܝܢ ܐܝܟ ܕܡܟܢܝܢ:ܠܒܢܝ̈ ܢܘܗܪܐ ܕܥܡܪܝܢ ܬܡܢ ܒܐܬܪܐ ܕܠܥܠ܀245 ܘܗܢܐ ܪܩܝܥܐ ܕܥܒܕ ܡܪܝܐ ܒܝܘܡܐ ܕܬܪܝܢ.ܠܗܠܝܢ ܕܠܥܠ ܟܐܡܬ ܐܪܥܐ ܗ̄ܘ ܕܬܚܘܬܝܗܘܢ܀ܫܡܝܐ ܕܝܠܢ ܘܐܪܥܐ ܕܗܠܝܢ ܕܠܥܠ ܡܢܗ̇:ܕܪܩܥܗ̇ ܪܡܙܐ ܕܠܥܠܝ̈ܐ ܐܪܥܐ ܢܗܘܐ܀ܠܢ ܓܘܫܡܢ̈ܐ ܡܐܢ̈ܐ ܓܫ̈ܝܡܐ ܥܒܕ ܒܪܘܝܐ:250 ܘܠܖ̈ܘܚܢܐ ܥܒܕܐ ܕܬܡܢ ܪܘܚܢܝܐ ܗ̄ܘ܀ܪܩܝܥܐ ܕܗܘܐ ܫܡܝܐ ܗ̄ܘ ܕܝܠܢ ܕܐܝܬ ܠܗ̇ ܓܘܫܡܐ:ܘܥܒܕ ܠܠܝܐ ܡܢ ܛܠܠܗ̇ ܠܢ ܬܚܬܝ̈ܐ܀ܘܠܢ ܓܘܫ̈ܡܢܐ ܚܫܚ ܗܢܐ ܥܒܕܐ ܓܫܝܡܐ:ܘܠܠܐ ܓܫܝ̈ܡܐ ܟܠܗ ܥܒܕܐ ܪܘܚܢܝܐ܀255 ܡܛܠܗܢܐ ܟܕ ܡܬܒܪܝܐ ܫܡܝܐ ܕܠܥܠ:ܥܡ ܪܘܚܢ̈ܐ ܪܘܚܢܐܝܬ ܩܡ ܬܘܩܢܗ̇܀ܘܚܝ̈ܠܘܬܐ ܒܪܘܚܐ ܕܦܘܡܗ̇ ܕܐܠܗܘܬܐ:ܩܝܡܝܢ ܬܡܢ ܪܘܚܢܐܝܬ ܒܬܚܘܡܝ̈ܗܘܢ܀ܘܠܐ ܐܝܬ ܬܡܢ ܓܘܫܡܐ ܥܒܝܐ ܘܠܐ ܛܠܠܐ:260 ܐܦܠܐ ܠܠܝܐ ܗܢܐ ܕܩܐܡ ܗܪܟܐ ܒܐܬܪܢ܀ܟܠܗ̇ ܒܪܝܬܐ ܗܕܐ ܕܓܘܫ̈ܡܐ ܘܕܛܠܠ̈ܐ:ܐܝܟ ܐܣܦܪܐ ܣܝܡܐ ܟܠܗ̇ ܒܓܘ ܠܐ ܡܕܡ܀ܠܐ ܐܝܬ ܓܘܫܡܐ ܠܐ ܠܥܠ ܡܢܗ̇ ܘܠܐ ܠܬܚܬ ܡܢܗ̇:ܘܠܐ ܒܚܕܪܝܗ̇ ܐܠܐ ܚܝܠܐ ܕܡܣܡܟ ܠܗ̇܀265 ܘܬܠܝܐ ܘܩܝܡܐ ܐܝܟ ܦܪܚܬܐ ܒܓܘ ܠܐ ܡܕܡ.ܘܐܝܬ ܒܡܨܥܬܐ ܥܠܡܐ ܫܓܝܫܐ ܕܡܠܐ ܙܘ̈ܥܐ܀ܘܠܥܠ ܡܢܗ̇ ܕܗܕܐ ܓܝܓܠܐ ܛܥܝܢܬ ܓܘܫ̈ܡܐ:ܡܕܒܪܐ ܕܢܘܗܪܐ ܕܡܕܝܪܝܢ ܒܗ ܚܝ̈ܠܘܬܐ܀ ܘܬܚܝܬ ܗܠܝܢ ܗܢܐ ܪܩܝܥܐ ܐܝܟ ܐܣܦܪܐ: 270 ܕܚܒܝܫܝܢ ܒܗ ܗܠܝܢ ܓܘܫ̈ܡܐ ܡܬܓܫ̈ܡܢܐ܀ܢܩܝܫ ܐܝܟ ܡܫܟܢܐ ܠܝܬܒܐ ܕܛܘܗ̈ܡܐ ܘܕܫܪ̈ܒܬܐ: ܘܡܕܝܪܝܢ ܒܗ ܓܢܣ̈ܝܢ ܓܢܣ̈ܝܢ ܒܟܝܢܝ̈ܗܘܢ܀ ܘܚܟܡܬ ܪܡܐ ܪܩܥܬܗ ܘܗܘܐ ܒܝܘܡܐ ܕܬܪܝܢ: ܐܝܟ ܬܛܠܝܠܐ ܠܥܠܡܐ ܟܠܗ ܕܒܢܝ̈ܢܫܐ܀275 ܒܪܝܗܝ ܠܪܩܝܥܐ ܕܠܐ ܢܗܝܖ̈ܐ ܕܣܕܝܪܝܢ ܒܗ:ܘܕܠܐ ܫܡܫܐ ܘܕܠܐ ܣܗܪܐ ܕܡܬܟܪܟܝܢ ܒܗ܀ܠܢܚܬܐ ܪܒܐ ܙܩܪܗ ܘܦܫܛܗ ܕܠܐ ܨܘܪܬܐ:ܥܕ ܡܬܩܢ ܠܗ ܘܟܢ ܨܐܪ ܠܗ ܒܡܗܝܪܘܬܗ܀ܘܥܠ ܕܣܢܝܩ ܗ̄ܘܐ ܥܠ ܢܗܝܖ̈ܐ ܢܣܬܕܪܘܢ ܒܗ:280 ܠܬ ܟܬܝܒ ܕܚܙܐ ܡܪܝܐ ܕܫܦܝܪ ܟܕ ܥܒܕܗ ܗ̄ܘܐ܀ܡܢ ܕܒܛܝܠ ܠܗ ܥܠ ܝܘܠܦܢܐ ܡܣܬܟܠ ܗ̄ܘ:ܒܟܠ ܩܖ̈ܝܢܝܢ ܕܢܒܝܘܬܐ ܘܒܡܠܝ̈ܗܘܢ܀ܒܟܠܗܘܢ ܝܘ̈ܡܐ ܟܬܝܒ ܗ̄ܘ̣ ܕܚܙܐ ܡܪܝܐ ܕܫܦܝܪ:ܘܒܗܘ ܝܘܡܐ ܕܬܪܝܢ ܗܕܐ ܠܐ ܐܬܐܡܪܬ܀285 ܗܘܐ ܗ̄ܘܐ ܪܩܝܥܐ ܘܥܠ ܕܣܢܝܩ ܗ̄ܘܐ ܥܠ ܨ̈ܘܪܬܐ:ܦܫܬ ܡܠܬܐ ܘܠܐ ܟܬܝܒ ܕܚܙܐ ܡܪܝܐ ܕܫܦܝܪ܀ܕܡܛܝܒ ܗ̄ܘܐ ܢܗܕܪܗ ܒܨܒ̈ܬܐ ܘܒܢܗܝܖ̈ܐ:ܢܛܪܗ̇ ܠܗܕܐ ܕܡܐ ܕܐܫܬܡܠܝ ܟܢ ܡܬܐܡܪܐ܀ܕܗܘܬ ܓܠܝܐ ܕܠܘ ܡܛܥܐ ܛܥܐ ܟܕ ܒܪܐ ܠܗ:290 ܕܥܡܗ ܢܒܪܐ ܫܡܫܐ ܘܣܗܪܐ ܘܟܠ ܢܗܝܪܝܢ܀ܐܠܐ ܡܛܠ ܕܡܗܝܪ ܘܡܠܐ ܚܟܝܡܘܬܐ:ܐܓܪ ܪܘܚܗ ܕܒܥܕܢܗ ܢܩܘܡ ܬܘܩܢܐ܀ܘܠܐ ܨܒܐ ܕܢܥܒܕ ܫܡܫܐ ܘܣܗܖ̈ܐ ܒܝܘܡܐ ܕܬܪܝܢ:ܘܐܠܐ ܪܗܝܒ ܐܢ̄ܬ ܝܠܦ ܐܢ̄ܬ ܗ̄ܘ ܢܗܝܪܐܝܬ܀295 ܪܩܝܥܐ ܒܪܐ ܗ̄ܘܐ ܡܨܥܬ ܡܝ̈ܐ ܘܦܠܓ ܐܢܘܢ:ܘܣܡ ܥܠܝ̈ܐ ܘܣܡ ܬܚܬܝ̈ܐ ܒܬܚܘܡܝ̈ܗܘܢ܀ܘܟܕ ܠܐ ܡܫܡܠܝ ܥܒܕ ܠܪܩܝܥܐ ܟܕ ܥܒܕ ܠܗ:ܐܝܟ ܕܐܦ ܐܪܥܐ ܠܐ ܡܬܩܢܬܐ ܐܬܒܪܝܬ ܗ̄ܘܬ܀ܘܥܠ ܕܢܛܝܪ ܗ̄ܘܐ ܫܘܦܪܐ ܐ̄ܚܪܢܐ ܕܢܘܣܦ ܗ̄ܘܐ ܠܗ:300 ܒܝܘܡܐ ܕܬܪܝܢ ܠܐ ܐܬܐܡܪܬ ܕܚܙܐ ܕܫܦܝܝܪ܀ܘܗܘܐ ܪܩܝܥܐ ܡܨܥܬ ܡܝ̈ܐ ܐܝܟ ܕܦܩܕ ܠܗ:ܘܗܘܐ ܪܡܫܐ ܘܗܘܐ ܨܦܪܐ ܝܘܡܐ ܕܬܪܝܢ܀
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>Und oberhalb dieses Rades, welches Körper trägt, befindet sich eine weite Fläche aus Licht in der die Mächte wohnen.Und darunter befindet sich das Firmament wie eine Kugel, 270 in der diese inkarnierten Körper eingeschlossen sind, befestigt wie ein Zelt, zur Ansiedlung von Familien und Sippen. Es leben darin die verschiedenen Arten nach ihrer Natur. Die Weisheit des Erhabenen hat es befestigt und zwar am zweiten Tag [der Schöpfung], auf dass es sei als ein (schützendes) Dach für die gesamte Welt der Menschen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>And He commanded and this firmament emerged on Day Two210 so that the night would be in its shadow, as you have heard,and it would appear between the waters (below) and the waters aboveand a stop be set to human eyes so that they would not wander off.It is spread as a garment beneath the residences of the Divineand as a roof above the dwelling of humans.215 The firmament is in the heaven of heavens, but it is a firmament,for who could grasp these heavens above?Except Paul and Moses the great who spoke about them.Who could discuss them as they are?Moses said that the Lord had created the heaven and the earth,220 and a day afterwards, that there should be a firmament, so it was said,and there emerged a firmament and the heaven above was covered with it.A human eye was not able to endure it because of its splendor, because of its glory, because of its beauties,because of that great sea of inextinguishable light.225 There was no sun in the sky above, for it was itself all sun,and behold, its light was kept away in front of this gate of the firmament,whence some of that light came out to our place.He moved, hastened, and made it in an amazing fashion for him who saw it.At the time of Paul and also earlier at the time of Ezekiel230 there were visionaries who saw the light which the heaven above had obtained.With the first signal it emerged in the high region,and there emerged a firmament on Day Two so that it would be covered with it,so that the firmament also would be heaven for humansand heaven of the house, of this house which is full of families,235 though the heaven above is honoured for its treasureand it is not seen except by the accomplished and the godly.The firmament is a (solid) body and therefore there is in it a shadow as well,for this heaven above has no body,but it is a great piece of work that exists spiritually,240 full of lights, and night does not return there.This heaven above has no shadow,for from a shadow there will appear a night on this day.Instead of a shadow there will gush out light as designedfor the sake of the light-emitting bodies which lie there in the place above.245 And this firmament, which the Lord made on Day Two,is, for those above, of the same nature as the earth, which is under them.The heaven is ours and the earth is of those who are above it,the signal established it so that it would become the earth for those above.For us corporeal beings the Creator made corporeal instruments,250 and to the spiritual (beings) what was created there is spiritual.The firmament which came into being is our heaven, which has a bodyand He makes a night form its shadow for us below.For us corporeal beings this corporeal piece of work is necessary,but for those incorporeal the entire work is spiritual.255 Therefore, when the heaven above was in the making,with the spiritual beings its formation proceeded spiritually.And the hosts, through the spirit of the mouth of the Divine,were emerging there spiritually in their domains,and there is no thick body nor a shadow there,260 nor this night which exists here in our place.All this creation is of the corporeal and shadows;all of it is set like a circle inside nothing.There is no body either above it or below itnor round it but a force supporting it.265 It hangs and exists like a bird inside nothingand in its midst there is a turbulent universe full of movements,and above this wheel laden with bodies,a desert of light inhabited by hosts,and below them this firmament like a circle,270 in which these corporeal bodies are held,pitched like a tent for dwelling for families and tribesand there live in it diverse species with their respective nature,and the wisdom of the Most High established it and it emerged on Day Twolike a roof for the entire world of humans.275 He created the firmament without lights arranged thereinand without the sun and the moon which rotate in it.As a great garment He wove it and spread it without patternsas He shaped it and painted it with His skill,and because it lacked the lights to be arranged in it (yet),280 it is not written that the Lord saw that it was beautiful, when He had made it.He who is interested in the teaching would recognize, every time he reads the prophecy and its words.Concerning all the (other) days (of creation) it is written that the Lord saw that it was beautiful,but concerning that Day Two this was not said.285 There emerged a firmament, and because it lacked certain forms yet to be arranged in it,the word fell short and it is not written that the Lord saw that it was beautiful.He who was ready to beautify it with adornments and luminarieskept it for the moment when it would be pronounced on the completion of the work.It was evident that He did not forget in any manner whatsoever, when He created it,290 that He was going to create it with the sun and the moon and all luminaries.But because He was skilful and full of wisdom,He took time so that the formation would come in place in its timeand did not wish to make the sun and the moon on Day Two.But you are eager and learn intelligently.295 He created the firmament in the midst of the waters and separated them,putting the ones above and the ones below in their respective domain.And He made the firmament in an incomplete form when He made itjust as the earth was not completely formed when it was created.And because another beauty which He would add to it (later) was still to come,300 on Day Two it was not said that He saw that it was beautiful.And the firmament was there in the midst of the waters as He had commanded it,and there was an evening and there was a morning, Day Two.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

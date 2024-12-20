@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1311">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Toronto, Aga Khan Museum, AKM 248</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="69">Aga Khan Museum
+                            , Toronto</repository>
+            <idno>AKM 248</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Folio of the Blue Qurʾān, Shelfmark: AKM 248; Qurʾānic Text: 2:148-150; Lines per page: 15; Dimensions: 285 x 353 mm; Script style: kūfī, type D; Estimated date of production: 800-1000. It is not known if the page on display is the recto or the verso page. The website of the Aga Khan Museum has the folloing information: "Qur’an Folio, (Q 2: 148–150), Accession Number: AKM 248; Place:North Africa, Iraq, or Iran; Dimensions:28.5 x 35.3 cm; Date:9th–10th centuries; Materials and Technique:Gold and silver on blue-dyed parchment." For an updated overview of sister fragments, see the detailed catalogue  entry by Marcus Fraser on a sister fragment of the Blue Qurʾān kept by <ref target="https://corpuscoranicum.de/handschriften/index/sure/2/vers/286/handschrift/1458">Qatar National Library, call number HC.MS. 03223</ref>. </p>
+            </summary>
+            <msItem xml:id="mysql_id_682338" n="1r">
+              <title type="numeric" key="002:148:006-002:150:031">
+                                    002:148:006-002:150:031
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>353</width><height>285</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_42344">
+      <graphic decls="#imageRights-1" url="manuscript/1311/5734f947-6950-4fa8-8aa1-23bd2c088817/manuscript-1311-page-42344-image-28132.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

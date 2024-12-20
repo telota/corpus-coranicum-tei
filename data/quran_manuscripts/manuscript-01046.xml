@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1046">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>London, The Khalili Collections, KFQ 4</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Nasser D. Khalili Collection of Islamic Art, Copyright Khalili Family Trust.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="48">The Khalili Collections
+                            , London</repository>
+            <idno>KFQ 4</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol.; Writing surface: parchment; Shelfmark: KFQ 4; Lines per page: 4 (undamaged page probably 5 lines); Dimensions: 100 x 90 mm; Qurʾānic Text: Q 18:75; Script style: kūfī D.Vb; Estimated date of production: 800-1000.</p>
+              <p>Cf. catalogue entry by François Déroche about fragment KFQ 4 (Déroche, <ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ" sameAs="QJQEKNSJ" type="zotero">The Abbasid Tradition, London 1992</ref>, p. 58): "60 / Single folio / First half oft he 10th century AD / Fragmentary (largest dimensions now 10 x 9 cm); parts of only 4 lines survive on each page, but there may have been 5 lines / <hi rend="italic">Material</hi> Parchment; the recto is the hair side / <hi rend="italic">Text area</hi> An area 6 x 6.2 cm survives / <hi rend="italic">Script</hi> Style D.Vb / <hi rend="italic">Accession no</hi>. KFQ4 / The sequence of text on this fragment – <hi rend="italic">Sūrat al-fātiḥah</hi> (I), verses 6-7, and <hi rend="italic">Sūrat al-kahf</hi> (XVIII), verse 75 – shows that it was at the beginning of Part 16 of a a 30-volume Qur’an, which starts with verse 75 of <hi rend="italic">Sūrat al-kahf</hi>. Unusually, the text of the Qur’an section (<hi rend="italic">juzʾ</hi>) is prefaced by that of <hi rend="italic">Sūrat al-fātiḥah</hi>, which was probably written at the beginning of each volume of the set. As this <hi rend="italic">juzʾ</hi> does not start with a new surah, its beginning is marked by a special motif, an undulating stem from which long leaves grow. / The text is written in dark brown ink, with diacritical strokes. Red dots indicate the vocalization. There seems to have been a 3.1.2 device at the end of each verse, and a 4.A.II. ornament, with the word <hi rend="italic">khams</hi> (‘five’) in gold script D on what was probably a blue ground, marks the end of a group of five verses. The illumination seems to use the same repertoire as cat. 56 and 57. A note has been written between the lines on the recto, but it is so badly damaged as to be illegible.”</p>
+            </summary>
+            <msItem xml:id="mysql_id_682470" n="1v">
+              <title type="numeric" key="018:075:001-018:075:006">
+                                    018:075:001-018:075:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>90</width><height>100</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="4 5">4 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Vb
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Yunus C. Öç</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1v" xml:id="mysql_id_42475">
+      <graphic decls="#imageRights-1" url="manuscript/1046/4e18b03e-ba7e-4617-8eb3-363889b3d58d/manuscript-1046-page-42475-image-28138.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

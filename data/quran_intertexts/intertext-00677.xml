@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Altarabisches Gedicht "Wer ist der Räuber-Dichter?" (man huwa ṣ-ṣuʿlūk?)</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_677" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>677</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Das Adjektiv ǧazūʿ bedeutet "bekümmert, entmutigt, verdrossen angesichts eines erlittenen Unglücks sein" (vgl. den Kommentar zu 70:20). Im Koran steht es in 70:20 im Zusammenhang mit einer Beschreibung des Menschen als seinem Wesen nach unzufrieden. Trifft den Menschen Schlechtes, so ist er "verdrießlich" (ǧazūʿ), trifft ihn Gutes, so ist er geizig. Auch in der altarabischen Dichtung ist Verdrossenheit eine negative Eigenschaft, wie der vorliegende TUK belegt. Der Dichter bestreitet in der Regel die Anschuldigung, verdrießlich und entmutigt zu sein energisch, ist eine solche Haltung doch nicht mit dem Ideal der murūʾa zu vereinen. Beim Vergleich der vorliegenden Verse ʿUrwa b. al-Wards mit der koranischen Belegstelle fällt weiterhin auf, dass Verdrossenheit in der altarabischen Dichtung mit dem Wirken der maniyya in unmittelbarem Zusammenhang steht. In Q 70:20 hingegen spielt das Wirken von Schicksalsmächten keine Rolle. Betrachtet wird vielmehr eine moralisch-ethische Grundhaltung des Menschen, für die dieser selbst verantwortlich ist. Diese wird im Folgenden mit der Einstellung und dem Verhalten der "Beter" (Q 70:22 ff.) kontrastiert.
+</summary>
+            <msItem>
+              <title>Altarabisches Gedicht "Wer ist der Räuber-Dichter?" (man huwa ṣ-ṣuʿlūk?)</title>
+              <author>ʿUrwa b. al-Ward (6. Jh.)</author>
+              <textLang mainLang="ara">Arabisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">7. Jh.</origDate>
+              <origPlace>Arabische Halbinsel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Alan Jones, Early Arabic Poetry, Bd. 1: Marāṯī and Ṣuʿlūk Poems, Oxford 1992, S. 131.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nora K. Schmid</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ara">
+        <p>
+	٦ وَإِنْ فَازَ سَهْمٌ لِلْمَنِيَّةِ لَمْ أَكُنْ جَزُوعاً وَهَلْ عَنْ ذَاكَ مِنْ مُتَأَخَّرِ
+	٧ وَإِنْ فَازَ سَهْمِي كَفَّكُمْ عَنْ مَقَاعِدٍ لَكُمْ خَلْفَ أَدْبَارِ البُيُوتِ وَمَنْظَرِ
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	6. Wenn ein Pfeil des Todes gewinnt, so werde ich nicht betrübt sein, denn gibt es jemanden, dem davor Aufschub gewährt wird?
+	7. Wenn jedoch mein Pfeil gewinnt, so wird er euch davon abhalten, hinter den Zelten zu sitzen und zu warten.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

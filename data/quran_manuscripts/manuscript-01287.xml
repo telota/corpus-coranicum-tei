@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1287">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.2002.1.349</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.2002.1.349</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        
+                    </summary>
+            <msItem xml:id="mysql_id_681109" n="1r">
+              <title type="numeric" key="002:113:008-002:113:015">
+                                    002:113:008-002:113:015
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681110" n="1v">
+              <title type="numeric" key="002:113:016-002:113:028">
+                                    002:113:016-002:113:028
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681111" n="2r">
+              <title type="numeric" key="002:116:010-002:117:003">
+                                    002:116:010-002:117:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_681112" n="2v">
+              <title type="numeric" key="002:117:004-002:118:006">
+                                    002:117:004-002:118:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                                                                                                            </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="5">5 - 5 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_41143">
+      <graphic decls="#imageRights-1" url="manuscript/1287/d1096ebb-161e-4a1c-b583-83c06346db1e/manuscript-1287-page-41143-image-26448.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1287/197402c1-b297-48ff-a4e6-5bebf0cd8b98/manuscript-1287-page-41143-image-34127.tiff"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_41144">
+      <graphic decls="#imageRights-1" url="manuscript/1287/df2437e4-5cbe-4533-86f3-bc8cdbb7608c/manuscript-1287-page-41144-image-26449.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1287/bd318324-507e-4100-af94-405eca52452d/manuscript-1287-page-41144-image-34128.tiff"/>
+    </surface>
+    <surface n="2r" xml:id="mysql_id_41145">
+      <graphic decls="#imageRights-1" url="manuscript/1287/cd79cbec-e3af-4169-8c7a-d48990602814/manuscript-1287-page-41145-image-26450.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1287/d318e874-2073-41a9-afca-f11acb7ba613/manuscript-1287-page-41145-image-34129.tiff"/>
+    </surface>
+    <surface n="2v" xml:id="mysql_id_41146">
+      <graphic decls="#imageRights-1" url="manuscript/1287/540e10e2-0fbb-4c04-9b35-c5561aeae934/manuscript-1287-page-41146-image-26451.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1287/5787375b-bb4b-4e44-8cc4-bd55a9718f98/manuscript-1287-page-41146-image-34130.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1422">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Doha, Qatar National Library  (مكتبة قطرالوطنية), HC.MS.03156</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: Qatar National Library, Heritage Library.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="84">Qatar National Library  (مكتبة قطرالوطنية)
+                            , Doha</repository>
+            <idno>HC.MS.03156</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p/>
+              <p>4 folios,Shelfmark:  <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/32?handschrift=1422">HC.MS.03156</ref>, <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/24?handschrift=1423">HC.MS.03157</ref>, <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/29?handschrift=1424">HC.MS.03158</ref> (2 fol.); Text: <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/32?handschrift=1422">HC.MS.03156</ref> 029:032:013-029:050:004;  <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/24?handschrift=1423">HC.MS.03157</ref>: 030:024:018-030:043:007; <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/29?handschrift=1424">HC.MS.03158</ref> (fol. 1) 028:029:013-028:046:019; <ref target="https://corpuscoranicum.de/handschriften/index/sure/1/vers/1/handschrift/1424">HC.MS.03158</ref> (fol. 2)  028:046:020-028:064:013.  Lines per page: 17 Dimensions: <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/29?handschrift=1424">HC.MS.03158</ref>: text area 135 x 182 mm; with mount 169 x 238 mm; <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/32?handschrift=1422">HC.MS.03156</ref>: 135 x 182 mm; with mount: 169 x 238 mm; <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/24?handschrift=1423">HC.MS.03157</ref>: 135 x 182 mm; with mount: 169 x 238 mm; Script stye: kūfī, Ductus: B.II, with some variations. Estimated date of production: c. 750-800. Single  verse separators: a short column of angled ink dashes (type 1.1.1) or a  triangular cluster of three diagonal ink dashes (type 1.1.4). Tenth  verse separators consist of a short column of three diagonal ink dashes  (type 1.1.1) or cluster of three diagonal ink dashes (type 1.1.4)  coupled with a circle of red pigment over brown ink containing an abjad  letter recording the exact verse count. In the case of the present  leaves, HC.MS.03158 (1) has <hi rend="italic">lām</hi> at the end of 028:030 <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/29?handschrift=1424">on the recto</ref> and <hi rend="italic">mīm</hi> at the end of 028:040 <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/38/handschrift/1424">on the verso</ref>; HC.MS.03158 (2) has <hi rend="italic">nūn</hi> at the end of 028:050 <ref target="https://corpuscoranicum.de/handschriften/index/sure/1/vers/1/handschrift/1424">on the recto</ref> and <hi rend="italic">ṣād</hi> (in the so-called “Western” abjad system, see below) at the end of 028:060 on the verso. HC.MS.03156 has <hi rend="italic">mīm</hi> at the end of 029:040 <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/42/handschrift/1422">on the verso</ref>; HC.MS. 03157 has <hi rend="italic">lām</hi> at the end of 030:030 <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/24?handschrift=1423">on the recto</ref> and <hi rend="italic">mīm</hi> at the end of 030:040 <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/34/handschrift/1423">on the verso</ref>. The fact that the letter <hi rend="italic">ṣād</hi> is used in to mark the end of the sixtieth verse of sura 28 on the verso of HC.MS.03158 (2) is significant. The letter <hi rend="italic">ṣād</hi>  represented the number 60 in the abjad system known as the western  abjad system. This was the dominant system until the early Abbasid  period, when a change took place in the central and eastern Islamic  lands that then used the letter <hi rend="italic">sīn </hi>for the number sixty (as well  as a few other changes), a system thereafter referred to as the eastern  abjad system. However, in the Maghrib the letter <hi rend="italic">ṣād</hi> continued to be used for the number 60. George suggested that the change occurred in the first half of the 9th century (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/IBCRPCE8">George 2009, pp. 92-93</ref>), whereas Fraser suggested an earlier date of the mid-8th century coinciding with the change from Umayyad to Abbasid rule (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/4XRIJFUI">Fraser 2017, p. 212, fn. 71</ref>).  The change is likely to have occurred gradually over a period of years  or decades, so either way we can be fairly sure that it occurred  sometime in the second half of the 8th or the first half of the 9th  century. Thus the use of either <hi rend="italic">ṣād</hi> or <hi rend="italic">sīn</hi> to mark sixtieth verses in Qur’āns can be used as a rough guide to chronological-geographical origin. Any Qur’ān that uses <hi rend="italic">ṣād </hi>for  sixty must either have been produced before the introduction of the  eastern system or must have been produced in the Maghrib. A further  complication is that it is not known exactly where the boundary between  the use of the two systems lay, and there may have been a liminal zone  somewhere in North Africa where both systems were used. Date estimate: c. 750-800 CE Déroche suggested that the script style B.II was in use by the early ninth century (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/QJQEKNSJ">Déroche 1992, p. 36</ref>), while George suggests that it may have begun to develop as early as the first half of the eighth century (<ref target="https://www.zotero.org/groups/corpuscoranicum_pub/items/itemKey/9C63ZAY2">George 2010, p. 91</ref>).  The presence here of a small number of letter forms that relate to B.Ia  and C.Ia may suggest that the script on the present folios is a  relatively early expression of B.II, perhaps produced in the second half  of the 8th century. The folios have all been trimmed to the text  area and mounted with gilt-decorated paper borders during the early  modern period, probably in Iran. Recent provenance of these folios: Not known.  The early modern paper border of <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/41/handschrift/1422/flip/1/bildversion/2">fol. 1 verso</ref> has a purple stamp reading “STATE ….. LIBRARY” in English, and in Persian “Kitābḫāneh…..” Sister leaves: No sister leaves are currently known. </p>
+              <p/>
+            </summary>
+            <msItem xml:id="mysql_id_687279" n="1r">
+              <title type="numeric" key="029:032:013-029:041:007">
+                                    029:032:013-029:041:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_687280" n="1v">
+              <title type="numeric" key="029:041:008-029:050:004">
+                                    029:041:008-029:050:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <support>
+                  <p>HC.MS. 03158 (fol. 1): hair side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/29?handschrift=1424">recto</ref>, flesh sides is <ref target="https://corpuscoranicum.de/handschriften/index/sure/28/vers/38/handschrift/1424">verso</ref>; HC.MS. 03158 (fol. 2): hair side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/1/vers/1/handschrift/1424">recto</ref>, flesh side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/1/vers/1/handschrift/1424/flip/1">verso</ref>; HC.MS. 03156: flesh side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/32?handschrift=1422">recto</ref>, hair side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/29/vers/42/handschrift/1422">verso</ref>; HC.MS. 03157: flesh side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/24?handschrift=1423">recto</ref>, hair side is <ref target="https://corpuscoranicum.de/handschriften/index/sure/30/vers/34/handschrift/1423">verso</ref>. </p>
+                </support>
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>182</width><height>135</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="17">17 - 17 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <summary>
+                <p>Diacritics: Letter-pointing consists of angled dashes in the same ink as the main script. Diacritics (vocalisation) are marked with red and green dots. Discussion of the script: Most letter forms accord with B.II. Those that have occasional variations are as follows: Some  examples of <hi rend="italic">ʾalif </hi>have a slightly flat return rather than a pronounced  upward turn. A small number resemble the ʾalif of C.Ia. In most B.II  scripts, the tail of the final <hi rend="italic">fā’/qāf  </hi>curves long way to the right  before turning into a hook. Here the tail does not curve so far to the  right but drops directly below the round upper part of the letter. In  this it is perhaps closer to B.Ib, although the shape of the nib of the  calamus is more of a chisel shape and closer to the B.II type. Most examples of final <hi rend="italic">hā’ </hi>are closer to B.Ib.</p>
+              </summary>
+              <scriptNote>
+                                                                kūfī B.II
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-800</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Marcus Fraser</p>
+                <p>transliteration: Zahra Mollaei</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_47285">
+      <graphic decls="#imageRights-1" url="manuscript/1422/529984a0-c005-4d3e-a079-6233371f07f8/manuscript-1422-page-47285-image-34055.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1422/65f3d7aa-377a-4112-9dc4-122ee146b487/manuscript-1422-page-47285-image-34056.tif"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_47286">
+      <graphic decls="#imageRights-1" url="manuscript/1422/741cd241-03b4-477c-b5b7-064ee709bd7d/manuscript-1422-page-47286-image-34057.tif"/>
+      <graphic decls="#imageRights-1" url="manuscript/1422/e57b7df5-e4c1-4da9-942c-eadece79cc9c/manuscript-1422-page-47286-image-34058.tif"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body source="1422_Doha_HC.MS.03156_tei.xml">
+      <pb xml:id="f.1r"/>
+      <!-- Page ID: 1422,f. 1r,029:032:013-029:041:007 -->
+      <!-- Lines: 17; Valid Lines: 17 -->
+      <l n="1">
+        <note/>
+        <w n="029-032-013">
+          <supplied reason="omitted-in-original" source="#cairo_rasm">امراٮه</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-032-014">
+          <unclear>کاںٮ</unclear>
+        </w>
+        <pc> </pc>
+        <w n="029-032-015">مں</w>
+        <pc> </pc>
+        <w n="029-032-016">العٮرىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '32'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٢</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-033-001">ولما</w>
+        <pc> </pc>
+        <w n="029-033-002">اں</w>
+        <pc> </pc>
+        <w n="029-033-003">حاٮ</w>
+        <pc> </pc>
+        <w n="029-033-004">رسلںا</w>
+        <pc> </pc>
+        <w n="029-033-005">لوطا</w>
+        <pc> </pc>
+      </l>
+      <l n="2">
+        <note/>
+        <w n="029-033-006">
+          <supplied reason="omitted-in-original" source="#cairo_rasm">سى</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-033-007">ٮهم</w>
+        <pc> </pc>
+        <w n="029-033-008">وصاٯ</w>
+        <pc> </pc>
+        <w n="029-033-009">ٮهم</w>
+        <pc> </pc>
+        <w n="029-033-010">درعا</w>
+        <pc> </pc>
+        <w n="029-033-011">وٯالوا</w>
+        <pc> </pc>
+        <w n="029-033-012">لا</w>
+        <pc> </pc>
+        <w n="029-033-013">ٮحڡ</w>
+        <pc> </pc>
+        <w n="029-033-014">ولا</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="029-033-015">
+          <supplied reason="omitted-in-original" source="#cairo_rasm">ٮحرں</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-033-016">اںا</w>
+        <pc> </pc>
+        <w n="029-033-017">مںحوک</w>
+        <pc> </pc>
+        <w n="029-033-018">واهلک</w>
+        <pc> </pc>
+        <w n="029-033-019">الا</w>
+        <pc> </pc>
+        <w n="029-033-020">امراٮک</w>
+        <pc> </pc>
+        <w n="029-033-021">کاںٮ</w>
+        <pc> </pc>
+        <w n="029-033-022">مں</w>
+        <pc> </pc>
+        <w n="029-033-023">العٮر</w>
+      </l>
+      <l n="4">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-033-023">ىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '33'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٣</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-034-001">اںا</w>
+        <pc> </pc>
+        <w n="029-034-002">مںرلوں</w>
+        <pc> </pc>
+        <w n="029-034-003">علے</w>
+        <pc> </pc>
+        <w n="029-034-004">اهل</w>
+        <pc> </pc>
+        <w n="029-034-005">هده</w>
+        <pc> </pc>
+        <w n="029-034-006">الٯرىه</w>
+        <pc> </pc>
+        <w n="029-034-007">رحرا</w>
+        <pc> </pc>
+        <w n="029-034-008">مں</w>
+        <pc> </pc>
+        <w n="029-034-009">ا-</w>
+      </l>
+      <l n="5">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-034-009">لسما</w>
+        <pc> </pc>
+        <w n="029-034-010">ٮما</w>
+        <pc> </pc>
+        <w n="029-034-011">کاںوا</w>
+        <pc> </pc>
+        <w n="029-034-012">ىڡسٯوں</w>
+        <pc> </pc>
+        <!-- Vers Break: '34'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٤</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-035-001">ولٯد</w>
+        <pc> </pc>
+        <w n="029-035-002">ٮرکںا</w>
+        <pc> </pc>
+        <w n="029-035-003">مںها</w>
+        <pc> </pc>
+        <w n="029-035-004">اىه</w>
+        <pc> </pc>
+        <w n="029-035-005">ٮىںه</w>
+        <pc> </pc>
+        <w n="029-035-006">-</w>
+        <pc> </pc>
+      </l>
+      <l n="6">
+        <note/>
+        <w n="029-035-007"><supplied reason="omitted-in-original" source="#cairo_rasm">لٯو</supplied>م
+        </w>
+        <pc> </pc>
+        <w n="029-035-008" type="unclear">ىعٯلوں</w>
+        <pc> </pc>
+        <!-- Vers Break: '35'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٥</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-036-001">والے</w>
+        <pc> </pc>
+        <w n="029-036-002">مدىں</w>
+        <pc> </pc>
+        <w n="029-036-003">احا
+            <supplied reason="omitted-in-original" source="#cairo_rasm">هم</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-036-004">سعىٮا</w>
+        <pc> </pc>
+        <w n="029-036-005">ڡٯال</w>
+        <pc> </pc>
+        <w n="029-036-006">ىٯوم</w>
+        <pc> </pc>
+        <w n="029-036-007">ا</w>
+      </l>
+      <l n="7">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-036-007">عٮدوا</w>
+        <pc> </pc>
+        <w n="029-036-008">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-036-009">وارحوا</w>
+        <pc> </pc>
+        <w n="029-036-010">الىوم</w>
+        <pc> </pc>
+        <w n="029-036-011">الا
+            <supplied reason="omitted-in-original" source="#cairo_rasm">حر</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-036-012">ولا</w>
+        <pc> </pc>
+        <w n="029-036-013">ٮعٮوا</w>
+        <pc> </pc>
+        <w n="029-036-014">-</w>
+        <pc> </pc>
+      </l>
+      <l n="8">
+        <note/>
+        <w n="029-036-015">ڡے</w>
+        <pc> </pc>
+        <w n="029-036-016">الارص</w>
+        <pc> </pc>
+        <w n="029-036-017" type="unclear">مڡسدىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '36'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٦</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-037-001">ڡکدٮوه</w>
+        <pc> </pc>
+        <w n="029-037-002">ڡاحدٮهم</w>
+        <pc> </pc>
+        <w n="029-037-003">الر-</w>
+      </l>
+      <l n="9">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-037-003">حڡه</w>
+        <pc> </pc>
+        <w n="029-037-004">ڡاصٮحوا</w>
+        <pc> </pc>
+        <w n="029-037-005">ڡے</w>
+        <pc> </pc>
+        <w n="029-037-006">دارهم</w>
+        <pc> </pc>
+        <w n="029-037-007">ح<add type="rasm">ا</add>ٮمىں
+        </w>
+        <pc> </pc>
+        <!-- Vers Break: '37'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٧</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-038-001">وعادا</w>
+        <pc> </pc>
+        <w n="029-038-002">وٮمو</w>
+      </l>
+      <l n="10">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-038-002">دا</w>
+        <pc> </pc>
+        <w n="029-038-003">وٯد</w>
+        <pc> </pc>
+        <w n="029-038-004">ٮٮىں</w>
+        <pc> </pc>
+        <w n="029-038-005">لکم</w>
+        <pc> </pc>
+        <w n="029-038-006">مں</w>
+        <pc> </pc>
+        <w n="029-038-007">مسکںهم</w>
+        <pc> </pc>
+        <w n="029-038-008">ورىں</w>
+        <pc> </pc>
+        <w n="029-038-009">لهم</w>
+        <pc> </pc>
+        <w n="029-038-010">السىطں</w>
+        <pc> </pc>
+      </l>
+      <l n="11">
+        <note/>
+        <w n="029-038-011">اعملهم</w>
+        <pc> </pc>
+        <w n="029-038-012">ڡصدهم</w>
+        <pc> </pc>
+        <w n="029-038-013">عں</w>
+        <pc> </pc>
+        <w n="029-038-014">السٮىل</w>
+        <pc> </pc>
+        <w n="029-038-015">وکاںوا</w>
+        <pc> </pc>
+        <w n="029-038-016">مسٮٮصرىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '38'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٨</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-039-001">
+          <supplied reason="omitted-in-original" source="#cairo_rasm">و</supplied>
+        </w>
+      </l>
+      <l n="12">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-039-001">ٯروں</w>
+        <pc> </pc>
+        <w n="029-039-002">وڡرعوں</w>
+        <pc> </pc>
+        <w n="029-039-003">وه<add type="rasm">ا</add>مں
+        </w>
+        <pc> </pc>
+        <w n="029-039-004">ولٯد</w>
+        <pc> </pc>
+        <w n="029-039-005">حاهم</w>
+        <pc> </pc>
+        <w n="029-039-006">موسے</w>
+        <pc> </pc>
+        <w n="029-039-007">
+          <supplied reason="omitted-in-original" source="#cairo_rasm">ٮالٮىں</supplied>
+          <add type="rasm">ا</add>
+        </w>
+      </l>
+      <l n="13">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-039-007">ٮ</w>
+        <pc> </pc>
+        <w n="029-039-008">ڡاسٮکٮروا</w>
+        <pc> </pc>
+        <w n="029-039-009">ڡے</w>
+        <pc> </pc>
+        <w n="029-039-010">الارص</w>
+        <pc> </pc>
+        <w n="029-039-011">وما</w>
+        <pc> </pc>
+        <w n="029-039-012">کاںوا</w>
+        <pc> </pc>
+        <w n="029-039-013">سٮٯىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '39'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٣٩</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-040-001">ڡ
+            <supplied reason="omitted-in-original" source="#cairo_rasm">کلا</supplied>
+        </w>
+        <pc> </pc>
+      </l>
+      <l n="14">
+        <note/>
+        <w n="029-040-002">احدںا</w>
+        <pc> </pc>
+        <w n="029-040-003">ٮدںٮه</w>
+        <pc> </pc>
+        <w n="029-040-004">ڡمںهم</w>
+        <pc> </pc>
+        <w n="029-040-005">مں</w>
+        <pc> </pc>
+        <w n="029-040-006">ارسلںا</w>
+        <pc> </pc>
+        <w n="029-040-007">علىه</w>
+        <pc> </pc>
+        <w n="029-040-008"><supplied reason="illigible" source="#cairo_rasm">ح</supplied>صٮا
+        </w>
+        <pc> </pc>
+        <w n="029-040-009">ومںهم</w>
+        <pc> </pc>
+        <w n="029-040-010">مں</w>
+        <pc> </pc>
+        <w n="029-040-011">ا</w>
+      </l>
+      <l n="15">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-040-011">
+          <unclear>حدٮه</unclear>
+        </w>
+        <pc> </pc>
+        <w n="029-040-012">الصىحه</w>
+        <pc> </pc>
+        <w n="029-040-013">ومںهم</w>
+        <pc> </pc>
+        <w n="029-040-014">مں</w>
+        <pc> </pc>
+        <w n="029-040-015">حسڡںا</w>
+        <pc> </pc>
+        <w n="029-040-016">ٮه</w>
+        <pc> </pc>
+        <w n="029-040-017">الارص</w>
+        <pc> </pc>
+        <w n="029-040-018"><supplied reason="omitted-in-original" source="#cairo_rasm">و</supplied>مںهم
+        </w>
+        <pc> </pc>
+        <w n="029-040-019">مں</w>
+        <pc> </pc>
+        <w n="029-040-020">ا</w>
+      </l>
+      <l n="16">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-040-020">عرٯںا</w>
+        <pc> </pc>
+        <w n="029-040-021">وما</w>
+        <pc> </pc>
+        <w n="029-040-022">کاں</w>
+        <pc> </pc>
+        <w n="029-040-023">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-040-024">لىطلمهم</w>
+        <pc> </pc>
+        <w n="029-040-025">ولکں</w>
+        <pc> </pc>
+        <w n="029-040-026">کانوا</w>
+        <pc> </pc>
+        <w n="029-040-027">اںڡسهم</w>
+        <pc> </pc>
+      </l>
+      <l n="17">
+        <note/>
+        <w n="029-040-028">
+          <unclear>ىطلموں</unclear>
+        </w>
+        <pc>
+          <unclear> </unclear>
+        </pc>
+        <!-- Vers Break: '40'-->
+        <w n="000-000-000">
+          <unclear>۝</unclear>
+          <supplied reason="omitted-in-original" source="#cairo_rasm">٤٠</supplied>
+        </w>
+        <pc>
+          <unclear> </unclear>
+        </pc>
+        <w n="029-041-001">مٮل</w>
+        <pc> </pc>
+        <w n="029-041-002">الدىں</w>
+        <pc> </pc>
+        <w n="029-041-003">اٮحدوا</w>
+        <pc> </pc>
+        <w n="029-041-004">م
+            <supplied reason="omitted-in-original" source="#cairo_rasm">ں</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-041-005"><supplied reason="omitted-in-original" source="#cairo_rasm">د</supplied>وں
+        </w>
+        <pc> </pc>
+        <w n="029-041-006">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-041-007">اولىا</w>
+        <pc> </pc>
+      </l>
+      <pb xml:id="f.1v"/>
+      <!-- Page ID: 1422,f. 1v,029:041:008-029:050:004 -->
+      <!-- Lines: 17; Valid Lines: 17 -->
+      <l n="1">
+        <note/>
+        <w n="029-041-008">کمٮل</w>
+        <pc> </pc>
+        <w n="029-041-009">العںکٮوٮ</w>
+        <pc> </pc>
+        <w n="029-041-010">اٮحدت</w>
+        <pc> </pc>
+        <w n="029-041-011">ٮىٮا</w>
+        <pc> </pc>
+        <w n="029-041-012">وان</w>
+        <pc> </pc>
+        <w n="029-041-013">اوهں</w>
+        <pc> </pc>
+        <w n="029-041-014">الٮىوٮ</w>
+        <pc> </pc>
+      </l>
+      <l n="2">
+        <note/>
+        <w n="029-041-015">لٮىٮ</w>
+        <pc> </pc>
+        <w n="029-041-016">العںکٮوٮ</w>
+        <pc> </pc>
+        <w n="029-041-017">لو</w>
+        <pc> </pc>
+        <w n="029-041-018">کاںوا</w>
+        <pc> </pc>
+        <w n="029-041-019">ىعلموں</w>
+        <pc> </pc>
+        <!-- Vers Break: '41'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤١</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-042-001">ان</w>
+        <pc> </pc>
+        <w n="029-042-002">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-042-003">ىعلم</w>
+        <pc> </pc>
+      </l>
+      <l n="3">
+        <note/>
+        <w n="029-042-004">ما</w>
+        <pc> </pc>
+        <w n="029-042-005">ىدعوں</w>
+        <pc> </pc>
+        <w n="029-042-006">مں</w>
+        <pc> </pc>
+        <w n="029-042-007">دوںه</w>
+        <pc> </pc>
+        <w n="029-042-008">مں</w>
+        <pc> </pc>
+        <w n="029-042-009">سے</w>
+        <pc> </pc>
+        <w n="029-042-010">وهو</w>
+        <pc> </pc>
+        <w n="029-042-011">العرىر</w>
+        <pc> </pc>
+        <w n="029-042-012">الحکىم</w>
+        <pc> </pc>
+        <!-- Vers Break: '42'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٢</supplied>
+        </w>
+        <pc> </pc>
+      </l>
+      <l n="4">
+        <note/>
+        <w n="029-043-001">وٮلک</w>
+        <pc> </pc>
+        <w n="029-043-002">الامٮل</w>
+        <pc> </pc>
+        <w n="029-043-003">ںصرٮها</w>
+        <pc> </pc>
+        <w n="029-043-004">للناس</w>
+        <pc> </pc>
+        <w n="029-043-005">وما</w>
+        <pc> </pc>
+        <w n="029-043-006">ىعٯلها</w>
+        <pc> </pc>
+        <w n="029-043-007">الا</w>
+        <pc> </pc>
+        <w n="029-043-008">العلموں</w>
+        <pc> </pc>
+        <!-- Vers Break: '43'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٣</supplied>
+        </w>
+        <pc> </pc>
+      </l>
+      <l n="5">
+        <note/>
+        <w n="029-044-001">حلٯ</w>
+        <pc> </pc>
+        <w n="029-044-002">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-044-003">السموٮ</w>
+        <pc> </pc>
+        <w n="029-044-004">والارص</w>
+        <pc> </pc>
+        <w n="029-044-005">ٮالحٯ</w>
+        <pc> </pc>
+        <w n="029-044-006">ان</w>
+        <pc> </pc>
+        <w n="029-044-007">ڡے</w>
+        <pc> </pc>
+        <w n="029-044-008">دلک</w>
+        <pc> </pc>
+      </l>
+      <l n="6">
+        <note/>
+        <w n="029-044-009">لاىه</w>
+        <pc> </pc>
+        <w n="029-044-010">للمومںىں</w>
+        <pc> </pc>
+        <!-- Vers Break: '44'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٤</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-045-001">اٮل</w>
+        <pc> </pc>
+        <w n="029-045-002">ما</w>
+        <pc> </pc>
+        <w n="029-045-003">اوحے</w>
+        <pc> </pc>
+        <w n="029-045-004">الىک</w>
+        <pc> </pc>
+        <w n="029-045-005">مں</w>
+        <pc> </pc>
+        <w n="029-045-006">الکٮٮ</w>
+        <pc> </pc>
+        <w n="029-045-007">واٯم</w>
+        <pc> </pc>
+      </l>
+      <l n="7">
+        <note/>
+        <w n="029-045-008">الصلوه</w>
+        <pc> </pc>
+        <w n="029-045-009">ان</w>
+        <pc> </pc>
+        <w n="029-045-010">الصلوه</w>
+        <pc> </pc>
+        <w n="029-045-011">ٮںهى</w>
+        <pc> </pc>
+        <w n="029-045-012">عن</w>
+        <pc> </pc>
+        <w n="029-045-013">الڡحسا</w>
+        <pc> </pc>
+        <w n="029-045-014">والمںکر</w>
+        <pc> </pc>
+        <w n="029-045-015">و-</w>
+      </l>
+      <l n="8">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-045-015">لدکر</w>
+        <pc> </pc>
+        <w n="029-045-016">الل‍ه</w>
+        <pc> </pc>
+        <w n="029-045-017">اکٮر</w>
+        <pc> </pc>
+        <w n="029-045-018">والل‍ه</w>
+        <pc> </pc>
+        <w n="029-045-019">ىعلم</w>
+        <pc> </pc>
+        <w n="029-045-020">ما</w>
+        <pc> </pc>
+        <w n="029-045-021">ٮصںعوں</w>
+        <pc> </pc>
+        <!-- Vers Break: '45'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٥</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-046-001">ولا</w>
+        <pc> </pc>
+        <w n="029-046-002">ٮحد</w>
+      </l>
+      <l n="9">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-046-002">لوا</w>
+        <pc> </pc>
+        <w n="029-046-003">اهل</w>
+        <pc> </pc>
+        <w n="029-046-004">الکٮٮ</w>
+        <pc> </pc>
+        <w n="029-046-005">الا</w>
+        <pc> </pc>
+        <w n="029-046-006">ٮالٮى</w>
+        <pc> </pc>
+        <w n="029-046-007">هى</w>
+        <pc> </pc>
+        <w n="029-046-008">احسن</w>
+        <pc> </pc>
+        <w n="029-046-009">الا</w>
+        <pc> </pc>
+        <w n="029-046-010">الدىں</w>
+        <pc> </pc>
+        <w n="029-046-011">طلمو</w>
+      </l>
+      <l n="10">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-046-011">ا</w>
+        <pc> </pc>
+        <w n="029-046-012">مںهم</w>
+        <pc> </pc>
+        <w n="029-046-013">وٯولوا</w>
+        <pc> </pc>
+        <w n="029-046-014">امنا</w>
+        <pc> </pc>
+        <w n="029-046-015">ٮالدے</w>
+        <pc> </pc>
+        <w n="029-046-016">اںرل</w>
+        <pc> </pc>
+        <w n="029-046-017">الىںا</w>
+        <pc> </pc>
+        <w n="029-046-018">واںرل</w>
+        <pc> </pc>
+        <w n="029-046-019">ا-</w>
+      </l>
+      <l n="11">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-046-019">لىکم</w>
+        <pc> </pc>
+        <w n="029-046-020">والهںا</w>
+        <pc> </pc>
+        <w n="029-046-021">والهکم</w>
+        <pc> </pc>
+        <w n="029-046-022">وحد</w>
+        <pc> </pc>
+        <w n="029-046-023">وںحن</w>
+        <pc> </pc>
+        <w n="029-046-024">له</w>
+        <pc> </pc>
+        <w n="029-046-025">مسلموں</w>
+        <pc> </pc>
+        <!-- Vers Break: '46'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٦</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-047-001">و-</w>
+      </l>
+      <l n="12">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-047-001">کدلک</w>
+        <pc> </pc>
+        <w n="029-047-002">اںرلنا</w>
+        <pc> </pc>
+        <w n="029-047-003">الىک</w>
+        <pc> </pc>
+        <w n="029-047-004">الکٮٮ</w>
+        <pc> </pc>
+        <w n="029-047-005">ڡالدىں</w>
+        <pc> </pc>
+        <w n="029-047-006">اٮىںهم</w>
+        <pc> </pc>
+        <w n="029-047-007">الکٮٮ</w>
+      </l>
+      <l n="13">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-047-007">ىومنوں</w>
+        <pc> </pc>
+        <w n="029-047-008">ٮه</w>
+        <pc> </pc>
+        <w n="029-047-009">ومں</w>
+        <pc> </pc>
+        <w n="029-047-010">هولا</w>
+        <pc> </pc>
+        <w n="029-047-011">مں</w>
+        <pc> </pc>
+        <w n="029-047-012">ىومں</w>
+        <pc> </pc>
+        <w n="029-047-013">ٮه</w>
+        <pc> </pc>
+        <w n="029-047-014">وما</w>
+        <pc> </pc>
+        <w n="029-047-015">ىححد</w>
+        <pc> </pc>
+        <w n="029-047-016">ٮاى<add type="rasm">ى</add>ٮںا
+        </w>
+        <pc> </pc>
+        <w n="029-047-017">ا-</w>
+      </l>
+      <l n="14">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-047-017">لا</w>
+        <pc> </pc>
+        <w n="029-047-018">الکڡروں</w>
+        <pc> </pc>
+        <!-- Vers Break: '47'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٧</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-048-001">وما</w>
+        <pc> </pc>
+        <w n="029-048-002">کںٮ</w>
+        <pc> </pc>
+        <w n="029-048-003">ٮٮلوا</w>
+        <pc> </pc>
+        <w n="029-048-004">مں</w>
+        <pc> </pc>
+        <w n="029-048-005">ٯٮله</w>
+        <pc> </pc>
+        <w n="029-048-006">من</w>
+        <pc> </pc>
+        <w n="029-048-007">کت<add type="rasm">ا</add>ٮ
+        </w>
+        <pc> </pc>
+        <w n="029-048-008">و</w>
+      </l>
+      <l n="15">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-048-008">لا</w>
+        <pc> </pc>
+        <w n="029-048-009">ٮحطه</w>
+        <pc> </pc>
+        <w n="029-048-010">ٮىمىںک</w>
+        <pc> </pc>
+        <w n="029-048-011">ادا</w>
+        <pc> </pc>
+        <w n="029-048-012">لارٮاٮ</w>
+        <pc> </pc>
+        <w n="029-048-013">المٮطلوں</w>
+        <pc> </pc>
+        <!-- Vers Break: '48'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٨</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-049-001">ٮل</w>
+        <pc> </pc>
+        <w n="029-049-002">هو</w>
+        <pc> </pc>
+        <w n="029-049-003">ا-</w>
+      </l>
+      <l n="16">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-049-003">ىٮ</w>
+        <pc> </pc>
+        <w n="029-049-004">ٮىںٮ</w>
+        <pc> </pc>
+        <w n="029-049-005">ڡے</w>
+        <pc> </pc>
+        <w n="029-049-006">صدور</w>
+        <pc> </pc>
+        <w n="029-049-007">الدىں</w>
+        <pc> </pc>
+        <w n="029-049-008">اوٮوا</w>
+        <pc> </pc>
+        <w n="029-049-009">العلم</w>
+        <pc> </pc>
+        <w n="029-049-010">و-</w>
+      </l>
+      <l n="17">
+        <note/>
+        <!-- Continued from last line -->
+        <w n="029-049-010">ما</w>
+        <pc> </pc>
+        <w n="029-049-011">ىححد</w>
+        <pc> </pc>
+        <w n="029-049-012">ٮاى<add type="rasm">ى</add>ٮںا
+        </w>
+        <pc> </pc>
+        <w n="029-049-013">الا</w>
+        <pc> </pc>
+        <w n="029-049-014">الطلموں</w>
+        <pc> </pc>
+        <!-- Vers Break: '49'-->
+        <w n="000-000-000">۝
+            <supplied reason="omitted-in-original" source="#cairo_rasm">٤٩</supplied>
+        </w>
+        <pc> </pc>
+        <w n="029-050-001">وٯالوا</w>
+        <pc> </pc>
+        <w n="029-050-002">لولا</w>
+        <pc> </pc>
+        <w n="029-050-003">اںرل</w>
+        <pc> </pc>
+        <w n="029-050-004">علىه</w>
+      </l>
+    </body>
+  </text>
+</TEI>

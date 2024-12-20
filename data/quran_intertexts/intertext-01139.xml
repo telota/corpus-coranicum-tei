@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Slawisches Henochbuch 25:1-5</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1139" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1139</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Q 10:3, Q 13:2, Q 32:4 und Q 57:4 berichten,
+	dass sich Gott nach der Erschaffung der Welt auf seinen Thron gesetzt habe. Auch Q 20:5 spricht vom thronenden Gott, nachdem in Q 20:4 auf die Erschaffung des Himmels und der Erde Bezug genommen wurde. Ignaz Goldziher weist darauf hin, dass sich Gott auch in der jüdischen Tradition erst nach der Schöpfung auf den Thron gesetzt habe; diese Vorstellung habe auch Eingang in die Sabbatliturgie gefunden (Goldziher 1900: p. 88) (vgl. auch Speyer 1931: p. 24). Eine ähnliche Vorstellung ist auch im hier zitierten Slawischen Henochbuch belegt, wo sich Gott allerdings schon während der Schöpfung auf seinen Thron setzt. Zum göttlichen Thron vgl. auch TUK_0639, TUK_0546 und O'Shaughnessy 1973.
+
+	Eingebettet in die Erzählung von der Himmelsreise Henochs, seiner Rückkehr und seiner Mahnreden an seine Söhne, sowie der Begründung des Priestertums durch Methusalem, Nir und Melchisedek, behandelt das Slawische Henochbuch die Themen Kosmologie, Weisheit, Ethik und Kult. Obwohl nicht identisch mit dem Äthiopischen Henochbuch, setzt das Slawische Henochbuch die dort enthaltenen Henochtraditionen voraus und verrät an mehreren Stellen sogar eine direkte Abhängigkeit. Dennoch handelt es sich beim Slawischen Henochbuch um ein eigenständiges Werk, das dem hellenistischen Judentum in der Diaspora zuzuordnen ist, und in dem sich der Versuch einer Vermittlung von jüdischem Glauben mit den Vorstellungen einer religiös vielfältigen Umwelt erkennen lässt. Während der Großteil des Buches vor der Zerstörung des Tempels entstanden ist, lassen sich auch spätere Interpolationen identifizieren, so jüdisch-mystische, frühchristliche und byzantinisch-chronographische. Verschiedene Indizien sprechen dafür, dass das Slawische Henochbuch ursprünglich auf griechisch verfasst wurde. Ungelöst bleibt in diesem Fall aber das Problem der jüdisch-mystischen Interpolationen, die auch Eingang in die christliche Bearbeitung und Überlieferung des Buches fanden. Erhalten ist das Buch heute nur noch auf altkirchenslawisch. Es wurde ca. im 10./11. Jh. aus dem Griechischen ins Altkirchenslawische übersetzt und in Sammelbände aufgenommen, die Viten, Gebete, Väterzitate, Homilien etc. vereinten und damit auch günstige Überlieferungsbedingungen für verschiedene Apokryphen boten. (Vgl. dazu Böttrich 1996: p. 785-819).
+</summary>
+            <msItem>
+              <title>Slawisches Henochbuch 25:1-5</title>
+              <author/>
+              <textLang mainLang="chu">Altkirchenslawisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">1. Jh. n. Chr. (noch vor 70 n. Chr.)</origDate>
+              <origPlace>Alexandria</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition"/>
+              <bibl type="literatur">B&amp;#xF6;ttrich, Christfried (Hrsg.): Das slavische Henochbuch. G&amp;#xFC;tersloh 1996.</bibl>
+              <bibl type="literatur">Goldziher, Ignaz: &amp;#x201E;Die Sabbatinstitution im Islam&amp;#x201C;. In: Markus Brann &amp;amp; Ferdinand Rosenthal (Hrsg.), Gedenkbuch zur Erinnerung an David Kaufmann. Breslau 1900, S. 86&amp;#x2013;102.</bibl>
+              <bibl type="literatur">O&amp;#x2019;Shaughnessy, Thomas: &amp;#x201E;God&amp;#x2019;s Throne and the Biblical Symbolism of the Qur&amp;#x2BE;&amp;#x101;n&amp;#x201C;. In: Numen 20 Fasc. 3 (1973), S. 202&amp;#x2013;221.</bibl>
+              <bibl type="literatur">Speyer, Heinrich: Die biblischen Erz&amp;#xE4;hlungen im Qoran. C. Schulze, Gr&amp;#xE4;fenhainichen 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="chu">
+        <p>Dieser Teil wird zur Zeit bearbeitet.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Und ich [Gott] befahl im Obersten: "Es komme eines aus dem Unsichtbaren herab als Sichtbares." Und es kam der überaus große Adoil herab. Und ich betrachtete ihn, und siehe, er hatte im Leib ein großes Licht. 2 Und ich sprach zu ihm: "Löse dich auf, Adoil, und das aus dir zu gebärende werde sichtbar!" Und er löste sich auf, [und] es kam ein sehr großes Licht hervor. 3 Und ich war inmitten des Lichtes. Und während das Licht schwebte, da ging aus dem Licht ein großer Äon hervor, der die ganze Schöpfung offenbarte, die ich zu schaffen erwog. Und ich sah, daß es gut war. 4 Und ich stellte mir selbst einen Thron hin und setzte mich auf ihn. Und dem Licht sagte ich: "Gehe du über den Thron hinauf und werde fest, und werde das Fundament für das Oberste!" 5 Und etwas anderes höheres als das Licht gibt es nicht. Und wiederum beugte ich mich herab und schaute auf von meinem Thron.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1589">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cambridge, Cambridge University Library, MS Or.772b</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="4">Cambridge University Library
+                            , Cambridge</repository>
+            <idno>MS Or.772b</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 folio; Writing surface: parchment; Shelfmark: MS Or.772b; Text: Q 23:81-86; 15 Lines per page; Dimensions: 169 x 130 mm; Script style: kūfī D Va; Estimated date of production: 9th or 10th century AD /3rd or 4th century Hijri.</p>
+              <p> </p>
+              <p>For further information see the <ref target="https://cudl.lib.cam.ac.uk/view/MS-OR-00772/3">entry by Ignacio Sanchez</ref> on the collective manuscript MS Or.772 (now split into <ref target="https://corpuscoranicum.de/en/manuscripts/1588/page/1r">MS Or.772a</ref> and 772b) in the Digital Library of the University of Cambridge.</p>
+            </summary>
+            <msItem xml:id="mysql_id_690300" n="1r">
+              <title type="numeric" key="023:081:006-023:083:004">
+                                    023:081:006-023:083:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_690301" n="1v">
+              <title type="numeric" key="023:084:008-023:086:007">
+                                    023:084:008-023:086:007
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>169</width><height>130</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī D.Va
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>800-1000</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p/>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_50260">
+      <graphic decls="#imageRights-1" url="manuscript/1589/2cc1d471-4c1c-493e-b296-35e4149f9a16/manuscript-1589-page-50260-image-37410.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_50261">
+      <graphic decls="#imageRights-1" url="manuscript/1589/9b83a124-53c1-4430-abf9-ce5d4c4993e7/manuscript-1589-page-50261-image-37411.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

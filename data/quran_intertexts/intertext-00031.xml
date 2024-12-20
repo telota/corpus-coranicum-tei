@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Leviticus Rabba, Parascha 7:6</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_31" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>31</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	In Q 11:40 findet sich der Ausdruck arab. fāra t-tannūr, wörtlich "der Ofen kochte hoch, wurde sprudelnd heiß", was gemeinhin so verstanden wird, dass die Wasser der Sintflut heiß gewesen seien, vgl. z.B. Paret 1977: p. 235. Sowohl Geiger 1833: p. 108 als auch Speyer 1931: p. 103  weisen auf Parallelen in der rabbinischen Literatur hin, von denen hier ein Beispiel gegeben wird (vgl. aber auch Genesis Rabba 28:9). Der hier vorliegende Text beschreibt, dass die Wasser der Sintflut in der Hölle erhitzt worden seien. Dieser explizite Bezug findet sich nicht in Q 11:40, es sei jedoch darauf hingewiesen, dass koranisch fāra in Q 67:7 auch in Bezug auf die Hölle gebraucht wird: "...wenn sie dort [in die Hölle] hineingeworfen werden, hört man sie schreien, während sie [die Hölle] aufkocht (tafūru)". Es ist also möglich, dass mit tannūr in Q 11:40 auch die Hölle gemeint sein könnte. Immerhin zeigen der Koran und die rabbinische Tradition ähnliche Vorstellungen.
+</summary>
+            <msItem>
+              <title>Leviticus Rabba, Parascha 7:6</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">etwa 3. Jh. n. Chr. (Endredaktion zwischen 400-500)</origDate>
+              <origPlace>Levante (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">M. Margulies, Midrash Wayyikra Rabbah. A Critical Edition based on Manuscripts and Genizah Fragments with Variants and Notes, 5 Bände, Jerusalem 1953-60.</bibl>
+              <bibl type="literatur">Geiger, Abraham. Was Hat Mohammed Aus Dem Judenthume Aufgenommen?: Eine von Der K&amp;#xF6;nigl. Preussischen Rheinuniversit&amp;#xE4;t Gekr&amp;#xF6;nte Preisschrift. Bonn: Selbstverl., 1833.</bibl>
+              <bibl type="literatur">Paret, Rudi. Der Koran: Kommentar Und Konkordanz. 2. Aufl. Stuttgart [u.a.]: Kohlhammer, 1977.</bibl>
+              <bibl type="literatur">Speyer, Heinrich. Die Biblischen Erz&amp;#xE4;hlungen Im Qoran. Gr&amp;#xE4;fenhainichen: C. Schulze, 1931.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">David Kiltz</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>%3Cp%3E%0D%0A%09%D7%90%D7%9E%27+%D7%A8%27+%D7%9C%D7%95%D7%99+%D7%A0%D7%95%D7%9E%D7%95%D7%A1+%D7%94%D7%95%D7%90+%D7%95%D7%A7%D7%99%D7%9C%D7%95%D7%A1%D7%99%D7%9F+%D7%94%D7%95%D7%90+%D7%A9%D7%9B%D7%9C+%D7%9E%D7%99+%D7%A9%D7%9E%D7%AA%D7%92%D7%90%D7%94+%D7%9C%D7%A4%D7%A0%D7%99+%D7%94%D7%9E%D7%A7%D7%95%D7%9D+%D7%90%D7%99%D7%A0%D7%95+%D7%A0%D7%99%D7%93%D7%95%D7%9F+%D7%90%D7%9C%D7%90+%D7%91%D7%90%D7%A9.+%D7%93%D7%95%D7%A8+%D7%94%D7%9E%D7%91%D7%95%D7%9C+%D7%A2%D7%9C+%D7%99%D7%93%D7%99+%D7%A9%D7%A0%D7%AA%D7%92%D7%90%D7%95+%D7%95%D7%90%D7%9E%D7%A8%D7%95+%D7%9E%D7%94+%D7%A9%D7%93%D7%99+%D7%9B%D7%99+%D7%A0%D7%A2%D7%91%D7%93%D7%A0%D7%95%2C+%D7%9C%D7%90+%D7%A0%D7%99%D7%93%D7%95%D7%A0%D7%95+%D7%90%D7%9C%D7%90+%D7%91%D7%90%D7%A9%2C+%D7%94%D7%94%22%D7%93+%D7%91%D7%A2%D7%AA+%D7%99%D7%96%D7%95%D7%A8%D7%91%D7%95+%D7%A0%D7%A6%D7%9E%D7%AA%D7%95+%D7%91%D7%97%D7%95%D7%9E%D7%95+%D7%A0%D7%93%D7%A2%D7%9B%D7%95+%D7%9E%D7%9E%D7%A7%D7%95%D7%9E%D7%9D.+%D7%9E%D7%94%D7%95+%D7%91%D7%97%D7%95%D7%9E%D7%95%2C+%D7%91%D7%A8%D7%95%D7%AA%D7%97%D7%99%D7%9F.+%D7%90%D7%9E%27+%D7%A8%27+%D7%99%D7%95%D7%97%D7%A0%D7%9F+%D7%9B%D7%9C+%D7%98%D7%99%D7%A4%D7%94+%D7%95%D7%98%D7%99%D7%A4%D7%94+%D7%A9%D7%94%D7%99%D7%94+%D7%94%D7%A7%27+%D7%9E%D7%95%D7%A8%D7%99%D7%93%D7%94+%D7%A2%D7%9C%D7%99%D7%94%D7%9F+%D7%94%D7%99%D7%94+%D7%9E%D7%A8%D7%AA%D7%99%D7%97%D7%94+%D7%91%D7%AA%D7%95%D7%9A+%D7%92%D7%94%D7%99%D7%A0%D7%9D%3C%2Fp%3E%0D%0A</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	R. Levi sagte: Damit wird uns eine schöne Lehre gegeben, daß jeder Stolze nur durch Feuer gerichtet wird. So wurde das Geschlecht der Flut, welches sich brüstete und sprach: "Wer ist der Allmächtige, daß wir ihm dienen sollten?" (Hiob 21:11), nur durch Feuer gerichtet, wie es heißt: "Zur Zeit, da sie von der Glut getroffen wurden, verschwanden sie. In der Hitze versiegen sie von ihrer Stelle." (Hiob 6:17) – Was heißt b-ḥummo? "Im Sieden". R. Jochanan sagt: Jeder Tropfen, welchen Gott über das Geschlecht der Flut brachte, kochte in der Hölle.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

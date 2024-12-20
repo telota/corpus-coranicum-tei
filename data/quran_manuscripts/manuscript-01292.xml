@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1292">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los Angeles, California, Los Angeles County Museum of Art, M.2002.1.385</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: LACMA.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="64">Los Angeles County Museum of Art
+                            , Los Angeles, California</repository>
+            <idno>M.2002.1.385</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>Single parchment folio, Shelfmark: M.2002.1.385; Qurʾānic Text: 7:38-45; Lines per page: 16; Dimensions: 210 x 260 mm; Script style: kūfī type B.Ib; Estimated date of production: 750-900. The website of <ref target="https://collections.lacma.org/node/204558">Los Angeles County Museum has the following information about this fragment (consulted June 16th, 2021):</ref> "Page from a Manuscript of the Qur'an (7:38-45; 7:45-54), Arabia, Hijaz, second half of 8th-early 9th century, Manuscripts; folios, Ink on parchment, Folio, overall: 8 1/4 x 10 1/4 in. (20.96 x 26.04 cm); Text block: 7 3/16 x 8 3/4 in. (18.26 x 22.23 cm), The Madina Collection of Islamic Art, gift of Camilla Chandler Frost (M.2002.1.385), Art of the Middle East: Islamic and Contempory." Only an image of one side of the fragment is currently available which is labeled "fol. 1r" for technical reasons. For a detailed description of fragments of this early Qurʾān and a list of sister fragments in the collections of Gotha, London, Paris and Philadelphia, see the catalogue entry by <ref target="https://corpuscoranicum.de/handschriften/index/sure/18/vers/59?handschrift=1366">Marcus Fraser about Qatar National Library HC.MS.03190</ref>.  </p>
+            </summary>
+            <msItem xml:id="mysql_id_681169" n="1r">
+              <title type="numeric" key="007:038:013-007:045:006">
+                                    007:038:013-007:045:006
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>210</width><height>260</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="16">16 - 16 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī B.Ib
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-900</origDate>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>assistance: Salome Beridze</p>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_41203">
+      <graphic decls="#imageRights-1" url="manuscript/1292/931e8b5e-0da9-4816-bedb-6b1e82e84c91/manuscript-1292-page-41203-image-26507.tiff"/>
+    </surface>
+  </facsimile>
+</TEI>

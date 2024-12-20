@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_1599">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Detroit, Michigan, Detroit Institute of Arts, 30.317</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: City of Detroit Purchase.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="96">Detroit Institute of Arts
+                            , Detroit, Michigan</repository>
+            <idno>30.317</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <p>1 fol. on parchment; Shelfmark: 30.317; Qurʾānic Text: Q 43:76-44:3; Lines per page: 12; Script style: kūfī (type C); Dimensions: 546 x 622 mm; Estimated date of production: uncertain, might be a modern copy. </p>
+              <p> </p>
+              <p>See information about this fragment on the<ref target="https://www.dia.org/art/collection/object/quran-folio-49343"> website of the Detroit Institute of Arts</ref>. This fragment was mentioned by Eléonore Cellard in a <ref target="https://twitter.com/CellardEleonore/status/1303638076963524610">twitter message</ref> on September 9, 2020.</p>
+              <p>  </p>
+              <p>Measurements and script style are similar to fragments of a voluminous codex of Egyptian origin kept in Paris, Gotha, Istanbul and Cairo (where apparently - according to the website <ref target="https://www.islamic-awareness.org/quran/text/mss/dak139.html">Islamic Awareness </ref>- more than 300 fol. are preserved - albeit unaccessible - by the Egyptian National Library), see overview in <ref target="https://corpuscoranicum.de/de/verse-navigator/sura/43/verse/85/manuscripts/171/page/3v">Gotha ms. orient. A 462</ref>.   </p>
+              <p>A large part of the Qurʾānic text included in this folio (fol. 1r: Q 43:76 word 2 - Q 43:84 word 4; fol. 1v Q 43:84 word 5 - Q 44:3 word 4) is contained in <ref target="https://corpuscoranicum.de/de/manuscripts/171/page/3r?sura=43&amp;amp;verse=85">Gotha ms. orient. A 462 fol. 3r</ref> (Q 43:80 word 6 - Q43:85 word 10 ): and <ref target="https://corpuscoranicum.de/de/manuscripts/171/page/3v?sura=43&amp;amp;verse=85">fol. 3v</ref> (Q 43:52 word 6 - Q 46:15 word 5). This indicates that the folio does not originally belong to the codex. Until September 2020 the page was labelled by the Detroit Institute of Arts,as “Forgery of a Qur'ān Folio, early 20th century”, in February 2022 the website of the museum mentions as date "11th - 12th century". However, the question remains open when this folio was produced; scientific analysis (carbon dating) of the parchment and ink analysis could possibly contribute to  a better understanding of this fragment of the Qurʾān.</p>
+            </summary>
+            <msItem xml:id="mysql_id_690386" n="1r">
+              <title type="numeric" key="043:076:002-043:084:004">
+                                    043:076:002-043:084:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_698565" n="1v">
+              <title type="numeric" key="043:084:005-044:003:004">
+                                    043:084:005-044:003:004
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 1
+                                    <dimensions unit="mm"><width>622</width><height>546</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="12">12 - 12 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī C
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate/>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="1r" xml:id="mysql_id_50346">
+      <graphic decls="#imageRights-1" url="manuscript/1599/bcadca15-f03c-49a7-ab75-be01f660ab4c/manuscript-1599-page-50346-image-37600.jpg"/>
+      <graphic decls="#imageRights-1" url="manuscript/1599/43bd375e-7506-4459-8f65-c8565ce6a64e/manuscript-1599-page-50346-image-44332.jpeg"/>
+    </surface>
+    <surface n="1v" xml:id="mysql_id_54300">
+      <graphic decls="#imageRights-1" url="manuscript/1599/25ce61ca-f939-4b3c-af5a-60b3ddebb6cb/manuscript-1599-page-54300-image-44333.jpeg"/>
+    </surface>
+  </facsimile>
+</TEI>

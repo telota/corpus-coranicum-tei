@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>4 Esra  6:38-53</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1117" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1117</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Q 21:30 zufolge schuf Gott aus Wasser alles Lebende (kulla šaiʾin ḥaiyin). Die Schöpfung aus Wasser findet sich auch in 4 Esra, wo allerdings im Unterschied zum Koran das Wasser nur Vögel und Fische (volatilia et pisces) hervorbringt, die Erde dagegen Vieh und Kriechtiere (bestias et reptilia).Beim 4. Buch Esra handelt es sich um eine pseudepigraphische Schrift, in der Esra von sieben Visionen erzählt, die er nach dem Untergang Jerusalems (587 v. Chr.) in Babel gehabt habe. In den Visionen 1-3 diskutiert Esra mit dem Engel Uriel und fragt diesen nach dem Leid, das Israel ertragen muß, und dem Ausbleiben von Gottes Verheißung. Der Engel Uriel verweist in seinen Antworten auf die kommende Welt, sowie darauf, dass Gottes Wege unergründlich seien. In den Visionen 4-6 sieht Esra zukünftige Ereignisse, wie die kommende Herrlichkeit Zions, die Macht des vierten Weltreichs und sein schließliches Verschwinden, den Tag des Gerichts und das Kommen des Messias. In der 7. Vision erhält Esra seinen Offenbarungsauftrag. Das Buch endet mit der Entrückung Esras. Entstanden ist das 4. Buch Esra vermutlich in der Zeit nach der Zerstörung des zweiten Tempels (70 n. Chr.). Ursprünglich wurde 4 Esra auf Hebräisch oder vielleicht auch Aramäisch verfasst. Es liegt allerdings nur auf Latein, Syrisch, Äthiopisch, Georgisch, Armenisch und Arabisch vor, sowie in einem koptischen (sahidischen) Fragment. Diese Versionen beruhen alle wiederum auf einer griechischen Übersetzung, die aber nur in Zitaten erhalten ist, wobei Latein, Syrisch, Äthiopisch und Georgisch der griechischen Version am nächsten stehen. Die Benennung als "4. Buch Esra" beruht auf der Reihenfolge in der Vulgata. (Vgl. dazu Schreiner 1981: p. 291-306)
+</summary>
+            <msItem>
+              <title>4 Esra  6:38-53</title>
+              <author/>
+              <textLang mainLang="lat">Lateinisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 100 n. Chr.</origDate>
+              <origPlace>Palästina (?)</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Gryson, Roger und Weber, Robert. Biblia Sacra Vulgata. Editio quinta. Stuttgart 2007.</bibl>
+              <bibl type="literatur">Schreiner, Josef. Das 4. Buch Esra. Vol. Band V, Lieferung 4. J&amp;#xFC;dische Schriften Aus Hellenistisch-R&amp;#xF6;mischer Zeit. G&amp;#xFC;tersloh, 1981.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="lat">
+        <p>38 et dixi: o Domine, loquens locutus es ab initio creaturae in primo die dicens: fiat caelum et terra, et tuum verbum opus perfecit. 39 et erat tunc spiritus volans, et tenebrae circumferebantur et silentium, sonus vocis hominis nondum erat abs te. 40 tunc dixisti de thesauris tuis proferri lumen quod luminis, utapparerent tunc opera tua. 41 et in die secundo iterum creasti spiritum firmamenti et imperasti ei, ut divideret et divisionem faceret inter aquas, ut pars quidem sursum recederet, pars vero deorsum maneret. 42 et tertio die imperasti aquis congregari in septima parte terrae, sex vero partes siccasti et conservasti, ut ex his sint coram te ministrantia seminata adeo et culta. 43 verbum enim tuum processit, et opus statim fiebat. 44 processit enim subito fructus multitudinis inmensus et concupiscentia gustus multiformis et flores colore inimitabili et odores odoramentis investigabiles. etdie tertio haec facta sunt. 45 quarta autem die imperasti fieri solis splendorem, lunae lumen stellarum dispositionem, 46 et imperasti eis, ut deservirent futuro plasmato homini. 47 quinto autem die dixisti septimae parti ubi erat aqua congregata, ut procrearet animalia, volatilia et pisces, et ita fiebat 48 aqua muta et sine anima, quod ei iubebatur, animalia faciens, ut ex hoc mirabilia tua nationes enarrent. 49 et tunc conservasti duas animas, nomen uni vocasti Enoch et nomen secundi vocasti Leviathan. 50 et separasti ea ab alterutro; non enim poterat septima pars ubi erat aqua congregata capere ea. 51 et dedisti Enoch unam partem quae siccata est tertio die, ut inhabitet in ea, ubi sunt montes mille. 52 Leviathae autem dedisti septimam partem humidam. et servasti ea, ut fiant in devorationem quibus vis et quando vis. 53 sexto autem die imperasti terrae, ut crearet coram te iumenta et bestias et reptilia.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>38 und ich sagte: Herr, deutlich hast du am Anfang der Schöpfung am ersten Tag gesprochen: Es werde Himmel und Erde. Dein Wort hat das Werk vollbracht. 39 Damals war nur schwebender Geist, und ringsumher war Finsternis verbreitet und Stillschweigen. Der Klang der Menschenstimme war noch nicht da durch dich. 40 Dann hast du befohlen, daß aus deinen Schatzkammern ein Strahl des Lichtes hervorgebracht werde, damit deine Werke sichtbar würden. 41 Am zweiten Tag hast du weiterhin den Geist des Firmaments geschaffen und ihm befohlen, [zu trennen und] eine Trennung zu vollziehen zwischen den Wassern, damit ein Teil nach oben zurückweicht, ein Teil aber unten bleibt. 42 Am dritten Tag hast du den Wassern befohlen, sich im siebten Teil zu versammeln; sechs Teile aber hast du getrocknet und bewahrt, damit (ein Teil) von ihnen vor dir bestellt, besät und bepflanzt werde. 43 Denn dein Wort ging hinaus, und sofort geschah das Werk. 44 Da sproßten sogleich Früchte in unendlicher Menge, begehrenswert durch vielfältigen Geschmack, Blumen von unnachahmlicher Farbe, vielgestaltige Bäume und Würzkräuter von unergründlichem Duft. Am dritten Tag ist das entstanden. 45 Am vierten Tag aber hast du befohlen, daß der Glanz der Sonne werde, das Licht des Mondes und die Ordnung der Sterne. 46 Du hast ihnen befohlen, dem Menschen, der geschaffen werden sollte, zu dienen. 47 Am fünften Tag aber hast du dem siebten Teil geboten, wo das Wasser gesammelt war, lebende Wesen hervorzubringen, Vögel und Fische. So geschah es. 48 Das stumme und unbeseelte Wasser hat [, was ihm befohlen war,] beseelte Wesen hervorgebracht, damit die Geschlechter deshalb deine Wunder erzählten. 49 Damals hast du zwei lebende Wesen, die du geschaffen hast, aufbewahrt; das eine hast du Behemoth, das andere Leviatan genannt. 50 Du hast sie voneinander getrennt; denn der siebte Teil, wo sich das Wasser gesammelt hat, konnte sie nicht fassen. 51 Du hast Behemoth einen der Teile gegeben, die am dritten Tag trocken geworden waren, damit er in ihm wohne; dort sind die tausend Berge. 52 Leviatan aber hast du den feuchten siebten Teil gegeben. Du hast sie aufbewahrt, damit sie zur Nahrung dienen sollten, wem du willst und wann du willst. 53 Am sechsten Tag hast du der Erde geboten, vor dir Vieh und wilde Kriechtiere hervorzubringen.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

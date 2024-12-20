@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalmen Salomos 18:10-12</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1131" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1131</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>	Den genannten Koranversen zufolge läuft der Mond die ihm gegebene Bahn ab und dient für die Menschen zur Berechnung der Zeiten. Ähnliche Aufgaben werden ihm auch in den Psalmen Salomos zugewiesen. Vgl. auch Genesis 1:14-19 (TUK_0750). Während die Psalmen Salomos den Charakter einer Hymne haben, ist die Beschreibung des Mondes im Koran Teil einer Argumentation, die sich der Schilderung verschiedener Manifestationen von Gottes schöpferischer Allmacht (im Koran ʾāyāt "Zeichen" genannt) bedient: Indem die Menschen Gottes Wirken in der Natur betrachten, müssten sie zum Glauben an Gott gelangen (vgl. dazu auch TUK_0909). Daneben teilen die genannten Koranstellen mit den Psalmen Salomos die Vorstellung von der göttlichen Ordnung. So gilt im Koran der Lauf der Gestirne, der die Einteilung der Zeit ermöglicht, als von Gott geschaffen. In den Psalmen Salomos wird entsprechend hervorgehoben, dass Sonne und Mond in Gottesfurcht ihre Bahnen ablaufen, von denen sie ohne Gottes Willen nicht abweichen.Bei den Psalmen Salomos handelt es sich um ein Corpus von 18 Psalmen, die traditionell Salomo zugeschrieben werden, tatsächlich aber vermutlich in der zweiten Hälfte des 1. Jh. v. Chr. in Jerusalem verfasst wurden. Die beiden erhaltenen Übersetzungen ins Griechische und Syrische gehen wahrscheinlich auf ein hebräisches Original zurück, das aber nicht erhalten ist. Zu den in den Psalmen Salomos behandelten Themen gehören die erste Einnahme Jerusalems durch die Römer, die Auferstehung der Toten und die Erwartung des Messias. (Vgl. Wright 2007: p. 1-13).</summary>
+            <msItem>
+              <title>Psalmen Salomos 18:10-12</title>
+              <author/>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">1. Jh. v. Chr.</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Robert B. Wright, The Psalms of Solomon. A Critical Edition of the Greek Text, London / New York 2007, S. 206.</bibl>
+              <bibl type="literatur">Wright, Robert B. (Hrsg.): Psalms of Solomon: a critical edition of the Greek text. Clark, New York, NY [u.a] 2007.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>10. Μέγας ἡμῶν ὁ θεὸς καὶ ἔνδοξος ἐν ὑψίστοις κατοικῶν∙ὁ διατάξας ἐν πορείᾳ φωστῆραςεἰς καιροὺς ὡρῶν ἀφ‘ ἡμερῶν εἰς ἡμέρας∙καὶ οὐ παρέβησαν ἀπὸ ὁδοῦ ἧς ἐνετείλω αὐτοῖς.11. ἐν φόβῳ θεοῦ ἡ ὁδος αὐτῶν καθ‘ ἑκάστην ἡμέραν∙ἀφ‘ ἧς ἡμέρας ἔκτισεν αὐτοὺς ὁ θεὸς καὶ ἔως αἰῶνος.12. καὶ οὐκ ἐπλανήθησαν ἀφ‘ ἧς ἡμέρας ἔκτισεν αὐτούς∙ἀπὸ γενεῶν ἀρχαίωνοὐκ ἀπέστησαν ὁδῶν αὐτῶν∙εἰ μὴ ὁ θεὸς ἐνετείλατο αὐτοῖςἐν ἐπιταγῇ δούλων αὐτοῦ.</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>10 Groß ist unser Gott und herrlich, er, der in der Höhe wohnt; der geordnet hat die Lichter des Himmels auf einer Bahn zu bestimmten Zeiten von Tag zu Tag, und sie wichen nicht ab von dem Weg, den du ihnen geboten. 11 In Gottesfurcht ist ihr Weg jeden Tag seit dem Tag, da Gott sie erschuf, und bis in Ewigkeit. 12 Und sie irrten nicht ab seit dem Tag, da er sie erschuf, seit uralten Geschlechtern wichen sie nicht ab von ihren Bahnen, es sei denn, daß Gott ihnen Befehl gab durch das Gebot seiner Knechte. 
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p>10. Our God is great and glorious living in the highest heavens,who arranged the sun and the moon into orbitsto mark the times of the hours from day to day.And they have not deviated from their course,that he appointed for them.11. Their course each day is in the fear of God,from the day God created them and until forever.12. And they have not wandered from the day he created them,from ancient generations.They have not veered off their courseexcept when God directed them by the command of his servants.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

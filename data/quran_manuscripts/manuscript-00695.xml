@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mysql_id_695">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paris, Bibliothèque nationale de France, Arabe 367 (i)</title>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <availability xml:id="imageRights-1" status="restricted" default="false">
+          <p>Image credits: gallica.bnf.fr / Bibliothèque nationale de France.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+            <repository key="3">Bibliothèque nationale de France
+                            , Paris</repository>
+            <idno>Arabe 367 (i)</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+                        Der Katalog der Pariser Koranhandschriften (Déroche 1983: p. 133) enthält folgende Angaben: "Arabe <hi rend="bold">367 i </hi>: ffo 62 et 63. Fo 62 : XXV, 29-49; fo 63 : XXVI, 216-XXVII, 16.<p>Copie anonyme et non datée. Graphie E I. Diacritiques absents ; vocalisation : points rouges. Ni les versets, ni les groupes de versets ne sont indiqués. En tête de la sourate XXVII ﬁgurent son titre et le nombre de ses versets a l’encre rouge (cf. fo 63 ro). Parchemin. 2 feuillets. Page : 112 X 161. 15 lignes. Encre brune. Surface d’écriture : 67 x 125."</p>
+                    </summary>
+            <msItem xml:id="mysql_id_680486" n="62r">
+              <title type="numeric" key="025:028:005-025:038:007">
+                                    025:028:005-025:038:007
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_680487" n="62v">
+              <title type="numeric" key="025:038:007-025:049:004">
+                                    025:038:007-025:049:004
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_680488" n="63r">
+              <title type="numeric" key="026:216:001-027:006:003">
+                                    026:216:001-027:006:003
+                                </title>
+            </msItem>
+            <msItem xml:id="mysql_id_680489" n="63v">
+              <title type="numeric" key="027:006:003-027:016:012">
+                                    027:006:003-027:016:012
+                                </title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc material="parchment">
+                <extent>Folios: 2
+                                    <dimensions unit="mm"><width>161</width><height>112</height></dimensions>
+                                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout writtenLines="15">15 - 15 lines to a page
+                                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote/>
+            </handDesc>
+            <scriptDesc>
+              <scriptNote>
+                                                                kūfī E.I
+                            </scriptNote>
+            </scriptDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>750-1000</origDate>
+            </origin>
+            <provenance>
+                            al-Fusṭāṭ
+                        </provenance>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <p>metadata: Michael Marx</p>
+              </recordHist>
+              <availability>
+                <p/>
+              </availability>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="62r" xml:id="mysql_id_33501">
+      <graphic decls="#imageRights-1" url="manuscript/695/18b0d4c7-b7a0-49f0-8634-71e3218e75b3/manuscript-695-page-33501-image-18230.jpg"/>
+    </surface>
+    <surface n="62v" xml:id="mysql_id_33502">
+      <graphic decls="#imageRights-1" url="manuscript/695/6472e449-f0d7-4e9f-926a-9ebc471ff8b4/manuscript-695-page-33502-image-18231.jpg"/>
+    </surface>
+    <surface n="63r" xml:id="mysql_id_33503">
+      <graphic decls="#imageRights-1" url="manuscript/695/7b34c999-6408-4f13-a355-e402ff8deb64/manuscript-695-page-33503-image-18232.jpg"/>
+    </surface>
+    <surface n="63v" xml:id="mysql_id_33504">
+      <graphic decls="#imageRights-1" url="manuscript/695/339106ef-10aa-46a4-973a-af3fc0ff626d/manuscript-695-page-33504-image-18233.jpg"/>
+    </surface>
+  </facsimile>
+</TEI>

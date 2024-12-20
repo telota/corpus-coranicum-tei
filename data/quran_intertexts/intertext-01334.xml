@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ezechiel 8:1-18</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_1334" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>1334</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Interpretation von Q 17:1 ist in der Forschung umstritten; der Vers 
+wird sowohl als Anspielung auf eine Himmelsreise Muḥammads (Schrieke 1916, Horovitz 1919)
+ als auch auf eine visionäre Entrückung nach Jerusalem (Paret 1967, Neuwirth 2003, Rubin 2008) gedeutet (Vgl. dazu auch Bell 1934, van Ess 1999). Falls sich Q 17:1 tatsächlich auf Jerusalem beziehen sollte, 
+ließe sich dazu, wie bereits Theodor Nöldeke festgestellt hat, eine Parallele im hier zitierten Ausschnitt aus Ezechiel finden. Dort wird geschildert, wie Ezechiel in einer Vision nach Jerusalem entrückt wird. Später findet sich das Motiv der visionären Reise nach Jerusalem auch in der apokalyptischen Literatur (Rubin 2008: p. 152), so z.B. im Henochbuch (vgl. TUK_1325). Dies soll aber nicht heißen, daß Q 17:1 direkt auf einen der beiden genannten Texte anspielt. Vielmehr bezeugen Ezechiel 8 und Hen 26-27 die Verbreitung der Vorstellung von Jerusalem als Ziel einer visionären Entrückung. Wie Rubin 2008: p. 153 feststellt, reist Muḥammad damit nicht nur an die Wirkungsstätte der 
+vorhergehenden Propheten, sondern reiht sich auch durch ähnliche 
+visionäre Erfahrungen in deren Gemeinschaft ein. Zur Bedeutung Jerusalems siehe auch TUK_1329.</summary>
+            <msItem>
+              <title>Ezechiel 8:1-18</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">5. Jh. v. Chr. oder früher</origDate>
+              <origPlace>Palästina, Mesopotamien</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Bell, Richard: &amp;#x201E;Muhammad&amp;#x2BC;s visions&amp;#x201C;. In: The Muslim World 24 (1934), S. 145&amp;#x2013;154.</bibl>
+              <bibl type="literatur">Horovitz, Josef: &amp;#x201E;Muhammads Himmelfahrt&amp;#x201C;. In: Der Islam 9 (1919), S. 159&amp;#x2013;183.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika: &amp;#x201E;From the Sacred Mosque to the Remote Temple: S&amp;#x16B;rat al-Isr&amp;#x101;&amp;#x2BC; between Text and Commentary&amp;#x201C;. In: With Reverence for the Word: Medieval Scriptural Exegesis in Judaism, Christianity and Islam. Oxford Univ. Press, Oxford [u.a] 2003, S. 376&amp;#x2013;407.</bibl>
+              <bibl type="literatur">Paret, Rudi: &amp;#x201E;Die Bedeutung von an-Na&amp;#x1E7;m in Sure 55,6&amp;#x201C;. In: Der Orient in der Forschung: Festschrift f&amp;#xFC;r Otto Spies. Harrassowitz, Wiesbaden 1967, S. 512&amp;#x2013;513.</bibl>
+              <bibl type="literatur">Rubin, Uri: &amp;#x201E;Mu&amp;#x1E25;ammad&amp;#x2019;s Night Journey (isr&amp;#x101;&amp;#x2BE;) to al-Masjid al-Aq&amp;#x1E63;&amp;#x101;. Aspects of the Earliest Origins of the Islamic Sanctity of Jerusalem&amp;#x201C;. In: al-Qan&amp;#x1E6D;ara 29,1 (2008),.</bibl>
+              <bibl type="literatur">Schrieke, Bertram: &amp;#x201E;Die Himmelsreise Mohammeds&amp;#x201C;. In: Der Islam 6 (1916), S. 1&amp;#x2013;30.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p>וַיְהִ֣י׀ בַּשָּׁנָ֣ה הַשִּׁשִּׁ֗ית בַּשִּׁשִּׁי֙ בַּחֲמִשָּׁ֣ה לַחֹ֔דֶשׁ אֲנִי֙ יֹושֵׁ֣ב בְּבֵיתִ֔י וְזִקְנֵ֥י יְהוּדָ֖ה יֹושְׁבִ֣ים לְפָנָ֑י וַתִּפֹּ֤ל עָלַי֙ שָׁ֔ם יַ֖ד אֲדֹנָ֥י יְהֹוִֽה׃ 2 וָאֶרְאֶ֗ה וְהִנֵּ֤ה דְמוּת֙ כְּמַרְאֵה־אֵ֔שׁ מִמַּרְאֵ֥ה מָתְנָ֛יו וּלְמַ֖טָּה אֵ֑שׁ וּמִמָּתְנָ֣יו וּלְמַ֔עְלָה כְּמַרְאֵה־זֹ֖הַר כְּעֵ֥ין הַחַשְׁמַֽלָה׃3 וַיִּשְׁלַח֙ תַּבְנִ֣ית יָ֔ד וַיִּקָּחֵ֖נִי בְּצִיצִ֣ת רֹאשִׁ֑י וַתִּשָּׂ֣א אֹתִ֣י ר֣וּחַ׀ בֵּֽין־הָאָ֣רֶץ וּבֵ֣ין הַשָּׁמַ֡יִם וַתָּבֵא֩ אֹתִ֨י יְרוּשָׁלְַ֜מָה בְּמַרְאֹ֣ות אֱלֹהִ֗ים אֶל־פֶּ֜תַח שַׁ֤עַר הַפְּנִימִית֙ הַפֹּונֶ֣ה צָפֹ֔ונָה אֲשֶׁר־שָׁ֣ם מֹושַׁ֔ב סֵ֖מֶל הַקִּנְאָ֥ה הַמַּקְנֶֽה׃4 וְהִ֨נֵּה־שָׁ֔ם כְּבֹ֖וד אֱלֹהֵ֣י יִשְׂרָאֵ֑ל כַּמַּרְאֶ֕ה אֲשֶׁ֥ר רָאִ֖יתִי בַּבִּקְעָֽה׃5 וַיֹּ֣אמֶר אֵלַ֔י בֶּן־אָדָ֕ם שָׂא־נָ֥א עֵינֶ֖יךָ דֶּ֣רֶךְ צָפֹ֑ונָה וָאֶשָּׂ֤א עֵינַי֙ דֶּ֣רֶךְ צָפֹ֔ונָה וְהִנֵּ֤ה מִצָּפֹון֙ לְשַׁ֣עַר הַמִּזְבֵּ֔חַ סֵ֛מֶל הַקִּנְאָ֥ה הַזֶּ֖ה בַּבִּאָֽה׃6 וַיֹּ֣אמֶר אֵלַ֔י בֶּן־אָדָ֕ם הֲרֹאֶ֥ה אַתָּ֖ה מֵהֵם עֹשִׂ֑ים תֹּועֵבֹ֨ות גְּדֹלֹ֜ות אֲשֶׁ֥ר בֵּֽית־יִשְׂרָאֵ֣ל׀ עֹשִׂ֣ים פֹּ֗ה לְרָֽחֳקָה֙ מֵעַ֣ל מִקְדָּשִׁ֔י וְעֹוד֙ תָּשׁ֣וּב תִּרְאֶ֔ה תֹּועֵבֹ֖ות גְּדֹלֹֽות׃ ס7 וַיָּבֵ֥א אֹתִ֖י אֶל־פֶּ֣תַח הֶֽחָצֵ֑ר וָאֶרְאֶ֕ה וְהִנֵּ֥ה חֹר־אֶחָ֖ד בַּקִּֽיר׃8 וַיֹּ֣אמֶר אֵלַ֔י בֶּן־אָדָ֖ם חֲתָר־נָ֣א בַקִּ֑יר וָאֶחְתֹּ֣ר בַּקִּ֔יר וְהִנֵּ֖ה פֶּ֥תַח אֶחָֽד׃9 וַיֹּ֖אמֶר אֵלָ֑י בֹּ֤א וּרְאֵה֙ אֶת־הַתֹּועֵבֹ֣ות הָרָעֹ֔ות אֲשֶׁ֛ר הֵ֥ם עֹשִׂ֖ים פֹּֽה׃10 וָאָבֹוא֮ וָֽאֶרְאֶה֒ וְהִנֵּ֨ה כָל־תַּבְנִ֜ית רֶ֤מֶשׂ וּבְהֵמָה֙ שֶׁ֔קֶץ וְכָל־גִּלּוּלֵ֖י בֵּ֣ית יִשְׂרָאֵ֑ל מְחֻקֶּ֥ה עַל־הַקִּ֖יר סָבִ֥יב׀ סָבִֽיב׃11 וְשִׁבְעִ֣ים אִ֣ישׁ מִזִּקְנֵ֣י בֵֽית־יִ֠שְׂרָאֵל וְיַאֲזַנְיָ֨הוּ בֶן־שָׁפָ֜ן עֹמֵ֤ד בְּתֹוכָם֙ עֹמְדִ֣ים לִפְנֵיהֶ֔ם וְאִ֥ישׁ מִקְטַרְתֹּ֖ו בְּיָדֹ֑ו וַעֲתַ֥ר עֲנַֽן־הַקְּטֹ֖רֶת עֹלֶֽה׃12 וַיֹּ֣אמֶר אֵלַי֮ הֲרָאִ֣יתָ בֶן־אָדָם֒ אֲשֶׁ֨ר זִקְנֵ֤י בֵֽית־יִשְׂרָאֵל֙ עֹשִׂ֣ים בַּחֹ֔שֶׁךְ אִ֖ישׁ בְּחַדְרֵ֣י מַשְׂכִּיתֹ֑ו כִּ֣י אֹמְרִ֗ים אֵ֤ין יְהוָה֙ רֹאֶ֣ה אֹתָ֔נוּ עָזַ֥ב יְהוָ֖ה אֶת־הָאָֽרֶץ׃13וַיֹּ֖אמֶר אֵלָ֑י עֹ֣וד תָּשׁ֥וּב תִּרְאֶ֛ה תֹּועֵבֹ֥ות גְּדֹלֹ֖ות אֲשֶׁר־הֵ֥מָּה עֹשִֽׂים׃14 וַיָּבֵ֣א אֹתִ֗י אֶל־פֶּ֨תַח֙ שַׁ֣עַר בֵּית־יְהוָ֔ה אֲשֶׁ֖ר אֶל־הַצָּפֹ֑ונָה וְהִנֵּה־שָׁם֙ הַנָּשִׁ֣ים יֹֽשְׁבֹ֔ות מְבַכֹּ֖ות אֶת־הַתַּמּֽוּז׃ ס15 וַיֹּ֥אמֶר אֵלַ֖י הֲרָאִ֣יתָ בֶן־אָדָ֑ם עֹ֣וד תָּשׁ֥וּב תִּרְאֶ֛ה תֹּועֵבֹ֥ות גְּדֹלֹ֖ות מֵאֵֽלֶּה׃16 וַיָּבֵ֣א אֹתִ֗י אֶל־חֲצַ֣ר בֵּית־יְהוָה֮ הַפְּנִימִית֒ וְהִנֵּה־פֶ֜תַח הֵיכַ֣ל יְהוָ֗ה בֵּ֤ין הָֽאוּלָם֙ וּבֵ֣ין הַמִּזְבֵּ֔חַ כְּעֶשְׂרִ֥ים וַחֲמִשָּׁ֖ה אִ֑ישׁ אֲחֹ֨רֵיהֶ֜ם אֶל־הֵיכַ֤ל יְהוָה֙ וּפְנֵיהֶ֣ם קֵ֔דְמָה וְהֵ֛מָּה מִשְׁתַּחֲוִיתֶ֥ם קֵ֖דְמָה לַשָּֽׁמֶשׁ׃17 וַיֹּ֣אמֶר אֵלַי֮ הֲרָאִ֣יתָ בֶן־אָדָם֒ הֲנָקֵל֙ לְבֵ֣ית יְהוּדָ֔ה מֵעֲשֹׂ֕ות אֶת־הַתֹּועֵבֹ֖ות אֲשֶׁ֣ר עָֽשׂוּ־פֹ֑ה כִּֽי־מָלְא֨וּ אֶת־הָאָ֜רֶץ חָמָ֗ס וַיָּשֻׁ֨בוּ֙ לְהַכְעִיסֵ֔נִי וְהִנָּ֛ם שֹׁלְחִ֥ים אֶת־הַזְּמֹורָ֖ה אֶל־אַפָּֽם׃18 וְגַם־אֲנִי֙ אֶעֱשֶׂ֣ה בְחֵמָ֔ה לֹֽא־תָחֹ֥וס עֵינִ֖י וְלֹ֣א אֶחְמֹ֑ל וְקָרְא֤וּ בְאָזְנַי֙ קֹ֣ול גָּדֹ֔ול וְלֹ֥א אֶשְׁמַ֖ע אֹותָֽם׃</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>1 Am fünften Tag des sechsten Monats im sechsten Jahr saß ich in meinem Haus und die Ältesten von Juda saßen vor mir. Da legte sich die Hand Gottes, des Herrn, auf mich. 2 Und ich sah eine Gestalt, die wie ein Mann aussah. Unterhalb von dem, was wie seine Hüften aussah, war Feuer und oberhalb von seinen Hüften schien etwas zu leuchten, wie glänzendes Gold. 3 Er streckte etwas aus, das wie eine Hand aussah, und packte mich an meinen Haaren. Und der Geist hob mich empor zwischen Erde und Himmel und brachte mich in einer göttlichen Vision nach Jerusalem, an den Eingang des inneren Nordtors, dorthin, wo das Bild steht, das die Eifersucht (des Herrn) erregt. 4 Dort sah ich die Herrlichkeit des Gottes Israels, wie in der Vision, die ich in der Ebene gesehen hatte. 5 Er sagte zu mir: Menschensohn, richte deinen Blick nach Norden! Ich blickte nach Norden; da sah ich nördlich des Tores, beim Eingang, den Altar mit jenem Bild, das die Eifersucht (des Herrn) erregt. 6 Er sagte zu mir: Menschensohn, siehst du, was man hier treibt? Es sind große Gräueltaten, die das Haus Israel hier begeht; sie bleiben meinem Heiligtum fern. Aber du wirst noch größere Gräueltaten sehen. 7 Dann brachte er mich zum Eingang des Vorhofs. Ich sah: Ein Loch war in der Wand. 8 Er sagte zu mir: Menschensohn, durchbrich die Wand! Ich durchbrach die Wand - da war ein Eingang. 9 Er sagte zu mir: Geh hinein, sieh dir die schlimmen Gräueltaten an, die man dort begeht. 10 Ich ging hinein und sah: viele Bilder von abscheulichen kleinen und großen Tieren und allen Götzen des Hauses Israel; sie waren ringsum in die Wand eingeritzt. 11 Siebzig Männer von den Ältesten des Hauses Israel, darunter auch Jaasanja, der Sohn Schafans, standen davor. Jeder hatte seine Räucherpfanne in der Hand und der Duft der Weihrauchwolken stieg empor. 12 Er sagte zu mir: Hast du gesehen, Menschensohn, was die Ältesten des Hauses Israel im Finstern treiben, jeder in der Kammer seines Götterbildes? Sie denken: Der Herr sieht uns nicht; der Herr hat das Land verlassen. 13 Er sagte zu mir: Du wirst sehen, dass sie noch größere Gräueltaten begehen. 14 Dann brachte er mich zum Nordtor am Haus des Herrn. Dort saßen Frauen, die Tammus beweinten. 15 Er sagte zu mir: Hast du es gesehen, Menschensohn? Aber du wirst noch größere Gräueltaten sehen. 16 Dann brachte er mich zum Innenhof des Hauses des Herrn. Am Eingang zum Tempel des Herrn, zwischen Vorhalle und Altar, standen etwa fünfundzwanzig Männer, mit dem Rücken zum Tempel des Herrn, mit dem Gesicht nach Osten. Sie beteten, nach Osten gewandt, die Sonne an. 17 Er sagte zu mir: Hast du es gesehen, Menschensohn? Waren dem Haus Juda die Gräueltaten, die es hier beging, immer noch nicht genug? Mussten sie auch noch das Land mit ihrer Gewalttätigkeit anfüllen, mussten sie mich immer wieder beleidigen und sich den Zweig an die Nase halten? 18 Darum werde auch ich voll Zorn handeln. Mein Auge wird kein Mitleid zeigen und ich werde keine Schonung üben. Auch wenn sie mir laut in die Ohren schreien, werde ich sie nicht hören. </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

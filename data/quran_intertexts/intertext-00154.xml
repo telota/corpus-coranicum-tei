@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1. Brief an die Korinther 3:1-17</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_154" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>154</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+	Vor dem Hintergrund der Nähe von Q 53:38 zu einer Aussage aus dem Galaterbrief (vgl. TUK_0153) könnte man mit Gibb auch die Verse 39-41 auf einen paulinischen Text, nämlich auf 1 Korinther 3:13.14, beziehen, obwohl die sprachliche Nähe hier weniger offenkundig ist. Immerhin lassen sich die arabischen Wendungen mā saʿā bzw.saʿy (Verse 39 und 40) als Übertragungen des in der paulinischen Argumentation zentralen Begriffs des "Werks" (ergon) verstehen, während arab. ǧazāʾ (Vers 41) dem von Paulus verheißenen "Lohn" (misthos) entspricht. Ein neutestamentlicher Bezug erscheint auch deshalb nicht abwegig, da die gesamte Passage in den Versen 36 und 37 als Zusammenfassung der Hauptlehren der "Schriften Mosis und Abrahams" angekündigt wird (s. Kommentar).
+</summary>
+            <msItem>
+              <title>1. Brief an die Korinther 3:1-17</title>
+              <author>Paulus</author>
+              <textLang mainLang="ell">Griechisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">ca. 55 n. Chr.</origDate>
+              <origPlace>Ephesus</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Novum Testamentum Graece, hg. von Barbara und Kurt Aland (Nestle-Aland), 27. Auflage, Münster 1993.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Nicolai Sinai</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="ell">
+        <p>
+	1 Kἀγώ, ἀδελφοί, οὐκ ἠδυνήθην λαλῆσαι ὑμῖν ὡς πνευματικοῖς ἀλλ᾽ὡς σαρκίνοις, ὡς νηπίοις ἐν Χριστῷ. 2 γάλα ὑμᾶς ἐπότισα, οὐ βρῶμα• οὔπω γὰρ ἐδύνασθε. ἀλλ᾽οὐδὲ ἔτι νῦν δύνασθε, 3 ἔτι γὰρ σαρκικοί ἐστε. ὅπου γὰρ ἐν ὑμῖν ζῆλος καὶ ἔρις, οὐχὶ σαρκικοί ἐστε καὶ κατὰ ἄνθρωπον περιπατεῖτε; 4 ὅταν γὰρ λέγῃ τις• ἐγὼ μέν εἰμι Παύλου, ἕτερος δέ• ἐγὼ Ἀπολλῶ, οὐκ ἄνθρωποί ἐστε; 5 Τί οὖν ἐστιν Ἀπολλῶς; τί δέ ἐστιν Παῦλος; διάκονοι δι᾽ὧν ἐπιστεύσατε, καὶ ἑκάστῳ ὡς ὁ κύριος ἔδωκεν. 6 ἐγὼ ἐφύτευσα, Ἀπολλῶς ἐπότισεν, ἀλλὰ ὁ θεὸς ηὔξανεν• 7 ὥστε οὔτε ὁ φυτεύων ἐστίν τι οὔτε ὁ ποτίζων ἀλλ᾽ὁ αὐξάνων θεός. 8 ὁ φυτεύων δὲ καὶ ὁ ποτίζων ἕν εἰσιν, ἕκαστος δὲ τὸν ἴδιον μισθὸν λήμψεται κατὰ τὸν ἴδιον κόπον• 9 θεοῦ γάρ ἐσμεν συνεργοί, θεοῦ γεώργιον, θεοῦ οἰκοδομή ἐστε. 10 Κατὰ τὴν χάριν τοῦ θεοῦ τὴν δοθεῖσάν μοι ὡς σοφὸς ἀρχιτέκτων θεμέλιον ἔθηκα, ἄλλος δὲ ἐποικοδομεῖ. ἕκαστος δὲ βλεπέτω πῶς ἐποικοδομεῖ. 11 θεμέλιον γὰρ ἄλλον οὐδεὶς δύναται θεῖναι παρὰ τὸν κείμενον, ὅς ἐστιν Ἰησοῦς Χριστός. 12 εἰ δέ τις ἐποικοδομεῖ ἐπὶ τὸν θεμέλιον χρυσόν, ἄργυρον, λίθους τιμίους, ξύλα, χόρτον, καλάμην,  13 ἑκάστου τὸ ἔργον φανερὸν γενήσεται, ἡ γὰρ ἡμέρα δηλώσει, ὅτι ἐν πυρὶ ἀποκαλύπτεται• καὶ ἑκάστου τὸ ἔργον ὁποῖόν ἐστιν τὸ πῦρ [αὐτὸ] δοκιμάσει. 14 εἴ τινος τὸ ἔργον μενεῖ ὃ ἐποικοδόμησεν, μισθὸν λήμψεται• 15 εἴ τινος τὸ ἔργον κατακαήσεται, ζημιωθήσεται, αὐτὸς δὲ σωθήσεται, οὕτως δὲ ὡς διὰ πυρός. 16 Οὐκ οἴδατε ὅτι ναὸς θεοῦ ἐστε καὶ τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν; 17 εἴ τις τὸν ναὸν τοῦ θεοῦ φθείρει, φθερεῖ τοῦτον ὁ θεός• ὁ γὰρ ναὸς τοῦ θεοῦ ἅγιός ἐστιν, οἵτινές ἐστε ὑμεῖς.
+</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p>
+	1 Vor euch, Brüder, konnte ich aber nicht wie vor Geisterfüllten reden; ihr wart noch irdisch eingestellt, unmündige Kinder in Christus. 2 Milch gab ich euch zu trinken statt fester Speise; denn diese konntet ihr noch nicht vertragen. Ihr könnt es aber auch jetzt noch nicht; 3 denn ihr seid immer noch irdisch eingestellt. Oder seid ihr nicht irdisch eingestellt, handelt ihr nicht sehr menschlich, wenn Eifersucht und Streit unter euch herrschen? 4 Denn wenn einer sagt: Ich halte zu Paulus!, ein anderer: Ich zu Apollos!, seid ihr da nicht Menschen? 5 Was ist denn Apollos? Und was ist Paulus? Ihr seid durch sie zum Glauben gekommen. Sie sind also Diener, jeder, wie der Herr es ihm gegeben hat: 6 Ich habe gepflanzt, Apollos hat begossen, Gott aber ließ wachsen. 7 So ist weder der etwas, der pflanzt, noch der, der begießt, sondern nur Gott, der wachsen lässt. 8 Wer pflanzt und wer begießt: Beide arbeiten am gleichen Werk, jeder aber erhält seinen besonderen Lohn, je nach der Mühe, die er aufgewendet hat. 9 Denn wir sind Gottes Mitarbeiter; ihr seid Gottes Ackerfeld, Gottes Bau. 10 Der Gnade Gottes entsprechend, die mir geschenkt wurde, habe ich wie ein guter Baumeister den Grund gelegt; ein anderer baut darauf weiter. Aber jeder soll darauf achten, wie er weiterbaut. 11 Denn einen anderen Grund kann niemand legen als den, der gelegt ist: Jesus Christus. 12 Ob aber jemand auf dem Grund mit Gold, Silber, kostbaren Steinen, mit Holz, Heu oder Stroh weiterbaut: 13 das Werk eines jeden wird offenbar werden; jener Tag wird es sichtbar machen, weil es im Feuer offenbart wird. Das Feuer wird prüfen, was das Werk eines jeden taugt. 14 Hält das stand, was er aufgebaut hat, so empfängt er Lohn. 15 Brennt es nieder, dann muss er den Verlust tragen. Er selbst aber wird gerettet werden, doch so wie durch Feuer hindurch. 16 Wisst ihr nicht, dass ihr Gottes Tempel seid und der Geist Gottes in euch wohnt? 17 Wer den Tempel Gottes verdirbt, den wird Gott verderben. Denn Gottes Tempel ist heilig, und der seid ihr.
+</p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/corpus_coranicum.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tuk_doi">
+  <!--add the DOI here!-->
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Psalm 4:1-9</title>
+        <title/>
+        <funder>Corpus Coranicum (BBAW)</funder>
+        <respStmt>
+          <persName key="person_39907760" ref="http://viaf.org/viaf/39907760" role="edt">Michael Marx</persName>
+          <persName role="ctb">Tobias J. Jocham</persName>
+          <persName role="ctb">Yasmin Faghihi</persName>
+          <persName role="ctb">Huw Jones</persName>
+          <resp>Edited by Michael Marx in collaboration with Tobias J. Jocham
+        et. al. TEI version created by Yasmin Faghihi
+        and Huw Jones
+    </resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Corpus Coranicum</publisher>
+        <date calendar="#Gregorian">19-12-2024</date>
+        <pubPlace>
+          <address>
+            <orgName>Berlin-Brandenburgische Akademie der Wissenschaften</orgName>
+            <street>Jägerstraße 22/23</street>
+            <postCode>10117</postCode>
+            <addrLine>
+              <ref target="https://corpuscoranicum.de/">Corpus Coranicum</ref>
+            </addrLine>
+            <addrLine>
+              <email>corpuscoranicum@bbaw.de</email>
+            </addrLine>
+            <settlement type="city">Berlin</settlement>
+            <country key="de">Germany</country>
+          </address>
+        </pubPlace>
+        <idno type="tuk_DOI">askxxx</idno>
+        <!--the DOI could be repeated here-->
+        <idno type="instID">askxxx</idno>
+        <!--CCint.institutional ID-->
+        <idno type="CCTUKID"/>
+        <!--CCint.msID-->
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="tuk_623" xml:lang="en">
+          <msIdentifier>
+            <repository>Corpus Coranicum</repository>
+            <idno>623</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Die Aufforderung in Q 108:2 (fa-ṣalli li-rabbika wa-nḥar; "So bete zu deinem Herrn und opfere") erinnert an Ps 4:6 (זִבְחוּ זִבְחֵי־צֶדֶק וּבִטְחוּ אֶל־יְהוָה "Bringt rechte Opfer dar, und vertraut auf den Herrn") (Neuwirth 2011: p. 108). Darüber hinaus enthält Q 108 noch weitere psalmische Referenzen (vgl. Kommentar zu Sure 108).</summary>
+            <msItem>
+              <title>Psalm 4:1-9</title>
+              <author/>
+              <textLang mainLang="heb">Hebräisch</textLang>
+            </msItem>
+          </msContents>
+          <physDesc> </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="gregorian">vor 2. Jh. v. Chr. (Endredaktion des Psalters)</origDate>
+              <origPlace>Palästina</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <adminInfo>
+              <recordHist>
+                <source>
+                  <p>The editors and contributions to Corpus Coranicum.</p>
+                </source>
+              </recordHist>
+            </adminInfo>
+            <listBibl>
+              <bibl type="edition">Biblia Hebraica Stuttgartensia, hg. von K. Elliger and W. Rudolph, 4. verbesserte Auflage, Stuttgart 1990.</bibl>
+              <bibl type="literatur">Neuwirth, Angelika. Der Koran&amp;#x202F;: Handkommentar Mit &amp;#xDC;bersetzung von Angelika Neuwirth. Fr&amp;#xFC;hmekkanische Suren: Poetische Prophetie. Berlin: Verlag der Weltreligionen, 2011.</bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Created as part of
+            <name type="project">Corpus Coranicum Project</name>
+        </p>
+      </projectDesc>
+      <classDecl>
+        <taxonomy xml:id="variantsreader">
+          <bibl>Variants Readers</bibl>
+        </taxonomy>
+        <taxonomy xml:id="variantssource">
+          <bibl>Variants Sources</bibl>
+        </taxonomy>
+        <taxonomy xml:id="tuk.cat">
+          <bibl>TUK Categories</bibl>
+        </taxonomy>
+        <taxonomy xml:id="geoname">
+          <bibl>
+            <ref target="https://www.geonames.org/">Geonames</ref>
+          </bibl>
+        </taxonomy>
+        <taxonomy xml:id="local">
+          <bibl>'Sigle' is a unique id assigned by Michael Marx to a specific reader in the reading
+                variants.
+            </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change type="TEI_record_creater">
+        <persName role="dtc">Yasmin Faghihi</persName>
+      </change>
+      <change type="transliteration">
+        <persName key="" role="trc">Veronika Roth</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="transcription" xml:lang="heb">
+        <p> לַמְנַצֵּחַ בִּנְגִינוֹת מִזְמוֹר לְדָוִד  :   בְּקָרְאִי עֲנֵנִי אֱלֹהֵי צִדְקִי בַּצָּר הִרְחַבְתָּ לִּי חָנֵּנִי וּשְׁמַע תְּפִלָּתִי :   בְּנֵי אִישׁ עַד־מֶה כְבוֹדִי לִכְלִמָּה תֶּאֱהָבוּן רִיק תְּבַקְשׁוּ כָזָב סֶלָה :   וּדְעוּ כִּי־הִפְלָה יְהוָה חָסִיד לוֹ יְהוָה יִשְׁמַע בְּקָרְאִי אֵלָיו :   רִגְזוּ וְאַל־תֶּחֱטָאוּ אִמְרוּ בִלְבַבְכֶם עַל־מִשְׁכַּבְכֶם וְדֹמּוּ סֶלָה :    זִבְחוּ זִבְחֵי־צֶדֶק וּבִטְחוּ אֶל־יְהוָה :   רַבִּים אֹמְרִים מִי־יַרְאֵנוּ טוֹב נְסָה־עָלֵינוּ אוֹר פָּנֶיךָ יְהוָה :   נָתַתָּה שִׂמְחָה בְלִבִּי מֵעֵת דְּגָנָם וְתִירוֹשָׁם רָבּוּ :   בְּשָׁלוֹם יַחְדָּו אֶשְׁכְּבָה וְאִישָׁן כִּי־אַתָּה יְהוָה לְבָדָד לָבֶטַח תּוֹשִׁיבֵנִי :</p>
+      </div>
+      <div type="translation" xml:lang="deu">
+        <p> [Für den Chormeister. Mit Saitenspiel. Ein Psalm Davids.]  2 Wenn ich rufe, erhöre mich, Gott, du mein Retter! Du hast mir Raum geschaffen, als mir angst war. Sei mir gnädig, und hör auf mein Flehen!  3 Ihr Mächtigen, wie lange noch schmäht ihr meine Ehre, warum liebt ihr den Schein und sinnt auf Lügen? [Sela]  4 Erkennt doch: Wunderbar handelt der Herr an den Frommen; der Herr erhört mich, wenn ich zu ihm rufe.  5 Ereifert ihr euch, so sündigt nicht! Bedenkt es auf eurem Lager, und werdet still'! [Sela]  6 Bringt rechte Opfer dar, und vertraut auf den Herrn!  7 Viele sagen: "Wer läßt uns Gutes erleben?" Herr, laß dein Angesicht über uns leuchten!  8 Du legst mir größere Freude ins Herz, als andere haben bei Korn und Wein in Fülle.  9 In Frieden leg' ich mich nieder und schlafe ein; denn du allein, Herr, läßt mich sorglos ruhen.   </p>
+      </div>
+      <div type="translation" xml:lang="eng">
+        <p/>
+      </div>
+    </body>
+  </text>
+</TEI>
